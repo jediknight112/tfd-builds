@@ -1,5 +1,5 @@
 // API Configuration
-export const API_BASE_URL = 'https://tfd-cache.jeffistotallyawesome.space';
+export const API_BASE_URL = 'https://tfd-cache.jediknight112.com';
 export const LANGUAGE_CODE = 'en';
 
 // Get API keys from environment or localStorage
