@@ -1,0 +1,112 @@
+[
+  {
+    "arche_tuning_board_group_id": "101300001",
+    "descendant_group_id": "101200001",
+    "arche_tuning_board_id": "101400101"
+  },
+  {
+    "arche_tuning_board_group_id": "101300002",
+    "descendant_group_id": "101200002",
+    "arche_tuning_board_id": "101400201"
+  },
+  {
+    "arche_tuning_board_group_id": "101300003",
+    "descendant_group_id": "101200003",
+    "arche_tuning_board_id": "101400301"
+  },
+  {
+    "arche_tuning_board_group_id": "101300004",
+    "descendant_group_id": "101200005",
+    "arche_tuning_board_id": "101400401"
+  },
+  {
+    "arche_tuning_board_group_id": "101300005",
+    "descendant_group_id": "101200006",
+    "arche_tuning_board_id": "101400501"
+  },
+  {
+    "arche_tuning_board_group_id": "101300006",
+    "descendant_group_id": "101200008",
+    "arche_tuning_board_id": "101400601"
+  },
+  {
+    "arche_tuning_board_group_id": "101300007",
+    "descendant_group_id": "101200009",
+    "arche_tuning_board_id": "101400701"
+  },
+  {
+    "arche_tuning_board_group_id": "101300008",
+    "descendant_group_id": "101200011",
+    "arche_tuning_board_id": "101400801"
+  },
+  {
+    "arche_tuning_board_group_id": "101300009",
+    "descendant_group_id": "101200012",
+    "arche_tuning_board_id": "101400901"
+  },
+  {
+    "arche_tuning_board_group_id": "101300010",
+    "descendant_group_id": "101200013",
+    "arche_tuning_board_id": "101401001"
+  },
+  {
+    "arche_tuning_board_group_id": "101300011",
+    "descendant_group_id": "101200014",
+    "arche_tuning_board_id": "101401101"
+  },
+  {
+    "arche_tuning_board_group_id": "101300012",
+    "descendant_group_id": "101200015",
+    "arche_tuning_board_id": "101401201"
+  },
+  {
+    "arche_tuning_board_group_id": "101300013",
+    "descendant_group_id": "101200016",
+    "arche_tuning_board_id": "101401301"
+  },
+  {
+    "arche_tuning_board_group_id": "101300014",
+    "descendant_group_id": "101200017",
+    "arche_tuning_board_id": "101401401"
+  },
+  {
+    "arche_tuning_board_group_id": "101300015",
+    "descendant_group_id": "101200018",
+    "arche_tuning_board_id": "101401501"
+  },
+  {
+    "arche_tuning_board_group_id": "101300016",
+    "descendant_group_id": "101200021",
+    "arche_tuning_board_id": "101401601"
+  },
+  {
+    "arche_tuning_board_group_id": "101300017",
+    "descendant_group_id": "101200024",
+    "arche_tuning_board_id": "101401701"
+  },
+  {
+    "arche_tuning_board_group_id": "101300018",
+    "descendant_group_id": "101200026",
+    "arche_tuning_board_id": "101401801"
+  },
+  {
+    "arche_tuning_board_group_id": "101300019",
+    "descendant_group_id": "101200027",
+    "arche_tuning_board_id": "101401901"
+  },
+  {
+    "arche_tuning_board_group_id": "101300020",
+    "descendant_group_id": "101200029",
+    "arche_tuning_board_id": "101402001"
+  },
+  {
+    "arche_tuning_board_group_id": "101300021",
+    "descendant_group_id": "101200031",
+    "arche_tuning_board_id": "101402101"
+  },
+  {
+    "arche_tuning_board_group_id": "101300022",
+    "descendant_group_id": "101200032",
+    "arche_tuning_board_id": "101402201"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "ouid": "string",
+  "descendant_group_id": "string",
+  "arche_tuning_board_group_id": "string",
+  "arche_tuning": [
+    {
+      "slot_id": "string",
+      "arche_tuning_board": [
+        {
+          "arche_tuning_board_id": "string",
+          "node": [
+            {
+              "node_id": "string",
+              "position_row": "string",
+              "position_column": "string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+import { API_BASE_URL, LANGUAGE_CODE } from './config.js';
+import { state } from './state.js';
+
+// API Client for TFD Cache
+class TFDApiClient {
+  constructor() {
+    this.baseUrl = API_BASE_URL;
+    this.language = LANGUAGE_CODE;
+  }
+
+  async fetchMetadata(type) {
+    try {
+      const url = `${this.baseUrl}/tfd/metadata/${type}?language_code=${this.language}`;
+      const { workerApiKey, nexonApiKey } = state.apiKeys;
+      
+      console.log(`Fetching ${type} from:`, url);
+      
+      if (!workerApiKey || !nexonApiKey) {
+        throw new Error('API keys are not set. Please configure in settings.');
+      }
+
+      const response = await fetch(url, {
+        headers: {
+          'x-worker-api-key': workerApiKey,
+          'x-nxopen-api-key': nexonApiKey
+        }
+      });
+
+      if (!response.ok) {
+        console.error(`Failed to fetch ${type}:`, response.status, response.statusText);
+        if (response.status === 401) {
+          throw new Error('Authentication failed. Please configure your API keys.');
+        }
+        throw new Error(`Failed to fetch ${type}: ${response.status} ${response.statusText}`);
+      }
+
+      const data = await response.json();
+      console.log(`${type} loaded:`, data?.length || 'N/A', 'items');
+      return data;
+    } catch (error) {
+      console.error(`Error in fetchMetadata(${type}):`, error);
+      throw error;
+    }
+  }
+
+  async fetchDescendants() {
+    return this.fetchMetadata('descendant');
+  }
+
+  async fetchModules() {
+    return this.fetchMetadata('module');
+  }
+
+  async fetchWeapons() {
+    return this.fetchMetadata('weapon');
+  }
+
+  async fetchReactors() {
+    return this.fetchMetadata('reactor');
+  }
+
+  async fetchExternalComponents() {
+    return this.fetchMetadata('external-component');
+  }
+
+  async fetchFellows() {
+    return this.fetchMetadata('fellow');
+  }
+
+  async fetchVehicles() {
+    return this.fetchMetadata('vehicle');
+  }
+
+  async fetchArcheTuningNodes() {
+    return this.fetchMetadata('arche-tuning-node');
+  }
+
+  async fetchWeaponTypes() {
+    return this.fetchMetadata('weapon-type');
+  }
+
+  async fetchTiers() {
+    return this.fetchMetadata('tier');
+  }
+
+  async fetchStats() {
+    return this.fetchMetadata('stat');
+  }
+
+  async fetchCoreSlots() {
+    return this.fetchMetadata('core-slot');
+  }
+
+  async fetchCoreTypes() {
+    return this.fetchMetadata('core-type');
+  }
+}
+
+export const apiClient = new TFDApiClient();

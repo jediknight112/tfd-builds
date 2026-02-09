@@ -1,0 +1,24 @@
+{
+  "name": "tfd-builds",
+  "version": "1.0.0",
+  "description": "The First Descendant Character Build Viewer",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "npx vite",
+    "build": "npx vite build",
+    "preview": "npx vite preview",
+    "tailwind:build": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css --watch"
+  },
+  "keywords": ["tfd", "builds", "gaming"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.0.5"
+  },
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
+}

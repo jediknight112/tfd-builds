@@ -1,0 +1,36 @@
+{
+  "ouid": "string",
+  "user_name": "Nickname#1234",
+  "weapon": [
+    {
+      "module_max_capacity": 0,
+      "module_capacity": 0,
+      "energy_activator_use_count": 0,
+      "weapon_slot_id": "string",
+      "weapon_id": "string",
+      "weapon_level": 0,
+      "perk_ability_enchant_level": 0,
+      "weapon_additional_stat": [
+        {
+          "additional_stat_name": "string",
+          "additional_stat_value": "string"
+        }
+      ],
+      "module": [
+        {
+          "module_slot_id": "string",
+          "module_id": "string",
+          "module_enchant_level": 0
+        }
+      ],
+      "core_unlock_flag": "string",
+      "core": [
+        {
+          "core_slot_id": "string",
+          "core_option_name": "string",
+          "core_option_value": "string"
+        }
+      ]
+    }
+  ]
+}

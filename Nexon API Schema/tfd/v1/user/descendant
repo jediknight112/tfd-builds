@@ -1,0 +1,33 @@
+{
+  "ouid": "string",
+  "user_name": "Nickname#1234",
+  "descendant_id": "string",
+  "descendant_slot_id": "string",
+  "descendant_level": 0,
+  "module_max_capacity": 0,
+  "module_capacity": 0,
+  "energy_activator_use_count": 0,
+  "module": [
+    {
+      "module_slot_id": "string",
+      "module_id": "string",
+      "module_enchant_level": 0
+    }
+  ],
+  "customizing": [
+    {
+      "customizing_item_slot_id": "string",
+      "customizing_item_type": "string",
+      "customizing_item_id": "string",
+      "customizing_item_evolution_stage": 0,
+      "customizing_item_current_evolution_stage": 0,
+      "paint": [
+        {
+          "customizing_item_slot_id": "string",
+          "customizing_item_type": "string",
+          "customizing_item_id": "string"
+        }
+      ]
+    }
+  ]
+}

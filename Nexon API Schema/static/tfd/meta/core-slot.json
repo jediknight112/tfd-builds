@@ -1,0 +1,1912 @@
+[
+  {
+    "core_slot_id": "381000001",
+    "available_weapon_id": [
+      "211013001"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009901",
+      "382000101",
+      "382000101",
+      "382000401",
+      "382000401"
+    ]
+  },
+  {
+    "core_slot_id": "381000002",
+    "available_weapon_id": [
+      "211013002"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009901",
+      "382000101",
+      "382000201",
+      "382000401",
+      "382000601"
+    ]
+  },
+  {
+    "core_slot_id": "381000003",
+    "available_weapon_id": [
+      "211023001"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009901",
+      "382000401",
+      "382000501",
+      "382000501",
+      "382000601"
+    ]
+  },
+  {
+    "core_slot_id": "381000004",
+    "available_weapon_id": [
+      "211023002"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009901",
+      "382000301",
+      "382000401",
+      "382000401",
+      "382000601"
+    ]
+  },
+  {
+    "core_slot_id": "381000005",
+    "available_weapon_id": [
+      "211023003"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009901",
+      "382000301",
+      "382000401",
+      "382000501",
+      "382000501"
+    ]
+  },
+  {
+    "core_slot_id": "381000006",
+    "available_weapon_id": [
+      "211033001"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009901",
+      "382000101",
+      "382000501",
+      "382000501",
+      "382000601"
+    ]
+  },
+  {
+    "core_slot_id": "381000007",
+    "available_weapon_id": [
+      "211033002"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009901",
+      "382000101",
+      "382000501",
+      "382000501",
+      "382000601"
+    ]
+  },
+  {
+    "core_slot_id": "381000008",
+    "available_weapon_id": [
+      "211033003"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009901",
+      "382000201",
+      "382000501",
+      "382000501",
+      "382000601"
+    ]
+  },
+  {
+    "core_slot_id": "381000009",
+    "available_weapon_id": [
+      "211043001"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009901",
+      "382000101",
+      "382000301",
+      "382000401",
+      "382000501"
+    ]
+  },
+  {
+    "core_slot_id": "381000010",
+    "available_weapon_id": [
+      "211043002"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009901",
+      "382000101",
+      "382000401",
+      "382000501",
+      "382000501"
+    ]
+  },
+  {
+    "core_slot_id": "381000011",
+    "available_weapon_id": [
+      "211053001"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009901",
+      "382000301",
+      "382000501",
+      "382000501",
+      "382000601"
+    ]
+  },
+  {
+    "core_slot_id": "381000012",
+    "available_weapon_id": [
+      "211053002"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009901",
+      "382009901",
+      "382000201",
+      "382000301",
+      "382000401"
+    ]
+  },
+  {
+    "core_slot_id": "381000013",
+    "available_weapon_id": [
+      "211063001"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009901",
+      "382000101",
+      "382000201",
+      "382000401",
+      "382000501"
+    ]
+  },
+  {
+    "core_slot_id": "381000014",
+    "available_weapon_id": [
+      "211063002"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009901",
+      "382000101",
+      "382000201",
+      "382000401",
+      "382000501"
+    ]
+  },
+  {
+    "core_slot_id": "381000015",
+    "available_weapon_id": [
+      "211063003"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009901",
+      "382009901",
+      "382000201",
+      "382000401",
+      "382000401"
+    ]
+  },
+  {
+    "core_slot_id": "381000016",
+    "available_weapon_id": [
+      "211073001"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009901",
+      "382000301",
+      "382000501",
+      "382000501",
+      "382000601"
+    ]
+  },
+  {
+    "core_slot_id": "381000017",
+    "available_weapon_id": [
+      "211073002"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009901",
+      "382000101",
+      "382000401",
+      "382000401",
+      "382000601"
+    ]
+  },
+  {
+    "core_slot_id": "381000018",
+    "available_weapon_id": [
+      "211083001"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009901",
+      "382000101",
+      "382000401",
+      "382000501",
+      "382000601"
+    ]
+  },
+  {
+    "core_slot_id": "381000019",
+    "available_weapon_id": [
+      "211083002"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009901",
+      "382000101",
+      "382000201",
+      "382000401",
+      "382000501"
+    ]
+  },
+  {
+    "core_slot_id": "381000020",
+    "available_weapon_id": [
+      "211083004"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009901",
+      "382000101",
+      "382000201",
+      "382000401",
+      "382000601"
+    ]
+  },
+  {
+    "core_slot_id": "381000021",
+    "available_weapon_id": [
+      "211093001"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009901",
+      "382000301",
+      "382000501",
+      "382000501",
+      "382000601"
+    ]
+  },
+  {
+    "core_slot_id": "381000022",
+    "available_weapon_id": [
+      "211093002"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009901",
+      "382000201",
+      "382000401",
+      "382000501",
+      "382000501"
+    ]
+  },
+  {
+    "core_slot_id": "381000023",
+    "available_weapon_id": [
+      "211103001"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009902",
+      "382009902",
+      "382000102",
+      "382000201",
+      "382000501"
+    ]
+  },
+  {
+    "core_slot_id": "381000024",
+    "available_weapon_id": [
+      "211103002"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009902",
+      "382009902",
+      "382000201",
+      "382000201",
+      "382000401"
+    ]
+  },
+  {
+    "core_slot_id": "381000025",
+    "available_weapon_id": [
+      "211123001"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009903",
+      "382009903",
+      "382000101",
+      "382000201",
+      "382000601"
+    ]
+  },
+  {
+    "core_slot_id": "381000026",
+    "available_weapon_id": [
+      "211123002"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009903",
+      "382000201",
+      "382000402",
+      "382000501",
+      "382000501"
+    ]
+  },
+  {
+    "core_slot_id": "381000027",
+    "available_weapon_id": [
+      "211123003"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009903",
+      "382000101",
+      "382000201",
+      "382000402",
+      "382000601"
+    ]
+  },
+  {
+    "core_slot_id": "381000028",
+    "available_weapon_id": [
+      "211023005"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009901",
+      "382000101",
+      "382000201",
+      "382000401",
+      "382000401"
+    ]
+  },
+  {
+    "core_slot_id": "381000029",
+    "available_weapon_id": [
+      "211063004"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009901",
+      "382000101",
+      "382000101",
+      "382000201",
+      "382000401"
+    ]
+  },
+  {
+    "core_slot_id": "381000030",
+    "available_weapon_id": [
+      "211093003"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009901",
+      "382000301",
+      "382000501",
+      "382000501",
+      "382000601"
+    ]
+  },
+  {
+    "core_slot_id": "381000031",
+    "available_weapon_id": [
+      "211123004"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009903",
+      "382000201",
+      "382000201",
+      "382000402",
+      "382000601"
+    ]
+  },
+  {
+    "core_slot_id": "381000032",
+    "available_weapon_id": [
+      "211103005"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009902",
+      "382000201",
+      "382000201",
+      "382000401",
+      "382000401"
+    ]
+  },
+  {
+    "core_slot_id": "381000033",
+    "available_weapon_id": [
+      "211083005"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009901",
+      "382000201",
+      "382000201",
+      "382000401",
+      "382000501"
+    ]
+  },
+  {
+    "core_slot_id": "381000034",
+    "available_weapon_id": [
+      "221133001"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382000103",
+      "382000202",
+      "382000302",
+      "382000302",
+      "382000302"
+    ]
+  },
+  {
+    "core_slot_id": "381000035",
+    "available_weapon_id": [
+      "221133002"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382000103",
+      "382000202",
+      "382000302",
+      "382000302",
+      "382000302"
+    ]
+  },
+  {
+    "core_slot_id": "381000036",
+    "available_weapon_id": [
+      "221133003"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382000103",
+      "382000202",
+      "382000202",
+      "382000302",
+      "382000302"
+    ]
+  },
+  {
+    "core_slot_id": "381000037",
+    "available_weapon_id": [
+      "211073003"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009901",
+      "382000101",
+      "382000201",
+      "382000201",
+      "382000301"
+    ]
+  },
+  {
+    "core_slot_id": "381000038",
+    "available_weapon_id": [
+      "211123005"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009903",
+      "382000101",
+      "382000201",
+      "382000201",
+      "382000301"
+    ]
+  },
+  {
+    "core_slot_id": "381000039",
+    "available_weapon_id": [
+      "211043003"
+    ],
+    "available_external_component_id": [],
+    "available_core_type_id": [
+      "382009901",
+      "382000101",
+      "382000301",
+      "382000501",
+      "382000501"
+    ]
+  },
+  {
+    "core_slot_id": "381010001",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241001007"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010002",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241001008"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010003",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241001009"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010004",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242001007"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010005",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242001008"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010006",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242001009"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010007",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243001007"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010008",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243001008"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010009",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243001009"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010010",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244001007"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010011",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244001008"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010012",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244001009"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010013",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241013001"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010014",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242013001"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010015",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243013001"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010016",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244013001"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010017",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241023002"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010018",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242023002"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010019",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243023002"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010020",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244023002"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010021",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241033003"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010022",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242033003"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010023",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243033003"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010024",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244033003"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010025",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241043004"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010026",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242043004"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010027",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243043004"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010028",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244043004"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010029",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241053005"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010030",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242053005"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010031",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243053005"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010032",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244053005"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010033",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241063006"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010034",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242063006"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010035",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243063006"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010036",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244063006"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010037",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241073007"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010038",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242073007"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010039",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243073007"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010040",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244073007"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010041",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241083008"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010042",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242083008"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010043",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243083008"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010044",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244083008"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010045",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241093009"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010046",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242093009"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010047",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243093009"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010048",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244093009"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010049",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241103010"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010050",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242103010"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010051",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243103010"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010052",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244103010"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010053",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241103011"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010054",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242103011"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010055",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243103011"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010056",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244103011"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010057",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241113012"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010058",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242113012"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010059",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243113012"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010060",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244113012"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010061",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241123013"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010062",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242123013"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010063",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243123013"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010064",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244123013"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010065",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241133014"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010066",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242133014"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010067",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243133014"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010068",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244133014"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010069",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241143015"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010070",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242143015"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010071",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243143015"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010072",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244143015"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010073",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241153016"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010074",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242153016"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010075",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243153016"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010076",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244153016"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010077",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241163017"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010078",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242163017"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010079",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243163017"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010080",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244163017"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010081",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241173018"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010082",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242173018"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010083",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243173018"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010084",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244173018"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010085",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241183019"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010086",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242183019"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010087",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243183019"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010088",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244183019"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010089",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241193020"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010090",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242193020"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010091",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243193020"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010092",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244193020"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010093",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241203021"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010094",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242203021"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010095",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243203021"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010096",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244203021"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010097",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241213022"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010098",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242213022"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010099",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243213022"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010100",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244213022"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010101",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241223023"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010102",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242223023"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010103",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243223023"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010104",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244223023"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010105",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241233024"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010106",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242233024"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010107",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243233024"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010108",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244233024"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010109",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241243025"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010110",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242243025"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010111",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243243025"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010112",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244243025"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010113",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241253026"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010114",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242253026"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010115",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243253026"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010116",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244253026"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010117",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241263027"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010118",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242263027"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010119",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243263027"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010120",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244263027"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010121",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "241273028"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010122",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "242273028"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010123",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "243273028"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  },
+  {
+    "core_slot_id": "381010124",
+    "available_weapon_id": [],
+    "available_external_component_id": [
+      "244273028"
+    ],
+    "available_core_type_id": [
+      "382010101",
+      "382010201"
+    ]
+  }
+]

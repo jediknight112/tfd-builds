@@ -1,0 +1,13 @@
+{
+  "ouid": "string",
+  "user_name": "Nickname#1234",
+  "platform_type": "string",
+  "mastery_rank_level": 0,
+  "mastery_rank_exp": 0,
+  "title_prefix_id": "string",
+  "title_suffix_id": "string",
+  "os_language": "string",
+  "game_language": "string",
+  "medal_id": "string",
+  "medal_level": 0
+}

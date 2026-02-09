@@ -1,0 +1,3936 @@
+[
+  {
+    "collectible_item_id": "266300173",
+    "collectible_item_name": "Viessa (S) - Skill 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300174",
+    "collectible_item_name": "Bunny (S) - Skill 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300175",
+    "collectible_item_name": "Bunny (S) - Skill 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300176",
+    "collectible_item_name": "Bunny (S) - Skill 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300198",
+    "collectible_item_name": "Amon: Legion of Immortality General (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300199",
+    "collectible_item_name": "Amon: Legion of Immortality General (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300200",
+    "collectible_item_name": "Amon: Legion of Immortality General (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300345",
+    "collectible_item_name": "Dia (S) - Alpha Uniform 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300347",
+    "collectible_item_name": "Ajax (S) - Alpha Uniform 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300348",
+    "collectible_item_name": "Pattern Elias (M) - Sigma Sector 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400001",
+    "collectible_item_name": "White-night Gulch - Moongrave Basin",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "There is a theory that the holes covering the mountain range were created by the Architects, but the true cause remains unknown.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size4",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400004",
+    "collectible_item_name": "Void Intercept Battle Location",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "The Void, a space-time that defies logic. The Descendants leave for the Void to intercept the Colossi before they arrive on Ingris.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400005",
+    "collectible_item_name": "Paradise Pool",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "The Paradise Pool was installed in Albion in Season 2 EP2. The Descendant Instructor serves as a bartender there.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400006",
+    "collectible_item_name": "Eerie Garden",
+    "collectible_item_description": "[Limited Time]A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A garden built to celebrate the 2025 Halloween season.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400007",
+    "collectible_item_name": "Albion Winter Festival",
+    "collectible_item_description": "[Limited Time] A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "This garden was decorated in Albion to commemorate the 2025 Winter Festival season. The Descendant dressed as a snowman is still around somewhere.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400008",
+    "collectible_item_name": "Crescent Concert",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "The concert stage for the band Crescent, who will be with Luna forever.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size4",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500001",
+    "collectible_item_name": "Painting",
+    "collectible_item_description": "A motion used when placing a Descendant in the Lounge.",
+    "collectible_item_narrative": "A Descendant can let their imagination soar on the canvas to clear their mind.\n\nOwned Sprays can be displayed on the canvas.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500002",
+    "collectible_item_name": "Playing Paganini's ＜Caprice No. 24＞",
+    "collectible_item_description": "A motion used when placing a Descendant in the Lounge.",
+    "collectible_item_narrative": "A Descendant plays Paganini's piece on violin to clear their mind.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500003",
+    "collectible_item_name": "Playing Elgar's ＜Salut d'Amour＞",
+    "collectible_item_description": "A motion used when placing a Descendant in the Lounge.",
+    "collectible_item_narrative": "A Descendant plays Elgar's piece on violin to clear their mind.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500004",
+    "collectible_item_name": "Playing Tchaikovsky's ＜Violin Concerto 3rd Movement＞",
+    "collectible_item_description": "A motion used when placing a Descendant in the Lounge.",
+    "collectible_item_narrative": "A Descendant plays Tchaikovsky's piece on violin to clear their mind.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500005",
+    "collectible_item_name": "Reading",
+    "collectible_item_description": "A motion used when placing a Descendant in the Lounge.",
+    "collectible_item_narrative": "A Descendant reads educational books to clear their mind.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500006",
+    "collectible_item_name": "Cube",
+    "collectible_item_description": "A motion used when placing a Descendant in the Lounge.",
+    "collectible_item_narrative": "A Descendant tries to improve a range of cognitive abilities including concentration, problem-solving, and memory. Of course, they might also just be messing around during their break.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500007",
+    "collectible_item_name": "A Moment for Tea",
+    "collectible_item_description": "A motion used when placing a Descendant in the Lounge.",
+    "collectible_item_narrative": "Whether before or after Operations, a Descendant needs a moment with a cup of tea.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500009",
+    "collectible_item_name": "Spacing Out",
+    "collectible_item_description": "A motion used when placing a Descendant in the Lounge.",
+    "collectible_item_narrative": "A Descendant is currently giving their brain the gift of rest.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500010",
+    "collectible_item_name": "Cheerful Shower",
+    "collectible_item_description": "A motion used when placing a Descendant in the Lounge.",
+    "collectible_item_narrative": "A Descendant takes a cheerful shower.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500011",
+    "collectible_item_name": "Refreshing Shower",
+    "collectible_item_description": "A motion used when placing a Descendant in the Lounge.",
+    "collectible_item_narrative": "A Descendant takes a refreshing shower.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500012",
+    "collectible_item_name": "Enjoyable Shower",
+    "collectible_item_description": "A motion used when placing a Descendant in the Lounge.",
+    "collectible_item_narrative": "A Descendant takes a shower to relieve their fatigue.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500013",
+    "collectible_item_name": "Quick Nap",
+    "collectible_item_description": "A motion used when placing a Descendant in the Lounge.",
+    "collectible_item_narrative": "A Descendant, overcome with fatigue, takes a quick nap.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500014",
+    "collectible_item_name": "Personal Maintenance",
+    "collectible_item_description": "A motion used when placing a Descendant in the Lounge.",
+    "collectible_item_narrative": "A Descendant uses their personal time to maintain the smallest details.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500018",
+    "collectible_item_name": "Shadow Boxing",
+    "collectible_item_description": "A motion used when placing a Descendant in the Lounge.",
+    "collectible_item_narrative": "When Guide isn't present, this what the Descendant does.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500019",
+    "collectible_item_name": "Ab Workout",
+    "collectible_item_description": "A motion used when placing a Descendant in the Lounge.",
+    "collectible_item_narrative": "The Descendant does abs to improve their core muscle strength.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600001",
+    "collectible_item_name": "Guide's Default Appearance",
+    "collectible_item_description": "This is the default visual appearance set for the Lounge Guide.",
+    "collectible_item_narrative": "This is the default visual configuration for Guide to communicate with Descendants.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600002",
+    "collectible_item_name": "Data Reconfiguration",
+    "collectible_item_description": "This is the reconfigured visual appearance of the Lounge Guide.",
+    "collectible_item_narrative": "Guide's appearance that has been reconfigured to match the clothing styles of modern Albion. While Guide can assume different forms for communication, she apparently feels little need to change her visuals.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600003",
+    "collectible_item_name": "Lounge Guide",
+    "collectible_item_description": "This is the reconfigured visual appearance of the Lounge Guide.",
+    "collectible_item_narrative": "Guide's appearance that has been reconfigured into comfortable attire so Descendants can rest comfortably. It doesn't look particularly comfortable, but it doesn't seem to be much of an issue for Guide.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100004",
+    "collectible_item_name": "Simple Gift",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A gift that can be given on a special day. Something seems to be missing.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100005",
+    "collectible_item_name": "Generous Gift",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A gift that can be given on a special day. There are so many that just looking at them makes you happy, but the most important thing is which one is the biggest.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100006",
+    "collectible_item_name": "Opened Gift",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A gift that can be given on a special day. Anais sent it to Blair to celebrate the completion of the Ancestors' equipment inspection.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100007",
+    "collectible_item_name": "Sealed Keepsake",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A keepsake from Bunny's parents. An item left for Bunny is sealed inside.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100008",
+    "collectible_item_name": "Opened Keepsake",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A keepsake from Bunny's parents. Bunny looks at the teddy bear and thinks of what her parents must have felt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100009",
+    "collectible_item_name": "Carnations and Keepsakes",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A keepsake from Bunny's parents. Bunny laid carnations on the memento left by her parents and reminisced about her childhood with her parents.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100013",
+    "collectible_item_name": "Messy Suitcase",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "The suitcase of a Descendant who is going on vacation. It's not packed correctly and looks very messy.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100014",
+    "collectible_item_name": "Normal Suitcase",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "The suitcase of a Descendant who is going on vacation. It looks like a plain, ordinary suitcase.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100015",
+    "collectible_item_name": "Decorated Suitcase",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "The suitcase of a Descendant who is going on vacation. It has been fully decorated to prepare for vacation.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100016",
+    "collectible_item_name": "Bare Snowman Family",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A snowman family that visits Albion during the holiday season. Something seems to be missing.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100017",
+    "collectible_item_name": "Happy Snowman Family",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A snowman family that visits Albion during the holiday season. Now they know how to smile.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100018",
+    "collectible_item_name": "Blissful Snowman Family",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A snowman family that visits Albion during the holiday season. They are happy to spend the holiday season visiting.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100019",
+    "collectible_item_name": "Wooden Coffin",
+    "collectible_item_description": "[Limited Time]A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A vampire coffin. Did it belong to a poor noble?",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100020",
+    "collectible_item_name": "Iron Coffin",
+    "collectible_item_description": "[Limited Time]A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A vampire coffin. Judging by the timeworn exterior, it may have belonged to a noble of distinguished lineage.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100021",
+    "collectible_item_name": "Gilded Coffin",
+    "collectible_item_description": "[Limited Time]A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A vampire coffin. It definitely belonged to a noble of prestigious standing.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100022",
+    "collectible_item_name": "Bare Commemorative Tree",
+    "collectible_item_description": "[Limited Time] A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A tree to celebrate a special day. Something seems to be missing.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100023",
+    "collectible_item_name": "Plain Commemorative Tree",
+    "collectible_item_description": "[Limited Time] A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A tree to celebrate a special day. Good enough to use at a celebration, but it's still missing something.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100024",
+    "collectible_item_name": "Fancy Commemorative Tree",
+    "collectible_item_description": "[Limited Time] A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A tree to celebrate a special day. Just looking at it makes you feel happy.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100025",
+    "collectible_item_name": "Bare Terrarium",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "The Void-contaminated soil of this terrarium was purified by Albion's engineering technology. The seeds have not yet sprouted.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100026",
+    "collectible_item_name": "Plain Terrarium",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "The Void-contaminated soil of this terrarium was purified by Albion's engineering technology. It looks like the growth may extend beyond the flower buds.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100027",
+    "collectible_item_name": "Fancy Terrarium",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "The Void-contaminated soil of this terrarium was purified by Albion's engineering technology. As Albion's wildflowers bloomed, a new life was born.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100028",
+    "collectible_item_name": "Bare Tactical Armored Vehicle",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A Tactical Armored Vehicle essential for expanding the operational range of Descendants. Something seems to be missing.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100029",
+    "collectible_item_name": "Plain Tactical Armored Vehicle",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A Tactical Armored Vehicle essential for expanding the operational range of Descendants. Its utility varies depending on the purpose of the parts installed.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100030",
+    "collectible_item_name": "Complete Tactical Armored Vehicle",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A Tactical Armored Vehicle essential for expanding the operational range of Descendants. It is equipped with anti-aircraft guns to prepare for Colossus infiltration in case of a failed Intercept.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100031",
+    "collectible_item_name": "Recently Started Bunny Puzzle",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "This puzzle captures some wonderful moments from Bunny. There are some gaps here and there.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100032",
+    "collectible_item_name": "Almost Finished Bunny Puzzle",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "This puzzle captures some wonderful moments from Bunny. A few more pieces may be enough to complete it.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100033",
+    "collectible_item_name": "Completed Bunny Puzzle",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "This puzzle captures some wonderful moments from Bunny. A must-have for Bunny fans.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100034",
+    "collectible_item_name": "Bare Upcycled Flowerpot",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "Evidence of cultivation for farmland testing in empty munitions crates by the Kingston soldiers. Something seems to be missing.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100035",
+    "collectible_item_name": "Plain Upcycled Flowerpot",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "Evidence of cultivation for farmland testing in empty munitions crates by the Kingston soldiers. Fragrant herbs have sprouted, but there is room for more growth.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100036",
+    "collectible_item_name": "Fancy Upcycled Flowerpot",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "Evidence of cultivation for farmland testing in empty munitions crates by the Kingston soldiers. Thanks to their efforts, the soil is excellent and the herbs have flourished.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100037",
+    "collectible_item_name": "Bare Folding Screen Set",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A set of folding screens with cute illustrations. Something seems to be missing.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100038",
+    "collectible_item_name": "Plain Folding Screen Set",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A set of folding screens with cute illustrations. A few more pieces may be enough to complete it.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100039",
+    "collectible_item_name": "Lavish Folding Screen Set",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A set of folding screens with cute illustrations. The lanterns make the atmosphere even more vivid.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100043",
+    "collectible_item_name": "Bare Porcelain Set",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A set of porcelain dishes collected in Albion, a melting pot of different cultures. Something seems to be missing.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100044",
+    "collectible_item_name": "Plain Porcelain Set",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A set of porcelain dishes collected in Albion, a melting pot of different cultures. A few more pieces may be enough to complete the set.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100045",
+    "collectible_item_name": "Lavish Porcelain Set",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A set of porcelain dishes collected in Albion, a melting pot of different cultures. The pieces are glazed with an expensive blue pigment which adds a classic, antique feel.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100046",
+    "collectible_item_name": "Bare Lantern Set",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A set of lanterns that will make the Lounge feel cozy. Something seems to be missing.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100047",
+    "collectible_item_name": "Plain Lantern Set",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A set of lanterns that will make the Lounge feel cozy. A few more pieces may be enough to complete it.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100048",
+    "collectible_item_name": "Lavish Lantern Set",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A set of lanterns that will make the Lounge feel cozy. This combination of three colors goes very well together.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100049",
+    "collectible_item_name": "Bare Sunbed",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A sunbed set modeled after the ones used at the Paradise Pool. Something seems to be missing.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100050",
+    "collectible_item_name": "Plain Sunbed",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A sunbed set modeled after the ones used at the Paradise Pool. A few more pieces may be enough to complete the set.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100051",
+    "collectible_item_name": "Lavish Sunbed",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A sunbed set modeled after the ones used at the Paradise Pool. It is perfect for escaping the heat.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100052",
+    "collectible_item_name": "Tactical Prosthetic Arm Mk. 2",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "Lepic's prosthetic arm that has had Arche Drive technology applied to it. It is an early version and barely serviceable for everyday use.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100053",
+    "collectible_item_name": "Tactical Prosthetic Arm Mk. 7",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "Lepic's prosthetic arm that has had Arche Drive technology applied to it. It is the same early version with a reinforced exoskeleton, but it is still inadequate for optimizing Arche abilities.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100054",
+    "collectible_item_name": "Tactical Prosthetic Arm Mk. 10",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "Lepic's prosthetic arm that has had Arche Drive technology applied to it. It was designed so that Lepic could inject his Explosive Arche into rounds and grenades. It does not include a rocket fist function.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100055",
+    "collectible_item_name": "Bare Descendant Accessory Display Stand",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A display stand for replicas of the accessories worn by female Descendants, displayed for the education of Albion Military Academy cadets. Something seems to be missing.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100056",
+    "collectible_item_name": "Plain Descendant Accessory Display Stand",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A display stand for replicas of the accessories worn by female Descendants, displayed for the education of Albion Military Academy cadets. It is a suitable reference material for the cadets, but something still seems to be missing.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100057",
+    "collectible_item_name": "Lavish Descendant Accessory Display Stand",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A display stand for replicas of the accessories worn by female Descendants, displayed for the education of Albion Military Academy cadets. This is so popular that the percentage of female cadets aspiring to become Descendants has risen sharply to 65%.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100058",
+    "collectible_item_name": "Plain Prowler Head",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "The head of a Vulgus that once made Sharen reflect on her past. She has kept it after she got her revenge. It is currently in good condition.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100059",
+    "collectible_item_name": "Vindictive Prowler Head",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "The head of a Vulgus that once made Sharen reflect on her past. She has kept it after she got her revenge. It seems she still has some lingering anger, since there are marks from a Shortsword.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100060",
+    "collectible_item_name": "Completed Vengeance Prowler Head",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "The head of a Vulgus that once made Sharen reflect on her past. She has kept it after she got her revenge. It is now used to hold her Shortsword.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100061",
+    "collectible_item_name": "Handgun Cake Piece",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A unique handgun-shaped cake that Blair made to boost morale. He might not look it, but Blair is a hardworking chef who joyfully tests firearms on his enemies before making molds of them for cakes. Currently, there is only a piece of the Red Wolf.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100062",
+    "collectible_item_name": "Half a Handgun Cake",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A unique handgun-shaped cake that Blair made to boost morale. He might not look it, but Blair is a hardworking chef who joyfully tests firearms on his enemies before making molds of them for cakes. Currently, there are only pieces of the Red Wolf and New Beginning.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100063",
+    "collectible_item_name": "Whole Handgun Cake",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A unique handgun-shaped cake that Blair made to boost morale. He might not look it, but Blair is a hardworking chef who joyfully tests firearms on his enemies before making molds of them for cakes. Finally, the whole cake, which includes the Red Wolf, the New Beginning, and the Millennium Frost, is complete.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100064",
+    "collectible_item_name": "Empty Helmet Fish Bowl",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "Valby likes to refurbish unused helmets to use as fish bowls. This one only has bedding and water.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100065",
+    "collectible_item_name": "Plain Helmet Fish Bowl",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "Valby likes to refurbish unused helmets to use as fish bowls. She has planted aquatic plants in it, now it just needs some fish.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100066",
+    "collectible_item_name": "Lavish Helmet Fish Bowl",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "Valby likes to refurbish unused helmets to use as fish bowls. She sometimes projects herself into the bowl while watching them swimming underwater.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100067",
+    "collectible_item_name": "Bare Mask Display Stand",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A display stand for replicas of the masks worn by the Descendants, displayed for the education of Albion Military Academy cadets. Something seems to be missing.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100068",
+    "collectible_item_name": "Plain Mask Display Stand",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A display stand for replicas of the masks worn by the Descendants, displayed for the education of Albion Military Academy cadets. It is a suitable reference material for the cadets, but something still seems to be missing.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100069",
+    "collectible_item_name": "Lavish Mask Display Stand",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A display stand for replicas of the masks worn by the Descendants, displayed for the education of Albion Military Academy cadets. According to a survey of the cadets, 60% responded \"Very Positive\" to the question of whether they would wear a mask if they became a Descendant.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100070",
+    "collectible_item_name": "Plain Headphone Display Stand",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A headphone display stand used by Luna. It is somewhat plain, unlike Luna.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100071",
+    "collectible_item_name": "Unique Headphone Display Stand",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A headphone display stand used by Luna. As expected, Luna has unique taste.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100072",
+    "collectible_item_name": "Dazzling Headphone Display Stand",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A headphone display stand used by Luna. It's typical of Luna to have a separate stand for each headphone design.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100073",
+    "collectible_item_name": "Empty Scope Mount",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "Hailey vowed to only put the scopes of weapons that she had mastered on this scope mount. It was empty when she was a member of the 33rd Sniper Squad.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100074",
+    "collectible_item_name": "Plain Scope Mount",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "Hailey vowed to only put the scopes of weapons that she had mastered on this scope mount. After she became a Descendant, she has been mounting the scopes of her Unique Weapon.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100075",
+    "collectible_item_name": "Lavish Scope Mount",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "Hailey vowed to only put the scopes of weapons that she had mastered on this scope mount. She mounted not only the scopes of her Unique Weapon but also the scopes of the Afterglow Sword and Piercing Light.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100076",
+    "collectible_item_name": "Bare Eyewear Display Stand",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "An eyewear display stand for Gley, who is surprisingly fond of glitz and glamor. It is mostly empty and bare.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100077",
+    "collectible_item_name": "Plain Eyewear Display Stand",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "An eyewear display stand for Gley, who is surprisingly fond of glitz and glamor. Half of the stand is empty.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100078",
+    "collectible_item_name": "Lavish Eyewear Display Stand",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "An eyewear display stand for Gley, who is surprisingly fond of glitz and glamor. Not a single pair here is for decoration.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100079",
+    "collectible_item_name": "Exorcister Mk. 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A photo particle emission battlesuit worn by Serena, made with Magister technology from the past. The Mk. 1 version is equipped with the Descendant Arche Linkage System and does not yet have wing attachments.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100080",
+    "collectible_item_name": "Exorcister Mk. 2",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A photo particle emission battlesuit worn by Serena, made with Magister technology from the past. The Mk. 2 version is complete with wing attachments, but the deployment mechanism still needs to be tested.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100081",
+    "collectible_item_name": "Exorcister Mk. 2 Deployment Version",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A photo particle emission battlesuit worn by Serena, made with Magister technology from the past. The Mk. 2 version is complete with wing attachments and a flawless deployment mechanism.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100085",
+    "collectible_item_name": "Shabby Evil Repelling Lamp",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A lamp made to ward off evil spirits. It doesn't seem strong enough to repel evil spirits just yet.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100086",
+    "collectible_item_name": "Plain Evil Repelling Lamp",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A lamp made to ward off evil spirits. It is filled with herbal candies made according to Blair's recipe to repel evil spirits. But it still doesn't seem like enough.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100087",
+    "collectible_item_name": "True Evil Repelling Lamp",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A lamp made to ward off evil spirits. It is enriched with Ingr Cookies and herbal candies made by Blair. Now, evil spirits wouldn't dare come close.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100088",
+    "collectible_item_name": "Shabby Command Console",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "The command console used in the Albion Operations Command Center. It is inadequate for the command of Operations.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100089",
+    "collectible_item_name": "Plain Command Console",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "The command console used in the Albion Operations Command Center. It can handle basic commands, but it is inadequate for use in Operations where the lives of the Descendants are at stake.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100090",
+    "collectible_item_name": "True Command Console",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "The command console used in the Albion Operations Command Center. It is more than adequate for use in Operations where the lives of the Descendants are at stake.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100091",
+    "collectible_item_name": "Empty 99-Year-Old Albion",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "To commemorate the founding of Albion 100 years ago, this distilled spirit was aged in oak casks for 99 years from the year following the founding. Naturally, this was possible thanks to the Magisters' technology. At least someone must have recognized its value.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100092",
+    "collectible_item_name": "Bare 99-Year-Old Albion",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "To commemorate the founding of Albion 100 years ago, this distilled spirit was aged in oak casks for 99 years from the year following the founding. Naturally, this was possible thanks to the Magisters' technology. The packaging alone is regarded as a rarity.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100093",
+    "collectible_item_name": "Full 99-Year-Old Albion",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "To commemorate the founding of Albion 100 years ago, this distilled spirit was aged in oak casks for 99 years from the year following the founding. Naturally, this was possible thanks to the Magisters' technology. Albion's prestigious heritage can be felt in every drop.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100094",
+    "collectible_item_name": "Empty 7-Year-Old Albion",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "The most popular item for frontline soldiers, this bottle of distilled spirits is known to be issued as a reward. It's also the results of the Kingston soldiers taking another step toward thanking Blair. This particular bottle is empty, though.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100095",
+    "collectible_item_name": "Leftover 7-Year-Old Albion",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "The most popular item for frontline soldiers, this bottle of distilled spirits is known to be issued as a reward. It's also the results of the Kingston soldiers taking another step toward thanking Blair. It appears the recipient failed to down it in one shot.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100096",
+    "collectible_item_name": "Full 7-Year-Old Albion",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "The most popular item for frontline soldiers, this bottle of distilled spirits is known to be issued as a reward. It's also the results of the Kingston soldiers taking another step toward thanking Blair. There is a custom that the person who receives a full bottle treats everyone that day.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266200001",
+    "collectible_item_name": "Trophy of Encouragement: Void Intercept Battle",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "In recognition of your unwavering sense of duty and firm commitment to security,\nyou are hereby commended for the successful completion\nof the Intercept Mission\n\n-Operations Commander-",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266200002",
+    "collectible_item_name": "Trophy of Excellence: Void Intercept Battle",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "In recognition of your exemplary combat prowess and strong sense of responsibility,\nyou are hereby commended for excellence in completion\nof the Intercept Mission.\n\n-Operations Commander-",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266200003",
+    "collectible_item_name": "Trophy of Outstanding Achievement: Void Intercept Battle",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "In recognition of your indomitable spirit and operational expertise,\nyou are hereby commended for the outstanding completion\nof the Intercept Mission.\n\n-Operations Commander-",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300001",
+    "collectible_item_name": "Lepic (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300002",
+    "collectible_item_name": "Lepic (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300003",
+    "collectible_item_name": "Lepic (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300004",
+    "collectible_item_name": "Ajax (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300005",
+    "collectible_item_name": "Ajax (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300006",
+    "collectible_item_name": "Ajax (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300007",
+    "collectible_item_name": "Viessa (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300008",
+    "collectible_item_name": "Viessa (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300009",
+    "collectible_item_name": "Viessa (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300010",
+    "collectible_item_name": "Bunny (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300011",
+    "collectible_item_name": "Bunny (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300012",
+    "collectible_item_name": "Bunny (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300013",
+    "collectible_item_name": "Jayber (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300014",
+    "collectible_item_name": "Jayber (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300015",
+    "collectible_item_name": "Jayber (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300016",
+    "collectible_item_name": "Freyna (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300017",
+    "collectible_item_name": "Freyna (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300018",
+    "collectible_item_name": "Freyna (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300019",
+    "collectible_item_name": "Gley (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300020",
+    "collectible_item_name": "Gley (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300021",
+    "collectible_item_name": "Gley (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300022",
+    "collectible_item_name": "Sharen (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300023",
+    "collectible_item_name": "Sharen (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300024",
+    "collectible_item_name": "Sharen (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300025",
+    "collectible_item_name": "Blair (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300026",
+    "collectible_item_name": "Blair (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300027",
+    "collectible_item_name": "Blair (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300028",
+    "collectible_item_name": "Valby (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300029",
+    "collectible_item_name": "Valby (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300030",
+    "collectible_item_name": "Valby (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300031",
+    "collectible_item_name": "Kyle (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300032",
+    "collectible_item_name": "Kyle (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300033",
+    "collectible_item_name": "Kyle (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300034",
+    "collectible_item_name": "Esiemo (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300035",
+    "collectible_item_name": "Esiemo (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300036",
+    "collectible_item_name": "Esiemo (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300037",
+    "collectible_item_name": "Enzo (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300038",
+    "collectible_item_name": "Enzo (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300039",
+    "collectible_item_name": "Enzo (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300040",
+    "collectible_item_name": "Yujin (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300041",
+    "collectible_item_name": "Yujin (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300042",
+    "collectible_item_name": "Yujin (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300043",
+    "collectible_item_name": "Luna (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300044",
+    "collectible_item_name": "Luna (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300045",
+    "collectible_item_name": "Luna (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300046",
+    "collectible_item_name": "Hailey (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300047",
+    "collectible_item_name": "Hailey (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300048",
+    "collectible_item_name": "Hailey (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300049",
+    "collectible_item_name": "Keelan (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300050",
+    "collectible_item_name": "Keelan (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300051",
+    "collectible_item_name": "Keelan (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300052",
+    "collectible_item_name": "Ines (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300053",
+    "collectible_item_name": "Ines (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300054",
+    "collectible_item_name": "Ines (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300055",
+    "collectible_item_name": "Serena (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300056",
+    "collectible_item_name": "Serena (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300057",
+    "collectible_item_name": "Serena (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300058",
+    "collectible_item_name": "Nell (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300059",
+    "collectible_item_name": "Nell (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300060",
+    "collectible_item_name": "Nell (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300062",
+    "collectible_item_name": "Viessa (S) - Paradise 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300065",
+    "collectible_item_name": "Bunny (S) - Paradise 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300068",
+    "collectible_item_name": "Freyna (S) - Paradise 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300071",
+    "collectible_item_name": "Gley (S) - Paradise 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300074",
+    "collectible_item_name": "Sharen (S) - Paradise 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300077",
+    "collectible_item_name": "Valby (S) - Paradise 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300080",
+    "collectible_item_name": "Luna (S) - Paradise 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300083",
+    "collectible_item_name": "Hailey (S) - Paradise 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300086",
+    "collectible_item_name": "Ines (S) - Paradise 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300089",
+    "collectible_item_name": "Serena (S) - Paradise 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300091",
+    "collectible_item_name": "Guide (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300092",
+    "collectible_item_name": "Guide (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300093",
+    "collectible_item_name": "Guide (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300094",
+    "collectible_item_name": "Jeremy (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300095",
+    "collectible_item_name": "Jeremy (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300096",
+    "collectible_item_name": "Jeremy (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300097",
+    "collectible_item_name": "Hagios Sheepdog (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300098",
+    "collectible_item_name": "Hagios Sheepdog (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300099",
+    "collectible_item_name": "Hagios Sheepdog (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300100",
+    "collectible_item_name": "Vespers Hunting Dog (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300101",
+    "collectible_item_name": "Vespers Hunting Dog (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300102",
+    "collectible_item_name": "Vespers Hunting Dog (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300103",
+    "collectible_item_name": "Snowy Sled Dog (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300104",
+    "collectible_item_name": "Snowy Sled Dog (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300105",
+    "collectible_item_name": "Snowy Sled Dog (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300106",
+    "collectible_item_name": "Karel: Legion of Darkness General (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300107",
+    "collectible_item_name": "Karel: Legion of Darkness General (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300108",
+    "collectible_item_name": "Karel: Legion of Darkness General (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300109",
+    "collectible_item_name": "Seudo: Legion of Immortality Commander (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300110",
+    "collectible_item_name": "Seudo: Legion of Immortality Commander (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300111",
+    "collectible_item_name": "Seudo: Legion of Immortality Commander (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300112",
+    "collectible_item_name": "Mass Soldier: Legion of Darkness (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300113",
+    "collectible_item_name": "Mass Soldier: Legion of Darkness (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300114",
+    "collectible_item_name": "Mass Soldier: Legion of Darkness (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300115",
+    "collectible_item_name": "Blazer: Order of Truth (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300116",
+    "collectible_item_name": "Blazer: Order of Truth (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300117",
+    "collectible_item_name": "Blazer: Order of Truth (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300118",
+    "collectible_item_name": "Third Eye: Legion of Immortality (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300119",
+    "collectible_item_name": "Third Eye: Legion of Immortality (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300120",
+    "collectible_item_name": "Third Eye: Legion of Immortality (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300122",
+    "collectible_item_name": "Bunny (M) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300124",
+    "collectible_item_name": "Grave Walker (M) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300125",
+    "collectible_item_name": "Grave Walker (M) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300126",
+    "collectible_item_name": "Grave Walker (M) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300128",
+    "collectible_item_name": "Executioner (M) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300131",
+    "collectible_item_name": "Dead Bride (M) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300133",
+    "collectible_item_name": "Bunny (S) - Halloween 1",
+    "collectible_item_description": "[Limited Time]A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300134",
+    "collectible_item_name": "Gley (S) - Halloween 1",
+    "collectible_item_description": "[Limited Time]A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300135",
+    "collectible_item_name": "Sharen (S) - Halloween 1",
+    "collectible_item_description": "[Limited Time]A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300136",
+    "collectible_item_name": "Hailey (S) - Halloween 1",
+    "collectible_item_description": "[Limited Time]A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300137",
+    "collectible_item_name": "Ines (S) - Halloween 1",
+    "collectible_item_description": "[Limited Time]A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300138",
+    "collectible_item_name": "Serena (S) - Halloween 1",
+    "collectible_item_description": "[Limited Time]A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300139",
+    "collectible_item_name": "Nell (S) - Halloween 1",
+    "collectible_item_description": "[Limited Time]A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300140",
+    "collectible_item_name": "Esiemo (S) - Halloween 1",
+    "collectible_item_description": "[Limited Time]A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300141",
+    "collectible_item_name": "Yujin (S) - Albion Knights 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300142",
+    "collectible_item_name": "Harris (S) - Albion Knights 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300143",
+    "collectible_item_name": "Viessa (S) - Winter Festival 1",
+    "collectible_item_description": "[Limited Time] A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300144",
+    "collectible_item_name": "Gley (S) - Winter Festival 1",
+    "collectible_item_description": "[Limited Time] A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300145",
+    "collectible_item_name": "Freyna (S) - Winter Festival 1",
+    "collectible_item_description": "[Limited Time] A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300147",
+    "collectible_item_name": "Serena (S) - Winter Festival 1",
+    "collectible_item_description": "[Limited Time] A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300148",
+    "collectible_item_name": "Jayber (S) - Winter Festival 1",
+    "collectible_item_description": "[Limited Time] A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300149",
+    "collectible_item_name": "Viessa (S) - Idol 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300150",
+    "collectible_item_name": "Bunny (S) - Idol 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300151",
+    "collectible_item_name": "Freyna (S) - Idol 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300152",
+    "collectible_item_name": "Gley (S) - Idol 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300153",
+    "collectible_item_name": "Sharen (S) - Idol 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300154",
+    "collectible_item_name": "Valby (S) - Idol 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300155",
+    "collectible_item_name": "Luna (S) - Idol 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300156",
+    "collectible_item_name": "Hailey (S) - Idol 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300157",
+    "collectible_item_name": "Ines (S) - Idol 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300158",
+    "collectible_item_name": "Serena (S) - Idol 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300159",
+    "collectible_item_name": "Nell (S) - Idol 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300160",
+    "collectible_item_name": "Harris (S) - Idol 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300161",
+    "collectible_item_name": "Luna (M) - Moonlight Stage 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300162",
+    "collectible_item_name": "Harris (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300163",
+    "collectible_item_name": "Harris (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300164",
+    "collectible_item_name": "Harris (S) - Classic 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300165",
+    "collectible_item_name": "Lepic (S) - Skill 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300166",
+    "collectible_item_name": "Lepic (S) - Skill 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300167",
+    "collectible_item_name": "Lepic (S) - Skill 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300168",
+    "collectible_item_name": "Ajax (S) - Skill 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300169",
+    "collectible_item_name": "Ajax (S) - Skill 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300170",
+    "collectible_item_name": "Ajax (S) - Skill 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made of pure gold. It was specially made by HQ to commend the hard work of the Descendants who have fought tirelessly on the battlefield.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300171",
+    "collectible_item_name": "Viessa (S) - Skill 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine painted with minimal color due to a shortage of pigments. There is a large stock of these figurines because they are used for training citizens and military academy cadets who have difficulty participating in outdoor activities.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300172",
+    "collectible_item_name": "Viessa (S) - Skill 1",
+    "collectible_item_description": "A Collectible that can be placed in the Lounge.",
+    "collectible_item_narrative": "A figurine made to look just like the original. Realism was emphasized to train cadets of the military academy.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  }
+]

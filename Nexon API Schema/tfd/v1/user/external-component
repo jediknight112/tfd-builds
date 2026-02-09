@@ -1,0 +1,25 @@
+{
+  "ouid": "string",
+  "user_name": "Nickname#1234",
+  "external_component": [
+    {
+      "external_component_slot_id": "string",
+      "external_component_id": "string",
+      "external_component_level": 0,
+      "external_component_additional_stat": [
+        {
+          "additional_stat_name": "string",
+          "additional_stat_value": "string"
+        }
+      ],
+      "core_unlock_flag": "string",
+      "core": [
+        {
+          "core_slot_id": "string",
+          "core_option_name": "string",
+          "core_option_value": "string"
+        }
+      ]
+    }
+  ]
+}

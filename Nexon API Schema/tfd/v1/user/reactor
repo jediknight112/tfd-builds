@@ -1,0 +1,14 @@
+{
+  "ouid": "string",
+  "user_name": "Nickname#1234",
+  "reactor_id": "string",
+  "reactor_slot_id": "string",
+  "reactor_level": 0,
+  "reactor_additional_stat": [
+    {
+      "additional_stat_name": "string",
+      "additional_stat_value": "string"
+    }
+  ],
+  "reactor_enchant_level": 0
+}
