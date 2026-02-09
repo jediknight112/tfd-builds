@@ -1,0 +1,332 @@
+import { state } from '../state.js';
+import { UIComponents } from '../ui-components.js';
+
+export class WeaponSelector {
+  openWeaponSelector(weaponIndex) {
+    state.currentWeaponSlot = { index: weaponIndex, type: 'weapon' };
+    
+    const modal = document.getElementById('weapon-selector-modal');
+    if (modal) {
+      modal.classList.remove('hidden');
+    }
+    
+    const slotInfo = document.getElementById('weapon-slot-info');
+    if (slotInfo) {
+      const countSpan = slotInfo.querySelector('#weapon-count');
+      if (countSpan) {
+        slotInfo.innerHTML = `Weapon Slot ${weaponIndex + 1} | <span id="weapon-count">Loading...</span>`;
+      } else {
+        slotInfo.textContent = `Weapon Slot ${weaponIndex + 1}`;
+      }
+    }
+    
+    const searchInput = document.getElementById('weapon-search');
+    if (searchInput) {
+      searchInput.value = '';
+      searchInput.focus();
+    }
+    
+    // Reset filters
+    document.querySelectorAll('.module-filter-btn[data-weapon-type]').forEach(btn => {
+      btn.classList.remove('active');
+    });
+    document.querySelector('.module-filter-btn[data-weapon-type="all"]')?.classList.add('active');
+    
+    document.querySelectorAll('.module-filter-btn[data-weapon-tier]').forEach(btn => {
+      btn.classList.remove('active');
+    });
+    document.querySelector('.module-filter-btn[data-weapon-tier="all"]')?.classList.add('active');
+    
+    this.renderWeaponSelectorGrid();
+  }
+
+  closeWeaponSelector() {
+    const modal = document.getElementById('weapon-selector-modal');
+    if (modal) {
+      modal.classList.add('hidden');
+    }
+    state.currentWeaponSlot = null;
+  }
+
+  renderWeaponSelectorGrid(searchQuery = '', typeFilter = 'all', tierFilter = 'all') {
+    const grid = document.getElementById('weapon-selector-grid');
+    if (!grid) return;
+    
+    let filteredWeapons = state.weapons.filter(weapon => {
+      // Filter by search query
+      if (searchQuery && !weapon.weapon_name.toLowerCase().includes(searchQuery.toLowerCase())) {
+        return false;
+      }
+      
+      // Filter by weapon type
+      if (typeFilter !== 'all' && weapon.weapon_type !== typeFilter) {
+        return false;
+      }
+      
+      // Filter by tier
+      if (tierFilter !== 'all' && weapon.weapon_tier_id !== tierFilter) {
+        return false;
+      }
+      
+      return true;
+    });
+    
+    filteredWeapons.sort((a, b) => a.weapon_name.localeCompare(b.weapon_name));
+    
+    grid.innerHTML = filteredWeapons.map(weapon => `
+      <div class="card cursor-pointer hover:scale-105 transition-transform p-3" 
+           onclick="window.app.selectWeapon('${weapon.weapon_id}')">
+        ${weapon.image_url ? 
+          `<img src="${weapon.image_url}" alt="${weapon.weapon_name}" class="w-full h-32 object-contain mb-2">` :
+          '<div class="w-full h-32 bg-gray-800 rounded flex items-center justify-center mb-2"><span class="text-gray-600">No Image</span></div>'
+        }
+        <h4 class="font-bold text-sm text-tfd-primary mb-1">${weapon.weapon_name}</h4>
+        <div class="text-xs text-gray-400">
+          <div>${weapon.weapon_type}</div>
+          <div>${weapon.weapon_tier_id?.replace('Tier', 'Tier ') || 'Unknown Tier'}</div>
+        </div>
+      </div>
+    `).join('');
+    
+    const countEl = document.getElementById('weapon-count');
+    if (countEl) {
+      countEl.textContent = `${filteredWeapons.length} weapons`;
+    }
+  }
+
+  selectWeapon(weaponId) {
+    console.log('selectWeapon called with:', weaponId);
+    console.log('currentWeaponSlot:', state.currentWeaponSlot);
+    console.log('Available weapons:', state.weapons.length);
+    
+    if (!state.currentWeaponSlot || state.currentWeaponSlot.type !== 'weapon') {
+      console.error('Invalid weapon slot state');
+      return;
+    }
+    
+    const weapon = state.weapons.find(w => w.weapon_id === weaponId);
+    console.log('Found weapon:', weapon);
+    
+    if (!weapon) {
+      console.error('Weapon not found:', weaponId);
+      return;
+    }
+    
+    const weaponIndex = state.currentWeaponSlot.index;
+    state.currentBuild.weapons[weaponIndex].weapon = weapon;
+    console.log('Weapon assigned to slot', weaponIndex);
+    
+    this.closeWeaponSelector();
+    
+    // Re-render weapons via app instance
+    if (window.app) {
+      window.app.renderWeapons();
+    }
+  }
+
+  filterWeapons() {
+    const searchInput = document.getElementById('weapon-search');
+    const searchQuery = searchInput ? searchInput.value : '';
+    
+    const activeTypeFilter = document.querySelector('.module-filter-btn.active[data-weapon-type]');
+    const typeFilter = activeTypeFilter ? activeTypeFilter.dataset.weaponType : 'all';
+    
+    const activeTierFilter = document.querySelector('.module-filter-btn.active[data-weapon-tier]');
+    const tierFilter = activeTierFilter ? activeTierFilter.dataset.weaponTier : 'all';
+    
+    this.renderWeaponSelectorGrid(searchQuery, typeFilter, tierFilter);
+  }
+
+  filterWeaponsByType(type) {
+    document.querySelectorAll('.module-filter-btn[data-weapon-type]').forEach(btn => {
+      if (btn.dataset.weaponType === type) {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
+    });
+    this.filterWeapons();
+  }
+
+  filterWeaponsByTier(tier) {
+    document.querySelectorAll('.module-filter-btn[data-weapon-tier]').forEach(btn => {
+      if (btn.dataset.weaponTier === tier) {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
+    });
+    this.filterWeapons();
+  }
+
+  // Weapon Module Methods
+  openWeaponModuleSelector(weaponIndex, moduleIndex) {
+    const weaponData = state.currentBuild.weapons[weaponIndex];
+    if (!weaponData?.weapon) {
+      alert('Please select a weapon first');
+      return;
+    }
+    
+    state.currentWeaponSlot = { 
+      index: weaponIndex, 
+      moduleIndex: moduleIndex,
+      type: 'module'
+    };
+    
+    const modal = document.getElementById('module-selector-modal');
+    if (modal) {
+      modal.classList.remove('hidden');
+    }
+    
+    const slotInfo = document.getElementById('module-slot-info');
+    if (slotInfo) {
+      const weapon = weaponData.weapon;
+      const countSpan = slotInfo.querySelector('#module-count');
+      if (countSpan) {
+        slotInfo.innerHTML = `${weapon.weapon_name} - Module Slot ${moduleIndex + 1} | <span id="module-count">Loading...</span>`;
+      } else {
+        slotInfo.textContent = `${weapon.weapon_name} - Module Slot ${moduleIndex + 1}`;
+      }
+    }
+    
+    const searchInput = document.getElementById('module-search');
+    if (searchInput) {
+      searchInput.value = '';
+      searchInput.focus();
+    }
+    
+    // Reset filters
+    document.querySelectorAll('.module-filter-btn[data-socket]').forEach(btn => {
+      btn.classList.remove('active');
+    });
+    document.querySelector('.module-filter-btn[data-socket="all"]')?.classList.add('active');
+    
+    document.querySelectorAll('.module-filter-btn[data-tier]').forEach(btn => {
+      btn.classList.remove('active');
+    });
+    document.querySelector('.module-filter-btn[data-tier="all"]')?.classList.add('active');
+    
+    // Render weapon modules (filter by weapon_rounds_type)
+    this.renderWeaponModuleSelectorGrid();
+  }
+
+  renderWeaponModuleSelectorGrid(searchQuery = '', socketFilter = 'all', tierFilter = 'all') {
+    const grid = document.getElementById('module-selector-grid');
+    if (!grid) return;
+    
+    const weaponData = state.currentBuild.weapons[state.currentWeaponSlot.index];
+    const weapon = weaponData?.weapon;
+    if (!weapon) return;
+    
+    // Convert weapon type to module format using metadata lookup
+    const weaponTypeForModule = state.getWeaponTypeCode(weapon.weapon_type);
+    if (!weaponTypeForModule) {
+      console.warn('Unknown weapon type:', weapon.weapon_type);
+      return;
+    }
+    
+    // Filter modules for this weapon type
+    let filteredModules = state.modules.filter(module => {
+      // Only show modules that match the weapon's specific rounds type
+      // Don't show General Rounds modules for specialized weapons
+      if (module.module_class !== weapon.weapon_rounds_type) {
+        return false;
+      }
+      
+      // Check if module is available for this specific weapon type (if specified)
+      if (module.available_weapon_type && module.available_weapon_type.length > 0) {
+        if (!module.available_weapon_type.includes(weaponTypeForModule)) {
+          return false;
+        }
+      }
+      
+      // Filter by search query
+      if (searchQuery && !module.module_name.toLowerCase().includes(searchQuery.toLowerCase())) {
+        return false;
+      }
+      
+      // Filter by socket type
+      if (socketFilter !== 'all' && module.module_socket_type !== socketFilter) {
+        return false;
+      }
+      
+      // Filter by tier
+      if (tierFilter !== 'all' && module.module_tier_id !== tierFilter) {
+        return false;
+      }
+      
+      return true;
+    });
+    
+    filteredModules.sort((a, b) => a.module_name.localeCompare(b.module_name));
+    
+    grid.innerHTML = filteredModules.map(module => `
+      <div class="module-card cursor-pointer hover:scale-105 transition-transform" 
+           data-module-id="${module.module_id}"
+           onclick="window.app.selectWeaponModule('${module.module_id}')">
+        <div class="relative">
+          ${module.image_url 
+            ? `<img src="${module.image_url}" alt="${module.module_name}" class="w-full h-32 object-cover rounded-t-lg">`
+            : '<div class="w-full h-32 bg-gray-800 rounded-t-lg flex items-center justify-center"><span class="text-gray-600">No Image</span></div>'
+          }
+          <div class="absolute top-2 right-2 px-2 py-1 text-xs rounded ${
+            module.module_socket_type === 'Almandine' ? 'bg-red-600' :
+            module.module_socket_type === 'Malachite' ? 'bg-green-600' :
+            module.module_socket_type === 'Cerulean' ? 'bg-blue-600' :
+            module.module_socket_type === 'Xantic' ? 'bg-yellow-600' :
+            module.module_socket_type === 'Rutile' ? 'bg-purple-600' :
+            'bg-gray-500'
+          }">
+            ${module.module_socket_type || 'N/A'}
+          </div>
+        </div>
+        <div class="p-3">
+          <h4 class="font-bold text-sm mb-1 text-tfd-primary">${module.module_name}</h4>
+          <div class="text-xs text-gray-400 space-y-1">
+            ${module.module_tier_id ? `<div>${module.module_tier_id.replace('Tier', 'Tier ')}</div>` : ''}
+            ${module.module_class ? `<div>${module.module_class}</div>` : ''}
+            ${module.module_type ? `<div class="text-tfd-accent">Type: ${module.module_type}</div>` : ''}
+          </div>
+        </div>
+      </div>
+    `).join('');
+    
+    const countEl = document.getElementById('module-count');
+    if (countEl) {
+      countEl.textContent = `${filteredModules.length} modules`;
+    }
+  }
+
+  selectWeaponModule(moduleId) {
+    if (!state.currentWeaponSlot || state.currentWeaponSlot.type !== 'module') return;
+    
+    const module = state.modules.find(m => m.module_id === moduleId);
+    if (!module) return;
+    
+    // Check module_type uniqueness for this weapon
+    if (module.module_type) {
+      const weaponData = state.currentBuild.weapons[state.currentWeaponSlot.index];
+      const duplicateIndex = weaponData.modules.findIndex((m, idx) => 
+        m && m.module_type === module.module_type && idx !== state.currentWeaponSlot.moduleIndex
+      );
+      
+      if (duplicateIndex !== -1) {
+        alert(`A module with type "${module.module_type}" is already equipped in Module Slot ${duplicateIndex + 1}. Only one module of each type is allowed per weapon.`);
+        return;
+      }
+    }
+    
+    state.currentBuild.weapons[state.currentWeaponSlot.index].modules[state.currentWeaponSlot.moduleIndex] = module;
+    
+    // Close the modal
+    const modal = document.getElementById('module-selector-modal');
+    if (modal) {
+      modal.classList.add('hidden');
+    }
+    
+    // Re-render weapons via app instance
+    if (window.app) {
+      window.app.renderWeapons();
+    }
+  }
+}

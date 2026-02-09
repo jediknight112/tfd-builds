@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+@import url('https://cdn.jsdelivr.net/npm/elice-digital-baeum@1.0.0/dist/elice-digital-baeum.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-tfd-darker text-gray-100 font-gaming;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-tfd-dark border border-tfd-primary/30 rounded-lg p-4 shadow-lg hover:border-tfd-primary/60 transition-all duration-300;
+  }
+
+  .card-header {
+    @apply text-tfd-primary font-bold text-lg mb-3 uppercase tracking-wider;
+  }
+
+  .module-slot {
+    @apply bg-tfd-darker border-2 border-gray-700 rounded p-2 text-sm hover:border-tfd-primary/50 transition-colors cursor-pointer overflow-hidden;
+  }
+
+  .module-slot.filled {
+    @apply border-tfd-primary bg-tfd-primary/10;
+  }
+
+  .module-slot img {
+    @apply transition-transform duration-300;
+  }
+
+  .module-slot:hover img {
+    @apply scale-110;
+  }
+
+  .stat-bar {
+    @apply bg-gray-700 rounded-full h-2 overflow-hidden;
+  }
+
+  .stat-bar-fill {
+    @apply bg-gradient-to-r from-tfd-primary to-tfd-accent h-full transition-all duration-500;
+  }
+
+  .btn-primary {
+    @apply bg-tfd-primary hover:bg-tfd-primary/80 text-tfd-darker font-bold py-2 px-6 rounded-lg transition-all duration-300 shadow-neon hover:shadow-neon-strong uppercase tracking-wide;
+  }
+
+  .btn-secondary {
+    @apply bg-tfd-dark hover:bg-tfd-dark/80 border border-tfd-primary text-tfd-primary font-bold py-2 px-6 rounded-lg transition-all duration-300 hover:shadow-neon uppercase tracking-wide;
+  }
+
+  .section-title {
+    @apply text-2xl font-bold text-tfd-primary mb-4 uppercase tracking-wider flex items-center gap-2;
+  }
+
+  .weapon-card {
+    @apply bg-gradient-to-br from-tfd-dark to-tfd-darker border border-tfd-secondary/40 rounded-lg p-4 hover:border-tfd-secondary transition-all duration-300;
+  }
+
+  .tab {
+    @apply px-4 py-2 rounded-t-lg border-b-2 border-transparent hover:border-tfd-primary/50 transition-all cursor-pointer;
+  }
+
+  .tab.active {
+    @apply border-tfd-primary bg-tfd-primary/10 text-tfd-primary;
+  }
+
+  .module-filter-btn {
+    @apply px-3 py-1 text-sm rounded border border-gray-700 hover:border-tfd-primary transition-colors cursor-pointer;
+  }
+
+  .module-filter-btn.active {
+    @apply border-tfd-primary bg-tfd-primary/20 text-tfd-primary;
+  }
+
+  .grid-bg {
+    @apply bg-grid-pattern bg-grid;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 0 10px rgba(0, 217, 255, 0.5);
+  }
+
+  .glow {
+    filter: drop-shadow(0 0 8px rgba(0, 217, 255, 0.6));
+  }
+}

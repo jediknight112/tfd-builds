@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TFD Build Viewer - The First Descendant</title>
+  <link rel="icon" type="image/png" href="/TFD_icon.png">
+  <link rel="stylesheet" href="/src/styles/input.css">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
+</head>
+<body class="min-h-screen">
+  <!-- Header -->
+  <header class="bg-tfd-dark border-b border-tfd-primary/30 shadow-lg sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-4">
+          <h1 class="text-3xl font-bold text-tfd-primary text-shadow">TFD BUILD VIEWER</h1>
+          <span class="text-sm text-gray-400">The First Descendant</span>
+        </div>
+        <nav class="flex gap-4">
+          <button class="btn-secondary text-sm py-1 px-4" onclick="app.openSettings()">
+            <svg class="w-4 h-4 inline mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+            </svg>
+            Settings
+          </button>
+          <button class="btn-secondary text-sm py-1 px-4" onclick="app.loadDescendants()">
+            Refresh Data
+          </button>
+          <button class="btn-primary text-sm py-1 px-4" onclick="app.createNewBuild()">
+            + New Build
+          </button>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container mx-auto px-4 py-8">
+    <!-- Descendant Selection -->
+    <section class="mb-8">
+      <div class="card">
+        <h2 class="card-header flex items-center gap-2">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+          </svg>
+          Select Descendant
+        </h2>
+        <div id="descendant-selector" class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+          <!-- Populated by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Build Content -->
+    <div id="build-container" class="hidden">
+      <!-- Descendant Info Header -->
+      <section class="mb-6">
+        <div class="card bg-gradient-to-r from-tfd-dark via-tfd-dark to-tfd-accent/20">
+          <div class="flex items-center gap-6">
+            <div id="descendant-image" class="w-32 h-32 bg-tfd-darker rounded-lg border-2 border-tfd-primary flex items-center justify-center overflow-hidden flex-shrink-0">
+              <svg class="w-16 h-16 text-tfd-primary/50" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"></path>
+              </svg>
+            </div>
+            <div class="flex-1 min-w-0">
+              <h2 id="descendant-name" class="text-3xl font-bold text-tfd-primary mb-2">Descendant Name</h2>
+              <p id="descendant-description" class="text-gray-400">Descendant description will appear here</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab Navigation -->
+      <section class="mb-6">
+        <div class="flex gap-2 border-b border-tfd-primary/30 overflow-x-auto">
+          <button class="tab active" data-tab="modules" onclick="app.switchTab('modules')">Modules</button>
+          <button class="tab" data-tab="weapons" onclick="app.switchTab('weapons')">Weapons</button>
+          <button class="tab" data-tab="reactor" onclick="app.switchTab('reactor')">Reactor</button>
+          <button class="tab" data-tab="external" onclick="app.switchTab('external')">External Components</button>
+          <button class="tab" data-tab="arche" onclick="app.switchTab('arche')">Arche Tuning</button>
+          <button class="tab" data-tab="fellow" onclick="app.switchTab('fellow')">Fellow</button>
+          <button class="tab" data-tab="vehicle" onclick="app.switchTab('vehicle')">Vehicle</button>
+          <button class="tab" data-tab="inversion" onclick="app.switchTab('inversion')">Inversion</button>
+        </div>
+      </section>
+
+      <!-- Tab Content -->
+      <section>
+        <!-- Modules Tab -->
+        <div id="tab-modules" class="tab-content">
+          <!-- Trigger Module -->
+          <div class="card">
+            <h3 class="section-title">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+              </svg>
+              Trigger Module
+            </h3>
+            <div id="trigger-module-slot" class="max-w-xs">
+              <!-- Populated by JavaScript -->
+            </div>
+          </div>
+
+          <!-- Descendant Modules -->
+          <div class="card">
+            <h3 class="section-title">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path>
+              </svg>
+              Descendant Modules (12 Slots)
+            </h3>
+            <div class="mb-2 text-sm text-gray-400">
+              <span class="inline-block mr-4">Slot 1: Skill</span>
+              <span class="inline-block mr-4">Slot 7: Sub</span>
+              <span class="inline-block">Slots 2-6, 8-12: Main</span>
+            </div>
+            <div id="descendant-modules" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-3">
+              <!-- Populated by JavaScript -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Weapons Tab -->
+        <div id="tab-weapons" class="tab-content hidden">
+          <div class="space-y-6">
+            <!-- Weapon slots populated by JavaScript -->
+            <div id="weapons-container"></div>
+          </div>
+        </div>
+
+        <!-- Reactor Tab -->
+        <div id="tab-reactor" class="tab-content hidden">
+          <div class="card">
+            <h3 class="section-title">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+              </svg>
+              Reactor Configuration
+            </h3>
+            <div id="reactor-content" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div class="module-slot p-4 text-center">
+                <p class="text-gray-400">Select a reactor...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- External Components Tab -->
+        <div id="tab-external" class="tab-content hidden">
+          <div class="card">
+            <h3 class="section-title">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path>
+              </svg>
+              External Components
+            </h3>
+            <div id="external-components" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+              <!-- Populated by JavaScript -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Arche Tuning Tab -->
+        <div id="tab-arche" class="tab-content hidden">
+          <div class="card">
+            <h3 class="section-title">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
+              </svg>
+              Arche Tuning Configuration
+            </h3>
+            <div id="arche-tuning" class="space-y-4">
+              <div class="module-slot p-4 text-center">
+                <p class="text-gray-400">Configure Arche Tuning...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fellow Tab -->
+        <div id="tab-fellow" class="tab-content hidden">
+          <div class="card">
+            <h3 class="section-title">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+              </svg>
+              Fellow Configuration
+            </h3>
+            <div id="fellow-content" class="space-y-4">
+              <div class="module-slot p-4 text-center">
+                <p class="text-gray-400">Select a Fellow...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Vehicle Tab -->
+        <div id="tab-vehicle" class="tab-content hidden">
+          <div class="card">
+            <h3 class="section-title">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path>
+              </svg>
+              Vehicle Configuration
+            </h3>
+            <div id="vehicle-content" class="space-y-4">
+              <div class="module-slot p-4 text-center">
+                <p class="text-gray-400">Select a Vehicle...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Inversion Reinforcement Tab -->
+        <div id="tab-inversion" class="tab-content hidden">
+          <div class="card">
+            <h3 class="section-title">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4"></path>
+              </svg>
+              Inversion Reinforcement
+            </h3>
+            <div id="inversion-content" class="space-y-4">
+              <div class="module-slot p-4 text-center">
+                <p class="text-gray-400">Configure Inversion Reinforcement...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Loading State -->
+    <div id="loading" class="text-center py-12">
+      <div class="inline-block animate-spin rounded-full h-12 w-12 border-4 border-tfd-primary border-t-transparent"></div>
+      <p class="mt-4 text-gray-400">Loading data...</p>
+    </div>
+
+    <!-- Error State -->
+    <div id="error" class="hidden">
+      <div class="card bg-red-900/20 border-red-500">
+        <h3 class="text-red-400 font-bold mb-2">Error Loading Data</h3>
+        <p id="error-message" class="text-gray-300"></p>
+        <button class="btn-primary mt-4" onclick="app.init()">Retry</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Settings Modal -->
+  <div id="settings-modal" class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+    <div class="card max-w-md w-full bg-tfd-dark">
+      <div class="flex items-center justify-between mb-4">
+        <h3 class="text-xl font-bold text-tfd-primary">API Settings</h3>
+        <button onclick="app.closeSettings()" class="text-gray-400 hover:text-white">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+      
+      <p class="text-gray-400 text-sm mb-4">
+        The TFD Cache API requires authentication. Enter your API keys below:
+      </p>
+
+      <div class="space-y-4">
+        <div>
+          <label class="block text-sm font-bold text-gray-300 mb-2">
+            Worker API Key
+            <span class="text-xs font-normal text-gray-500">(from tfd-cache deployment)</span>
+          </label>
+          <input 
+            type="password" 
+            id="worker-api-key" 
+            class="w-full bg-tfd-darker border border-gray-700 rounded px-3 py-2 text-white focus:border-tfd-primary focus:outline-none"
+            placeholder="Enter worker API key"
+          >
+        </div>
+
+        <div>
+          <label class="block text-sm font-bold text-gray-300 mb-2">
+            Nexon API Key
+            <span class="text-xs font-normal text-gray-500">(from <a href="https://openapi.nexon.com/" target="_blank" class="text-tfd-primary hover:underline">openapi.nexon.com</a>)</span>
+          </label>
+          <input 
+            type="password" 
+            id="nexon-api-key" 
+            class="w-full bg-tfd-darker border border-gray-700 rounded px-3 py-2 text-white focus:border-tfd-primary focus:outline-none"
+            placeholder="Enter Nexon API key"
+          >
+        </div>
+
+        <div class="bg-tfd-primary/10 border border-tfd-primary/30 rounded p-3 text-sm">
+          <p class="text-tfd-primary font-bold mb-1">💡 Tip</p>
+          <p class="text-gray-300">Keys are stored in your browser's localStorage for convenience. You can also set them in a <code class="bg-tfd-darker px-1">.env</code> file.</p>
+        </div>
+
+        <div class="flex gap-3">
+          <button onclick="app.saveSettings()" class="btn-primary flex-1">
+            Save & Reload
+          </button>
+          <button onclick="app.closeSettings()" class="btn-secondary flex-1">
+            Cancel
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Module Selector Modal -->
+  <div id="module-selector-modal" class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+    <div class="card max-w-6xl w-full bg-tfd-dark max-h-[90vh] flex flex-col">
+      <div class="flex items-center justify-between mb-4">
+        <div>
+          <h3 class="text-xl font-bold text-tfd-primary">Select Module</h3>
+          <p id="module-slot-info" class="text-sm text-gray-400 mt-1"><span id="module-count">0 modules</span></p>
+        </div>
+        <button onclick="app.closeModuleSelector()" class="text-gray-400 hover:text-white">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Search and Filter -->
+      <div class="mb-4 space-y-3">
+        <input 
+          type="text" 
+          id="module-search" 
+          class="w-full bg-tfd-darker border border-gray-700 rounded px-3 py-2 text-white focus:border-tfd-primary focus:outline-none"
+          placeholder="Search modules..."
+          oninput="app.filterModules()"
+        >
+        
+        <!-- Socket Type Filters -->
+        <div>
+          <p class="text-xs text-gray-400 mb-2">Socket Type:</p>
+          <div class="flex gap-2 flex-wrap">
+            <button onclick="app.filterModulesBySocket('all')" class="module-filter-btn active" data-socket="all">All</button>
+            <button onclick="app.filterModulesBySocket('Almandine')" class="module-filter-btn" data-socket="Almandine">Almandine</button>
+            <button onclick="app.filterModulesBySocket('Malachite')" class="module-filter-btn" data-socket="Malachite">Malachite</button>
+            <button onclick="app.filterModulesBySocket('Cerulean')" class="module-filter-btn" data-socket="Cerulean">Cerulean</button>
+            <button onclick="app.filterModulesBySocket('Xantic')" class="module-filter-btn" data-socket="Xantic">Xantic</button>
+            <button onclick="app.filterModulesBySocket('Rutile')" class="module-filter-btn" data-socket="Rutile">Rutile</button>
+          </div>
+        </div>
+        
+        <!-- Tier Filters -->
+        <div>
+          <p class="text-xs text-gray-400 mb-2">Tier:</p>
+          <div class="flex gap-2 flex-wrap">
+            <button onclick="app.filterModulesByTier('all')" class="module-filter-btn active" data-tier="all">All</button>
+            <button onclick="app.filterModulesByTier('Tier1')" class="module-filter-btn" data-tier="Tier1">Normal</button>
+            <button onclick="app.filterModulesByTier('Tier2')" class="module-filter-btn" data-tier="Tier2">Rare</button>
+            <button onclick="app.filterModulesByTier('Tier3')" class="module-filter-btn" data-tier="Tier3">Ultimate</button>
+            <button onclick="app.filterModulesByTier('Tier4')" class="module-filter-btn" data-tier="Tier4">Transcendent</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Module Grid -->
+      <div id="module-selector-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 overflow-y-auto flex-1">
+        <!-- Populated by JavaScript -->
+      </div>
+
+      <div class="mt-4 pt-4 border-t border-gray-700 flex justify-end">
+        <button onclick="app.closeModuleSelector()" class="btn-secondary">
+          Cancel
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Weapon Selector Modal -->
+  <div id="weapon-selector-modal" class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+    <div class="card max-w-6xl w-full bg-tfd-dark max-h-[90vh] flex flex-col">
+      <div class="flex items-center justify-between mb-4">
+        <div>
+          <h3 class="text-xl font-bold text-tfd-primary">Select Weapon</h3>
+          <p id="weapon-slot-info" class="text-sm text-gray-400 mt-1"><span id="weapon-count">0 weapons</span></p>
+        </div>
+        <button onclick="app.closeWeaponSelector()" class="text-gray-400 hover:text-white">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Search and Filter -->
+      <div class="mb-4 space-y-3">
+        <input 
+          type="text" 
+          id="weapon-search" 
+          class="w-full bg-tfd-darker border border-gray-700 rounded px-3 py-2 text-white focus:border-tfd-primary focus:outline-none"
+          placeholder="Search weapons..."
+          oninput="app.filterWeapons()"
+        >
+        
+        <!-- Weapon Type Filters -->
+        <div>
+          <p class="text-xs text-gray-400 mb-2">Weapon Type:</p>
+          <div class="flex gap-2 flex-wrap">
+            <button onclick="app.filterWeaponsByType('all')" class="module-filter-btn active" data-weapon-type="all">All</button>
+            <button onclick="app.filterWeaponsByType('Handgun')" class="module-filter-btn" data-weapon-type="Handgun">Handgun</button>
+            <button onclick="app.filterWeaponsByType('Assault Rifle')" class="module-filter-btn" data-weapon-type="Assault Rifle">Assault Rifle</button>
+            <button onclick="app.filterWeaponsByType('Scout Rifle')" class="module-filter-btn" data-weapon-type="Scout Rifle">Scout Rifle</button>
+            <button onclick="app.filterWeaponsByType('SMG')" class="module-filter-btn" data-weapon-type="SMG">SMG</button>
+            <button onclick="app.filterWeaponsByType('Shotgun')" class="module-filter-btn" data-weapon-type="Shotgun">Shotgun</button>
+            <button onclick="app.filterWeaponsByType('Machine Gun')" class="module-filter-btn" data-weapon-type="Machine Gun">Machine Gun</button>
+            <button onclick="app.filterWeaponsByType('Sniper Rifle')" class="module-filter-btn" data-weapon-type="Sniper Rifle">Sniper Rifle</button>
+            <button onclick="app.filterWeaponsByType('Launcher')" class="module-filter-btn" data-weapon-type="Launcher">Launcher</button>
+          </div>
+        </div>
+        
+        <!-- Tier Filters -->
+        <div>
+          <p class="text-xs text-gray-400 mb-2">Tier:</p>
+          <div class="flex gap-2 flex-wrap">
+            <button onclick="app.filterWeaponsByTier('all')" class="module-filter-btn active" data-weapon-tier="all">All</button>
+            <button onclick="app.filterWeaponsByTier('Tier1')" class="module-filter-btn" data-weapon-tier="Tier1">Normal</button>
+            <button onclick="app.filterWeaponsByTier('Tier2')" class="module-filter-btn" data-weapon-tier="Tier2">Rare</button>
+            <button onclick="app.filterWeaponsByTier('Tier3')" class="module-filter-btn" data-weapon-tier="Tier3">Ultimate</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Weapon Grid -->
+      <div id="weapon-selector-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 overflow-y-auto flex-1">
+        <!-- Populated by JavaScript -->
+      </div>
+
+      <div class="mt-4 pt-4 border-t border-gray-700 flex justify-end">
+        <button onclick="app.closeWeaponSelector()" class="btn-secondary">
+          Cancel
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Core Type Selector Modal -->
+  <div id="core-selector-modal" class="fixed inset-0 bg-black/80 z-50 hidden flex items-center justify-center p-4">
+    <div class="bg-tfd-darker border border-tfd-primary rounded-lg max-w-4xl w-full max-h-[90vh] flex flex-col">
+      <div class="p-6 border-b border-gray-700">
+        <div class="flex items-center justify-between mb-4">
+          <h3 class="text-2xl font-bold text-tfd-primary">Select Weapon Core</h3>
+          <button onclick="app.closeCoreSelector()" class="text-gray-400 hover:text-tfd-primary text-2xl leading-none">&times;</button>
+        </div>
+        <p id="core-slot-info" class="text-sm text-gray-400">Select a core type and configure stats</p>
+      </div>
+
+      <!-- Core Type Grid -->
+      <div id="core-selector-grid" class="grid grid-cols-1 md:grid-cols-2 gap-3 p-6 overflow-y-auto flex-1">
+        <!-- Populated by JavaScript -->
+      </div>
+
+      <div class="p-6 border-t border-gray-700 flex justify-end">
+        <button onclick="app.closeCoreSelector()" class="btn-secondary">
+          Cancel
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Core Type Selector Modal -->
+  <div id="core-selector-modal" class="fixed inset-0 bg-black/80 z-50 hidden flex items-center justify-center p-4">
+    <div class="bg-tfd-darker border border-tfd-primary rounded-lg max-w-4xl w-full max-h-[90vh] flex flex-col">
+      <div class="p-6 border-b border-gray-700">
+        <div class="flex items-center justify-between mb-4">
+          <h3 class="text-2xl font-bold text-tfd-primary">Select Weapon Core</h3>
+          <button onclick="app.closeCoreSelector()" class="text-gray-400 hover:text-tfd-primary text-2xl leading-none">&times;</button>
+        </div>
+        <p id="core-slot-info" class="text-sm text-gray-400">Select a core type and configure stats</p>
+      </div>
+
+      <!-- Core Type Grid -->
+      <div id="core-selector-grid" class="grid grid-cols-1 md:grid-cols-2 gap-3 p-6 overflow-y-auto flex-1">
+        <!-- Populated by JavaScript -->
+      </div>
+
+      <div class="p-6 border-t border-gray-700 flex justify-end">
+        <button onclick="app.closeCoreSelector()" class="btn-secondary">
+          Cancel
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Custom Stat Selector Modal -->
+  <div id="custom-stat-modal" class="fixed inset-0 bg-black/80 z-50 hidden flex items-center justify-center p-4">
+    <div class="bg-tfd-darker border border-tfd-primary rounded-lg max-w-2xl w-full max-h-[80vh] flex flex-col">
+      <div class="p-6 border-b border-gray-700">
+        <div class="flex items-center justify-between mb-4">
+          <h3 class="text-2xl font-bold text-tfd-primary">Add Custom Stat</h3>
+          <button onclick="app.closeCustomStatSelector()" class="text-gray-400 hover:text-tfd-primary text-2xl leading-none">&times;</button>
+        </div>
+        <p id="custom-stat-info" class="text-sm text-gray-400">Select a stat and enter a value</p>
+      </div>
+
+      <div class="p-6 flex-1 overflow-y-auto">
+        <!-- Search -->
+        <div class="mb-4">
+          <input 
+            type="text" 
+            id="stat-search" 
+            placeholder="Search stats..." 
+            class="w-full px-4 py-2 bg-tfd-dark border border-gray-600 rounded-lg text-gray-300 placeholder-gray-500 focus:border-tfd-primary focus:outline-none"
+            oninput="app.filterStats()"
+          >
+        </div>
+
+        <!-- Stat Selection -->
+        <div id="stat-selector-grid" class="space-y-2 max-h-[40vh] overflow-y-auto mb-4">
+          <!-- Populated by JavaScript -->
+        </div>
+
+        <!-- Value Input -->
+        <div class="mt-4">
+          <label class="block text-sm font-bold text-gray-300 mb-2">Stat Value</label>
+          <input 
+            type="number" 
+            step="0.01"
+            id="custom-stat-value" 
+            placeholder="Enter value (e.g., 150 or 0.25 for 25%)" 
+            class="w-full px-4 py-2 bg-tfd-dark border border-gray-600 rounded-lg text-gray-300 placeholder-gray-500 focus:border-tfd-primary focus:outline-none"
+          >
+        </div>
+      </div>
+
+      <div class="p-6 border-t border-gray-700 flex justify-end gap-2">
+        <button onclick="app.closeCustomStatSelector()" class="btn-secondary">
+          Cancel
+        </button>
+        <button onclick="app.saveCustomStat()" class="btn-primary">
+          Add Stat
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-tfd-dark border-t border-tfd-primary/30 mt-12 py-6">
+    <div class="container mx-auto px-4 text-center text-gray-400 text-sm">
+      <p>TFD Build Viewer - The First Descendant Character Build Planner</p>
+      <p class="mt-2">Data provided by TFD Cache API</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/index.js"></script>
+</body>
+</html>
