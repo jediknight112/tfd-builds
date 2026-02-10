@@ -129,36 +129,50 @@ export class ModuleSelector {
     filteredModules.sort((a, b) => a.module_name.localeCompare(b.module_name));
     
     // Render modules
-    grid.innerHTML = filteredModules.map(module => `
-      <div class="module-card cursor-pointer hover:scale-105 transition-transform" 
-           data-module-id="${module.module_id}"
-           onclick="window.app.selectModule('${module.module_id}')">
-        <div class="relative">
-          ${module.image_url 
-            ? `<img src="${module.image_url}" alt="${module.module_name}" class="w-full h-32 object-cover rounded-t-lg">`
-            : '<div class="w-full h-32 bg-gray-800 rounded-t-lg flex items-center justify-center"><span class="text-gray-600">No Image</span></div>'
-          }
-          <div class="absolute top-2 right-2 px-2 py-1 text-xs rounded ${
-            module.module_socket_type === 'Almandine' ? 'bg-red-600' :
-            module.module_socket_type === 'Malachite' ? 'bg-green-600' :
-            module.module_socket_type === 'Cerulean' ? 'bg-blue-600' :
-            module.module_socket_type === 'Xantic' ? 'bg-yellow-600' :
-            module.module_socket_type === 'Rutile' ? 'bg-purple-600' :
-            'bg-gray-500'
-          }">
-            ${module.module_socket_type || 'N/A'}
+    grid.innerHTML = filteredModules.map(module => {
+      const maxLevelStat = module.module_stat && module.module_stat.length > 0 
+        ? module.module_stat[module.module_stat.length - 1] 
+        : null;
+      
+      const isTriggerModule = slotType === 'Trigger';
+      
+      return `
+        <div class="card cursor-pointer hover:border-cyber-cyan transition-all" 
+             data-module-id="${module.module_id}"
+             onclick="window.app.selectModule('${module.module_id}')">
+          <div class="relative mb-2">
+            ${module.image_url 
+              ? `<img src="${module.image_url}" alt="${module.module_name}" class="w-full h-24 object-contain">`
+              : '<div class="w-full h-24 bg-void-deep flex items-center justify-center"><span class="text-steel-dark text-xs">No Image</span></div>'
+            }
+            ${!isTriggerModule ? `
+              <div class="absolute top-1 right-1 px-1.5 py-0.5 text-xs font-bold rounded ${
+                module.module_socket_type === 'Almandine' ? 'bg-red-600' :
+                module.module_socket_type === 'Malachite' ? 'bg-green-600' :
+                module.module_socket_type === 'Cerulean' ? 'bg-blue-600' :
+                module.module_socket_type === 'Xantic' ? 'bg-yellow-600' :
+                module.module_socket_type === 'Rutile' ? 'bg-purple-600' :
+                'bg-gray-500'
+              }">
+                ${module.module_socket_type?.[0] || '?'}
+              </div>
+            ` : ''}
+            ${!isTriggerModule && maxLevelStat ? `
+              <div class="absolute top-1 left-1 px-1.5 py-0.5 text-xs font-bold rounded bg-amber-gold text-void-deep">
+                ${maxLevelStat.module_capacity}
+              </div>
+            ` : ''}
+          </div>
+          <div class="min-h-0">
+            <h4 class="font-gaming font-bold text-xs text-cyber-cyan mb-1 leading-tight line-clamp-2" title="${module.module_name}">${module.module_name}</h4>
+            <div class="text-xs text-steel-grey space-y-0.5">
+              ${module.module_tier_id ? `<div class="text-tier-${module.module_tier_id.replace('Tier', '').toLowerCase()}">${module.module_tier_id.replace('Tier', 'T')}</div>` : ''}
+              ${maxLevelStat && maxLevelStat.value ? `<div class="text-steel-light line-clamp-2 leading-tight" title="${maxLevelStat.value.replace(/\[\+\]/g, '')}">${maxLevelStat.value.replace(/\[\+\]/g, '')}</div>` : ''}
+            </div>
           </div>
         </div>
-        <div class="p-3">
-          <h4 class="font-bold text-sm mb-1 text-tfd-primary">${module.module_name}</h4>
-          <div class="text-xs text-gray-400 space-y-1">
-            ${module.module_tier_id ? `<div>${module.module_tier_id.replace('Tier', 'Tier ')}</div>` : ''}
-            ${module.available_module_slot_type?.length > 0 ? `<div>Slot: ${module.available_module_slot_type.join(', ')}</div>` : ''}
-            ${module.module_type ? `<div class="text-tfd-accent">Type: ${module.module_type}</div>` : ''}
-          </div>
-        </div>
-      </div>
-    `).join('');
+      `;
+    }).join('');
     
     // Show count
     const countEl = document.getElementById('module-count');
