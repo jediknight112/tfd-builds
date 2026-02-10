@@ -128,6 +128,10 @@ class TFDApiClient {
     return this.fetchMetadata('arche-tuning-node');
   }
 
+  async fetchArcheTuningBoards() {
+    return this.fetchMetadata('arche-tuning-board');
+  }
+
   async fetchWeaponTypes() {
     return this.fetchMetadata('weapon-type');
   }
