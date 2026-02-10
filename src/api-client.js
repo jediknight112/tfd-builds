@@ -63,7 +63,7 @@ class TFDApiClient {
       const { workerApiKey, nexonApiKey } = state.apiKeys;
       
       if (!workerApiKey || !nexonApiKey) {
-        throw new Error('API keys are not set. Please configure in settings.');
+        throw new Error('API keys are not configured. Please contact the administrator.');
       }
 
       const response = await fetch(url, {
@@ -171,7 +171,7 @@ class TFDApiClient {
     const cacheUrl = this.rewriteImageUrl(imageUrl);
     
     if (!workerApiKey || !nexonApiKey) {
-      throw new Error('API keys are not set. Please configure in settings.');
+      throw new Error('API keys are not configured. Please contact the administrator.');
     }
 
     const response = await fetch(cacheUrl, {

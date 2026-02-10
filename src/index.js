@@ -42,7 +42,7 @@ class Application {
       // Check if API keys are configured
       if (!state.apiKeys.workerApiKey || !state.apiKeys.nexonApiKey) {
         UIComponents.hideLoading();
-        UIComponents.showError('API keys not configured. Please click Settings to add your API keys.');
+        UIComponents.showError('API keys are not configured. Please contact the administrator.');
         return;
       }
       
@@ -152,7 +152,7 @@ class Application {
       
       // Check for authentication error
       if (error.message && (error.message.includes('Authentication failed') || error.message.includes('401'))) {
-        UIComponents.showError('Authentication failed. Please check your API keys in Settings.');
+        UIComponents.showError('Authentication failed. Please contact the administrator.');
       } else {
         UIComponents.showError(`Failed to load data: ${error.message || 'Unknown error'}. Please check your connection and try again.`);
       }
@@ -324,48 +324,6 @@ class Application {
       }
       
       window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-  }
-
-  openSettings() {
-    const modal = document.getElementById('settings-modal');
-    const workerKeyInput = document.getElementById('worker-api-key');
-    const nexonKeyInput = document.getElementById('nexon-api-key');
-    
-    if (modal && workerKeyInput && nexonKeyInput) {
-      // Pre-fill with existing keys
-      workerKeyInput.value = state.apiKeys.workerApiKey || '';
-      nexonKeyInput.value = state.apiKeys.nexonApiKey || '';
-      
-      modal.classList.remove('hidden');
-    }
-  }
-
-  closeSettings() {
-    const modal = document.getElementById('settings-modal');
-    if (modal) {
-      modal.classList.add('hidden');
-    }
-  }
-
-  saveSettings() {
-    const workerKeyInput = document.getElementById('worker-api-key');
-    const nexonKeyInput = document.getElementById('nexon-api-key');
-    
-    if (workerKeyInput && nexonKeyInput) {
-      const workerKey = workerKeyInput.value.trim();
-      const nexonKey = nexonKeyInput.value.trim();
-      
-      if (!workerKey || !nexonKey) {
-        alert('Please enter both API keys.');
-        return;
-      }
-      
-      state.setApiKeys(workerKey, nexonKey);
-      this.closeSettings();
-      
-      // Reload data with new keys
-      this.init();
     }
   }
 
