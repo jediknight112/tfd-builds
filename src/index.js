@@ -11,6 +11,7 @@ import { ExternalComponentSelector } from './modules/external-component-selector
 import { CoreSelector } from './modules/core-selector.js';
 import { CustomStatSelector } from './modules/custom-stat-selector.js';
 import { ArcheTuning } from './modules/arche-tuning.js';
+import { BuildSerializer } from './build-serializer.js';
 import { initImageInterceptor } from './image-interceptor.js';
 import './debug-image-loading.js'; // Debug helper for image loading
 
@@ -25,6 +26,7 @@ class Application {
     this.coreSelector = new CoreSelector();
     this.customStatSelector = new CustomStatSelector();
     this.archeTuning = new ArcheTuning();
+    this.buildSerializer = new BuildSerializer(state);
     
     // Initialize image interceptor for authenticated image loading
     this.imageInterceptorCleanup = null;
@@ -36,7 +38,6 @@ class Application {
       
       // Initialize image interceptor
       this.imageInterceptorCleanup = initImageInterceptor();
-      console.log('Image interceptor started');
       
       // Check if API keys are configured
       if (!state.apiKeys.workerApiKey || !state.apiKeys.nexonApiKey) {
@@ -46,15 +47,12 @@ class Application {
       }
       
       // Load all metadata in parallel for better performance
-      console.log('Loading all metadata...');
       const [
         descendants,
         modules,
         weapons,
         reactors,
         externalComponents,
-        fellows,
-        vehicles,
         archeTuningNodes,
         archeTuningBoards,
         archeTuningBoardGroups,
@@ -70,8 +68,6 @@ class Application {
         apiClient.fetchWeapons(),
         apiClient.fetchReactors(),
         apiClient.fetchExternalComponents(),
-        apiClient.fetchFellows(),
-        apiClient.fetchVehicles(),
         apiClient.fetchArcheTuningNodes(),
         apiClient.fetchArcheTuningBoards(),
         apiClient.fetchArcheTuningBoardGroups(),
@@ -89,8 +85,6 @@ class Application {
       state.weapons = weapons || [];
       state.reactors = reactors || [];
       state.externalComponents = externalComponents || [];
-      state.fellows = fellows || [];
-      state.vehicles = vehicles || [];
       state.archeTuningNodes = archeTuningNodes || [];
       state.archeTuningBoards = archeTuningBoards || [];
       state.archeTuningBoardGroups = archeTuningBoardGroups || [];
@@ -110,24 +104,32 @@ class Application {
       this.reactorSelector.setupEventListeners();
       this.externalComponentSelector.setupEventListeners();
       
-      console.log('Metadata loaded:', {
-        descendants: state.descendants.length,
-        modules: state.modules.length,
-        weapons: state.weapons.length,
-        reactors: state.reactors.length,
-        externalComponents: state.externalComponents.length,
-        fellows: state.fellows.length,
-        vehicles: state.vehicles.length,
-        archeTuningNodes: state.archeTuningNodes.length,
-        archeTuningBoards: state.archeTuningBoards.length,
-        archeTuningBoardGroups: state.archeTuningBoardGroups.length,
-        descendantGroups: state.descendantGroups.length,
-        weaponTypes: state.weaponTypes.length,
-        tiers: state.tiers.length,
-        stats: state.stats.length,
-        coreSlots: state.coreSlots.length,
-        coreTypes: state.coreTypes.length
-      });
+      // Check for build in URL hash
+      const urlBuild = this.buildSerializer.loadFromUrl();
+      if (urlBuild && urlBuild.valid) {
+        if (urlBuild.warnings.length > 0) {
+          UIComponents.showWarning(`Build loaded with warnings: ${urlBuild.warnings.join(', ')}`);
+        }
+        // Load the descendant and build
+        await this.selectDescendant(urlBuild.descendant);
+        state.currentBuild = urlBuild.build;
+        // Re-render everything with loaded build
+        this.renderModules();
+        this.renderWeapons();
+        this.renderExternalComponents();
+        // Render special tabs if they have data
+        if (urlBuild.build.reactor) {
+          this.reactorSelector.renderReactorDisplay();
+        }
+        if (urlBuild.build.archeTuning) {
+          this.archeTuning.renderArcheTuningBoard();
+        }
+        UIComponents.showSuccess('Build loaded from URL');
+      } else if (urlBuild === null && window.location.hash) {
+        // Hash exists but failed to parse
+        console.error('Failed to load build from URL hash');
+        UIComponents.showWarning('Failed to load build from URL. Starting fresh.');
+      }
       
       // Render descendants
       const container = document.getElementById('descendant-selector');
@@ -385,15 +387,28 @@ class Application {
   }
 
   filterModules() {
-    this.moduleSelector.filterModules();
+    // Check if we're in weapon module selection mode
+    if (state.currentWeaponSlot?.type === 'module') {
+      this.weaponSelector.filterWeaponModules();
+    } else {
+      this.moduleSelector.filterModules();
+    }
   }
 
   filterModulesBySocket(socket) {
-    this.moduleSelector.filterModulesBySocket(socket);
+    if (state.currentWeaponSlot?.type === 'module') {
+      this.weaponSelector.filterWeaponModulesBySocket(socket);
+    } else {
+      this.moduleSelector.filterModulesBySocket(socket);
+    }
   }
 
   filterModulesByTier(tier) {
-    this.moduleSelector.filterModulesByTier(tier);
+    if (state.currentWeaponSlot?.type === 'module') {
+      this.weaponSelector.filterWeaponModulesByTier(tier);
+    } else {
+      this.moduleSelector.filterModulesByTier(tier);
+    }
   }
 
   // Weapon selector methods (delegated to WeaponSelector)
@@ -435,6 +450,18 @@ class Application {
 
   selectWeaponModule(moduleId) {
     this.weaponSelector.selectWeaponModule(moduleId);
+  }
+
+  filterWeaponModules() {
+    this.weaponSelector.filterWeaponModules();
+  }
+
+  filterWeaponModulesBySocket(socket) {
+    this.weaponSelector.filterWeaponModulesBySocket(socket);
+  }
+
+  filterWeaponModulesByTier(tier) {
+    this.weaponSelector.filterWeaponModulesByTier(tier);
   }
 
   // Core selector methods (delegated to CoreSelector)
@@ -501,6 +528,35 @@ class Application {
 
   removeCustomStat(weaponIndex, statIndex) {
     this.customStatSelector.removeCustomStat(weaponIndex, statIndex);
+  }
+
+  // Build sharing methods
+  shareBuild() {
+    try {
+      if (!state.currentDescendant) {
+        UIComponents.showError('No descendant selected. Please create a build first.');
+        return;
+      }
+
+      const url = this.buildSerializer.generateUrl();
+      
+      // Save to localStorage as backup
+      this.buildSerializer.saveToLocalStorage();
+      
+      // Copy to clipboard
+      navigator.clipboard.writeText(url).then(() => {
+        UIComponents.showSuccess('Build URL copied to clipboard!');
+        console.log('Shared build URL:', url);
+      }).catch(err => {
+        console.error('Failed to copy to clipboard:', err);
+        // Fallback: show the URL in an alert
+        UIComponents.showWarning('Could not copy automatically. Here is your build URL:');
+        prompt('Copy this URL to share your build:', url);
+      });
+    } catch (error) {
+      console.error('Failed to share build:', error);
+      UIComponents.showError(`Failed to create shareable URL: ${error.message}`);
+    }
   }
 }
 

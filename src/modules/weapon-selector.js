@@ -150,17 +150,12 @@ export class WeaponSelector {
   }
 
   selectWeapon(weaponId) {
-    console.log('selectWeapon called with:', weaponId);
-    console.log('currentWeaponSlot:', state.currentWeaponSlot);
-    console.log('Available weapons:', state.weapons.length);
-    
     if (!state.currentWeaponSlot || state.currentWeaponSlot.type !== 'weapon') {
       console.error('Invalid weapon slot state');
       return;
     }
     
     const weapon = state.weapons.find(w => w.weapon_id === weaponId);
-    console.log('Found weapon:', weapon);
     
     if (!weapon) {
       console.error('Weapon not found:', weaponId);
@@ -169,7 +164,6 @@ export class WeaponSelector {
     
     const weaponIndex = state.currentWeaponSlot.index;
     state.currentBuild.weapons[weaponIndex].weapon = weapon;
-    console.log('Weapon assigned to slot', weaponIndex);
     
     this.closeWeaponSelector();
     
@@ -394,5 +388,41 @@ export class WeaponSelector {
     if (window.app) {
       window.app.renderWeapons();
     }
+  }
+
+  // Weapon module filtering methods
+  filterWeaponModules() {
+    const searchInput = document.getElementById('module-search');
+    const searchQuery = searchInput ? searchInput.value : '';
+    
+    const activeSocketFilter = document.querySelector('.module-filter-btn.active[data-socket]');
+    const socketFilter = activeSocketFilter ? activeSocketFilter.dataset.socket : 'all';
+    
+    const activeTierFilter = document.querySelector('.module-filter-btn.active[data-tier]');
+    const tierFilter = activeTierFilter ? activeTierFilter.dataset.tier : 'all';
+    
+    this.renderWeaponModuleSelectorGrid(searchQuery, socketFilter, tierFilter);
+  }
+
+  filterWeaponModulesBySocket(socket) {
+    document.querySelectorAll('.module-filter-btn[data-socket]').forEach(btn => {
+      if (btn.dataset.socket === socket) {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
+    });
+    this.filterWeaponModules();
+  }
+
+  filterWeaponModulesByTier(tier) {
+    document.querySelectorAll('.module-filter-btn[data-tier]').forEach(btn => {
+      if (btn.dataset.tier === tier) {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
+    });
+    this.filterWeaponModules();
   }
 }

@@ -56,8 +56,6 @@ export class ExternalComponentSelector {
     const equipmentType = state.currentExternalComponentType;
     if (!equipmentType) return;
     
-    console.log('renderExternalComponentSelectorGrid called:', { equipmentType, searchQuery, tierFilter, totalComponents: state.externalComponents.length });
-    
     // Filter external components
     let filteredComponents = state.externalComponents.filter(component => {
       // Filter by equipment type
@@ -164,8 +162,6 @@ export class ExternalComponentSelector {
   }
 
   selectExternalComponent(component) {
-    console.log('External Component selected:', component);
-    
     const equipmentType = state.currentExternalComponentType;
     if (!equipmentType) return;
     

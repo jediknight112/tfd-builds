@@ -550,10 +550,7 @@ export class UIComponents {
       })),
       reactor: null,
       externalComponents: [],
-      archeTuning: null,
-      fellow: null,
-      vehicle: null,
-      inversionReinforcement: null
+      archeTuning: null
     };
   }
 
@@ -580,6 +577,60 @@ export class UIComponents {
     }
     
     UIComponents.hideLoading();
+  }
+
+  // Show success toast notification
+  static showSuccess(message) {
+    UIComponents.showToast(message, 'success');
+  }
+
+  // Show warning toast notification
+  static showWarning(message) {
+    UIComponents.showToast(message, 'warning');
+  }
+
+  // Show toast notification
+  static showToast(message, type = 'info') {
+    // Create toast container if it doesn't exist
+    let toastContainer = document.getElementById('toast-container');
+    if (!toastContainer) {
+      toastContainer = document.createElement('div');
+      toastContainer.id = 'toast-container';
+      toastContainer.className = 'fixed top-4 right-4 z-50 flex flex-col gap-2';
+      document.body.appendChild(toastContainer);
+    }
+
+    // Create toast element
+    const toast = document.createElement('div');
+    const bgColors = {
+      success: 'bg-green-600',
+      warning: 'bg-yellow-600',
+      error: 'bg-red-600',
+      info: 'bg-blue-600'
+    };
+    toast.className = `${bgColors[type] || bgColors.info} text-white px-6 py-3 rounded-lg shadow-lg flex items-center gap-3 min-w-[300px] animate-slide-in`;
+    
+    const icons = {
+      success: '✓',
+      warning: '⚠',
+      error: '✕',
+      info: 'ℹ'
+    };
+    
+    toast.innerHTML = `
+      <span class="text-xl font-bold">${icons[type] || icons.info}</span>
+      <span class="flex-1">${message}</span>
+      <button onclick="this.parentElement.remove()" class="text-white hover:text-gray-200 text-xl font-bold">&times;</button>
+    `;
+    
+    toastContainer.appendChild(toast);
+    
+    // Auto-remove after 5 seconds
+    setTimeout(() => {
+      toast.style.opacity = '0';
+      toast.style.transform = 'translateX(100%)';
+      setTimeout(() => toast.remove(), 300);
+    }, 5000);
   }
 
   // Show build container

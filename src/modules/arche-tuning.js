@@ -23,6 +23,7 @@ export class ArcheTuning {
     this.archeBoardData = null;
     this.archeNodeData = null;
     this.statData = null;
+    this.currentBoard = null; // Currently active board
     this.nodePositionMap = {}; // Maps "row,col" to node_id
     this.metadataLoaded = false;
   }
@@ -102,18 +103,10 @@ export class ArcheTuning {
   }
 
   loadMetadata() {
-    console.log('loadMetadata() called - loading from state');
-    
     // Get data from state (already loaded on page init)
     this.archeBoardData = state.archeTuningBoards;
     this.archeNodeData = state.archeTuningNodes;
     this.statData = state.stats;
-    
-    console.log('Loaded from state:', {
-      boards: this.archeBoardData?.length,
-      nodes: this.archeNodeData?.length,
-      stats: this.statData?.length
-    });
     
     // Find the correct board based on the selected descendant
     let boardToUse = null;
@@ -121,23 +114,19 @@ export class ArcheTuning {
     if (state.currentDescendant && this.archeBoardData && state.archeTuningBoardGroups && state.descendantGroups) {
       // Get the descendant_id from current descendant
       const descendantId = state.currentDescendant.descendant_id;
-      console.log('Current descendant ID:', descendantId);
       
       // Find the descendant group by looking up the descendant
       const descendant = state.descendants.find(d => d.descendant_id === descendantId);
       const descendantGroupId = descendant?.descendant_group_id;
-      console.log('Descendant group ID:', descendantGroupId);
       
       if (descendantGroupId) {
         // Find the board group that matches this descendant group
         const boardGroup = state.archeTuningBoardGroups.find(bg => bg.descendant_group_id === descendantGroupId);
         const archeBoardId = boardGroup?.arche_tuning_board_id;
-        console.log('Arche board ID for this descendant:', archeBoardId);
         
         if (archeBoardId) {
           // Find the actual board with this ID
           boardToUse = this.archeBoardData.find(b => b.arche_tuning_board_id === archeBoardId);
-          console.log('Found board for descendant:', boardToUse ? 'Yes' : 'No');
         }
       }
     }
@@ -145,16 +134,10 @@ export class ArcheTuning {
     // Fall back to first board if no descendant selected or board not found
     if (!boardToUse && this.archeBoardData && this.archeBoardData.length > 0) {
       boardToUse = this.archeBoardData[0];
-      console.log('Using first board as fallback');
     }
     
-    // Log the board data structure to debug
-    if (boardToUse) {
-      console.log('Using board:', {
-        boardId: boardToUse.arche_tuning_board_id,
-        nodeCount: boardToUse.node?.length
-      });
-    }
+    // Store the board for later use
+    this.currentBoard = boardToUse;
     
     // Create position map from the selected board
     if (boardToUse && boardToUse.node && Array.isArray(boardToUse.node)) {
@@ -162,28 +145,10 @@ export class ArcheTuning {
         const key = `${node.position_row},${node.position_column}`;
         this.nodePositionMap[key] = node.node_id;
       });
-      console.log('Created position map with', Object.keys(this.nodePositionMap).length, 'entries');
-      
-      // Log positions that should be visible but have no metadata
-      const missingPositions = [];
-      for (let row = 0; row < this.gridSize; row++) {
-        for (let col = 0; col < this.gridSize; col++) {
-          if (this.gridStructure[row][col]) {
-            const key = `${row},${col}`;
-            if (!this.nodePositionMap[key]) {
-              missingPositions.push(key);
-            }
-          }
-        }
-      }
-      if (missingPositions.length > 0) {
-        console.warn('Positions in grid but missing from metadata:', missingPositions);
-      }
     } else {
-      console.error('Board data does not have node array:', boardToUse);
+      console.error('Arche Tuning: Board data does not have node array');
     }
     
-    console.log('Setting metadataLoaded to true');
     this.metadataLoaded = true;
   }
 
@@ -309,28 +274,23 @@ export class ArcheTuning {
     `;
 
     if (!this.metadataLoaded) {
-      console.log('Loading metadata from state...');
       this.loadMetadata();
     }
     
-    console.log('Rendering grid immediately...');
+    // Load any existing selection from state (must be after metadata load)
+    this.loadFromState();
+    
     this.renderGrid();
   }
 
   renderGrid() {
     const gridContainer = document.getElementById('arche-grid');
     if (!gridContainer) {
-      console.error('Grid container not found!');
+      console.error('Arche Tuning: Grid container not found');
       return;
     }
 
-    console.log('Rendering grid. Metadata loaded:', this.metadataLoaded);
-    console.log('Position map entries:', Object.keys(this.nodePositionMap).length);
-    console.log('Node data available:', this.archeNodeData?.length);
-
     gridContainer.innerHTML = '';
-    
-    let renderedNodes = 0;
     
     // Create grid
     for (let row = 0; row < this.gridSize; row++) {
@@ -377,10 +337,6 @@ export class ArcheTuning {
             }
           }
           
-          if (nodeInfo) {
-            renderedNodes++;
-          }
-          
           // Always show node image if available
           if (nodeInfo && nodeInfo.node_image_url) {
             const imgEl = document.createElement('img');
@@ -411,8 +367,6 @@ export class ArcheTuning {
           rowDiv.appendChild(emptyDiv);
         }
       }
-    console.log('Grid rendered. Total nodes with info:', renderedNodes);
-    
       
       gridContainer.appendChild(rowDiv);
     }
@@ -429,7 +383,6 @@ export class ArcheTuning {
     } else {
       // Selecting - check adjacency first
       if (!this.isAdjacentToSelected(row, col)) {
-        console.log('Cannot select node: not adjacent to selected nodes or anchor');
         return; // Don't re-render if selection was blocked
       }
       
@@ -441,16 +394,17 @@ export class ArcheTuning {
       if (currentCost + nodeCost <= 40) {
         this.selectedNodes.add(nodeKey);
       } else {
-        console.log(`Cannot select node: cost would be ${currentCost + nodeCost}/40`);
         return; // Don't re-render if selection was blocked
       }
     }
     
+    this.saveToState();
     this.renderGrid();
   }
 
   clearSelection() {
     this.selectedNodes.clear();
+    this.saveToState();
     this.renderGrid();
   }
 
@@ -480,6 +434,60 @@ export class ArcheTuning {
       } else {
         countElement.className = 'text-cyber-cyan';
       }
+    }
+  }
+
+  // Save current selection to state
+  saveToState() {
+    // Ensure metadata is loaded
+    if (!this.metadataLoaded) {
+      this.loadMetadata();
+    }
+    
+    if (!this.currentBoard) {
+      return;
+    }
+    
+    // Convert selected nodes Set to array of node objects with position info
+    const selectedNodes = [];
+    this.selectedNodes.forEach(nodeKey => {
+      const [row, col] = nodeKey.split(',').map(Number);
+      const nodeInfo = this.getNodeInfo(row, col);
+      if (nodeInfo) {
+        // Store node with position information
+        selectedNodes.push({
+          ...nodeInfo,
+          position_row: row,
+          position_column: col
+        });
+      }
+    });
+    
+    state.currentBuild.archeTuning = {
+      board: this.currentBoard,
+      selectedNodes: selectedNodes
+    };
+  }
+
+  // Load selection from state
+  loadFromState() {
+    if (!state.currentBuild.archeTuning) {
+      return;
+    }
+    
+    const archeTuning = state.currentBuild.archeTuning;
+    
+    // Clear current selection
+    this.selectedNodes.clear();
+    
+    // Restore selected nodes
+    if (archeTuning.selectedNodes && Array.isArray(archeTuning.selectedNodes)) {
+      archeTuning.selectedNodes.forEach(node => {
+        if (node.position_row !== undefined && node.position_column !== undefined) {
+          const nodeKey = `${node.position_row},${node.position_column}`;
+          this.selectedNodes.add(nodeKey);
+        }
+      });
     }
   }
 }
