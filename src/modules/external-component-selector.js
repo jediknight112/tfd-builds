@@ -1,5 +1,6 @@
 import { state } from '../state.js';
 import { getTierDisplayName } from '../config.js';
+import { UIComponents } from '../ui-components.js';
 
 export class ExternalComponentSelector {
   openExternalComponentSelector(equipmentType) {
@@ -262,7 +263,7 @@ export class ExternalComponentSelector {
               <div class="text-amber-gold text-xs font-bold mb-2">Set Bonus: ${component.set_option_detail[0].set_option}</div>
               ${component.set_option_detail.map(detail => `
                 <div class="text-xs text-steel-light mb-1">
-                  <span class="text-amber-gold font-semibold">${detail.set_count} pieces:</span> ${detail.set_option_effect.replace(/\n/g, '<br>')}
+                  <span class="text-amber-gold font-semibold">${detail.set_count} pieces:</span> ${detail.set_option_effect ? detail.set_option_effect.replace(/\n/g, '<br>') : ''}
                 </div>
               `).join('')}
             </div>
@@ -271,46 +272,122 @@ export class ExternalComponentSelector {
           ${component.available_core_slot && component.available_core_slot.length > 0 ? `
             <div class="border-t border-steel-grey/20 pt-2">
               <h5 class="text-steel-grey text-xs font-semibold mb-2">Core Slot Available</h5>
-              <button 
-                class="btn-secondary text-xs w-full"
-                onclick="app.externalComponentSelector.openCoreSelector('${equipmentType}')"
-              >
-                Configure Core
-              </button>
-              <div class="core-stats-container mt-2"></div>
+              <div class="core-stats-inline space-y-2"></div>
             </div>
           ` : ''}
         `;
       }
       
-      // Populate core stats if configured
-      const componentData = state.currentBuild.externalComponents[equipmentType];
-      if (componentData && componentData.coreType && componentData.coreStats && componentData.coreStats.length > 0) {
-        const coreStatsContainer = slotDiv.querySelector('.core-stats-container');
-        if (coreStatsContainer) {
-          componentData.coreStats.forEach(coreStat => {
+      // Populate inline core stats for external components
+      if (component && component.available_core_slot && component.available_core_slot.length > 0) {
+        const coreStatsInline = slotDiv.querySelector('.core-stats-inline');
+        
+        // Get available core options for this component
+        const availableCoreOptions = UIComponents.getAvailableExternalComponentCoreOptions(component);
+        
+        // Show one slot per core option (not per stat)
+        if (coreStatsInline && availableCoreOptions.length > 0) {
+          for (let i = 0; i < availableCoreOptions.length; i++) {
+            const coreOption = availableCoreOptions[i];
+            const existingCoreStat = slotData && slotData.coreStats ? slotData.coreStats[i] : null;
+            
+            const datalistId = `external-component-core-stats-${equipmentType}-option-${i}`;
+            const datalist = document.createElement('datalist');
+            datalist.id = datalistId;
+            datalist.innerHTML = coreOption.available_stats.map(stat => 
+              `<option value="${state.getStatName(stat.stat_id)}"></option>`
+            ).join('');
+            
             const statDiv = document.createElement('div');
-            statDiv.className = 'flex justify-between items-center text-xs text-gray-300 mt-1';
+            statDiv.className = 'flex items-center gap-2';
             statDiv.innerHTML = `
-              <span>${state.getStatName(coreStat.stat_id)}</span>
+              <input type="text" 
+                list="${datalistId}"
+                class="flex-1 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded text-gray-300 text-xs" 
+                value="${existingCoreStat ? state.getStatName(existingCoreStat.stat_id) : ''}"
+                placeholder="${coreOption.core_type_name} stat..."
+                data-equipment-type="${equipmentType}"
+                data-core-stat-index="${i}"
+                data-option-id="${coreOption.option_id}"
+                data-core-type-id="${coreOption.core_type_id}">
               <input type="number" 
-                class="w-20 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded text-right" 
-                value="${coreStat.stat_value || 0}"
-                data-option-id="${coreStat.option_id}"
-                data-stat-id="${coreStat.stat_id}">
+                step="0.01"
+                class="w-24 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded text-right text-xs" 
+                value="${existingCoreStat ? existingCoreStat.stat_value || 0 : ''}"
+                placeholder="Value"
+                data-equipment-type="${equipmentType}"
+                data-core-stat-index="${i}"
+                data-type="core-value">
+              <button class="text-red-500 hover:text-red-400 w-6 text-center text-sm" 
+                data-equipment-type="${equipmentType}"
+                data-core-stat-index="${i}"
+                data-type="remove-core-stat">×</button>
             `;
             
-            // Add change handler for core stat value
-            const input = statDiv.querySelector('input');
-            input.addEventListener('change', (e) => {
-              const coreTypeId = componentData.coreType;
-              if (window.app) {
-                window.app.updateExternalComponentCoreStatValue(equipmentType, coreTypeId, coreStat.option_id, coreStat.stat_id, parseFloat(e.target.value) || 0);
+            // Add event listeners for stat name input
+            const nameInput = statDiv.querySelector('input[type="text"]');
+            nameInput.addEventListener('change', (e) => {
+              const statName = e.target.value.trim();
+              const coreStatIndex = parseInt(nameInput.dataset.coreStatIndex);
+              const optionId = nameInput.dataset.optionId;
+              const coreTypeId = nameInput.dataset.coreTypeId;
+              
+              if (statName) {
+                // Find the matching stat from the specific core option
+                const matchingStat = coreOption.available_stats.find(s => 
+                  state.getStatName(s.stat_id) === statName
+                );
+                
+                if (matchingStat) {
+                  if (!slotData.coreStats) {
+                    slotData.coreStats = [];
+                  }
+                  
+                  if (!slotData.coreStats[coreStatIndex]) {
+                    slotData.coreStats[coreStatIndex] = {
+                      option_id: optionId,
+                      stat_id: matchingStat.stat_id,
+                      stat_value: 0
+                    };
+                  } else {
+                    slotData.coreStats[coreStatIndex].option_id = optionId;
+                    slotData.coreStats[coreStatIndex].stat_id = matchingStat.stat_id;
+                  }
+                  
+                  if (!slotData.coreType) {
+                    slotData.coreType = coreTypeId;
+                  }
+                  
+                  this.renderExternalComponentsDisplay();
+                }
               }
             });
             
-            coreStatsContainer.appendChild(statDiv);
-          });
+            // Add event listener for value input
+            const valueInput = statDiv.querySelector('input[data-type="core-value"]');
+            valueInput.addEventListener('change', (e) => {
+              const coreStatIndex = parseInt(valueInput.dataset.coreStatIndex);
+              const value = parseFloat(e.target.value) || 0;
+              
+              if (slotData.coreStats && slotData.coreStats[coreStatIndex]) {
+                slotData.coreStats[coreStatIndex].stat_value = value;
+              }
+            });
+            
+            // Add event listener for remove button
+            const removeBtn = statDiv.querySelector('button[data-type="remove-core-stat"]');
+            removeBtn.addEventListener('click', () => {
+              const coreStatIndex = parseInt(removeBtn.dataset.coreStatIndex);
+              if (slotData.coreStats && slotData.coreStats[coreStatIndex]) {
+                slotData.coreStats.splice(coreStatIndex, 1);
+                this.renderExternalComponentsDisplay();
+              }
+            });
+            
+            // Append datalist and stat div to container
+            coreStatsInline.appendChild(datalist);
+            coreStatsInline.appendChild(statDiv);
+          }
         }
       }
       
