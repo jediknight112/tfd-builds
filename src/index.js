@@ -10,6 +10,7 @@ import { ReactorSelector } from './modules/reactor-selector.js';
 import { ExternalComponentSelector } from './modules/external-component-selector.js';
 import { CoreSelector } from './modules/core-selector.js';
 import { CustomStatSelector } from './modules/custom-stat-selector.js';
+import { ArcheTuning } from './modules/arche-tuning.js';
 import { initImageInterceptor } from './image-interceptor.js';
 import './debug-image-loading.js'; // Debug helper for image loading
 
@@ -23,6 +24,7 @@ class Application {
     this.externalComponentSelector = new ExternalComponentSelector();
     this.coreSelector = new CoreSelector();
     this.customStatSelector = new CustomStatSelector();
+    this.archeTuning = new ArcheTuning();
     
     // Initialize image interceptor for authenticated image loading
     this.imageInterceptorCleanup = null;
@@ -292,6 +294,8 @@ class Application {
       this.reactorSelector.renderReactorDisplay();
     } else if (tabName === 'external') {
       this.externalComponentSelector.renderExternalComponentsDisplay();
+    } else if (tabName === 'arche') {
+      this.archeTuning.renderArcheTuningBoard();
     }
   }
 

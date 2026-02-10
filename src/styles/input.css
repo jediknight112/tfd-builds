@@ -32,35 +32,12 @@
 @layer components {
   .card {
     @apply bg-void-blue/60 backdrop-blur-md border border-cyber-cyan/20 p-4 shadow-glass hover:border-cyber-cyan/50 transition-all duration-300 relative mb-6;
-    /* Angular corners using a simpler approach */
-    border-radius: 2px;
-  }
-  
-  .card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 10px;
-    height: 10px;
-    background: linear-gradient(135deg, transparent 50%, var(--tw-bg-opacity, 0.6) 50%);
-    clip-path: polygon(100% 0, 100% 100%, 0 0);
+    border-radius: 0.5rem; /* rounded-lg equivalent */
   }
   
   .card-premium {
     @apply bg-void-blue/60 backdrop-blur-md border border-amber-gold/30 p-4 shadow-glass-gold hover:border-amber-gold/60 transition-all duration-300 relative mb-6;
-    border-radius: 2px;
-  }
-  
-  .card-premium::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 10px;
-    height: 10px;
-    background: linear-gradient(135deg, transparent 50%, rgba(212, 163, 115, 0.3) 50%);
-    clip-path: polygon(100% 0, 100% 100%, 0 0);
+    border-radius: 0.5rem; /* rounded-lg equivalent */
   }
 
   .card-header {
@@ -193,6 +170,62 @@
   .tag-ultimate {
     @apply inline-block px-2 py-0.5 text-xs font-gaming font-bold uppercase bg-amber-gold/20 text-amber-gold border border-amber-gold/50 shadow-gold-glow;
     clip-path: polygon(0 0, calc(100% - 4px) 0, 100% 4px, 100% 100%, 0 100%);
+  }
+  
+  /* Arche Tuning Grid Styles */
+  .arche-grid {
+    @apply bg-void-deep/80 p-4 rounded-lg border border-cyber-cyan/20;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  
+  .arche-row {
+    display: flex;
+    gap: 2px;
+    margin-bottom: 2px;
+  }
+  
+  .arche-node {
+    @apply w-6 h-6 border border-steel-grey/40 bg-void-blue/40 cursor-pointer transition-all duration-200;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  .arche-node:not(.invisible):not(.anchor):hover {
+    @apply border-cyber-cyan bg-cyber-cyan/20 transform scale-110;
+  }
+  
+  .arche-node.selected {
+    @apply bg-cyber-cyan/40 border-cyber-cyan shadow-neon;
+  }
+  
+  .arche-node.selected .node-marker {
+    @apply text-cyber-cyan;
+    text-shadow: 0 0 8px rgba(0, 240, 255, 0.8);
+  }
+  
+  .arche-node.anchor {
+    @apply bg-amber-gold/30 border-amber-gold/60 cursor-default;
+  }
+  
+  .arche-node.anchor::after {
+    content: '⬢';
+    @apply text-amber-gold text-lg;
+  }
+  
+  .arche-node.invisible {
+    @apply border-transparent bg-transparent cursor-default;
+    pointer-events: none;
+  }
+  
+  /* Dim unselected nodes when there are selections */
+  .arche-grid:has(.arche-node.selected) .arche-node:not(.selected):not(.anchor) {
+    @apply opacity-40;
   }
 }
 
