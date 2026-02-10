@@ -248,4 +248,27 @@
   .angle-clip-sm {
     clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 6px 100%, 0 calc(100% - 6px));
   }
+
+  /* Image loading states */
+  img.loading-image {
+    @apply opacity-50 animate-pulse;
+    background: linear-gradient(90deg, #1a1a2e 25%, #2a2a3e 50%, #1a1a2e 75%);
+    background-size: 200% 100%;
+    animation: loading 1.5s ease-in-out infinite;
+  }
+
+  img.loaded-image {
+    @apply opacity-100;
+    animation: fadeIn 0.3s ease-in;
+  }
+
+  @keyframes loading {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
 }

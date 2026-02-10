@@ -10,6 +10,8 @@ import { ReactorSelector } from './modules/reactor-selector.js';
 import { ExternalComponentSelector } from './modules/external-component-selector.js';
 import { CoreSelector } from './modules/core-selector.js';
 import { CustomStatSelector } from './modules/custom-stat-selector.js';
+import { initImageInterceptor } from './image-interceptor.js';
+import './debug-image-loading.js'; // Debug helper for image loading
 
 // Application class - orchestrates all components
 class Application {
@@ -21,11 +23,18 @@ class Application {
     this.externalComponentSelector = new ExternalComponentSelector();
     this.coreSelector = new CoreSelector();
     this.customStatSelector = new CustomStatSelector();
+    
+    // Initialize image interceptor for authenticated image loading
+    this.imageInterceptorCleanup = null;
   }
 
   async init() {
     try {
       UIComponents.showLoading();
+      
+      // Initialize image interceptor
+      this.imageInterceptorCleanup = initImageInterceptor();
+      console.log('Image interceptor started');
       
       // Check if API keys are configured
       if (!state.apiKeys.workerApiKey || !state.apiKeys.nexonApiKey) {
@@ -435,6 +444,18 @@ class Application {
 
   selectCoreType(coreTypeId, weaponIndex) {
     this.coreSelector.selectCoreType(coreTypeId, weaponIndex);
+  }
+
+  toggleExternalComponentCoreStat(equipmentType, coreTypeId, optionId, statId, checked) {
+    this.coreSelector.toggleExternalComponentCoreStat(equipmentType, coreTypeId, optionId, statId, checked);
+  }
+
+  updateExternalComponentCoreStatValue(equipmentType, coreTypeId, optionId, statId, value) {
+    this.coreSelector.updateExternalComponentCoreStatValue(equipmentType, coreTypeId, optionId, statId, value);
+  }
+
+  selectExternalComponentCoreType(coreTypeId, equipmentType) {
+    this.coreSelector.selectExternalComponentCoreType(coreTypeId, equipmentType);
   }
 
   // Custom stat selector methods (delegated to CustomStatSelector)

@@ -1,5 +1,6 @@
 import { state } from '../state.js';
 import { UIComponents } from '../ui-components.js';
+import { getTierDisplayName } from '../config.js';
 
 export class ModuleSelector {
   openModuleSelector(slotIndex, slotType) {
@@ -125,61 +126,96 @@ export class ModuleSelector {
     
     console.log('Filtered modules:', filteredModules.length);
     
-    // Sort modules by name
-    filteredModules.sort((a, b) => a.module_name.localeCompare(b.module_name));
+    // Sort modules by tier, then name
+    filteredModules.sort((a, b) => {
+      const tierOrder = { 'Tier1': 1, 'Tier2': 2, 'Tier3': 3 };
+      const tierDiff = (tierOrder[a.module_tier_id] || 0) - (tierOrder[b.module_tier_id] || 0);
+      if (tierDiff !== 0) return tierDiff;
+      return a.module_name.localeCompare(b.module_name);
+    });
     
-    // Render modules
-    grid.innerHTML = filteredModules.map(module => {
-      const maxLevelStat = module.module_stat && module.module_stat.length > 0 
-        ? module.module_stat[module.module_stat.length - 1] 
-        : null;
-      
-      const isTriggerModule = slotType === 'Trigger';
-      
-      return `
-        <div class="card cursor-pointer hover:border-cyber-cyan transition-all" 
-             data-module-id="${module.module_id}"
-             onclick="window.app.selectModule('${module.module_id}')">
-          <div class="relative mb-2">
-            ${module.image_url 
-              ? `<img src="${module.image_url}" alt="${module.module_name}" class="w-full h-24 object-contain">`
-              : '<div class="w-full h-24 bg-void-deep flex items-center justify-center"><span class="text-steel-dark text-xs">No Image</span></div>'
-            }
-            ${!isTriggerModule ? `
-              <div class="absolute top-1 right-1 px-1.5 py-0.5 text-xs font-bold rounded ${
-                module.module_socket_type === 'Almandine' ? 'bg-red-600' :
-                module.module_socket_type === 'Malachite' ? 'bg-green-600' :
-                module.module_socket_type === 'Cerulean' ? 'bg-blue-600' :
-                module.module_socket_type === 'Xantic' ? 'bg-yellow-600' :
-                module.module_socket_type === 'Rutile' ? 'bg-purple-600' :
-                'bg-gray-500'
-              }">
-                ${module.module_socket_type?.[0] || '?'}
-              </div>
-            ` : ''}
-            ${!isTriggerModule && maxLevelStat ? `
-              <div class="absolute top-1 left-1 px-1.5 py-0.5 text-xs font-bold rounded bg-amber-gold text-void-deep">
-                ${maxLevelStat.module_capacity}
-              </div>
-            ` : ''}
-          </div>
-          <div class="min-h-0">
-            <h4 class="font-gaming font-bold text-xs text-cyber-cyan mb-1 leading-tight line-clamp-2" title="${module.module_name}">${module.module_name}</h4>
-            <div class="text-xs text-steel-grey space-y-0.5">
-              ${module.module_tier_id ? `<div class="text-tier-${module.module_tier_id.replace('Tier', '').toLowerCase()}">${module.module_tier_id.replace('Tier', 'T')}</div>` : ''}
-              ${module.module_type ? `<div class="text-amber-gold font-semibold">${module.module_type}</div>` : ''}
-              ${maxLevelStat && maxLevelStat.value ? `<div class="text-steel-light line-clamp-2 leading-tight" title="${maxLevelStat.value.replace(/\[\+\]/g, '')}">${maxLevelStat.value.replace(/\[\+\]/g, '')}</div>` : ''}
-            </div>
-          </div>
-        </div>
-      `;
-    }).join('');
-    
-    // Show count
+    // Update count
     const countEl = document.getElementById('module-count');
     if (countEl) {
       countEl.textContent = `${filteredModules.length} modules`;
     }
+    
+    // Render modules
+    grid.innerHTML = '';
+    if (filteredModules.length === 0) {
+      grid.innerHTML = '<div class="col-span-full text-center py-8 text-gray-400">No modules found</div>';
+      return;
+    }
+    
+    filteredModules.forEach(module => {
+      const moduleCard = this.createModuleCard(module, slotType);
+      grid.appendChild(moduleCard);
+    });
+  }
+
+  createModuleCard(module, slotType) {
+    const card = document.createElement('div');
+    card.className = 'card cursor-pointer hover:border-cyber-cyan transition-all hover:scale-105';
+    
+    const maxLevelStat = module.module_stat && module.module_stat.length > 0 
+      ? module.module_stat[module.module_stat.length - 1] 
+      : null;
+    
+    const isTriggerModule = slotType === 'Trigger';
+    
+    // Get tier class for border color
+    let tierClass = '';
+    if (module.module_tier_id) {
+      const tierNum = module.module_tier_id.replace('Tier', '');
+      tierClass = `tier-${tierNum}`;
+    }
+    if (tierClass) {
+      card.classList.add('border-2');
+      card.classList.add(`border-${tierClass}`);
+    }
+    
+    card.innerHTML = `
+      <div class="flex flex-col h-full">
+        <div class="flex items-start gap-3 mb-3">
+          ${module.image_url 
+            ? `<img src="${module.image_url}" alt="${module.module_name}" class="w-16 h-16 object-cover rounded border-2 border-steel-grey/30 flex-shrink-0" onerror="this.style.display='none'">`
+            : '<div class="w-16 h-16 bg-void-deep flex items-center justify-center rounded border-2 border-steel-grey/30 flex-shrink-0"><span class="text-steel-dark text-xs">No Image</span></div>'
+          }
+          <div class="flex-1 min-w-0">
+            <h4 class="font-bold text-cyber-cyan line-clamp-2 mb-1">${module.module_name}</h4>
+            <div class="flex flex-wrap gap-1">
+              ${!isTriggerModule && module.module_socket_type ? `
+                <span class="inline-block px-2 py-0.5 rounded text-xs font-semibold ${
+                  module.module_socket_type === 'Almandine' ? 'bg-red-600 text-white' :
+                  module.module_socket_type === 'Rutile' ? 'bg-yellow-600 text-white' :
+                  module.module_socket_type === 'Cerulean' ? 'bg-blue-600 text-white' :
+                  module.module_socket_type === 'Malachite' ? 'bg-green-600 text-white' :
+                  'bg-gray-600 text-white'
+                }">${module.module_socket_type}</span>
+              ` : ''}
+              ${module.module_tier_id ? `<span class="inline-block px-2 py-0.5 rounded text-xs font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${getTierDisplayName(module.module_tier_id)}</span>` : ''}
+              ${module.module_type ? `<span class="inline-block px-2 py-0.5 rounded text-xs font-semibold bg-amber-gold/20 text-amber-gold border border-amber-gold/30">${module.module_type}</span>` : ''}
+            </div>
+          </div>
+        </div>
+        
+        ${maxLevelStat ? `
+          <div class="space-y-2 text-sm border-t border-steel-grey/20 pt-3">
+            ${!isTriggerModule ? `
+              <div class="flex justify-between items-center">
+                <span class="text-steel-grey">Capacity:</span>
+                <span class="text-amber-gold font-bold">${maxLevelStat.module_capacity || 0}</span>
+              </div>
+            ` : ''}
+            ${maxLevelStat.value ? `<div class="text-xs text-steel-light">${maxLevelStat.value.replace(/\[\+\]/g, '')}</div>` : ''}
+          </div>
+        ` : '<div class="text-steel-grey text-sm">No stat data</div>'}
+      </div>
+    `;
+    
+    card.addEventListener('click', () => this.selectModule(module.module_id));
+    
+    return card;
   }
 
   selectModule(moduleId) {

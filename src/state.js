@@ -47,6 +47,7 @@ class AppState {
     this.dataLoaded = false;
     this.currentModuleSlot = null; // Track which module slot is being filled
     this.currentWeaponSlot = null; // Track which weapon slot is being filled (weapon or module)
+    this.currentExternalComponentCoreType = null; // Track which external component is being configured for cores
     this.selectedStatId = null; // Track selected stat in custom stat selector
   }
 

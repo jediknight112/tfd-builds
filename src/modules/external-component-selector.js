@@ -1,4 +1,5 @@
 import { state } from '../state.js';
+import { getTierDisplayName } from '../config.js';
 
 export class ExternalComponentSelector {
   openExternalComponentSelector(equipmentType) {
@@ -136,7 +137,7 @@ export class ExternalComponentSelector {
           >
           <div class="flex-1 min-w-0">
             <h4 class="font-bold text-cyber-cyan line-clamp-2 mb-1">${component.external_component_name}</h4>
-            ${component.external_component_tier_id ? `<span class="inline-block px-2 py-0.5 rounded text-xs font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${component.external_component_tier_id}</span>` : ''}
+            ${component.external_component_tier_id ? `<span class="inline-block px-2 py-0.5 rounded text-xs font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${getTierDisplayName(component.external_component_tier_id)}</span>` : ''}
           </div>
         </div>
         
@@ -175,6 +176,7 @@ export class ExternalComponentSelector {
     // Store in build by equipment type
     state.currentBuild.externalComponents[equipmentType] = {
       component: component,
+      coreType: null,
       coreStats: []
     };
     
@@ -236,7 +238,7 @@ export class ExternalComponentSelector {
             <div class="flex-1 min-w-0">
               <div class="text-steel-grey text-xs mb-1">${equipmentType}</div>
               <h4 class="font-bold text-cyber-cyan mb-1">${component.external_component_name}</h4>
-              ${component.external_component_tier_id ? `<span class="inline-block px-2 py-0.5 rounded text-xs font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${component.external_component_tier_id}</span>` : ''}
+              ${component.external_component_tier_id ? `<span class="inline-block px-2 py-0.5 rounded text-xs font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${getTierDisplayName(component.external_component_tier_id)}</span>` : ''}
             </div>
             <button 
               onclick="app.externalComponentSelector.openExternalComponentSelector('${equipmentType}')"
@@ -281,14 +283,46 @@ export class ExternalComponentSelector {
         `;
       }
       
+      // Populate core stats if configured
+      const componentData = state.currentBuild.externalComponents[equipmentType];
+      if (componentData && componentData.coreType && componentData.coreStats && componentData.coreStats.length > 0) {
+        const coreStatsContainer = slotDiv.querySelector('.core-stats-container');
+        if (coreStatsContainer) {
+          componentData.coreStats.forEach(coreStat => {
+            const statDiv = document.createElement('div');
+            statDiv.className = 'flex justify-between items-center text-xs text-gray-300 mt-1';
+            statDiv.innerHTML = `
+              <span>${state.getStatName(coreStat.stat_id)}</span>
+              <input type="number" 
+                class="w-20 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded text-right" 
+                value="${coreStat.stat_value || 0}"
+                data-option-id="${coreStat.option_id}"
+                data-stat-id="${coreStat.stat_id}">
+            `;
+            
+            // Add change handler for core stat value
+            const input = statDiv.querySelector('input');
+            input.addEventListener('change', (e) => {
+              const coreTypeId = componentData.coreType;
+              if (window.app) {
+                window.app.updateExternalComponentCoreStatValue(equipmentType, coreTypeId, coreStat.option_id, coreStat.stat_id, parseFloat(e.target.value) || 0);
+              }
+            });
+            
+            coreStatsContainer.appendChild(statDiv);
+          });
+        }
+      }
+      
       container.appendChild(slotDiv);
     });
   }
 
   openCoreSelector(equipmentType) {
-    // Similar to weapon core selector - to be implemented
-    console.log('Open core selector for:', equipmentType);
-    alert('Core configuration for external components - coming soon!');
+    // Delegate to CoreSelector
+    if (window.app && window.app.coreSelector) {
+      window.app.coreSelector.openExternalComponentCoreSelector(equipmentType);
+    }
   }
 
   setupEventListeners() {

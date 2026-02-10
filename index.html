@@ -310,33 +310,29 @@
   </div>
 
   <!-- Module Selector Modal -->
-  <div id="module-selector-modal" class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4">
-    <div class="card max-w-6xl w-full bg-tfd-dark max-h-[90vh] flex flex-col">
-      <div class="flex items-center justify-between mb-4">
+  <div id="module-selector-modal" class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4" onclick="if(event.target === this) app.closeModuleSelector()">
+    <div class="card max-w-6xl w-full bg-tfd-dark max-h-[90vh] flex flex-col rounded-lg shadow-[0_0_30px_rgba(0,240,255,0.3)]">
+      <div class="flex items-center justify-between mb-4 p-6 pb-4 border-b border-cyber-cyan/30">
         <div>
-          <h3 class="text-xl font-bold text-tfd-primary">Select Module</h3>
-          <p id="module-slot-info" class="text-sm text-gray-400 mt-1"><span id="module-count">0 modules</span></p>
+          <h3 class="text-3xl font-bold text-cyber-cyan">Select Module</h3>
+          <p id="module-slot-info" class="text-sm text-steel-grey mt-1"><span id="module-count">0 modules</span></p>
         </div>
-        <button onclick="app.closeModuleSelector()" class="text-gray-400 hover:text-white">
-          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-          </svg>
-        </button>
+        <button onclick="app.closeModuleSelector()" class="text-steel-grey hover:text-cyber-cyan text-3xl leading-none transition-colors">&times;</button>
       </div>
 
       <!-- Search and Filter -->
-      <div class="mb-4 space-y-3">
+      <div class="p-6 pt-4 pb-4 border-b border-steel-grey/20 space-y-3">
         <input 
           type="text" 
           id="module-search" 
-          class="w-full bg-tfd-darker border border-gray-700 rounded px-3 py-2 text-white focus:border-tfd-primary focus:outline-none"
+          class="w-full px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-none focus:ring-2 focus:ring-cyber-cyan/50 transition-all"
           placeholder="Search modules..."
           oninput="app.filterModules()"
         >
         
         <!-- Socket Type Filters -->
         <div>
-          <p class="text-xs text-gray-400 mb-2">Socket Type:</p>
+          <p class="text-xs text-steel-grey mb-2">Socket Type:</p>
           <div class="flex gap-2 flex-wrap">
             <button onclick="app.filterModulesBySocket('all')" class="module-filter-btn active" data-socket="all">All</button>
             <button onclick="app.filterModulesBySocket('Almandine')" class="module-filter-btn" data-socket="Almandine">Almandine</button>
@@ -349,7 +345,7 @@
         
         <!-- Tier Filters -->
         <div>
-          <p class="text-xs text-gray-400 mb-2">Tier:</p>
+          <p class="text-xs text-steel-grey mb-2">Tier:</p>
           <div class="flex gap-2 flex-wrap">
             <button onclick="app.filterModulesByTier('all')" class="module-filter-btn active" data-tier="all">All</button>
             <button onclick="app.filterModulesByTier('Tier1')" class="module-filter-btn" data-tier="Tier1">Normal</button>
@@ -361,46 +357,36 @@
       </div>
 
       <!-- Module Grid -->
-      <div id="module-selector-grid" class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-7 gap-3 overflow-y-auto flex-1">
+      <div id="module-selector-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 p-6 pt-4 overflow-y-auto flex-1">
         <!-- Populated by JavaScript -->
-      </div>
-
-      <div class="mt-4 pt-4 border-t border-gray-700 flex justify-end">
-        <button onclick="app.closeModuleSelector()" class="btn-secondary">
-          Cancel
-        </button>
       </div>
     </div>
   </div>
 
   <!-- Weapon Selector Modal -->
-  <div id="weapon-selector-modal" class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4">
-    <div class="card max-w-6xl w-full bg-tfd-dark max-h-[90vh] flex flex-col">
-      <div class="flex items-center justify-between mb-4">
+  <div id="weapon-selector-modal" class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4" onclick="if(event.target === this) app.closeWeaponSelector()">
+    <div class="card max-w-6xl w-full bg-tfd-dark max-h-[90vh] flex flex-col rounded-lg shadow-[0_0_30px_rgba(0,240,255,0.3)]">
+      <div class="flex items-center justify-between mb-4 p-6 pb-4 border-b border-cyber-cyan/30">
         <div>
-          <h3 class="text-xl font-bold text-tfd-primary">Select Weapon</h3>
-          <p id="weapon-slot-info" class="text-sm text-gray-400 mt-1"><span id="weapon-count">0 weapons</span></p>
+          <h3 class="text-3xl font-bold text-cyber-cyan">Select Weapon</h3>
+          <p id="weapon-slot-info" class="text-sm text-steel-grey mt-1"><span id="weapon-count">0 weapons</span></p>
         </div>
-        <button onclick="app.closeWeaponSelector()" class="text-gray-400 hover:text-white">
-          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-          </svg>
-        </button>
+        <button onclick="app.closeWeaponSelector()" class="text-steel-grey hover:text-cyber-cyan text-3xl leading-none transition-colors">&times;</button>
       </div>
 
       <!-- Search and Filter -->
-      <div class="mb-4 space-y-3">
+      <div class="p-6 pt-4 pb-4 border-b border-steel-grey/20 space-y-3">
         <input 
           type="text" 
           id="weapon-search" 
-          class="w-full bg-tfd-darker border border-gray-700 rounded px-3 py-2 text-white focus:border-tfd-primary focus:outline-none"
+          class="w-full px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-none focus:ring-2 focus:ring-cyber-cyan/50 transition-all"
           placeholder="Search weapons..."
           oninput="app.filterWeapons()"
         >
         
         <!-- Weapon Type Filters -->
         <div>
-          <p class="text-xs text-gray-400 mb-2">Weapon Type:</p>
+          <p class="text-xs text-steel-grey mb-2">Weapon Type:</p>
           <div class="flex gap-2 flex-wrap">
             <button onclick="app.filterWeaponsByType('all')" class="module-filter-btn active" data-weapon-type="all">All</button>
             <button onclick="app.filterWeaponsByType('Handgun')" class="module-filter-btn" data-weapon-type="Handgun">Handgun</button>
@@ -416,7 +402,7 @@
         
         <!-- Tier Filters -->
         <div>
-          <p class="text-xs text-gray-400 mb-2">Tier:</p>
+          <p class="text-xs text-steel-grey mb-2">Tier:</p>
           <div class="flex gap-2 flex-wrap">
             <button onclick="app.filterWeaponsByTier('all')" class="module-filter-btn active" data-weapon-tier="all">All</button>
             <button onclick="app.filterWeaponsByTier('Tier1')" class="module-filter-btn" data-weapon-tier="Tier1">Normal</button>
@@ -427,14 +413,8 @@
       </div>
 
       <!-- Weapon Grid -->
-      <div id="weapon-selector-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 overflow-y-auto flex-1">
+      <div id="weapon-selector-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 p-6 pt-4 overflow-y-auto flex-1">
         <!-- Populated by JavaScript -->
-      </div>
-
-      <div class="mt-4 pt-4 border-t border-gray-700 flex justify-end">
-        <button onclick="app.closeWeaponSelector()" class="btn-secondary">
-          Cancel
-        </button>
       </div>
     </div>
   </div>
@@ -520,7 +500,7 @@
       </div>
 
       <!-- Reactor Grid -->
-      <div id="reactor-selector-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-6 overflow-y-auto flex-1">
+      <div id="reactor-selector-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-6 overflow-y-auto flex-1">
         <!-- Populated by JavaScript -->
       </div>
     </div>
@@ -559,7 +539,7 @@
       </div>
 
       <!-- External Component Grid -->
-      <div id="external-component-selector-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-6 overflow-y-auto flex-1">
+      <div id="external-component-selector-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-6 overflow-y-auto flex-1">
         <!-- Populated by JavaScript -->
       </div>
     </div>

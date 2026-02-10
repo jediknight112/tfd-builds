@@ -13,6 +13,7 @@ A modern web application for viewing and planning character builds for **The Fir
 - 👥 **Fellow & Vehicle** - Select and configure Fellows and Vehicles
 - 🔄 **Inversion Reinforcement** - Manage inversion reinforcement settings
 - 💾 **Data Caching** - Powered by TFD Cache API for fast data loading
+- 🖼️ **Image Caching** - Automatic image caching through TFD Cache service with authentication
 
 ## Tech Stack
 
