@@ -32,14 +32,8 @@ async function fetchAuthenticatedImage(url) {
   const { workerApiKey, nexonApiKey } = state.apiKeys;
 
   if (!workerApiKey || !nexonApiKey) {
-    console.warn('API keys not configured for image loading', {
-      hasWorkerKey: !!workerApiKey,
-      hasNexonKey: !!nexonApiKey
-    });
     return null;
   }
-
-  console.log('Fetching authenticated image:', url);
 
   try {
     const response = await fetch(url, {
@@ -49,30 +43,16 @@ async function fetchAuthenticatedImage(url) {
       },
     });
 
-    console.log('Image fetch response:', {
-      url,
-      status: response.status,
-      cacheHeader: response.headers.get('x-cache'),
-      contentType: response.headers.get('content-type')
-    });
-
     if (!response.ok) {
-      console.error(`Failed to fetch image: ${response.status}`, {
-        url,
-        statusText: response.statusText
-      });
+      console.error(`Failed to fetch image: ${response.status}`);
       return null;
     }
 
     const blob = await response.blob();
     const blobUrl = URL.createObjectURL(blob);
-    console.log('Image loaded successfully:', { url, blobUrl });
     return blobUrl;
   } catch (error) {
-    console.error('Error fetching authenticated image:', {
-      url,
-      error: error.message
-    });
+    console.error('Image loading error:', error.message);
     return null;
   }
 }
@@ -122,7 +102,6 @@ async function processImage(img) {
     img.classList.add('loaded-image');
   } else {
     // Fallback: try without auth (might work if cache allows it)
-    console.warn('Failed to load authenticated image, trying direct URL');
     img.src = cacheUrl;
     img.classList.remove('loading-image');
   }
@@ -133,8 +112,6 @@ async function processImage(img) {
  * Watches for new images and processes them
  */
 export function initImageInterceptor() {
-  console.log('Initializing image interceptor...');
-
   // Process existing images
   document.querySelectorAll('img').forEach(img => {
     const src = img.getAttribute('src');
@@ -184,8 +161,6 @@ export function initImageInterceptor() {
     attributes: true,
     attributeFilter: ['src'],
   });
-
-  console.log('Image interceptor initialized');
 
   // Return cleanup function
   return () => {

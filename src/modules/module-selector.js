@@ -76,8 +76,6 @@ export class ModuleSelector {
     const grid = document.getElementById('module-selector-grid');
     if (!grid) return;
     
-    console.log('renderModuleSelectorGrid called:', { slotType, searchQuery, socketFilter, tierFilter, totalModules: state.modules.length });
-    
     // Filter modules
     let filteredModules = state.modules.filter(module => {
       // First filter: Only Descendant modules for descendant slots
@@ -123,8 +121,6 @@ export class ModuleSelector {
       
       return true;
     });
-    
-    console.log('Filtered modules:', filteredModules.length);
     
     // Sort modules by tier, then name
     filteredModules.sort((a, b) => {

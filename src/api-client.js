@@ -62,8 +62,6 @@ class TFDApiClient {
       const url = `${this.baseUrl}/tfd/metadata/${type}?language_code=${this.language}`;
       const { workerApiKey, nexonApiKey } = state.apiKeys;
       
-      console.log(`Fetching ${type} from:`, url);
-      
       if (!workerApiKey || !nexonApiKey) {
         throw new Error('API keys are not set. Please configure in settings.');
       }
@@ -84,7 +82,6 @@ class TFDApiClient {
       }
 
       const data = await response.json();
-      console.log(`${type} loaded:`, data?.length || 'N/A', 'items');
       
       // Process all image URLs to use the cache service
       const processedData = this.processImageUrls(data);

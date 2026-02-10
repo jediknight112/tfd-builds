@@ -49,8 +49,6 @@ export class ReactorSelector {
     const grid = document.getElementById('reactor-selector-grid');
     if (!grid) return;
     
-    console.log('renderReactorSelectorGrid called:', { searchQuery, tierFilter, totalReactors: state.reactors.length });
-    
     // Filter reactors
     let filteredReactors = state.reactors.filter(reactor => {
       // Search filter
@@ -162,8 +160,6 @@ export class ReactorSelector {
   }
 
   selectReactor(reactor) {
-    console.log('Reactor selected:', reactor);
-    
     // Initialize reactorAdditionalStats if it doesn't exist
     if (!state.currentBuild.reactorAdditionalStats) {
       state.currentBuild.reactorAdditionalStats = [

@@ -8,8 +8,6 @@ class AppState {
     this.weapons = [];
     this.reactors = [];
     this.externalComponents = [];
-    this.fellows = [];
-    this.vehicles = [];
     this.archeTuningNodes = [];
     this.archeTuningBoards = [];
     this.archeTuningBoardGroups = [];
