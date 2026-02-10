@@ -132,6 +132,14 @@ class TFDApiClient {
     return this.fetchMetadata('arche-tuning-board');
   }
 
+  async fetchArcheTuningBoardGroups() {
+    return this.fetchMetadata('arche-tuning-board-group');
+  }
+
+  async fetchDescendantGroups() {
+    return this.fetchMetadata('descendant-group');
+  }
+
   async fetchWeaponTypes() {
     return this.fetchMetadata('weapon-type');
   }
