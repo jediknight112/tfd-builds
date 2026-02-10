@@ -11,6 +11,7 @@ class AppState {
     this.fellows = [];
     this.vehicles = [];
     this.archeTuningNodes = [];
+    this.archeTuningBoards = [];
     this.weaponTypes = [];
     this.tiers = [];
     this.stats = [];

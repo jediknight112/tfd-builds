@@ -56,6 +56,7 @@ class Application {
         fellows,
         vehicles,
         archeTuningNodes,
+        archeTuningBoards,
         weaponTypes,
         tiers,
         stats,
@@ -70,6 +71,7 @@ class Application {
         apiClient.fetchFellows(),
         apiClient.fetchVehicles(),
         apiClient.fetchArcheTuningNodes(),
+        apiClient.fetchArcheTuningBoards(),
         apiClient.fetchWeaponTypes(),
         apiClient.fetchTiers(),
         apiClient.fetchStats(),
@@ -86,6 +88,7 @@ class Application {
       state.fellows = fellows || [];
       state.vehicles = vehicles || [];
       state.archeTuningNodes = archeTuningNodes || [];
+      state.archeTuningBoards = archeTuningBoards || [];
       state.weaponTypes = weaponTypes || [];
       state.tiers = tiers || [];
       state.stats = stats || [];
@@ -110,6 +113,7 @@ class Application {
         fellows: state.fellows.length,
         vehicles: state.vehicles.length,
         archeTuningNodes: state.archeTuningNodes.length,
+        archeTuningBoards: state.archeTuningBoards.length,
         weaponTypes: state.weaponTypes.length,
         tiers: state.tiers.length,
         stats: state.stats.length,

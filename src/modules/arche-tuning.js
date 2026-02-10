@@ -1,4 +1,5 @@
 import { state } from '../state.js';
+import { API_BASE_URL, LANGUAGE_CODE } from '../config.js';
 
 export class ArcheTuning {
   constructor() {
@@ -17,6 +18,13 @@ export class ArcheTuning {
       { row: 10, col: 20 },  // Right
       { row: 20, col: 10 }   // Bottom
     ];
+    
+    // Metadata storage
+    this.archeBoardData = null;
+    this.archeNodeData = null;
+    this.statData = null;
+    this.nodePositionMap = {}; // Maps "row,col" to node_id
+    this.metadataLoaded = false;
   }
 
   createGridStructure() {
@@ -93,6 +101,86 @@ export class ArcheTuning {
     return grid;
   }
 
+  loadMetadata() {
+    console.log('loadMetadata() called - loading from state');
+    
+    // Get data from state (already loaded on page init)
+    this.archeBoardData = state.archeTuningBoards;
+    this.archeNodeData = state.archeTuningNodes;
+    this.statData = state.stats;
+    
+    console.log('Loaded from state:', {
+      boards: this.archeBoardData?.length,
+      nodes: this.archeNodeData?.length,
+      stats: this.statData?.length
+    });
+    
+    // Create position map from the first board (they should all have same structure)
+    if (this.archeBoardData && this.archeBoardData.length > 0) {
+      const firstBoard = this.archeBoardData[0];
+      firstBoard.node.forEach(node => {
+        const key = `${node.position_row},${node.position_column}`;
+        this.nodePositionMap[key] = node.node_id;
+      });
+      console.log('Created position map with', Object.keys(this.nodePositionMap).length, 'entries');
+    }
+    
+    console.log('Setting metadataLoaded to true');
+    this.metadataLoaded = true;
+  }
+
+  getNodeInfo(row, col) {
+    const key = `${row},${col}`;
+    const nodeId = this.nodePositionMap[key];
+    
+    if (!nodeId || !this.archeNodeData) {
+      return null;
+    }
+    
+    const nodeInfo = this.archeNodeData.find(n => n.node_id === nodeId);
+    if (!nodeInfo) {
+      console.warn(`Node info not found for position ${key} with node_id ${nodeId}`);
+    }
+    return nodeInfo;
+  }
+
+  getStatName(statId) {
+    if (!this.statData) return statId;
+    const stat = this.statData.find(s => s.stat_id === statId);
+    return stat ? stat.stat_name : statId;
+  }
+
+  createNodeTooltip(nodeInfo) {
+    if (!nodeInfo) return '';
+    
+    let tooltip = `
+      <div class="arche-tooltip">
+        <div class="flex items-center gap-2 mb-2">
+          <img src="${nodeInfo.node_image_url}" alt="${nodeInfo.node_name}" class="w-8 h-8" />
+          <div>
+            <div class="font-bold text-cyber-cyan">${nodeInfo.node_name}</div>
+            <div class="text-xs text-steel-grey">${nodeInfo.node_type}${nodeInfo.tier_id !== 'None' ? ` - ${nodeInfo.tier_id}` : ''}</div>
+          </div>
+        </div>
+    `;
+    
+    if (nodeInfo.required_tuning_point > 0) {
+      tooltip += `<div class="text-amber-gold text-sm mb-2">Cost: ${nodeInfo.required_tuning_point} point${nodeInfo.required_tuning_point > 1 ? 's' : ''}</div>`;
+    }
+    
+    if (nodeInfo.node_effect && nodeInfo.node_effect.length > 0) {
+      tooltip += '<div class="text-sm">';
+      nodeInfo.node_effect.forEach(effect => {
+        const statName = this.getStatName(effect.stat_id);
+        tooltip += `<div class="text-steel-light">+${effect.stat_value} ${statName}</div>`;
+      });
+      tooltip += '</div>';
+    }
+    
+    tooltip += '</div>';
+    return tooltip;
+  }
+
   isAnchor(row, col) {
     return this.anchorPositions.some(anchor => anchor.row === row && anchor.col === col);
   }
@@ -112,21 +200,38 @@ export class ArcheTuning {
             Clear Selection
           </button>
         </div>
-        <div id="arche-grid" class="arche-grid"></div>
+        <div id="arche-grid" class="arche-grid">
+          ${!this.metadataLoaded ? '<div class="text-steel-grey text-center py-8">Loading metadata...</div>' : ''}
+        </div>
         <div class="mt-4 text-sm text-steel-grey">
           <div>Selected Nodes: <span id="selected-count" class="text-cyber-cyan">0</span></div>
         </div>
       </div>
     `;
 
+    if (!this.metadataLoaded) {
+      console.log('Loading metadata from state...');
+      this.loadMetadata();
+    }
+    
+    console.log('Rendering grid immediately...');
     this.renderGrid();
   }
 
   renderGrid() {
     const gridContainer = document.getElementById('arche-grid');
-    if (!gridContainer) return;
+    if (!gridContainer) {
+      console.error('Grid container not found!');
+      return;
+    }
+
+    console.log('Rendering grid. Metadata loaded:', this.metadataLoaded);
+    console.log('Position map entries:', Object.keys(this.nodePositionMap).length);
+    console.log('Node data available:', this.archeNodeData?.length);
 
     gridContainer.innerHTML = '';
+    
+    let renderedNodes = 0;
     
     // Create grid
     for (let row = 0; row < this.gridSize; row++) {
@@ -154,8 +259,32 @@ export class ArcheTuning {
           nodeDiv.dataset.row = row;
           nodeDiv.dataset.col = col;
           
-          // Show X when selected
-          nodeDiv.innerHTML = isSelected ? '<span class="node-marker">×</span>' : '';
+          // Get node info to show image
+          const nodeInfo = this.getNodeInfo(row, col);
+          
+          if (nodeInfo) {
+            renderedNodes++;
+          }
+          
+          // Always show node image if available
+          if (nodeInfo && nodeInfo.node_image_url) {
+            const imgEl = document.createElement('img');
+            imgEl.src = nodeInfo.node_image_url;
+            imgEl.alt = nodeInfo.node_name || '';
+            imgEl.className = 'w-full h-full object-contain';
+            nodeDiv.appendChild(imgEl);
+          }
+          
+          // Add tooltip
+          if (nodeInfo) {
+            nodeDiv.dataset.tooltip = 'true';
+            
+            // Create tooltip element
+            const tooltipDiv = document.createElement('div');
+            tooltipDiv.className = 'arche-node-tooltip';
+            tooltipDiv.innerHTML = this.createNodeTooltip(nodeInfo);
+            nodeDiv.appendChild(tooltipDiv);
+          }
           
           nodeDiv.addEventListener('click', () => this.toggleNode(row, col));
           
@@ -167,6 +296,8 @@ export class ArcheTuning {
           rowDiv.appendChild(emptyDiv);
         }
       }
+    console.log('Grid rendered. Total nodes with info:', renderedNodes);
+    
       
       gridContainer.appendChild(rowDiv);
     }
