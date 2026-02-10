@@ -27,6 +27,7 @@ export class UIComponents {
             <h4 class="font-semibold text-sm text-cyber-cyan mb-1 leading-tight">${module.module_name || 'Unknown Module'}</h4>
             ${!isTriggerSlot && module.module_socket_type ? `<p class="text-xs text-steel-grey">${module.module_socket_type}</p>` : ''}
             ${module.module_tier_id ? `<p class="text-xs text-steel-grey">${module.module_tier_id.replace('Tier', 'Tier ')}</p>` : ''}
+            ${module.module_type ? `<p class="text-xs text-amber-gold font-semibold">${module.module_type}</p>` : ''}
           </div>
         </div>
         ${maxLevelStat ? `
@@ -103,12 +104,12 @@ export class UIComponents {
         
         <div class="custom-stats-section border-t border-tfd-primary/30 pt-4">
           <div class="flex justify-between items-center mb-2">
-            <h5 class="font-semibold text-sm">Custom Stats (${state.currentBuild.weapons[weaponIndex].customStats.length}/4)</h5>
-            ${state.currentBuild.weapons[weaponIndex].customStats.length < 4 ? 
-              '<button class="btn-secondary text-xs add-custom-stat-btn">+ Add Stat</button>' : 
-              ''}
+            <h5 class="font-semibold text-sm">Additional Stats (${state.currentBuild.weapons[weaponIndex].customStats.length}/4)</h5>
           </div>
           <div class="custom-stats-list space-y-2"></div>
+          <datalist id="weapon-stat-names-${weaponIndex}">
+            ${state.stats.map(s => `<option value="${s.stat_name}"></option>`).join('')}
+          </datalist>
         </div>
       `;
       
@@ -155,36 +156,95 @@ export class UIComponents {
         });
       }
       
-      // Populate custom stats
+      // Populate custom stats - show all 4 slots
       const customStatsList = weaponCard.querySelector('.custom-stats-list');
-      state.currentBuild.weapons[weaponIndex].customStats.forEach((customStat, statIndex) => {
+      for (let statIndex = 0; statIndex < 4; statIndex++) {
+        const customStat = state.currentBuild.weapons[weaponIndex].customStats[statIndex];
         const statDiv = document.createElement('div');
         statDiv.className = 'flex items-center gap-2 text-xs';
-        statDiv.innerHTML = `
-          <span class="flex-1 text-gray-300">${state.getStatName(customStat.stat_id)}</span>
-          <input type="number" 
-            class="w-20 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded text-right" 
-            value="${customStat.stat_value || 0}"
-            data-stat-index="${statIndex}">
-          <button class="text-red-500 hover:text-red-400" data-stat-index="${statIndex}">×</button>
-        `;
         
-        // Add change handler for custom stat value
-        const input = statDiv.querySelector('input');
-        input.addEventListener('change', (e) => {
-          state.currentBuild.weapons[weaponIndex].customStats[statIndex].stat_value = parseFloat(e.target.value) || 0;
+        if (customStat) {
+          // Existing stat - show stat name from lookup
+          statDiv.innerHTML = `
+            <input type="text" 
+              list="weapon-stat-names-${weaponIndex}"
+              class="flex-1 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded text-gray-300" 
+              value="${state.getStatName(customStat.stat_id)}"
+              placeholder="Stat Name"
+              data-weapon-index="${weaponIndex}"
+              data-stat-index="${statIndex}">
+            <input type="number" 
+              class="w-20 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded text-right" 
+              value="${customStat.stat_value || 0}"
+              placeholder="0"
+              data-weapon-index="${weaponIndex}"
+              data-stat-index="${statIndex}"
+              data-type="value">
+            <button class="text-red-500 hover:text-red-400 w-6 text-center" data-weapon-index="${weaponIndex}" data-stat-index="${statIndex}">×</button>
+          `;
+        } else {
+          // Empty slot - show input fields
+          statDiv.innerHTML = `
+            <input type="text" 
+              list="weapon-stat-names-${weaponIndex}"
+              class="flex-1 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded text-gray-400" 
+              value=""
+              placeholder="Stat Name"
+              data-weapon-index="${weaponIndex}"
+              data-stat-index="${statIndex}">
+            <input type="number" 
+              class="w-20 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded text-right text-gray-400" 
+              value=""
+              placeholder="0"
+              data-weapon-index="${weaponIndex}"
+              data-stat-index="${statIndex}"
+              data-type="value">
+            <button class="text-red-500 hover:text-red-400 w-6 text-center opacity-0" data-weapon-index="${weaponIndex}" data-stat-index="${statIndex}">×</button>
+          `;
+        }
+        
+        // Add change handler for stat name
+        const nameInput = statDiv.querySelector('input[type="text"]');
+        nameInput.addEventListener('change', (e) => {
+          const statName = e.target.value.trim();
+          if (statName) {
+            // Find stat_id from stat_name
+            const stat = state.stats.find(s => s.stat_name === statName);
+            if (stat) {
+              // Initialize the slot if it doesn't exist
+              if (!state.currentBuild.weapons[weaponIndex].customStats[statIndex]) {
+                state.currentBuild.weapons[weaponIndex].customStats[statIndex] = {
+                  stat_id: stat.stat_id,
+                  stat_value: 0
+                };
+              } else {
+                state.currentBuild.weapons[weaponIndex].customStats[statIndex].stat_id = stat.stat_id;
+              }
+              this.refreshWeaponsTab();
+            }
+          }
+        });
+        
+        // Add change handler for stat value
+        const valueInput = statDiv.querySelector('input[data-type="value"]');
+        valueInput.addEventListener('change', (e) => {
+          const value = parseFloat(e.target.value) || 0;
+          if (state.currentBuild.weapons[weaponIndex].customStats[statIndex]) {
+            state.currentBuild.weapons[weaponIndex].customStats[statIndex].stat_value = value;
+          }
         });
         
         // Add remove handler
         const removeBtn = statDiv.querySelector('button');
         removeBtn.addEventListener('click', () => {
-          if (window.app) {
-            window.app.removeCustomStat(weaponIndex, statIndex);
+          if (state.currentBuild.weapons[weaponIndex].customStats[statIndex]) {
+            state.currentBuild.weapons[weaponIndex].customStats.splice(statIndex, 1);
+            this.refreshWeaponsTab();
           }
         });
         
         customStatsList.appendChild(statDiv);
-      });
+      }
       
       // Add event listeners
       const clearBtn = weaponCard.querySelector('.clear-weapon-btn');
@@ -205,15 +265,6 @@ export class UIComponents {
           window.app.openCoreTypeSelector(weaponIndex);
         }
       });
-      
-      const addCustomStatBtn = weaponCard.querySelector('.add-custom-stat-btn');
-      if (addCustomStatBtn) {
-        addCustomStatBtn.addEventListener('click', () => {
-          if (window.app) {
-            window.app.openCustomStatSelector(weaponIndex);
-          }
-        });
-      }
     } else {
       weaponCard.innerHTML = `
         <div class="flex items-center justify-center h-24 text-gray-500">

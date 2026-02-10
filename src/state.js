@@ -32,7 +32,11 @@ class AppState {
         coreStats: [] // Array of { option_id, stat_id, stat_value }
       })),
       reactor: null,
-      externalComponents: [],
+      reactorAdditionalStats: [
+        { name: '', value: 0 },
+        { name: '', value: 0 }
+      ],
+      externalComponents: {}, // { 'Auxiliary Power': { component, coreStats }, ... }
       archeTuning: null,
       fellow: null,
       vehicle: null,
