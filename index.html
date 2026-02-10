@@ -19,13 +19,6 @@
           <span class="text-sm text-gray-400">The First Descendant</span>
         </div>
         <nav class="flex gap-4">
-          <button class="btn-secondary text-sm py-1 px-4" onclick="app.openSettings()">
-            <svg class="w-4 h-4 inline mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-            </svg>
-            Settings
-          </button>
           <button class="btn-secondary text-sm py-1 px-4" onclick="app.loadDescendants()">
             Refresh Data
           </button>
@@ -238,65 +231,7 @@
     </div>
   </main>
 
-  <!-- Settings Modal -->
-  <div id="settings-modal" class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4">
-    <div class="card max-w-md w-full bg-tfd-dark">
-      <div class="flex items-center justify-between mb-4">
-        <h3 class="text-xl font-bold text-tfd-primary">API Settings</h3>
-        <button onclick="app.closeSettings()" class="text-gray-400 hover:text-white">
-          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-          </svg>
-        </button>
-      </div>
-      
-      <p class="text-gray-400 text-sm mb-4">
-        The TFD Cache API requires authentication. Enter your API keys below:
-      </p>
 
-      <div class="space-y-4">
-        <div>
-          <label class="block text-sm font-bold text-gray-300 mb-2">
-            Worker API Key
-            <span class="text-xs font-normal text-gray-500">(from tfd-cache deployment)</span>
-          </label>
-          <input 
-            type="password" 
-            id="worker-api-key" 
-            class="w-full bg-tfd-darker border border-gray-700 rounded px-3 py-2 text-white focus:border-tfd-primary focus:outline-none"
-            placeholder="Enter worker API key"
-          >
-        </div>
-
-        <div>
-          <label class="block text-sm font-bold text-gray-300 mb-2">
-            Nexon API Key
-            <span class="text-xs font-normal text-gray-500">(from <a href="https://openapi.nexon.com/" target="_blank" class="text-tfd-primary hover:underline">openapi.nexon.com</a>)</span>
-          </label>
-          <input 
-            type="password" 
-            id="nexon-api-key" 
-            class="w-full bg-tfd-darker border border-gray-700 rounded px-3 py-2 text-white focus:border-tfd-primary focus:outline-none"
-            placeholder="Enter Nexon API key"
-          >
-        </div>
-
-        <div class="bg-tfd-primary/10 border border-tfd-primary/30 rounded p-3 text-sm">
-          <p class="text-tfd-primary font-bold mb-1">💡 Tip</p>
-          <p class="text-gray-300">Keys are stored in your browser's localStorage for convenience. You can also set them in a <code class="bg-tfd-darker px-1">.env</code> file.</p>
-        </div>
-
-        <div class="flex gap-3">
-          <button onclick="app.saveSettings()" class="btn-primary flex-1">
-            Save & Reload
-          </button>
-          <button onclick="app.closeSettings()" class="btn-secondary flex-1">
-            Cancel
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- Module Selector Modal -->
   <div id="module-selector-modal" class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4" onclick="if(event.target === this) app.closeModuleSelector()">
