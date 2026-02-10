@@ -12,8 +12,6 @@ import { CoreSelector } from './modules/core-selector.js';
 import { CustomStatSelector } from './modules/custom-stat-selector.js';
 import { ArcheTuning } from './modules/arche-tuning.js';
 import { BuildSerializer } from './build-serializer.js';
-import { initImageInterceptor } from './image-interceptor.js';
-import './debug-image-loading.js'; // Debug helper for image loading
 
 // Application class - orchestrates all components
 class Application {
@@ -27,17 +25,11 @@ class Application {
     this.customStatSelector = new CustomStatSelector();
     this.archeTuning = new ArcheTuning();
     this.buildSerializer = new BuildSerializer(state);
-    
-    // Initialize image interceptor for authenticated image loading
-    this.imageInterceptorCleanup = null;
   }
 
   async init() {
     try {
       UIComponents.showLoading();
-      
-      // Initialize image interceptor
-      this.imageInterceptorCleanup = initImageInterceptor();
       
       // Check if API keys are configured
       if (!state.apiKeys.workerApiKey || !state.apiKeys.nexonApiKey) {
