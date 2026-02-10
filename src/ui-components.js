@@ -1,4 +1,5 @@
 import { state } from './state.js';
+import { getTierDisplayName } from './config.js';
 
 // UI Components
 export class UIComponents {
@@ -26,7 +27,7 @@ export class UIComponents {
           <div class="flex-1">
             <h4 class="font-semibold text-sm text-cyber-cyan mb-1 leading-tight">${module.module_name || 'Unknown Module'}</h4>
             ${!isTriggerSlot && module.module_socket_type ? `<p class="text-xs text-steel-grey">${module.module_socket_type}</p>` : ''}
-            ${module.module_tier_id ? `<p class="text-xs text-steel-grey">${module.module_tier_id.replace('Tier', 'Tier ')}</p>` : ''}
+            ${module.module_tier_id ? `<p class="text-xs text-steel-grey">${getTierDisplayName(module.module_tier_id)}</p>` : ''}
             ${module.module_type ? `<p class="text-xs text-amber-gold font-semibold">${module.module_type}</p>` : ''}
           </div>
         </div>

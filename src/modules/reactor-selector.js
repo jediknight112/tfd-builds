@@ -1,4 +1,5 @@
 import { state } from '../state.js';
+import { getTierDisplayName } from '../config.js';
 import { UIComponents } from '../ui-components.js';
 
 export class ReactorSelector {
@@ -136,7 +137,7 @@ export class ReactorSelector {
           >
           <div class="flex-1 min-w-0">
             <h4 class="font-bold text-cyber-cyan line-clamp-2 mb-1">${reactor.reactor_name}</h4>
-            ${reactor.reactor_tier_id ? `<span class="inline-block px-2 py-0.5 rounded text-xs font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${reactor.reactor_tier_id}</span>` : ''}
+            ${reactor.reactor_tier_id ? `<span class="inline-block px-2 py-0.5 rounded text-xs font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${getTierDisplayName(reactor.reactor_tier_id)}</span>` : ''}
           </div>
         </div>
         
@@ -234,7 +235,7 @@ export class ReactorSelector {
           >
           <div class="flex-1">
             <h3 class="text-xl font-bold text-cyber-cyan mb-2">${reactor.reactor_name}</h3>
-            ${reactor.reactor_tier_id ? `<span class="inline-block px-3 py-1 rounded text-sm font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${reactor.reactor_tier_id}</span>` : ''}
+            ${reactor.reactor_tier_id ? `<span class="inline-block px-3 py-1 rounded text-sm font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${getTierDisplayName(reactor.reactor_tier_id)}</span>` : ''}
           </div>
           <button 
             onclick="app.reactorSelector.openReactorSelector()"

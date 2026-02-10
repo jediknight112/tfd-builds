@@ -1,5 +1,6 @@
 import { state } from '../state.js';
 import { UIComponents } from '../ui-components.js';
+import { getTierDisplayName } from '../config.js';
 
 export class WeaponSelector {
   openWeaponSelector(weaponIndex) {
@@ -71,27 +72,81 @@ export class WeaponSelector {
       return true;
     });
     
-    filteredWeapons.sort((a, b) => a.weapon_name.localeCompare(b.weapon_name));
+    // Sort by tier then name
+    filteredWeapons.sort((a, b) => {
+      const tierOrder = { 'Tier1': 1, 'Tier2': 2, 'Tier3': 3 };
+      const tierDiff = (tierOrder[a.weapon_tier_id] || 0) - (tierOrder[b.weapon_tier_id] || 0);
+      if (tierDiff !== 0) return tierDiff;
+      return a.weapon_name.localeCompare(b.weapon_name);
+    });
     
-    grid.innerHTML = filteredWeapons.map(weapon => `
-      <div class="card cursor-pointer hover:scale-105 transition-transform p-3" 
-           onclick="window.app.selectWeapon('${weapon.weapon_id}')">
-        ${weapon.image_url ? 
-          `<img src="${weapon.image_url}" alt="${weapon.weapon_name}" class="w-full h-32 object-contain mb-2">` :
-          '<div class="w-full h-32 bg-gray-800 rounded flex items-center justify-center mb-2"><span class="text-gray-600">No Image</span></div>'
-        }
-        <h4 class="font-bold text-sm text-tfd-primary mb-1">${weapon.weapon_name}</h4>
-        <div class="text-xs text-gray-400">
-          <div>${weapon.weapon_type}</div>
-          <div>${weapon.weapon_tier_id?.replace('Tier', 'Tier ') || 'Unknown Tier'}</div>
-        </div>
-      </div>
-    `).join('');
-    
+    // Update count
     const countEl = document.getElementById('weapon-count');
     if (countEl) {
       countEl.textContent = `${filteredWeapons.length} weapons`;
     }
+    
+    // Render the grid
+    grid.innerHTML = '';
+    if (filteredWeapons.length === 0) {
+      grid.innerHTML = '<div class="col-span-full text-center py-8 text-gray-400">No weapons found</div>';
+      return;
+    }
+    
+    filteredWeapons.forEach(weapon => {
+      const weaponCard = this.createWeaponCard(weapon);
+      grid.appendChild(weaponCard);
+    });
+  }
+
+  createWeaponCard(weapon) {
+    const card = document.createElement('div');
+    card.className = 'card cursor-pointer hover:border-cyber-cyan transition-all hover:scale-105 h-full';
+    
+    // Get tier class for border color
+    let tierClass = '';
+    if (weapon.weapon_tier_id) {
+      const tierNum = weapon.weapon_tier_id.replace('Tier', '');
+      tierClass = `tier-${tierNum}`;
+    }
+    if (tierClass) {
+      card.classList.add('border-2');
+      card.classList.add(`border-${tierClass}`);
+    }
+    
+    card.innerHTML = `
+      <div class="flex flex-col h-full">
+        <div class="flex items-start gap-3 mb-3">
+          ${weapon.image_url ? 
+            `<img src="${weapon.image_url}" alt="${weapon.weapon_name}" class="w-16 h-16 object-cover rounded border-2 border-steel-grey/30 flex-shrink-0" onerror="this.style.display='none'">` :
+            '<div class="w-16 h-16 bg-void-deep flex items-center justify-center rounded border-2 border-steel-grey/30 flex-shrink-0"><span class="text-steel-dark text-xs">No Image</span></div>'
+          }
+          <div class="flex-1 min-w-0">
+            <h4 class="font-bold text-cyber-cyan text-sm line-clamp-2 mb-1">${weapon.weapon_name}</h4>
+            <div class="flex flex-wrap gap-1">
+              ${weapon.weapon_tier_id ? `<span class="inline-block px-2 py-0.5 rounded text-xs font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${getTierDisplayName(weapon.weapon_tier_id)}</span>` : ''}
+            </div>
+          </div>
+        </div>
+        
+        <div class="space-y-1 text-xs border-t border-steel-grey/20 pt-2 mt-auto">
+          <div class="flex justify-between items-center gap-2">
+            <span class="text-steel-grey">Type:</span>
+            <span class="text-cyber-cyan font-semibold text-right truncate">${weapon.weapon_type || 'Unknown'}</span>
+          </div>
+          ${weapon.weapon_rounds_type ? `
+            <div class="flex justify-between items-center gap-2">
+              <span class="text-steel-grey">Rounds:</span>
+              <span class="text-steel-light text-right truncate">${weapon.weapon_rounds_type}</span>
+            </div>
+          ` : ''}
+        </div>
+      </div>
+    `;
+    
+    card.addEventListener('click', () => this.selectWeapon(weapon.weapon_id));
+    
+    return card;
   }
 
   selectWeapon(weaponId) {
@@ -293,7 +348,7 @@ export class WeaponSelector {
           <div class="min-h-0">
             <h4 class="font-gaming font-bold text-xs text-cyber-cyan mb-1 leading-tight line-clamp-2" title="${module.module_name}">${module.module_name}</h4>
             <div class="text-xs text-steel-grey space-y-0.5">
-              ${module.module_tier_id ? `<div class="text-tier-${module.module_tier_id.replace('Tier', '').toLowerCase()}">${module.module_tier_id.replace('Tier', 'T')}</div>` : ''}
+              ${module.module_tier_id ? `<div class="text-tier-${module.module_tier_id.replace('Tier', '').toLowerCase()}">${getTierDisplayName(module.module_tier_id)}</div>` : ''}
               ${module.module_type ? `<div class="text-amber-gold font-semibold">${module.module_type}</div>` : ''}
               ${maxLevelStat && maxLevelStat.value ? `<div class="text-steel-light line-clamp-2 leading-tight" title="${maxLevelStat.value.replace(/\[\+\]/g, '')}">${maxLevelStat.value.replace(/\[\+\]/g, '')}</div>` : ''}
             </div>
