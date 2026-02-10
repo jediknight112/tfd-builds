@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Barlow+Condensed:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Roboto+Mono:wght@400;500&display=swap');
 
 @import url('https://cdn.jsdelivr.net/npm/elice-digital-baeum@1.0.0/dist/elice-digital-baeum.css');
 
@@ -8,25 +8,80 @@
 
 @layer base {
   body {
-    @apply bg-tfd-darker text-gray-100 font-gaming;
+    @apply bg-void-deep text-steel-light font-body;
+    position: relative;
+  }
+  
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 50% 50%, rgba(10, 15, 30, 0.8) 0%, rgba(5, 7, 10, 1) 100%);
+    pointer-events: none;
+    z-index: -1;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-gaming uppercase tracking-wider;
   }
 }
 
 @layer components {
   .card {
-    @apply bg-tfd-dark border border-tfd-primary/30 rounded-lg p-4 shadow-lg hover:border-tfd-primary/60 transition-all duration-300;
+    @apply bg-void-blue/60 backdrop-blur-md border border-cyber-cyan/20 p-4 shadow-glass hover:border-cyber-cyan/50 transition-all duration-300 relative mb-6;
+    /* Angular corners using a simpler approach */
+    border-radius: 2px;
+  }
+  
+  .card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(135deg, transparent 50%, var(--tw-bg-opacity, 0.6) 50%);
+    clip-path: polygon(100% 0, 100% 100%, 0 0);
+  }
+  
+  .card-premium {
+    @apply bg-void-blue/60 backdrop-blur-md border border-amber-gold/30 p-4 shadow-glass-gold hover:border-amber-gold/60 transition-all duration-300 relative mb-6;
+    border-radius: 2px;
+  }
+  
+  .card-premium::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(135deg, transparent 50%, rgba(212, 163, 115, 0.3) 50%);
+    clip-path: polygon(100% 0, 100% 100%, 0 0);
   }
 
   .card-header {
-    @apply text-tfd-primary font-bold text-lg mb-3 uppercase tracking-wider;
+    @apply text-cyber-cyan font-gaming font-bold text-lg mb-3 uppercase tracking-wider;
+  }
+  
+  .card-header-premium {
+    @apply text-amber-gold font-gaming font-bold text-lg mb-3 uppercase tracking-wider;
   }
 
   .module-slot {
-    @apply bg-tfd-darker border-2 border-gray-700 rounded p-2 text-sm hover:border-tfd-primary/50 transition-colors cursor-pointer overflow-hidden;
+    @apply bg-void-deep/80 border-2 border-steel-dark p-2 text-sm hover:border-cyber-cyan/50 transition-all duration-300 cursor-pointer overflow-hidden;
+    clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 6px 100%, 0 calc(100% - 6px));
   }
 
   .module-slot.filled {
-    @apply border-tfd-primary bg-tfd-primary/10;
+    @apply border-cyber-cyan bg-cyber-cyan/10 shadow-neon;
+  }
+  
+  .module-slot.ultimate {
+    @apply border-amber-gold bg-amber-gold/10 shadow-gold-glow;
   }
 
   .module-slot img {
@@ -38,56 +93,141 @@
   }
 
   .stat-bar {
-    @apply bg-gray-700 rounded-full h-2 overflow-hidden;
+    @apply bg-steel-dark/50 h-2 overflow-hidden;
+    clip-path: polygon(2px 0, calc(100% - 2px) 0, 100% 2px, 100% calc(100% - 2px), calc(100% - 2px) 100%, 2px 100%, 0 calc(100% - 2px), 0 2px);
   }
 
   .stat-bar-fill {
-    @apply bg-gradient-to-r from-tfd-primary to-tfd-accent h-full transition-all duration-500;
+    @apply bg-gradient-to-r from-cyber-cyan to-cyber-cyan-glow h-full transition-all duration-500;
+    box-shadow: 0 0 8px rgba(0, 240, 255, 0.6), inset 0 0 8px rgba(0, 240, 255, 0.4);
+  }
+  
+  .stat-bar-fill-premium {
+    @apply bg-gradient-to-r from-amber-gold to-amber-bright h-full transition-all duration-500;
+    box-shadow: 0 0 8px rgba(212, 163, 115, 0.6), inset 0 0 8px rgba(212, 163, 115, 0.4);
   }
 
   .btn-primary {
-    @apply bg-tfd-primary hover:bg-tfd-primary/80 text-tfd-darker font-bold py-2 px-6 rounded-lg transition-all duration-300 shadow-neon hover:shadow-neon-strong uppercase tracking-wide;
+    @apply bg-cyber-cyan hover:bg-cyber-cyan-glow text-void-deep font-gaming font-bold py-2 px-6 transition-all duration-300 shadow-neon hover:shadow-neon-strong uppercase tracking-wide;
+    clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 0 100%);
   }
 
   .btn-secondary {
-    @apply bg-tfd-dark hover:bg-tfd-dark/80 border border-tfd-primary text-tfd-primary font-bold py-2 px-6 rounded-lg transition-all duration-300 hover:shadow-neon uppercase tracking-wide;
+    @apply bg-void-blue/60 backdrop-blur-sm hover:bg-void-lighter/80 border border-cyber-cyan text-cyber-cyan font-gaming font-bold py-2 px-6 transition-all duration-300 hover:shadow-neon uppercase tracking-wide;
+    clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 0 100%);
+  }
+  
+  .btn-premium {
+    @apply bg-amber-gold hover:bg-amber-bright text-void-deep font-gaming font-bold py-2 px-6 transition-all duration-300 shadow-gold-glow hover:shadow-gold-glow-strong uppercase tracking-wide;
+    clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 0 100%);
   }
 
   .section-title {
-    @apply text-2xl font-bold text-tfd-primary mb-4 uppercase tracking-wider flex items-center gap-2;
+    @apply text-2xl font-gaming font-bold text-cyber-cyan mb-4 uppercase tracking-wider flex items-center gap-2;
+    text-shadow: 0 0 15px rgba(0, 240, 255, 0.6);
+  }
+  
+  .section-title-premium {
+    @apply text-2xl font-gaming font-bold text-amber-gold mb-4 uppercase tracking-wider flex items-center gap-2;
+    text-shadow: 0 0 15px rgba(212, 163, 115, 0.6);
   }
 
   .weapon-card {
-    @apply bg-gradient-to-br from-tfd-dark to-tfd-darker border border-tfd-secondary/40 rounded-lg p-4 hover:border-tfd-secondary transition-all duration-300;
+    @apply bg-gradient-to-br from-void-blue/70 to-void-deep/90 backdrop-blur-md border border-steel-dark/40 p-4 hover:border-cyber-cyan/50 hover:shadow-glass transition-all duration-300;
+    clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px));
   }
 
   .tab {
-    @apply px-4 py-2 rounded-t-lg border-b-2 border-transparent hover:border-tfd-primary/50 transition-all cursor-pointer;
+    @apply px-4 py-2 border-b-2 border-transparent hover:border-cyber-cyan/50 transition-all cursor-pointer font-gaming uppercase text-sm tracking-wide text-steel-grey;
+    clip-path: polygon(8px 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 0 100%, 0 8px);
   }
 
   .tab.active {
-    @apply border-tfd-primary bg-tfd-primary/10 text-tfd-primary;
+    @apply border-cyber-cyan bg-cyber-cyan/10 text-cyber-cyan shadow-neon;
+  }
+  
+  .tab-premium.active {
+    @apply border-amber-gold bg-amber-gold/10 text-amber-gold shadow-gold-glow;
   }
 
   .module-filter-btn {
-    @apply px-3 py-1 text-sm rounded border border-gray-700 hover:border-tfd-primary transition-colors cursor-pointer;
+    @apply px-3 py-1 text-sm border border-steel-dark hover:border-cyber-cyan transition-all duration-200 cursor-pointer font-gaming uppercase text-xs tracking-wide bg-void-blue/40 backdrop-blur-sm;
+    clip-path: polygon(0 0, calc(100% - 4px) 0, 100% 4px, 100% 100%, 4px 100%, 0 calc(100% - 4px));
   }
 
   .module-filter-btn.active {
-    @apply border-tfd-primary bg-tfd-primary/20 text-tfd-primary;
+    @apply border-cyber-cyan bg-cyber-cyan/20 text-cyber-cyan shadow-neon;
   }
 
   .grid-bg {
     @apply bg-grid-pattern bg-grid;
   }
+  
+  .hex-bg {
+    @apply bg-hex-pattern bg-hex;
+  }
+  
+  .tag-new {
+    @apply inline-block px-2 py-0.5 text-xs font-gaming font-bold uppercase bg-cyber-cyan/20 text-cyber-cyan border border-cyber-cyan/50 shadow-neon;
+    clip-path: polygon(0 0, calc(100% - 4px) 0, 100% 4px, 100% 100%, 0 100%);
+  }
+  
+  .tag-ultimate {
+    @apply inline-block px-2 py-0.5 text-xs font-gaming font-bold uppercase bg-amber-gold/20 text-amber-gold border border-amber-gold/50 shadow-gold-glow;
+    clip-path: polygon(0 0, calc(100% - 4px) 0, 100% 4px, 100% 100%, 0 100%);
+  }
 }
 
 @layer utilities {
   .text-shadow {
-    text-shadow: 0 0 10px rgba(0, 217, 255, 0.5);
+    text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+  }
+  
+  .text-shadow-strong {
+    text-shadow: 0 0 15px rgba(0, 240, 255, 0.8), 0 0 25px rgba(0, 240, 255, 0.5);
+  }
+  
+  .text-shadow-gold {
+    text-shadow: 0 0 10px rgba(212, 163, 115, 0.6);
+  }
+  
+  .text-shadow-gold-strong {
+    text-shadow: 0 0 15px rgba(212, 163, 115, 0.8), 0 0 25px rgba(212, 163, 115, 0.5);
   }
 
   .glow {
-    filter: drop-shadow(0 0 8px rgba(0, 217, 255, 0.6));
+    filter: drop-shadow(0 0 8px rgba(0, 240, 255, 0.6));
+  }
+  
+  .glow-strong {
+    filter: drop-shadow(0 0 12px rgba(0, 240, 255, 0.8)) drop-shadow(0 0 20px rgba(0, 240, 255, 0.4));
+  }
+  
+  .glow-gold {
+    filter: drop-shadow(0 0 8px rgba(212, 163, 115, 0.6));
+  }
+  
+  .glow-gold-strong {
+    filter: drop-shadow(0 0 12px rgba(212, 163, 115, 0.8)) drop-shadow(0 0 20px rgba(212, 163, 115, 0.4));
+  }
+  
+  .glass-effect {
+    background: rgba(10, 15, 30, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+  
+  .glass-effect-strong {
+    background: rgba(10, 15, 30, 0.8);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+  
+  .angle-clip {
+    clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 12px 100%, 0 calc(100% - 12px));
+  }
+  
+  .angle-clip-sm {
+    clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 6px 100%, 0 calc(100% - 6px));
   }
 }

@@ -9,26 +9,35 @@ export class UIComponents {
     
     if (module) {
       const tierClass = module.module_tier ? `tier-${module.module_tier.toLowerCase()}` : '';
-      moduleSlot.classList.add(tierClass);
+      if (tierClass) {
+        moduleSlot.classList.add(tierClass);
+      }
+      
+      // Get max level stats
+      const maxLevelStat = module.module_stat && module.module_stat.length > 0 
+        ? module.module_stat[module.module_stat.length - 1] 
+        : null;
+      
+      const isTriggerSlot = slotIndex === 'trigger';
       
       moduleSlot.innerHTML = `
-        <div class="flex items-center gap-3">
-          ${module.image_url ? `<img src="${module.image_url}" alt="${module.module_name}" class="w-12 h-12 rounded object-cover" />` : ''}
-          <div class="flex-1 min-w-0">
-            <h4 class="font-semibold text-sm truncate">${module.module_name || 'Unknown Module'}</h4>
-            <p class="text-xs text-gray-400 truncate">${module.module_type || ''}</p>
-            <p class="text-xs text-tfd-accent">${module.module_tier || ''}</p>
+        <div class="flex flex-col gap-2">
+          ${module.image_url ? `<img src="${module.image_url}" alt="${module.module_name}" class="w-full h-20 object-contain rounded" />` : ''}
+          <div class="flex-1">
+            <h4 class="font-semibold text-sm text-cyber-cyan mb-1 leading-tight">${module.module_name || 'Unknown Module'}</h4>
+            ${!isTriggerSlot && module.module_socket_type ? `<p class="text-xs text-steel-grey">${module.module_socket_type}</p>` : ''}
+            ${module.module_tier_id ? `<p class="text-xs text-steel-grey">${module.module_tier_id.replace('Tier', 'Tier ')}</p>` : ''}
           </div>
         </div>
-        ${module.module_stat && module.module_stat.length > 0 ? `
-          <div class="mt-2 space-y-1">
-            ${module.module_stat.slice(0, 3).map(stat => `
-              <div class="text-xs text-gray-300 flex justify-between">
-                <span>${state.getStatName(stat.stat_id)}</span>
-                <span class="text-tfd-accent">${stat.stat_value}</span>
+        ${maxLevelStat ? `
+          <div class="mt-2 space-y-1 border-t border-steel-dark/30 pt-2">
+            ${!isTriggerSlot ? `
+              <div class="text-xs flex justify-between gap-2">
+                <span class="text-amber-gold font-semibold">Capacity</span>
+                <span class="text-amber-gold font-semibold">${maxLevelStat.module_capacity}</span>
               </div>
-            `).join('')}
-            ${module.module_stat.length > 3 ? `<div class="text-xs text-gray-500">+${module.module_stat.length - 3} more...</div>` : ''}
+            ` : ''}
+            <div class="text-xs text-steel-light">${maxLevelStat.value.replace(/\[\+\]/g, '')}</div>
           </div>
         ` : ''}
       `;
@@ -258,6 +267,11 @@ export class UIComponents {
   static refreshModulesTab() {
     const triggerSlot = document.getElementById('trigger-module-slot');
     const modulesGrid = document.getElementById('descendant-modules');
+    
+    if (!triggerSlot || !modulesGrid) {
+      console.error('Could not find module slot elements!');
+      return;
+    }
     
     if (triggerSlot) {
       triggerSlot.innerHTML = '';

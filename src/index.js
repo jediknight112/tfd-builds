@@ -180,11 +180,23 @@ class Application {
     // Show build tabs
     UIComponents.showBuildTabs();
     
+    // Collapse descendant selection section
+    const descendantSection = document.querySelector('section:has(#descendant-selector)');
+    if (descendantSection) {
+      descendantSection.classList.add('hidden');
+    }
+    
     // Initialize build for this descendant
     this.initializeBuild();
     
     // Switch to modules tab
     this.switchTab('modules');
+    
+    // Scroll to build container
+    const buildContainer = document.getElementById('build-container');
+    if (buildContainer) {
+      buildContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   }
 
   initializeBuild() {
@@ -262,6 +274,13 @@ class Application {
   createNewBuild() {
     if (confirm('Create a new build? This will reset your current build.')) {
       UIComponents.hideBuildTabs();
+      
+      // Show descendant selection section
+      const descendantSection = document.querySelector('section:has(#descendant-selector)');
+      if (descendantSection) {
+        descendantSection.classList.remove('hidden');
+      }
+      
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   }
