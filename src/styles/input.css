@@ -194,6 +194,7 @@
     font-size: 18px;
     font-weight: bold;
     position: relative;
+    filter: brightness(0.4);
   }
   
   .arche-node:not(.invisible):not(.anchor):hover {
@@ -201,26 +202,60 @@
   }
   
   .arche-node.selected {
-    @apply bg-cyber-cyan/60 border-cyber-cyan shadow-neon;
-    box-shadow: 0 0 12px rgba(0, 240, 255, 0.8), inset 0 0 8px rgba(0, 240, 255, 0.4);
+    filter: brightness(1);
   }
   
-  .arche-node.selected img {
-    filter: brightness(1.3) drop-shadow(0 0 4px rgba(0, 240, 255, 0.6));
+  /* Tier-specific selection colors */
+  .arche-node.selected.tier-normal {
+    background-color: rgba(86, 184, 245, 0.6);
+    border-color: #56B8F5;
+    box-shadow: 0 0 12px rgba(86, 184, 245, 0.8), inset 0 0 8px rgba(86, 184, 245, 0.4);
+  }
+  
+  .arche-node.selected.tier-normal img {
+    filter: brightness(1.3) drop-shadow(0 0 4px rgba(86, 184, 245, 0.6));
+  }
+  
+  .arche-node.selected.tier-rare {
+    background-color: rgba(211, 135, 244, 0.6);
+    border-color: #D387F4;
+    box-shadow: 0 0 12px rgba(211, 135, 244, 0.8), inset 0 0 8px rgba(211, 135, 244, 0.4);
+  }
+  
+  .arche-node.selected.tier-rare img {
+    filter: brightness(1.3) drop-shadow(0 0 4px rgba(211, 135, 244, 0.6));
+  }
+  
+  .arche-node.selected.tier-ultimate {
+    background-color: rgba(248, 225, 121, 0.6);
+    border-color: #F8E179;
+    box-shadow: 0 0 12px rgba(248, 225, 121, 0.8), inset 0 0 8px rgba(248, 225, 121, 0.4);
+  }
+  
+  .arche-node.selected.tier-ultimate img {
+    filter: brightness(1.3) drop-shadow(0 0 4px rgba(248, 225, 121, 0.6));
   }
   
   .arche-node.anchor {
-    @apply bg-yellow-500/30 border-yellow-500/60 cursor-default;
+    @apply cursor-default;
+  }
+  
+  /* Tier-based border colors */
+  .arche-node.tier-normal {
+    border-color: #56B8F5;
+  }
+  
+  .arche-node.tier-rare {
+    border-color: #D387F4;
+  }
+  
+  .arche-node.tier-ultimate {
+    border-color: #F8E179;
   }
   
   .arche-node.invisible {
     @apply border-transparent bg-transparent cursor-default;
     pointer-events: none;
-  }
-  
-  /* Dim unselected nodes when there are selections */
-  .arche-grid:has(.arche-node.selected) .arche-node:not(.selected):not(.anchor) {
-    @apply opacity-40;
   }
   
   /* Arche Node Tooltip */
@@ -233,6 +268,7 @@
     transform: translateX(-50%) translateY(-8px);
     pointer-events: none;
     white-space: normal;
+    filter: brightness(1);
   }
   
   .arche-node:hover .arche-node-tooltip {

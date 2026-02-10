@@ -57,6 +57,8 @@ class Application {
         vehicles,
         archeTuningNodes,
         archeTuningBoards,
+        archeTuningBoardGroups,
+        descendantGroups,
         weaponTypes,
         tiers,
         stats,
@@ -72,6 +74,8 @@ class Application {
         apiClient.fetchVehicles(),
         apiClient.fetchArcheTuningNodes(),
         apiClient.fetchArcheTuningBoards(),
+        apiClient.fetchArcheTuningBoardGroups(),
+        apiClient.fetchDescendantGroups(),
         apiClient.fetchWeaponTypes(),
         apiClient.fetchTiers(),
         apiClient.fetchStats(),
@@ -89,6 +93,8 @@ class Application {
       state.vehicles = vehicles || [];
       state.archeTuningNodes = archeTuningNodes || [];
       state.archeTuningBoards = archeTuningBoards || [];
+      state.archeTuningBoardGroups = archeTuningBoardGroups || [];
+      state.descendantGroups = descendantGroups || [];
       state.weaponTypes = weaponTypes || [];
       state.tiers = tiers || [];
       state.stats = stats || [];
@@ -114,6 +120,8 @@ class Application {
         vehicles: state.vehicles.length,
         archeTuningNodes: state.archeTuningNodes.length,
         archeTuningBoards: state.archeTuningBoards.length,
+        archeTuningBoardGroups: state.archeTuningBoardGroups.length,
+        descendantGroups: state.descendantGroups.length,
         weaponTypes: state.weaponTypes.length,
         tiers: state.tiers.length,
         stats: state.stats.length,

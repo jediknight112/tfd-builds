@@ -115,14 +115,72 @@ export class ArcheTuning {
       stats: this.statData?.length
     });
     
-    // Create position map from the first board (they should all have same structure)
-    if (this.archeBoardData && this.archeBoardData.length > 0) {
-      const firstBoard = this.archeBoardData[0];
-      firstBoard.node.forEach(node => {
+    // Find the correct board based on the selected descendant
+    let boardToUse = null;
+    
+    if (state.currentDescendant && this.archeBoardData && state.archeTuningBoardGroups && state.descendantGroups) {
+      // Get the descendant_id from current descendant
+      const descendantId = state.currentDescendant.descendant_id;
+      console.log('Current descendant ID:', descendantId);
+      
+      // Find the descendant group by looking up the descendant
+      const descendant = state.descendants.find(d => d.descendant_id === descendantId);
+      const descendantGroupId = descendant?.descendant_group_id;
+      console.log('Descendant group ID:', descendantGroupId);
+      
+      if (descendantGroupId) {
+        // Find the board group that matches this descendant group
+        const boardGroup = state.archeTuningBoardGroups.find(bg => bg.descendant_group_id === descendantGroupId);
+        const archeBoardId = boardGroup?.arche_tuning_board_id;
+        console.log('Arche board ID for this descendant:', archeBoardId);
+        
+        if (archeBoardId) {
+          // Find the actual board with this ID
+          boardToUse = this.archeBoardData.find(b => b.arche_tuning_board_id === archeBoardId);
+          console.log('Found board for descendant:', boardToUse ? 'Yes' : 'No');
+        }
+      }
+    }
+    
+    // Fall back to first board if no descendant selected or board not found
+    if (!boardToUse && this.archeBoardData && this.archeBoardData.length > 0) {
+      boardToUse = this.archeBoardData[0];
+      console.log('Using first board as fallback');
+    }
+    
+    // Log the board data structure to debug
+    if (boardToUse) {
+      console.log('Using board:', {
+        boardId: boardToUse.arche_tuning_board_id,
+        nodeCount: boardToUse.node?.length
+      });
+    }
+    
+    // Create position map from the selected board
+    if (boardToUse && boardToUse.node && Array.isArray(boardToUse.node)) {
+      boardToUse.node.forEach(node => {
         const key = `${node.position_row},${node.position_column}`;
         this.nodePositionMap[key] = node.node_id;
       });
       console.log('Created position map with', Object.keys(this.nodePositionMap).length, 'entries');
+      
+      // Log positions that should be visible but have no metadata
+      const missingPositions = [];
+      for (let row = 0; row < this.gridSize; row++) {
+        for (let col = 0; col < this.gridSize; col++) {
+          if (this.gridStructure[row][col]) {
+            const key = `${row},${col}`;
+            if (!this.nodePositionMap[key]) {
+              missingPositions.push(key);
+            }
+          }
+        }
+      }
+      if (missingPositions.length > 0) {
+        console.warn('Positions in grid but missing from metadata:', missingPositions);
+      }
+    } else {
+      console.error('Board data does not have node array:', boardToUse);
     }
     
     console.log('Setting metadataLoaded to true');
@@ -153,13 +211,21 @@ export class ArcheTuning {
   createNodeTooltip(nodeInfo) {
     if (!nodeInfo) return '';
     
+    // Map tier IDs to display names
+    const tierNames = {
+      'Tier1': 'Normal',
+      'Tier2': 'Rare',
+      'Tier3': 'Ultimate'
+    };
+    const tierDisplay = tierNames[nodeInfo.tier_id] || nodeInfo.tier_id;
+    
     let tooltip = `
       <div class="arche-tooltip">
         <div class="flex items-center gap-2 mb-2">
           <img src="${nodeInfo.node_image_url}" alt="${nodeInfo.node_name}" class="w-8 h-8" />
           <div>
             <div class="font-bold text-cyber-cyan">${nodeInfo.node_name}</div>
-            <div class="text-xs text-steel-grey">${nodeInfo.node_type}${nodeInfo.tier_id !== 'None' ? ` - ${nodeInfo.tier_id}` : ''}</div>
+            <div class="text-xs text-steel-grey">${nodeInfo.node_type}${nodeInfo.tier_id !== 'None' ? ` - ${tierDisplay}` : ''}</div>
           </div>
         </div>
     `;
@@ -185,6 +251,39 @@ export class ArcheTuning {
     return this.anchorPositions.some(anchor => anchor.row === row && anchor.col === col);
   }
 
+  isAdjacentToSelected(row, col) {
+    // Check if this node is adjacent (horizontally or vertically) to any selected node
+    // Also returns true if this is an anchor (starting point)
+    if (this.isAnchor(row, col)) {
+      return true;
+    }
+    
+    // Check all 4 adjacent positions (up, down, left, right)
+    const adjacentPositions = [
+      { row: row - 1, col },     // Up
+      { row: row + 1, col },     // Down
+      { row, col: col - 1 },     // Left
+      { row, col: col + 1 }      // Right
+    ];
+    
+    for (const pos of adjacentPositions) {
+      // Check if position is in bounds and is a visible node
+      if (pos.row >= 0 && pos.row < this.gridSize && 
+          pos.col >= 0 && pos.col < this.gridSize &&
+          this.gridStructure[pos.row][pos.col]) {
+        
+        const posKey = `${pos.row},${pos.col}`;
+        
+        // Check if this adjacent position is selected or is an anchor
+        if (this.selectedNodes.has(posKey) || this.isAnchor(pos.row, pos.col)) {
+          return true;
+        }
+      }
+    }
+    
+    return false;
+  }
+
   renderArcheTuningBoard() {
     const container = document.getElementById('arche-tuning');
     if (!container) return;
@@ -204,7 +303,7 @@ export class ArcheTuning {
           ${!this.metadataLoaded ? '<div class="text-steel-grey text-center py-8">Loading metadata...</div>' : ''}
         </div>
         <div class="mt-4 text-sm text-steel-grey">
-          <div>Selected Nodes: <span id="selected-count" class="text-cyber-cyan">0</span></div>
+          <div>Tuning Cost: <span id="selected-count" class="text-cyber-cyan">0</span> / <span class="text-steel-grey">40</span></div>
         </div>
       </div>
     `;
@@ -262,6 +361,22 @@ export class ArcheTuning {
           // Get node info to show image
           const nodeInfo = this.getNodeInfo(row, col);
           
+          // Add tier-based class for border color
+          if (nodeInfo) {
+            if (nodeInfo.tier_id === 'Tier1') {
+              nodeDiv.classList.add('tier-normal');
+            } else if (nodeInfo.tier_id === 'Tier2') {
+              nodeDiv.classList.add('tier-rare');
+            } else if (nodeInfo.tier_id === 'Tier3') {
+              nodeDiv.classList.add('tier-ultimate');
+            }
+            
+            // Mutant Cells (Hole type) get ultimate tier color
+            if (nodeInfo.node_type === 'Hole') {
+              nodeDiv.classList.add('tier-ultimate');
+            }
+          }
+          
           if (nodeInfo) {
             renderedNodes++;
           }
@@ -309,9 +424,26 @@ export class ArcheTuning {
     const nodeKey = `${row},${col}`;
     
     if (this.selectedNodes.has(nodeKey)) {
+      // Deselecting - always allowed
       this.selectedNodes.delete(nodeKey);
     } else {
-      this.selectedNodes.add(nodeKey);
+      // Selecting - check adjacency first
+      if (!this.isAdjacentToSelected(row, col)) {
+        console.log('Cannot select node: not adjacent to selected nodes or anchor');
+        return; // Don't re-render if selection was blocked
+      }
+      
+      // Check if it would exceed cost limit
+      const nodeInfo = this.getNodeInfo(row, col);
+      const nodeCost = nodeInfo?.required_tuning_point || 0;
+      const currentCost = this.calculateTotalCost();
+      
+      if (currentCost + nodeCost <= 40) {
+        this.selectedNodes.add(nodeKey);
+      } else {
+        console.log(`Cannot select node: cost would be ${currentCost + nodeCost}/40`);
+        return; // Don't re-render if selection was blocked
+      }
     }
     
     this.renderGrid();
@@ -322,10 +454,32 @@ export class ArcheTuning {
     this.renderGrid();
   }
 
+  calculateTotalCost() {
+    let totalCost = 0;
+    this.selectedNodes.forEach(nodeKey => {
+      const [row, col] = nodeKey.split(',').map(Number);
+      const nodeInfo = this.getNodeInfo(row, col);
+      if (nodeInfo) {
+        totalCost += nodeInfo.required_tuning_point || 0;
+      }
+    });
+    return totalCost;
+  }
+
   updateSelectedCount() {
     const countElement = document.getElementById('selected-count');
     if (countElement) {
-      countElement.textContent = this.selectedNodes.size;
+      const totalCost = this.calculateTotalCost();
+      countElement.textContent = totalCost;
+      
+      // Change color to indicate if at/near limit
+      if (totalCost >= 40) {
+        countElement.className = 'text-amber-gold';
+      } else if (totalCost >= 35) {
+        countElement.className = 'text-yellow-400';
+      } else {
+        countElement.className = 'text-cyber-cyan';
+      }
     }
   }
 }
