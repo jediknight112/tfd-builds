@@ -159,6 +159,24 @@
     @apply border-cyber-cyan bg-cyber-cyan/20 text-cyber-cyan shadow-neon;
   }
 
+  .reactor-filter-btn {
+    @apply px-3 py-1 text-sm border border-steel-dark hover:border-cyber-cyan transition-all duration-200 cursor-pointer font-gaming uppercase text-xs tracking-wide bg-void-blue/40 backdrop-blur-sm;
+    clip-path: polygon(0 0, calc(100% - 4px) 0, 100% 4px, 100% 100%, 4px 100%, 0 calc(100% - 4px));
+  }
+
+  .reactor-filter-btn.active {
+    @apply border-cyber-cyan bg-cyber-cyan/20 text-cyber-cyan shadow-neon;
+  }
+
+  .external-component-filter-btn {
+    @apply px-3 py-1 text-sm border border-steel-dark hover:border-cyber-cyan transition-all duration-200 cursor-pointer font-gaming uppercase text-xs tracking-wide bg-void-blue/40 backdrop-blur-sm;
+    clip-path: polygon(0 0, calc(100% - 4px) 0, 100% 4px, 100% 100%, 4px 100%, 0 calc(100% - 4px));
+  }
+
+  .external-component-filter-btn.active {
+    @apply border-cyber-cyan bg-cyber-cyan/20 text-cyber-cyan shadow-neon;
+  }
+
   .grid-bg {
     @apply bg-grid-pattern bg-grid;
   }

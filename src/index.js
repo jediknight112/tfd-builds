@@ -6,6 +6,8 @@ import { apiClient } from './api-client.js';
 import { UIComponents } from './ui-components.js';
 import { ModuleSelector } from './modules/module-selector.js';
 import { WeaponSelector } from './modules/weapon-selector.js';
+import { ReactorSelector } from './modules/reactor-selector.js';
+import { ExternalComponentSelector } from './modules/external-component-selector.js';
 import { CoreSelector } from './modules/core-selector.js';
 import { CustomStatSelector } from './modules/custom-stat-selector.js';
 
@@ -15,6 +17,8 @@ class Application {
     // Initialize feature modules
     this.moduleSelector = new ModuleSelector();
     this.weaponSelector = new WeaponSelector();
+    this.reactorSelector = new ReactorSelector();
+    this.externalComponentSelector = new ExternalComponentSelector();
     this.coreSelector = new CoreSelector();
     this.customStatSelector = new CustomStatSelector();
   }
@@ -81,6 +85,10 @@ class Application {
       state.buildCoreSlotLookup();
       state.buildCoreTypeLookup();
       state.dataLoaded = true;
+      
+      // Setup event listeners for reactor selector
+      this.reactorSelector.setupEventListeners();
+      this.externalComponentSelector.setupEventListeners();
       
       console.log('Metadata loaded:', {
         descendants: state.descendants.length,
@@ -268,6 +276,13 @@ class Application {
     const activeContent = document.getElementById(`tab-${tabName}`);
     if (activeContent) {
       activeContent.classList.remove('hidden');
+    }
+    
+    // Render tab-specific content
+    if (tabName === 'reactor') {
+      this.reactorSelector.renderReactorDisplay();
+    } else if (tabName === 'external') {
+      this.externalComponentSelector.renderExternalComponentsDisplay();
     }
   }
 

@@ -167,6 +167,7 @@ export class ModuleSelector {
             <h4 class="font-gaming font-bold text-xs text-cyber-cyan mb-1 leading-tight line-clamp-2" title="${module.module_name}">${module.module_name}</h4>
             <div class="text-xs text-steel-grey space-y-0.5">
               ${module.module_tier_id ? `<div class="text-tier-${module.module_tier_id.replace('Tier', '').toLowerCase()}">${module.module_tier_id.replace('Tier', 'T')}</div>` : ''}
+              ${module.module_type ? `<div class="text-amber-gold font-semibold">${module.module_type}</div>` : ''}
               ${maxLevelStat && maxLevelStat.value ? `<div class="text-steel-light line-clamp-2 leading-tight" title="${maxLevelStat.value.replace(/\[\+\]/g, '')}">${maxLevelStat.value.replace(/\[\+\]/g, '')}</div>` : ''}
             </div>
           </div>

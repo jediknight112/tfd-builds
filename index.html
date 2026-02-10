@@ -487,6 +487,84 @@
     </div>
   </div>
 
+  <!-- Reactor Selector Modal -->
+  <div id="reactor-selector-modal" class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+    <div class="bg-void-deep/95 border-2 border-cyber-cyan/50 rounded-lg max-w-6xl w-full max-h-[90vh] flex flex-col shadow-[0_0_30px_rgba(0,240,255,0.3)]">
+      <div class="p-6 border-b border-cyber-cyan/30">
+        <div class="flex items-center justify-between mb-4">
+          <h3 class="text-3xl font-bold text-cyber-cyan">Select Reactor</h3>
+          <button id="close-reactor-selector" class="text-steel-grey hover:text-cyber-cyan text-3xl leading-none transition-colors">&times;</button>
+        </div>
+        <p id="reactor-slot-info" class="text-sm text-steel-grey">Select a reactor</p>
+      </div>
+
+      <!-- Search and Filters -->
+      <div class="p-6 border-b border-steel-grey/20">
+        <div class="flex flex-col md:flex-row gap-4">
+          <!-- Search -->
+          <input 
+            type="text" 
+            id="reactor-search" 
+            placeholder="Search reactors..." 
+            class="flex-1 px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-none focus:ring-2 focus:ring-cyber-cyan/50 transition-all"
+          >
+          
+          <!-- Tier Filter -->
+          <div class="flex gap-2 flex-wrap">
+            <button class="reactor-filter-btn active" data-tier="all">All Tiers</button>
+            <button class="reactor-filter-btn" data-tier="Tier1">Tier 1</button>
+            <button class="reactor-filter-btn" data-tier="Tier2">Tier 2</button>
+            <button class="reactor-filter-btn" data-tier="Tier3">Tier 3</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Reactor Grid -->
+      <div id="reactor-selector-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-6 overflow-y-auto flex-1">
+        <!-- Populated by JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- External Component Selector Modal -->
+  <div id="external-component-selector-modal" class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+    <div class="bg-void-deep/95 border-2 border-cyber-cyan/50 rounded-lg max-w-6xl w-full max-h-[90vh] flex flex-col shadow-[0_0_30px_rgba(0,240,255,0.3)]">
+      <div class="p-6 border-b border-cyber-cyan/30">
+        <div class="flex items-center justify-between mb-4">
+          <h3 class="text-3xl font-bold text-cyber-cyan">Select External Component</h3>
+          <button id="close-external-component-selector" class="text-steel-grey hover:text-cyber-cyan text-3xl leading-none transition-colors">&times;</button>
+        </div>
+        <p id="external-component-slot-info" class="text-sm text-steel-grey">Select a component</p>
+      </div>
+
+      <!-- Search and Filters -->
+      <div class="p-6 border-b border-steel-grey/20">
+        <div class="flex flex-col md:flex-row gap-4">
+          <!-- Search -->
+          <input 
+            type="text" 
+            id="external-component-search" 
+            placeholder="Search components..." 
+            class="flex-1 px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-none focus:ring-2 focus:ring-cyber-cyan/50 transition-all"
+          >
+          
+          <!-- Tier Filter -->
+          <div class="flex gap-2 flex-wrap">
+            <button class="external-component-filter-btn active" data-tier="all">All Tiers</button>
+            <button class="external-component-filter-btn" data-tier="Tier1">Tier 1</button>
+            <button class="external-component-filter-btn" data-tier="Tier2">Tier 2</button>
+            <button class="external-component-filter-btn" data-tier="Tier3">Tier 3</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- External Component Grid -->
+      <div id="external-component-selector-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-6 overflow-y-auto flex-1">
+        <!-- Populated by JavaScript -->
+      </div>
+    </div>
+  </div>
+
   <!-- Custom Stat Selector Modal -->
   <div id="custom-stat-modal" class="fixed inset-0 bg-black/80 z-50 hidden flex items-center justify-center p-4">
     <div class="bg-tfd-darker border border-tfd-primary rounded-lg max-w-2xl w-full max-h-[80vh] flex flex-col">
