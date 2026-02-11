@@ -5,9 +5,11 @@
 The tfd-builds Worker requires two secrets to be configured in Cloudflare Workers:
 
 ### 1. TFD_API_KEY
+
 Your Nexon TFD API key for accessing The First Descendant API.
 
 ### 2. WORKER_API_KEY
+
 Your Worker API key for accessing the tfd-cache worker API.
 
 ## Setting Secrets

@@ -67,6 +67,7 @@ The project uses GitHub Actions for CI/CD:
 3. **Live at** - `https://tfd-builds.jediknight112.com`
 
 The deployment workflow:
+
 - Runs after successful CI tests
 - Builds the Vite project
 - Deploys to Cloudflare Workers with custom domain

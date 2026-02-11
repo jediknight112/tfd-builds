@@ -125,11 +125,13 @@ The application will open in your browser at `http://localhost:3000`
 ## Deployment
 
 The app is automatically deployed to **Cloudflare Workers** at:
+
 - **Production URL**: `https://tfd-builds.jediknight112.com`
 
 ### Automated Deployment
 
 The project uses GitHub Actions for continuous deployment:
+
 1. Push changes to `main` branch
 2. CI tests run automatically
 3. If tests pass, deployment triggers automatically
