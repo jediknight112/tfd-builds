@@ -252,7 +252,7 @@ export class ArcheTuning {
   isAdjacentToSelected(row, col) {
     // Check if this node is adjacent (horizontally or vertically) to any selected node
     // Also returns true if adjacent to the center anchor (starting point)
-    
+
     // Check all 4 adjacent positions (up, down, left, right)
     const adjacentPositions = [
       { row: row - 1, col }, // Up
@@ -304,7 +304,7 @@ export class ArcheTuning {
         this.gridStructure[pos.row][pos.col]
       ) {
         const posKey = `${pos.row},${pos.col}`;
-        
+
         // Count if this adjacent position is selected OR is the center anchor (10, 10)
         const isCenterAnchor = pos.row === 10 && pos.col === 10;
         if (this.selectedNodes.has(posKey) || isCenterAnchor) {
@@ -453,7 +453,7 @@ export class ArcheTuning {
       // Deselecting - only allowed if node is at the end of a trail
       // Count how many selected neighbors this node has
       const selectedNeighbors = this.countSelectedNeighbors(row, col);
-      
+
       // Only allow deselection if the node has 1 or fewer selected neighbors
       // (meaning it's at the end of the trail)
       if (selectedNeighbors <= 1) {
