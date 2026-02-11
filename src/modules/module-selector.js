@@ -39,7 +39,10 @@ export class ModuleSelector {
     const searchInput = document.getElementById('module-search');
     if (searchInput) {
       searchInput.value = '';
-      searchInput.focus(); // Focus the search input
+      // Only focus on desktop to prevent mobile keyboard popup
+      if (window.matchMedia('(min-width: 768px)').matches) {
+        searchInput.focus();
+      }
     }
 
     // Reset filter buttons
