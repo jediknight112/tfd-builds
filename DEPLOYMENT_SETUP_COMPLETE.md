@@ -59,6 +59,7 @@ npm run dev:worker
 ### 4. Deploy to Production
 
 **Option A: Automatic Deployment** (Recommended)
+
 ```bash
 # Commit and push your changes
 git add .
@@ -72,6 +73,7 @@ git push origin main
 ```
 
 **Option B: Manual Deployment**
+
 ```bash
 # Deploy directly
 npm run deploy
@@ -157,6 +159,7 @@ After deploying, test these:
 ## Support
 
 If you encounter issues:
+
 1. Check the documentation files in `docs/`
 2. Review GitHub Actions logs
 3. Check Cloudflare Workers logs in the dashboard

@@ -19,16 +19,16 @@ export const getTierDisplayName = (tierId) => {
 export const getApiKeys = () => {
   // Check for server-injected environment variables (Cloudflare Workers)
   const serverEnv = typeof window !== 'undefined' ? window.__ENV__ : {};
-  
+
   const workerApiKey =
     serverEnv.WORKER_API_KEY ||
-    import.meta.env.VITE_WORKER_API_KEY || 
+    import.meta.env.VITE_WORKER_API_KEY ||
     localStorage.getItem('workerApiKey');
-  
+
   const nexonApiKey =
     serverEnv.TFD_API_KEY ||
-    import.meta.env.VITE_NEXON_API_KEY || 
+    import.meta.env.VITE_NEXON_API_KEY ||
     localStorage.getItem('nexonApiKey');
-  
+
   return { workerApiKey, nexonApiKey };
 };
