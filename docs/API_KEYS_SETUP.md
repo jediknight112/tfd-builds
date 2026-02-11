@@ -25,6 +25,7 @@ VITE_NEXON_API_KEY=your_nexon_api_key
 ```
 
 Then restart the dev server:
+
 ```bash
 npm run dev
 ```
@@ -61,10 +62,12 @@ In your `tfd-cache/src/index.js`, you could add a bypass for certain endpoints o
 ## Testing Your Keys
 
 Once you've added your keys, open the browser console (F12) and you should see:
+
 - ✅ Descendant data loading successfully
 - ✅ No 401 errors
 
 If you still get errors:
+
 - Verify your Nexon API key is valid
 - Check that your worker API key matches what's expected by tfd-cache
 - Look at the browser Network tab to see the request headers
@@ -82,6 +85,7 @@ code .env
 ```
 
 Add your actual keys:
+
 ```env
 VITE_WORKER_API_KEY=abc123...
 VITE_NEXON_API_KEY=xyz789...
@@ -96,12 +100,12 @@ VITE_NEXON_API_KEY=xyz789...
 1. **Check browser console** - Look for the actual error message
 2. **Verify keys are loaded** - In console, type:
    ```javascript
-   console.log(state.apiKeys)
+   console.log(state.apiKeys);
    ```
 3. **Check Network tab** - Verify headers are being sent
 4. **Clear localStorage** - If keys seem stuck:
    ```javascript
-   localStorage.clear()
+   localStorage.clear();
    ```
 
 ### Worker API Key Not Set?
@@ -115,6 +119,7 @@ If you don't have a worker API key configured in tfd-cache, you may need to:
 ### Need Help?
 
 Check:
+
 - [tfd-cache README](../tfd-cache/README.md) - Worker documentation
 - Browser console for detailed error messages
 - Network tab to inspect request/response
@@ -125,13 +130,13 @@ After configuring keys, test in browser console:
 
 ```javascript
 // Check if keys are set
-state.apiKeys
+state.apiKeys;
 
 // Try loading descendants
-await app.loadDescendants()
+await app.loadDescendants();
 
 // Should see descendants array
-state.descendants
+state.descendants;
 ```
 
 Success! You should see descendant data loading without 401 errors. 🎉

@@ -4,16 +4,20 @@ A modern web application for viewing and planning character builds for **The Fir
 
 ## Features
 
-- 🎮 **Descendant Selection** - Choose from all available descendants
-- 🔧 **Module Management** - Configure up to 12 descendant modules
-- ⚔️ **Weapon Loadouts** - Equip and configure 3 weapons with their own modules and stats
-- ⚡ **Reactor Configuration** - Set up reactor for your build
-- 🎯 **External Components** - Add and manage external components
-- 🔬 **Arche Tuning** - Configure Arche tuning settings
-- 👥 **Fellow & Vehicle** - Select and configure Fellows and Vehicles
-- 🔄 **Inversion Reinforcement** - Manage inversion reinforcement settings
-- 💾 **Data Caching** - Powered by TFD Cache API for fast data loading
+- 🎮 **Descendant Selection** - Choose from all available descendants with visual cards
+- 🔧 **Module Management** - Configure up to 12 descendant modules with interactive selectors
+- ⚔️ **Weapon Loadouts** - Equip and configure 3 weapons with:
+  - 10 module slots per weapon
+  - 4 customizable base stats
+  - 5 core stats with selectable options
+- ⚡ **Reactor Configuration** - Select reactor and configure additional stats
+- 🎯 **External Components** - Add and manage 4 external component types with core stats
+- 🔬 **Arche Tuning** - Configure Arche tuning boards and node selections
+- 🔗 **Build Sharing** - Share builds via compressed URL parameters
+- 💾 **Build Serialization** - Automatic save/load with LZ-string compression
+- 📊 **Complete Data Loading** - Loads all game metadata (descendants, modules, weapons, reactors, etc.)
 - 🖼️ **Image Caching** - Automatic image caching through TFD Cache service with authentication
+- 🔐 **API Key Management** - Configurable API keys via UI or environment variables
 
 ## Tech Stack
 
@@ -32,8 +36,25 @@ tfd-builds/
 ├── vite.config.js          # Vite configuration
 ├── tailwind.config.js      # Tailwind CSS configuration
 ├── postcss.config.js       # PostCSS configuration
+├── .prettierrc             # Prettier code formatting config
+├── tests/                  # Test files (Vitest)
+├── docs/                   # Project documentation
 └── src/
-    ├── index.js            # Main application logic
+    ├── index.js            # Main application entry point
+    ├── state.js            # Global state management
+    ├── api-client.js       # API client for TFD Cache
+    ├── config.js           # Configuration and constants
+    ├── ui-components.js    # Reusable UI components
+    ├── build-serializer.js # Build URL encoding/decoding
+    ├── debug-image-loading.js # Image loading utilities
+    ├── modules/            # Feature modules
+    │   ├── module-selector.js
+    │   ├── weapon-selector.js
+    │   ├── reactor-selector.js
+    │   ├── external-component-selector.js
+    │   ├── core-selector.js
+    │   ├── custom-stat-selector.js
+    │   └── arche-tuning.js
     └── styles/
         └── input.css       # Tailwind CSS input file
 ```
@@ -50,11 +71,13 @@ tfd-builds/
 ### Installation
 
 1. Navigate to the project directory:
+
 ```bash
 cd /Users/jeffrey.crane/GitHub/tfd-builds
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
@@ -76,26 +99,33 @@ npm install
      ```
 
 4. Start the development server:
+
 ```bash
 npm run dev
 ```
 
 The application will open in your browser at `http://localhost:3000`
 
-**See [API_KEYS_SETUP.md](API_KEYS_SETUP.md) for detailed instructions on obtaining API keys.**
+**See [docs/API_KEYS_SETUP.md](docs/API_KEYS_SETUP.md) for detailed instructions on obtaining API keys.**
 
 ## Available Scripts
 
 - `npm run dev` - Start development server with hot reload
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build locally
+- `npm test` - Run tests once
+- `npm run test:watch` - Run tests in watch mode
+- `npm run lint` - Check code formatting
+- `npm run format` - Auto-format code with Prettier
 - `make install` - Install dependencies (alternative)
 - `make dev` - Start dev server (alternative)
 
 ## Data Structure
 
 ### Descendant Build
+
 Each descendant build consists of:
+
 - **12 Module Slots** - Enhance descendant abilities
 - **3 Weapon Slots** - Each weapon has:
   - 10 module slots
@@ -111,7 +141,8 @@ Each descendant build consists of:
 ## API Integration
 
 This app connects to the TFD Cache API:
-- **Base URL**: `https://tfd-cache.jeffistotallyawesome.space`
+
+- **Base URL**: `https://tfd-cache.jediknight112.com`
 - **Endpoints**:
   - `/tfd/metadata/descendant` - Get descendant data
   - `/tfd/metadata/module` - Get module data
@@ -122,32 +153,46 @@ This app connects to the TFD Cache API:
 ## Customization
 
 ### Theme Colors
+
 Edit tailwind.config.js to customize the color scheme:
+
 - `tfd-primary`: Main accent color (cyan)
 - `tfd-secondary`: Secondary accent (orange)
 - `tfd-dark`: Dark background
 - `tfd-accent`: Purple accent
 
 ### API Configuration
-Edit the API base URL in src/index.js:
+
+Edit the API base URL in [src/config.js](src/config.js):
+
 ```javascript
-const API_BASE_URL = 'https://your-api-url.com';
+export const API_BASE_URL = 'https://your-api-url.com';
 ```
 
 ## Development Roadmap
 
-- [x] Basic project setup
+- [x] Basic project setup with Vite + Tailwind
 - [x] Descendant selection UI
 - [x] Module slot system
 - [x] Weapon cards with stats
 - [x] Tab navigation
-- [ ] Module selector modal
-- [ ] Weapon selector modal
-- [ ] Build saving/loading
-- [ ] Build sharing (URL-based)
+- [x] Module selector modal
+- [x] Weapon selector modal
+- [x] Reactor selector
+- [x] External component selector
+- [x] Core selector system
+- [x] Custom stat selector
+- [x] Arche Tuning configuration
+- [x] Build serialization (save/load)
+- [x] Build sharing (URL-based with compression)
+- [x] CI/CD with GitHub Actions
+- [x] Testing infrastructure (Vitest)
+- [x] Code formatting (Prettier)
 - [ ] Build comparison
-- [ ] Stat calculations
+- [ ] Stat calculations and totals
+- [ ] Build templates/presets
 - [ ] Mobile responsive improvements
+- [ ] Dark/light theme toggle
 
 ## Related Projects
 
@@ -157,6 +202,7 @@ const API_BASE_URL = 'https://your-api-url.com';
 ## Contributing
 
 Contributions are welcome! Feel free to:
+
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes

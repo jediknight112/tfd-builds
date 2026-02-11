@@ -7,7 +7,12 @@
     "dev": "npx vite",
     "build": "npx vite build",
     "preview": "npx vite preview",
-    "tailwind:build": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css --watch"
+    "tailwind:build": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "npm run format:check"
   },
   "keywords": [
     "tfd",
@@ -17,10 +22,13 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@vitest/ui": "^4.0.18",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.49",
+    "prettier": "^3.8.1",
     "tailwindcss": "^3.4.17",
-    "vite": "^6.0.5"
+    "vite": "^6.0.5",
+    "vitest": "^4.0.18"
   },
   "dependencies": {
     "axios": "^1.7.9",

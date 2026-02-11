@@ -48,7 +48,7 @@ npm run preview
 
 5. **Custom Domain** (Optional)
    - Go to custom domains tab
-   - Add your domain (e.g., `builds.jeffistotallyawesome.space`)
+   - Add your domain (e.g., `builds.example.com`)
    - Update DNS records as instructed
 
 ### Option 2: Netlify
@@ -86,6 +86,7 @@ npm run preview
 ### Option 4: GitHub Pages
 
 1. **Build the Project**
+
 ```bash
 npm run build
 ```
@@ -96,6 +97,7 @@ npm run build
    - Branch: Select branch with `dist` folder
 
 3. **Push dist folder**
+
 ```bash
 # Create gh-pages branch
 git checkout -b gh-pages
@@ -107,30 +109,31 @@ git subtree push --prefix dist origin gh-pages
 Alternatively, use GitHub Actions:
 
 Create `.github/workflows/deploy.yml`:
+
 ```yaml
 name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      
+
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-          
+
       - name: Install dependencies
         run: npm ci
-        
+
       - name: Build
         run: npm run build
-        
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -141,11 +144,13 @@ jobs:
 ### Option 5: Self-Hosted
 
 1. **Build the Project**
+
 ```bash
 npm run build
 ```
 
 2. **Upload dist folder to your server**
+
 ```bash
 # Using SCP
 scp -r dist/* user@yourserver.com:/var/www/html/tfd-builds/
@@ -157,18 +162,19 @@ rsync -avz dist/ user@yourserver.com:/var/www/html/tfd-builds/
 3. **Configure Web Server**
 
 **Nginx**:
+
 ```nginx
 server {
     listen 80;
     server_name builds.yourdomain.com;
-    
+
     root /var/www/html/tfd-builds;
     index index.html;
-    
+
     location / {
         try_files $uri $uri/ /index.html;
     }
-    
+
     # Enable gzip compression
     gzip on;
     gzip_types text/css application/javascript application/json;
@@ -176,6 +182,7 @@ server {
 ```
 
 **Apache** (.htaccess):
+
 ```apache
 <IfModule mod_rewrite.c>
   RewriteEngine On
@@ -190,6 +197,7 @@ server {
 ## Post-Deployment
 
 ### Verify Deployment
+
 1. Visit your deployed URL
 2. Open browser console (F12)
 3. Check for any errors
@@ -199,15 +207,18 @@ server {
 ### Common Issues
 
 **API CORS Errors**
+
 - Ensure API allows requests from your domain
 - Check CORS headers on API server
 - Verify API base URL is correct
 
 **Routing Issues (404 on refresh)**
+
 - Configure server for SPA routing
 - See web server configuration above
 
 **Build Errors**
+
 ```bash
 # Clear cache and rebuild
 rm -rf node_modules dist
@@ -216,6 +227,7 @@ npm run build
 ```
 
 **Assets Not Loading**
+
 - Check base path in `vite.config.js`
 - Verify dist folder structure
 - Check browser network tab for 404s
@@ -223,8 +235,9 @@ npm run build
 ## Environment Configuration
 
 Create `.env` file for custom configuration:
+
 ```env
-VITE_API_BASE_URL=https://tfd-cache.jeffistotallyawesome.space
+VITE_API_BASE_URL=https://tfd-cache.jediknight112.com
 VITE_LANGUAGE_CODE=en
 ```
 
@@ -233,7 +246,9 @@ VITE_LANGUAGE_CODE=en
 ## Performance Optimization
 
 ### Enable Caching
+
 Add cache headers in your web server configuration:
+
 ```nginx
 location ~* \.(js|css|png|jpg|jpeg|gif|ico|svg)$ {
     expires 1y;
@@ -242,40 +257,54 @@ location ~* \.(js|css|png|jpg|jpeg|gif|ico|svg)$ {
 ```
 
 ### Enable Compression
+
 Gzip/Brotli compression for faster loading:
+
 ```nginx
 gzip on;
 gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript;
 ```
 
 ### CDN (Optional)
+
 - Enable Cloudflare CDN for faster global access
 - Configure cache rules for static assets
 
 ## Monitoring
 
 ### Analytics (Optional)
+
 Add to `index.html` before `</head>`:
+
 ```html
 <!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag() {
+    dataLayer.push(arguments);
+  }
   gtag('js', new Date());
   gtag('config', 'GA_MEASUREMENT_ID');
 </script>
 ```
 
 ### Error Tracking
+
 Consider adding:
+
 - [Sentry](https://sentry.io/) for error tracking
 - [LogRocket](https://logrocket.com/) for session replay
 
 ## Updating the Deployment
 
 ### Automatic Deployments
+
 Most platforms (Cloudflare Pages, Netlify, Vercel) auto-deploy on git push:
+
 ```bash
 git add .
 git commit -m "Update feature X"
@@ -283,6 +312,7 @@ git push origin main
 ```
 
 ### Manual Deployment
+
 ```bash
 # Rebuild
 npm run build
@@ -296,11 +326,13 @@ npm run build
 If deployment fails:
 
 **Cloudflare Pages/Netlify/Vercel**:
+
 - Go to deployments tab
 - Click on previous successful deployment
 - Click "Rollback to this deployment"
 
 **GitHub Pages**:
+
 ```bash
 git revert HEAD
 git push
@@ -317,6 +349,7 @@ git push
 ## Support
 
 For deployment issues:
+
 - Check [Vite deployment docs](https://vitejs.dev/guide/static-deploy.html)
 - Review platform-specific documentation
 - Check browser console for errors

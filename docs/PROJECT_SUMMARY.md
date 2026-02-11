@@ -7,52 +7,87 @@ A modern, responsive web application for creating and viewing character builds f
 ## ✅ What's Been Created
 
 ### Core Files
+
 - ✅ **index.html** - Main HTML structure with gaming-themed UI
-- ✅ **src/index.js** - Complete application logic with state management
+- ✅ **src/index.js** - Main application entry point and orchestration
+- ✅ **src/state.js** - Centralized state management
+- ✅ **src/api-client.js** - API client for TFD Cache communication
+- ✅ **src/config.js** - Configuration constants and API settings
+- ✅ **src/ui-components.js** - Reusable UI component factory
+- ✅ **src/build-serializer.js** - Build encoding/decoding with LZ-string compression
+- ✅ **src/debug-image-loading.js** - Image loading debugging utilities
+- ✅ **src/modules/** - Feature modules (modular architecture):
+  - ✅ **module-selector.js** - Descendant module selection
+  - ✅ **weapon-selector.js** - Weapon selection and management
+  - ✅ **reactor-selector.js** - Reactor configuration
+  - ✅ **external-component-selector.js** - External components
+  - ✅ **core-selector.js** - Core stat selection
+  - ✅ **custom-stat-selector.js** - Custom stat configuration
+  - ✅ **arche-tuning.js** - Arche tuning board and node selection
 - ✅ **src/styles/input.css** - Tailwind CSS with custom gaming theme
+- ✅ **tests/** - Test files using Vitest
 - ✅ **package.json** - Dependencies and build scripts
 - ✅ **vite.config.js** - Vite development server configuration
 - ✅ **tailwind.config.js** - Custom color scheme and utilities
 - ✅ **postcss.config.js** - PostCSS configuration
+- ✅ **.prettierrc** - Prettier code formatting configuration
+- ✅ **.prettierignore** - Files to exclude from formatting
 - ✅ **.gitignore** - Git ignore rules
 - ✅ **Makefile** - Convenient build commands
 
 ### Documentation
+
 - ✅ **README.md** - Complete project documentation
-- ✅ **DEVELOPMENT.md** - Developer guide with architecture overview
-- ✅ **DEPLOYMENT.md** - Comprehensive deployment guide
+- ✅ **docs/DEVELOPMENT.md** - Developer guide with architecture overview
+- ✅ **docs/DEPLOYMENT.md** - Comprehensive deployment guide
+- ✅ **docs/API_KEYS_SETUP.md** - API key configuration guide
+- ✅ **docs/PROJECT_SUMMARY.md** - This file - project overview
+- ✅ **docs/FILE_STRUCTURE.md** - Complete file structure documentation
+- ✅ **docs/QUICKSTART.md** - Quick start guide
+- ✅ **docs/MODULE_SELECTOR_GUIDE.md** - Module selector usage guide
+- ✅ **docs/CI_SETUP.md** - CI/CD testing setup documentation
+- ✅ **docs/IMAGE*CACHING*\*.md** - Image caching documentation
 - ✅ **.env.example** - Environment variable template
+- ✅ **.github/workflows/ci.yml** - GitHub Actions CI workflow
+- ✅ **.github/dependabot.yml** - Dependabot configuration
 
 ## 🎮 Features Implemented
 
 ### Character Build System
+
 1. **Descendant Selection**
-   - Grid view of all descendants
+   - Grid view of all descendants with images
    - Click to select and configure
    - Descendant info display with name and description
+   - Reactive UI updates on selection
 
 2. **Module Management**
    - 12 descendant module slots
+   - Interactive module selector modal
+   - Filter by tier, class, socket type
+   - Search functionality
    - Visual slot system with empty/filled states
-   - Click to open selector (placeholder for now)
+   - Trigger module support
 
 3. **Weapon Loadouts**
-   - 3 weapon slots
+   - 3 weapon slots with full configuration
+   - Interactive weapon selector with filters
    - Each weapon displays:
-     - 10 module slots
-     - 4 base stat placeholders
-     - 5 core stat placeholders
+     - 10 module slots with interactive selector
+     - 4 customizable base stats (stat type + value)
+     - 5 core stats with option selection
+     - Core type selection
    - Visual weapon cards with gaming theme
 
 4. **Additional Sections**
-   - Reactor configuration tab
-   - External components tab
-   - Arche Tuning tab
-   - Fellow configuration tab
-   - Vehicle configuration tab
-   - Inversion Reinforcement tab
+   - ✅ Reactor configuration with stats
+   - ✅ External components (4 types) with core stats
+   - ✅ Arche Tuning with board and node selection
+   - ✅ Build serialization for save/load
+   - ✅ URL sharing with LZ-string compression
 
 ### UI/UX Features
+
 - ✅ Responsive tab navigation
 - ✅ Gaming-themed design with neon effects
 - ✅ Loading states
@@ -62,43 +97,79 @@ A modern, responsive web application for creating and viewing character builds f
 - ✅ Custom color scheme (cyan, orange, purple)
 
 ### Technical Features
-- ✅ Modern ES6+ JavaScript
-- ✅ Class-based architecture
-- ✅ State management system
-- ✅ API client for TFD Cache
-- ✅ Modular component system
+
+- ✅ Modern ES6+ JavaScript with modules
+- ✅ Class-based architecture with separation of concerns
+- ✅ Centralized state management (state.js)
+- ✅ API client abstraction (api-client.js)
+- ✅ Modular component system (modules/ directory)
+- ✅ Build serialization with LZ-string compression
+- ✅ URL-based build sharing
+- ✅ LocalStorage persistence
 - ✅ Hot module replacement (HMR)
 - ✅ Production build optimization
+- ✅ Testing infrastructure (Vitest)
+- ✅ Code formatting (Prettier)
+- ✅ CI/CD with GitHub Actions
+- ✅ Image loading with caching support
 
 ## 🏗️ Architecture
 
-### State Management
+### State Management (state.js)
+
 ```javascript
-AppState
+state (exported object)
+├── apiKeys { workerApiKey, nexonApiKey }
 ├── descendants[]
 ├── modules[]
 ├── weapons[]
+├── reactors[]
+├── externalComponents[]
+├── archeTuningNodes[]
+├── archeTuningBoards[]
+├── archeTuningBoardGroups[]
+├── stats[], tiers[], coreSlots[], coreTypes[]
 ├── currentDescendant
 ├── currentBuild
 │   ├── descendantModules[12]
+│   ├── triggerModule
 │   ├── weapons[3]
+│   │   ├── weapon
+│   │   ├── modules[10]
+│   │   ├── customStats[4]
+│   │   ├── coreType
+│   │   └── coreStats[5]
 │   ├── reactor
-│   ├── externalComponents[]
-│   └── ...other components
+│   ├── reactorAdditionalStats[]
+│   ├── externalComponents{}
+│   └── archeTuning { board, selectedNodes[] }
 └── currentTab
 ```
 
-### Main Classes
-1. **AppState** - Centralized state management
-2. **TFDApiClient** - API communication layer
-3. **UIComponents** - UI element factory
-4. **Application** - Main application logic
+### Main Classes and Modules
+
+1. **Application** (index.js) - Main application orchestration
+2. **state** (state.js) - Centralized state management
+3. **apiClient** (api-client.js) - TFD Cache API communication
+4. **UIComponents** (ui-components.js) - Reusable UI component factory
+5. **BuildSerializer** (build-serializer.js) - Build save/load/share
+6. **Feature Modules** (modules/):
+   - ModuleSelector
+   - WeaponSelector
+   - ReactorSelector
+   - ExternalComponentSelector
+   - CoreSelector
+   - CustomStatSelector
+   - ArcheTuning
+7. **UIComponents** - UI element factory
+8. **Application** - Main application logic
 
 ## 🔌 API Integration
 
-Connected to: `https://tfd-cache.jeffistotallyawesome.space`
+Connected to: `https://tfd-cache.jediknight112.com`
 
 ### Available Endpoints
+
 - `/tfd/metadata/descendant` - Descendant data
 - `/tfd/metadata/module` - Module data
 - `/tfd/metadata/weapon` - Weapon data
@@ -108,6 +179,7 @@ Connected to: `https://tfd-cache.jeffistotallyawesome.space`
 ## 🎨 Design System
 
 ### Color Palette
+
 ```
 tfd-primary: #00d9ff (Cyan) - Primary accent, highlights
 tfd-secondary: #ff6b00 (Orange) - Weapon/secondary accent
@@ -120,6 +192,7 @@ tfd-error: #ff006e (Pink) - Error states
 ```
 
 ### Custom Components
+
 - `.card` - Standard card with borders and hover effects
 - `.module-slot` - Interactive module slots
 - `.weapon-card` - Weapon display cards
@@ -262,6 +335,7 @@ tfd-builds/
 ## 🎓 Learning Resources
 
 If working with this project:
+
 - [Vite Documentation](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Modern JavaScript](https://javascript.info/)
@@ -283,6 +357,7 @@ MIT License - Free to use, modify, and distribute
 **Status**: ✅ **Ready for Development**
 
 The project is fully set up and ready for:
+
 1. `npm install` to install dependencies
 2. `npm run dev` to start development
 3. Further feature development as outlined above
