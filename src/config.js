@@ -18,7 +18,8 @@ export const getTierDisplayName = (tierId) => {
 // Get API keys from environment or localStorage
 export const getApiKeys = () => {
   // Check for server-injected environment variables (Cloudflare Workers)
-  const serverEnv = typeof window !== 'undefined' ? window.__ENV__ : {};
+  const serverEnv =
+    typeof window !== 'undefined' && window.__ENV__ ? window.__ENV__ : {};
 
   const workerApiKey =
     serverEnv.WORKER_API_KEY ||
