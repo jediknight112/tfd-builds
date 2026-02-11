@@ -1,0 +1,9 @@
+# Local Development Environment Variables
+# Copy this file to .dev.vars and fill in your actual values
+# .dev.vars is gitignored and used by `wrangler dev` for local testing
+
+# Your Nexon TFD API Key
+TFD_API_KEY=your_tfd_api_key_here
+
+# Your Worker API Key for tfd-cache
+WORKER_API_KEY=your_worker_api_key_here

@@ -56,3 +56,6 @@ jobs:
 
       - name: Build project
         run: npm run build
+
+      - name: Test Wrangler deployment (dry run)
+        run: npx wrangler deploy --dry-run
