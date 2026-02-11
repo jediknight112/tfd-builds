@@ -143,16 +143,16 @@ class Application {
           const sortedDescendants = [...state.descendants].sort((a, b) => {
             const nameA = (a.descendant_name || '').toLowerCase();
             const nameB = (b.descendant_name || '').toLowerCase();
-            
+
             // Remove "ultimate " prefix for base comparison
             const baseA = nameA.replace(/^ultimate\s+/, '');
             const baseB = nameB.replace(/^ultimate\s+/, '');
-            
+
             // If base names are the same, non-ultimate comes first
             if (baseA === baseB) {
               return nameA.startsWith('ultimate') ? 1 : -1;
             }
-            
+
             // Otherwise sort by base name
             return baseA.localeCompare(baseB);
           });
@@ -208,16 +208,16 @@ class Application {
           const sortedDescendants = [...state.descendants].sort((a, b) => {
             const nameA = (a.descendant_name || '').toLowerCase();
             const nameB = (b.descendant_name || '').toLowerCase();
-            
+
             // Remove "ultimate " prefix for base comparison
             const baseA = nameA.replace(/^ultimate\s+/, '');
             const baseB = nameB.replace(/^ultimate\s+/, '');
-            
+
             // If base names are the same, non-ultimate comes first
             if (baseA === baseB) {
               return nameA.startsWith('ultimate') ? 1 : -1;
             }
-            
+
             // Otherwise sort by base name
             return baseA.localeCompare(baseB);
           });
