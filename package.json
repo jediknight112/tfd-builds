@@ -35,6 +35,7 @@
     "wrangler": "^4.64.0"
   },
   "dependencies": {
+    "@cloudflare/kv-asset-handler": "^0.4.2",
     "axios": "^1.7.9",
     "lz-string": "^1.5.0"
   }

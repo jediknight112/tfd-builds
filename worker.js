@@ -3,6 +3,7 @@
  * Serves the Vite-built static site with environment variable injection
  */
 
+import { getAssetFromKV } from '@cloudflare/kv-asset-handler';
 import manifestJSON from '__STATIC_CONTENT_MANIFEST';
 const assetManifest = JSON.parse(manifestJSON);
 
@@ -36,8 +37,17 @@ export default {
     try {
       const url = new URL(request.url);
 
-      // Get the asset from static content
-      let response = await env.ASSETS.fetch(request);
+      // Get the asset from KV storage
+      let response = await getAssetFromKV(
+        {
+          request,
+          waitUntil: ctx.waitUntil.bind(ctx),
+        },
+        {
+          ASSET_NAMESPACE: env.__STATIC_CONTENT,
+          ASSET_MANIFEST: assetManifest,
+        }
+      );
 
       // If it's the main HTML file, inject environment variables
       if (
