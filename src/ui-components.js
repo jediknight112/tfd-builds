@@ -12,7 +12,7 @@ export class UIComponents {
   ) {
     const moduleSlot = document.createElement('div');
     moduleSlot.className =
-      'module-slot group relative border-2 border-tfd-primary/30 rounded-lg p-3 hover:border-tfd-accent transition-all cursor-pointer bg-black/50 hover:bg-black/70';
+      'module-slot group relative border-2 border-tfd-primary/30 rounded-lg p-2 sm:p-3 hover:border-tfd-accent transition-all cursor-pointer bg-black/50 hover:bg-black/70';
 
     if (module) {
       const tierClass = module.module_tier
@@ -32,12 +32,12 @@ export class UIComponents {
 
       moduleSlot.innerHTML = `
         <div class="flex flex-col gap-2">
-          ${module.image_url ? `<img src="${module.image_url}" alt="${module.module_name}" class="w-full h-20 object-contain rounded" />` : ''}
+          ${module.image_url ? `<img src="${module.image_url}" alt="${module.module_name}" class="w-full h-16 sm:h-20 object-contain rounded" />` : ''}
           <div class="flex-1">
-            <h4 class="font-semibold text-sm text-cyber-cyan mb-1 leading-tight">${module.module_name || 'Unknown Module'}</h4>
-            ${!isTriggerSlot && module.module_socket_type ? `<p class="text-xs text-steel-grey">${module.module_socket_type}</p>` : ''}
-            ${module.module_tier_id ? `<p class="text-xs text-steel-grey">${getTierDisplayName(module.module_tier_id)}</p>` : ''}
-            ${module.module_type ? `<p class="text-xs text-amber-gold font-semibold">${module.module_type}</p>` : ''}
+            <h4 class="font-semibold text-xs sm:text-sm text-cyber-cyan mb-1 leading-tight">${module.module_name || 'Unknown Module'}</h4>
+            ${!isTriggerSlot && module.module_socket_type ? `<p class="text-[10px] sm:text-xs text-steel-grey">${module.module_socket_type}</p>` : ''}
+            ${module.module_tier_id ? `<p class="text-[10px] sm:text-xs text-steel-grey">${getTierDisplayName(module.module_tier_id)}</p>` : ''}
+            ${module.module_type ? `<p class="text-[10px] sm:text-xs text-amber-gold font-semibold">${module.module_type}</p>` : ''}
           </div>
         </div>
         ${
@@ -47,14 +47,14 @@ export class UIComponents {
             ${
               !isTriggerSlot
                 ? `
-              <div class="text-xs flex justify-between gap-2">
+              <div class="text-[10px] sm:text-xs flex justify-between gap-2">
                 <span class="text-amber-gold font-semibold">Capacity</span>
                 <span class="text-amber-gold font-semibold">${maxLevelStat.module_capacity}</span>
               </div>
             `
                 : ''
             }
-            <div class="text-xs text-steel-light">${maxLevelStat.value.replace(/\[\+\]/g, '')}</div>
+            <div class="text-[10px] sm:text-xs text-steel-light">${maxLevelStat.value.replace(/\[\+\]/g, '')}</div>
           </div>
         `
             : ''
@@ -90,7 +90,7 @@ export class UIComponents {
   static createWeaponCard(weapon, weaponIndex) {
     const weaponCard = document.createElement('div');
     weaponCard.className =
-      'weapon-card border-2 border-tfd-primary/30 rounded-lg p-4 bg-black/50';
+      'weapon-card border-2 border-tfd-primary/30 rounded-lg p-3 sm:p-4 bg-black/50';
 
     if (weapon) {
       const tierClass = weapon.weapon_tier_id
@@ -101,26 +101,26 @@ export class UIComponents {
       }
 
       weaponCard.innerHTML = `
-        <div class="flex items-center gap-3 mb-4">
-          ${weapon.image_url ? `<img src="${weapon.image_url}" alt="${weapon.weapon_name}" class="w-16 h-16 rounded object-cover" />` : ''}
-          <div class="flex-1">
-            <h4 class="font-semibold">${weapon.weapon_name || 'Unknown Weapon'}</h4>
-            <p class="text-sm text-gray-400">${weapon.weapon_type || ''}</p>
-            <p class="text-sm text-tfd-accent">${weapon.weapon_tier_id?.replace('Tier', 'Tier ') || ''} - ${weapon.weapon_rounds_type || ''}</p>
+        <div class="flex items-center gap-2 sm:gap-3 mb-3 sm:mb-4">
+          ${weapon.image_url ? `<img src="${weapon.image_url}" alt="${weapon.weapon_name}" class="w-12 h-12 sm:w-16 sm:h-16 rounded object-cover" />` : ''}
+          <div class="flex-1 min-w-0">
+            <h4 class="font-semibold text-sm sm:text-base truncate">${weapon.weapon_name || 'Unknown Weapon'}</h4>
+            <p class="text-xs sm:text-sm text-gray-400 truncate">${weapon.weapon_type || ''}</p>
+            <p class="text-xs sm:text-sm text-tfd-accent truncate">${weapon.weapon_tier_id?.replace('Tier', 'Tier ') || ''} - ${weapon.weapon_rounds_type || ''}</p>
           </div>
-          <button class="btn-secondary text-xs clear-weapon-btn">Clear</button>
+          <button class="btn-secondary text-[10px] sm:text-xs px-2 sm:px-3 py-1 clear-weapon-btn whitespace-nowrap">Clear</button>
         </div>
         
-        <div class="weapon-modules-grid grid grid-cols-2 gap-2 mb-4"></div>
+        <div class="weapon-modules-grid grid grid-cols-2 sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-1 sm:gap-2 mb-3 sm:mb-4"></div>
         
-        <div class="weapon-core-section border-t border-tfd-primary/30 pt-4 mb-4">
-          <h5 class="font-semibold text-sm mb-2">Weapon Core</h5>
+        <div class="weapon-core-section border-t border-tfd-primary/30 pt-3 sm:pt-4 mb-3 sm:mb-4">
+          <h5 class="font-semibold text-xs sm:text-sm mb-2">Weapon Core</h5>
           <div class="core-stats-inline space-y-2"></div>
         </div>
         
-        <div class="custom-stats-section border-t border-tfd-primary/30 pt-4">
+        <div class="custom-stats-section border-t border-tfd-primary/30 pt-3 sm:pt-4">
           <div class="flex justify-between items-center mb-2">
-            <h5 class="font-semibold text-sm">Additional Stats (${state.currentBuild.weapons[weaponIndex].customStats.length}/4)</h5>
+            <h5 class="font-semibold text-xs sm:text-sm">Additional Stats (${state.currentBuild.weapons[weaponIndex].customStats.length}/4)</h5>
           </div>
           <div class="custom-stats-list space-y-2"></div>
           <datalist id="weapon-stat-names-${weaponIndex}">

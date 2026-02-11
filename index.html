@@ -17,26 +17,28 @@
     <header
       class="bg-tfd-dark border-b border-tfd-primary/30 shadow-lg sticky top-0 z-50"
     >
-      <div class="container mx-auto px-4 py-4">
-        <div class="flex items-center justify-between">
-          <div class="flex items-center gap-4">
-            <h1 class="text-3xl font-bold text-tfd-primary text-shadow">
+      <div class="container mx-auto px-3 sm:px-4 py-3 sm:py-4">
+        <div class="flex items-center justify-between flex-wrap gap-3">
+          <div class="flex items-center gap-2 sm:gap-4 flex-wrap">
+            <h1 class="text-xl sm:text-2xl md:text-3xl font-bold text-tfd-primary text-shadow">
               TFD BUILD VIEWER
             </h1>
-            <span class="text-sm text-gray-400">The First Descendant</span>
+            <span class="text-xs sm:text-sm text-gray-400 hidden xs:inline">The First Descendant</span>
           </div>
-          <nav class="flex gap-4">
+          <nav class="flex gap-2 sm:gap-4">
             <button
-              class="btn-secondary text-sm py-1 px-4"
+              class="btn-secondary text-xs sm:text-sm py-1 px-3 sm:px-4"
               onclick="app.loadDescendants()"
             >
-              Refresh Data
+              <span class="hidden sm:inline">Refresh Data</span>
+              <span class="sm:hidden">Refresh</span>
             </button>
             <button
-              class="btn-primary text-sm py-1 px-4"
+              class="btn-primary text-xs sm:text-sm py-1 px-3 sm:px-4"
               onclick="app.createNewBuild()"
             >
-              + New Build
+              <span class="hidden sm:inline">+ New Build</span>
+              <span class="sm:hidden">+ New</span>
             </button>
           </nav>
         </div>
@@ -80,13 +82,13 @@
           <div
             class="card bg-gradient-to-r from-tfd-dark via-tfd-dark to-tfd-accent/20"
           >
-            <div class="flex items-center gap-6">
+            <div class="flex flex-col sm:flex-row items-center sm:items-center gap-4 sm:gap-6">
               <div
                 id="descendant-image"
-                class="w-32 h-32 bg-tfd-darker rounded-lg border-2 border-tfd-primary flex items-center justify-center overflow-hidden flex-shrink-0"
+                class="w-24 h-24 sm:w-32 sm:h-32 bg-tfd-darker rounded-lg border-2 border-tfd-primary flex items-center justify-center overflow-hidden flex-shrink-0"
               >
                 <svg
-                  class="w-16 h-16 text-tfd-primary/50"
+                  class="w-12 h-12 sm:w-16 sm:h-16 text-tfd-primary/50"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
@@ -95,14 +97,14 @@
                   ></path>
                 </svg>
               </div>
-              <div class="flex-1 min-w-0">
+              <div class="flex-1 min-w-0 text-center sm:text-left">
                 <h2
                   id="descendant-name"
-                  class="text-3xl font-bold text-tfd-primary mb-2"
+                  class="text-2xl sm:text-3xl font-bold text-tfd-primary mb-2"
                 >
                   Descendant Name
                 </h2>
-                <p id="descendant-description" class="text-gray-400">
+                <p id="descendant-description" class="text-sm sm:text-base text-gray-400">
                   Descendant description will appear here
                 </p>
               </div>
@@ -112,52 +114,54 @@
 
         <!-- Tab Navigation -->
         <section class="mb-6">
-          <div class="flex items-center gap-4 mb-4">
+          <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 mb-4">
             <div
-              class="flex gap-2 border-b border-tfd-primary/30 overflow-x-auto flex-1"
+              class="flex gap-1 sm:gap-2 border-b border-tfd-primary/30 overflow-x-auto flex-1 pb-0"
             >
               <button
-                class="tab active"
+                class="tab active text-xs sm:text-sm px-2 sm:px-4"
                 data-tab="modules"
                 onclick="app.switchTab('modules')"
               >
                 Modules
               </button>
               <button
-                class="tab"
+                class="tab text-xs sm:text-sm px-2 sm:px-4"
                 data-tab="weapons"
                 onclick="app.switchTab('weapons')"
               >
                 Weapons
               </button>
               <button
-                class="tab"
+                class="tab text-xs sm:text-sm px-2 sm:px-4"
                 data-tab="reactor"
                 onclick="app.switchTab('reactor')"
               >
                 Reactor
               </button>
               <button
-                class="tab"
+                class="tab text-xs sm:text-sm px-2 sm:px-4"
                 data-tab="external"
                 onclick="app.switchTab('external')"
               >
-                External Components
+                <span class="hidden md:inline">External Components</span>
+                <span class="md:hidden">External</span>
               </button>
               <button
-                class="tab"
+                class="tab text-xs sm:text-sm px-2 sm:px-4"
                 data-tab="arche"
                 onclick="app.switchTab('arche')"
               >
-                Arche Tuning
+                <span class="hidden sm:inline">Arche Tuning</span>
+                <span class="sm:hidden">Arche</span>
               </button>
             </div>
             <button
-              class="btn-primary px-6 py-2 whitespace-nowrap"
+              class="btn-primary px-4 sm:px-6 py-2 whitespace-nowrap text-sm"
               onclick="app.shareBuild()"
             >
               <svg
-                class="w-5 h-5 inline mr-2"
+                class="w-4 h-4 sm:w-5 sm:h-5 inline mr-1 sm:mr-2"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -169,7 +173,8 @@
                   d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"
                 ></path>
               </svg>
-              Share Build
+              <span class="hidden sm:inline">Share Build</span>
+              <span class="sm:hidden">Share</span>
             </button>
           </div>
         </section>
@@ -406,31 +411,31 @@
     <!-- Module Selector Modal -->
     <div
       id="module-selector-modal"
-      class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4"
+      class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-2 sm:p-4"
       onclick="if (event.target === this) app.closeModuleSelector();"
     >
       <div
-        class="card max-w-6xl w-full bg-tfd-dark max-h-[90vh] flex flex-col rounded-lg shadow-[0_0_30px_rgba(0,240,255,0.3)]"
+        class="card max-w-6xl w-full bg-tfd-dark max-h-[95vh] sm:max-h-[90vh] flex flex-col rounded-lg shadow-[0_0_30px_rgba(0,240,255,0.3)]"
       >
         <div
-          class="flex items-center justify-between mb-4 p-6 pb-4 border-b border-cyber-cyan/30"
+          class="flex items-center justify-between mb-3 sm:mb-4 p-4 sm:p-6 pb-3 sm:pb-4 border-b border-cyber-cyan/30"
         >
           <div>
-            <h3 class="text-3xl font-bold text-cyber-cyan">Select Module</h3>
-            <p id="module-slot-info" class="text-sm text-steel-grey mt-1">
+            <h3 class="text-xl sm:text-2xl md:text-3xl font-bold text-cyber-cyan">Select Module</h3>
+            <p id="module-slot-info" class="text-xs sm:text-sm text-steel-grey mt-1">
               <span id="module-count">0 modules</span>
             </p>
           </div>
           <button
             onclick="app.closeModuleSelector()"
-            class="text-steel-grey hover:text-cyber-cyan text-3xl leading-none transition-colors"
+            class="text-steel-grey hover:text-cyber-cyan text-2xl sm:text-3xl leading-none transition-colors"
           >
             &times;
           </button>
         </div>
 
         <!-- Search and Filter -->
-        <div class="p-6 pt-4 pb-4 border-b border-steel-grey/20 space-y-3">
+        <div class="p-4 sm:p-6 pt-3 sm:pt-4 pb-3 sm:pb-4 border-b border-steel-grey/20 space-y-3">
           <input
             type="text"
             id="module-search"
@@ -442,45 +447,45 @@
           <!-- Socket Type Filters -->
           <div>
             <p class="text-xs text-steel-grey mb-2">Socket Type:</p>
-            <div class="flex gap-2 flex-wrap">
+            <div class="flex gap-1 sm:gap-2 flex-wrap">
               <button
                 onclick="app.filterModulesBySocket('all')"
-                class="module-filter-btn active"
+                class="module-filter-btn active text-[10px] sm:text-xs px-2 sm:px-3"
                 data-socket="all"
               >
                 All
               </button>
               <button
                 onclick="app.filterModulesBySocket('Almandine')"
-                class="module-filter-btn"
+                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
                 data-socket="Almandine"
               >
                 Almandine
               </button>
               <button
                 onclick="app.filterModulesBySocket('Malachite')"
-                class="module-filter-btn"
+                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
                 data-socket="Malachite"
               >
                 Malachite
               </button>
               <button
                 onclick="app.filterModulesBySocket('Cerulean')"
-                class="module-filter-btn"
+                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
                 data-socket="Cerulean"
               >
                 Cerulean
               </button>
               <button
                 onclick="app.filterModulesBySocket('Xantic')"
-                class="module-filter-btn"
+                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
                 data-socket="Xantic"
               >
                 Xantic
               </button>
               <button
                 onclick="app.filterModulesBySocket('Rutile')"
-                class="module-filter-btn"
+                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
                 data-socket="Rutile"
               >
                 Rutile
@@ -491,7 +496,7 @@
           <!-- Tier Filters -->
           <div>
             <p class="text-xs text-steel-grey mb-2">Tier:</p>
-            <div class="flex gap-2 flex-wrap">
+            <div class="flex gap-1 sm:gap-2 flex-wrap">
               <button
                 onclick="app.filterModulesByTier('all')"
                 class="module-filter-btn active"
@@ -544,31 +549,31 @@
     <!-- Weapon Selector Modal -->
     <div
       id="weapon-selector-modal"
-      class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4"
+      class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-2 sm:p-4"
       onclick="if (event.target === this) app.closeWeaponSelector();"
     >
       <div
-        class="card max-w-6xl w-full bg-tfd-dark max-h-[90vh] flex flex-col rounded-lg shadow-[0_0_30px_rgba(0,240,255,0.3)]"
+        class="card max-w-6xl w-full bg-tfd-dark max-h-[95vh] sm:max-h-[90vh] flex flex-col rounded-lg shadow-[0_0_30px_rgba(0,240,255,0.3)]"
       >
         <div
-          class="flex items-center justify-between mb-4 p-6 pb-4 border-b border-cyber-cyan/30"
+          class="flex items-center justify-between mb-3 sm:mb-4 p-4 sm:p-6 pb-3 sm:pb-4 border-b border-cyber-cyan/30"
         >
           <div>
-            <h3 class="text-3xl font-bold text-cyber-cyan">Select Weapon</h3>
-            <p id="weapon-slot-info" class="text-sm text-steel-grey mt-1">
+            <h3 class="text-xl sm:text-2xl md:text-3xl font-bold text-cyber-cyan">Select Weapon</h3>
+            <p id="weapon-slot-info" class="text-xs sm:text-sm text-steel-grey mt-1">
               <span id="weapon-count">0 weapons</span>
             </p>
           </div>
           <button
             onclick="app.closeWeaponSelector()"
-            class="text-steel-grey hover:text-cyber-cyan text-3xl leading-none transition-colors"
+            class="text-steel-grey hover:text-cyber-cyan text-2xl sm:text-3xl leading-none transition-colors"
           >
             &times;
           </button>
         </div>
 
         <!-- Search and Filter -->
-        <div class="p-6 pt-4 pb-4 border-b border-steel-grey/20 space-y-3">
+        <div class="p-4 sm:p-6 pt-3 sm:pt-4 pb-3 sm:pb-4 border-b border-steel-grey/20 space-y-3">
           <input
             type="text"
             id="weapon-search"
@@ -580,66 +585,66 @@
           <!-- Weapon Type Filters -->
           <div>
             <p class="text-xs text-steel-grey mb-2">Weapon Type:</p>
-            <div class="flex gap-2 flex-wrap">
+            <div class="flex gap-1 sm:gap-2 flex-wrap">
               <button
                 onclick="app.filterWeaponsByType('all')"
-                class="module-filter-btn active"
+                class="module-filter-btn active text-[10px] sm:text-xs px-2 sm:px-3"
                 data-weapon-type="all"
               >
                 All
               </button>
               <button
                 onclick="app.filterWeaponsByType('Handgun')"
-                class="module-filter-btn"
+                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
                 data-weapon-type="Handgun"
               >
                 Handgun
               </button>
               <button
                 onclick="app.filterWeaponsByType('Assault Rifle')"
-                class="module-filter-btn"
+                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
                 data-weapon-type="Assault Rifle"
               >
                 Assault Rifle
               </button>
               <button
                 onclick="app.filterWeaponsByType('Scout Rifle')"
-                class="module-filter-btn"
+                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
                 data-weapon-type="Scout Rifle"
               >
                 Scout Rifle
               </button>
               <button
                 onclick="app.filterWeaponsByType('SMG')"
-                class="module-filter-btn"
+                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
                 data-weapon-type="SMG"
               >
                 SMG
               </button>
               <button
                 onclick="app.filterWeaponsByType('Shotgun')"
-                class="module-filter-btn"
+                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
                 data-weapon-type="Shotgun"
               >
                 Shotgun
               </button>
               <button
                 onclick="app.filterWeaponsByType('Machine Gun')"
-                class="module-filter-btn"
+                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
                 data-weapon-type="Machine Gun"
               >
                 Machine Gun
               </button>
               <button
                 onclick="app.filterWeaponsByType('Sniper Rifle')"
-                class="module-filter-btn"
+                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
                 data-weapon-type="Sniper Rifle"
               >
                 Sniper Rifle
               </button>
               <button
                 onclick="app.filterWeaponsByType('Launcher')"
-                class="module-filter-btn"
+                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
                 data-weapon-type="Launcher"
               >
                 Launcher
@@ -650,31 +655,31 @@
           <!-- Tier Filters -->
           <div>
             <p class="text-xs text-steel-grey mb-2">Tier:</p>
-            <div class="flex gap-2 flex-wrap">
+            <div class="flex gap-1 sm:gap-2 flex-wrap">
               <button
                 onclick="app.filterWeaponsByTier('all')"
-                class="module-filter-btn active"
+                class="module-filter-btn active text-[10px] sm:text-xs px-2 sm:px-3"
                 data-weapon-tier="all"
               >
                 All
               </button>
               <button
                 onclick="app.filterWeaponsByTier('Tier1')"
-                class="module-filter-btn"
+                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
                 data-weapon-tier="Tier1"
               >
                 Normal
               </button>
               <button
                 onclick="app.filterWeaponsByTier('Tier2')"
-                class="module-filter-btn"
+                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
                 data-weapon-tier="Tier2"
               >
                 Rare
               </button>
               <button
                 onclick="app.filterWeaponsByTier('Tier3')"
-                class="module-filter-btn"
+                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
                 data-weapon-tier="Tier3"
               >
                 Ultimate
@@ -686,7 +691,7 @@
         <!-- Weapon Grid -->
         <div
           id="weapon-selector-grid"
-          class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 p-6 pt-4 overflow-y-auto flex-1"
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-3 p-4 sm:p-6 pt-3 sm:pt-4 overflow-y-auto flex-1"
         >
           <!-- Populated by JavaScript -->
         </div>
@@ -778,49 +783,49 @@
     <!-- Reactor Selector Modal -->
     <div
       id="reactor-selector-modal"
-      class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4"
+      class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-2 sm:p-4"
     >
       <div
-        class="bg-void-deep/95 border-2 border-cyber-cyan/50 rounded-lg max-w-6xl w-full max-h-[90vh] flex flex-col shadow-[0_0_30px_rgba(0,240,255,0.3)]"
+        class="bg-void-deep/95 border-2 border-cyber-cyan/50 rounded-lg max-w-6xl w-full max-h-[95vh] sm:max-h-[90vh] flex flex-col shadow-[0_0_30px_rgba(0,240,255,0.3)]"
       >
-        <div class="p-6 border-b border-cyber-cyan/30">
-          <div class="flex items-center justify-between mb-4">
-            <h3 class="text-3xl font-bold text-cyber-cyan">Select Reactor</h3>
+        <div class="p-4 sm:p-6 border-b border-cyber-cyan/30">
+          <div class="flex items-center justify-between mb-3 sm:mb-4">
+            <h3 class="text-xl sm:text-2xl md:text-3xl font-bold text-cyber-cyan">Select Reactor</h3>
             <button
               id="close-reactor-selector"
-              class="text-steel-grey hover:text-cyber-cyan text-3xl leading-none transition-colors"
+              class="text-steel-grey hover:text-cyber-cyan text-2xl sm:text-3xl leading-none transition-colors"
             >
               &times;
             </button>
           </div>
-          <p id="reactor-slot-info" class="text-sm text-steel-grey">
+          <p id="reactor-slot-info" class="text-xs sm:text-sm text-steel-grey">
             Select a reactor
           </p>
         </div>
 
         <!-- Search and Filters -->
-        <div class="p-6 border-b border-steel-grey/20">
-          <div class="flex flex-col md:flex-row gap-4">
+        <div class="p-4 sm:p-6 border-b border-steel-grey/20">
+          <div class="flex flex-col md:flex-row gap-3 sm:gap-4">
             <!-- Search -->
             <input
               type="text"
               id="reactor-search"
               placeholder="Search reactors..."
-              class="flex-1 px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-none focus:ring-2 focus:ring-cyber-cyan/50 transition-all"
+              class="flex-1 px-3 sm:px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-none focus:ring-2 focus:ring-cyber-cyan/50 transition-all text-sm"
             />
 
             <!-- Tier Filter -->
-            <div class="flex gap-2 flex-wrap">
-              <button class="reactor-filter-btn active" data-tier="all">
+            <div class="flex gap-1 sm:gap-2 flex-wrap">
+              <button class="reactor-filter-btn active text-[10px] sm:text-xs px-2 sm:px-3" data-tier="all">
                 All Tiers
               </button>
-              <button class="reactor-filter-btn" data-tier="Tier1">
+              <button class="reactor-filter-btn text-[10px] sm:text-xs px-2 sm:px-3" data-tier="Tier1">
                 Tier 1
               </button>
-              <button class="reactor-filter-btn" data-tier="Tier2">
+              <button class="reactor-filter-btn text-[10px] sm:text-xs px-2 sm:px-3" data-tier="Tier2">
                 Tier 2
               </button>
-              <button class="reactor-filter-btn" data-tier="Tier3">
+              <button class="reactor-filter-btn text-[10px] sm:text-xs px-2 sm:px-3" data-tier="Tier3">
                 Tier 3
               </button>
             </div>
@@ -830,7 +835,7 @@
         <!-- Reactor Grid -->
         <div
           id="reactor-selector-grid"
-          class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-6 overflow-y-auto flex-1"
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-3 md:gap-4 p-4 sm:p-6 overflow-y-auto flex-1"
         >
           <!-- Populated by JavaScript -->
         </div>
@@ -840,54 +845,54 @@
     <!-- External Component Selector Modal -->
     <div
       id="external-component-selector-modal"
-      class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4"
+      class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-2 sm:p-4"
     >
       <div
-        class="bg-void-deep/95 border-2 border-cyber-cyan/50 rounded-lg max-w-6xl w-full max-h-[90vh] flex flex-col shadow-[0_0_30px_rgba(0,240,255,0.3)]"
+        class="bg-void-deep/95 border-2 border-cyber-cyan/50 rounded-lg max-w-6xl w-full max-h-[95vh] sm:max-h-[90vh] flex flex-col shadow-[0_0_30px_rgba(0,240,255,0.3)]"
       >
-        <div class="p-6 border-b border-cyber-cyan/30">
-          <div class="flex items-center justify-between mb-4">
-            <h3 class="text-3xl font-bold text-cyber-cyan">
+        <div class="p-4 sm:p-6 border-b border-cyber-cyan/30">
+          <div class="flex items-center justify-between mb-3 sm:mb-4">
+            <h3 class="text-xl sm:text-2xl md:text-3xl font-bold text-cyber-cyan">
               Select External Component
             </h3>
             <button
               id="close-external-component-selector"
-              class="text-steel-grey hover:text-cyber-cyan text-3xl leading-none transition-colors"
+              class="text-steel-grey hover:text-cyber-cyan text-2xl sm:text-3xl leading-none transition-colors"
             >
               &times;
             </button>
           </div>
-          <p id="external-component-slot-info" class="text-sm text-steel-grey">
+          <p id="external-component-slot-info" class="text-xs sm:text-sm text-steel-grey">
             Select a component
           </p>
         </div>
 
         <!-- Search and Filters -->
-        <div class="p-6 border-b border-steel-grey/20">
-          <div class="flex flex-col md:flex-row gap-4">
+        <div class="p-4 sm:p-6 border-b border-steel-grey/20">
+          <div class="flex flex-col md:flex-row gap-3 sm:gap-4">
             <!-- Search -->
             <input
               type="text"
               id="external-component-search"
               placeholder="Search components..."
-              class="flex-1 px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-none focus:ring-2 focus:ring-cyber-cyan/50 transition-all"
+              class="flex-1 px-3 sm:px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-none focus:ring-2 focus:ring-cyber-cyan/50 transition-all text-sm"
             />
 
             <!-- Tier Filter -->
-            <div class="flex gap-2 flex-wrap">
+            <div class="flex gap-1 sm:gap-2 flex-wrap">
               <button
-                class="external-component-filter-btn active"
+                class="external-component-filter-btn active text-[10px] sm:text-xs px-2 sm:px-3"
                 data-tier="all"
               >
                 All Tiers
               </button>
-              <button class="external-component-filter-btn" data-tier="Tier1">
+              <button class="external-component-filter-btn text-[10px] sm:text-xs px-2 sm:px-3" data-tier="Tier1">
                 Tier 1
               </button>
-              <button class="external-component-filter-btn" data-tier="Tier2">
+              <button class="external-component-filter-btn text-[10px] sm:text-xs px-2 sm:px-3" data-tier="Tier2">
                 Tier 2
               </button>
-              <button class="external-component-filter-btn" data-tier="Tier3">
+              <button class="external-component-filter-btn text-[10px] sm:text-xs px-2 sm:px-3" data-tier="Tier3">
                 Tier 3
               </button>
             </div>
@@ -897,7 +902,7 @@
         <!-- External Component Grid -->
         <div
           id="external-component-selector-grid"
-          class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-6 overflow-y-auto flex-1"
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-3 md:gap-4 p-4 sm:p-6 overflow-y-auto flex-1"
         >
           <!-- Populated by JavaScript -->
         </div>
