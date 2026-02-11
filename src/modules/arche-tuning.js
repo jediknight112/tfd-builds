@@ -251,11 +251,8 @@ export class ArcheTuning {
 
   isAdjacentToSelected(row, col) {
     // Check if this node is adjacent (horizontally or vertically) to any selected node
-    // Also returns true if this is an anchor (starting point)
-    if (this.isAnchor(row, col)) {
-      return true;
-    }
-
+    // Also returns true if adjacent to the center anchor (starting point)
+    
     // Check all 4 adjacent positions (up, down, left, right)
     const adjacentPositions = [
       { row: row - 1, col }, // Up
@@ -275,8 +272,9 @@ export class ArcheTuning {
       ) {
         const posKey = `${pos.row},${pos.col}`;
 
-        // Check if this adjacent position is selected or is an anchor
-        if (this.selectedNodes.has(posKey) || this.isAnchor(pos.row, pos.col)) {
+        // Check if this adjacent position is selected or is the center anchor (10, 10)
+        const isCenterAnchor = pos.row === 10 && pos.col === 10;
+        if (this.selectedNodes.has(posKey) || isCenterAnchor) {
           return true;
         }
       }
