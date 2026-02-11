@@ -1,3 +1,4 @@
+# Dependabot configuration for automatic dependency updates
 version: 2
 updates:
   # Enable version updates for npm
@@ -5,21 +6,52 @@ updates:
     directory: '/'
     schedule:
       interval: 'weekly'
-    open-pull-requests-limit: 10
+      day: 'monday'
+      time: '09:00'
+      timezone: 'America/New_York'
+    # Group all patch and minor updates together
     groups:
-      dev-dependencies:
-        dependency-type: 'development'
+      patch-updates:
+        patterns:
+          - '*'
+        update-types:
+          - 'patch'
+      minor-updates:
+        patterns:
+          - '*'
         update-types:
           - 'minor'
-          - 'patch'
-      production-dependencies:
-        dependency-type: 'production'
-        update-types:
-          - 'minor'
-          - 'patch'
+    # Auto-merge configuration
+    open-pull-requests-limit: 10
+    reviewers:
+      - 'jediknight112'
+    assignees:
+      - 'jediknight112'
+    commit-message:
+      prefix: 'chore'
+      prefix-development: 'chore'
+      include: 'scope'
+    # Allow both direct and indirect dependencies
+    allow:
+      - dependency-type: 'direct'
+      - dependency-type: 'indirect'
+    # Skip major version updates for critical dependencies
+    ignore:
+      - dependency-name: '@cloudflare/workers-types'
+        update-types: ['version-update:semver-major']
+      - dependency-name: 'wrangler'
+        update-types: ['version-update:semver-major']
+      - dependency-name: 'vite'
+        update-types: ['version-update:semver-major']
 
   # Enable version updates for GitHub Actions
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:
       interval: 'weekly'
+      day: 'monday'
+      time: '09:00'
+      timezone: 'America/New_York'
+    commit-message:
+      prefix: 'chore'
+      include: 'scope'
