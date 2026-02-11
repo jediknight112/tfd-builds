@@ -12,28 +12,38 @@ class TFDApiClient {
     try {
       const url = `${this.baseUrl}/tfd/metadata/${type}?language_code=${this.language}`;
       const { workerApiKey, nexonApiKey } = state.apiKeys;
-      
+
       if (!workerApiKey || !nexonApiKey) {
-        throw new Error('API keys are not configured. Please contact the administrator.');
+        throw new Error(
+          'API keys are not configured. Please contact the administrator.'
+        );
       }
 
       const response = await fetch(url, {
         headers: {
           'x-worker-api-key': workerApiKey,
-          'x-nxopen-api-key': nexonApiKey
-        }
+          'x-nxopen-api-key': nexonApiKey,
+        },
       });
 
       if (!response.ok) {
-        console.error(`Failed to fetch ${type}:`, response.status, response.statusText);
+        console.error(
+          `Failed to fetch ${type}:`,
+          response.status,
+          response.statusText
+        );
         if (response.status === 401) {
-          throw new Error('Authentication failed. Please configure your API keys.');
+          throw new Error(
+            'Authentication failed. Please configure your API keys.'
+          );
         }
-        throw new Error(`Failed to fetch ${type}: ${response.status} ${response.statusText}`);
+        throw new Error(
+          `Failed to fetch ${type}: ${response.status} ${response.statusText}`
+        );
       }
 
       const data = await response.json();
-      
+
       return data;
     } catch (error) {
       console.error(`Error in fetchMetadata(${type}):`, error);
@@ -104,7 +114,6 @@ class TFDApiClient {
   async fetchCoreTypes() {
     return this.fetchMetadata('core-type');
   }
-
 }
 
 export const apiClient = new TFDApiClient();

@@ -30,14 +30,16 @@ class Application {
   async init() {
     try {
       UIComponents.showLoading();
-      
+
       // Check if API keys are configured
       if (!state.apiKeys.workerApiKey || !state.apiKeys.nexonApiKey) {
         UIComponents.hideLoading();
-        UIComponents.showError('API keys are not configured. Please contact the administrator.');
+        UIComponents.showError(
+          'API keys are not configured. Please contact the administrator.'
+        );
         return;
       }
-      
+
       // Load all metadata in parallel for better performance
       const [
         descendants,
@@ -53,7 +55,7 @@ class Application {
         tiers,
         stats,
         coreSlots,
-        coreTypes
+        coreTypes,
       ] = await Promise.all([
         apiClient.fetchDescendants(),
         apiClient.fetchModules(),
@@ -68,9 +70,9 @@ class Application {
         apiClient.fetchTiers(),
         apiClient.fetchStats(),
         apiClient.fetchCoreSlots(),
-        apiClient.fetchCoreTypes()
+        apiClient.fetchCoreTypes(),
       ]);
-      
+
       // Store all data in state
       state.descendants = descendants || [];
       state.modules = modules || [];
@@ -91,16 +93,18 @@ class Application {
       state.buildCoreSlotLookup();
       state.buildCoreTypeLookup();
       state.dataLoaded = true;
-      
+
       // Setup event listeners for reactor selector
       this.reactorSelector.setupEventListeners();
       this.externalComponentSelector.setupEventListeners();
-      
+
       // Check for build in URL hash
       const urlBuild = this.buildSerializer.loadFromUrl();
       if (urlBuild && urlBuild.valid) {
         if (urlBuild.warnings.length > 0) {
-          UIComponents.showWarning(`Build loaded with warnings: ${urlBuild.warnings.join(', ')}`);
+          UIComponents.showWarning(
+            `Build loaded with warnings: ${urlBuild.warnings.join(', ')}`
+          );
         }
         // Load the descendant and build
         await this.selectDescendant(urlBuild.descendant);
@@ -120,33 +124,46 @@ class Application {
       } else if (urlBuild === null && window.location.hash) {
         // Hash exists but failed to parse
         console.error('Failed to load build from URL hash');
-        UIComponents.showWarning('Failed to load build from URL. Starting fresh.');
+        UIComponents.showWarning(
+          'Failed to load build from URL. Starting fresh.'
+        );
       }
-      
+
       // Render descendants
       const container = document.getElementById('descendant-selector');
       if (container) {
         container.innerHTML = '';
-        
+
         if (state.descendants.length === 0) {
-          container.innerHTML = '<p class="col-span-full text-center text-gray-400">No descendants found</p>';
+          container.innerHTML =
+            '<p class="col-span-full text-center text-gray-400">No descendants found</p>';
         } else {
-          state.descendants.forEach(descendant => {
-            container.appendChild(UIComponents.createDescendantCard(descendant));
+          state.descendants.forEach((descendant) => {
+            container.appendChild(
+              UIComponents.createDescendantCard(descendant)
+            );
           });
         }
       }
-      
+
       UIComponents.hideLoading();
     } catch (error) {
       console.error('Initialization error:', error);
       UIComponents.hideLoading();
-      
+
       // Check for authentication error
-      if (error.message && (error.message.includes('Authentication failed') || error.message.includes('401'))) {
-        UIComponents.showError('Authentication failed. Please contact the administrator.');
+      if (
+        error.message &&
+        (error.message.includes('Authentication failed') ||
+          error.message.includes('401'))
+      ) {
+        UIComponents.showError(
+          'Authentication failed. Please contact the administrator.'
+        );
       } else {
-        UIComponents.showError(`Failed to load data: ${error.message || 'Unknown error'}. Please check your connection and try again.`);
+        UIComponents.showError(
+          `Failed to load data: ${error.message || 'Unknown error'}. Please check your connection and try again.`
+        );
       }
     }
   }
@@ -155,23 +172,26 @@ class Application {
     // Reload descendants and update display
     try {
       UIComponents.showLoading();
-      
+
       const data = await apiClient.fetchDescendants();
       state.descendants = data || [];
-      
+
       const container = document.getElementById('descendant-selector');
       if (container) {
         container.innerHTML = '';
-        
+
         if (state.descendants.length === 0) {
-          container.innerHTML = '<p class="col-span-full text-center text-gray-400">No descendants found</p>';
+          container.innerHTML =
+            '<p class="col-span-full text-center text-gray-400">No descendants found</p>';
         } else {
-          state.descendants.forEach(descendant => {
-            container.appendChild(UIComponents.createDescendantCard(descendant));
+          state.descendants.forEach((descendant) => {
+            container.appendChild(
+              UIComponents.createDescendantCard(descendant)
+            );
           });
         }
       }
-      
+
       UIComponents.hideLoading();
     } catch (error) {
       console.error('Error loading descendants:', error);
@@ -181,42 +201,47 @@ class Application {
 
   async selectDescendant(descendant) {
     state.currentDescendant = descendant;
-    
+
     // Update UI
     const nameEl = document.getElementById('descendant-name');
     const descEl = document.getElementById('descendant-description');
     const imageEl = document.getElementById('descendant-image');
-    
-    if (nameEl) nameEl.textContent = descendant.descendant_name || 'Unknown Descendant';
-    
+
+    if (nameEl)
+      nameEl.textContent = descendant.descendant_name || 'Unknown Descendant';
+
     // Display first skill description or create a summary
     let description = 'No description available';
     if (descendant.descendant_skill && descendant.descendant_skill.length > 0) {
-      const skills = descendant.descendant_skill.map(s => s.skill_name).join(', ');
+      const skills = descendant.descendant_skill
+        .map((s) => s.skill_name)
+        .join(', ');
       description = `Skills: ${skills}`;
     }
     if (descEl) descEl.textContent = description;
-    
+
     // Update image
     if (imageEl && descendant.descendant_image_url) {
       imageEl.innerHTML = `<img src="${descendant.descendant_image_url}" alt="${descendant.descendant_name}" class="w-full h-full object-cover rounded-lg" loading="lazy">`;
     }
-    
+
     // Show build tabs
     UIComponents.showBuildTabs();
-    
+
     // Collapse descendant selection section
-    const descendantSection = document.querySelector('section:has(#descendant-selector)');
+    const descendantSection = document.querySelector(
+      'section:has(#descendant-selector)'
+    );
     if (descendantSection) {
       descendantSection.classList.add('hidden');
     }
-    
+
     // Initialize build for this descendant
     this.initializeBuild();
-    
+
     // Switch to modules tab
     this.switchTab('modules');
-    
+
     // Scroll to build container
     const buildContainer = document.getElementById('build-container');
     if (buildContainer) {
@@ -229,21 +254,23 @@ class Application {
     state.currentBuild = {
       triggerModule: null,
       descendantModules: Array(12).fill(null),
-      weapons: Array(3).fill(null).map(() => ({
-        weapon: null,
-        modules: Array(10).fill(null),
-        customStats: [],
-        coreType: null,
-        coreStats: []
-      })),
+      weapons: Array(3)
+        .fill(null)
+        .map(() => ({
+          weapon: null,
+          modules: Array(10).fill(null),
+          customStats: [],
+          coreType: null,
+          coreStats: [],
+        })),
       reactor: null,
       externalComponents: [],
       archeTuning: null,
       fellow: null,
       vehicle: null,
-      inversionReinforcement: null
+      inversionReinforcement: null,
     };
-    
+
     // Render all build sections
     this.renderModules();
     this.renderWeapons();
@@ -261,7 +288,7 @@ class Application {
   renderExternalComponents() {
     const container = document.getElementById('external-components');
     if (!container) return;
-    
+
     container.innerHTML = `
       <div class="module-slot p-4 text-center">
         <div class="text-gray-500 mb-2">
@@ -276,25 +303,25 @@ class Application {
 
   switchTab(tabName) {
     state.currentTab = tabName;
-    
+
     // Update tab buttons
-    document.querySelectorAll('.tab').forEach(tab => {
+    document.querySelectorAll('.tab').forEach((tab) => {
       tab.classList.remove('active');
       if (tab.dataset.tab === tabName) {
         tab.classList.add('active');
       }
     });
-    
+
     // Update tab content
-    document.querySelectorAll('.tab-content').forEach(content => {
+    document.querySelectorAll('.tab-content').forEach((content) => {
       content.classList.add('hidden');
     });
-    
+
     const activeContent = document.getElementById(`tab-${tabName}`);
     if (activeContent) {
       activeContent.classList.remove('hidden');
     }
-    
+
     // Render tab-specific content
     if (tabName === 'reactor') {
       this.reactorSelector.renderReactorDisplay();
@@ -308,13 +335,15 @@ class Application {
   createNewBuild() {
     if (confirm('Create a new build? This will reset your current build.')) {
       UIComponents.hideBuildTabs();
-      
+
       // Show descendant selection section
-      const descendantSection = document.querySelector('section:has(#descendant-selector)');
+      const descendantSection = document.querySelector(
+        'section:has(#descendant-selector)'
+      );
       if (descendantSection) {
         descendantSection.classList.remove('hidden');
       }
-      
+
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   }
@@ -329,7 +358,12 @@ class Application {
   }
 
   renderModuleSelectorGrid(slotType, searchQuery, socketFilter, tierFilter) {
-    this.moduleSelector.renderModuleSelectorGrid(slotType, searchQuery, socketFilter, tierFilter);
+    this.moduleSelector.renderModuleSelectorGrid(
+      slotType,
+      searchQuery,
+      socketFilter,
+      tierFilter
+    );
   }
 
   selectModule(moduleId) {
@@ -371,7 +405,11 @@ class Application {
   }
 
   renderWeaponSelectorGrid(searchQuery, typeFilter, tierFilter) {
-    this.weaponSelector.renderWeaponSelectorGrid(searchQuery, typeFilter, tierFilter);
+    this.weaponSelector.renderWeaponSelectorGrid(
+      searchQuery,
+      typeFilter,
+      tierFilter
+    );
   }
 
   selectWeapon(weaponId) {
@@ -395,7 +433,11 @@ class Application {
   }
 
   renderWeaponModuleSelectorGrid(searchQuery, socketFilter, tierFilter) {
-    this.weaponSelector.renderWeaponModuleSelectorGrid(searchQuery, socketFilter, tierFilter);
+    this.weaponSelector.renderWeaponModuleSelectorGrid(
+      searchQuery,
+      socketFilter,
+      tierFilter
+    );
   }
 
   selectWeaponModule(moduleId) {
@@ -439,16 +481,43 @@ class Application {
     this.coreSelector.selectCoreType(coreTypeId, weaponIndex);
   }
 
-  toggleExternalComponentCoreStat(equipmentType, coreTypeId, optionId, statId, checked) {
-    this.coreSelector.toggleExternalComponentCoreStat(equipmentType, coreTypeId, optionId, statId, checked);
+  toggleExternalComponentCoreStat(
+    equipmentType,
+    coreTypeId,
+    optionId,
+    statId,
+    checked
+  ) {
+    this.coreSelector.toggleExternalComponentCoreStat(
+      equipmentType,
+      coreTypeId,
+      optionId,
+      statId,
+      checked
+    );
   }
 
-  updateExternalComponentCoreStatValue(equipmentType, coreTypeId, optionId, statId, value) {
-    this.coreSelector.updateExternalComponentCoreStatValue(equipmentType, coreTypeId, optionId, statId, value);
+  updateExternalComponentCoreStatValue(
+    equipmentType,
+    coreTypeId,
+    optionId,
+    statId,
+    value
+  ) {
+    this.coreSelector.updateExternalComponentCoreStatValue(
+      equipmentType,
+      coreTypeId,
+      optionId,
+      statId,
+      value
+    );
   }
 
   selectExternalComponentCoreType(coreTypeId, equipmentType) {
-    this.coreSelector.selectExternalComponentCoreType(coreTypeId, equipmentType);
+    this.coreSelector.selectExternalComponentCoreType(
+      coreTypeId,
+      equipmentType
+    );
   }
 
   // Custom stat selector methods (delegated to CustomStatSelector)
@@ -484,28 +553,37 @@ class Application {
   shareBuild() {
     try {
       if (!state.currentDescendant) {
-        UIComponents.showError('No descendant selected. Please create a build first.');
+        UIComponents.showError(
+          'No descendant selected. Please create a build first.'
+        );
         return;
       }
 
       const url = this.buildSerializer.generateUrl();
-      
+
       // Save to localStorage as backup
       this.buildSerializer.saveToLocalStorage();
-      
+
       // Copy to clipboard
-      navigator.clipboard.writeText(url).then(() => {
-        UIComponents.showSuccess('Build URL copied to clipboard!');
-        console.log('Shared build URL:', url);
-      }).catch(err => {
-        console.error('Failed to copy to clipboard:', err);
-        // Fallback: show the URL in an alert
-        UIComponents.showWarning('Could not copy automatically. Here is your build URL:');
-        prompt('Copy this URL to share your build:', url);
-      });
+      navigator.clipboard
+        .writeText(url)
+        .then(() => {
+          UIComponents.showSuccess('Build URL copied to clipboard!');
+          console.log('Shared build URL:', url);
+        })
+        .catch((err) => {
+          console.error('Failed to copy to clipboard:', err);
+          // Fallback: show the URL in an alert
+          UIComponents.showWarning(
+            'Could not copy automatically. Here is your build URL:'
+          );
+          prompt('Copy this URL to share your build:', url);
+        });
     } catch (error) {
       console.error('Failed to share build:', error);
-      UIComponents.showError(`Failed to create shareable URL: ${error.message}`);
+      UIComponents.showError(
+        `Failed to create shareable URL: ${error.message}`
+      );
     }
   }
 }

@@ -25,23 +25,25 @@ class AppState {
     this.currentBuild = {
       triggerModule: null,
       descendantModules: Array(12).fill(null),
-      weapons: Array(3).fill(null).map(() => ({
-        weapon: null,
-        modules: Array(10).fill(null),
-        customStats: [],
-        coreType: null,
-        coreStats: [] // Array of { option_id, stat_id, stat_value }
-      })),
+      weapons: Array(3)
+        .fill(null)
+        .map(() => ({
+          weapon: null,
+          modules: Array(10).fill(null),
+          customStats: [],
+          coreType: null,
+          coreStats: [], // Array of { option_id, stat_id, stat_value }
+        })),
       reactor: null,
       reactorAdditionalStats: [
         { name: '', value: 0 },
-        { name: '', value: 0 }
+        { name: '', value: 0 },
       ],
       externalComponents: {}, // { 'Auxiliary Power': { component, coreStats }, ... }
       archeTuning: null,
       fellow: null,
       vehicle: null,
-      inversionReinforcement: null
+      inversionReinforcement: null,
     };
     this.currentTab = 'modules';
     this.apiKeys = getApiKeys();
@@ -62,7 +64,7 @@ class AppState {
   buildStatLookup() {
     this.statLookup = {};
     if (this.stats && Array.isArray(this.stats)) {
-      this.stats.forEach(stat => {
+      this.stats.forEach((stat) => {
         if (stat.stat_id && stat.stat_name) {
           this.statLookup[stat.stat_id] = stat.stat_name;
         }
@@ -74,9 +76,10 @@ class AppState {
   buildWeaponTypeLookup() {
     this.weaponTypeNameLookup = {};
     if (this.weaponTypes && Array.isArray(this.weaponTypes)) {
-      this.weaponTypes.forEach(weaponType => {
+      this.weaponTypes.forEach((weaponType) => {
         if (weaponType.weapon_type_name && weaponType.weapon_type) {
-          this.weaponTypeNameLookup[weaponType.weapon_type_name] = weaponType.weapon_type;
+          this.weaponTypeNameLookup[weaponType.weapon_type_name] =
+            weaponType.weapon_type;
         }
       });
     }
@@ -86,7 +89,7 @@ class AppState {
   buildCoreSlotLookup() {
     this.coreSlotLookup = {};
     if (this.coreSlots && Array.isArray(this.coreSlots)) {
-      this.coreSlots.forEach(coreSlot => {
+      this.coreSlots.forEach((coreSlot) => {
         if (coreSlot.core_slot_id) {
           this.coreSlotLookup[coreSlot.core_slot_id] = coreSlot;
         }
@@ -98,7 +101,7 @@ class AppState {
   buildCoreTypeLookup() {
     this.coreTypeLookup = {};
     if (this.coreTypes && Array.isArray(this.coreTypes)) {
-      this.coreTypes.forEach(coreType => {
+      this.coreTypes.forEach((coreType) => {
         if (coreType.core_type_id) {
           this.coreTypeLookup[coreType.core_type_id] = coreType;
         }

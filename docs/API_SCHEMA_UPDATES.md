@@ -7,6 +7,7 @@
 All data structures have been updated to match the actual Nexon API schema:
 
 **Descendant Data:**
+
 - `descendant_id` - Unique identifier
 - `descendant_name` - Display name
 - `descendant_image_url` - Character portrait ✨ **Now displayed**
@@ -20,6 +21,7 @@ All data structures have been updated to match the actual Nexon API schema:
 - `descendant_stat[]` - Level-based stats
 
 **Module Data:**
+
 - `module_id` - Unique identifier
 - `module_name` - Display name
 - `image_url` - Module icon ✨ **Now displayed**
@@ -30,6 +32,7 @@ All data structures have been updated to match the actual Nexon API schema:
 - `module_stat[]` - Level-based stats
 
 **Weapon Data:**
+
 - `weapon_id` - Unique identifier
 - `weapon_name` - Display name
 - `image_url` - Weapon image ✨ **Now displayed**
@@ -44,6 +47,7 @@ All data structures have been updated to match the actual Nexon API schema:
 - `firearm_atk[]` - Firearm attack values
 
 **Reactor Data:**
+
 - `reactor_id` - Unique identifier
 - `reactor_name` - Display name
 - `image_url` - Reactor image ✨ **Now displayed**
@@ -52,6 +56,7 @@ All data structures have been updated to match the actual Nexon API schema:
 - `optimized_condition_type` - Optimization type
 
 **External Component Data:**
+
 - `external_component_id` - Unique identifier
 - `external_component_name` - Display name
 - `image_url` - Component image ✨ **Now displayed**
@@ -61,6 +66,7 @@ All data structures have been updated to match the actual Nexon API schema:
 - `set_option_detail[]` - Set bonus information
 
 **Stat Data:**
+
 - `stat_id` - Unique stat identifier
 - `stat_name` - Human-readable stat name
 - `stat_order_no` - Display order
@@ -76,6 +82,7 @@ Images are now displayed throughout the application:
 5. **Weapon Perks** - Display perk ability icons
 
 All images use:
+
 - Lazy loading for performance (`loading="lazy"`)
 - Proper aspect ratios and object-fit
 - Fallback SVG icons when images aren't available
@@ -84,22 +91,26 @@ All images use:
 ### 🔧 New Features Added
 
 **1. Stat Lookup System**
+
 - `AppState.stats` - Stores all stat types
 - `AppState.statLookup` - Map of stat_id to stat_name
 - `AppState.getStatName(statId)` - Converts stat IDs to readable names
 
 **2. Enhanced Weapon Display**
+
 - Base stats now show actual stat names and values (not placeholders)
 - Weapon perk abilities displayed with icons and descriptions
 - Better image layout with proper sizing
 
 **3. Improved Image Handling**
+
 - Images load from API URLs
 - Graceful fallbacks for missing images
 - Optimized loading with lazy loading
 - Hover animations on module slots
 
 **4. Data Loading Optimization**
+
 - Parallel loading of descendants and stats
 - Stat lookup built on initialization
 - Better error handling
@@ -107,6 +118,7 @@ All images use:
 ### 📝 Field Name Changes
 
 Key field name corrections made:
+
 - `weapon_tier` → `weapon_tier_id`
 - `module_tier` → `module_tier_id`
 - `descendant_skill` (was used incorrectly) → Now properly uses `descendant_skill[]` array
@@ -115,21 +127,25 @@ Key field name corrections made:
 ### 🎯 Display Improvements
 
 **Descendant Selection:**
+
 - Character portraits displayed in grid
 - Cards show descendant names clearly
 - Hover effects for better UX
 
 **Build View:**
+
 - Large descendant image in header (32x32 → now properly sized)
 - Skills listed in description
 - Better visual hierarchy
 
 **Module Slots:**
+
 - Module images displayed in filled slots
 - Better aspect ratios
 - Hover zoom effect
 
 **Weapon Cards:**
+
 - Weapon images displayed prominently
 - Stats show with proper names (not "Stat 1, Stat 2")
 - Perk abilities shown with icons and full descriptions
@@ -149,6 +165,7 @@ Key field name corrections made:
 ### 📋 API Schema Reference
 
 The schema files are located in:
+
 ```
 Nexon API Schema/static/tfd/meta/
 ├── language_code/           # Language-specific metadata
@@ -165,6 +182,7 @@ Nexon API Schema/static/tfd/meta/
 ### 🔗 API URL Structure
 
 Based on the schema structure:
+
 - No language code: `https://api/static/tfd/meta/descendant-level-detail.json`
 - With language: `https://api/static/tfd/meta/en/descendant.json`
 
@@ -173,12 +191,14 @@ The app handles this correctly in `TFDApiClient.fetchMetadata()`.
 ### ✨ Visual Enhancements
 
 **CSS Improvements:**
+
 - Module slot hover animations (image zoom)
 - Better image aspect ratios
 - Proper overflow handling
 - Improved responsive sizing
 
 **Image Loading:**
+
 - All images use `loading="lazy"` attribute
 - Fallback to SVG icons when images unavailable
 - Proper alt text for accessibility

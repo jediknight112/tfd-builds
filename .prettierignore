@@ -1,0 +1,27 @@
+# Dependencies
+node_modules
+package-lock.json
+
+# Build outputs
+dist
+.vite
+
+# Cache
+.cache
+
+# Env files
+.env
+
+# Logs
+*.log
+
+# IDE
+.vscode
+.idea
+
+# OS
+.DS_Store
+
+# Other
+coverage
+Nexon API Schema

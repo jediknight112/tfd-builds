@@ -8,7 +8,7 @@ export class CustomStatSelector {
       alert('Please select a weapon first.');
       return;
     }
-    
+
     // If statSlot is not provided, find the next available slot
     if (statSlot === null) {
       statSlot = weaponData.customStats.length;
@@ -17,35 +17,35 @@ export class CustomStatSelector {
         return;
       }
     }
-    
-    state.currentWeaponSlot = { 
-      index: weaponIndex, 
+
+    state.currentWeaponSlot = {
+      index: weaponIndex,
       statSlot: statSlot,
-      type: 'customStat' 
+      type: 'customStat',
     };
-    
+
     const modal = document.getElementById('custom-stat-modal');
     if (modal) {
       modal.classList.remove('hidden');
     }
-    
+
     const info = document.getElementById('custom-stat-info');
     if (info) {
       info.textContent = `${weapon.weapon_name} - Custom Stat ${statSlot + 1}`;
     }
-    
+
     // Clear inputs
     const searchInput = document.getElementById('stat-search');
     if (searchInput) {
       searchInput.value = '';
       searchInput.focus();
     }
-    
+
     const valueInput = document.getElementById('custom-stat-value');
     if (valueInput) {
       valueInput.value = '';
     }
-    
+
     // Pre-fill if editing existing stat
     const existingStat = weaponData.customStats[statSlot];
     if (existingStat) {
@@ -56,7 +56,7 @@ export class CustomStatSelector {
     } else {
       state.selectedStatId = null;
     }
-    
+
     this.renderStatSelector();
   }
 
@@ -72,31 +72,39 @@ export class CustomStatSelector {
   renderStatSelector(searchQuery = '') {
     const grid = document.getElementById('stat-selector-grid');
     if (!grid) return;
-    
+
     // Filter weapon-relevant stats
-    const filteredStats = state.stats.filter(stat => {
+    const filteredStats = state.stats.filter((stat) => {
       // Filter by search query
-      if (searchQuery && !stat.stat_name.toLowerCase().includes(searchQuery.toLowerCase())) {
+      if (
+        searchQuery &&
+        !stat.stat_name.toLowerCase().includes(searchQuery.toLowerCase())
+      ) {
         return false;
       }
-      
+
       // Only show weapon-related stats (you can customize this filter)
       return stat.stat_name && stat.stat_id;
     });
-    
+
     // Sort alphabetically
     filteredStats.sort((a, b) => a.stat_name.localeCompare(b.stat_name));
-    
-    const weaponData = state.currentBuild.weapons[state.currentWeaponSlot?.index];
-    const existingStat = weaponData?.customStats[state.currentWeaponSlot?.statSlot];
-    
-    grid.innerHTML = filteredStats.map(stat => {
-      const isSelected = state.selectedStatId === stat.stat_id || existingStat?.stat_id === stat.stat_id;
-      return `
+
+    const weaponData =
+      state.currentBuild.weapons[state.currentWeaponSlot?.index];
+    const existingStat =
+      weaponData?.customStats[state.currentWeaponSlot?.statSlot];
+
+    grid.innerHTML = filteredStats
+      .map((stat) => {
+        const isSelected =
+          state.selectedStatId === stat.stat_id ||
+          existingStat?.stat_id === stat.stat_id;
+        return `
         <button 
           class="w-full text-left px-3 py-2 rounded transition-colors ${
-            isSelected 
-              ? 'bg-tfd-primary/20 border border-tfd-primary text-tfd-primary' 
+            isSelected
+              ? 'bg-tfd-primary/20 border border-tfd-primary text-tfd-primary'
               : 'bg-tfd-dark hover:bg-tfd-primary/10 border border-gray-700 text-gray-300'
           }"
           onclick="window.app.selectStat('${stat.stat_id}')">
@@ -104,10 +112,12 @@ export class CustomStatSelector {
           <div class="text-xs text-gray-500">ID: ${stat.stat_id}</div>
         </button>
       `;
-    }).join('');
-    
+      })
+      .join('');
+
     if (filteredStats.length === 0) {
-      grid.innerHTML = '<p class="text-center text-gray-500 py-4">No stats found</p>';
+      grid.innerHTML =
+        '<p class="text-center text-gray-500 py-4">No stats found</p>';
     }
   }
 
@@ -119,8 +129,10 @@ export class CustomStatSelector {
 
   selectStat(statId) {
     state.selectedStatId = statId;
-    this.renderStatSelector(document.getElementById('stat-search')?.value || '');
-    
+    this.renderStatSelector(
+      document.getElementById('stat-search')?.value || ''
+    );
+
     // Focus on value input
     const valueInput = document.getElementById('custom-stat-value');
     if (valueInput) {
@@ -129,32 +141,35 @@ export class CustomStatSelector {
   }
 
   saveCustomStat() {
-    if (!state.currentWeaponSlot || state.currentWeaponSlot.type !== 'customStat') {
+    if (
+      !state.currentWeaponSlot ||
+      state.currentWeaponSlot.type !== 'customStat'
+    ) {
       return;
     }
-    
+
     if (!state.selectedStatId) {
       alert('Please select a stat first.');
       return;
     }
-    
+
     const valueInput = document.getElementById('custom-stat-value');
     const value = valueInput ? parseFloat(valueInput.value) : 0;
-    
+
     if (isNaN(value) || value === 0) {
       alert('Please enter a valid stat value.');
       return;
     }
-    
+
     const weaponIndex = state.currentWeaponSlot.index;
     const weaponData = state.currentBuild.weapons[weaponIndex];
-    
+
     // Add the custom stat
     const newStat = {
       stat_id: state.selectedStatId,
-      stat_value: value
+      stat_value: value,
     };
-    
+
     // Ensure we don't exceed 4 custom stats
     if (weaponData.customStats.length < 4) {
       weaponData.customStats.push(newStat);
@@ -162,9 +177,9 @@ export class CustomStatSelector {
       alert('Maximum 4 custom stats allowed per weapon.');
       return;
     }
-    
+
     this.closeCustomStatSelector();
-    
+
     // Re-render weapons via app instance
     if (window.app) {
       window.app.renderWeapons();
@@ -174,7 +189,7 @@ export class CustomStatSelector {
   removeCustomStat(weaponIndex, statIndex) {
     const weaponData = state.currentBuild.weapons[weaponIndex];
     weaponData.customStats.splice(statIndex, 1);
-    
+
     // Re-render weapons via app instance
     if (window.app) {
       window.app.renderWeapons();

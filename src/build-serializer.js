@@ -27,46 +27,63 @@ export class BuildSerializer {
       version: this.version,
       descendant_id: descendantId,
       trigger_module_id: build.triggerModule?.module_id || null,
-      descendant_module_ids: build.descendantModules.map(m => m?.module_id || null),
-      weapons: build.weapons.map(w => ({
+      descendant_module_ids: build.descendantModules.map(
+        (m) => m?.module_id || null
+      ),
+      weapons: build.weapons.map((w) => ({
         weapon_id: w.weapon?.weapon_id || null,
-        module_ids: w.modules.map(m => m?.module_id || null),
-        custom_stats: (w.customStats || []).filter(cs => cs).map(cs => ({
-          stat_id: cs.stat_id,
-          stat_value: cs.stat_value
-        })),
+        module_ids: w.modules.map((m) => m?.module_id || null),
+        custom_stats: (w.customStats || [])
+          .filter((cs) => cs)
+          .map((cs) => ({
+            stat_id: cs.stat_id,
+            stat_value: cs.stat_value,
+          })),
         core_type_id: w.coreType?.core_type_id || null,
-        core_stats: (w.coreStats || []).filter(cs => cs).map(cs => ({
-          option_id: cs.option_id,
-          stat_id: cs.stat_id,
-          stat_value: cs.stat_value
-        }))
-      })),
-      reactor_id: build.reactor?.reactor_id || null,
-      reactor_additional_stats: (build.reactorAdditionalStats || []).map(s => ({
-        stat_name: s.name,
-        stat_value: s.value
-      })),
-      external_components: Object.keys(build.externalComponents).reduce((acc, equipmentType) => {
-        const ec = build.externalComponents[equipmentType];
-        acc[equipmentType] = {
-          component_id: ec.component?.external_component_id || null,
-          core_stats: (ec.coreStats || []).filter(cs => cs).map(cs => ({
+        core_stats: (w.coreStats || [])
+          .filter((cs) => cs)
+          .map((cs) => ({
             option_id: cs.option_id,
             stat_id: cs.stat_id,
-            stat_value: cs.stat_value
-          }))
-        };
-        return acc;
-      }, {}),
-      arche_tuning: build.archeTuning ? {
-        board_id: build.archeTuning.board?.arche_tuning_board_id || null,
-        selected_nodes: (build.archeTuning.selectedNodes || []).filter(n => n).map(n => ({
-          node_id: n.node_id,
-          position_row: n.position_row,
-          position_column: n.position_column
-        }))
-      } : null
+            stat_value: cs.stat_value,
+          })),
+      })),
+      reactor_id: build.reactor?.reactor_id || null,
+      reactor_additional_stats: (build.reactorAdditionalStats || []).map(
+        (s) => ({
+          stat_name: s.name,
+          stat_value: s.value,
+        })
+      ),
+      external_components: Object.keys(build.externalComponents).reduce(
+        (acc, equipmentType) => {
+          const ec = build.externalComponents[equipmentType];
+          acc[equipmentType] = {
+            component_id: ec.component?.external_component_id || null,
+            core_stats: (ec.coreStats || [])
+              .filter((cs) => cs)
+              .map((cs) => ({
+                option_id: cs.option_id,
+                stat_id: cs.stat_id,
+                stat_value: cs.stat_value,
+              })),
+          };
+          return acc;
+        },
+        {}
+      ),
+      arche_tuning: build.archeTuning
+        ? {
+            board_id: build.archeTuning.board?.arche_tuning_board_id || null,
+            selected_nodes: (build.archeTuning.selectedNodes || [])
+              .filter((n) => n)
+              .map((n) => ({
+                node_id: n.node_id,
+                position_row: n.position_row,
+                position_column: n.position_column,
+              })),
+          }
+        : null,
     };
   }
 
@@ -103,34 +120,40 @@ export class BuildSerializer {
    */
   deserialize(buildData) {
     const warnings = [];
-    
+
     // Validate version
     if (buildData.version !== this.version) {
-      warnings.push(`Build version mismatch: ${buildData.version} (expected ${this.version})`);
+      warnings.push(
+        `Build version mismatch: ${buildData.version} (expected ${this.version})`
+      );
     }
 
     // Find descendant
-    const descendant = this.state.descendants.find(d => d.descendant_id === buildData.descendant_id);
+    const descendant = this.state.descendants.find(
+      (d) => d.descendant_id === buildData.descendant_id
+    );
     if (!descendant) {
       return {
         valid: false,
         build: null,
-        warnings: [`Descendant not found: ${buildData.descendant_id}`]
+        warnings: [`Descendant not found: ${buildData.descendant_id}`],
       };
     }
 
     // Reconstruct trigger module
     const triggerModule = buildData.trigger_module_id
-      ? this.state.modules.find(m => m.module_id === buildData.trigger_module_id)
+      ? this.state.modules.find(
+          (m) => m.module_id === buildData.trigger_module_id
+        )
       : null;
     if (buildData.trigger_module_id && !triggerModule) {
       warnings.push(`Trigger module not found: ${buildData.trigger_module_id}`);
     }
 
     // Reconstruct descendant modules
-    const descendantModules = buildData.descendant_module_ids.map(id => {
+    const descendantModules = buildData.descendant_module_ids.map((id) => {
       if (!id) return null;
-      const module = this.state.modules.find(m => m.module_id === id);
+      const module = this.state.modules.find((m) => m.module_id === id);
       if (!module) warnings.push(`Module not found: ${id}`);
       return module || null;
     });
@@ -138,21 +161,21 @@ export class BuildSerializer {
     // Reconstruct weapons
     const weapons = buildData.weapons.map((w, idx) => {
       const weapon = w.weapon_id
-        ? this.state.weapons.find(wp => wp.weapon_id === w.weapon_id)
+        ? this.state.weapons.find((wp) => wp.weapon_id === w.weapon_id)
         : null;
       if (w.weapon_id && !weapon) {
         warnings.push(`Weapon ${idx + 1} not found: ${w.weapon_id}`);
       }
 
-      const modules = w.module_ids.map(id => {
+      const modules = w.module_ids.map((id) => {
         if (!id) return null;
-        const module = this.state.modules.find(m => m.module_id === id);
+        const module = this.state.modules.find((m) => m.module_id === id);
         if (!module) warnings.push(`Weapon module not found: ${id}`);
         return module || null;
       });
 
       const coreType = w.core_type_id
-        ? this.state.coreTypes.find(ct => ct.core_type_id === w.core_type_id)
+        ? this.state.coreTypes.find((ct) => ct.core_type_id === w.core_type_id)
         : null;
       if (w.core_type_id && !coreType) {
         warnings.push(`Core type not found: ${w.core_type_id}`);
@@ -163,13 +186,13 @@ export class BuildSerializer {
         modules,
         customStats: w.custom_stats || [],
         coreType,
-        coreStats: w.core_stats || []
+        coreStats: w.core_stats || [],
       };
     });
 
     // Reconstruct reactor
     const reactor = buildData.reactor_id
-      ? this.state.reactors.find(r => r.reactor_id === buildData.reactor_id)
+      ? this.state.reactors.find((r) => r.reactor_id === buildData.reactor_id)
       : null;
     if (buildData.reactor_id && !reactor) {
       warnings.push(`Reactor not found: ${buildData.reactor_id}`);
@@ -177,48 +200,60 @@ export class BuildSerializer {
 
     // Reconstruct external components
     const externalComponents = {};
-    Object.keys(buildData.external_components || {}).forEach(equipmentType => {
-      const ec = buildData.external_components[equipmentType];
-      const component = ec.component_id
-        ? this.state.externalComponents.find(c => c.external_component_id === ec.component_id)
-        : null;
-      if (ec.component_id && !component) {
-        warnings.push(`External component not found: ${ec.component_id}`);
+    Object.keys(buildData.external_components || {}).forEach(
+      (equipmentType) => {
+        const ec = buildData.external_components[equipmentType];
+        const component = ec.component_id
+          ? this.state.externalComponents.find(
+              (c) => c.external_component_id === ec.component_id
+            )
+          : null;
+        if (ec.component_id && !component) {
+          warnings.push(`External component not found: ${ec.component_id}`);
+        }
+        externalComponents[equipmentType] = {
+          component,
+          coreStats: ec.core_stats || [],
+        };
       }
-      externalComponents[equipmentType] = {
-        component,
-        coreStats: ec.core_stats || []
-      };
-    });
+    );
 
     // Reconstruct arche tuning
     let archeTuning = null;
     if (buildData.arche_tuning) {
       const board = buildData.arche_tuning.board_id
-        ? this.state.archeTuningBoards.find(b => b.arche_tuning_board_id === buildData.arche_tuning.board_id)
+        ? this.state.archeTuningBoards.find(
+            (b) => b.arche_tuning_board_id === buildData.arche_tuning.board_id
+          )
         : null;
       if (buildData.arche_tuning.board_id && !board) {
-        warnings.push(`Arche tuning board not found: ${buildData.arche_tuning.board_id}`);
+        warnings.push(
+          `Arche tuning board not found: ${buildData.arche_tuning.board_id}`
+        );
       }
 
-      const selectedNodes = (buildData.arche_tuning.selected_nodes || []).map(nodeData => {
-        const node = this.state.archeTuningNodes.find(n => n.node_id === nodeData.node_id);
-        if (!node) {
-          warnings.push(`Arche tuning node not found: ${nodeData.node_id}`);
-          return null;
-        }
-        // Restore position information
-        return {
-          ...node,
-          position_row: nodeData.position_row,
-          position_column: nodeData.position_column
-        };
-      }).filter(Boolean);
+      const selectedNodes = (buildData.arche_tuning.selected_nodes || [])
+        .map((nodeData) => {
+          const node = this.state.archeTuningNodes.find(
+            (n) => n.node_id === nodeData.node_id
+          );
+          if (!node) {
+            warnings.push(`Arche tuning node not found: ${nodeData.node_id}`);
+            return null;
+          }
+          // Restore position information
+          return {
+            ...node,
+            position_row: nodeData.position_row,
+            position_column: nodeData.position_column,
+          };
+        })
+        .filter(Boolean);
 
       if (board) {
         archeTuning = {
           board,
-          selectedNodes
+          selectedNodes,
         };
       }
     }
@@ -233,15 +268,15 @@ export class BuildSerializer {
         reactor,
         reactorAdditionalStats: buildData.reactor_additional_stats || [
           { name: '', value: 0 },
-          { name: '', value: 0 }
+          { name: '', value: 0 },
         ],
         externalComponents,
         archeTuning,
         fellow: null,
         vehicle: null,
-        inversionReinforcement: null
+        inversionReinforcement: null,
       },
-      warnings
+      warnings,
     };
   }
 

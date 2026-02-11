@@ -8,29 +8,65 @@ tfd-builds/
 │   ├── vite.config.js            # Vite dev server & build config
 │   ├── tailwind.config.js        # Custom Tailwind theme & colors
 │   ├── postcss.config.js         # PostCSS configuration
-│   ├── .gitignore               # Git ignore rules
-│   ├── .env.example             # Environment variable template
-│   └── Makefile                 # Build shortcuts (make dev, make build)
+│   ├── .prettierrc               # Prettier code formatting config
+│   ├── .prettierignore           # Files to exclude from formatting
+│   ├── .gitignore                # Git ignore rules
+│   ├── .env.example              # Environment variable template
+│   └── Makefile                  # Build shortcuts (make dev, make build)
+│
+├── 🐛 CI/CD
+│   └── .github/
+│       ├── workflows/
+│       │   └── ci.yml            # GitHub Actions CI workflow
+│       └── dependabot.yml        # Dependency updates configuration
 │
 ├── 📚 Documentation
-│   ├── README.md                # Main project documentation
-│   ├── QUICKSTART.md            # Quick 2-minute setup guide
-│   ├── DEVELOPMENT.md           # Developer guide & architecture
-│   ├── DEPLOYMENT.md            # Comprehensive deployment guide
-│   ├── PROJECT_SUMMARY.md       # Complete project overview
-│   └── FILE_STRUCTURE.md        # This file
+│   ├── README.md                 # Main project documentation
+│   └── docs/
+│       ├── QUICKSTART.md         # Quick 2-minute setup guide
+│       ├── DEVELOPMENT.md        # Developer guide & architecture
+│       ├── DEPLOYMENT.md         # Comprehensive deployment guide
+│       ├── PROJECT_SUMMARY.md    # Complete project overview
+│       ├── FILE_STRUCTURE.md     # This file
+│       ├── API_KEYS_SETUP.md     # API key configuration guide
+│       ├── MODULE_SELECTOR_GUIDE.md  # Module selector usage
+│       ├── CI_SETUP.md           # CI/CD testing setup
+│       ├── IMAGE_CACHING_INTEGRATION.md
+│       ├── IMAGE_CACHING_SUMMARY.md
+│       ├── QUICKSTART_IMAGE_CACHING.md
+│       └── TROUBLESHOOTING_IMAGE_LOADING.md
+│
+├── 🧪 Testing
+│   └── tests/
+│       ├── basic.test.js         # Basic test suite
+│       └── README.md             # Test documentation
 │
 ├── 🌐 Application Files
-│   ├── index.html               # Main HTML entry point
+│   ├── index.html                # Main HTML entry point
 │   └── src/
-│       ├── index.js             # Main application logic
+│       ├── index.js              # Main application entry point
+│       ├── state.js              # Centralized state management
+│       ├── api-client.js         # TFD Cache API client
+│       ├── config.js             # Configuration constants
+│       ├── ui-components.js      # Reusable UI components
+│       ├── build-serializer.js   # Build URL encoding/decoding
+│       ├── debug-image-loading.js # Image loading utilities
+│       ├── modules/              # Feature modules
+│       │   ├── module-selector.js    # Descendant module selection
+│       │   ├── weapon-selector.js    # Weapon selection
+│       │   ├── reactor-selector.js   # Reactor configuration
+│       │   ├── external-component-selector.js # External components
+│       │   ├── core-selector.js      # Core stat selection
+│       │   ├── custom-stat-selector.js # Custom stats
+│       │   └── arche-tuning.js       # Arche tuning boards/nodes
 │       └── styles/
-│           └── input.css        # Tailwind CSS with custom styles
+│           └── input.css         # Tailwind CSS with custom styles
 │
 └── 📦 Generated (not in repo)
-    ├── node_modules/            # npm dependencies
-    ├── dist/                    # Production build output
-    └── src/styles/output.css    # Compiled CSS (if using tailwind:build)
+    ├── node_modules/             # npm dependencies
+    ├── dist/                     # Production build output
+    ├── .env                      # Local environment variables
+    └── src/styles/output.css     # Compiled CSS (if using tailwind:build)
 ```
 
 ## 📄 File Descriptions
@@ -38,42 +74,73 @@ tfd-builds/
 ### Configuration Files
 
 **package.json**
-- Project dependencies (Vite, Tailwind, etc.)
-- npm scripts: `dev`, `build`, `preview`
+
+- Project dependencies (Vite, Tailwind, Vitest, Prettier, etc.)
+- npm scripts: `dev`, `build`, `preview`, `test`, `test:watch`, `lint`, `format`
 - Project metadata
 
 **vite.config.js**
+
 - Dev server on port 3000
 - Build output to `dist/`
 - Hot module replacement enabled
 
 **tailwind.config.js**
+
 - Custom color palette (tfd-primary, tfd-secondary, etc.)
 - Custom utilities (neon shadows, grid backgrounds)
 - Gaming font (Orbitron)
 
 **postcss.config.js**
+
 - Tailwind CSS processing
 - Autoprefixer for browser compatibility
 
+**.prettierrc**
+
+- Code formatting rules
+- Consistent code style (semi-colons, quotes, etc.)
+
+**.prettierignore**
+
+- Files to exclude from formatting (node_modules, dist, etc.)
+
 **.gitignore**
+
 - Excludes node_modules, dist, .env files
 - Excludes generated output.css
 
 **.env.example**
+
 - Template for environment variables
-- VITE_API_BASE_URL configuration
+- API configuration (Worker API Key, Nexon API Key)
 - Feature flags
 
 **Makefile**
+
 - `make install` - Install dependencies
 - `make dev` - Start dev server
 - `make build` - Production build
 - `make clean` - Clean build artifacts
 
+### CI/CD Files
+
+**.github/workflows/ci.yml**
+
+- GitHub Actions workflow for automated testing
+- Runs on pull requests and pushes to main
+- Jobs: test (lint + unit tests) and build-test
+
+**.github/dependabot.yml**
+
+- Automated dependency updates
+- Weekly schedule for npm packages and GitHub Actions
+- Groups updates by type (dev/production)
+
 ### Documentation Files
 
 **README.md** (Main Documentation)
+
 - Project overview and features
 - Installation instructions
 - API integration details
@@ -81,12 +148,14 @@ tfd-builds/
 - Development roadmap
 
 **QUICKSTART.md** (Get Started in 2 Minutes)
+
 - Minimal setup instructions
 - Common commands
 - Basic usage guide
 - Troubleshooting tips
 
 **DEVELOPMENT.md** (Developer Guide)
+
 - Architecture overview
 - Class descriptions
 - Adding new features
@@ -94,6 +163,7 @@ tfd-builds/
 - Testing instructions
 
 **DEPLOYMENT.md** (Deploy to Production)
+
 - Cloudflare Pages setup
 - Netlify deployment
 - Vercel configuration
@@ -101,6 +171,7 @@ tfd-builds/
 - Self-hosted options
 
 **PROJECT_SUMMARY.md** (Complete Overview)
+
 - What's been created
 - Features implemented
 - Architecture details
@@ -108,6 +179,7 @@ tfd-builds/
 - Known limitations
 
 **FILE_STRUCTURE.md** (This File)
+
 - Complete file tree
 - File descriptions
 - Purpose of each file
@@ -115,6 +187,7 @@ tfd-builds/
 ### Application Files
 
 **index.html** (Main Entry Point)
+
 - Header with navigation
 - Descendant selector section
 - Build container with tabs
@@ -131,22 +204,20 @@ tfd-builds/
 - Loading and error states
 
 **src/index.js** (Application Logic)
+
 - **AppState** class - State management
   - Descendants, modules, weapons data
   - Current build configuration
   - Active tab tracking
-  
 - **TFDApiClient** class - API communication
   - fetchMetadata() - Generic metadata fetcher
   - getDescendants(), getModules(), getWeapons()
   - Error handling
-  
 - **UIComponents** class - UI factory
   - createModuleSlot() - Module slot components
   - createWeaponCard() - Weapon display cards
   - createDescendantCard() - Descendant selection cards
   - Loading/error state helpers
-  
 - **Application** class - Main logic
   - init() - Initialize and load data
   - selectDescendant() - Handle descendant selection
@@ -155,6 +226,7 @@ tfd-builds/
   - Build management
 
 **src/styles/input.css** (Styling)
+
 - Tailwind directives (@tailwind base/components/utilities)
 - Custom component classes:
   - .card - Standard card component
@@ -230,21 +302,25 @@ Total (source): ~75 KB
 ## 🎯 Key Entry Points
 
 **For Users:**
+
 1. Start here: [QUICKSTART.md](QUICKSTART.md)
 2. Then read: [README.md](README.md)
 
 **For Developers:**
+
 1. Start here: [DEVELOPMENT.md](DEVELOPMENT.md)
 2. Review: [src/index.js](src/index.js)
 3. Check: [PROJECT_SUMMARY.md](PROJECT_SUMMARY.md)
 
 **For Deployment:**
+
 1. Follow: [DEPLOYMENT.md](DEPLOYMENT.md)
 2. Configure: `.env.example` → `.env`
 
 ## 🔄 Build Process
 
 ### Development
+
 ```
 npm run dev
     ↓
@@ -258,6 +334,7 @@ Browser (http://localhost:3000)
 ```
 
 ### Production
+
 ```
 npm run build
     ↓
