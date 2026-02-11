@@ -1,0 +1,49 @@
+name: Deploy to Cloudflare Workers
+
+on:
+  workflow_run:
+    workflows: ['CI Tests']
+    types:
+      - completed
+    branches:
+      - main
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          else
+            npm install
+          fi
+
+      - name: Build project
+        run: npm run build
+
+      - name: Deploy to Cloudflare Workers with Custom Domain
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: deploy
+        env:
+          NODE_ENV: production
+          # Secrets will be set via wrangler secrets or environment binding
+          # They need to be configured once using:
+          # wrangler secret put TFD_API_KEY
+          # wrangler secret put WORKER_API_KEY

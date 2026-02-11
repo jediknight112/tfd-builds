@@ -111,14 +111,51 @@ The application will open in your browser at `http://localhost:3000`
 ## Available Scripts
 
 - `npm run dev` - Start development server with hot reload
+- `npm run dev:worker` - Test Cloudflare Worker locally (after building)
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build locally
+- `npm run deploy` - Build and deploy to Cloudflare Workers
 - `npm test` - Run tests once
 - `npm run test:watch` - Run tests in watch mode
 - `npm run lint` - Check code formatting
 - `npm run format` - Auto-format code with Prettier
 - `make install` - Install dependencies (alternative)
 - `make dev` - Start dev server (alternative)
+
+## Deployment
+
+The app is automatically deployed to **Cloudflare Workers** at:
+- **Production URL**: `https://tfd-builds.jediknight112.com`
+
+### Automated Deployment
+
+The project uses GitHub Actions for continuous deployment:
+1. Push changes to `main` branch
+2. CI tests run automatically
+3. If tests pass, deployment triggers automatically
+4. Site is live within minutes
+
+### Manual Deployment
+
+```bash
+# Build and deploy
+npm run deploy
+
+# Or use wrangler directly
+npx wrangler deploy
+```
+
+### Secrets Setup
+
+The application requires two secrets to be configured in Cloudflare Workers:
+
+```bash
+# Set secrets (one-time setup)
+npx wrangler secret put TFD_API_KEY
+npx wrangler secret put WORKER_API_KEY
+```
+
+**See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) and [docs/SECRETS_SETUP.md](docs/SECRETS_SETUP.md) for complete deployment instructions.**
 
 ## Data Structure
 

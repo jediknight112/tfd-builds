@@ -17,9 +17,18 @@ export const getTierDisplayName = (tierId) => {
 
 // Get API keys from environment or localStorage
 export const getApiKeys = () => {
+  // Check for server-injected environment variables (Cloudflare Workers)
+  const serverEnv = typeof window !== 'undefined' ? window.__ENV__ : {};
+  
   const workerApiKey =
-    import.meta.env.VITE_WORKER_API_KEY || localStorage.getItem('workerApiKey');
+    serverEnv.WORKER_API_KEY ||
+    import.meta.env.VITE_WORKER_API_KEY || 
+    localStorage.getItem('workerApiKey');
+  
   const nexonApiKey =
-    import.meta.env.VITE_NEXON_API_KEY || localStorage.getItem('nexonApiKey');
+    serverEnv.TFD_API_KEY ||
+    import.meta.env.VITE_NEXON_API_KEY || 
+    localStorage.getItem('nexonApiKey');
+  
   return { workerApiKey, nexonApiKey };
 };

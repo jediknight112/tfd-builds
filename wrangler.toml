@@ -1,0 +1,22 @@
+name = "tfd-builds"
+main = "worker.js"
+compatibility_date = "2024-10-01"
+
+# Static assets configuration
+[site]
+bucket = "./dist"
+
+# Environment variables (non-sensitive)
+[vars]
+# The secrets TFD_API_KEY and WORKER_API_KEY will be set via GitHub Actions
+# or wrangler secret put command
+
+# Custom domain routes
+[[routes]]
+pattern = "tfd-builds.jediknight112.com"
+zone_name = "jediknight112.com"
+custom_domain = true
+
+# Observability configuration
+[observability]
+enabled = true
