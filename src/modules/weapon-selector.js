@@ -24,7 +24,10 @@ export class WeaponSelector {
     const searchInput = document.getElementById('weapon-search');
     if (searchInput) {
       searchInput.value = '';
-      searchInput.focus();
+      // Only focus on desktop to prevent mobile keyboard popup
+      if (window.matchMedia('(min-width: 768px)').matches) {
+        searchInput.focus();
+      }
     }
 
     // Reset filters
@@ -276,7 +279,10 @@ export class WeaponSelector {
     const searchInput = document.getElementById('module-search');
     if (searchInput) {
       searchInput.value = '';
-      searchInput.focus();
+      // Only focus on desktop to prevent mobile keyboard popup
+      if (window.matchMedia('(min-width: 768px)').matches) {
+        searchInput.focus();
+      }
     }
 
     // Reset filters

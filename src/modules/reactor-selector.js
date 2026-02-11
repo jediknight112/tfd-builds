@@ -25,7 +25,10 @@ export class ReactorSelector {
     const searchInput = document.getElementById('reactor-search');
     if (searchInput) {
       searchInput.value = '';
-      searchInput.focus();
+      // Only focus on desktop to prevent mobile keyboard popup
+      if (window.matchMedia('(min-width: 768px)').matches) {
+        searchInput.focus();
+      }
     }
 
     // Reset filter buttons
