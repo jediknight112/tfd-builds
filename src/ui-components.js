@@ -32,7 +32,7 @@ export class UIComponents {
 
       moduleSlot.innerHTML = `
         <div class="flex flex-col gap-2">
-          ${module.image_url ? `<img src="${module.image_url}" alt="${module.module_name}" class="w-full h-16 sm:h-20 object-contain rounded" />` : ''}
+          ${module.image_url ? `<img src="${module.image_url}" alt="${module.module_name}" class="w-full h-16 sm:h-20 object-contain rounded" loading="lazy" />` : ''}
           <div class="flex-1">
             <h4 class="font-semibold text-xs sm:text-sm text-cyber-cyan mb-1 leading-tight">${module.module_name || 'Unknown Module'}</h4>
             ${!isTriggerSlot && module.module_socket_type ? `<p class="text-[10px] sm:text-xs text-steel-grey">${module.module_socket_type}</p>` : ''}
@@ -102,7 +102,7 @@ export class UIComponents {
 
       weaponCard.innerHTML = `
         <div class="flex items-center gap-2 sm:gap-3 mb-3 sm:mb-4">
-          ${weapon.image_url ? `<img src="${weapon.image_url}" alt="${weapon.weapon_name}" class="w-12 h-12 sm:w-16 sm:h-16 rounded object-cover" />` : ''}
+          ${weapon.image_url ? `<img src="${weapon.image_url}" alt="${weapon.weapon_name}" class="w-12 h-12 sm:w-16 sm:h-16 rounded object-cover" loading="lazy" />` : ''}
           <div class="flex-1 min-w-0">
             <h4 class="font-semibold text-sm sm:text-base truncate">${weapon.weapon_name || 'Unknown Weapon'}</h4>
             <p class="text-xs sm:text-sm text-gray-400 truncate">${weapon.weapon_type || ''}</p>

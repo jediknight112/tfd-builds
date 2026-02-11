@@ -147,6 +147,7 @@ export class ExternalComponentSelector {
             src="${component.image_url}" 
             alt="${component.external_component_name}"
             class="w-16 h-16 object-cover rounded border-2 border-steel-grey/30 flex-shrink-0"
+            loading="lazy"
             onerror="this.style.display='none'"
           >
           <div class="flex-1 min-w-0">
@@ -260,6 +261,7 @@ export class ExternalComponentSelector {
               src="${component.image_url}" 
               alt="${component.external_component_name}"
               class="w-16 h-16 object-cover rounded border-2 border-steel-grey/30 flex-shrink-0"
+              loading="lazy"
               onerror="this.style.display='none'"
             >
             <div class="flex-1 min-w-0">
