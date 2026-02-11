@@ -138,7 +138,26 @@ class Application {
           container.innerHTML =
             '<p class="col-span-full text-center text-gray-400">No descendants found</p>';
         } else {
-          state.descendants.forEach((descendant) => {
+          // Sort descendants alphabetically by name
+          // Ultimate versions come after their base version
+          const sortedDescendants = [...state.descendants].sort((a, b) => {
+            const nameA = (a.descendant_name || '').toLowerCase();
+            const nameB = (b.descendant_name || '').toLowerCase();
+            
+            // Remove "ultimate " prefix for base comparison
+            const baseA = nameA.replace(/^ultimate\s+/, '');
+            const baseB = nameB.replace(/^ultimate\s+/, '');
+            
+            // If base names are the same, non-ultimate comes first
+            if (baseA === baseB) {
+              return nameA.startsWith('ultimate') ? 1 : -1;
+            }
+            
+            // Otherwise sort by base name
+            return baseA.localeCompare(baseB);
+          });
+
+          sortedDescendants.forEach((descendant) => {
             container.appendChild(
               UIComponents.createDescendantCard(descendant)
             );
@@ -184,7 +203,26 @@ class Application {
           container.innerHTML =
             '<p class="col-span-full text-center text-gray-400">No descendants found</p>';
         } else {
-          state.descendants.forEach((descendant) => {
+          // Sort descendants alphabetically by name
+          // Ultimate versions come after their base version
+          const sortedDescendants = [...state.descendants].sort((a, b) => {
+            const nameA = (a.descendant_name || '').toLowerCase();
+            const nameB = (b.descendant_name || '').toLowerCase();
+            
+            // Remove "ultimate " prefix for base comparison
+            const baseA = nameA.replace(/^ultimate\s+/, '');
+            const baseB = nameB.replace(/^ultimate\s+/, '');
+            
+            // If base names are the same, non-ultimate comes first
+            if (baseA === baseB) {
+              return nameA.startsWith('ultimate') ? 1 : -1;
+            }
+            
+            // Otherwise sort by base name
+            return baseA.localeCompare(baseB);
+          });
+
+          sortedDescendants.forEach((descendant) => {
             container.appendChild(
               UIComponents.createDescendantCard(descendant)
             );

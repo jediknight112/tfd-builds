@@ -217,21 +217,21 @@ export class ArcheTuning {
 
     let tooltip = `
       <div class="arche-tooltip">
-        <div class="flex items-center gap-2 mb-2">
-          <img src="${nodeInfo.node_image_url}" alt="${nodeInfo.node_name}" class="w-8 h-8" />
-          <div>
-            <div class="font-bold text-cyber-cyan">${nodeInfo.node_name}</div>
-            <div class="text-xs text-steel-grey">${nodeInfo.node_type}${nodeInfo.tier_id !== 'None' ? ` - ${tierDisplay}` : ''}</div>
+        <div class="flex items-center gap-2 mb-1 sm:mb-2">
+          <img src="${nodeInfo.node_image_url}" alt="${nodeInfo.node_name}" class="flex-shrink-0" />
+          <div class="min-w-0">
+            <div class="font-bold text-cyber-cyan text-xs sm:text-sm truncate">${nodeInfo.node_name}</div>
+            <div class="text-[10px] sm:text-xs text-steel-grey">${nodeInfo.node_type}${nodeInfo.tier_id !== 'None' ? ` - ${tierDisplay}` : ''}</div>
           </div>
         </div>
     `;
 
     if (nodeInfo.required_tuning_point > 0) {
-      tooltip += `<div class="text-amber-gold text-sm mb-2">Cost: ${nodeInfo.required_tuning_point} point${nodeInfo.required_tuning_point > 1 ? 's' : ''}</div>`;
+      tooltip += `<div class="text-amber-gold text-xs sm:text-sm mb-1 sm:mb-2">Cost: ${nodeInfo.required_tuning_point} point${nodeInfo.required_tuning_point > 1 ? 's' : ''}</div>`;
     }
 
     if (nodeInfo.node_effect && nodeInfo.node_effect.length > 0) {
-      tooltip += '<div class="text-sm">';
+      tooltip += '<div class="text-xs sm:text-sm">';
       nodeInfo.node_effect.forEach((effect) => {
         const statName = this.getStatName(effect.stat_id);
         tooltip += `<div class="text-steel-light">+${effect.stat_value} ${statName}</div>`;
@@ -291,20 +291,24 @@ export class ArcheTuning {
 
     container.innerHTML = `
       <div class="card">
-        <div class="flex justify-between items-center mb-4">
-          <h4 class="text-cyber-cyan font-bold">Arche Tuning Board</h4>
-          <button 
-            class="btn-secondary text-sm"
-            onclick="app.archeTuning.clearSelection()"
-          >
-            Clear Selection
-          </button>
+        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 mb-4">
+          <h4 class="text-cyber-cyan font-bold text-base sm:text-lg">Arche Tuning Board</h4>
+          <div class="flex items-center gap-3 flex-wrap">
+            <div class="text-xs sm:text-sm text-steel-grey">
+              Arche Points: <span id="selected-count" class="text-cyber-cyan font-bold">0</span><span class="text-steel-grey">/40</span>
+            </div>
+            <button 
+              class="btn-secondary text-xs sm:text-sm px-3 sm:px-4 py-1.5 sm:py-2"
+              onclick="app.archeTuning.clearSelection()"
+            >
+              Clear Selection
+            </button>
+          </div>
         </div>
-        <div id="arche-grid" class="arche-grid">
-          ${!this.metadataLoaded ? '<div class="text-steel-grey text-center py-8">Loading metadata...</div>' : ''}
-        </div>
-        <div class="mt-4 text-sm text-steel-grey">
-          <div>Tuning Cost: <span id="selected-count" class="text-cyber-cyan">0</span> / <span class="text-steel-grey">40</span></div>
+        <div class="arche-scroll-container">
+          <div id="arche-grid" class="arche-grid">
+            ${!this.metadataLoaded ? '<div class="text-steel-grey text-center py-8">Loading metadata...</div>' : ''}
+          </div>
         </div>
       </div>
     `;

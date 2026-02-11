@@ -40,21 +40,21 @@
 
 @layer components {
   .card {
-    @apply bg-void-blue/60 backdrop-blur-md border border-cyber-cyan/20 p-4 shadow-glass hover:border-cyber-cyan/50 transition-all duration-300 relative mb-6;
+    @apply bg-void-blue/60 backdrop-blur-md border border-cyber-cyan/20 p-3 sm:p-4 shadow-glass hover:border-cyber-cyan/50 transition-all duration-300 relative mb-4 sm:mb-6;
     border-radius: 0.5rem; /* rounded-lg equivalent */
   }
 
   .card-premium {
-    @apply bg-void-blue/60 backdrop-blur-md border border-amber-gold/30 p-4 shadow-glass-gold hover:border-amber-gold/60 transition-all duration-300 relative mb-6;
+    @apply bg-void-blue/60 backdrop-blur-md border border-amber-gold/30 p-3 sm:p-4 shadow-glass-gold hover:border-amber-gold/60 transition-all duration-300 relative mb-4 sm:mb-6;
     border-radius: 0.5rem; /* rounded-lg equivalent */
   }
 
   .card-header {
-    @apply text-cyber-cyan font-gaming font-bold text-lg mb-3 uppercase tracking-wider;
+    @apply text-cyber-cyan font-gaming font-bold text-base sm:text-lg mb-2 sm:mb-3 uppercase tracking-wider;
   }
 
   .card-header-premium {
-    @apply text-amber-gold font-gaming font-bold text-lg mb-3 uppercase tracking-wider;
+    @apply text-amber-gold font-gaming font-bold text-base sm:text-lg mb-2 sm:mb-3 uppercase tracking-wider;
   }
 
   .module-slot {
@@ -67,6 +67,8 @@
       6px 100%,
       0 calc(100% - 6px)
     );
+    /* Ensure minimum touch target size on mobile */
+    min-height: 44px;
   }
 
   .module-slot.filled {
@@ -114,27 +116,33 @@
   }
 
   .btn-primary {
-    @apply bg-cyber-cyan hover:bg-cyber-cyan-glow text-void-deep font-gaming font-bold py-2 px-6 transition-all duration-300 shadow-neon hover:shadow-neon-strong uppercase tracking-wide;
+    @apply bg-cyber-cyan hover:bg-cyber-cyan-glow text-void-deep font-gaming font-bold py-2 px-4 sm:px-6 transition-all duration-300 shadow-neon hover:shadow-neon-strong uppercase tracking-wide text-sm;
     clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 0 100%);
+    /* Ensure minimum touch target size on mobile */
+    min-height: 44px;
   }
 
   .btn-secondary {
-    @apply bg-void-blue/60 backdrop-blur-sm hover:bg-void-lighter/80 border border-cyber-cyan text-cyber-cyan font-gaming font-bold py-2 px-6 transition-all duration-300 hover:shadow-neon uppercase tracking-wide;
+    @apply bg-void-blue/60 backdrop-blur-sm hover:bg-void-lighter/80 border border-cyber-cyan text-cyber-cyan font-gaming font-bold py-2 px-4 sm:px-6 transition-all duration-300 hover:shadow-neon uppercase tracking-wide text-sm;
     clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 0 100%);
+    /* Ensure minimum touch target size on mobile */
+    min-height: 44px;
   }
 
   .btn-premium {
-    @apply bg-amber-gold hover:bg-amber-bright text-void-deep font-gaming font-bold py-2 px-6 transition-all duration-300 shadow-gold-glow hover:shadow-gold-glow-strong uppercase tracking-wide;
+    @apply bg-amber-gold hover:bg-amber-bright text-void-deep font-gaming font-bold py-2 px-4 sm:px-6 transition-all duration-300 shadow-gold-glow hover:shadow-gold-glow-strong uppercase tracking-wide text-sm;
     clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 0 100%);
+    /* Ensure minimum touch target size on mobile */
+    min-height: 44px;
   }
 
   .section-title {
-    @apply text-2xl font-gaming font-bold text-cyber-cyan mb-4 uppercase tracking-wider flex items-center gap-2;
+    @apply text-lg sm:text-xl md:text-2xl font-gaming font-bold text-cyber-cyan mb-3 sm:mb-4 uppercase tracking-wider flex items-center gap-2;
     text-shadow: 0 0 15px rgba(0, 240, 255, 0.6);
   }
 
   .section-title-premium {
-    @apply text-2xl font-gaming font-bold text-amber-gold mb-4 uppercase tracking-wider flex items-center gap-2;
+    @apply text-lg sm:text-xl md:text-2xl font-gaming font-bold text-amber-gold mb-3 sm:mb-4 uppercase tracking-wider flex items-center gap-2;
     text-shadow: 0 0 15px rgba(212, 163, 115, 0.6);
   }
 
@@ -151,7 +159,7 @@
   }
 
   .tab {
-    @apply px-4 py-2 border-b-2 border-transparent hover:border-cyber-cyan/50 transition-all cursor-pointer font-gaming uppercase text-sm tracking-wide text-steel-grey;
+    @apply px-3 sm:px-4 py-2 border-b-2 border-transparent hover:border-cyber-cyan/50 transition-all cursor-pointer font-gaming uppercase text-xs sm:text-sm tracking-wide text-steel-grey;
     clip-path: polygon(
       8px 0,
       calc(100% - 8px) 0,
@@ -160,6 +168,8 @@
       0 100%,
       0 8px
     );
+    /* Ensure minimum touch target size on mobile */
+    min-height: 44px;
   }
 
   .tab.active {
@@ -171,7 +181,7 @@
   }
 
   .module-filter-btn {
-    @apply px-3 py-1 text-sm border border-steel-dark hover:border-cyber-cyan transition-all duration-200 cursor-pointer font-gaming uppercase text-xs tracking-wide bg-void-blue/40 backdrop-blur-sm;
+    @apply px-2 sm:px-3 py-1 sm:py-1.5 text-[10px] sm:text-xs border border-steel-dark hover:border-cyber-cyan transition-all duration-200 cursor-pointer font-gaming uppercase tracking-wide bg-void-blue/40 backdrop-blur-sm;
     clip-path: polygon(
       0 0,
       calc(100% - 4px) 0,
@@ -180,6 +190,8 @@
       4px 100%,
       0 calc(100% - 4px)
     );
+    /* Ensure minimum touch target size on mobile */
+    min-height: 36px;
   }
 
   .module-filter-btn.active {
@@ -187,7 +199,7 @@
   }
 
   .reactor-filter-btn {
-    @apply px-3 py-1 text-sm border border-steel-dark hover:border-cyber-cyan transition-all duration-200 cursor-pointer font-gaming uppercase text-xs tracking-wide bg-void-blue/40 backdrop-blur-sm;
+    @apply px-2 sm:px-3 py-1 sm:py-1.5 text-[10px] sm:text-xs border border-steel-dark hover:border-cyber-cyan transition-all duration-200 cursor-pointer font-gaming uppercase tracking-wide bg-void-blue/40 backdrop-blur-sm;
     clip-path: polygon(
       0 0,
       calc(100% - 4px) 0,
@@ -196,6 +208,8 @@
       4px 100%,
       0 calc(100% - 4px)
     );
+    /* Ensure minimum touch target size on mobile */
+    min-height: 36px;
   }
 
   .reactor-filter-btn.active {
@@ -203,7 +217,7 @@
   }
 
   .external-component-filter-btn {
-    @apply px-3 py-1 text-sm border border-steel-dark hover:border-cyber-cyan transition-all duration-200 cursor-pointer font-gaming uppercase text-xs tracking-wide bg-void-blue/40 backdrop-blur-sm;
+    @apply px-2 sm:px-3 py-1 sm:py-1.5 text-[10px] sm:text-xs border border-steel-dark hover:border-cyber-cyan transition-all duration-200 cursor-pointer font-gaming uppercase tracking-wide bg-void-blue/40 backdrop-blur-sm;
     clip-path: polygon(
       0 0,
       calc(100% - 4px) 0,
@@ -212,6 +226,8 @@
       4px 100%,
       0 calc(100% - 4px)
     );
+    /* Ensure minimum touch target size on mobile */
+    min-height: 36px;
   }
 
   .external-component-filter-btn.active {
@@ -237,32 +253,142 @@
   }
 
   /* Arche Tuning Grid Styles */
+  /* Arche Tuning Scroll Container */
+  .arche-scroll-container {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    /* Add some padding for mobile scroll */
+    padding: 0;
+  }
+
+  /* Hide scrollbar on mobile but keep functionality */
+  @media (max-width: 639px) {
+    .arche-scroll-container::-webkit-scrollbar {
+      height: 4px;
+    }
+    .arche-scroll-container::-webkit-scrollbar-track {
+      background: rgba(0, 0, 0, 0.2);
+      border-radius: 2px;
+    }
+    .arche-scroll-container::-webkit-scrollbar-thumb {
+      background: rgba(0, 240, 255, 0.3);
+      border-radius: 2px;
+    }
+    .arche-scroll-container::-webkit-scrollbar-thumb:hover {
+      background: rgba(0, 240, 255, 0.5);
+    }
+  }
+
   .arche-grid {
-    @apply bg-void-deep/80 p-4 rounded-lg border border-cyber-cyan/20;
-    display: inline-block;
+    @apply bg-void-deep/80 rounded-lg border border-cyber-cyan/20;
+    display: inline-flex;
+    flex-direction: column;
+    /* Remove width constraints to allow proper sizing */
+    min-width: min-content;
+    /* Padding inside the grid */
+    padding: 8px;
+    /* Center on larger screens */
     margin: 0 auto;
+  }
+
+  @media (min-width: 640px) {
+    .arche-grid {
+      padding: 12px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .arche-grid {
+      padding: 16px;
+    }
   }
 
   .arche-row {
     display: flex;
-    gap: 2px;
-    margin-bottom: 2px;
+    gap: 1px;
+    margin-bottom: 1px;
+    flex-shrink: 0;
+  }
+
+  @media (min-width: 640px) {
+    .arche-row {
+      gap: 2px;
+      margin-bottom: 2px;
+    }
   }
 
   .arche-node {
-    @apply w-6 h-6 border border-steel-grey/40 bg-void-blue/40 cursor-pointer transition-all duration-200;
+    @apply border border-steel-grey/40 bg-void-blue/40 cursor-pointer transition-all duration-200;
+    /* Responsive sizing: smaller on mobile, larger on desktop */
+    width: 20px;
+    height: 20px;
     border-radius: 2px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     position: relative;
     filter: brightness(0.4);
+    flex-shrink: 0;
+  }
+
+  @media (min-width: 375px) {
+    .arche-node {
+      width: 22px;
+      height: 22px;
+    }
+  }
+
+  @media (min-width: 475px) {
+    .arche-node {
+      width: 26px;
+      height: 26px;
+      font-size: 16px;
+    }
+  }
+
+  @media (min-width: 640px) {
+    .arche-node {
+      width: 32px;
+      height: 32px;
+      font-size: 18px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .arche-node {
+      width: 36px;
+      height: 36px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .arche-node {
+      width: 40px;
+      height: 40px;
+      font-size: 20px;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .arche-node {
+      width: 44px;
+      height: 44px;
+    }
   }
 
   .arche-node:not(.invisible):not(.anchor):hover {
     @apply border-cyber-cyan bg-cyber-cyan/20 transform scale-110;
+  }
+
+  /* Add active state for touch devices */
+  .arche-node:not(.invisible):not(.anchor):active {
+    @apply border-cyber-cyan bg-cyber-cyan/30;
+    transform: scale(0.95);
   }
 
   .arche-node.selected {
@@ -330,23 +456,49 @@
 
   /* Arche Node Tooltip */
   .arche-node-tooltip {
-    @apply hidden absolute z-50 bg-void-deep border border-cyber-cyan rounded-lg p-3 shadow-neon;
-    min-width: 200px;
-    max-width: 300px;
+    @apply hidden absolute z-50 bg-void-deep border border-cyber-cyan rounded-lg shadow-neon;
+    /* Responsive sizing */
+    padding: 8px;
+    min-width: 160px;
+    max-width: 90vw;
     bottom: 100%;
     left: 50%;
-    transform: translateX(-50%) translateY(-8px);
+    transform: translateX(-50%) translateY(-4px);
     pointer-events: none;
     white-space: normal;
     filter: brightness(1);
   }
 
-  .arche-node:hover .arche-node-tooltip {
-    @apply block;
+  @media (min-width: 640px) {
+    .arche-node-tooltip {
+      padding: 12px;
+      min-width: 200px;
+      max-width: 300px;
+      transform: translateX(-50%) translateY(-8px);
+    }
+  }
+
+  /* Show tooltip on hover for desktop */
+  @media (hover: hover) and (pointer: fine) {
+    .arche-node:hover .arche-node-tooltip {
+      @apply block;
+    }
+  }
+
+  /* Show tooltip on active/tap for mobile */
+  @media (hover: none) or (pointer: coarse) {
+    .arche-node:active .arche-node-tooltip {
+      @apply block;
+    }
   }
 
   .arche-tooltip {
-    @apply text-sm;
+    @apply text-xs sm:text-sm;
+  }
+
+  /* Responsive tooltip images */
+  .arche-tooltip img {
+    @apply w-6 h-6 sm:w-8 sm:h-8;
   }
 
   .arche-node-tooltip::after {
@@ -355,8 +507,15 @@
     top: 100%;
     left: 50%;
     transform: translateX(-50%);
-    border: 6px solid transparent;
+    border: 4px solid transparent;
     border-top-color: theme('colors.cyber-cyan');
+  }
+
+  @media (min-width: 640px) {
+    .arche-node-tooltip::after {
+      border: 6px solid transparent;
+      border-top-color: theme('colors.cyber-cyan');
+    }
   }
 }
 
