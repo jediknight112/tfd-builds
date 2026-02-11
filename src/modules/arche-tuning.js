@@ -218,7 +218,7 @@ export class ArcheTuning {
     let tooltip = `
       <div class="arche-tooltip">
         <div class="flex items-center gap-2 mb-1 sm:mb-2">
-          <img src="${nodeInfo.node_image_url}" alt="${nodeInfo.node_name}" class="flex-shrink-0" />
+          <img src="${nodeInfo.node_image_url}" alt="${nodeInfo.node_name}" class="flex-shrink-0" loading="lazy" />
           <div class="min-w-0">
             <div class="font-bold text-cyber-cyan text-xs sm:text-sm truncate">${nodeInfo.node_name}</div>
             <div class="text-[10px] sm:text-xs text-steel-grey">${nodeInfo.node_type}${nodeInfo.tier_id !== 'None' ? ` - ${tierDisplay}` : ''}</div>
@@ -283,6 +283,39 @@ export class ArcheTuning {
     }
 
     return false;
+  }
+
+  countSelectedNeighbors(row, col) {
+    // Count how many adjacent nodes are selected or are the center anchor node
+    let count = 0;
+
+    const adjacentPositions = [
+      { row: row - 1, col }, // Up
+      { row: row + 1, col }, // Down
+      { row, col: col - 1 }, // Left
+      { row, col: col + 1 }, // Right
+    ];
+
+    for (const pos of adjacentPositions) {
+      // Check if position is in bounds and is a visible node
+      if (
+        pos.row >= 0 &&
+        pos.row < this.gridSize &&
+        pos.col >= 0 &&
+        pos.col < this.gridSize &&
+        this.gridStructure[pos.row][pos.col]
+      ) {
+        const posKey = `${pos.row},${pos.col}`;
+        
+        // Count if this adjacent position is selected OR is the center anchor (10, 10)
+        const isCenterAnchor = pos.row === 10 && pos.col === 10;
+        if (this.selectedNodes.has(posKey) || isCenterAnchor) {
+          count++;
+        }
+      }
+    }
+
+    return count;
   }
 
   renderArcheTuningBoard() {
@@ -383,6 +416,7 @@ export class ArcheTuning {
             imgEl.src = nodeInfo.node_image_url;
             imgEl.alt = nodeInfo.node_name || '';
             imgEl.className = 'w-full h-full object-contain';
+            imgEl.loading = 'lazy';
             nodeDiv.appendChild(imgEl);
           }
 
@@ -418,8 +452,17 @@ export class ArcheTuning {
     const nodeKey = `${row},${col}`;
 
     if (this.selectedNodes.has(nodeKey)) {
-      // Deselecting - always allowed
-      this.selectedNodes.delete(nodeKey);
+      // Deselecting - only allowed if node is at the end of a trail
+      // Count how many selected neighbors this node has
+      const selectedNeighbors = this.countSelectedNeighbors(row, col);
+      
+      // Only allow deselection if the node has 1 or fewer selected neighbors
+      // (meaning it's at the end of the trail)
+      if (selectedNeighbors <= 1) {
+        this.selectedNodes.delete(nodeKey);
+      } else {
+        return; // Don't re-render if deselection was blocked
+      }
     } else {
       // Selecting - check adjacency first
       if (!this.isAdjacentToSelected(row, col)) {

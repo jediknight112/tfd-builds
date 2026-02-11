@@ -151,6 +151,7 @@ export class ReactorSelector {
             src="${reactor.image_url}" 
             alt="${reactor.reactor_name}"
             class="w-16 h-16 object-cover rounded border-2 border-steel-grey/30 flex-shrink-0"
+            loading="lazy"
             onerror="this.style.display='none'"
           >
           <div class="flex-1 min-w-0">
@@ -258,6 +259,7 @@ export class ReactorSelector {
             src="${reactor.image_url}" 
             alt="${reactor.reactor_name}"
             class="w-24 h-24 object-cover rounded border-2 border-steel-grey/30 flex-shrink-0"
+            loading="lazy"
             onerror="this.style.display='none'"
           >
           <div class="flex-1">
