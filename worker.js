@@ -55,6 +55,11 @@ export default {
         url.pathname === '/index.html' ||
         response.headers.get('content-type')?.includes('text/html')
       ) {
+        // Don't modify 304/204/205/101 responses (they cannot have a body)
+        if ([101, 204, 205, 304].includes(response.status)) {
+          return response;
+        }
+
         // Clone the response so we can modify it
         response = new Response(response.body, response);
 
