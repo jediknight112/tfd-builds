@@ -54,7 +54,7 @@ export class UIComponents {
             `
                 : ''
             }
-            <div class="text-[10px] sm:text-xs text-steel-light">${maxLevelStat.value.replace(/\[\+\]/g, '')}</div>
+            ${maxLevelStat.value ? `<div class="text-[10px] sm:text-xs text-steel-light">${maxLevelStat.value.replace(/\[\+\]/g, '')}</div>` : ''}
           </div>
         `
             : ''
