@@ -186,8 +186,11 @@ export function createMyComponent(data) {
 
 - Builds are serialized to URL parameters
 - LZ-String compression keeps URLs manageable
-- Format: `?build=<compressed_data>`
+- Format: `?build=<compressed_data>` (or `#<compressed_data>` for hash-based URLs)
 - Deserialization happens on page load
+- **Module slot positions are preserved** using `[slot_index, module_id]` pairs
+  - Critical for Skill (slot 0) and Sub (slot 6) special slots
+  - See [docs/MODULE_SLOT_POSITION_FIX.md](docs/MODULE_SLOT_POSITION_FIX.md) for details
 
 ### Image Loading
 
@@ -213,6 +216,10 @@ Keys can be configured via:
 ### Build Constraints
 
 - 12 descendant modules maximum
+  - **Slot 0 (Slot 1 in UI)**: Skill modules only - special slot with teal border (`#549E94`)
+  - **Slot 6 (Slot 7 in UI)**: Sub modules only - special slot with tan border (`#A98163`)
+  - **Trigger slot**: Separate trigger module slot with gold border (`#EAD590`)
+  - **Other slots**: Main modules only
 - 3 weapons with 10 modules each
 - 4 base stats per weapon (customizable)
 - 5 core stats per weapon (predefined options)
@@ -226,6 +233,10 @@ Keys can be configured via:
 - Dark theme (slate/gray backgrounds)
 - Card-based layouts
 - Hover effects and transitions
+- **Special slot colors** for visual differentiation:
+  - Skill slot (slot 0): Teal `#549E94`
+  - Sub slot (slot 6): Tan `#A98163`
+  - Trigger slot: Gold `#EAD590`
 
 ## Common Pitfalls to Avoid
 
