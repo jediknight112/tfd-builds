@@ -28,7 +28,9 @@ export const getLanguage = () => {
   return (
     getEnv().LANGUAGE_CODE ||
     import.meta.env.VITE_LANGUAGE_CODE ||
-    localStorage.getItem('languageCode') ||
+    (typeof localStorage !== 'undefined'
+      ? localStorage.getItem('languageCode')
+      : null) ||
     'en'
   );
 };
@@ -39,12 +41,16 @@ export const getApiKeys = () => {
   const workerApiKey =
     serverEnv.WORKER_API_KEY ||
     import.meta.env.VITE_WORKER_API_KEY ||
-    localStorage.getItem('workerApiKey');
+    (typeof localStorage !== 'undefined'
+      ? localStorage.getItem('workerApiKey')
+      : null);
 
   const nexonApiKey =
     serverEnv.TFD_API_KEY ||
     import.meta.env.VITE_NEXON_API_KEY ||
-    localStorage.getItem('nexonApiKey');
+    (typeof localStorage !== 'undefined'
+      ? localStorage.getItem('nexonApiKey')
+      : null);
 
   return { workerApiKey, nexonApiKey };
 };
