@@ -207,12 +207,14 @@ export class BuildSerializer {
       } else {
         // Legacy format: assume sequential filling (will be wrong for special slots)
         // This handles old URLs that didn't preserve positions
-        console.warn('Legacy module format detected - slot positions may be incorrect');
+        console.warn(
+          'Legacy module format detected - slot positions may be incorrect'
+        );
         const nextEmpty = descendantModules.findIndex((m) => m === null);
         slotIndex = nextEmpty >= 0 ? nextEmpty : descendantModules.length;
         moduleId = entry;
       }
-      
+
       if (!moduleId || slotIndex >= 12) return;
       const module = this.state.modules.find((m) => m.module_id === moduleId);
       if (!module) warnings.push(`Module not found: ${moduleId}`);

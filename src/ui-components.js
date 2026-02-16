@@ -12,12 +12,12 @@ export class UIComponents {
     slotType = null
   ) {
     const moduleSlot = document.createElement('div');
-    
+
     // Determine slot-specific colors for special slots
     const isTriggerSlot = slotIndex === 'trigger' || slotType === 'Trigger';
     const isSkillSlot = slotIndex === 0 || slotType === 'Skill';
     const isSubSlot = slotIndex === 6 || slotType === 'Sub';
-    
+
     let borderColor, hoverBorderColor;
     if (isTriggerSlot) {
       borderColor = '#EAD590';
@@ -29,7 +29,7 @@ export class UIComponents {
       borderColor = '#A98163';
       hoverBorderColor = '#A98163';
     }
-    
+
     if (borderColor) {
       moduleSlot.className =
         'module-slot group relative border-2 rounded-lg p-2 sm:p-3 transition-all cursor-pointer bg-black/50 hover:bg-black/70';
@@ -608,7 +608,7 @@ export class UIComponents {
         } else {
           slotType = 'Main';
         }
-        
+
         const moduleSlot = this.createModuleSlot(
           state.currentBuild.descendantModules[i],
           i,

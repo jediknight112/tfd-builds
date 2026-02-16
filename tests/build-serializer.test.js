@@ -12,10 +12,22 @@ describe('BuildSerializer - Module Slot Position Preservation', () => {
         { descendant_id: 'desc1', descendant_name: 'Test Descendant' },
       ],
       modules: [
-        { module_id: 'mod_skill', module_name: 'Skill Module', module_type: 'Skill' },
+        {
+          module_id: 'mod_skill',
+          module_name: 'Skill Module',
+          module_type: 'Skill',
+        },
         { module_id: 'mod_sub', module_name: 'Sub Module', module_type: 'Sub' },
-        { module_id: 'mod_main1', module_name: 'Main Module 1', module_type: 'Main' },
-        { module_id: 'mod_main2', module_name: 'Main Module 2', module_type: 'Main' },
+        {
+          module_id: 'mod_main1',
+          module_name: 'Main Module 1',
+          module_type: 'Main',
+        },
+        {
+          module_id: 'mod_main2',
+          module_name: 'Main Module 2',
+          module_type: 'Main',
+        },
       ],
       weapons: [],
       reactors: [],
@@ -27,13 +39,15 @@ describe('BuildSerializer - Module Slot Position Preservation', () => {
       currentBuild: {
         triggerModule: null,
         descendantModules: Array(12).fill(null),
-        weapons: Array(3).fill(null).map(() => ({
-          weapon: null,
-          modules: Array(10).fill(null),
-          customStats: [],
-          coreType: null,
-          coreStats: [],
-        })),
+        weapons: Array(3)
+          .fill(null)
+          .map(() => ({
+            weapon: null,
+            modules: Array(10).fill(null),
+            customStats: [],
+            coreType: null,
+            coreStats: [],
+          })),
         reactor: null,
         reactorAdditionalStats: [
           { name: '', value: 0 },
@@ -78,10 +92,10 @@ describe('BuildSerializer - Module Slot Position Preservation', () => {
       v: 2,
       d: 'desc1',
       m: [
-        [0, 'mod_skill'],    // Slot 0 (Skill)
-        [3, 'mod_main1'],    // Slot 3
-        [6, 'mod_sub'],      // Slot 6 (Sub)
-        [10, 'mod_main2'],   // Slot 10
+        [0, 'mod_skill'], // Slot 0 (Skill)
+        [3, 'mod_main1'], // Slot 3
+        [6, 'mod_sub'], // Slot 6 (Sub)
+        [10, 'mod_main2'], // Slot 10
       ],
     };
 
@@ -156,7 +170,7 @@ describe('BuildSerializer - Module Slot Position Preservation', () => {
     // Fill all 12 slots
     for (let i = 0; i < 12; i++) {
       // Alternate between different modules
-      mockState.currentBuild.descendantModules[i] = 
+      mockState.currentBuild.descendantModules[i] =
         mockState.modules[i % mockState.modules.length];
     }
 
@@ -165,7 +179,7 @@ describe('BuildSerializer - Module Slot Position Preservation', () => {
 
     expect(result.valid).toBe(true);
     expect(result.build.descendantModules.length).toBe(12);
-    
+
     // Verify each module is in the correct slot
     for (let i = 0; i < 12; i++) {
       expect(result.build.descendantModules[i]).toBeDefined();
@@ -181,18 +195,18 @@ describe('BuildSerializer - Module Slot Position Preservation', () => {
       version: '1.0',
       descendant_id: 'desc1',
       descendant_module_ids: [
-        'mod_skill',  // Index 0
-        null,         // Index 1
-        null,         // Index 2
-        'mod_main1',  // Index 3
-        null,         // Index 4
-        null,         // Index 5
-        'mod_sub',    // Index 6
-        null,         // Index 7
-        null,         // Index 8
-        null,         // Index 9
-        'mod_main2',  // Index 10
-        null,         // Index 11
+        'mod_skill', // Index 0
+        null, // Index 1
+        null, // Index 2
+        'mod_main1', // Index 3
+        null, // Index 4
+        null, // Index 5
+        'mod_sub', // Index 6
+        null, // Index 7
+        null, // Index 8
+        null, // Index 9
+        'mod_main2', // Index 10
+        null, // Index 11
       ],
     };
 
