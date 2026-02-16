@@ -1,10 +1,11 @@
 // Helper to get environment variables safely
-const getEnv = () => (typeof window !== 'undefined' && window.__ENV__ ? window.__ENV__ : {});
+const getEnv = () =>
+  typeof window !== 'undefined' && window.__ENV__ ? window.__ENV__ : {};
 
 // API Configuration
-export const API_BASE_URL = 
-  getEnv().API_BASE_URL || 
-  import.meta.env.VITE_API_BASE_URL || 
+export const API_BASE_URL =
+  getEnv().API_BASE_URL ||
+  import.meta.env.VITE_API_BASE_URL ||
   'https://tfd-cache.jediknight112.com';
 export const LANGUAGE_CODE = 'en';
 
