@@ -1,6 +1,5 @@
 import { state } from '../state.js';
 import { UIComponents } from '../ui-components.js';
-import { getTierDisplayName } from '../config.js';
 
 export class ModuleSelector {
   openModuleSelector(slotIndex, slotType) {
@@ -95,14 +94,17 @@ export class ModuleSelector {
     // Filter modules
     let filteredModules = state.modules.filter((module) => {
       // First filter: Only Descendant modules for descendant slots
-      if (module.module_class !== 'Descendant') {
+      const localizedDescendantClass =
+        state.getLocalizedModuleClass('Descendant');
+      if (module.module_class !== localizedDescendantClass) {
         return false;
       }
 
       // Filter by slot type using available_module_slot_type
       if (slotType && module.available_module_slot_type) {
+        const localizedSlotType = state.getLocalizedSlotType(slotType);
         const hasSlotType =
-          module.available_module_slot_type.includes(slotType);
+          module.available_module_slot_type.includes(localizedSlotType);
         if (!hasSlotType) {
           return false;
         }
@@ -141,7 +143,7 @@ export class ModuleSelector {
       // Filter by socket type
       if (
         socketFilter !== 'all' &&
-        module.module_socket_type !== socketFilter
+        module.module_socket_type !== state.getLocalizedSocketType(socketFilter)
       ) {
         return false;
       }
@@ -219,22 +221,27 @@ export class ModuleSelector {
             <div class="flex flex-wrap gap-1">
               ${
                 !isTriggerModule && module.module_socket_type
-                  ? `
-                <span class="inline-block px-2 py-0.5 rounded text-xs font-semibold ${
-                  module.module_socket_type === 'Almandine'
-                    ? 'bg-red-600 text-white'
-                    : module.module_socket_type === 'Rutile'
-                      ? 'bg-yellow-600 text-white'
-                      : module.module_socket_type === 'Cerulean'
-                        ? 'bg-blue-600 text-white'
-                        : module.module_socket_type === 'Malachite'
-                          ? 'bg-green-600 text-white'
-                          : 'bg-gray-600 text-white'
-                }">${module.module_socket_type}</span>
-              `
+                  ? (() => {
+                      const socketKey = state.getSocketTypeKey(
+                        module.module_socket_type
+                      );
+                      return `
+                        <span class="inline-block px-2 py-0.5 rounded text-xs font-semibold ${
+                          socketKey === 'Almandine'
+                            ? 'bg-red-600 text-white'
+                            : socketKey === 'Rutile'
+                              ? 'bg-yellow-600 text-white'
+                              : socketKey === 'Cerulean'
+                                ? 'bg-blue-600 text-white'
+                                : socketKey === 'Malachite'
+                                  ? 'bg-green-600 text-white'
+                                  : 'bg-gray-600 text-white'
+                        }">${module.module_socket_type}</span>
+                      `;
+                    })()
                   : ''
               }
-              ${module.module_tier_id ? `<span class="inline-block px-2 py-0.5 rounded-sm text-xs font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${getTierDisplayName(module.module_tier_id)}</span>` : ''}
+              ${module.module_tier_id ? `<span class="inline-block px-2 py-0.5 rounded-sm text-xs font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${state.getTierDisplayName(module.module_tier_id)}</span>` : ''}
               ${module.module_type ? `<span class="inline-block px-2 py-0.5 rounded-sm text-xs font-semibold bg-amber-gold/20 text-amber-gold border border-amber-gold/30">${module.module_type}</span>` : ''}
             </div>
           </div>

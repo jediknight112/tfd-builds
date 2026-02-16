@@ -1,5 +1,5 @@
 import { state } from '../state.js';
-import { API_BASE_URL, LANGUAGE_CODE } from '../config.js';
+import { API_BASE_URL } from '../config.js';
 
 export class ArcheTuning {
   constructor() {
@@ -403,7 +403,7 @@ export class ArcheTuning {
             }
 
             // Mutant Cells (Hole type) get ultimate tier color
-            if (nodeInfo.node_type === 'Hole') {
+            if (nodeInfo.node_type === state.getLocalizedNodeType('Hole')) {
               nodeDiv.classList.add('tier-ultimate');
             }
           }

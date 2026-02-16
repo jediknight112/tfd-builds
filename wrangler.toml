@@ -9,6 +9,7 @@ bucket = "./dist"
 # Environment variables (non-sensitive)
 [vars]
 API_BASE_URL = "https://tfd-cache.jediknight112.com"
+LANGUAGE_CODE = "en"
 # The secrets TFD_API_KEY and WORKER_API_KEY will be set via GitHub Actions
 # or wrangler secret put command
 

@@ -4,6 +4,7 @@
 import { state } from './state.js';
 import { apiClient } from './api-client.js';
 import { UIComponents } from './ui-components.js';
+import { SUPPORTED_LANGUAGES } from './config.js';
 import { ModuleSelector } from './modules/module-selector.js';
 import { WeaponSelector } from './modules/weapon-selector.js';
 import { ReactorSelector } from './modules/reactor-selector.js';
@@ -25,11 +26,18 @@ class Application {
     this.customStatSelector = new CustomStatSelector();
     this.archeTuning = new ArcheTuning();
     this.buildSerializer = new BuildSerializer(state);
+
+    // Setup event listeners once
+    this.reactorSelector.setupEventListeners();
+    this.externalComponentSelector.setupEventListeners();
   }
 
   async init() {
     try {
       UIComponents.showLoading();
+
+      // Populate language selector
+      this.populateLanguageSelector();
 
       // Check if API keys are configured
       if (!state.apiKeys.workerApiKey || !state.apiKeys.nexonApiKey) {
@@ -92,11 +100,8 @@ class Application {
       state.buildWeaponTypeLookup();
       state.buildCoreSlotLookup();
       state.buildCoreTypeLookup();
+      state.buildTierLookup();
       state.dataLoaded = true;
-
-      // Setup event listeners for reactor selector
-      this.reactorSelector.setupEventListeners();
-      this.externalComponentSelector.setupEventListeners();
 
       // Check for build in URL hash
       const urlBuild = this.buildSerializer.loadFromUrl();
@@ -187,53 +192,45 @@ class Application {
     }
   }
 
-  async loadDescendants() {
-    // Reload descendants and update display
+  populateLanguageSelector() {
+    const selector = document.getElementById('language-selector');
+    if (!selector) return;
+
+    selector.innerHTML = '';
+    SUPPORTED_LANGUAGES.forEach((lang) => {
+      const option = document.createElement('option');
+      option.value = lang.code;
+      option.textContent = lang.name;
+      option.selected = lang.code === state.language;
+      selector.appendChild(option);
+    });
+  }
+
+  async changeLanguage(languageCode) {
+    if (languageCode === state.language) return;
+
     try {
-      UIComponents.showLoading();
+      state.setLanguage(languageCode);
 
-      const data = await apiClient.fetchDescendants();
-      state.descendants = data || [];
+      // Reset build state
+      this.initializeBuild();
 
-      const container = document.getElementById('descendant-selector');
-      if (container) {
-        container.innerHTML = '';
-
-        if (state.descendants.length === 0) {
-          container.innerHTML =
-            '<p class="col-span-full text-center text-gray-400">No descendants found</p>';
-        } else {
-          // Sort descendants alphabetically by name
-          // Ultimate versions come after their base version
-          const sortedDescendants = [...state.descendants].sort((a, b) => {
-            const nameA = (a.descendant_name || '').toLowerCase();
-            const nameB = (b.descendant_name || '').toLowerCase();
-
-            // Remove "ultimate " prefix for base comparison
-            const baseA = nameA.replace(/^ultimate\s+/, '');
-            const baseB = nameB.replace(/^ultimate\s+/, '');
-
-            // If base names are the same, non-ultimate comes first
-            if (baseA === baseB) {
-              return nameA.startsWith('ultimate') ? 1 : -1;
-            }
-
-            // Otherwise sort by base name
-            return baseA.localeCompare(baseB);
-          });
-
-          sortedDescendants.forEach((descendant) => {
-            container.appendChild(
-              UIComponents.createDescendantCard(descendant)
-            );
-          });
-        }
+      // Reset UI to start state
+      UIComponents.hideBuildTabs();
+      const descendantSection = document.querySelector(
+        'section:has(#descendant-selector)'
+      );
+      if (descendantSection) {
+        descendantSection.classList.remove('hidden');
       }
 
-      UIComponents.hideLoading();
+      // Re-initialize all metadata with new language
+      await this.init();
+
+      UIComponents.showSuccess(`Language changed to ${languageCode}`);
     } catch (error) {
-      console.error('Error loading descendants:', error);
-      UIComponents.showError('Failed to reload descendants.');
+      console.error('Failed to change language:', error);
+      UIComponents.showError('Failed to change language. Please try again.');
     }
   }
 

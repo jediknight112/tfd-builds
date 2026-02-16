@@ -1,16 +1,15 @@
-import { API_BASE_URL, LANGUAGE_CODE } from './config.js';
+import { API_BASE_URL } from './config.js';
 import { state } from './state.js';
 
 // API Client for TFD Cache
 class TFDApiClient {
   constructor() {
     this.baseUrl = API_BASE_URL;
-    this.language = LANGUAGE_CODE;
   }
 
   async fetchMetadata(type) {
     try {
-      const url = `${this.baseUrl}/tfd/metadata/${type}?language_code=${this.language}`;
+      const url = `${this.baseUrl}/tfd/metadata/${type}?language_code=${state.language}`;
       const { workerApiKey, nexonApiKey } = state.apiKeys;
 
       if (!workerApiKey || !nexonApiKey) {
