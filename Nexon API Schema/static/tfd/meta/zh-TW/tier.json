@@ -1,0 +1,22 @@
+[
+  {
+    "tier_id": "All",
+    "tier_name": "級別：全部"
+  },
+  {
+    "tier_id": "Tier1",
+    "tier_name": "一般"
+  },
+  {
+    "tier_id": "Tier2",
+    "tier_name": "稀有"
+  },
+  {
+    "tier_id": "Tier3",
+    "tier_name": "究極"
+  },
+  {
+    "tier_id": "Tier4",
+    "tier_name": "超越"
+  }
+]

@@ -1,0 +1,3936 @@
+[
+  {
+    "collectible_item_id": "266300173",
+    "collectible_item_name": "维艾莎（S）- 技能1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300174",
+    "collectible_item_name": "邦妮（S）－技能1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学生的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300175",
+    "collectible_item_name": "邦妮（S）－技能1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300176",
+    "collectible_item_name": "邦妮（S）－技能1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300198",
+    "collectible_item_name": "亚蒙：不朽军团长（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学生的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300199",
+    "collectible_item_name": "亚蒙：不朽军团长（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300200",
+    "collectible_item_name": "亚蒙：不朽军团长（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300345",
+    "collectible_item_name": "蒂雅（S）－阿尔法制服1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300347",
+    "collectible_item_name": "阿贾克斯（S）－阿尔法制服1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300348",
+    "collectible_item_name": "帕顿·艾利亚斯（M）－西格玛区域1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400001",
+    "collectible_item_name": "白夜峡谷：月光坟墓流域",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "覆盖山脉的孔洞据传与设计者有关，目前仍是未解之谜。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size4",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400004",
+    "collectible_item_name": "虚空阻击地",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "毫无逻辑的四维空间虚空。在巨魔抵达英格里斯之前，继承者出发前往虚空，准备阻击巨魔。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400005",
+    "collectible_item_name": "天堂泳池",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "赛季2 EP2时在阿尔比恩新设的天堂泳池。继承者教官兼任调酒师。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400006",
+    "collectible_item_name": "诡异庭院",
+    "collectible_item_description": "【限时】可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "为了纪念2025万圣节赛季特别打造的庭院。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400007",
+    "collectible_item_name": "阿尔比恩冬日庆典",
+    "collectible_item_description": "【限时】可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "为纪念2025冬日庆典赛季，在阿尔比恩精心布置的庭院。穿着雪人服的继承者如今仍在某处活跃着。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400008",
+    "collectible_item_name": "新月演唱会",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "与露娜永远相伴的乐队“新月”的演出场地。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size4",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500001",
+    "collectible_item_name": "画画",
+    "collectible_item_description": "将继承者放置到休闲室时使用的动作。",
+    "collectible_item_narrative": "继承者为了放松心情，在画布上尽情展开想象的翅膀。\n\n画布上可以显示当前拥有的喷漆。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500002",
+    "collectible_item_name": "演奏帕格尼尼的《第24号随想曲》",
+    "collectible_item_description": "将继承者放置到休闲室时使用的动作。",
+    "collectible_item_narrative": "继承者为了放松心情，拿起小提琴演奏帕格尼尼的曲子。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500003",
+    "collectible_item_name": "演奏埃尔加的《爱的礼赞》",
+    "collectible_item_description": "将继承者放置到休闲室时使用的动作。",
+    "collectible_item_narrative": "继承者为了放松心情，拿起小提琴演奏埃尔加的曲子。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500004",
+    "collectible_item_name": "演奏柴可夫斯基的《小提琴协奏曲第三乐章》",
+    "collectible_item_description": "将继承者放置到休闲室时使用的动作。",
+    "collectible_item_narrative": "继承者为了放松心情，拿起小提琴演奏柴可夫斯基的曲子。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500005",
+    "collectible_item_name": "看书",
+    "collectible_item_description": "将继承者放置到休闲室时使用的动作。",
+    "collectible_item_narrative": "继承者为了放松心情，阅读了一些许经典书籍。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500006",
+    "collectible_item_name": "魔方",
+    "collectible_item_description": "将继承者放置到休闲室时使用的动作。",
+    "collectible_item_narrative": "继承者努力提升自己的集中力、问题解决能力和记忆力等各项认知能力。当然，既然是休息时间，也可以做些别的事情。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500007",
+    "collectible_item_name": "一杯茶的悠闲",
+    "collectible_item_description": "将继承者放置到休闲室时使用的动作。",
+    "collectible_item_narrative": "无论是在执行作战之前还是之后，品一杯茶的闲暇时光对继承者来说都是必不可少的。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500009",
+    "collectible_item_name": "放空",
+    "collectible_item_description": "将继承者放置到休闲室时使用的动作。",
+    "collectible_item_narrative": "继承者为大脑送上了片刻的宁静与放松。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500010",
+    "collectible_item_name": "轻快淋浴",
+    "collectible_item_description": "将继承者放置到休闲室时使用的动作。",
+    "collectible_item_narrative": "继承者轻快地冲着澡。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500011",
+    "collectible_item_name": "清爽淋浴",
+    "collectible_item_description": "将继承者放置到休闲室时使用的动作。",
+    "collectible_item_narrative": "继承者清爽地冲着澡。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500012",
+    "collectible_item_name": "享受淋浴",
+    "collectible_item_description": "将继承者放置到休闲室时使用的动作。",
+    "collectible_item_narrative": "继承者为了消除疲劳而洗澡。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500013",
+    "collectible_item_name": "小憩",
+    "collectible_item_description": "将继承者放置到休闲室时使用的动作。",
+    "collectible_item_narrative": "继承者因无法忍受疲劳而小睡。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500014",
+    "collectible_item_name": "个人整顿",
+    "collectible_item_description": "将继承者放置到休闲室时使用的动作。",
+    "collectible_item_narrative": "继承者利用个人时间进行细致的整顿。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500018",
+    "collectible_item_name": "空击",
+    "collectible_item_description": "将继承者放置到休闲室时使用的动作。",
+    "collectible_item_narrative": "引导者不露面时，继承者偶尔会这样行动。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500019",
+    "collectible_item_name": "腹肌运动",
+    "collectible_item_description": "将继承者放置到休闲室时使用的动作。",
+    "collectible_item_narrative": "继承者为提升核心肌肉而锻炼腹肌。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600001",
+    "collectible_item_name": "引导者默认外观",
+    "collectible_item_description": "休闲室引导者设置的默认视觉效果。",
+    "collectible_item_narrative": "引导者为了与继承者们沟通而设置的默认外观。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600002",
+    "collectible_item_name": "数据重组",
+    "collectible_item_description": "休闲室引导者重组后的视觉效果。",
+    "collectible_item_narrative": "按照现代阿尔比恩服饰形态重组的引导者外观。引导者为了沟通可以变换多种形态，但说是并不觉得有太大的必要去改变外观。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600003",
+    "collectible_item_name": "休闲室引导者",
+    "collectible_item_description": "休闲室引导者重组后的视觉效果。",
+    "collectible_item_narrative": "为了让继承者们能更自在地休息，引导者换上了更加轻便的服装。虽然外表看起来并不怎么舒服，但对引导者来说好像无所谓。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100004",
+    "collectible_item_name": "简朴礼物",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "适合在纪念日赠送的礼物。看起来有些单调。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100005",
+    "collectible_item_name": "丰厚礼物",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "适合在纪念日赠送的礼物。光是看着就令人幸福的数量，但最让人期待的还是最大的那一个。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100006",
+    "collectible_item_name": "拆封的礼物",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "适合在纪念日赠送的礼物。为了纪念完成先觉者装置验收，阿奈斯送给布莱尔的礼物。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100007",
+    "collectible_item_name": "封印遗物",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "邦妮父母留下的遗物。里面封印着留给邦妮的物品。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100008",
+    "collectible_item_name": "解封遗物",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "邦妮父母留下的遗物。看到熊娃娃，邦妮想起了父母的心意。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100009",
+    "collectible_item_name": "康乃馨与遗物",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "邦妮父母留下的遗物。邦妮给父母留下的遗物献上了康乃馨。邦妮就这样站着，回想着与父母一起度过的童年时光。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100013",
+    "collectible_item_name": "凌乱行李箱",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "继承者度假用的行李箱。还未整理好，仍是杂乱的状态。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100014",
+    "collectible_item_name": "正常行李箱",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "继承者度假用的行李箱。外观中规中矩的平凡行李箱。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100015",
+    "collectible_item_name": "华丽行李箱",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "继承者度假用的行李箱。为了度假精心装饰过的行李箱。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100016",
+    "collectible_item_name": "单调的雪人家族",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "年初年末出现在阿尔比恩的雪人一家。看起来有些单调。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100017",
+    "collectible_item_name": "和睦的雪人家族",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "年初年末出现在阿尔比恩的雪人一家。已学会了微笑。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100018",
+    "collectible_item_name": "幸福的雪人家族",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "年初年末出现在阿尔比恩的雪人一家。能一起开心过年了。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100019",
+    "collectible_item_name": "木棺材",
+    "collectible_item_description": "【限时】可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "吸血鬼棺材。难道是出身贫寒的贵族？",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100020",
+    "collectible_item_name": "铁棺材",
+    "collectible_item_description": "【限时】可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "吸血鬼棺材。从陈旧的外观来看，或许是家道中落的贵族后裔。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100021",
+    "collectible_item_name": "鎏金棺材",
+    "collectible_item_description": "【限时】可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "吸血鬼棺材。毫无疑问出自名门望族。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100022",
+    "collectible_item_name": "单调的纪念树",
+    "collectible_item_description": "【限时】可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "为庆祝纪念日而准备的树。看起来有些单调。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100023",
+    "collectible_item_name": "平凡纪念树",
+    "collectible_item_description": "【限时】可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "为庆祝纪念日而准备的树。适合烘托节日氛围，但仍有些差强人意。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100024",
+    "collectible_item_name": "华丽纪念树",
+    "collectible_item_description": "【限时】可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "为庆祝纪念日而准备的树。光看着就能让人心情愉悦。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100025",
+    "collectible_item_name": "空荡荡的生态舱",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "利用阿尔比恩工程技术净化虚空污染土壤后打造的生态舱。种子还未发芽。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100026",
+    "collectible_item_name": "平凡生态舱",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "利用阿尔比恩工程技术净化虚空污染土壤后打造的生态舱。花苞待放，预示着这片土地将重获生机。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100027",
+    "collectible_item_name": "华丽生态舱",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "利用阿尔比恩工程技术净化虚空污染土壤后打造的生态舱。阿尔比恩的野花尽情绽放，新生命也随之诞生。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100028",
+    "collectible_item_name": "简陋战术装甲车",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "扩大继承者活动半径时的必备战术装甲车。看起来有些简陋。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100029",
+    "collectible_item_name": "平凡战术装甲车",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "扩大继承者活动半径时的必备战术装甲车。根据加装零件的不同，其功能也会有所不同。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100030",
+    "collectible_item_name": "完美战术装甲车",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "扩大继承者活动半径时的必备战术装甲车。为了防备阻击失败时趁虚而入的巨魔，加装了高射炮。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100031",
+    "collectible_item_name": "刚开始的邦妮拼图",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "记录邦妮精彩瞬间的拼图。还有很多空缺的地方。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100032",
+    "collectible_item_name": "快要完成的邦妮拼图",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "记录邦妮精彩瞬间的拼图。再拼一些就能完成了。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100033",
+    "collectible_item_name": "成品邦妮拼图",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "记录邦妮精彩瞬间的拼图。邦妮的粉丝一定会想拥有它。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100034",
+    "collectible_item_name": "空荡升级改造花盆",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "金斯顿士兵为了测试农田，在军需品空物资箱中进行种植的痕迹。看起来有些空荡荡的。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100035",
+    "collectible_item_name": "平凡升级改造花盆",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "金斯顿士兵为了测试农田，在军需品空物资箱中进行种植的痕迹。虽然长出了芬芳的香草，但似乎还能长得更好。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100036",
+    "collectible_item_name": "华丽升级改造花盆",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "金斯顿士兵为了测试农田，在军需品空物资箱中进行种植的痕迹。多亏士兵们的努力，土壤很肥沃，开出了香草花。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100037",
+    "collectible_item_name": "单调屏风组",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "绘有精致插画的屏风组。看起来有些单调。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100038",
+    "collectible_item_name": "平凡屏风组",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "绘有精致插画的屏风组。再添几件就能完整了。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100039",
+    "collectible_item_name": "豪华屏风组",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "绘有精致插画的屏风组。搭配灯光后显得更有气氛了。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100043",
+    "collectible_item_name": "单调陶瓷套装",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "在多元文化交融的阿尔比恩收集的陶瓷套装。看起来有些单调。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100044",
+    "collectible_item_name": "平凡陶瓷套装",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "在多元文化交融的阿尔比恩收集的陶瓷套装。再添几件就能完整了。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100045",
+    "collectible_item_name": "奢华陶瓷套装",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "在多元文化交融的阿尔比恩收集的陶瓷套装。多亏了昂贵的蓝釉彩陶瓷，充满了古色古香的韵味。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100046",
+    "collectible_item_name": "单薄灯具组合",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "能为休闲室营造温馨氛围的灯具组合。看起来有些单薄。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100047",
+    "collectible_item_name": "平凡灯具组合",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "能为休闲室营造温馨氛围的灯具组合。再添几件就能完整了。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100048",
+    "collectible_item_name": "豪华灯具组合",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "能为休闲室营造温馨氛围的灯具组合。三色组合相得益彰。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100049",
+    "collectible_item_name": "单调日光浴床",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "仿天堂泳池设计的躺椅套装。看起来有些单调。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100050",
+    "collectible_item_name": "平凡日光浴床",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "仿天堂泳池设计的躺椅套装。再添几件便可成就完美。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100051",
+    "collectible_item_name": "豪华日光浴床",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "仿天堂泳池设计的躺椅套装。堪称炎炎夏日的避暑神奇。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100052",
+    "collectible_item_name": "战术假臂Mk.2",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "搭载本原驱动技术的莱皮克专用假臂。属于初代版本，仅能满足日常使用。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100053",
+    "collectible_item_name": "战术假臂Mk.7",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "搭载本原驱动技术的莱皮克专用假臂。在初代版本基础上强化了外骨骼，但仍不足以完美应用本原能力。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100054",
+    "collectible_item_name": "战术假臂Mk.10",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "搭载本原驱动技术的莱皮克专用假臂。可对弹药和手榴弹注入爆炸性本原。但未搭载火箭飞拳功能。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100055",
+    "collectible_item_name": "空荡荡的继承者饰品展示空间",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "女性继承者复刻版饰品展示空间，用于阿尔比恩军事大学学生们的教学工作。看起来有些空荡荡的。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100056",
+    "collectible_item_name": "平凡继承者饰品展示空间",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "女性继承者复刻版饰品展示空间，用于阿尔比恩军事大学学生们的教学工作。适合作为学员的教材，但总感觉少了点什么。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100057",
+    "collectible_item_name": "满满当当的继承者饰品展示空间",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "女性继承者复刻版饰品展示空间，用于阿尔比恩军事大学学生们的教学工作。十分受欢迎，看过这些资料的女学员们希望成为继承者的比例飙升至了65%。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100058",
+    "collectible_item_name": "平凡弗劳勒头颅",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "促使沙恩反思的瓦尔戈斯，由复仇成功的沙恩单独保管着脑袋。目前脑袋保存状态完好。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100059",
+    "collectible_item_name": "刺激复仇心的弗劳勒头颅",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "促使沙恩反思的瓦尔戈斯，由复仇成功的沙恩单独保管着脑袋。头颅上用匕首做了标志，恐怕是因为仍不解气。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100060",
+    "collectible_item_name": "复仇成功的弗劳勒头颅",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "促使沙恩反思的瓦尔戈斯，由复仇成功的沙恩单独保管着脑袋。如今已改造成存放沙恩匕首的摆件了。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100061",
+    "collectible_item_name": "三角手枪小蛋糕",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "布莱尔为了鼓舞士气而制作的手枪造型蛋糕，十分独特。别看这样，布莱尔可是个努力派的厨师，据说在设计造型前会先拿敌人练练手。现在只有红狼部分。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100062",
+    "collectible_item_name": "半成品手枪蛋糕",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "布莱尔为了鼓舞士气而制作的手枪造型蛋糕，十分独特。别看这样，布莱尔可是个努力派的厨师，据说在设计造型前会先拿敌人练练手。现在只有红狼、新的开始部分。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100063",
+    "collectible_item_name": "完整手枪蛋糕",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "布莱尔为了鼓舞士气而制作的手枪造型蛋糕，十分独特。别看这样，布莱尔可是个努力派的厨师，据说在设计造型前会先拿敌人练练手。由红狼、新的开始、千年雪组成的完整蛋糕。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100064",
+    "collectible_item_name": "空空的头盔鱼缸",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "作为纪念，渥尔比将闲置头盔改造成了鱼缸。里面只有底沙和水。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100065",
+    "collectible_item_name": "平凡头盔鱼缸",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "作为纪念，渥尔比将闲置头盔改造成了鱼缸。已植入水草构建了生态环境，只差放入鱼儿即可。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100066",
+    "collectible_item_name": "丰裕的头盔鱼缸",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "作为纪念，渥尔比将闲置头盔改造成了鱼缸。看着在水中游泳的鱼儿，不知不觉就想起了自己的过去。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100067",
+    "collectible_item_name": "空荡荡的面罩展示空间",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "继承者复刻版面罩展示空间，用于阿尔比恩军事大学学生们的教学工作。看起来有些空荡荡的。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100068",
+    "collectible_item_name": "平凡面罩展示空间",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "继承者复刻版面罩展示空间，用于阿尔比恩军事大学学生们的教学工作。适合作为学员的教材，但总感觉少了点什么。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100069",
+    "collectible_item_name": "满满当当的面罩展示空间",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "继承者复刻版面罩展示空间，用于阿尔比恩军事大学学生们的教学工作。据学员调查问卷显示，60%受访者对“成为继承者后是否佩戴面罩”的问题给出了“非常愿意”的回应。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100070",
+    "collectible_item_name": "平凡头戴式耳机展示空间",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "露娜使用的头戴式耳机和展示空间。过于朴素，一点也不像是露娜的。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100071",
+    "collectible_item_name": "独特头戴式耳机展示空间",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "露娜使用的头戴式耳机和展示空间。露娜的风格果然很独特。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100072",
+    "collectible_item_name": "绚丽头戴式耳机展示空间",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "露娜使用的头戴式耳机和展示空间。为每款耳机设计了专属支架，尽显露娜的独特品味。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100073",
+    "collectible_item_name": "空空的瞄准镜支架",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "海莉决定只把那些熟练度达到自己标准的武器瞄准镜放在这个瞄准镜支架上。第33狙击部队队员时期，这里曾经空空如也。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100074",
+    "collectible_item_name": "平凡瞄准镜支架",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "海莉决定只把那些熟练度达到自己标准的武器瞄准镜放在这个瞄准镜支架上。被选为继承者后，她将自己专用武器的瞄准镜都放了上去。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100075",
+    "collectible_item_name": "满满当当的瞄准镜支架",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "海莉决定只把那些熟练度达到自己标准的武器瞄准镜放在这个瞄准镜支架上。除了专用武器，剑之残光和贯穿之光的瞄准镜也都一一在列。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100076",
+    "collectible_item_name": "空荡荡的眼镜展示空间",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "格莱的眼镜展示空间，没想到她如此喜欢华丽的东西。很多展位都空着，显得有些冷清。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100077",
+    "collectible_item_name": "平凡眼镜展示空间",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "格莱的眼镜展示空间，没想到她如此喜欢华丽的东西。还有一半展位空着。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100078",
+    "collectible_item_name": "满满当当的眼镜展示空间",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "格莱的眼镜展示空间，没想到她如此喜欢华丽的东西。这里的每一件展品都不是单纯观赏用的。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100079",
+    "collectible_item_name": "驱魔修女Mk.1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "塞丽娜使用的光粒子释放强化服，利用古代魔导师技术制成。在Mk.1基础上搭载了继承者本原同步系统。未安装翼部零件。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100080",
+    "collectible_item_name": "驱魔修女Mk.2",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "塞丽娜使用的光粒子释放强化服，利用古代魔导师技术制成。在Mk.2基础上加装翼部零件的完成品。但，展翅动作需单独测试。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100081",
+    "collectible_item_name": "驱魔修女Mk.2展翅版本",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "塞丽娜使用的光粒子释放强化服，利用古代魔导师技术制成。在Mk.2基础上加装翼部零件的完成品。连展翅动作也很完美。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100085",
+    "collectible_item_name": "寒酸的恶灵驱散灯",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "为了阻挡恶灵靠近而制作的灯。但能量还远远不够，根本无法阻止恶灵。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100086",
+    "collectible_item_name": "平凡恶灵驱散灯",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "为了阻挡恶灵靠近而制作的灯。添加了使用布莱尔配方制作的香草糖。但效果仍有不足。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100087",
+    "collectible_item_name": "真正的恶灵驱散灯",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "为了阻挡恶灵靠近而制作的灯。添加了布莱尔制作的英格尔饼干和香草糖，威力大大增强。这下恶灵应该不敢近身了。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100088",
+    "collectible_item_name": "寒酸的指挥控制台",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "阿尔比恩作战指挥中心使用的指挥控制台。用这个根本没办法指挥。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100089",
+    "collectible_item_name": "平凡指挥控制台",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "阿尔比恩作战指挥中心使用的指挥控制台。简单的指挥还行，但不足以负担与继承者性命攸关的指挥。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100090",
+    "collectible_item_name": "真正的指挥控制台",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "阿尔比恩作战指挥中心使用的指挥控制台。足以负担与继承者性命攸关的指挥。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100091",
+    "collectible_item_name": "空瓶99年产阿尔比恩",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "100年前，为了纪念阿尔比恩成立，次年于橡木桶中陈酿，至今已有99年的蒸馏酒。当然，这都是多亏了魔导师的技术能力。看来有人很识货。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100092",
+    "collectible_item_name": "空荡荡的99年产阿尔比恩",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "100年前，为了纪念阿尔比恩成立，次年于橡木桶中陈酿，至今已有99年的蒸馏酒。当然，这都是多亏了魔导师的技术能力。光是有个包装都会被视为稀有品。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100093",
+    "collectible_item_name": "整瓶99年产阿尔比恩",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "100年前，为了纪念阿尔比恩成立，次年于橡木桶中陈酿，至今已有99年的蒸馏酒。当然，这都是多亏了魔导师的技术能力。能完好地感受阿尔比恩名品的传承。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100094",
+    "collectible_item_name": "空瓶07年产阿尔比恩",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "一线士兵最喜爱的物品，据说是作为奖励发放的蒸馏酒。这是布莱尔让金斯顿士兵向前更进一步的产物。虽然已经空空如也。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100095",
+    "collectible_item_name": "喝剩的07年产阿尔比恩",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "一线士兵最喜爱的物品，据说是作为奖励发放的蒸馏酒。这是布莱尔让金斯顿士兵向前更进一步的产物。看来获奖者没能一饮而尽。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100096",
+    "collectible_item_name": "整瓶07年产阿尔比恩",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "一线士兵最喜爱的物品，据说是作为奖励发放的蒸馏酒。这是布莱尔让金斯顿士兵向前更进一步的产物。有个不成文的规定，拿到整瓶的人当天得请客。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266200001",
+    "collectible_item_name": "鼓励奖杯：虚空阻击战",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "该继承者拥有坚定的安保观和使命感，\n在本次阻击任务中表现突出，\n特此表彰。\n\n－作战司令－",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266200002",
+    "collectible_item_name": "优秀奖杯：虚空阻击战",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "该继承者有用模范的战斗力和责任感，\n在本次阻击任务中表现优秀，功绩显著，\n特此表彰。\n\n－作战司令－",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266200003",
+    "collectible_item_name": "特级奖杯：虚空阻击战",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "该继承者拥有不屈的精神和卓越的战术执行力，\n在本次阻击任务中表现出色，功绩显著，\n特此表彰。\n\n－作战司令－",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300001",
+    "collectible_item_name": "莱皮克（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300002",
+    "collectible_item_name": "莱皮克（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300003",
+    "collectible_item_name": "莱皮克（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300004",
+    "collectible_item_name": "阿贾克斯（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300005",
+    "collectible_item_name": "阿贾克斯（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300006",
+    "collectible_item_name": "阿贾克斯（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300007",
+    "collectible_item_name": "维艾莎（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300008",
+    "collectible_item_name": "维艾莎（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300009",
+    "collectible_item_name": "维艾莎（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300010",
+    "collectible_item_name": "邦妮（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300011",
+    "collectible_item_name": "邦妮（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300012",
+    "collectible_item_name": "邦妮（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300013",
+    "collectible_item_name": "杰波尔（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300014",
+    "collectible_item_name": "杰波尔（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300015",
+    "collectible_item_name": "杰波尔（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300016",
+    "collectible_item_name": "弗蕾娜（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300017",
+    "collectible_item_name": "弗蕾娜（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300018",
+    "collectible_item_name": "弗蕾娜（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300019",
+    "collectible_item_name": "格莱（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300020",
+    "collectible_item_name": "格莱（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300021",
+    "collectible_item_name": "格莱（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300022",
+    "collectible_item_name": "沙恩（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300023",
+    "collectible_item_name": "沙恩（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300024",
+    "collectible_item_name": "沙恩（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300025",
+    "collectible_item_name": "布莱尔（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300026",
+    "collectible_item_name": "布莱尔（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300027",
+    "collectible_item_name": "布莱尔（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300028",
+    "collectible_item_name": "渥尔比（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300029",
+    "collectible_item_name": "渥尔比（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300030",
+    "collectible_item_name": "渥尔比（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300031",
+    "collectible_item_name": "凯尔（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300032",
+    "collectible_item_name": "凯尔（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300033",
+    "collectible_item_name": "凯尔（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300034",
+    "collectible_item_name": "埃西莫（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300035",
+    "collectible_item_name": "埃西莫（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300036",
+    "collectible_item_name": "埃西莫（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300037",
+    "collectible_item_name": "恩佐（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300038",
+    "collectible_item_name": "恩佐（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300039",
+    "collectible_item_name": "恩佐（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300040",
+    "collectible_item_name": "尤金（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300041",
+    "collectible_item_name": "尤金（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300042",
+    "collectible_item_name": "尤金（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300043",
+    "collectible_item_name": "露娜（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300044",
+    "collectible_item_name": "露娜（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300045",
+    "collectible_item_name": "露娜（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300046",
+    "collectible_item_name": "海莉（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300047",
+    "collectible_item_name": "海莉（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300048",
+    "collectible_item_name": "海莉（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300049",
+    "collectible_item_name": "基兰（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300050",
+    "collectible_item_name": "基兰（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300051",
+    "collectible_item_name": "基兰（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300052",
+    "collectible_item_name": "伊内兹（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300053",
+    "collectible_item_name": "伊内兹（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300054",
+    "collectible_item_name": "伊内兹（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300055",
+    "collectible_item_name": "塞丽娜（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300056",
+    "collectible_item_name": "塞丽娜（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300057",
+    "collectible_item_name": "塞丽娜（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300058",
+    "collectible_item_name": "内尔（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300059",
+    "collectible_item_name": "内尔（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300060",
+    "collectible_item_name": "内尔（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300062",
+    "collectible_item_name": "维艾莎（S）－天堂1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300065",
+    "collectible_item_name": "邦妮（S）－天堂1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300068",
+    "collectible_item_name": "弗蕾娜（S）－天堂1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300071",
+    "collectible_item_name": "格莱（S）－天堂1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300074",
+    "collectible_item_name": "沙恩（S）－天堂1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300077",
+    "collectible_item_name": "渥尔比（S）－天堂1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300080",
+    "collectible_item_name": "露娜（S）－天堂1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300083",
+    "collectible_item_name": "海莉（S）－天堂1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300086",
+    "collectible_item_name": "伊内兹（S）－天堂1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300089",
+    "collectible_item_name": "塞丽娜（S）－天堂1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300091",
+    "collectible_item_name": "引导者（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300092",
+    "collectible_item_name": "引导者（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300093",
+    "collectible_item_name": "引导者（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300094",
+    "collectible_item_name": "杰里米（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300095",
+    "collectible_item_name": "杰里米（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300096",
+    "collectible_item_name": "杰里米（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300097",
+    "collectible_item_name": "哈吉奥斯牧羊犬（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300098",
+    "collectible_item_name": "哈吉奥斯牧羊犬（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300099",
+    "collectible_item_name": "哈吉奥斯牧羊犬（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300100",
+    "collectible_item_name": "威斯博斯猎犬（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300101",
+    "collectible_item_name": "威斯博斯猎犬（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300102",
+    "collectible_item_name": "威斯博斯猎犬（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300103",
+    "collectible_item_name": "雪橇犬（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300104",
+    "collectible_item_name": "雪橇犬（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300105",
+    "collectible_item_name": "雪橇犬（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300106",
+    "collectible_item_name": "卡雷尔：暗黑军团长（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300107",
+    "collectible_item_name": "卡雷尔：暗黑军团长（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300108",
+    "collectible_item_name": "卡雷尔：暗黑军团长（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300109",
+    "collectible_item_name": "舒多：不朽军团指挥官（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300110",
+    "collectible_item_name": "舒多：不朽军团指挥官（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300111",
+    "collectible_item_name": "舒多：不朽军团指挥官（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300112",
+    "collectible_item_name": "量产兵：暗黑军团（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300113",
+    "collectible_item_name": "量产兵：暗黑军团（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300114",
+    "collectible_item_name": "量产兵：暗黑军团（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300115",
+    "collectible_item_name": "火焰战士：真理教团（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300116",
+    "collectible_item_name": "火焰战士：真理教团（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300117",
+    "collectible_item_name": "火焰战士：真理教团（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300118",
+    "collectible_item_name": "三眼者：不朽军团（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300119",
+    "collectible_item_name": "三眼者：不朽军团（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300120",
+    "collectible_item_name": "三眼者：不朽军团（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300122",
+    "collectible_item_name": "邦妮（M）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300124",
+    "collectible_item_name": "墓穴行魔（M）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学员的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300125",
+    "collectible_item_name": "墓穴行魔（M）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300126",
+    "collectible_item_name": "墓穴行魔（M）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300128",
+    "collectible_item_name": "刽子手（M）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300131",
+    "collectible_item_name": "死亡新娘（M）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300133",
+    "collectible_item_name": "邦妮（S）：万圣节1",
+    "collectible_item_description": "【限时】可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300134",
+    "collectible_item_name": "格莱（S）：万圣节1",
+    "collectible_item_description": "【限时】可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300135",
+    "collectible_item_name": "沙恩（S）：万圣节1",
+    "collectible_item_description": "【限时】可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300136",
+    "collectible_item_name": "海莉（S）：万圣节1",
+    "collectible_item_description": "【限时】可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300137",
+    "collectible_item_name": "伊内兹（S）：万圣节1",
+    "collectible_item_description": "【限时】可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300138",
+    "collectible_item_name": "塞丽娜（S）：万圣节1",
+    "collectible_item_description": "【限时】可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300139",
+    "collectible_item_name": "内尔（S）：万圣节1",
+    "collectible_item_description": "【限时】可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300140",
+    "collectible_item_name": "埃西莫（S）：万圣节1",
+    "collectible_item_description": "【限时】可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300141",
+    "collectible_item_name": "尤金（S）－阿尔比恩骑士团1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300142",
+    "collectible_item_name": "哈里斯（S）－阿尔比恩骑士团1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300143",
+    "collectible_item_name": "维艾莎（S）－冬日庆典1",
+    "collectible_item_description": "【限时】可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300144",
+    "collectible_item_name": "格莱（S）－冬日庆典1",
+    "collectible_item_description": "【限时】可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300145",
+    "collectible_item_name": "弗蕾娜（S）－冬日庆典1",
+    "collectible_item_description": "【限时】可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300147",
+    "collectible_item_name": "塞丽娜（S）－冬日庆典1",
+    "collectible_item_description": "【限时】可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300148",
+    "collectible_item_name": "杰波尔（S）－冬日庆典1",
+    "collectible_item_description": "【限时】可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300149",
+    "collectible_item_name": "维艾莎（S）- 偶像1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300150",
+    "collectible_item_name": "邦妮（S）－偶像1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300151",
+    "collectible_item_name": "弗蕾娜（S）－偶像1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300152",
+    "collectible_item_name": "格莱（S）－偶像1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300153",
+    "collectible_item_name": "沙恩（S）－偶像1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300154",
+    "collectible_item_name": "渥尔比（S）- 偶像1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300155",
+    "collectible_item_name": "露娜（S）－偶像1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300156",
+    "collectible_item_name": "海莉（S）－偶像1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300157",
+    "collectible_item_name": "伊内兹（S）－偶像1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300158",
+    "collectible_item_name": "塞丽娜（S）－偶像1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300159",
+    "collectible_item_name": "内尔（S）－偶像1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300160",
+    "collectible_item_name": "哈里斯（S）－偶像1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300161",
+    "collectible_item_name": "露娜（M）－月光舞台1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300162",
+    "collectible_item_name": "哈里斯（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学生的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300163",
+    "collectible_item_name": "哈里斯（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300164",
+    "collectible_item_name": "哈里斯（S）－经典1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300165",
+    "collectible_item_name": "莱皮克（S）－技能1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学生的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300166",
+    "collectible_item_name": "莱皮克（S）－技能1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300167",
+    "collectible_item_name": "莱皮克（S）－技能1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300168",
+    "collectible_item_name": "阿贾克斯（S）－技能1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学生的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300169",
+    "collectible_item_name": "阿贾克斯（S）－技能1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300170",
+    "collectible_item_name": "阿贾克斯（S）－技能1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "纯金打造的模型。指挥部为表彰那些因征战沙场疲惫不堪的继承者们特别订制而成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300171",
+    "collectible_item_name": "维艾莎（S）- 技能1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "因颜料供应不足，仅做了最低限度涂装的模型。主要用作行动不便的市民和军事大学学生的教学工具，库存量较大。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300172",
+    "collectible_item_name": "维艾莎（S）- 技能1",
+    "collectible_item_description": "可放置于休闲室的收藏品。",
+    "collectible_item_narrative": "完美复刻原型的模型。为了培养军事大学入学新生，特别增强了真实感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  }
+]

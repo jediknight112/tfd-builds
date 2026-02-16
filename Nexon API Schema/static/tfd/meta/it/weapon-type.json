@@ -1,0 +1,62 @@
+[
+  {
+    "weapon_type": "All",
+    "weapon_type_name": "Armi: tutto"
+  },
+  {
+    "weapon_type": "WeaponMeleeBalanced",
+    "weapon_type_name": "Arma corpo a corpo bilanciata"
+  },
+  {
+    "weapon_type": "WeaponMeleePower",
+    "weapon_type_name": "Arma corpo a corpo potente"
+  },
+  {
+    "weapon_type": "WeaponMeleeSpeed",
+    "weapon_type_name": "Arma corpo a corpo veloce"
+  },
+  {
+    "weapon_type": "WeaponAssaultRifle",
+    "weapon_type_name": "Fucile d'assalto"
+  },
+  {
+    "weapon_type": "WeaponBeamRifle",
+    "weapon_type_name": "Fucile laser"
+  },
+  {
+    "weapon_type": "WeaponHandCannon",
+    "weapon_type_name": "Revolver"
+  },
+  {
+    "weapon_type": "WeaponHandGun",
+    "weapon_type_name": "Pistola"
+  },
+  {
+    "weapon_type": "WeaponLauncher",
+    "weapon_type_name": "Lanciarazzi"
+  },
+  {
+    "weapon_type": "WeaponMachineGun",
+    "weapon_type_name": "Mitra pesante"
+  },
+  {
+    "weapon_type": "WeaponScoutRifle",
+    "weapon_type_name": "Fucile da ricognizione"
+  },
+  {
+    "weapon_type": "WeaponShotGun",
+    "weapon_type_name": "Fucile a pompa"
+  },
+  {
+    "weapon_type": "WeaponSniperRifle",
+    "weapon_type_name": "Fucile da cecchino"
+  },
+  {
+    "weapon_type": "WeaponSubMachineGun",
+    "weapon_type_name": "Mitragliatrice"
+  },
+  {
+    "weapon_type": "WeaponTacticalRifle",
+    "weapon_type_name": "Fucile tattico"
+  }
+]

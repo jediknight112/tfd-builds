@@ -1,0 +1,2870 @@
+[
+  {
+    "node_id": "101500002",
+    "node_name": "Punkt początkowy dostrajania",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/9e2dc3a13defcc1f5c9bff01980730d6",
+    "node_type": "Start",
+    "tier_id": "None",
+    "required_tuning_point": 0,
+    "node_effect": []
+  },
+  {
+    "node_id": "101500003",
+    "node_name": "Punkt połączenia dostrajania",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/420ea944adae725b142548fa0726eca4",
+    "node_type": "Connect",
+    "tier_id": "None",
+    "required_tuning_point": 1,
+    "node_effect": []
+  },
+  {
+    "node_id": "101500101",
+    "node_name": "Miejsce na komórki mutacyjne",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/781808397fb481afa9c7cfb9c7494695",
+    "node_type": "Hole",
+    "tier_id": "None",
+    "required_tuning_point": 0,
+    "node_effect": []
+  },
+  {
+    "node_id": "101500102",
+    "node_name": "Miejsce na komórki mutacyjne",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/dc29d3b05ad39682dc40d4c6cedbb0e2",
+    "node_type": "Hole",
+    "tier_id": "None",
+    "required_tuning_point": 0,
+    "node_effect": []
+  },
+  {
+    "node_id": "101500103",
+    "node_name": "Miejsce na komórki mutacyjne",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/ce0a0ccf7e001b69f396d7e77bce0387",
+    "node_type": "Hole",
+    "tier_id": "None",
+    "required_tuning_point": 0,
+    "node_effect": []
+  },
+  {
+    "node_id": "101500104",
+    "node_name": "Miejsce na komórki mutacyjne",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/c146a03865abde298c679b15058150e9",
+    "node_type": "Hole",
+    "tier_id": "None",
+    "required_tuning_point": 0,
+    "node_effect": []
+  },
+  {
+    "node_id": "101500105",
+    "node_name": "Miejsce na komórki mutacyjne",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/10737a5de4eb1e0a2d8287041605c8fa",
+    "node_type": "Hole",
+    "tier_id": "None",
+    "required_tuning_point": 0,
+    "node_effect": []
+  },
+  {
+    "node_id": "101510001",
+    "node_name": "Wzmocniony ATK broni",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/3e7425704fd38783a22acb9cdf630e05",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000026",
+        "stat_value": 0.2,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000057",
+        "stat_value": 0.2,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000244",
+        "stat_value": 0.2,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510002",
+    "node_name": "Wzmocniony ATK broni",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/6cd213b5503d82a428cf82d23d9c71cb",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000026",
+        "stat_value": 0.2,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000057",
+        "stat_value": 0.2,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000244",
+        "stat_value": 0.2,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510003",
+    "node_name": "Wzmocniony ATK broni",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/132c46054f928bde58b755c4204113b0",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000026",
+        "stat_value": 0.2,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000057",
+        "stat_value": 0.2,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000244",
+        "stat_value": 0.2,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510004",
+    "node_name": "Wzmocniony ATK broni",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/bf0bbf6e6370f89c90c70002c7da0914",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000026",
+        "stat_value": 0.2,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000057",
+        "stat_value": 0.2,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000244",
+        "stat_value": 0.2,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510005",
+    "node_name": "Wzmocniony ATK broni",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/4679154a04bfda283e7a5ffc7fbb1f56",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000026",
+        "stat_value": 0.2,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000057",
+        "stat_value": 0.2,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000244",
+        "stat_value": 0.2,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510011",
+    "node_name": "Wzmocnione maks. PZ",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/7ce3ae7d2e320ad77dfab46a59051df6",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000001",
+        "stat_value": 1.7999999999999998,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510012",
+    "node_name": "Wzmocnione maks. PZ",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/fa6171f5c4e3e244c5c040377d84224a",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000001",
+        "stat_value": 1.7999999999999998,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510013",
+    "node_name": "Wzmocnione maks. PZ",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/742cd17f4bcec9f3a5a49d2a81382d89",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000001",
+        "stat_value": 1.7999999999999998,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510014",
+    "node_name": "Wzmocnione maks. PZ",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/b04dc502be907f70dbcdc03d5a6b482d",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000001",
+        "stat_value": 1.7999999999999998,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510015",
+    "node_name": "Wzmocnione maks. PZ",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/616b47ecbdbb4902c59f1a3e7b5b726e",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000001",
+        "stat_value": 1.7999999999999998,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510021",
+    "node_name": "Wzmocnione maks. PM",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/8c0333a55cc6b74d881f12432877c9b8",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000024",
+        "stat_value": 0.3,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510022",
+    "node_name": "Wzmocnione maks. PM",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/b548130638366b00102d8d2d48f8fe31",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000024",
+        "stat_value": 0.3,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510023",
+    "node_name": "Wzmocnione maks. PM",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/ad2a0e770c2136294609e2cc6b8652ee",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000024",
+        "stat_value": 0.3,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510024",
+    "node_name": "Wzmocnione maks. PM",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/1f5aadbea62a3589e93431b24c5e9302",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000024",
+        "stat_value": 0.3,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510025",
+    "node_name": "Wzmocnione maks. PM",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/a7c66aff5e6854e818e48aa5bacc24b7",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000024",
+        "stat_value": 0.3,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510031",
+    "node_name": "Wzmocniona OBR",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/3a6a04493542f9786a7763bfde0c3857",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000029",
+        "stat_value": 13.4,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510032",
+    "node_name": "Wzmocniona OBR",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/ed73a22b2f36b5726a5b8c1ce1d018c7",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000029",
+        "stat_value": 13.4,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510033",
+    "node_name": "Wzmocniona OBR",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/a0fd8e3d8cca2aa01b1e3fc34d3fe98c",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000029",
+        "stat_value": 13.4,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510034",
+    "node_name": "Wzmocniona OBR",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/ea7e7c270ce7da0aa3afecfc84d53f6c",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000029",
+        "stat_value": 13.4,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510035",
+    "node_name": "Wzmocniona OBR",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/efffec2ce175b66af410d8e0cdec6007",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000029",
+        "stat_value": 13.4,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510041",
+    "node_name": "Wzmocniona maks. tarcza",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/a7360f5cee0e4d613622def1ea19e6e6",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000025",
+        "stat_value": 2.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510042",
+    "node_name": "Wzmocniona maks. tarcza",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/1af952941b013d24fdacb2f308b47fb8",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000025",
+        "stat_value": 2.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510043",
+    "node_name": "Wzmocniona maks. tarcza",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/ff3776cf3bc46ea8f3fd315b92edd5da",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000025",
+        "stat_value": 2.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510044",
+    "node_name": "Wzmocniona maks. tarcza",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/e44e561b6874ffd96003ab94cfa82fb4",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000025",
+        "stat_value": 2.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510045",
+    "node_name": "Wzmocniona maks. tarcza",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/4e2fb039fefce9b400073180f14535ac",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000025",
+        "stat_value": 2.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510051",
+    "node_name": "Wzmocniona moc umiejętności",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/c0a7b31869450bee298fa969ab59d715",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000145",
+        "stat_value": 4160.5,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101510052",
+    "node_name": "Wzmocniona moc umiejętności",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/9ff4e0c7d066275739d4408671e9ff93",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000145",
+        "stat_value": 4160.5,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101510053",
+    "node_name": "Wzmocniona moc umiejętności",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/e5a4c0c46e430dd2de2b2a8127ec7ba2",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000145",
+        "stat_value": 4160.5,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101510054",
+    "node_name": "Wzmocniona moc umiejętności",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/83f6825e6d35f3aa4889ef254440f8ba",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000145",
+        "stat_value": 4160.5,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101510055",
+    "node_name": "Wzmocniona moc umiejętności",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/e0be450275c4719d3e10e646635cae38",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000145",
+        "stat_value": 4160.5,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101510061",
+    "node_name": "Wzmocniony dodatkowy ATK bronią (w walce z kolosem)",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/319698eb617c1c8adda59c649c735055",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000183",
+        "stat_value": 31.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510071",
+    "node_name": "Wzmocniona szansa na status związany z atrybutem",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/7ba85ce37a92f7250f6cfe52e75ac2a6",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000170",
+        "stat_value": 41.3,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510081",
+    "node_name": "Wzmocniony modyfikator silniejszego typu OBŻ",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/178567421eece8e62c321ef139a23d12",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000226",
+        "stat_value": 4.6,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101510091",
+    "node_name": "Wzmocniona szansa na trafienie krytyczne od broni",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/c89bfa8346011e0149fc9c5d1cfd3c99",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000030",
+        "stat_value": 2.5,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000250",
+        "stat_value": 2.5,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510101",
+    "node_name": "Wzmocnione obrażenia krytyczne od broni",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/e6cc8f79d620e04b02a5728dc524352f",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000031",
+        "stat_value": 1.9,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000251",
+        "stat_value": 1.9,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510111",
+    "node_name": "Wzmocnione specjalne osiągi broni",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/e8e6c9b9675d21f42aa11ee79cfbed85",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000035",
+        "stat_value": 2.0,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000300",
+        "stat_value": 2.0,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101510121",
+    "node_name": "Wzmocniona szansa na podwójne uderzenie",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/56c7187c6b9cfedcf99320ab6ba30677",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000227",
+        "stat_value": 2.0,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000252",
+        "stat_value": 200.0,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101510131",
+    "node_name": "Wzmocniony mnożnik podwójnego uderzenia",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/82ca93b25a58a29d8dfe9ba2c6ae40d3",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000229",
+        "stat_value": 2.0,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000253",
+        "stat_value": 2.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510141",
+    "node_name": "Wzmocniona liczba nabojów w magazynku",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/abd25711af86fe895777bc27651528c7",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000021",
+        "stat_value": 1.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510151",
+    "node_name": "Wzmocniona szybkostrzelność",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/649d414e0649c4c61fbfc18b64fb38fa",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000023",
+        "stat_value": -0.8,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510161",
+    "node_name": "Wzmocniona maks. liczba standardowych nabojów",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/88826423207d53bc19ada798887420b4",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000128",
+        "stat_value": 7.5,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510171",
+    "node_name": "Wzmocniona maks. liczba specjalnych nabojów",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/56f5d0ee48c3862aae275aa4907c42a3",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000129",
+        "stat_value": 7.5,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510181",
+    "node_name": "Wzmocniona maks. liczba nabojów ogłuszających",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/c793a3f37d8b10972dbf335f04afec90",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000130",
+        "stat_value": 7.5,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510191",
+    "node_name": "Wzmocniona maks. liczba nabojów o większej mocy",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/a0912197cdd3f46f62f9006a36177c9a",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000131",
+        "stat_value": 7.5,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510201",
+    "node_name": "Wzmocniona maks. liczba wszystkich nabojów",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/f91d63f8cb6df7d95670cfb4366dc91d",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000128",
+        "stat_value": 7.5,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000129",
+        "stat_value": 7.5,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000130",
+        "stat_value": 7.5,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000131",
+        "stat_value": 7.5,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510211",
+    "node_name": "Wzmocniona celność",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/61e43f75b4ecdc20c593fa7fd5e31752",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000006",
+        "stat_value": 4.6,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 4.6,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510221",
+    "node_name": "Modyfikator czasu przeładowania",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/a3cc2b81e48a3cca8f1640b4b6e33a28",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000052",
+        "stat_value": 4.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510231",
+    "node_name": "Wzmocniony modyfikator mocy umiejętności",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/4b04de8ac20a68a6c0c0de5fc36a37a2",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000119",
+        "stat_value": 2.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510241",
+    "node_name": "Wzmocniona szansa na trafienie krytyczne umiejętnością",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/8fc320538126e2a9bcb40761ba0e1594",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000165",
+        "stat_value": 7.000000000000001,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510251",
+    "node_name": "Wzmocnione obrażenia od trafienia krytycznego umiejętnością",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/64315c25fc6384fe05b8f18711306ce4",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000166",
+        "stat_value": 7.000000000000001,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510261",
+    "node_name": "Wzmocniony czas trwania umiejętności",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/5d54a27cf54e7d0fe05603a7904ac608",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000123",
+        "stat_value": 1.2,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510271",
+    "node_name": "Wzmocniony zasięg efektu umiejętności",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/59f7bce63d0576fa5b3a7d6245d5114b",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000125",
+        "stat_value": 5.1,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510281",
+    "node_name": "Wzmocniony koszt umiejętności",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/985cb364cce5fdd5987e5d6fd1e6f9de",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000118",
+        "stat_value": -0.4,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101510291",
+    "node_name": "Wzmocniony czas odnowienia umiejętności",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/e13588b76e1530923c5b12bab8a817e4",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000117",
+        "stat_value": -0.6,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101510301",
+    "node_name": "Wzmocniony dodatkowy ATK umiejętnością (w walce z kolosem)",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/b11b84ba844525c47abfe31aa0fc9897",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000196",
+        "stat_value": 8.200000000000001,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510311",
+    "node_name": "Wzmocniony modyfikator przywracania PZ",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/44ccde61c846095dd268c529bcd745c4",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000136",
+        "stat_value": 1.6,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510321",
+    "node_name": "Wzmocniony modyfikator przywracania PM",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/3439ac9f86ad80beb7766e4b1eede919",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000138",
+        "stat_value": 0.4,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510331",
+    "node_name": "Wzmocniona prędkość ruchu",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/b7523a4246c981c4c4d90ed5d4014b36",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000018",
+        "stat_value": 1.0,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 1.0,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 1.0,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 1.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510341",
+    "node_name": "Wzmocniona odporność na ogień",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/217941949fdf03fbd8069fae33226641",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000062",
+        "stat_value": 6.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510351",
+    "node_name": "Wzmocniona odporność na chłód",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/9bfd9e48806ecc962c048ed142d2fef8",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000063",
+        "stat_value": 6.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510361",
+    "node_name": "Wzmocniona odporność na elektryczność",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/af4c6a6b5a0ac4c0add921f967acd6d6",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000064",
+        "stat_value": 6.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510371",
+    "node_name": "Wzmocniona odporność na toksyczność",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/6afba52dee15ee9229f142fad866a7d9",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000065",
+        "stat_value": 6.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510381",
+    "node_name": "Zmniejszone otrzymywane OBŻ",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/110963688586072c13ae149af52c24f9",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000141",
+        "stat_value": -0.5,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101510391",
+    "node_name": "Wzmocniona odporność na wszystkie atrybuty",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/a1abe5aa7df2df1562a82d292e84721e",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000062",
+        "stat_value": 2.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101510401",
+    "node_name": "Wzmocnione przywracanie PZ poza walką",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/1319ca6e1159270560992655d333389c",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000100",
+        "stat_value": 526.5,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101510411",
+    "node_name": "Wzmocnione przywracanie PM poza walką",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/43d335078ea92a3ebc0f021cf0eff19f",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000101",
+        "stat_value": 24.0,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101510421",
+    "node_name": "Wzmocnione przywracanie tarczy poza walką",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/3c5b7eb6257053e8c8d51754d641aa62",
+    "node_type": "Normal",
+    "tier_id": "Tier1",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000102",
+        "stat_value": 176.2,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101520001",
+    "node_name": "Wzmocniony ATK broni",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/0e9b5b8806ee80bac33f57ffe8f2c0bc",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000026",
+        "stat_value": 2.6,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000057",
+        "stat_value": 2.6,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000244",
+        "stat_value": 2.6,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520002",
+    "node_name": "Wzmocniony ATK broni",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/af4b6c584a499f07151f486d3d81f6de",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000026",
+        "stat_value": 2.6,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000057",
+        "stat_value": 2.6,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000244",
+        "stat_value": 2.6,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520003",
+    "node_name": "Wzmocniony ATK broni",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/40b054fe3a630efe5de31471f205e848",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000026",
+        "stat_value": 2.6,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000057",
+        "stat_value": 2.6,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000244",
+        "stat_value": 2.6,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520004",
+    "node_name": "Wzmocniony ATK broni",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/c78918278211a1de7c4ab1e11e66149c",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000026",
+        "stat_value": 2.6,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000057",
+        "stat_value": 2.6,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000244",
+        "stat_value": 2.6,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520005",
+    "node_name": "Wzmocniony ATK broni",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/d927f4151fcd19acd28ebe9aeb59109e",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000026",
+        "stat_value": 2.6,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000057",
+        "stat_value": 2.6,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000244",
+        "stat_value": 2.6,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520011",
+    "node_name": "Wzmocnione maks. PZ",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/b65b3bd5dfca44bf76326f122b9fd2c5",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000001",
+        "stat_value": 42.8,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520012",
+    "node_name": "Wzmocnione maks. PZ",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/ddcce763d93601df93866d9d868393b3",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000001",
+        "stat_value": 42.8,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520013",
+    "node_name": "Wzmocnione maks. PZ",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/681d3c188932f0566cbb63df6054133c",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000001",
+        "stat_value": 42.8,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520014",
+    "node_name": "Wzmocnione maks. PZ",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/d48f7716b5f04fcea6f53205333f8dfc",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000001",
+        "stat_value": 42.8,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520015",
+    "node_name": "Wzmocnione maks. PZ",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/81356406d92a16f8d8983e94e7c66f66",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000001",
+        "stat_value": 42.8,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520021",
+    "node_name": "Wzmocnione maks. PM",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/ea83666c9108fdc53988eeb139080cd6",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000024",
+        "stat_value": 5.1,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520022",
+    "node_name": "Wzmocnione maks. PM",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/cf80fa9cc855addafa1945f49d87c8f3",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000024",
+        "stat_value": 5.1,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520023",
+    "node_name": "Wzmocnione maks. PM",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/cc4ddfdeb2b606b71ddea3215c3aaa95",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000024",
+        "stat_value": 5.1,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520024",
+    "node_name": "Wzmocnione maks. PM",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/a0dc9f1f1595479f35c4c71ad4d68e45",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000024",
+        "stat_value": 5.1,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520025",
+    "node_name": "Wzmocnione maks. PM",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/8a5286cae51f17510fdc907400845b1b",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000024",
+        "stat_value": 5.1,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520031",
+    "node_name": "Wzmocniona OBR",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/43c8374a7fef862892f710be61d20642",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000029",
+        "stat_value": 62.8,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520032",
+    "node_name": "Wzmocniona OBR",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/f59c7c00c2d59e2022bd349b40f4e224",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000029",
+        "stat_value": 62.8,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520033",
+    "node_name": "Wzmocniona OBR",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/ca44f304466239c8af29261db6d37708",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000029",
+        "stat_value": 62.8,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520034",
+    "node_name": "Wzmocniona OBR",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/0fd5b40d1329725a5ff4a26d5be0a884",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000029",
+        "stat_value": 62.8,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520035",
+    "node_name": "Wzmocniona OBR",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/73f6fe3bc10c0b0590f24f62605ac92b",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000029",
+        "stat_value": 62.8,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520041",
+    "node_name": "Wzmocniona maks. tarcza",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/6855960e027ef5ee8f5a77605f2d2577",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000025",
+        "stat_value": 59.599999999999994,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520042",
+    "node_name": "Wzmocniona maks. tarcza",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/9d744fc1251256a56f1923cabb87b1c4",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000025",
+        "stat_value": 59.599999999999994,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520043",
+    "node_name": "Wzmocniona maks. tarcza",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/28779c0854fdc16de7834a904d61ac74",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000025",
+        "stat_value": 59.599999999999994,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520044",
+    "node_name": "Wzmocniona maks. tarcza",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/1f288dd48cd6b333a9351ce9436df333",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000025",
+        "stat_value": 59.599999999999994,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520045",
+    "node_name": "Wzmocniona maks. tarcza",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/23773fdf366ee5792e96b4a33047e96f",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000025",
+        "stat_value": 59.599999999999994,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520051",
+    "node_name": "Wzmocniona moc umiejętności",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/0b4fa729bf892cd09a16b52cc4ac69d1",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000145",
+        "stat_value": 80093.1,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101520052",
+    "node_name": "Wzmocniona moc umiejętności",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/1a80970680aa2c4665f6eb69d68bd99d",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000145",
+        "stat_value": 80093.1,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101520053",
+    "node_name": "Wzmocniona moc umiejętności",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/44bad962e610c5e3080c13363884672b",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000145",
+        "stat_value": 80093.1,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101520054",
+    "node_name": "Wzmocniona moc umiejętności",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/8a88a553841b64886f337842333eb2b9",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000145",
+        "stat_value": 80093.1,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101520055",
+    "node_name": "Wzmocniona moc umiejętności",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/dcaf5cffd514775710ac9a46328c7fdd",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000145",
+        "stat_value": 80093.1,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101520061",
+    "node_name": "Wzmocniony dodatkowy ATK bronią (w walce z kolosem)",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/616024a8499295cd12e03dbf5e0e117d",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000183",
+        "stat_value": 144.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520071",
+    "node_name": "Wzmocniona szansa na status związany z atrybutem",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/51f1904d1f89aef7f4758fa783552756",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000170",
+        "stat_value": 4.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520081",
+    "node_name": "Wzmocniony modyfikator silniejszego typu OBŻ",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/6c05bd64f2ad38ea1852e96dc46ca097",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000226",
+        "stat_value": 22.0,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101520091",
+    "node_name": "Wzmocniona szansa na trafienie krytyczne od broni",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/54b92d7143b9b571f6fa82a4828020b7",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000030",
+        "stat_value": 6.0,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000250",
+        "stat_value": 6.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520101",
+    "node_name": "Wzmocnione obrażenia krytyczne od broni",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/d842b7891c7aff38915e88014b24cebf",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000031",
+        "stat_value": 9.0,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000251",
+        "stat_value": 9.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520111",
+    "node_name": "Wzmocnione specjalne osiągi broni",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/87f1effd8c1981e53feccf05ce979d6e",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000035",
+        "stat_value": 4.0,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000300",
+        "stat_value": 4.0,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101520121",
+    "node_name": "Wzmocniona szansa na podwójne uderzenie",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/4461bf6fc8e41e70cb8408ce381b7991",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000227",
+        "stat_value": 5.0,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000252",
+        "stat_value": 500.0,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101520131",
+    "node_name": "Wzmocniony mnożnik podwójnego uderzenia",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/4ba0b63a843155cae3517169a38f1fe7",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000229",
+        "stat_value": 5.0,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000253",
+        "stat_value": 5.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520141",
+    "node_name": "Wzmocniona liczba nabojów w magazynku",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/ce3b10deac9fe7405160c7a0db189b18",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000021",
+        "stat_value": 4.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520151",
+    "node_name": "Wzmocniona szybkostrzelność",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/f54577f7e6744b6ff18139c865bc917d",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000023",
+        "stat_value": -3.5000000000000004,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520161",
+    "node_name": "Wzmocniona maks. liczba standardowych nabojów",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/7dfc6e6106d3453e0f71c57e217bb1a5",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000128",
+        "stat_value": 35.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520171",
+    "node_name": "Wzmocniona maks. liczba specjalnych nabojów",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/83f3eb18c031f46f1385ad0ba6e5600a",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000129",
+        "stat_value": 35.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520181",
+    "node_name": "Wzmocniona maks. liczba nabojów ogłuszających",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/f550887baf49cc510f2a683080c817e5",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000130",
+        "stat_value": 35.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520191",
+    "node_name": "Wzmocniona maks. liczba nabojów o większej mocy",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/e2105eb0fdc14a623183cec30439eb41",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000131",
+        "stat_value": 35.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520201",
+    "node_name": "Wzmocniona maks. liczba wszystkich nabojów",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/d56984e2326b5179fd757f22e22040b3",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000128",
+        "stat_value": 35.0,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000129",
+        "stat_value": 35.0,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000130",
+        "stat_value": 35.0,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000131",
+        "stat_value": 35.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520211",
+    "node_name": "Wzmocniona celność",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/cd94e063200948aca612e00557a0256b",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000006",
+        "stat_value": 21.5,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000036",
+        "stat_value": 21.5,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520221",
+    "node_name": "Modyfikator czasu przeładowania",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/18371bd7311803e0f81773c6be1e3da3",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000052",
+        "stat_value": 10.6,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520231",
+    "node_name": "Wzmocniony modyfikator mocy umiejętności",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/c17b7f3b49102eab50cc22fedb8eeed0",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000119",
+        "stat_value": 10.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520241",
+    "node_name": "Wzmocniona szansa na trafienie krytyczne umiejętnością",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/8c6113a7af271b1548e56d963d8a2165",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000165",
+        "stat_value": 18.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520251",
+    "node_name": "Wzmocnione obrażenia od trafienia krytycznego umiejętnością",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/83db9a1b746f6c69fa349e96c787bb86",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000166",
+        "stat_value": 18.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520261",
+    "node_name": "Wzmocniony czas trwania umiejętności",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/7072944fabb2566b2b304098563d093f",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000123",
+        "stat_value": 5.4,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520271",
+    "node_name": "Wzmocniony zasięg efektu umiejętności",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/047c8708cce58bf01017116c8b182510",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000125",
+        "stat_value": 24.6,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520281",
+    "node_name": "Wzmocniony koszt umiejętności",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/dd133838881d347f95986cf176581c62",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000118",
+        "stat_value": -2.3,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101520291",
+    "node_name": "Wzmocniony czas odnowienia umiejętności",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/6b5c943f8d0abe76f18d9c8cf6702ff5",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000117",
+        "stat_value": -4.0,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101520301",
+    "node_name": "Wzmocniony dodatkowy ATK umiejętnością (w walce z kolosem)",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/3635c18f05adec03c7f71e012defed9b",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000196",
+        "stat_value": 37.8,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520311",
+    "node_name": "Wzmocniony modyfikator przywracania PZ",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/16d8ff750943c3253c2e2366434c7d74",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000136",
+        "stat_value": 7.6,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520321",
+    "node_name": "Wzmocniony modyfikator przywracania PM",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/7f8bdcf6ce82c0d936316dd2b2e8aad9",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000138",
+        "stat_value": 13.5,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520331",
+    "node_name": "Wzmocniona prędkość ruchu",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/9b95596a262361f1d51f5c7588128bb6",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000018",
+        "stat_value": 4.7,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000019",
+        "stat_value": 4.7,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000020",
+        "stat_value": 4.7,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000034",
+        "stat_value": 4.7,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520341",
+    "node_name": "Wzmocniona odporność na ogień",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/c38247f4daf1a7a9b0d3445c16184741",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000062",
+        "stat_value": 27.6,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520351",
+    "node_name": "Wzmocniona odporność na chłód",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/70876a557bed983b92ab04e71bea51fe",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000063",
+        "stat_value": 27.6,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520361",
+    "node_name": "Wzmocniona odporność na elektryczność",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/74bb0856fd6357a670acde0f2ec15784",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000064",
+        "stat_value": 27.6,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520371",
+    "node_name": "Wzmocniona odporność na toksyczność",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/ca5edf22d7eb98148e1e1cfd849d6c4d",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000065",
+        "stat_value": 27.6,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520381",
+    "node_name": "Zmniejszone otrzymywane OBŻ",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/655ca3ae482d857b35809dd95327ea73",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000141",
+        "stat_value": -2.0,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101520391",
+    "node_name": "Wzmocniona odporność na wszystkie atrybuty",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/7960121fc270d6b14af3a42cc7bfe9b3",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000062",
+        "stat_value": 19.5,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000063",
+        "stat_value": 19.5,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000064",
+        "stat_value": 19.5,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000065",
+        "stat_value": 19.5,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101520401",
+    "node_name": "Wzmocnione przywracanie PZ poza walką",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/8d663ea646ae390828e193fb2ba3ac11",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000100",
+        "stat_value": 2457.0,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101520411",
+    "node_name": "Wzmocnione przywracanie PM poza walką",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/a248fbd6a6dd989f024c378e77622e3f",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000101",
+        "stat_value": 112.1,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101520421",
+    "node_name": "Wzmocnione przywracanie tarczy poza walką",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/0701b0c453e85980ce0b49e85b5b403b",
+    "node_type": "Normal",
+    "tier_id": "Tier2",
+    "required_tuning_point": 1,
+    "node_effect": [
+      {
+        "stat_id": "105000102",
+        "stat_value": 822.3000000000001,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101530001",
+    "node_name": "Wzmocniony ATK broni",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/6a18d93fc3ac2a55497d87e3b6b8ffaf",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000026",
+        "stat_value": 5.800000000000001,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000057",
+        "stat_value": 5.800000000000001,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000244",
+        "stat_value": 5.800000000000001,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101530002",
+    "node_name": "Wzmocniony ATK broni",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/20e6d57fcd2aefa1797f345d9752c2e2",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000026",
+        "stat_value": 5.800000000000001,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000057",
+        "stat_value": 5.800000000000001,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000244",
+        "stat_value": 5.800000000000001,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101530003",
+    "node_name": "Wzmocniony ATK broni",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/f6f2b5fa10ca51d83606619e4c5b002d",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000026",
+        "stat_value": 5.800000000000001,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000057",
+        "stat_value": 5.800000000000001,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000244",
+        "stat_value": 5.800000000000001,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101530004",
+    "node_name": "Wzmocniony ATK broni",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/ac2df8d0f4f1f7d2739f4108bf2062bb",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000026",
+        "stat_value": 5.800000000000001,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000057",
+        "stat_value": 5.800000000000001,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000244",
+        "stat_value": 5.800000000000001,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101530005",
+    "node_name": "Wzmocniony ATK broni",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/b19ea1b662709093f2d10eb1abd405d4",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000026",
+        "stat_value": 5.800000000000001,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000057",
+        "stat_value": 5.800000000000001,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000244",
+        "stat_value": 5.800000000000001,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101530011",
+    "node_name": "Wzmocnione maks. PZ",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/28522dd38b70bf2e0a78774eab8f0df4",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000001",
+        "stat_value": 55.00000000000001,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101530012",
+    "node_name": "Wzmocnione maks. PZ",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/6e56df8e5f31e1475a160935d6cfad5e",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000001",
+        "stat_value": 55.00000000000001,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101530013",
+    "node_name": "Wzmocnione maks. PZ",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/59f8a8b191cbe24333837d2fa285baf4",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000001",
+        "stat_value": 55.00000000000001,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101530014",
+    "node_name": "Wzmocnione maks. PZ",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/efe5f6ebba1102c536090fb6256bff21",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000001",
+        "stat_value": 55.00000000000001,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101530015",
+    "node_name": "Wzmocnione maks. PZ",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/7eaa7ad41eeec0c401b485bfc6750362",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000001",
+        "stat_value": 55.00000000000001,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101530021",
+    "node_name": "Wzmocnione maks. PM",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/efca2c97a1f486ecce652740d3db438c",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000024",
+        "stat_value": 30.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101530022",
+    "node_name": "Wzmocnione maks. PM",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/86b75d084849f5718a5da48c93706d67",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000024",
+        "stat_value": 30.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101530023",
+    "node_name": "Wzmocnione maks. PM",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/d82a1e7c10245a7fde78579b50be09ba",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000024",
+        "stat_value": 30.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101530024",
+    "node_name": "Wzmocnione maks. PM",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/0f3df1ccfad5bce9d14e898043aebcf2",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000024",
+        "stat_value": 30.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101530025",
+    "node_name": "Wzmocnione maks. PM",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/114a6b69e12a7158b3e4a68cc2052128",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000024",
+        "stat_value": 30.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101530031",
+    "node_name": "Wzmocniona OBR",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/2a1a7a051bea034f9ab4f607cfbd5d2f",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000029",
+        "stat_value": 31.4,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101530032",
+    "node_name": "Wzmocniona OBR",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/31c3017b81cc8f9f1ef82de02f7dd25b",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000029",
+        "stat_value": 31.4,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101530033",
+    "node_name": "Wzmocniona OBR",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/6393368224ccf89cf222d8eaabbca55c",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000029",
+        "stat_value": 31.4,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101530034",
+    "node_name": "Wzmocniona OBR",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/ee28d1f595dc0a056ed5b09ff670ad06",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000029",
+        "stat_value": 31.4,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101530035",
+    "node_name": "Wzmocniona OBR",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/f48e7a975a01fcc62a210d38bc0ce820",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000029",
+        "stat_value": 31.4,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101530041",
+    "node_name": "Wzmocniona maks. tarcza",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/e88d7a07c918ce0f12a5bff8c239f4a3",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000025",
+        "stat_value": 50.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101530042",
+    "node_name": "Wzmocniona maks. tarcza",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/9c2971920a0eea76d31e75c2d4dae702",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000025",
+        "stat_value": 50.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101530043",
+    "node_name": "Wzmocniona maks. tarcza",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/32e8cc5e2df284ca3491a81cb1e83174",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000025",
+        "stat_value": 50.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101530044",
+    "node_name": "Wzmocniona maks. tarcza",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/cfd73038890840c1a3f78005c248b0a5",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000025",
+        "stat_value": 50.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101530045",
+    "node_name": "Wzmocniona maks. tarcza",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/0482ce4805b174eac46b93869e6c7b9e",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000025",
+        "stat_value": 50.0,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101530051",
+    "node_name": "Wzmocniona moc umiejętności",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/da1b47010c3c84761f78ec474153dea7",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000145",
+        "stat_value": 102976.9,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101530052",
+    "node_name": "Wzmocniona moc umiejętności",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/894306aef6c25e92d096155c0ebbae43",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000145",
+        "stat_value": 102976.9,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101530053",
+    "node_name": "Wzmocniona moc umiejętności",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/e7dbf32ada130395a065095479d40fb7",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000145",
+        "stat_value": 102976.9,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101530054",
+    "node_name": "Wzmocniona moc umiejętności",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/7977ca507189836d259c86d793e11fee",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000145",
+        "stat_value": 102976.9,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101530055",
+    "node_name": "Wzmocniona moc umiejętności",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/cb9dc16d9a3f4b092659d37f24d28a00",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000145",
+        "stat_value": 102976.9,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101530061",
+    "node_name": "Zmniejszone otrzymywane OBŻ",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/e72df07d005bb244d6cd7864b409da7b",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000141",
+        "stat_value": -5.3,
+        "operator_type": "Add"
+      }
+    ]
+  },
+  {
+    "node_id": "101530071",
+    "node_name": "Wzmocnione podwójne uderzenie",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/0d81697eab71a7ddcd790a8cbafebb49",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000227",
+        "stat_value": 12.0,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000229",
+        "stat_value": 7.000000000000001,
+        "operator_type": "Multiply"
+      },
+      {
+        "stat_id": "105000252",
+        "stat_value": 1200.0,
+        "operator_type": "Add"
+      },
+      {
+        "stat_id": "105000253",
+        "stat_value": 7.000000000000001,
+        "operator_type": "Multiply"
+      }
+    ]
+  },
+  {
+    "node_id": "101530081",
+    "node_name": "Wzmocniony czas odnowienia umiejętności",
+    "node_image_url": "https://open.api.nexon.com/static/tfd/img/0b7b5403bcf750579639c4622d4fd1da",
+    "node_type": "Normal",
+    "tier_id": "Tier3",
+    "required_tuning_point": 5,
+    "node_effect": [
+      {
+        "stat_id": "105000117",
+        "stat_value": -5.5,
+        "operator_type": "Add"
+      }
+    ]
+  }
+]

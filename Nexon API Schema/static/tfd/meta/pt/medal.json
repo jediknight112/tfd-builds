@@ -1,0 +1,156 @@
+[
+  {
+    "medal_id": "275000001",
+    "medal_detail": [
+      {
+        "medal_level": 1,
+        "medal_name": "Medalha de Honra de Albion de 1 Estrela",
+        "medal_tier_id": "Tier3",
+        "medal_image_url": "https://open.api.nexon.com/static/tfd/img/2ed2cf0324c645a5088428cb7807c8a9"
+      },
+      {
+        "medal_level": 2,
+        "medal_name": "Crachá de Honra de Albion de 2 Estrelas",
+        "medal_tier_id": "Tier3",
+        "medal_image_url": "https://open.api.nexon.com/static/tfd/img/fbce359bea05648f9467c30f569f3ce5"
+      },
+      {
+        "medal_level": 3,
+        "medal_name": "Crachá de Honra de Albion de 3 Estrelas",
+        "medal_tier_id": "Tier3",
+        "medal_image_url": "https://open.api.nexon.com/static/tfd/img/a3f23694c7934a98002c021351353464"
+      }
+    ]
+  },
+  {
+    "medal_id": "275000002",
+    "medal_detail": [
+      {
+        "medal_level": 1,
+        "medal_name": "Medalha do Legado de Raley de 1 Estrela",
+        "medal_tier_id": "Tier3",
+        "medal_image_url": "https://open.api.nexon.com/static/tfd/img/25b52bb281413b8b19dd74299dda8f46"
+      },
+      {
+        "medal_level": 2,
+        "medal_name": "Crachá da Ordem da Vitória do Raley de 2 Estrelas",
+        "medal_tier_id": "Tier3",
+        "medal_image_url": "https://open.api.nexon.com/static/tfd/img/e1b2f83fc99207e209c02cd67bc6ec62"
+      },
+      {
+        "medal_level": 3,
+        "medal_name": "Crachá da Ordem da Vitória do Raley de 3 Estrelas",
+        "medal_tier_id": "Tier3",
+        "medal_image_url": "https://open.api.nexon.com/static/tfd/img/c11bbf864792291224d5668b96892516"
+      },
+      {
+        "medal_level": 4,
+        "medal_name": "Crachá da Ordem da Vitória do Raley de 4 Estrelas",
+        "medal_tier_id": "Tier3",
+        "medal_image_url": "https://open.api.nexon.com/static/tfd/img/5def3f97c1fa86a658c4e0596d1dcead"
+      }
+    ]
+  },
+  {
+    "medal_id": "275000003",
+    "medal_detail": [
+      {
+        "medal_level": 1,
+        "medal_name": "Medalha Deslio Especial de 1 Estrela",
+        "medal_tier_id": "Tier3",
+        "medal_image_url": "https://open.api.nexon.com/static/tfd/img/7d60bcf5dbf3c560c78d8170d7acbbf6"
+      },
+      {
+        "medal_level": 2,
+        "medal_name": "Crachá Deslio Especial de 2 Estrelas",
+        "medal_tier_id": "Tier3",
+        "medal_image_url": "https://open.api.nexon.com/static/tfd/img/edb4f5822128e6299f630376be3c77bb"
+      },
+      {
+        "medal_level": 3,
+        "medal_name": "Crachá Deslio Especial de 3 Estrelas",
+        "medal_tier_id": "Tier3",
+        "medal_image_url": "https://open.api.nexon.com/static/tfd/img/13237e3baa8f469a6f77558fe1245d86"
+      }
+    ]
+  },
+  {
+    "medal_id": "275000004",
+    "medal_detail": [
+      {
+        "medal_level": 1,
+        "medal_name": "Medalha do Conselho de Magistrados de 1 Estrela",
+        "medal_tier_id": "Tier3",
+        "medal_image_url": "https://open.api.nexon.com/static/tfd/img/f6687b1a9a49561aa3a305dd3b3c448b"
+      },
+      {
+        "medal_level": 2,
+        "medal_name": "Crachá do Conselho de Magistrados de 2 Estrelas",
+        "medal_tier_id": "Tier3",
+        "medal_image_url": "https://open.api.nexon.com/static/tfd/img/f1c80377368fe267af22c1b3b88fdade"
+      },
+      {
+        "medal_level": 3,
+        "medal_name": "Crachá do Conselho de Magistrados de 3 Estrelas",
+        "medal_tier_id": "Tier3",
+        "medal_image_url": "https://open.api.nexon.com/static/tfd/img/ff857f17a5f3136f3457854a23770e84"
+      },
+      {
+        "medal_level": 4,
+        "medal_name": "Crachá do Conselho de Magistrados de 4 Estrelas",
+        "medal_tier_id": "Tier3",
+        "medal_image_url": "https://open.api.nexon.com/static/tfd/img/742604aa64e7470f0a2c515374aa59ac"
+      },
+      {
+        "medal_level": 5,
+        "medal_name": "Crachá do Conselho de Magistrados de 5 Estrelas",
+        "medal_tier_id": "Tier4",
+        "medal_image_url": "https://open.api.nexon.com/static/tfd/img/c28e680ab95c9e1131cc752c528e27cb"
+      }
+    ]
+  },
+  {
+    "medal_id": "275000005",
+    "medal_detail": [
+      {
+        "medal_level": 1,
+        "medal_name": "Medalha de Façanhas Militares em Operações de 1 Estrela",
+        "medal_tier_id": "Tier3",
+        "medal_image_url": "https://open.api.nexon.com/static/tfd/img/1c14c31ff4fda7843944f4585ab005e8"
+      }
+    ]
+  },
+  {
+    "medal_id": "275000006",
+    "medal_detail": [
+      {
+        "medal_level": 1,
+        "medal_name": "Medalha de Concorrente Principal de Ingris",
+        "medal_tier_id": "Tier3",
+        "medal_image_url": "https://open.api.nexon.com/static/tfd/img/04db0e9a93eaddb558e53c280252fc43"
+      }
+    ]
+  },
+  {
+    "medal_id": "275000007",
+    "medal_detail": [
+      {
+        "medal_level": 1,
+        "medal_name": "Medalha de Concorrente Principal de Batalha de Interceptação",
+        "medal_tier_id": "Tier3",
+        "medal_image_url": "https://open.api.nexon.com/static/tfd/img/e30e26439a26cf7af11cff7ed7fafc57"
+      }
+    ]
+  },
+  {
+    "medal_id": "275000008",
+    "medal_detail": [
+      {
+        "medal_level": 1,
+        "medal_name": "Medalha de Concorrente Principal de Áxion",
+        "medal_tier_id": "Tier3",
+        "medal_image_url": "https://open.api.nexon.com/static/tfd/img/61a18cc9303cdc1aba2bd7d15d66e24c"
+      }
+    ]
+  }
+]

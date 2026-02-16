@@ -1,0 +1,3936 @@
+[
+  {
+    "collectible_item_id": "266300173",
+    "collectible_item_name": "Viessa (K) – Fertigkeit 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300174",
+    "collectible_item_name": "Bunny (K) – Fertigkeit 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300175",
+    "collectible_item_name": "Bunny (K) – Fertigkeit 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300176",
+    "collectible_item_name": "Bunny (K) – Fertigkeit 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300198",
+    "collectible_item_name": "Amon: General der Legion der Unsterblichkeit (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300199",
+    "collectible_item_name": "Amon: General der Legion der Unsterblichkeit (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300200",
+    "collectible_item_name": "Amon: General der Legion der Unsterblichkeit (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300345",
+    "collectible_item_name": "Dia (K) – Alpha-Uniform 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300347",
+    "collectible_item_name": "Ajax (K) - Alpha-Uniform 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300348",
+    "collectible_item_name": "Muster Elias (M) – Sektor Sigma 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400001",
+    "collectible_item_name": "Schlucht der Weißen Nächte – Mondgrabbecken",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Es gibt die Theorie, dass die Löcher, die die Bergkette überziehen, von den Architekten geschaffen wurden. Die wahre Ursache ist jedoch unbekannt.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size4",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400004",
+    "collectible_item_name": "Ort eines Leeren-Abfangeinsatzes",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Die Leere, eine Raumzeit, die jeglicher Logik widerspricht. Die Nachfahren brechen in die Leere auf, um die Kolosse abzufangen, bevor sie Ingris erreichen.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400005",
+    "collectible_item_name": "Paradiespool",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Der Paradiespool wurde in Albion in Saison 2 EP2 eingeführt. Der Nachfahren-Ausbilder arbeitet hier als Barmann.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400006",
+    "collectible_item_name": "Unheimlicher Garten",
+    "collectible_item_description": "[Begrenzte Zeit] Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein Garten, der angelegt wurde, um Halloween 2025 zu feiern.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400007",
+    "collectible_item_name": "Albions Winter-Festival",
+    "collectible_item_description": "[Begrenzte Zeit] Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Dieser Garten wurde in Albion zur Feier des Winter-Festivals 2025 gestaltet. Der Nachfahre im Schneemannkostüm muss sich noch irgendwo herumtreiben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400008",
+    "collectible_item_name": "Crescent-Konzert",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Die Konzertbühne für die Band Crescent, die Luna auf ewig begleiten wird.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size4",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500001",
+    "collectible_item_name": "Malen",
+    "collectible_item_description": "Eine Pose, die verwendet wird, wenn ein Nachfahre in der Lounge platziert wird.",
+    "collectible_item_narrative": "Ein Nachfahre kann der Fantasie auf der Leinwand freien Lauf lassen, um den Kopf frei zu bekommen.\n\nSprays im Besitz können auf der Leinwand dargestellt werden.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500002",
+    "collectible_item_name": "Paganinis ＜Caprice Nr. 24＞ spielen",
+    "collectible_item_description": "Eine Pose, die verwendet wird, wenn ein Nachfahre in der Lounge platziert wird.",
+    "collectible_item_narrative": "Ein Nachfahre spielt Paganinis Werk auf der Geige, um den Kopf frei zu bekommen.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500003",
+    "collectible_item_name": "Elgars ＜Salut d’Amour＞ spielen",
+    "collectible_item_description": "Eine Pose, die verwendet wird, wenn ein Nachfahre in der Lounge platziert wird.",
+    "collectible_item_narrative": "Ein Nachfahre spielt Elgars Werk auf der Geige, um den Kopf frei zu bekommen.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500004",
+    "collectible_item_name": "Tschaikowskis ＜Violinkonzert, 3. Satz＞ spielen",
+    "collectible_item_description": "Eine Pose, die verwendet wird, wenn ein Nachfahre in der Lounge platziert wird.",
+    "collectible_item_narrative": "Ein Nachfahre spielt Tschaikowskis Werk auf der Geige, um den Kopf frei zu bekommen.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500005",
+    "collectible_item_name": "Lesen",
+    "collectible_item_description": "Eine Pose, die verwendet wird, wenn ein Nachfahre in der Lounge platziert wird.",
+    "collectible_item_narrative": "Ein Nachfahre liest Lehrbücher, um den Kopf frei zu bekommen.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500006",
+    "collectible_item_name": "Kubieren",
+    "collectible_item_description": "Eine Pose, die verwendet wird, wenn ein Nachfahre in der Lounge platziert wird.",
+    "collectible_item_narrative": "Ein Nachfahre versucht, eine Reihe kognitiver Fähigkeiten zu verbessern, darunter Konzentration, Problemlösung und Gedächtnis. Natürlich kann es auch sein, dass in der Pause einfach nur herumgealbert wird.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500007",
+    "collectible_item_name": "Ein Augenblick für Tee",
+    "collectible_item_description": "Eine Pose, die verwendet wird, wenn ein Nachfahre in der Lounge platziert wird.",
+    "collectible_item_narrative": "Egal, ob vor oder nach Einsätzen – Nachfahren brauchen eine Pause mit einer Tasse Tee.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500009",
+    "collectible_item_name": "Abdriften",
+    "collectible_item_description": "Eine Pose, die verwendet wird, wenn ein Nachfahre in der Lounge platziert wird.",
+    "collectible_item_narrative": "Ein Nachfahre gönnt seinem Gehirn gerade eine Pause.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500010",
+    "collectible_item_name": "Aufheiternde Dusche",
+    "collectible_item_description": "Eine Pose, die verwendet wird, wenn ein Nachfahre in der Lounge platziert wird.",
+    "collectible_item_narrative": "Ein Nachfahre nimmt eine aufheiternde Dusche.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500011",
+    "collectible_item_name": "Erfrischende Dusche",
+    "collectible_item_description": "Eine Pose, die verwendet wird, wenn ein Nachfahre in der Lounge platziert wird.",
+    "collectible_item_narrative": "Ein Nachfahre nimmt eine erfrischende Dusche.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500012",
+    "collectible_item_name": "Genussvolle Dusche",
+    "collectible_item_description": "Eine Pose, die verwendet wird, wenn ein Nachfahre in der Lounge platziert wird.",
+    "collectible_item_narrative": "Ein Nachfahre nimmt eine Dusche, um die Erschöpfung zu lindern.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500013",
+    "collectible_item_name": "Kurzes Nickerchen",
+    "collectible_item_description": "Eine Pose, die verwendet wird, wenn ein Nachfahre in der Lounge platziert wird.",
+    "collectible_item_narrative": "Ein Nachfahre wird von Müdigkeit übermannt und macht ein kurzes Nickerchen.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500014",
+    "collectible_item_name": "Persönliche Pflege",
+    "collectible_item_description": "Eine Pose, die verwendet wird, wenn ein Nachfahre in der Lounge platziert wird.",
+    "collectible_item_narrative": "Ein Nachfahre nutzt seine Freizeit, um sich um kleine Details zu kümmern.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500018",
+    "collectible_item_name": "Schattenboxen",
+    "collectible_item_description": "Eine Pose, die verwendet wird, wenn ein Nachfahre in der Lounge platziert wird.",
+    "collectible_item_narrative": "Das macht ein Nachfahre, wenn die Lotsin nicht anwesend ist.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500019",
+    "collectible_item_name": "Bauchmuskeltraining",
+    "collectible_item_description": "Eine Pose, die verwendet wird, wenn ein Nachfahre in der Lounge platziert wird.",
+    "collectible_item_narrative": "Der Nachfahre trainiert seine Bauchmuskeln zur Stärkung seiner Rumpfmuskulatur.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600001",
+    "collectible_item_name": "Standardaussehen der Lotsin",
+    "collectible_item_description": "Dies ist das Standard-Erscheinungsbild der Lounge-Lotsin.",
+    "collectible_item_narrative": "Dies ist die visuelle Standardkonfiguration der Lotsin für die Kommunikation mit Nachfahren.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600002",
+    "collectible_item_name": "Daten-Neukonfiguration",
+    "collectible_item_description": "Dies ist das neu konfigurierte Erscheinungsbild der Lounge-Lotsin.",
+    "collectible_item_narrative": "Das Aussehen der Lotsin wurde neu konfiguriert, um dem Kleidungsstil des modernen Albion zu entsprechen. Obwohl die Lotsin zur Kommunikation unterschiedliche Gestalt annehmen kann, hat sie offenbar kaum das Bedürfnis, ihr Erscheinungsbild zu verändern.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600003",
+    "collectible_item_name": "Lounge-Lotsin",
+    "collectible_item_description": "Dies ist das neu konfigurierte Erscheinungsbild der Lounge-Lotsin.",
+    "collectible_item_narrative": "Das Aussehen der Lotsin wurde mit „bequemer Kleidung“ neu konfiguriert, damit sich die Nachfahren gemütlich ausruhen können. Es sieht nicht besonders bequem aus, aber das scheint für die Lotsin kein großes Problem zu sein.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100004",
+    "collectible_item_name": "Einfaches Geschenk",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein Geschenk für einen besonderen Tag. Etwas scheint noch zu fehlen.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100005",
+    "collectible_item_name": "Großzügiges Geschenk",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein Geschenk für einen besonderen Tag. Es gibt so viele, dass einen schon der Anblick glücklich macht, aber das Wichtigste ist, welches davon das größte ist.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100006",
+    "collectible_item_name": "Geöffnetes Geschenk",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein Geschenk für einen besonderen Tag. Anais schickte es Blair, um den Abschluss der Inspektion von Vorfahren-Ausrüstung zu feiern.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100007",
+    "collectible_item_name": "Versiegeltes Erinnerungsstück",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein Erinnerungsstück von Bunnys Eltern. Im Inneren ist ein Gegenstand für Bunny versiegelt.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100008",
+    "collectible_item_name": "Geöffnetes Erinnerungsstück",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein Erinnerungsstück von Bunnys Eltern. Bunny schaut den Teddybären an und denkt daran, was ihre Eltern wohl gefühlt haben.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100009",
+    "collectible_item_name": "Erinnerungsstück mit Nelken",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein Erinnerungsstück von Bunnys Eltern. Bunny hat im Gedenken an ihre Eltern Nelken darauf gelegt und erinnert sich an ihre Kindheit mit ihnen zurück.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100013",
+    "collectible_item_name": "Unordentlicher Koffer",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Der Koffer eines Nachfahren, der in den Urlaub fährt. Er ist schlecht gepackt und sieht sehr unordentlich aus.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100014",
+    "collectible_item_name": "Normaler Koffer",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Der Koffer eines Nachfahren, der in den Urlaub fährt. Er sieht schlicht und nicht weiter bemerkenswert aus.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100015",
+    "collectible_item_name": "Dekorierter Koffer",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Der Koffer eines Nachfahren, der in den Urlaub fährt. Er wurde passend für eine Reise dekoriert.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100016",
+    "collectible_item_name": "Karge Schneemann-Familie",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Schneemann-Familie, die Albion über die Festtage besucht. Etwas scheint noch zu fehlen.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100017",
+    "collectible_item_name": "Fröhliche Schneemannfamilie",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Schneemann-Familie, die Albion über die Festtage besucht. Jetzt haben sie ihr Lächeln wiedergefunden.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100018",
+    "collectible_item_name": "Festliche Schneemannfamilie",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Schneemann-Familie, die Albion über die Festtage besucht. Sie verbringen die Festtage sehr gerne hier.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100019",
+    "collectible_item_name": "Hölzerner Sarg",
+    "collectible_item_description": "[Begrenzte Zeit] Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Der Sarg eines Vampirs. Gehörte er einem armen Adligen?",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100020",
+    "collectible_item_name": "Eiserner Sarg",
+    "collectible_item_description": "[Begrenzte Zeit] Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Der Sarg eines Vampirs. Seinem altmodischen Äußeren nach zu urteilen, könnte er einem Adligen von bedeutender Abstammung gehört haben.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100021",
+    "collectible_item_name": "Vergoldeter Sarg",
+    "collectible_item_description": "[Begrenzte Zeit] Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Der Sarg eines Vampirs. Er gehörte zweifellos einem äußerst angesehenen Adligen.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100022",
+    "collectible_item_name": "Karger Gedenk-Baum",
+    "collectible_item_description": "[Begrenzte Zeit] Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein Baum, um einen besonderen Tag zu feiern. Etwas scheint noch zu fehlen.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100023",
+    "collectible_item_name": "Schlichter Gedenk-Baum",
+    "collectible_item_description": "[Begrenzte Zeit] Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein Baum, um einen besonderen Tag zu feiern. Er sieht festlich aus, aber das gewisse Etwas fehlt noch.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100024",
+    "collectible_item_name": "Schicker Gedenk-Baum",
+    "collectible_item_description": "[Begrenzte Zeit] Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein Baum, um einen besonderen Tag zu feiern. Allein der Anblick macht schon glücklich.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100025",
+    "collectible_item_name": "Karges Terrarium",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Der Leeren-verseuchte Boden dieses Terrariums wurde mit der Werkstofftechnik Albions gereinigt. Die Samen sind noch nicht gekeimt.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100026",
+    "collectible_item_name": "Schlichtes Terrarium",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Der Leeren-verseuchte Boden dieses Terrariums wurde mit der Werkstofftechnik Albions gereinigt. Es sind schon Blütenknospen gewachsen.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100027",
+    "collectible_item_name": "Schickes Terrarium",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Der Leeren-verseuchte Boden dieses Terrariums wurde mit der Werkstofftechnik Albions gereinigt. Nun blühen hier auch Albions Wildblumen und neues Leben gedeiht.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100028",
+    "collectible_item_name": "Karges gepanzertes taktisches Fahrzeug",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein gepanzertes taktisches Fahrzeug, das für die Erweiterung des Einsatzbereichs der Nachfahren unerlässlich ist. Etwas scheint noch zu fehlen.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100029",
+    "collectible_item_name": "Schlichtes gepanzertes taktisches Fahrzeug",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein gepanzertes taktisches Fahrzeug, das für die Erweiterung des Einsatzbereichs der Nachfahren unerlässlich ist. Seine Nutzung variiert je nach Zweck der installierten Teile.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100030",
+    "collectible_item_name": "Vollständiges gepanzertes taktisches Fahrzeug",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein gepanzertes taktisches Fahrzeug, das für die Erweiterung des Einsatzbereichs der Nachfahren unerlässlich ist. Es ist mit Flugabwehrkanonen ausgestattet, um bei einem gescheiterten Abfangversuch auf die Koloss-Infiltration vorbereitet zu sein.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100031",
+    "collectible_item_name": "Kürzlich begonnenes Bunny-Puzzle",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Dieses Puzzle fängt einige wundervolle Momente von Bunny ein. Es hat noch einige Lücken.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100032",
+    "collectible_item_name": "Fast fertiges Bunny-Puzzle",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Dieses Puzzle fängt einige wundervolle Momente von Bunny ein. Ein paar weitere Teile reichen wohl aus, um es zu vervollständigen.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100033",
+    "collectible_item_name": "Abgeschlossenes Bunny-Puzzle",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Dieses Puzzle fängt einige wundervolle Momente von Bunny ein. Für Bunny-Fans ein Muss!",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100034",
+    "collectible_item_name": "Karger Upcycling-Blumentopf",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein Beleg dafür, dass Kingstons Soldaten leere Munitionskisten für Anbauversuche nutzen. Etwas scheint noch zu fehlen.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100035",
+    "collectible_item_name": "Schlichter Upcycling-Blumentopf",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein Beleg dafür, dass Kingstons Soldaten leere Munitionskisten für Anbauversuche nutzen. Einige duftende Kräuter sind bereits gekeimt, aber es ist noch Platz für mehr.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100036",
+    "collectible_item_name": "Schicker Upcycling-Blumentopf",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein Beleg dafür, dass Kingstons Soldaten leere Munitionskisten für Anbauversuche nutzen. Dank ihrer Bemühungen ist die Erde von hoher Qualität und die Kräuter wachsen hervorragend.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100037",
+    "collectible_item_name": "Karges Wandschirm-Set",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein Set Wandschirme mit niedlichen Illustrationen. Etwas scheint noch zu fehlen.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100038",
+    "collectible_item_name": "Schlichtes Wandschirm-Set",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein Set Wandschirme mit niedlichen Illustrationen. Ein paar weitere Stücke reichen wohl aus, um es zu vervollständigen.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100039",
+    "collectible_item_name": "Üppiges Wandschirm-Set",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein Set Wandschirme mit niedlichen Illustrationen. Die Laternen sorgen für eine lebendige Atmosphäre.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100043",
+    "collectible_item_name": "Karges Porzellan-Set",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein Set Porzellangeschirr, das in Albion gesammelt wurde und einen Schmelztiegel verschiedener Kulturen repräsentiert. Etwas scheint noch zu fehlen.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100044",
+    "collectible_item_name": "Schlichtes Porzellan-Set",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein Set Porzellangeschirr, das in Albion gesammelt wurde und einen Schmelztiegel verschiedener Kulturen repräsentiert. Ein paar weitere Stücke reichen wohl aus, um das Set zu vervollständigen.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100045",
+    "collectible_item_name": "Üppiges Porzellan-Set",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein Set Porzellangeschirr, das in Albion gesammelt wurde und einen Schmelztiegel verschiedener Kulturen repräsentiert. Die Stücke sind mit einem teuren blauen Pigment glasiert, was ihnen einen klassischen Stil verleiht.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100046",
+    "collectible_item_name": "Karges Laternen-Set",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein Set Laternen, das der Lounge eine gemütliche Atmosphäre verleiht. Etwas scheint noch zu fehlen.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100047",
+    "collectible_item_name": "Schlichtes Laternen-Set",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein Set Laternen, das der Lounge eine gemütliche Atmosphäre verleiht. Ein paar weitere Stücke reichen wohl aus, um es zu vervollständigen.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100048",
+    "collectible_item_name": "Üppiges Laternen-Set",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein Set Laternen, das der Lounge eine gemütliche Atmosphäre verleiht. Die Kombination der drei Farben sieht harmonisch aus.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100049",
+    "collectible_item_name": "Karge Sonnenliege",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein Sonnenliegen-Set. Ähnelt den am Paradiespool verwendeten. Etwas scheint noch zu fehlen.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100050",
+    "collectible_item_name": "Schlichte Sonnenliege",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein Sonnenliegen-Set. Ähnelt den am Paradiespool verwendeten. Ein paar weitere Teile reichen wohl aus, um das Set zu vervollständigen.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100051",
+    "collectible_item_name": "Üppige Sonnenliege",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein Sonnenliegen-Set. Ähnelt den am Paradiespool verwendeten. Perfekt, um der Hitze zu entfliehen.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100052",
+    "collectible_item_name": "Taktische Armprothese V.02",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Lepics Armprothese mit Archea-Steuerung-Technologie. Es handelt sich um eine frühe Version, die für den alltäglichen Gebrauch kaum geeignet ist.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100053",
+    "collectible_item_name": "Taktische Armprothese V.07",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Lepics Armprothese mit Archea-Steuerung-Technologie. Es handelt sich um dieselbe frühe Version, aber mit verstärktem Exoskelett. Sie ist jedoch noch nicht geeignet, um Archeafähigkeiten zu optimieren.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100054",
+    "collectible_item_name": "Taktische Armprothese V.10",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Lepics Armprothese mit Archea-Steuerung-Technologie. Sie wurde so konzipiert, dass Lepic seine Explosions-Archea in Geschosse und Granaten injizieren kann. Sie hat keine Raketenfaust-Funktion.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100055",
+    "collectible_item_name": "Karge Präsentationsfläche für Nachfahren-Zubehör",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Präsentationsfläche für Kopien von Zubehörteilen weiblicher Nachfahren. Sie wurde für die Ausbildung der Kadetten der Albion-Militärakademie eingerichtet. Etwas scheint noch zu fehlen.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100056",
+    "collectible_item_name": "Schlichte Präsentationsfläche für Nachfahren-Zubehör",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Präsentationsfläche für Kopien von Zubehörteilen weiblicher Nachfahren. Sie wurde für die Ausbildung der Kadetten der Albion-Militärakademie eingerichtet. Zwar ist dies gutes Referenzmaterial für die Kadetten, aber etwas scheint noch zu fehlen.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100057",
+    "collectible_item_name": "Üppige Präsentationsfläche für Nachfahren-Zubehör",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Präsentationsfläche für Kopien von Zubehörteilen weiblicher Nachfahren. Sie wurde für die Ausbildung der Kadetten der Albion-Militärakademie eingerichtet. Sie ist so beliebt, dass der Anteil weiblicher Kadetten, die Nachfahren werden möchten, auf 65 % emporgeschnellt ist.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100058",
+    "collectible_item_name": "Schlichter Streunerin-Kopf",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Der Kopf einer Vulgus, die Sharen einst dazu brachte, über ihre Vergangenheit nachzudenken. Nach ihrer Rache hat sie ihn behalten. Er ist derzeit in gutem Zustand.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100059",
+    "collectible_item_name": "Streunerin-Kopf mit Rachespuren",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Der Kopf einer Vulgus, die Sharen einst dazu brachte, über ihre Vergangenheit nachzudenken. Nach ihrer Rache hat sie ihn behalten. Anscheinend ist Sharens Wut noch nicht ganz abgekühlt, denn es sind Spuren eines Kurzschwerts zu sehen.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100060",
+    "collectible_item_name": "Streunerin-Kopf der vollendeten Rache",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Der Kopf einer Vulgus, die Sharen einst dazu brachte, über ihre Vergangenheit nachzudenken. Nach ihrer Rache hat sie ihn behalten. Sharen benutzt ihn jetzt als Schwerthalterung.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100061",
+    "collectible_item_name": "Stück eines Pistolenkuchens",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein einzigartiger, pistolenförmiger Kuchen, den Blair gebacken hat, um die Moral zu heben. Auch wenn man es ihm nicht ansieht: Blair ist ein leidenschaftlicher Koch, der mit Freude neue Schusswaffen an seinen Gegnern ausprobiert – und anschließend Kuchenformen nach ihnen anfertigt. Momentan gibt es nur ein Stück von „Roter Wolf“.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100062",
+    "collectible_item_name": "Hälfte eines Pistolenkuchens",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein einzigartiger, pistolenförmiger Kuchen, den Blair gebacken hat, um die Moral zu heben. Auch wenn man es ihm nicht ansieht: Blair ist ein leidenschaftlicher Koch, der mit Freude neue Schusswaffen an seinen Gegnern ausprobiert – und anschließend Kuchenformen nach ihnen anfertigt. Momentan gibt es nur Stücke von „Roter Wolf“ und „Neuanfang“.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100063",
+    "collectible_item_name": "Kompletter Pistolenkuchen",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein einzigartiger, pistolenförmiger Kuchen, den Blair gebacken hat, um die Moral zu heben. Auch wenn man es ihm nicht ansieht: Blair ist ein leidenschaftlicher Koch, der mit Freude neue Schusswaffen an seinen Gegnern ausprobiert – und anschließend Kuchenformen nach ihnen anfertigt. Der Kuchen ist komplett und enthält Stücke von „Roter Wolf“, „Neuanfang“ und „Jahrtausendfrost“.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100064",
+    "collectible_item_name": "Leeres Helm-Fischglas",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Valby restauriert gerne unbenutzte Helme, um sie als Fischgläser zu verwenden. Dieser hier enthält nur Steinchen und Wasser.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100065",
+    "collectible_item_name": "Schlichtes Helm-Fischglas",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Valby restauriert gerne unbenutzte Helme, um sie als Fischgläser zu verwenden. Sie hat Wasserpflanzen eingesetzt, jetzt fehlen nur noch ein paar Fische.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100066",
+    "collectible_item_name": "Üppiges Helm-Fischglas",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Valby restauriert gerne unbenutzte Helme, um sie als Fischgläser zu verwenden. Manchmal stellt sie sich beim Zuschauen vor, sie würde mit den Fischen darin schwimmen.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100067",
+    "collectible_item_name": "Karge Präsentationsfläche für Masken",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Präsentationsfläche für Kopien der Masken von Nachfahren. Sie wurde für die Ausbildung der Kadetten der Albion-Militärakademie eingerichtet. Etwas scheint noch zu fehlen.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100068",
+    "collectible_item_name": "Schlichte Präsentationsfläche für Masken",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Präsentationsfläche für Kopien der Masken von Nachfahren. Sie wurde für die Ausbildung der Kadetten der Albion-Militärakademie eingerichtet. Zwar ist dies gutes Referenzmaterial für die Kadetten, aber etwas scheint noch zu fehlen.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100069",
+    "collectible_item_name": "Üppige Präsentationsfläche für Masken",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Präsentationsfläche für Kopien der Masken von Nachfahren. Sie wurde für die Ausbildung der Kadetten der Albion-Militärakademie eingerichtet. Laut einer Umfrage unter den Kadetten antworteten 60 % mit „Ganz sicher“ auf die Frage, ob sie als Nachfahre eine Maske tragen würden.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100070",
+    "collectible_item_name": "Schlichte Präsentationsfläche für Kopfhörer",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Präsentationsfläche für Kopfhörer von Luna. Sie ist irgendwie schlicht, was nicht zu Luna passt.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100071",
+    "collectible_item_name": "Einzigartige Präsentationsfläche für Kopfhörer",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Präsentationsfläche für Kopfhörer von Luna. Wie erwartet hat Luna einen einzigartigen Geschmack.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100072",
+    "collectible_item_name": "Umwerfende Präsentationsfläche für Kopfhörer",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Präsentationsfläche für Kopfhörer von Luna. Es ist typisch für Luna, dass jedes Kopfhörer-Modell einen eigenen Ständer hat.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100073",
+    "collectible_item_name": "Leere Visierhalterung",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Hailey schwor, nur Visiere von Waffen auf dieser Halterung anzubringen, die sie vollständig gemeistert hatte. Als sie dem 33. Scharfschützentrupp angehörte, blieb die Halterung leer.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100074",
+    "collectible_item_name": "Schlichte Visierhalterung",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Hailey schwor, nur Visiere von Waffen auf dieser Halterung anzubringen, die sie vollständig gemeistert hatte. Nachdem sie Nachfahrin geworden war, montierte sie die Zielfernrohre ihrer Einzigartigen Waffe.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100075",
+    "collectible_item_name": "Üppige Visierhalterung",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Hailey schwor, nur Visiere von Waffen auf dieser Halterung anzubringen, die sie vollständig gemeistert hatte. Sie montierte nicht nur die Zielfernrohre ihrer Einzigartigen Waffe, sondern auch die von „Nachleuchtendes Schwert“ und „Durchdringendes Licht“.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100076",
+    "collectible_item_name": "Karge Präsentationsfläche für Brillen",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Brillen-Präsentationsfläche für Gley, die es überraschend gerne luxuriös mag. Sie ist noch ziemlich leer.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100077",
+    "collectible_item_name": "Schlichte Präsentationsfläche für Brillen",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Brillen-Präsentationsfläche für Gley, die es überraschend gerne luxuriös mag. Die Hälfte der Fläche ist noch leer.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100078",
+    "collectible_item_name": "Üppige Präsentationsfläche für Brillen",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Brillen-Präsentationsfläche für Gley, die es überraschend gerne luxuriös mag. Keine einzige der gezeigten Brillen ist nur Dekoration.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100079",
+    "collectible_item_name": "Exorzwester V.1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein von Serena getragener Photonenpartikel-Emissions-Kampfanzug, hergestellt mit alter Meister-Technologie. Die erste Version ist mit dem Nachfahren-Archea-Verbindungssystem ausgestattet und hat noch keine Flügeltrophäen.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100080",
+    "collectible_item_name": "Exorzwester V.2",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein von Serena getragener Photonenpartikel-Emissions-Kampfanzug, hergestellt mit alter Meister-Technologie. Die zweite Version hat Flügeltrophäen, aber der Einsatzmechanismus muss noch getestet werden.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100081",
+    "collectible_item_name": "Exorzwester V.2 Einsatzversion",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Ein von Serena getragener Photonenpartikel-Emissions-Kampfanzug, hergestellt mit alter Meister-Technologie. Die zweite Version hat Flügeltrophäen und lässt sich problemlos einsetzen.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100085",
+    "collectible_item_name": "Ärmliche Lampe zur Abwehr des Bösen",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Lampe, die böse Geister abwehren soll. Dafür scheint sie jedoch noch nicht stark genug zu sein.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100086",
+    "collectible_item_name": "Schlichte Lampe zur Abwehr des Bösen",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Lampe, die böse Geister abwehren soll. Sie ist mit Kräuterbonbons gefüllt, die nach Blairs Rezept zur Abwehr böser Geister hergestellt wurden. Doch dies scheint noch keine Wirkung zu zeigen.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100087",
+    "collectible_item_name": "Vollendete Lampe zur Abwehr des Bösen",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Lampe, die böse Geister abwehren soll. Durch die Ingr-Kekse und Kräuterbonbons von Blair trauen sich böse Geister jetzt nicht mehr, ihr zu nahe zu kommen.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100088",
+    "collectible_item_name": "Ärmliche Befehlskonsole",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Die in der Einsatz-Kommandozentrale von Albion verwendete Befehlskonsole. Sie ist für die Leitung von Einsätzen nicht geeignet.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100089",
+    "collectible_item_name": "Schlichte Befehlskonsole",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Die in der Einsatz-Kommandozentrale von Albion verwendete Befehlskonsole. Sie kann grundlegende Befehle verarbeiten, ist jedoch für Einsätze, bei denen das Leben der Nachfahren auf dem Spiel steht, nicht geeignet.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100090",
+    "collectible_item_name": "Vollendete Befehlskonsole",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Die in der Einsatz-Kommandozentrale von Albion verwendete Befehlskonsole. Sie ist für Einsätze, bei denen das Leben der Nachfahren auf dem Spiel steht, gut geeignet.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100091",
+    "collectible_item_name": "Leere Flasche 99-jähriger Albioner",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Zur Feier der Gründung Albions vor 100 Jahren wurde diese Spirituose ab dem Jahr nach der Gründung 99 Jahre lang in Eichenfässern reifen gelassen. Dies war selbstverständlich nur mit der Technologie der Meister möglich. Jemand scheint den Wert des Getränks erkannt zu haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100092",
+    "collectible_item_name": "Angebrochene Flasche 99-jähriger Albioner",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Zur Feier der Gründung Albions vor 100 Jahren wurde diese Spirituose ab dem Jahr nach der Gründung 99 Jahre lang in Eichenfässern reifen gelassen. Dies war selbstverständlich nur mit der Technologie der Meister möglich. Allein die Verpackung gilt schon als Rarität.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100093",
+    "collectible_item_name": "Volle Flasche 99-jähriger Albioner",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Zur Feier der Gründung Albions vor 100 Jahren wurde diese Spirituose ab dem Jahr nach der Gründung 99 Jahre lang in Eichenfässern reifen gelassen. Dies war selbstverständlich nur mit der Technologie der Meister möglich. Das angesehene Erbe Albions kommt in jedem einzelnen Tropfen zum Ausdruck.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100094",
+    "collectible_item_name": "Leere Flasche 7-jähriger Albioner",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Diese Spirituose erfreut sich unter Frontsoldaten größter Beliebtheit und wird üblicherweise als Belohnung ausgegeben. Außerdem ist sie das Ergebnis der Bemühungen der Kingston-Soldaten, sich bei Blair zu bedanken. Diese spezielle Flasche ist allerdings leer.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100095",
+    "collectible_item_name": "Flasche 7-jähriger Albioner mit Resten",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Diese Spirituose erfreut sich unter Frontsoldaten größter Beliebtheit und wird üblicherweise als Belohnung ausgegeben. Außerdem ist sie das Ergebnis der Bemühungen der Kingston-Soldaten, sich bei Blair zu bedanken. Der Beschenkte scheint es nicht geschafft zu haben, die Flasche in einem Zug auszutrinken.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100096",
+    "collectible_item_name": "Volle Flasche 7-jähriger Albioner",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Diese Spirituose erfreut sich unter Frontsoldaten größter Beliebtheit und wird üblicherweise als Belohnung ausgegeben. Außerdem ist sie das Ergebnis der Bemühungen der Kingston-Soldaten, sich bei Blair zu bedanken. Einem Brauch zufolge muss die Person, die eine volle Flasche erhält, allen an diesem Tag etwas ausgeben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266200001",
+    "collectible_item_name": "Pokal der Ermutigung: Leeren-Abfangeinsatz",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "In Anerkennung deines unerschütterlichen Pflichtbewusstseins und deines hohen Engagements für die Sicherheit\nwirst du hiermit für den erfolgreichen Abschluss\nder Abfangmission belobigt.\n\nDer Einsatzkommandant",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266200002",
+    "collectible_item_name": "Pokal der Exzellenz: Leeren-Abfangeinsatz",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "In Anerkennung deines vorbildlichen Kampfgeschicks und deines ausgeprägten Verantwortungsgefühls\nwirst du hiermit für die hervorragende Leistung beim Abschluss\nder Abfangmission belobigt.\n\nDer Einsatzkommandant",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266200003",
+    "collectible_item_name": "Pokal des herausragenden Erfolgs: Leeren-Abfangeinsatz",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "In Anerkennung deines unbezwingbaren Geistes und deiner Einsatz-Expertise\nwirst du hiermit für den herausragenden Abschluss\nder Abfangmission belobigt.\n\nDer Einsatzkommandant",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300001",
+    "collectible_item_name": "Lepic (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300002",
+    "collectible_item_name": "Lepic (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300003",
+    "collectible_item_name": "Lepic (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300004",
+    "collectible_item_name": "Ajax (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300005",
+    "collectible_item_name": "Ajax (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300006",
+    "collectible_item_name": "Ajax (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300007",
+    "collectible_item_name": "Viessa (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300008",
+    "collectible_item_name": "Viessa (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300009",
+    "collectible_item_name": "Viessa (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300010",
+    "collectible_item_name": "Bunny (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300011",
+    "collectible_item_name": "Bunny (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300012",
+    "collectible_item_name": "Bunny (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300013",
+    "collectible_item_name": "Jayber (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300014",
+    "collectible_item_name": "Jayber (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300015",
+    "collectible_item_name": "Jayber (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300016",
+    "collectible_item_name": "Freyna (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300017",
+    "collectible_item_name": "Freyna (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300018",
+    "collectible_item_name": "Freyna (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300019",
+    "collectible_item_name": "Gley (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300020",
+    "collectible_item_name": "Gley (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300021",
+    "collectible_item_name": "Gley (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300022",
+    "collectible_item_name": "Sharen (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300023",
+    "collectible_item_name": "Sharen (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300024",
+    "collectible_item_name": "Sharen (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300025",
+    "collectible_item_name": "Blair (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300026",
+    "collectible_item_name": "Blair (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300027",
+    "collectible_item_name": "Blair (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300028",
+    "collectible_item_name": "Valby (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300029",
+    "collectible_item_name": "Valby (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300030",
+    "collectible_item_name": "Valby (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300031",
+    "collectible_item_name": "Kyle (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300032",
+    "collectible_item_name": "Kyle (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300033",
+    "collectible_item_name": "Kyle (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300034",
+    "collectible_item_name": "Esiemo (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300035",
+    "collectible_item_name": "Esiemo (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300036",
+    "collectible_item_name": "Esiemo (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300037",
+    "collectible_item_name": "Enzo (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300038",
+    "collectible_item_name": "Enzo (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300039",
+    "collectible_item_name": "Enzo (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300040",
+    "collectible_item_name": "Yujin (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300041",
+    "collectible_item_name": "Yujin (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300042",
+    "collectible_item_name": "Yujin (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300043",
+    "collectible_item_name": "Luna (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300044",
+    "collectible_item_name": "Luna (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300045",
+    "collectible_item_name": "Luna (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300046",
+    "collectible_item_name": "Hailey (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300047",
+    "collectible_item_name": "Hailey (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300048",
+    "collectible_item_name": "Hailey (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300049",
+    "collectible_item_name": "Keelan (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300050",
+    "collectible_item_name": "Keelan (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300051",
+    "collectible_item_name": "Keelan (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300052",
+    "collectible_item_name": "Ines (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300053",
+    "collectible_item_name": "Ines (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300054",
+    "collectible_item_name": "Ines (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300055",
+    "collectible_item_name": "Serena (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300056",
+    "collectible_item_name": "Serena (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300057",
+    "collectible_item_name": "Serena (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300058",
+    "collectible_item_name": "Nell (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300059",
+    "collectible_item_name": "Nell (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300060",
+    "collectible_item_name": "Nell (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300062",
+    "collectible_item_name": "Viessa (K) – Paradies 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300065",
+    "collectible_item_name": "Bunny (K) – Paradies 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300068",
+    "collectible_item_name": "Freyna (K) – Paradies 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300071",
+    "collectible_item_name": "Gley (K) – Paradies 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300074",
+    "collectible_item_name": "Sharen (K) – Paradies 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300077",
+    "collectible_item_name": "Valby (K) – Paradies 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300080",
+    "collectible_item_name": "Luna (K) – Paradies 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300083",
+    "collectible_item_name": "Hailey (K) – Paradies 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300086",
+    "collectible_item_name": "Ines (K) – Paradies 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300089",
+    "collectible_item_name": "Serena (K) – Paradies 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300091",
+    "collectible_item_name": "Lotsin (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300092",
+    "collectible_item_name": "Lotsin (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300093",
+    "collectible_item_name": "Lotsin (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300094",
+    "collectible_item_name": "Jeremy (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300095",
+    "collectible_item_name": "Jeremy (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300096",
+    "collectible_item_name": "Jeremy (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300097",
+    "collectible_item_name": "Hagios-Schäferhund (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300098",
+    "collectible_item_name": "Hagios-Schäferhund (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300099",
+    "collectible_item_name": "Hagios-Schäferhund (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300100",
+    "collectible_item_name": "Vespers-Jagdhund (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300101",
+    "collectible_item_name": "Vespers-Jagdhund (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300102",
+    "collectible_item_name": "Vespers-Jagdhund (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300103",
+    "collectible_item_name": "Schnee-Schlittenhund (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300104",
+    "collectible_item_name": "Schnee-Schlittenhund (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300105",
+    "collectible_item_name": "Schnee-Schlittenhund (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300106",
+    "collectible_item_name": "Karel: General der Legion der Finsternis (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300107",
+    "collectible_item_name": "Karel: General der Legion der Finsternis (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300108",
+    "collectible_item_name": "Karel: General der Legion der Finsternis (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300109",
+    "collectible_item_name": "Seudo: Kommandant der Legion der Unsterblichkeit (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300110",
+    "collectible_item_name": "Seudo: Kommandant der Legion der Unsterblichkeit (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300111",
+    "collectible_item_name": "Seudo: Kommandant der Legion der Unsterblichkeit (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300112",
+    "collectible_item_name": "Massensoldat: Legion der Finsternis (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300113",
+    "collectible_item_name": "Massensoldat: Legion der Finsternis (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300114",
+    "collectible_item_name": "Massensoldat: Legion der Finsternis (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300115",
+    "collectible_item_name": "Brandling: Orden der Wahrheit (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300116",
+    "collectible_item_name": "Brandling: Orden der Wahrheit (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300117",
+    "collectible_item_name": "Brandling: Orden der Wahrheit (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300118",
+    "collectible_item_name": "Drittes Auge: Legion der Unsterblichkeit (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300119",
+    "collectible_item_name": "Drittes Auge: Legion der Unsterblichkeit (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300120",
+    "collectible_item_name": "Drittes Auge: Legion der Unsterblichkeit (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300122",
+    "collectible_item_name": "Bunny (M) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300124",
+    "collectible_item_name": "Grabläufer (M) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300125",
+    "collectible_item_name": "Grabläufer (M) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300126",
+    "collectible_item_name": "Grabläufer (M) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300128",
+    "collectible_item_name": "Vollstrecker (M) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300131",
+    "collectible_item_name": "Leichenbraut (M) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300133",
+    "collectible_item_name": "Bunny (K) – Halloween 1",
+    "collectible_item_description": "[Begrenzte Zeit] Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300134",
+    "collectible_item_name": "Gley (K) – Halloween 1",
+    "collectible_item_description": "[Begrenzte Zeit] Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300135",
+    "collectible_item_name": "Sharen (K) – Halloween 1",
+    "collectible_item_description": "[Begrenzte Zeit] Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300136",
+    "collectible_item_name": "Hailey (K) – Halloween 1",
+    "collectible_item_description": "[Begrenzte Zeit] Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300137",
+    "collectible_item_name": "Ines (K) – Halloween 1",
+    "collectible_item_description": "[Begrenzte Zeit] Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300138",
+    "collectible_item_name": "Serena (K) – Halloween 1",
+    "collectible_item_description": "[Begrenzte Zeit] Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300139",
+    "collectible_item_name": "Nell (K) – Halloween 1",
+    "collectible_item_description": "[Begrenzte Zeit] Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300140",
+    "collectible_item_name": "Esiemo (K) – Halloween 1",
+    "collectible_item_description": "[Begrenzte Zeit] Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300141",
+    "collectible_item_name": "Yujin (K) – Albion-Ritter 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300142",
+    "collectible_item_name": "Harris (K) – Albion-Ritter 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300143",
+    "collectible_item_name": "Viessa (K) – Winter-Festival 1",
+    "collectible_item_description": "[Begrenzte Zeit] Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300144",
+    "collectible_item_name": "Gley (K) – Winter-Festival 1",
+    "collectible_item_description": "[Begrenzte Zeit] Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300145",
+    "collectible_item_name": "Freyna (K) – Winter-Festival 1",
+    "collectible_item_description": "[Begrenzte Zeit] Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300147",
+    "collectible_item_name": "Serena (K) – Winter-Festival 1",
+    "collectible_item_description": "[Begrenzte Zeit] Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300148",
+    "collectible_item_name": "Jayber (K) – Winter-Festival 1",
+    "collectible_item_description": "[Begrenzte Zeit] Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300149",
+    "collectible_item_name": "Viessa (K) – Idol 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300150",
+    "collectible_item_name": "Bunny (K) – Idol 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300151",
+    "collectible_item_name": "Freyna (K) – Idol 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300152",
+    "collectible_item_name": "Gley (K) – Idol 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300153",
+    "collectible_item_name": "Sharen (K) – Idol 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300154",
+    "collectible_item_name": "Valby (K) – Idol 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300155",
+    "collectible_item_name": "Luna (K) – Idol 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300156",
+    "collectible_item_name": "Hailey (K) – Idol 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300157",
+    "collectible_item_name": "Ines (K) – Idol 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300158",
+    "collectible_item_name": "Serena (K) – Idol 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300159",
+    "collectible_item_name": "Nell (K) – Idol 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300160",
+    "collectible_item_name": "Harris (K) – Idol 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300161",
+    "collectible_item_name": "Luna (M) – Mondschein-Auftritt 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300162",
+    "collectible_item_name": "Harris (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300163",
+    "collectible_item_name": "Harris (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300164",
+    "collectible_item_name": "Harris (K) – Klassisch 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300165",
+    "collectible_item_name": "Lepic (K) – Fertigkeit 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300166",
+    "collectible_item_name": "Lepic (K) – Fertigkeit 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300167",
+    "collectible_item_name": "Lepic (K) – Fertigkeit 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300168",
+    "collectible_item_name": "Ajax (K) – Fertigkeit 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300169",
+    "collectible_item_name": "Ajax (K) – Fertigkeit 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300170",
+    "collectible_item_name": "Ajax (K) – Fertigkeit 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur aus purem Gold. Sie wurde vom Hauptquartier speziell angefertigt, um die harte Arbeit der Nachfahren zu würdigen, die unermüdlich auf dem Schlachtfeld gekämpft haben.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300171",
+    "collectible_item_name": "Viessa (K) – Fertigkeit 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die aufgrund von Pigmentmangel nur mit sehr wenig Farbe bemalt wurde. Es gibt einen großen Bestand dieser Figuren, da sie zur Ausbildung von Bürgern und Kadetten der Militärakademie verwendet werden, die Schwierigkeiten bei der Teilnahme an Aktivitäten im Freien haben.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300172",
+    "collectible_item_name": "Viessa (K) – Fertigkeit 1",
+    "collectible_item_description": "Ein Sammelgegenstand, der in der Lounge platziert werden kann.",
+    "collectible_item_narrative": "Eine Figur, die dem Original präzise nachempfunden wurde. Bei der Ausbildung der Kadetten der Militärakademie wurde Wert auf Realismus gelegt.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  }
+]

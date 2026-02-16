@@ -1,0 +1,1318 @@
+[
+  {
+    "title_id": "270300001",
+    "title_name": "Obiecujący"
+  },
+  {
+    "title_id": "270300002",
+    "title_name": "Nieuważny"
+  },
+  {
+    "title_id": "270300003",
+    "title_name": "Przełomowy"
+  },
+  {
+    "title_id": "270300004",
+    "title_name": "Sprawdzony"
+  },
+  {
+    "title_id": "270300006",
+    "title_name": "Prawdziwy"
+  },
+  {
+    "title_id": "270300007",
+    "title_name": "Porywczy"
+  },
+  {
+    "title_id": "270300008",
+    "title_name": "Powracający"
+  },
+  {
+    "title_id": "270300009",
+    "title_name": "Zimny"
+  },
+  {
+    "title_id": "270300010",
+    "title_name": "Cyniczny"
+  },
+  {
+    "title_id": "270300011",
+    "title_name": "Porywający"
+  },
+  {
+    "title_id": "270300012",
+    "title_name": "Straszliwy"
+  },
+  {
+    "title_id": "270300013",
+    "title_name": "Rozszalały"
+  },
+  {
+    "title_id": "270300014",
+    "title_name": "Nieustępliwy"
+  },
+  {
+    "title_id": "270300015",
+    "title_name": "Zapalczywy"
+  },
+  {
+    "title_id": "270300016",
+    "title_name": "Uroczy"
+  },
+  {
+    "title_id": "270300017",
+    "title_name": "Stanowczy"
+  },
+  {
+    "title_id": "270300018",
+    "title_name": "Ostateczny"
+  },
+  {
+    "title_id": "270300019",
+    "title_name": "Wyzwolony"
+  },
+  {
+    "title_id": "270300020",
+    "title_name": "Bezlitosny"
+  },
+  {
+    "title_id": "270300021",
+    "title_name": "Błękitny"
+  },
+  {
+    "title_id": "270300022",
+    "title_name": "Ostatni"
+  },
+  {
+    "title_id": "270300023",
+    "title_name": "Piękny"
+  },
+  {
+    "title_id": "270300024",
+    "title_name": "Obezwładniający"
+  },
+  {
+    "title_id": "270300025",
+    "title_name": "Początkujący"
+  },
+  {
+    "title_id": "270300026",
+    "title_name": "Siwy"
+  },
+  {
+    "title_id": "270300027",
+    "title_name": "Energiczny"
+  },
+  {
+    "title_id": "270300028",
+    "title_name": "Uzdolniony"
+  },
+  {
+    "title_id": "270300029",
+    "title_name": "Wybitny"
+  },
+  {
+    "title_id": "270300030",
+    "title_name": "Dynamiczny"
+  },
+  {
+    "title_id": "270300031",
+    "title_name": "Zaskoczony"
+  },
+  {
+    "title_id": "270300032",
+    "title_name": "Względny"
+  },
+  {
+    "title_id": "270300033",
+    "title_name": "Olśniewający"
+  },
+  {
+    "title_id": "270300034",
+    "title_name": "Błędny"
+  },
+  {
+    "title_id": "270300035",
+    "title_name": "Nieustraszony"
+  },
+  {
+    "title_id": "270300036",
+    "title_name": "Harmonijny"
+  },
+  {
+    "title_id": "270300037",
+    "title_name": "Niegodziwy"
+  },
+  {
+    "title_id": "270300038",
+    "title_name": "Upadły"
+  },
+  {
+    "title_id": "270300039",
+    "title_name": "Noszący"
+  },
+  {
+    "title_id": "270300040",
+    "title_name": "Okropny"
+  },
+  {
+    "title_id": "270300041",
+    "title_name": "Drapieżny"
+  },
+  {
+    "title_id": "270300042",
+    "title_name": "Płonący"
+  },
+  {
+    "title_id": "270300043",
+    "title_name": "Odwrócony"
+  },
+  {
+    "title_id": "270300044",
+    "title_name": "Zamarznięty"
+  },
+  {
+    "title_id": "270300045",
+    "title_name": "Dziwny"
+  },
+  {
+    "title_id": "270300046",
+    "title_name": "Lojalny"
+  },
+  {
+    "title_id": "270300047",
+    "title_name": "Nieugięty"
+  },
+  {
+    "title_id": "270300048",
+    "title_name": "Wietrzny"
+  },
+  {
+    "title_id": "270300050",
+    "title_name": "Ponury"
+  },
+  {
+    "title_id": "270300051",
+    "title_name": "Najedzony"
+  },
+  {
+    "title_id": "270300052",
+    "title_name": "Dostatni"
+  },
+  {
+    "title_id": "270300054",
+    "title_name": "Zamglony"
+  },
+  {
+    "title_id": "270300055",
+    "title_name": "Pobrzmiewający"
+  },
+  {
+    "title_id": "270300056",
+    "title_name": "Pokręcony"
+  },
+  {
+    "title_id": "270300057",
+    "title_name": "Apatyczny"
+  },
+  {
+    "title_id": "270300058",
+    "title_name": "Zimny"
+  },
+  {
+    "title_id": "270300059",
+    "title_name": "Głodny"
+  },
+  {
+    "title_id": "270300060",
+    "title_name": "Grzęzawiskowy"
+  },
+  {
+    "title_id": "270300061",
+    "title_name": "Olśniewający"
+  },
+  {
+    "title_id": "270300062",
+    "title_name": "Koszmarny"
+  },
+  {
+    "title_id": "270300063",
+    "title_name": "Twardy"
+  },
+  {
+    "title_id": "270300064",
+    "title_name": "Oziębły"
+  },
+  {
+    "title_id": "270300065",
+    "title_name": "Otchłanny"
+  },
+  {
+    "title_id": "270300066",
+    "title_name": "Przeładowany"
+  },
+  {
+    "title_id": "270300067",
+    "title_name": "Potężny"
+  },
+  {
+    "title_id": "270300068",
+    "title_name": "Wieczny"
+  },
+  {
+    "title_id": "270300069",
+    "title_name": "Wybuchowy"
+  },
+  {
+    "title_id": "270300070",
+    "title_name": "Najlepszy"
+  },
+  {
+    "title_id": "270300071",
+    "title_name": "Irytujący"
+  },
+  {
+    "title_id": "270300072",
+    "title_name": "Fanatyczny"
+  },
+  {
+    "title_id": "270300073",
+    "title_name": "Wzburzony"
+  },
+  {
+    "title_id": "270300074",
+    "title_name": "Olbrzymi"
+  },
+  {
+    "title_id": "270300075",
+    "title_name": "Okropny"
+  },
+  {
+    "title_id": "270300076",
+    "title_name": "Jadowity"
+  },
+  {
+    "title_id": "270300077",
+    "title_name": "Najgorszy"
+  },
+  {
+    "title_id": "270300078",
+    "title_name": "Bezwzględny"
+  },
+  {
+    "title_id": "270300079",
+    "title_name": "Niepowstrzymany"
+  },
+  {
+    "title_id": "270300080",
+    "title_name": "Zaskakujący"
+  },
+  {
+    "title_id": "270300081",
+    "title_name": "Niebezpieczny"
+  },
+  {
+    "title_id": "270300082",
+    "title_name": "Wyschnięty"
+  },
+  {
+    "title_id": "270300083",
+    "title_name": "Doświadczony"
+  },
+  {
+    "title_id": "270300084",
+    "title_name": "Niezłomny"
+  },
+  {
+    "title_id": "270300085",
+    "title_name": "Przebiegły"
+  },
+  {
+    "title_id": "270300086",
+    "title_name": "Jednego Ciosu"
+  },
+  {
+    "title_id": "270300087",
+    "title_name": "Zabójczy"
+  },
+  {
+    "title_id": "270300088",
+    "title_name": "Szybki"
+  },
+  {
+    "title_id": "270300089",
+    "title_name": "Osobliwy"
+  },
+  {
+    "title_id": "270300090",
+    "title_name": "Wyjątkowy"
+  },
+  {
+    "title_id": "270300091",
+    "title_name": "Wieczny"
+  },
+  {
+    "title_id": "270300092",
+    "title_name": "Potrzaskany"
+  },
+  {
+    "title_id": "270300093",
+    "title_name": "Rozmontowany"
+  },
+  {
+    "title_id": "270300094",
+    "title_name": "Zwinny"
+  },
+  {
+    "title_id": "270300095",
+    "title_name": "Serdeczny"
+  },
+  {
+    "title_id": "270300096",
+    "title_name": "Przyjazny"
+  },
+  {
+    "title_id": "270300097",
+    "title_name": "Wzmocniony"
+  },
+  {
+    "title_id": "270300098",
+    "title_name": "Marnotrawny"
+  },
+  {
+    "title_id": "270300099",
+    "title_name": "Maszkarowaty"
+  },
+  {
+    "title_id": "270300100",
+    "title_name": "Wykonawczy"
+  },
+  {
+    "title_id": "270300101",
+    "title_name": "Chłodny"
+  },
+  {
+    "title_id": "270300102",
+    "title_name": "Rozsiewający"
+  },
+  {
+    "title_id": "270300103",
+    "title_name": "Apokaliptyczny"
+  },
+  {
+    "title_id": "270300104",
+    "title_name": "Morderczy"
+  },
+  {
+    "title_id": "270300105",
+    "title_name": "Śliczny"
+  },
+  {
+    "title_id": "270300106",
+    "title_name": "Niezachwiany"
+  },
+  {
+    "title_id": "270300107",
+    "title_name": "Brzydki"
+  },
+  {
+    "title_id": "270300108",
+    "title_name": "Cuchnący"
+  },
+  {
+    "title_id": "270300109",
+    "title_name": "Purpurowy"
+  },
+  {
+    "title_id": "270300110",
+    "title_name": "Nieskończony"
+  },
+  {
+    "title_id": "270300111",
+    "title_name": "Mocny"
+  },
+  {
+    "title_id": "270300112",
+    "title_name": "Żywy"
+  },
+  {
+    "title_id": "270300113",
+    "title_name": "Płonący"
+  },
+  {
+    "title_id": "270300114",
+    "title_name": "Retrogresywny"
+  },
+  {
+    "title_id": "270300115",
+    "title_name": "Ciężki"
+  },
+  {
+    "title_id": "270300116",
+    "title_name": "Rozsierdzony"
+  },
+  {
+    "title_id": "270300117",
+    "title_name": "Latający"
+  },
+  {
+    "title_id": "270300118",
+    "title_name": "Inteligentny"
+  },
+  {
+    "title_id": "270300119",
+    "title_name": "Badający"
+  },
+  {
+    "title_id": "270300120",
+    "title_name": "Drzemiący"
+  },
+  {
+    "title_id": "270300121",
+    "title_name": "Przyszły"
+  },
+  {
+    "title_id": "270300122",
+    "title_name": "Zawalony"
+  },
+  {
+    "title_id": "270300123",
+    "title_name": "Upadły"
+  },
+  {
+    "title_id": "270300124",
+    "title_name": "Zapomniany"
+  },
+  {
+    "title_id": "270300125",
+    "title_name": "Przebudzony"
+  },
+  {
+    "title_id": "270300126",
+    "title_name": "Niepoznawalny"
+  },
+  {
+    "title_id": "270300127",
+    "title_name": "Niezidentyfikowany"
+  },
+  {
+    "title_id": "270300128",
+    "title_name": "Nowy"
+  },
+  {
+    "title_id": "270300129",
+    "title_name": "Ukryty"
+  },
+  {
+    "title_id": "270300130",
+    "title_name": "Czczony"
+  },
+  {
+    "title_id": "270300131",
+    "title_name": "Podziemny"
+  },
+  {
+    "title_id": "270300132",
+    "title_name": "Pierzchający"
+  },
+  {
+    "title_id": "270300133",
+    "title_name": "Pojmany"
+  },
+  {
+    "title_id": "270300134",
+    "title_name": "Utracony"
+  },
+  {
+    "title_id": "270300135",
+    "title_name": "Pradawny"
+  },
+  {
+    "title_id": "270300136",
+    "title_name": "Przechowywany"
+  },
+  {
+    "title_id": "270300137",
+    "title_name": "Zdemoralizowany"
+  },
+  {
+    "title_id": "270300138",
+    "title_name": "Chwalący"
+  },
+  {
+    "title_id": "270300139",
+    "title_name": "Promieniejący"
+  },
+  {
+    "title_id": "270300140",
+    "title_name": "Elitarny"
+  },
+  {
+    "title_id": "270300141",
+    "title_name": "Porzucony"
+  },
+  {
+    "title_id": "270300142",
+    "title_name": "Prześladowany"
+  },
+  {
+    "title_id": "270300143",
+    "title_name": "Ciągły"
+  },
+  {
+    "title_id": "270300144",
+    "title_name": "Pogrzebany"
+  },
+  {
+    "title_id": "270300145",
+    "title_name": "Dryfujący"
+  },
+  {
+    "title_id": "270300146",
+    "title_name": "Szczególny"
+  },
+  {
+    "title_id": "270300147",
+    "title_name": "Odpieczętowany"
+  },
+  {
+    "title_id": "270300148",
+    "title_name": "Głupi"
+  },
+  {
+    "title_id": "270300149",
+    "title_name": "Nieufny"
+  },
+  {
+    "title_id": "270300150",
+    "title_name": "Zmieszany"
+  },
+  {
+    "title_id": "270300151",
+    "title_name": "Niepowstrzymany"
+  },
+  {
+    "title_id": "270300152",
+    "title_name": "Czerwony"
+  },
+  {
+    "title_id": "270300153",
+    "title_name": "Cichy"
+  },
+  {
+    "title_id": "270300154",
+    "title_name": "Spokojny"
+  },
+  {
+    "title_id": "270300155",
+    "title_name": "Wskrzeszony"
+  },
+  {
+    "title_id": "270300156",
+    "title_name": "Tajemniczy"
+  },
+  {
+    "title_id": "270300157",
+    "title_name": "Niewiarygodny"
+  },
+  {
+    "title_id": "270300158",
+    "title_name": "Stary"
+  },
+  {
+    "title_id": "270300159",
+    "title_name": "Nieśmiertelny"
+  },
+  {
+    "title_id": "270300160",
+    "title_name": "Stopiony"
+  },
+  {
+    "title_id": "270300161",
+    "title_name": "Zinwertowany"
+  },
+  {
+    "title_id": "270300162",
+    "title_name": "Odizolowany"
+  },
+  {
+    "title_id": "270300163",
+    "title_name": "Zapieczętowany"
+  },
+  {
+    "title_id": "270300164",
+    "title_name": "Występny"
+  },
+  {
+    "title_id": "270300165",
+    "title_name": "Lśniący"
+  },
+  {
+    "title_id": "270300166",
+    "title_name": "Wciągający"
+  },
+  {
+    "title_id": "270300167",
+    "title_name": "Przygotowany"
+  },
+  {
+    "title_id": "270310001",
+    "title_name": "Bohater"
+  },
+  {
+    "title_id": "270310002",
+    "title_name": "Strażnik"
+  },
+  {
+    "title_id": "270310003",
+    "title_name": "Grenadier"
+  },
+  {
+    "title_id": "270310004",
+    "title_name": "Ocalały"
+  },
+  {
+    "title_id": "270310005",
+    "title_name": "Mag"
+  },
+  {
+    "title_id": "270310006",
+    "title_name": "Inżynier"
+  },
+  {
+    "title_id": "270310007",
+    "title_name": "Królik"
+  },
+  {
+    "title_id": "270310008",
+    "title_name": "Jad"
+  },
+  {
+    "title_id": "270310009",
+    "title_name": "Mistrz"
+  },
+  {
+    "title_id": "270310010",
+    "title_name": "Zabójca"
+  },
+  {
+    "title_id": "270310011",
+    "title_name": "Kucharz"
+  },
+  {
+    "title_id": "270310012",
+    "title_name": "Władca"
+  },
+  {
+    "title_id": "270310013",
+    "title_name": "Budowniczy"
+  },
+  {
+    "title_id": "270310014",
+    "title_name": "Weteran"
+  },
+  {
+    "title_id": "270310015",
+    "title_name": "Piorun"
+  },
+  {
+    "title_id": "270310016",
+    "title_name": "Matematyk"
+  },
+  {
+    "title_id": "270310017",
+    "title_name": "Ostatek"
+  },
+  {
+    "title_id": "270310018",
+    "title_name": "Ekspert"
+  },
+  {
+    "title_id": "270310019",
+    "title_name": "Technik"
+  },
+  {
+    "title_id": "270310020",
+    "title_name": "Bajerant"
+  },
+  {
+    "title_id": "270310021",
+    "title_name": "Instruktor"
+  },
+  {
+    "title_id": "270310022",
+    "title_name": "Profesor"
+  },
+  {
+    "title_id": "270310023",
+    "title_name": "Przyjaciel"
+  },
+  {
+    "title_id": "270310024",
+    "title_name": "Dostojnik"
+  },
+  {
+    "title_id": "270310025",
+    "title_name": "Konglomerat"
+  },
+  {
+    "title_id": "270310026",
+    "title_name": "Cwaniak"
+  },
+  {
+    "title_id": "270310027",
+    "title_name": "Cesarz"
+  },
+  {
+    "title_id": "270310028",
+    "title_name": "Wykonawca"
+  },
+  {
+    "title_id": "270310029",
+    "title_name": "Śnieżek"
+  },
+  {
+    "title_id": "270310030",
+    "title_name": "Strażak"
+  },
+  {
+    "title_id": "270310031",
+    "title_name": "Oprawca"
+  },
+  {
+    "title_id": "270310032",
+    "title_name": "Gnębiciel"
+  },
+  {
+    "title_id": "270310033",
+    "title_name": "Diabeł"
+  },
+  {
+    "title_id": "270310034",
+    "title_name": "Tępak"
+  },
+  {
+    "title_id": "270310035",
+    "title_name": "Cień"
+  },
+  {
+    "title_id": "270310036",
+    "title_name": "Płatek Śniegu"
+  },
+  {
+    "title_id": "270310037",
+    "title_name": "Opiekun"
+  },
+  {
+    "title_id": "270310038",
+    "title_name": "Płomień"
+  },
+  {
+    "title_id": "270310039",
+    "title_name": "Akrobata"
+  },
+  {
+    "title_id": "270310040",
+    "title_name": "Żółw"
+  },
+  {
+    "title_id": "270310041",
+    "title_name": "Dym"
+  },
+  {
+    "title_id": "270310042",
+    "title_name": "Tropiciel"
+  },
+  {
+    "title_id": "270310043",
+    "title_name": "Olbrzym"
+  },
+  {
+    "title_id": "270310044",
+    "title_name": "Nów"
+  },
+  {
+    "title_id": "270310045",
+    "title_name": "Obraz"
+  },
+  {
+    "title_id": "270310046",
+    "title_name": "Zdobywca"
+  },
+  {
+    "title_id": "270310047",
+    "title_name": "Gwiazdor"
+  },
+  {
+    "title_id": "270310048",
+    "title_name": "Wybuch"
+  },
+  {
+    "title_id": "270310049",
+    "title_name": "Żar"
+  },
+  {
+    "title_id": "270310050",
+    "title_name": "Manii"
+  },
+  {
+    "title_id": "270310051",
+    "title_name": "Kwatermistrz"
+  },
+  {
+    "title_id": "270310052",
+    "title_name": "Chirurg Wojskowy"
+  },
+  {
+    "title_id": "270310053",
+    "title_name": "Akord"
+  },
+  {
+    "title_id": "270310054",
+    "title_name": "Najeźdźca"
+  },
+  {
+    "title_id": "270310055",
+    "title_name": "Głód"
+  },
+  {
+    "title_id": "270310056",
+    "title_name": "Żarłoczny Duch"
+  },
+  {
+    "title_id": "270310057",
+    "title_name": "Krwiopijca"
+  },
+  {
+    "title_id": "270310058",
+    "title_name": "Uchodźca"
+  },
+  {
+    "title_id": "270310059",
+    "title_name": "Strzelec wyborowy"
+  },
+  {
+    "title_id": "270310060",
+    "title_name": "Obłęd"
+  },
+  {
+    "title_id": "270310061",
+    "title_name": "Asystent"
+  },
+  {
+    "title_id": "270310062",
+    "title_name": "Medyk"
+  },
+  {
+    "title_id": "270310063",
+    "title_name": "Siewca"
+  },
+  {
+    "title_id": "270310064",
+    "title_name": "Zbawiciel"
+  },
+  {
+    "title_id": "270310065",
+    "title_name": "Pacjent"
+  },
+  {
+    "title_id": "270310066",
+    "title_name": "Nieśmiertelny"
+  },
+  {
+    "title_id": "270310067",
+    "title_name": "Snajper"
+  },
+  {
+    "title_id": "270310068",
+    "title_name": "Awanturnik"
+  },
+  {
+    "title_id": "270310069",
+    "title_name": "Ekspert"
+  },
+  {
+    "title_id": "270310070",
+    "title_name": "Potomek"
+  },
+  {
+    "title_id": "270310071",
+    "title_name": "Dziedzic"
+  },
+  {
+    "title_id": "270310072",
+    "title_name": "Rycerz"
+  },
+  {
+    "title_id": "270310073",
+    "title_name": "Księżycowego Światła"
+  },
+  {
+    "title_id": "270310074",
+    "title_name": "Odkrywca"
+  },
+  {
+    "title_id": "270310075",
+    "title_name": "Sentyment"
+  },
+  {
+    "title_id": "270310076",
+    "title_name": "Partner"
+  },
+  {
+    "title_id": "270310077",
+    "title_name": "Idiota"
+  },
+  {
+    "title_id": "270310078",
+    "title_name": "Błysk"
+  },
+  {
+    "title_id": "270310079",
+    "title_name": "Maruder"
+  },
+  {
+    "title_id": "270310080",
+    "title_name": "Wieprz"
+  },
+  {
+    "title_id": "270310081",
+    "title_name": "Spacer"
+  },
+  {
+    "title_id": "270310082",
+    "title_name": "Paradoks"
+  },
+  {
+    "title_id": "270310083",
+    "title_name": "Śpik"
+  },
+  {
+    "title_id": "270310084",
+    "title_name": "Mrozek"
+  },
+  {
+    "title_id": "270310085",
+    "title_name": "Łowca"
+  },
+  {
+    "title_id": "270310086",
+    "title_name": "Podpalacz"
+  },
+  {
+    "title_id": "270310087",
+    "title_name": "Bagno"
+  },
+  {
+    "title_id": "270310088",
+    "title_name": "Mąciciel"
+  },
+  {
+    "title_id": "270310089",
+    "title_name": "Lodowiec"
+  },
+  {
+    "title_id": "270310090",
+    "title_name": "Niszczyciel"
+  },
+  {
+    "title_id": "270310091",
+    "title_name": "Szmaragd"
+  },
+  {
+    "title_id": "270310092",
+    "title_name": "Żniwiarz"
+  },
+  {
+    "title_id": "270310093",
+    "title_name": "Nowy Rekrut"
+  },
+  {
+    "title_id": "270310094",
+    "title_name": "Woal"
+  },
+  {
+    "title_id": "270310095",
+    "title_name": "Gorąc"
+  },
+  {
+    "title_id": "270310096",
+    "title_name": "Przepływ"
+  },
+  {
+    "title_id": "270310097",
+    "title_name": "Śnieg"
+  },
+  {
+    "title_id": "270310098",
+    "title_name": "Wulkan"
+  },
+  {
+    "title_id": "270310099",
+    "title_name": "Żarłok"
+  },
+  {
+    "title_id": "270310100",
+    "title_name": "Strzelec Wyborowy"
+  },
+  {
+    "title_id": "270310101",
+    "title_name": "Opiekun Grobów"
+  },
+  {
+    "title_id": "270310102",
+    "title_name": "Geniusz"
+  },
+  {
+    "title_id": "270310103",
+    "title_name": "Oprawca"
+  },
+  {
+    "title_id": "270310104",
+    "title_name": "Smakosz"
+  },
+  {
+    "title_id": "270310105",
+    "title_name": "Odcisk"
+  },
+  {
+    "title_id": "270310106",
+    "title_name": "Zator"
+  },
+  {
+    "title_id": "270310107",
+    "title_name": "Buran"
+  },
+  {
+    "title_id": "270310108",
+    "title_name": "Sędzia"
+  },
+  {
+    "title_id": "270310109",
+    "title_name": "Ślad"
+  },
+  {
+    "title_id": "270310110",
+    "title_name": "Strażnik"
+  },
+  {
+    "title_id": "270310111",
+    "title_name": "Aktor"
+  },
+  {
+    "title_id": "270310112",
+    "title_name": "Poeta"
+  },
+  {
+    "title_id": "270310113",
+    "title_name": "Zgrywus"
+  },
+  {
+    "title_id": "270310114",
+    "title_name": "Badacz"
+  },
+  {
+    "title_id": "270310115",
+    "title_name": "Zew"
+  },
+  {
+    "title_id": "270310116",
+    "title_name": "Koszmar"
+  },
+  {
+    "title_id": "270310117",
+    "title_name": "Głaz"
+  },
+  {
+    "title_id": "270310118",
+    "title_name": "Kontroler"
+  },
+  {
+    "title_id": "270310119",
+    "title_name": "Zwycięzca"
+  },
+  {
+    "title_id": "270310120",
+    "title_name": "Sekret"
+  },
+  {
+    "title_id": "270310121",
+    "title_name": "Metal"
+  },
+  {
+    "title_id": "270310122",
+    "title_name": "Ból"
+  },
+  {
+    "title_id": "270310123",
+    "title_name": "Wartownik"
+  },
+  {
+    "title_id": "270310124",
+    "title_name": "Rębacz"
+  },
+  {
+    "title_id": "270310125",
+    "title_name": "Archeolog"
+  },
+  {
+    "title_id": "270310126",
+    "title_name": "Cyrograf"
+  },
+  {
+    "title_id": "270310127",
+    "title_name": "Żołnierz Korpusu Uderzeniowego"
+  },
+  {
+    "title_id": "270310128",
+    "title_name": "Uciekinier"
+  },
+  {
+    "title_id": "270310129",
+    "title_name": "Opiekun Lasów"
+  },
+  {
+    "title_id": "270310130",
+    "title_name": "Ochroniarz"
+  },
+  {
+    "title_id": "270310131",
+    "title_name": "Żandarm wojskowy"
+  },
+  {
+    "title_id": "270310132",
+    "title_name": "Las"
+  },
+  {
+    "title_id": "270310133",
+    "title_name": "Żołnierz Korpusu Obronnego"
+  },
+  {
+    "title_id": "270310134",
+    "title_name": "Dezerter"
+  },
+  {
+    "title_id": "270310135",
+    "title_name": "Duch"
+  },
+  {
+    "title_id": "270310136",
+    "title_name": "Zdrajca"
+  },
+  {
+    "title_id": "270310137",
+    "title_name": "Puklerz"
+  },
+  {
+    "title_id": "270310138",
+    "title_name": "Rolnik"
+  },
+  {
+    "title_id": "270310139",
+    "title_name": "Nieużytek"
+  },
+  {
+    "title_id": "270310140",
+    "title_name": "Żołnierz Sił Specjalnych"
+  },
+  {
+    "title_id": "270310141",
+    "title_name": "Szczątek"
+  },
+  {
+    "title_id": "270310142",
+    "title_name": "Nasyp"
+  },
+  {
+    "title_id": "270310143",
+    "title_name": "Świt"
+  },
+  {
+    "title_id": "270310144",
+    "title_name": "Żołnierz"
+  },
+  {
+    "title_id": "270310145",
+    "title_name": "Strażnik Ochrony"
+  },
+  {
+    "title_id": "270310146",
+    "title_name": "Fakt"
+  },
+  {
+    "title_id": "270310147",
+    "title_name": "Naukowiec"
+  },
+  {
+    "title_id": "270310148",
+    "title_name": "Obserwator"
+  },
+  {
+    "title_id": "270310149",
+    "title_name": "Mutant"
+  },
+  {
+    "title_id": "270310150",
+    "title_name": "Obiekt Badań"
+  },
+  {
+    "title_id": "270310151",
+    "title_name": "Honor"
+  },
+  {
+    "title_id": "270310152",
+    "title_name": "Żołnierz Korpusu Rozpoznawczego"
+  },
+  {
+    "title_id": "270310153",
+    "title_name": "Sekret"
+  },
+  {
+    "title_id": "270310154",
+    "title_name": "Komponent"
+  },
+  {
+    "title_id": "270310155",
+    "title_name": "Czyn"
+  },
+  {
+    "title_id": "270310156",
+    "title_name": "Ratunek"
+  },
+  {
+    "title_id": "270310157",
+    "title_name": "Bicz Boży"
+  },
+  {
+    "title_id": "270310158",
+    "title_name": "Bastion"
+  },
+  {
+    "title_id": "270310159",
+    "title_name": "Żołnierz Sił Uderzeniowych"
+  },
+  {
+    "title_id": "270310160",
+    "title_name": "Zarządca"
+  },
+  {
+    "title_id": "270310161",
+    "title_name": "Weteran"
+  },
+  {
+    "title_id": "270310162",
+    "title_name": "Dowódca"
+  },
+  {
+    "title_id": "270310163",
+    "title_name": "Żołnierz Korpusu Badawczego"
+  },
+  {
+    "title_id": "270310164",
+    "title_name": "Hart"
+  },
+  {
+    "title_id": "270310165",
+    "title_name": "Zaszczyt"
+  }
+]

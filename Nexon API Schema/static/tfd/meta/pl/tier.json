@@ -1,0 +1,22 @@
+[
+  {
+    "tier_id": "All",
+    "tier_name": "Ranga: wszystko"
+  },
+  {
+    "tier_id": "Tier1",
+    "tier_name": "Zwykłe"
+  },
+  {
+    "tier_id": "Tier2",
+    "tier_name": "Rzadkie"
+  },
+  {
+    "tier_id": "Tier3",
+    "tier_name": "Doskonałe"
+  },
+  {
+    "tier_id": "Tier4",
+    "tier_name": "Transcendentne"
+  }
+]

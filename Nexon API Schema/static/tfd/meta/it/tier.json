@@ -1,0 +1,22 @@
+[
+  {
+    "tier_id": "All",
+    "tier_name": "Grado: tutto"
+  },
+  {
+    "tier_id": "Tier1",
+    "tier_name": "Normale"
+  },
+  {
+    "tier_id": "Tier2",
+    "tier_name": "Rara"
+  },
+  {
+    "tier_id": "Tier3",
+    "tier_name": "Ultra"
+  },
+  {
+    "tier_id": "Tier4",
+    "tier_name": "Eccelso"
+  }
+]

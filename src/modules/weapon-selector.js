@@ -1,6 +1,5 @@
 import { state } from '../state.js';
 import { UIComponents } from '../ui-components.js';
-import { getTierDisplayName } from '../config.js';
 
 export class WeaponSelector {
   openWeaponSelector(weaponIndex) {
@@ -78,7 +77,10 @@ export class WeaponSelector {
       }
 
       // Filter by weapon type
-      if (typeFilter !== 'all' && weapon.weapon_type !== typeFilter) {
+      if (
+        typeFilter !== 'all' &&
+        weapon.weapon_type !== state.getLocalizedWeaponType(typeFilter)
+      ) {
         return false;
       }
 
@@ -146,7 +148,7 @@ export class WeaponSelector {
           <div class="flex-1 min-w-0">
             <h4 class="font-bold text-cyber-cyan text-sm line-clamp-2 mb-1">${weapon.weapon_name}</h4>
             <div class="flex flex-wrap gap-1">
-              ${weapon.weapon_tier_id ? `<span class="inline-block px-2 py-0.5 rounded-sm text-xs font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${getTierDisplayName(weapon.weapon_tier_id)}</span>` : ''}
+              ${weapon.weapon_tier_id ? `<span class="inline-block px-2 py-0.5 rounded-sm text-xs font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${state.getTierDisplayName(weapon.weapon_tier_id)}</span>` : ''}
             </div>
           </div>
         </div>
@@ -357,7 +359,7 @@ export class WeaponSelector {
       // Filter by socket type
       if (
         socketFilter !== 'all' &&
-        module.module_socket_type !== socketFilter
+        module.module_socket_type !== state.getLocalizedSocketType(socketFilter)
       ) {
         return false;
       }
@@ -389,19 +391,22 @@ export class WeaponSelector {
                 ? `<img src="${module.image_url}" alt="${module.module_name}" class="w-full h-24 object-contain" loading="lazy">`
                 : '<div class="w-full h-24 bg-void-deep flex items-center justify-center"><span class="text-steel-dark text-xs">No Image</span></div>'
             }
-            <div class="absolute top-1 right-1 px-1.5 py-0.5 text-xs font-bold rounded ${
-              module.module_socket_type === 'Almandine'
+            <div class="absolute top-1 right-1 px-1.5 py-0.5 text-xs font-bold rounded ${(() => {
+              const socketKey = state.getSocketTypeKey(
+                module.module_socket_type
+              );
+              return socketKey === 'Almandine'
                 ? 'bg-red-600'
-                : module.module_socket_type === 'Malachite'
+                : socketKey === 'Malachite'
                   ? 'bg-green-600'
-                  : module.module_socket_type === 'Cerulean'
+                  : socketKey === 'Cerulean'
                     ? 'bg-blue-600'
-                    : module.module_socket_type === 'Xantic'
+                    : socketKey === 'Xantic'
                       ? 'bg-yellow-600'
-                      : module.module_socket_type === 'Rutile'
+                      : socketKey === 'Rutile'
                         ? 'bg-purple-600'
-                        : 'bg-gray-500'
-            }">
+                        : 'bg-gray-500';
+            })()}">
               ${module.module_socket_type?.[0] || '?'}
             </div>
             ${
@@ -417,7 +422,7 @@ export class WeaponSelector {
           <div class="min-h-0">
             <h4 class="font-gaming font-bold text-xs text-cyber-cyan mb-1 leading-tight line-clamp-2" title="${module.module_name}">${module.module_name}</h4>
             <div class="text-xs text-steel-grey space-y-0.5">
-              ${module.module_tier_id ? `<div class="text-tier-${module.module_tier_id.replace('Tier', '').toLowerCase()}">${getTierDisplayName(module.module_tier_id)}</div>` : ''}
+              ${module.module_tier_id ? `<div class="text-tier-${module.module_tier_id.replace('Tier', '').toLowerCase()}">${state.getTierDisplayName(module.module_tier_id)}</div>` : ''}
               ${module.module_type ? `<div class="text-amber-gold font-semibold">${module.module_type}</div>` : ''}
               ${maxLevelStat && maxLevelStat.value ? `<div class="text-steel-light line-clamp-2 leading-tight" title="${maxLevelStat.value.replace(/\[\+\]/g, '')}">${maxLevelStat.value.replace(/\[\+\]/g, '')}</div>` : ''}
             </div>

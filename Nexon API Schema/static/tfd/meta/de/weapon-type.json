@@ -1,0 +1,62 @@
+[
+  {
+    "weapon_type": "All",
+    "weapon_type_name": "Waffen: Alle"
+  },
+  {
+    "weapon_type": "WeaponMeleeBalanced",
+    "weapon_type_name": "Ausgeglichene Nahkampfwaffe"
+  },
+  {
+    "weapon_type": "WeaponMeleePower",
+    "weapon_type_name": "Mächtige Nahkampfwaffe"
+  },
+  {
+    "weapon_type": "WeaponMeleeSpeed",
+    "weapon_type_name": "Schnelle Nahkampfwaffe"
+  },
+  {
+    "weapon_type": "WeaponAssaultRifle",
+    "weapon_type_name": "Sturmgewehr"
+  },
+  {
+    "weapon_type": "WeaponBeamRifle",
+    "weapon_type_name": "Strahlengewehr"
+  },
+  {
+    "weapon_type": "WeaponHandCannon",
+    "weapon_type_name": "Revolver"
+  },
+  {
+    "weapon_type": "WeaponHandGun",
+    "weapon_type_name": "Pistole"
+  },
+  {
+    "weapon_type": "WeaponLauncher",
+    "weapon_type_name": "Werfer/Kanone"
+  },
+  {
+    "weapon_type": "WeaponMachineGun",
+    "weapon_type_name": "Maschinengewehr"
+  },
+  {
+    "weapon_type": "WeaponScoutRifle",
+    "weapon_type_name": "Spähergewehr"
+  },
+  {
+    "weapon_type": "WeaponShotGun",
+    "weapon_type_name": "Schrotflinte"
+  },
+  {
+    "weapon_type": "WeaponSniperRifle",
+    "weapon_type_name": "Scharfschützengewehr"
+  },
+  {
+    "weapon_type": "WeaponSubMachineGun",
+    "weapon_type_name": "Maschinenpistole"
+  },
+  {
+    "weapon_type": "WeaponTacticalRifle",
+    "weapon_type_name": "Taktisches Gewehr"
+  }
+]

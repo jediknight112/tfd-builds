@@ -1,0 +1,1332 @@
+[
+  {
+    "stat_id": "105000001",
+    "stat_name": "Maks. PZ",
+    "stat_order_no": 300
+  },
+  {
+    "stat_id": "105000002",
+    "stat_name": "Odległość odrzutu",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000003",
+    "stat_name": "Czas trwania odrzutu",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000004",
+    "stat_name": "Czas powalenia",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000005",
+    "stat_name": "Maksymalny zasięg",
+    "stat_order_no": 154
+  },
+  {
+    "stat_id": "105000006",
+    "stat_name": "Celność podczas strzelania z biodra",
+    "stat_order_no": 144
+  },
+  {
+    "stat_id": "105000008",
+    "stat_name": "Impuls",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000011",
+    "stat_name": "Współczynnik wydłużenia czasu odnowienia haka",
+    "stat_order_no": 419
+  },
+  {
+    "stat_id": "105000013",
+    "stat_name": "Opóźnienie celowania",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000014",
+    "stat_name": "Czas pozostawania w postawie strzeleckiej",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000015",
+    "stat_name": "Prędkość skoku",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000017",
+    "stat_name": "Czas ratowania",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000018",
+    "stat_name": "Prędkość ruchu",
+    "stat_order_no": 402
+  },
+  {
+    "stat_id": "105000019",
+    "stat_name": "Prędkość sprintu",
+    "stat_order_no": 405
+  },
+  {
+    "stat_id": "105000020",
+    "stat_name": "Prędkość ruchu podczas celowania",
+    "stat_order_no": 404
+  },
+  {
+    "stat_id": "105000021",
+    "stat_name": "Naboje w magazynku",
+    "stat_order_no": 120
+  },
+  {
+    "stat_id": "105000022",
+    "stat_name": "Liczba pocisków",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000023",
+    "stat_name": "Szybkostrzelność",
+    "stat_order_no": 118
+  },
+  {
+    "stat_id": "105000024",
+    "stat_name": "Maks. PM",
+    "stat_order_no": 200
+  },
+  {
+    "stat_id": "105000025",
+    "stat_name": "Maks. tarcza",
+    "stat_order_no": 301
+  },
+  {
+    "stat_id": "105000026",
+    "stat_name": "ATK bronią palną",
+    "stat_order_no": 100
+  },
+  {
+    "stat_id": "105000027",
+    "stat_name": "Min. ATK",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000028",
+    "stat_name": "Maks. ATK",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000029",
+    "stat_name": "OBR",
+    "stat_order_no": 302
+  },
+  {
+    "stat_id": "105000030",
+    "stat_name": "Szansa na trafienie krytyczne z broni",
+    "stat_order_no": 126
+  },
+  {
+    "stat_id": "105000031",
+    "stat_name": "Obrażenia krytyczne od broni",
+    "stat_order_no": 128
+  },
+  {
+    "stat_id": "105000032",
+    "stat_name": "Liczba nabojów",
+    "stat_order_no": 112
+  },
+  {
+    "stat_id": "105000033",
+    "stat_name": "Koszt pocisków",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000034",
+    "stat_name": "Prędkość ruchu podczas strzelania",
+    "stat_order_no": 403
+  },
+  {
+    "stat_id": "105000035",
+    "stat_name": "Obrażenia od trafienia w słaby punkt",
+    "stat_order_no": 138
+  },
+  {
+    "stat_id": "105000036",
+    "stat_name": "Dokładność strzału podczas celowania",
+    "stat_order_no": 146
+  },
+  {
+    "stat_id": "105000042",
+    "stat_name": "Prędkość wspinania się (potwór)",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000043",
+    "stat_name": "Prędkość poruszania się (potwór)",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000044",
+    "stat_name": "Zniszczenie środowiskowe (boss)",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000045",
+    "stat_name": "Współczynnik zwiększenia promienia wybuchu pocisku z wyrzutni",
+    "stat_order_no": 117
+  },
+  {
+    "stat_id": "105000046",
+    "stat_name": "Czas przewrotu",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000047",
+    "stat_name": "Czas odnowienia przewrotu",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000048",
+    "stat_name": "Dominacja",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000049",
+    "stat_name": "Kontrola",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000050",
+    "stat_name": "Niezłomność",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000052",
+    "stat_name": "Modyfikator czasu przeładowania",
+    "stat_order_no": 124
+  },
+  {
+    "stat_id": "105000053",
+    "stat_name": "Czas przeładowania magazynka",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000054",
+    "stat_name": "Zasięg działania efektu (rozpoczęcie zmniejszania efektywności)",
+    "stat_order_no": 148
+  },
+  {
+    "stat_id": "105000055",
+    "stat_name": "Zasięg działania efektu (zakończenie zmniejszania efektywności)",
+    "stat_order_no": 150
+  },
+  {
+    "stat_id": "105000056",
+    "stat_name": "Modyfikator spadku wartości ATK",
+    "stat_order_no": 152
+  },
+  {
+    "stat_id": "105000057",
+    "stat_name": "ATK bronią wybuchową",
+    "stat_order_no": 102
+  },
+  {
+    "stat_id": "105000058",
+    "stat_name": "ATK ogniem",
+    "stat_order_no": 104
+  },
+  {
+    "stat_id": "105000059",
+    "stat_name": "ATK chłodem",
+    "stat_order_no": 106
+  },
+  {
+    "stat_id": "105000060",
+    "stat_name": "ATK elektrycznością",
+    "stat_order_no": 108
+  },
+  {
+    "stat_id": "105000061",
+    "stat_name": "ATK toksycznością",
+    "stat_order_no": 110
+  },
+  {
+    "stat_id": "105000062",
+    "stat_name": "Odporność na ogień",
+    "stat_order_no": 307
+  },
+  {
+    "stat_id": "105000063",
+    "stat_name": "Odporność na chłód",
+    "stat_order_no": 308
+  },
+  {
+    "stat_id": "105000064",
+    "stat_name": "Odporność na elektryczność",
+    "stat_order_no": 309
+  },
+  {
+    "stat_id": "105000065",
+    "stat_name": "Odporność na toksyczność",
+    "stat_order_no": 310
+  },
+  {
+    "stat_id": "105000066",
+    "stat_name": "Odporność na trafienia krytyczne",
+    "stat_order_no": 304
+  },
+  {
+    "stat_id": "105000069",
+    "stat_name": "Rozrywanie",
+    "stat_order_no": 130
+  },
+  {
+    "stat_id": "105000070",
+    "stat_name": "Miażdżenie",
+    "stat_order_no": 132
+  },
+  {
+    "stat_id": "105000071",
+    "stat_name": "Przeszywanie",
+    "stat_order_no": 134
+  },
+  {
+    "stat_id": "105000072",
+    "stat_name": "Szybkostrzelność serii",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000073",
+    "stat_name": "Zasięg spadku wartości ATK wybuchem",
+    "stat_order_no": 114
+  },
+  {
+    "stat_id": "105000074",
+    "stat_name": "Opóźnienie oddalania",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000075",
+    "stat_name": "Przebijanie",
+    "stat_order_no": 141
+  },
+  {
+    "stat_id": "105000076",
+    "stat_name": "OBR przed przebijaniem",
+    "stat_order_no": 110
+  },
+  {
+    "stat_id": "105000077",
+    "stat_name": "Zniszczenie środowiskowe (broń)",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000078",
+    "stat_name": "Zniszczenie środowiskowe (umiejętność)",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000079",
+    "stat_name": "Współczynnik wydłużenia czasu ładowania haka",
+    "stat_order_no": 421
+  },
+  {
+    "stat_id": "105000080",
+    "stat_name": "Szansa na odrzut",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000081",
+    "stat_name": "Szansa na uniknięcie odrzutu",
+    "stat_order_no": 312
+  },
+  {
+    "stat_id": "105000082",
+    "stat_name": "Skrócenie czasu trwania odrzutu",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000083",
+    "stat_name": "Zmniejszenie odległości odrzutu",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000084",
+    "stat_name": "Szansa na powalenie",
+    "stat_order_no": 176
+  },
+  {
+    "stat_id": "105000085",
+    "stat_name": "Szybkość powalenia X",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000086",
+    "stat_name": "Szybkość powalenia Z",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000087",
+    "stat_name": "Szansa na uniknięcie powalenia",
+    "stat_order_no": 313
+  },
+  {
+    "stat_id": "105000088",
+    "stat_name": "Zmniejszenie odległości odrzutu o X",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000089",
+    "stat_name": "Zmniejszenie odległości odrzutu o Z",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000090",
+    "stat_name": "Skrócenie czasu trwania powalenia",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000092",
+    "stat_name": "Wartość ataku oszałamiającego",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000093",
+    "stat_name": "Wartość odporności na odrętwienie",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000094",
+    "stat_name": "Prędkość ruchu podczas szału",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000095",
+    "stat_name": "Czas przeładowania",
+    "stat_order_no": 122
+  },
+  {
+    "stat_id": "105000096",
+    "stat_name": "Odstęp czasu między przywracaniem PZ",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000097",
+    "stat_name": "Odstęp czasu między przywracaniem PM",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000098",
+    "stat_name": "Odstęp czasu między przywracaniem tarczy",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000100",
+    "stat_name": "Przywracanie PZ poza walką",
+    "stat_order_no": 405
+  },
+  {
+    "stat_id": "105000101",
+    "stat_name": "Przywracanie PM poza walką",
+    "stat_order_no": 406
+  },
+  {
+    "stat_id": "105000102",
+    "stat_name": "Przywracanie tarczy poza walką",
+    "stat_order_no": 407
+  },
+  {
+    "stat_id": "105000103",
+    "stat_name": "Przywracanie PZ w walce",
+    "stat_order_no": 408
+  },
+  {
+    "stat_id": "105000104",
+    "stat_name": "Przywracanie PM w walce",
+    "stat_order_no": 409
+  },
+  {
+    "stat_id": "105000105",
+    "stat_name": "Przywracanie tarczy w walce",
+    "stat_order_no": 410
+  },
+  {
+    "stat_id": "105000106",
+    "stat_name": "Aktualne PZ",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000107",
+    "stat_name": "Aktualne PM",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000108",
+    "stat_name": "Aktualna tarcza",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000115",
+    "stat_name": "Liczba dodatkowych ładunków haka",
+    "stat_order_no": 420
+  },
+  {
+    "stat_id": "105000116",
+    "stat_name": "Odrzut",
+    "stat_order_no": 142
+  },
+  {
+    "stat_id": "105000117",
+    "stat_name": "Czas odnowienia umiejętności",
+    "stat_order_no": 225
+  },
+  {
+    "stat_id": "105000118",
+    "stat_name": "Koszt umiejętności",
+    "stat_order_no": 226
+  },
+  {
+    "stat_id": "105000119",
+    "stat_name": "Modyfikator mocy umiejętności",
+    "stat_order_no": 213
+  },
+  {
+    "stat_id": "105000123",
+    "stat_name": "Wydłużenie czasu trwania umiejętności",
+    "stat_order_no": 227
+  },
+  {
+    "stat_id": "105000124",
+    "stat_name": "Skrócenie czasu trwania umiejętności",
+    "stat_order_no": 228
+  },
+  {
+    "stat_id": "105000125",
+    "stat_name": "Zasięg efektu umiejętności",
+    "stat_order_no": 229
+  },
+  {
+    "stat_id": "105000126",
+    "stat_name": "Szybkość przeładowania pustego magazynka",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000127",
+    "stat_name": "Prędkość zmiany broni",
+    "stat_order_no": 422
+  },
+  {
+    "stat_id": "105000128",
+    "stat_name": "Modyfikator maksymalnej liczby standardowych nabojów",
+    "stat_order_no": 411
+  },
+  {
+    "stat_id": "105000129",
+    "stat_name": "Modyfikator maksymalnej liczby specjalnych nabojów",
+    "stat_order_no": 412
+  },
+  {
+    "stat_id": "105000130",
+    "stat_name": "Modyfikator maksymalnej liczby nabojów ogłuszających",
+    "stat_order_no": 413
+  },
+  {
+    "stat_id": "105000131",
+    "stat_name": "Modyfikator maksymalnej liczby silniejszych nabojów",
+    "stat_order_no": 414
+  },
+  {
+    "stat_id": "105000133",
+    "stat_name": "Modyfikator fizycznego ATK umiejętnością",
+    "stat_order_no": 230
+  },
+  {
+    "stat_id": "105000134",
+    "stat_name": "Modyfikator ATK atrybutu umiejętności",
+    "stat_order_no": 231
+  },
+  {
+    "stat_id": "105000135",
+    "stat_name": "Modyfikator przywracania PZ",
+    "stat_order_no": 415
+  },
+  {
+    "stat_id": "105000136",
+    "stat_name": "Modyfikator przywracania PZ",
+    "stat_order_no": 416
+  },
+  {
+    "stat_id": "105000137",
+    "stat_name": "Modyfikator przywracania PM",
+    "stat_order_no": 232
+  },
+  {
+    "stat_id": "105000138",
+    "stat_name": "Modyfikator przywracania PM",
+    "stat_order_no": 233
+  },
+  {
+    "stat_id": "105000139",
+    "stat_name": "Modyfikator OBŻ broni palnej",
+    "stat_order_no": 178
+  },
+  {
+    "stat_id": "105000140",
+    "stat_name": "Modyfikator zadawanych OBŻ",
+    "stat_order_no": 172
+  },
+  {
+    "stat_id": "105000141",
+    "stat_name": "Modyfikator otrzymywanych obrażeń",
+    "stat_order_no": 311
+  },
+  {
+    "stat_id": "105000142",
+    "stat_name": "Poziom przedmiotu",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000143",
+    "stat_name": "Modyfikator mocy umiejętności podstawowej",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000144",
+    "stat_name": "Stała obrażeń wg. poziomu przedmiotu",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000145",
+    "stat_name": "Moc umiejętności",
+    "stat_order_no": 202
+  },
+  {
+    "stat_id": "105000146",
+    "stat_name": "Współczynnik zwiększenia mocy umiejętności",
+    "stat_order_no": 203
+  },
+  {
+    "stat_id": "105000147",
+    "stat_name": "Współczynnik zwiększenia mocy umiejętności niezwiązanych z atrybutami",
+    "stat_order_no": 204
+  },
+  {
+    "stat_id": "105000148",
+    "stat_name": "Współczynnik zwiększenia mocy umiejętności ogniowych",
+    "stat_order_no": 205
+  },
+  {
+    "stat_id": "105000149",
+    "stat_name": "Współczynnik zwiększenia mocy umiejętności chłodu",
+    "stat_order_no": 206
+  },
+  {
+    "stat_id": "105000150",
+    "stat_name": "Współczynnik zwiększenia mocy umiejętności elektrycznych",
+    "stat_order_no": 207
+  },
+  {
+    "stat_id": "105000151",
+    "stat_name": "Współczynnik zwiększenia mocy umiejętności toksycznych",
+    "stat_order_no": 208
+  },
+  {
+    "stat_id": "105000152",
+    "stat_name": "Współczynnik zwiększenia mocy umiejętności fuzji",
+    "stat_order_no": 209
+  },
+  {
+    "stat_id": "105000153",
+    "stat_name": "Współczynnik zwiększenia mocy umiejętności osobliwości",
+    "stat_order_no": 210
+  },
+  {
+    "stat_id": "105000154",
+    "stat_name": "Współczynnik zwiększenia mocy umiejętności wymiarowych",
+    "stat_order_no": 211
+  },
+  {
+    "stat_id": "105000155",
+    "stat_name": "Współczynnik zwiększenia mocy umiejętności technologii",
+    "stat_order_no": 212
+  },
+  {
+    "stat_id": "105000156",
+    "stat_name": "Modyfikator ATK umiejętnością niezwiązaną z atrybutami",
+    "stat_order_no": 214
+  },
+  {
+    "stat_id": "105000157",
+    "stat_name": "Modyfikator umiejętności ogniowych",
+    "stat_order_no": 215
+  },
+  {
+    "stat_id": "105000158",
+    "stat_name": "Modyfikator umiejętności chłodu",
+    "stat_order_no": 216
+  },
+  {
+    "stat_id": "105000159",
+    "stat_name": "Modyfikator umiejętności elektrycznych",
+    "stat_order_no": 217
+  },
+  {
+    "stat_id": "105000160",
+    "stat_name": "Modyfikator umiejętności toksycznych",
+    "stat_order_no": 218
+  },
+  {
+    "stat_id": "105000161",
+    "stat_name": "Modyfikator umiejętności fuzji",
+    "stat_order_no": 219
+  },
+  {
+    "stat_id": "105000162",
+    "stat_name": "Modyfikator umiejętności osobliwości",
+    "stat_order_no": 220
+  },
+  {
+    "stat_id": "105000163",
+    "stat_name": "Modyfikator umiejętności wymiarowych",
+    "stat_order_no": 221
+  },
+  {
+    "stat_id": "105000164",
+    "stat_name": "Modyfikator umiejętności technologii",
+    "stat_order_no": 222
+  },
+  {
+    "stat_id": "105000165",
+    "stat_name": "Szansa na trafienie krytyczne umiejętnością",
+    "stat_order_no": 223
+  },
+  {
+    "stat_id": "105000166",
+    "stat_name": "Obrażenia od trafienia krytycznego umiejętnością",
+    "stat_order_no": 224
+  },
+  {
+    "stat_id": "105000167",
+    "stat_name": "Odporność na trafienia krytyczne umiejętnością",
+    "stat_order_no": 305
+  },
+  {
+    "stat_id": "105000168",
+    "stat_name": "OBR przed umiejętnościami",
+    "stat_order_no": 303
+  },
+  {
+    "stat_id": "105000169",
+    "stat_name": "Odporność na obrażenia niezwiązane z atrybutami",
+    "stat_order_no": 306
+  },
+  {
+    "stat_id": "105000170",
+    "stat_name": "Szansa na status związany z atrybutem",
+    "stat_order_no": 136
+  },
+  {
+    "stat_id": "105000171",
+    "stat_name": "Modyfikator przywracania tarczy sojuszników",
+    "stat_order_no": 417
+  },
+  {
+    "stat_id": "105000172",
+    "stat_name": "Modyfikator przywracania tarczy",
+    "stat_order_no": 418
+  },
+  {
+    "stat_id": "105000174",
+    "stat_name": "Promień wybuchu pocisku z wyrzutni",
+    "stat_order_no": 116
+  },
+  {
+    "stat_id": "105000175",
+    "stat_name": "Czas potrzebny do podniesienia po powaleniu",
+    "stat_order_no": 423
+  },
+  {
+    "stat_id": "105000176",
+    "stat_name": "Modyfikator zwiększenia szansy na upuszczenie modułu",
+    "stat_order_no": 433
+  },
+  {
+    "stat_id": "105000177",
+    "stat_name": "Modyfikator zwiększenia szansy na upuszczenie wyposażenia",
+    "stat_order_no": 431
+  },
+  {
+    "stat_id": "105000178",
+    "stat_name": "Modyfikator szansy na upuszczenie przedmiotu zużywalnego",
+    "stat_order_no": 434
+  },
+  {
+    "stat_id": "105000179",
+    "stat_name": "Modyfikator zwiększenia szansy na upuszczenie złota",
+    "stat_order_no": 430
+  },
+  {
+    "stat_id": "105000180",
+    "stat_name": "Modyfikator zwiększenia szansy na upuszczenie kuiperu",
+    "stat_order_no": 432
+  },
+  {
+    "stat_id": "105000181",
+    "stat_name": "Modyfikator przyrostu doświadczenia postaci",
+    "stat_order_no": 428
+  },
+  {
+    "stat_id": "105000182",
+    "stat_name": "Modyfikator przyrostu biegłości w posługiwaniu się bronią palną",
+    "stat_order_no": 429
+  },
+  {
+    "stat_id": "105000183",
+    "stat_name": "Dodatkowy ATK bronią (w walce z kolosem)",
+    "stat_order_no": 168
+  },
+  {
+    "stat_id": "105000184",
+    "stat_name": "Dodatkowy ATK bronią (w walce z Legionem Ciemności)",
+    "stat_order_no": 156
+  },
+  {
+    "stat_id": "105000185",
+    "stat_name": "Dodatkowy ATK bronią (w walce z Zakonem Prawdy)",
+    "stat_order_no": 160
+  },
+  {
+    "stat_id": "105000186",
+    "stat_name": "Dodatkowy ATK bronią (w walce z Legionem Nieśmiertelności)",
+    "stat_order_no": 164
+  },
+  {
+    "stat_id": "105000187",
+    "stat_name": "Czas trwania powalenia",
+    "stat_order_no": 424
+  },
+  {
+    "stat_id": "105000188",
+    "stat_name": "Modyfikator zwiększenia odległości zbierania przedmiotów",
+    "stat_order_no": 427
+  },
+  {
+    "stat_id": "105000190",
+    "stat_name": "Modyfikator zwiększenia promienia wyszukiwania panelu Ecive",
+    "stat_order_no": 425
+  },
+  {
+    "stat_id": "105000191",
+    "stat_name": "Czas wyświetlania panelu Ecive",
+    "stat_order_no": 426
+  },
+  {
+    "stat_id": "105000192",
+    "stat_name": "Moc ataku dodatkowego",
+    "stat_order_no": 400
+  },
+  {
+    "stat_id": "105000193",
+    "stat_name": "Modyfikator mocy ataku dodatkowego",
+    "stat_order_no": 401
+  },
+  {
+    "stat_id": "105000194",
+    "stat_name": "Prędkość zdobywania ładunków karabinu laserowego",
+    "stat_order_no": 180
+  },
+  {
+    "stat_id": "105000195",
+    "stat_name": "Prędkość zużywania ładunków karabinu laserowego",
+    "stat_order_no": 182
+  },
+  {
+    "stat_id": "105000196",
+    "stat_name": "Dodatkowy ATK umiejętnością (w walce z kolosem)",
+    "stat_order_no": 235
+  },
+  {
+    "stat_id": "105000197",
+    "stat_name": "Dodatkowy ATK umiejętnością (w walce z Legionem Ciemności)",
+    "stat_order_no": 236
+  },
+  {
+    "stat_id": "105000198",
+    "stat_name": "Dodatkowy ATK umiejętnością (w walce z Zakonem Prawdy)",
+    "stat_order_no": 237
+  },
+  {
+    "stat_id": "105000199",
+    "stat_name": "Dodatkowy ATK umiejętnością (w walce z Legionem Nieśmiertelności)",
+    "stat_order_no": 238
+  },
+  {
+    "stat_id": "105000214",
+    "stat_name": "Modyfikator prędkości umiejętności i zwiększenia zasięgu",
+    "stat_order_no": 234
+  },
+  {
+    "stat_id": "105000219",
+    "stat_name": "Przebijanie pocisków",
+    "stat_order_no": null
+  },
+  {
+    "stat_id": "105000220",
+    "stat_name": "Obrona przed pociskami przeszywającymi",
+    "stat_order_no": null
+  },
+  {
+    "stat_id": "105000226",
+    "stat_name": "Modyfikator silniejszego typu OBŻ",
+    "stat_order_no": 135
+  },
+  {
+    "stat_id": "105000227",
+    "stat_name": "Szansa na wielokrotne trafienie",
+    "stat_order_no": 139
+  },
+  {
+    "stat_id": "105000228",
+    "stat_name": "Modyfikator grawitacji",
+    "stat_order_no": 440
+  },
+  {
+    "stat_id": "105000229",
+    "stat_name": "Obrażenia od wielokrotnego trafienia",
+    "stat_order_no": 140
+  },
+  {
+    "stat_id": "105000230",
+    "stat_name": "Prędkość maksymalna",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000231",
+    "stat_name": "Przyspieszenie",
+    "stat_order_no": 10
+  },
+  {
+    "stat_id": "105000232",
+    "stat_name": "Prędkość maksymalna po wzmocnieniu",
+    "stat_order_no": 20
+  },
+  {
+    "stat_id": "105000233",
+    "stat_name": "Przyspieszenie po wzmocnieniu",
+    "stat_order_no": 30
+  },
+  {
+    "stat_id": "105000234",
+    "stat_name": "Modyfikator prędkości podczas jazdy w tył",
+    "stat_order_no": 90
+  },
+  {
+    "stat_id": "105000235",
+    "stat_name": "Modyfikator prędkości podczas jazdy na boki",
+    "stat_order_no": 80
+  },
+  {
+    "stat_id": "105000236",
+    "stat_name": "Zwrotność",
+    "stat_order_no": 60
+  },
+  {
+    "stat_id": "105000237",
+    "stat_name": "Zwrotność podczas wzmocnienia",
+    "stat_order_no": 70
+  },
+  {
+    "stat_id": "105000238",
+    "stat_name": "Pojemność wskaźnika wzmocnienia",
+    "stat_order_no": 40
+  },
+  {
+    "stat_id": "105000239",
+    "stat_name": "Odstęp pomiędzy przywróceniami wskaźnika wzmocnienia",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000240",
+    "stat_name": "Wartość przywrócenia wskaźnika wzmocnienia",
+    "stat_order_no": 50
+  },
+  {
+    "stat_id": "105000241",
+    "stat_name": "Początkowe opóźnienie przywrócenia wskaźnika wzmocnienia",
+    "stat_order_no": 45
+  },
+  {
+    "stat_id": "105000242",
+    "stat_name": "Modyfikator zużycia wskaźnika wzmocnienia",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000243",
+    "stat_name": "Modyfikator przywrócenia wskaźnika wzmocnienia",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000244",
+    "stat_name": "ATK bronią do walki wręcz",
+    "stat_order_no": 100
+  },
+  {
+    "stat_id": "105000245",
+    "stat_name": "Prędkość ataku",
+    "stat_order_no": 118
+  },
+  {
+    "stat_id": "105000246",
+    "stat_name": "ATK ogniem przy korzystaniu z broni do walki wręcz",
+    "stat_order_no": 104
+  },
+  {
+    "stat_id": "105000247",
+    "stat_name": "ATK chłodem przy korzystaniu z broni do walki wręcz",
+    "stat_order_no": 106
+  },
+  {
+    "stat_id": "105000248",
+    "stat_name": "ATK toksycznością przy korzystaniu z broni do walki wręcz",
+    "stat_order_no": 108
+  },
+  {
+    "stat_id": "105000249",
+    "stat_name": "ATK elektrycznością przy korzystaniu z broni do walki wręcz",
+    "stat_order_no": 110
+  },
+  {
+    "stat_id": "105000250",
+    "stat_name": "Szansa na trafienie krytyczne bronią do walki wręcz",
+    "stat_order_no": 128
+  },
+  {
+    "stat_id": "105000251",
+    "stat_name": "OBŻ krytyczne od broni do walki wręcz",
+    "stat_order_no": 130
+  },
+  {
+    "stat_id": "105000252",
+    "stat_name": "Szansa na dodatkowy atak",
+    "stat_order_no": 142
+  },
+  {
+    "stat_id": "105000253",
+    "stat_name": "Szansa na zadanie dodatkowych obrażeń od ataku",
+    "stat_order_no": 143
+  },
+  {
+    "stat_id": "105000254",
+    "stat_name": "Szansa na przeszywający atak bronią do walki wręcz",
+    "stat_order_no": 187
+  },
+  {
+    "stat_id": "105000255",
+    "stat_name": "Minimalna szansa na przeszywający atak bronią do walki wręcz",
+    "stat_order_no": 188
+  },
+  {
+    "stat_id": "105000256",
+    "stat_name": "Odporność na przeszycie bronią do walki wręcz",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000257",
+    "stat_name": "Zasięg ataku bronią do walki wręcz",
+    "stat_order_no": 189
+  },
+  {
+    "stat_id": "105000258",
+    "stat_name": "Maksymalny mnożnik zasięgu ataku bronią do walki wręcz",
+    "stat_order_no": 190
+  },
+  {
+    "stat_id": "105000259",
+    "stat_name": "Maksymalny wskaźnik blokowania",
+    "stat_order_no": 191
+  },
+  {
+    "stat_id": "105000260",
+    "stat_name": "Aktualny wskaźnik blokowania",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000261",
+    "stat_name": "Zużycie wskaźnika przy rozpoczęciu blokowania",
+    "stat_order_no": 192
+  },
+  {
+    "stat_id": "105000262",
+    "stat_name": "Zużycie wskaźnika przy utrzymaniu blokowania",
+    "stat_order_no": 193
+  },
+  {
+    "stat_id": "105000263",
+    "stat_name": "Rozpoczęcie przywracania wskaźnika blokowania",
+    "stat_order_no": 194
+  },
+  {
+    "stat_id": "105000264",
+    "stat_name": "Wartość przywracania wskaźnika blokowania",
+    "stat_order_no": 195
+  },
+  {
+    "stat_id": "105000265",
+    "stat_name": "Skuteczność blokowania",
+    "stat_order_no": 196
+  },
+  {
+    "stat_id": "105000266",
+    "stat_name": "Modyfikator skuteczności blokowania",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000267",
+    "stat_name": "Maksymalny wskaźnik ataku specjalnego",
+    "stat_order_no": 198
+  },
+  {
+    "stat_id": "105000268",
+    "stat_name": "Aktualny wskaźnik ataku specjalnego",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000269",
+    "stat_name": "Rozpoczęcie przywracania wskaźnika ataku specjalnego",
+    "stat_order_no": 199
+  },
+  {
+    "stat_id": "105000270",
+    "stat_name": "Wartość przywracania wskaźnika ataku specjalnego",
+    "stat_order_no": 199
+  },
+  {
+    "stat_id": "105000272",
+    "stat_name": "Otrzymane obrażenia od trafienia w słaby punkt",
+    "stat_order_no": null
+  },
+  {
+    "stat_id": "105000273",
+    "stat_name": "Odporność na obrażenia od broni ogniowej",
+    "stat_order_no": 314
+  },
+  {
+    "stat_id": "105000274",
+    "stat_name": "Odporność na obrażenia od broni chłodu",
+    "stat_order_no": 315
+  },
+  {
+    "stat_id": "105000275",
+    "stat_name": "Odporność na obrażenia od broni elektrycznej",
+    "stat_order_no": 316
+  },
+  {
+    "stat_id": "105000276",
+    "stat_name": "Odporność na obrażenia od broni toksycznej",
+    "stat_order_no": 317
+  },
+  {
+    "stat_id": "105000278",
+    "stat_name": "Koszt boostu",
+    "stat_order_no": 55
+  },
+  {
+    "stat_id": "105000280",
+    "stat_name": "Dodatkowy ATK bronią (w walce z Legionem Wyłomu)",
+    "stat_order_no": 165
+  },
+  {
+    "stat_id": "105000281",
+    "stat_name": "Dodatkowy ATK umiejętnością w walce z Legionem Wyłomu",
+    "stat_order_no": 239
+  },
+  {
+    "stat_id": "105000282",
+    "stat_name": "Modyfikator prędkości ataku",
+    "stat_order_no": 118
+  },
+  {
+    "stat_id": "105000283",
+    "stat_name": "Mnożnik dodatkowych obrażeń w walce ze zwykłymi potworami Legionu Ciemności",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000284",
+    "stat_name": "Mnożnik dodatkowych obrażeń w walce z elitarnymi jednostkami Legionu Ciemności",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000285",
+    "stat_name": "Mnożnik dodatkowych obrażeń w walce z dowódcami Legionu Ciemności",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000286",
+    "stat_name": "Mnożnik dodatkowych obrażeń w walce ze zwykłymi potworami Zakonu Prawdy",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000287",
+    "stat_name": "Mnożnik dodatkowych obrażeń w walce z elitarnymi jednostkami Zakonu Prawdy",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000288",
+    "stat_name": "Mnożnik dodatkowych obrażeń w walce z dowódcami Zakonu Prawdy",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000289",
+    "stat_name": "Mnożnik dodatkowych obrażeń w walce ze zwykłymi potworami Legionu Nieśmiertelności",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000290",
+    "stat_name": "Mnożnik dodatkowych obrażeń w walce z elitarnymi jednostkami Legionu Nieśmiertelności",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000291",
+    "stat_name": "Mnożnik dodatkowych obrażeń w walce z dowódcami Legionu Nieśmiertelności",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000292",
+    "stat_name": "Mnożnik dodatkowych obrażeń w walce ze zwykłymi potworami Legionu Wyłomu",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000293",
+    "stat_name": "Mnożnik dodatkowych obrażeń w walce z elitarnymi jednostkami Legionu Wyłomu",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000294",
+    "stat_name": "Mnożnik dodatkowych obrażeń w walce z dowódcami Legionu Wyłomu",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000295",
+    "stat_name": "Dodatkowy mnożnik odporności na obrażenia Legionu i potworów",
+    "stat_order_no": 318
+  },
+  {
+    "stat_id": "105000296",
+    "stat_name": "Mnożnik dodatkowych obrażeń w walce z tyranami Legionu Ciemności",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000297",
+    "stat_name": "Mnożnik dodatkowych obrażeń w walce z tyranami Zakonu Prawdy",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000298",
+    "stat_name": "Mnożnik dodatkowych obrażeń w walce z tyranami Legionu Nieśmiertelności",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000299",
+    "stat_name": "Mnożnik dodatkowych obrażeń w walce z tyranami Legionu Wyłomu",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000300",
+    "stat_name": "Modyfikator szansy na przeszywający atak bronią do walki wręcz",
+    "stat_order_no": 187
+  },
+  {
+    "stat_id": "105000301",
+    "stat_name": "Modyfikator minimalnej szansy na przeszywający atak bronią do walki wręcz",
+    "stat_order_no": 188
+  },
+  {
+    "stat_id": "105000302",
+    "stat_name": "Odporność na wielokrotne trafienia",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000303",
+    "stat_name": "Odporność na obrażenia od wielokrotnego trafienia",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000305",
+    "stat_name": "Dodatkowy ATK bronią (w walce z elitarnymi wrogami)",
+    "stat_order_no": 314
+  },
+  {
+    "stat_id": "105000306",
+    "stat_name": "Dodatkowy ATK bronią (w walce z dowódcą)",
+    "stat_order_no": 315
+  },
+  {
+    "stat_id": "105000307",
+    "stat_name": "Dodatkowy ATK bronią (w walce z tyranem)",
+    "stat_order_no": 316
+  },
+  {
+    "stat_id": "105000308",
+    "stat_name": "Dodatkowy ATK umiejętnością (w walce z elitarnymi wrogami)",
+    "stat_order_no": 317
+  },
+  {
+    "stat_id": "105000309",
+    "stat_name": "Dodatkowy ATK umiejętnością (w walce z dowódcą)",
+    "stat_order_no": 318
+  },
+  {
+    "stat_id": "105000310",
+    "stat_name": "Dodatkowy ATK umiejętnością (w walce z tyranem)",
+    "stat_order_no": 319
+  },
+  {
+    "stat_id": "105000311",
+    "stat_name": "Wartość synchronizacji",
+    "stat_order_no": 441
+  },
+  {
+    "stat_id": "105000109:101000002",
+    "stat_name": "Maksymalna energia Otchłani",
+    "stat_order_no": 201
+  },
+  {
+    "stat_id": "105000109:101000006",
+    "stat_name": "Maksymalny poz. elektryczności",
+    "stat_order_no": 201
+  },
+  {
+    "stat_id": "105000109:101000009",
+    "stat_name": "Maksymalna moc życia",
+    "stat_order_no": 201
+  },
+  {
+    "stat_id": "105000109:101000014",
+    "stat_name": "Maksymalna siła magnetyczna",
+    "stat_order_no": 201
+  },
+  {
+    "stat_id": "105000109:101000018",
+    "stat_name": "Maksymalny wskaźnik inspiracji",
+    "stat_order_no": 201
+  },
+  {
+    "stat_id": "105000109:101000024",
+    "stat_name": "Maksymalne nasycenie kwasem",
+    "stat_order_no": 201
+  },
+  {
+    "stat_id": "105000109:101000026",
+    "stat_name": "Maks. plazma",
+    "stat_order_no": 201
+  },
+  {
+    "stat_id": "105000109:101000031",
+    "stat_name": "Maks. poziom toksyn",
+    "stat_order_no": 201
+  },
+  {
+    "stat_id": "105000109:101000033",
+    "stat_name": "Maksymalna rozkosz",
+    "stat_order_no": 201
+  }
+]

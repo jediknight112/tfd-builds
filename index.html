@@ -29,10 +29,17 @@
               >The First Descendant</span
             >
           </div>
-          <nav class="flex gap-2 sm:gap-4">
+          <nav class="flex gap-2 sm:gap-4 items-center">
+            <select
+              id="language-selector"
+              class="bg-tfd-darker text-tfd-primary border border-tfd-primary/30 rounded px-2 py-1 text-xs sm:text-sm focus:outline-hidden focus:ring-1 focus:ring-tfd-primary transition-all"
+              onchange="app.changeLanguage(this.value)"
+            >
+              <!-- Populated by JavaScript -->
+            </select>
             <button
               class="btn-secondary text-xs sm:text-sm py-1 px-3 sm:px-4"
-              onclick="app.loadDescendants()"
+              onclick="app.init()"
             >
               <span class="hidden sm:inline">Refresh Data</span>
               <span class="sm:hidden">Refresh</span>

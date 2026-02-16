@@ -1,0 +1,3936 @@
+[
+  {
+    "collectible_item_id": "266300173",
+    "collectible_item_name": "ビエッサー(S) - スキル1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300174",
+    "collectible_item_name": "バニー(S) - スキル1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300175",
+    "collectible_item_name": "バニー(S) - スキル1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300176",
+    "collectible_item_name": "バニー(S) - スキル1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300198",
+    "collectible_item_name": "アモン：不滅の軍団長(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300199",
+    "collectible_item_name": "アモン：不滅の軍団長(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300200",
+    "collectible_item_name": "アモン：不滅の軍団長(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300345",
+    "collectible_item_name": "ダイア(S) - アルファの制服1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300347",
+    "collectible_item_name": "エイジャックス(S) - アルファの制服1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300348",
+    "collectible_item_name": "パターンエリアス(M) - シグマセクター1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400001",
+    "collectible_item_name": "白夜峡谷 - ムーングレイヴ流域",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "山脈を覆う数々の穴は設計者によるものだと言われているが、今のところ未知の領域。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size4",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400004",
+    "collectible_item_name": "ヴォイド迎撃地",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "非論理の時空間、ヴォイド。継承者はイングリスに巨神がたどり着く前、迎撃のためにヴォイドに旅立つ。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400005",
+    "collectible_item_name": "パラダイスプール",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "シーズン2のエピソード2でアルビオンに設置されたプール。継承者教官がバーテンダーに変身する。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400006",
+    "collectible_item_name": "ハロウィンガーデン",
+    "collectible_item_description": "【期間限定】ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "2025ハロウィンシーズンを記念して作られた庭園。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400007",
+    "collectible_item_name": "アルビオンウィンターフェスティバル",
+    "collectible_item_description": "【期間限定】ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "2025ウィンターフェスティバルシーズンを記念するためにアルビオンが作ったガーデン。雪だるまのコスチュームを着た継承者は、今もどこかで活躍している。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400008",
+    "collectible_item_name": "クレセントのコンサート",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "いつまでもルーナと一緒に歌うバンド「クレセント」のコンサート会場。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size4",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500001",
+    "collectible_item_name": "絵を描く",
+    "collectible_item_description": "ラウンジに継承者を配置する際のモーションです。",
+    "collectible_item_narrative": "継承者が息抜きでキャンバスに想像を形にします。\n\nキャンバスには所持中のスプレーを表示します。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500002",
+    "collectible_item_name": "パガニーニの＜24の奇想曲＞を演奏する",
+    "collectible_item_description": "ラウンジに継承者を配置する際のモーションです。",
+    "collectible_item_narrative": "継承者が息抜きでヴァイオリンを弾き、パガニーニの楽曲を演奏します。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500003",
+    "collectible_item_name": "エルガーの＜愛の挨拶＞を演奏する",
+    "collectible_item_description": "ラウンジに継承者を配置する際のモーションです。",
+    "collectible_item_narrative": "継承者が息抜きでヴァイオリンを弾き、エルガーの楽曲を演奏します。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500004",
+    "collectible_item_name": "チャイコフスキーの＜ヴァイオリン協奏曲ニ長調 第3楽章＞を演奏する",
+    "collectible_item_description": "ラウンジに継承者を配置する際のモーションです。",
+    "collectible_item_narrative": "継承者が息抜きでヴァイオリンを弾き、チャイコフスキーの楽曲を演奏します。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500005",
+    "collectible_item_name": "本を読む",
+    "collectible_item_description": "ラウンジに継承者を配置する際のモーションです。",
+    "collectible_item_narrative": "継承者が息抜きで教養書を読みます。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500006",
+    "collectible_item_name": "キューブで遊ぶ",
+    "collectible_item_description": "ラウンジに継承者を配置する際のモーションです。",
+    "collectible_item_narrative": "継承者が集中力、問題解決能力、記憶力など、あらゆる認知能力の向上に励みます。もちろん休憩中なので、だらけることもあります。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500007",
+    "collectible_item_name": "お茶を味わう余裕",
+    "collectible_item_description": "ラウンジに継承者を配置する際のモーションです。",
+    "collectible_item_narrative": "作戦を遂行しても、しなくても、お茶を味わう余裕は必要です。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500009",
+    "collectible_item_name": "ぼんやりする",
+    "collectible_item_description": "ラウンジに継承者を配置する際のモーションです。",
+    "collectible_item_narrative": "継承者は今、頭を休ませています。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500010",
+    "collectible_item_name": "愉快なシャワー",
+    "collectible_item_description": "ラウンジに継承者を配置する際のモーションです。",
+    "collectible_item_narrative": "継承者がウキウキとシャワーを浴びます。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500011",
+    "collectible_item_name": "さわやかシャワー",
+    "collectible_item_description": "ラウンジに継承者を配置する際のモーションです。",
+    "collectible_item_narrative": "継承者が爽快にシャワーを浴びます。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500012",
+    "collectible_item_name": "シャワーに夢中",
+    "collectible_item_description": "ラウンジに継承者を配置する際のモーションです。",
+    "collectible_item_narrative": "継承者が疲れを洗い流すためにシャワーを浴びます。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500013",
+    "collectible_item_name": "うたた寝する",
+    "collectible_item_description": "ラウンジに継承者を配置する際のモーションです。",
+    "collectible_item_narrative": "継承者が疲労には勝てず、眠りにつきます。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500014",
+    "collectible_item_name": "身だしなみのチェック",
+    "collectible_item_description": "ラウンジに継承者を配置する際のモーションです。",
+    "collectible_item_narrative": "継承者が時間を割いて細かなところまで手入れします。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500018",
+    "collectible_item_name": "シャドーボクシング",
+    "collectible_item_description": "ラウンジに継承者を配置する際のモーションです。",
+    "collectible_item_narrative": "ガイドが姿を現わさないとき、たまに継承者がこんな行動をすることがあります。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500019",
+    "collectible_item_name": "腹筋運動",
+    "collectible_item_description": "ラウンジに継承者を配置する際のモーションです。",
+    "collectible_item_narrative": "継承者はコア筋肉トレーニングのために腹筋を鍛えます。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600001",
+    "collectible_item_name": "ガイドの基本形態",
+    "collectible_item_description": "ラウンジのガイドが設定した基本のビジュアル。",
+    "collectible_item_narrative": "継承者とのコミュニケーションのために設定された、ガイドの基本的な姿。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600002",
+    "collectible_item_name": "データの再構成",
+    "collectible_item_description": "ラウンジのガイドが再構成されたビジュアル。",
+    "collectible_item_narrative": "現代のアルビオンの衣装様式に合わせて再構成されたガイドの姿。ガイドはコミュニケーションの目的に応じて様々な形を取ることができるが、自らの外見を変える必要性を特に感じていないという。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600003",
+    "collectible_item_name": "ラウンジのガイド",
+    "collectible_item_description": "ラウンジのガイドが再構成されたビジュアル。",
+    "collectible_item_narrative": "継承者たちが心身を休めるように、リラックスした衣装に再構成されたガイドの姿。見た目にはあまり快適そうに見えないが、ガイドにとっては特に問題ではないようだ。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100004",
+    "collectible_item_name": "素朴なプレゼント",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "記念日に贈れそうなプレゼント。何か物足りない。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100005",
+    "collectible_item_name": "豪華なプレゼント",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "記念日に贈れそうなプレゼント。見ているだけで嬉しくなるほど大量だが、大事なのは何が一番大きいのかだ。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100006",
+    "collectible_item_name": "開かれたプレゼント",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "記念日に贈れそうなプレゼント。アナイスが先覚者装備の性能検証記念にブレアに贈ったもの。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100007",
+    "collectible_item_name": "封じられた形見",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "バニーの両親からの形見。バニーに残したものが封じられている。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100008",
+    "collectible_item_name": "開封した形見",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "バニーの両親からの形見。バニーはテディベアを見つめながら両親の心情を思い起こす。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100009",
+    "collectible_item_name": "カーネーションと形見",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "バニーの両親からの形見。バニーが形見にカーネーションを添えた。バニーはこの前で両親と過ごした幼年期の記憶を思い浮かべ、追憶にふける。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100013",
+    "collectible_item_name": "ぐちゃぐちゃスーツケース",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "バカンスに行く継承者のスーツケース。片付けておらず中身が散らかっている。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100014",
+    "collectible_item_name": "普通のスーツケース",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "バカンスに行く継承者のスーツケース。一見普通のスーツケース。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100015",
+    "collectible_item_name": "華やかスーツケース",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "バカンスに行く継承者のスーツケース。避暑地で派手に飾られた。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100016",
+    "collectible_item_name": "何か物足りない雪だるま家族",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "年末年始にアルビオンを訪ねた雪だるまの家族。何か物足りない。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100017",
+    "collectible_item_name": "仲良し雪だるま家族",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "年末年始にアルビオンを訪ねた雪だるまの家族。微笑みを見せている。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100018",
+    "collectible_item_name": "幸せいっぱい雪だるま家族",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "年末年始にアルビオンを訪ねた雪だるまの家族。これで年末年始をゆっくり過ごせる。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100019",
+    "collectible_item_name": "木の棺桶",
+    "collectible_item_description": "【期間限定】ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "ヴァンパイアの棺桶。落ちぶれた貴族のもの？",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100020",
+    "collectible_item_name": "鉄の棺桶",
+    "collectible_item_description": "【期間限定】ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "ヴァンパイアの棺桶。古い外見から見ると、そこそこ名のある貴族のものだったのかも。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100021",
+    "collectible_item_name": "金の棺桶",
+    "collectible_item_description": "【期間限定】ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "ヴァンパイアの棺桶。紛れもなく名高い貴族のもの。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100022",
+    "collectible_item_name": "何か物足りない記念樹",
+    "collectible_item_description": "【期間限定】ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "記念日を祝う樹木。何か物足りない。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100023",
+    "collectible_item_name": "平凡な記念樹",
+    "collectible_item_description": "【期間限定】ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "記念日を祝う樹木。記念日は楽しめるが、何か物足りない。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100024",
+    "collectible_item_name": "派手な記念樹",
+    "collectible_item_description": "【期間限定】ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "記念日を祝う樹木。見ているだけで嬉しくなる。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100025",
+    "collectible_item_name": "何か物足りないテラリウム",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "ヴォイドに汚染された土をアルビオンの工学技術で浄化した。まだ芽は出ていない。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100026",
+    "collectible_item_name": "平凡なテラリウム",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "ヴォイドに汚染された土をアルビオンの工学技術で浄化した。蕾の上からもっと伸びそう。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100027",
+    "collectible_item_name": "派手なテラリウム",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "ヴォイドに汚染された土をアルビオンの工学技術で浄化した。アルビオンの野花が満開して、新しい命が芽生えた。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100028",
+    "collectible_item_name": "何か物足りない戦術装甲車",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "継承者たちの行動範囲を広げる必須アイテム、戦術装甲車。何か物足りない。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100029",
+    "collectible_item_name": "平凡な戦術装甲車",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "継承者たちの行動範囲を広げる必須アイテム、戦術装甲車。使い道はどんな目的の部品を搭載するかで違ってくる。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100030",
+    "collectible_item_name": "完璧な戦術装甲車",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "継承者たちの行動範囲を広げる必須アイテム、戦術装甲車。迎撃に失敗した場合の巨神の侵入に備えて、対空砲を搭載した。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100031",
+    "collectible_item_name": "バニーパズル(はじまり)",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "バニーの素晴らしいシーンを込めたパズル。あまりピースがはまっていない。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100032",
+    "collectible_item_name": "バニーパズル(もう一息)",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "バニーの素晴らしいシーンを込めたパズル。あと少しで完成しそう。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100033",
+    "collectible_item_name": "バニーパズル(完成)",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "バニーの素晴らしいシーンを込めたパズル。バニーのファンなら絶対に入手しよう。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100034",
+    "collectible_item_name": "何か物足りないアップサイクル植木鉢",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "キングストンの兵士たちが農地テストのために軍需物資が入っていた空き箱で育てたもの。何か物足りない。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100035",
+    "collectible_item_name": "平凡なアップサイクル植木鉢",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "キングストンの兵士たちが農地テストのために軍需物資が入っていた空き箱で育てたもの。いい香りのハーブが芽吹いたが、今以上に大きくなりそう。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100036",
+    "collectible_item_name": "派手なアップサイクル植木鉢",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "キングストンの兵士たちが農地テストのために軍需物資が入っていた空き箱で育てたもの。兵士たちの努力が実り、ハーブも良質な土壌で花を咲かせてくれた。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100037",
+    "collectible_item_name": "何か物足りない屏風セット",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "キュートなイラストをあしらった屏風セット。何か物足りない。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100038",
+    "collectible_item_name": "平凡な屏風セット",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "キュートなイラストをあしらった屏風セット。あと少しで完成しそう。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100039",
+    "collectible_item_name": "豪華な屏風セット",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "キュートなイラストをあしらった屏風セット。灯籠がいい雰囲気を醸し出している。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100043",
+    "collectible_item_name": "何か物足りない陶器セット",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "多様な文化が交わるアルビオンで収集した陶器セット。何か物足りない。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100044",
+    "collectible_item_name": "平凡な陶器セット",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "多様な文化が交わるアルビオンで収集した陶器セット。あと少しで完成しそう。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100045",
+    "collectible_item_name": "豪華な陶器セット",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "多様な文化が交わるアルビオンで収集した陶器セット。青の高級顔料を使った陶器が古風な雰囲気を醸し出す。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100046",
+    "collectible_item_name": "何か物足りないランタンセット",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "ラウンジをまったりした感じにしてくれるランタンセット。何か物足りない。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100047",
+    "collectible_item_name": "平凡なランタンセット",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "ラウンジをまったりした感じにしてくれるランタンセット。あと少しで完成しそう。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100048",
+    "collectible_item_name": "豪華なランタンセット",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "ラウンジをまったりした感じにしてくれるランタンセット。三色の組み合わせがよく似合う。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100049",
+    "collectible_item_name": "何か物足りないサンベッド",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "パラダイスプールで使っていたものを模したサンベッドセット。何か物足りない。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100050",
+    "collectible_item_name": "平凡なサンベッド",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "パラダイスプールで使っていたものを模したサンベッドセット。あと少しで完成しそう。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100051",
+    "collectible_item_name": "豪華なサンベッド",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "パラダイスプールで使っていたものを模したサンベッドセット。避暑にもってこい。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100052",
+    "collectible_item_name": "戦術義手Mk.2",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "アルケードライブ技術を適用したレピック専用の義手。初期バージョンであり、日常生活で使えるほどのもの。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100053",
+    "collectible_item_name": "戦術義手Mk.7",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "アルケードライブ技術を適用したレピック専用の義手。初期バージョンの外骨格を補強したが、アルケー能力の最適化にはまだ物足りない。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100054",
+    "collectible_item_name": "戦術義手Mk.10",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "アルケードライブ技術を適用したレピック専用の義手。弾薬とグレネードに爆発性アルケーを注入できるよう製作された。ロケットパンチ機能は付いていない。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100055",
+    "collectible_item_name": "何か物足りない継承者アクセサリー陳列台",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "女性継承者たちのアクセサリー陳列台。アルビオン軍事大学の学生向け教材として使われるレプリカ。何か物足りない。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100056",
+    "collectible_item_name": "平凡な継承者アクセサリー陳列台",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "女性継承者たちのアクセサリー陳列台。アルビオン軍事大学の学生向け教材として使われるレプリカ。学生向け教材にふさわしいが、やはり物足りない。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100057",
+    "collectible_item_name": "豪華な継承者アクセサリー陳列台",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "女性継承者たちのアクセサリー陳列台。アルビオン軍事大学の学生向け教材として使われるレプリカ。教材を見た女性学生の継承者志望率が65%に急上昇するほど大人気。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100058",
+    "collectible_item_name": "平凡なプラウラーヘッド",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "シャレンが手を焼いたバルガスで、復讐に成功したシャレンが頭を預かっている。今は無傷の状態。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100059",
+    "collectible_item_name": "復讐心を煽るプラウラーヘッド",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "シャレンが手を焼いたバルガスで、復讐に成功したシャレンが頭を預かっている。ダガー跡から見ると憂さが晴れていないようだ。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100060",
+    "collectible_item_name": "復讐成功プラウラーヘッド",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "シャレンが手を焼いたバルガスで、復讐に成功したシャレンが頭を預かっている。今や彼女のダガーを刺すオブジェとなった。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100061",
+    "collectible_item_name": "ピストルケーキ(ピース)",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "ブレアが士気向上の目的で焼いたピストル風ケーキ。頑張り屋のブレアは形を取る前、敵に向けて銃器を存分に試しているらしい。今はレッドウルフのピースしかない。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100062",
+    "collectible_item_name": "ピストルケーキ(ハーフ)",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "ブレアが士気向上の目的で焼いたピストル風ケーキ。頑張り屋のブレアは形を取る前、敵に向けて銃器を存分に試しているらしい。今はレッドウルフ、ニュービギニングのピースがある。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100063",
+    "collectible_item_name": "ピストルケーキ(ホール)",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "ブレアが士気向上の目的で焼いたピストル風ケーキ。頑張り屋のブレアは形を取る前、敵に向けて銃器を存分に試しているらしい。レッドウルフ、ニュービギニング、ミレニアムフロストからなるホールケーキ。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100064",
+    "collectible_item_name": "空っぽなヘルメット水槽",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "バルビーは使えなくなったヘルメットを水槽にする。まだ底砂と水だけ。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100065",
+    "collectible_item_name": "平凡なヘルメット水槽",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "バルビーは使えなくなったヘルメットを水槽にする。水藻でそれっぽい環境を作った。もう魚を入れるだけ。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100066",
+    "collectible_item_name": "豪華なヘルメット水槽",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "バルビーは使えなくなったヘルメットを水槽にする。水中を泳ぐ魚に自分を重ねることも。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100067",
+    "collectible_item_name": "何か物足りないマスク陳列台",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "継承者たちのマスク陳列台。アルビオン軍事大学の学生向け教材として使われるレプリカ。何か物足りない。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100068",
+    "collectible_item_name": "平凡なマスク陳列台",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "継承者たちのマスク陳列台。アルビオン軍事大学の学生向け教材として使われるレプリカ。学生向け教材にふさわしいが、やはり物足りない。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100069",
+    "collectible_item_name": "豪華なマスク陳列台",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "継承者たちのマスク陳列台。アルビオン軍事大学の学生向け教材として使われるレプリカ。学生にアンケートを取った結果、継承者になったらマスクを被りたいかという質問に、60%が「とてもそう思う」と答えた。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100070",
+    "collectible_item_name": "平凡なヘッドセット陳列台",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "ルーナが使うヘッドセットと陳列台。珍しくどこか地味だ。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100071",
+    "collectible_item_name": "独特なヘッドセット陳列台",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "ルーナが使うヘッドセットと陳列台。さすがルーナ！一癖も二癖もある。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100072",
+    "collectible_item_name": "きらびやかなヘッドセット陳列台",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "ルーナが使うヘッドセットと陳列台。ヘッドセットのデザインもさることながら、それぞれ専用スタンドも備えているところがルーナらしい。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100073",
+    "collectible_item_name": "空っぽなスコープスタンド",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "ヘイリーはこのスタンドに満足できるほどに熟練度を上げた武器スコープだけを飾ることにした。第33狙撃隊時代は空っぽだった。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100074",
+    "collectible_item_name": "平凡なスコープスタンド",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "ヘイリーはこのスタンドに満足できるほどに熟練度を上げた武器スコープだけを飾ることにした。継承者に抜擢されてから専用武器のスコープを飾った。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100075",
+    "collectible_item_name": "豪華なスコープスタンド",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "ヘイリーはこのスタンドに満足できるほどに熟練度を上げた武器スコープだけを飾ることにした。専用武器の他にもアフターグロウソード、ピアシングライトのスコープを飾った。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100076",
+    "collectible_item_name": "何か物足りないアイウェア陳列台",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "案外派手なものが好きなグライのアイウェア陳列台。まだガラガラで物足りない。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100077",
+    "collectible_item_name": "平凡なアイウェア陳列台",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "案外派手なものが好きなグライのアイウェア陳列台。半分は埋まった。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100078",
+    "collectible_item_name": "豪華なアイウェア陳列台",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "案外派手なものが好きなグライのアイウェア陳列台。ここで観賞用は1つもない。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100079",
+    "collectible_item_name": "エクソシスターMk.1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "セレナが使う光粒子放出強化服で、かつてのマジスター技術によって作られた。Mk.1で継承者とのアルケー連動システムを搭載した。まだ羽装飾は付いていない。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100080",
+    "collectible_item_name": "エクソシスターMk.2",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "セレナが使う光粒子放出強化服で、かつてのマジスター技術によって作られた。Mk.2で羽装飾を付けた完成品となった。当然ながら、展開動作は自分でチェックしなければならない。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100081",
+    "collectible_item_name": "エクソシスターMk.2展開バージョン",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "セレナが使う光粒子放出強化服で、かつてのマジスター技術によって作られた。Mk.2で羽装飾を付けた完成品となった。展開動作もバッチリ。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100085",
+    "collectible_item_name": "貧相な悪霊除けランプ",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "悪霊が近づくことを防ぐべく製作したランプ。まだ悪霊には効かなそう。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100086",
+    "collectible_item_name": "平凡な悪霊除けランプ",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "悪霊が近づくことを防ぐべく製作したランプ。悪霊除けにブレアレシピのハーブキャンディを詰め込んだが、まだ物足りない。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100087",
+    "collectible_item_name": "完璧な悪霊除けランプ",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "悪霊が近づくことを防ぐべく製作したランプ。ブレア特製イングルクッキーとハーブキャンディでいっぱい。これで悪霊なんか近寄らなそう。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100088",
+    "collectible_item_name": "貧相な指揮コンソール",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "アルビオン作戦司令室で使用する指揮コンソール。指揮を取るには物足りない。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100089",
+    "collectible_item_name": "平凡な指揮コンソール",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "アルビオン作戦司令室で使用する指揮コンソール。基本的な指揮ならできるが、継承者の命に関わる作戦に使うには今ひとつ。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100090",
+    "collectible_item_name": "完璧な指揮コンソール",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "アルビオン作戦司令室で使用する指揮コンソール。継承者の命を担保にした作戦にも十分使える。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100091",
+    "collectible_item_name": "空っぽの99年もののアルビオン",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "100年前のアルビオン建立を記念し、その翌年からオーク樽で99年間熟成させた蒸留酒。当然、マジスターの技術力によるものであるが、誰かがその価値に気づいたらしい。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100092",
+    "collectible_item_name": "何か物足りない99年もののアルビオン",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "100年前のアルビオン建立を記念し、その翌年からオーク樽で99年間熟成させた蒸留酒。当然、マジスターの技術力によるものであるが、パッケージすらレア物扱いされている。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100093",
+    "collectible_item_name": "まともな99年もののアルビオン",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "100年前のアルビオン建立を記念し、その翌年からオーク樽で99年間熟成させた蒸留酒。当然、マジスターの技術力によるものであるが、アルビオンの名ブランドとしてのヘリテージを感じられる。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100094",
+    "collectible_item_name": "空っぽの07年産アルビオン",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "戦線の兵士たちに大人気の蒸留酒で、褒賞として授与されるものとして知られている。ブレアのおかげでキングストンの兵士たちへの待遇が改善された成果と言える。ただし、中身は空っぽだが。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100095",
+    "collectible_item_name": "残された07年産アルビオン",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "戦線の兵士たちに大人気の蒸留酒で、褒賞として授与されるものとして知られている。ブレアのおかげでキングストンの兵士たちへの待遇が改善された成果と言える。褒賞を受けた者が一気飲みに失敗したようだ。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100096",
+    "collectible_item_name": "まともな07年産アルビオン",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "戦線の兵士たちに大人気の蒸留酒で、褒賞として授与されるものとして知られている。ブレアのおかげでキングストンの兵士たちへの待遇が改善された成果と言える。まともなものを授与された者が当日におごる慣例がある。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266200001",
+    "collectible_item_name": "奨励トロフィー：ヴォイド迎撃戦",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "貴殿は確固とした安保観と使命感により\n与えられた迎撃ミッションをそつなく完遂した。その功績を認め\nここに表彰する。\n\n-作戦司令官-",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266200002",
+    "collectible_item_name": "優秀トロフィー：ヴォイド迎撃戦",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "貴殿は模範的な戦闘力と責任感により\n与えられた迎撃ミッションを立派に完遂した。その大きな功績を\nここに表彰する。\n\n-作戦司令官-",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266200003",
+    "collectible_item_name": "最優秀トロフィー：ヴォイド迎撃戦",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "貴殿は不屈の精神力と作戦遂行能力により\n与えられた迎撃ミッションを見事に完遂した。その大きな功績を\nここに表彰する。\n\n-作戦司令官-",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300001",
+    "collectible_item_name": "レピック(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300002",
+    "collectible_item_name": "レピック(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300003",
+    "collectible_item_name": "レピック(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300004",
+    "collectible_item_name": "エイジャックス(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300005",
+    "collectible_item_name": "エイジャックス(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300006",
+    "collectible_item_name": "エイジャックス(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300007",
+    "collectible_item_name": "ビエッサー(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300008",
+    "collectible_item_name": "ビエッサー(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300009",
+    "collectible_item_name": "ビエッサー(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300010",
+    "collectible_item_name": "バニー(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300011",
+    "collectible_item_name": "バニー(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300012",
+    "collectible_item_name": "バニー(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300013",
+    "collectible_item_name": "ジェイバー(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300014",
+    "collectible_item_name": "ジェイバー(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300015",
+    "collectible_item_name": "ジェイバー(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300016",
+    "collectible_item_name": "フレイナ(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300017",
+    "collectible_item_name": "フレイナ(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300018",
+    "collectible_item_name": "フレイナ(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300019",
+    "collectible_item_name": "グライ(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300020",
+    "collectible_item_name": "グライ(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300021",
+    "collectible_item_name": "グライ(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300022",
+    "collectible_item_name": "シャレン(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300023",
+    "collectible_item_name": "シャレン(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300024",
+    "collectible_item_name": "シャレン(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300025",
+    "collectible_item_name": "ブレア(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300026",
+    "collectible_item_name": "ブレア(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300027",
+    "collectible_item_name": "ブレア(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300028",
+    "collectible_item_name": "バルビー(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300029",
+    "collectible_item_name": "バルビー(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300030",
+    "collectible_item_name": "バルビー(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300031",
+    "collectible_item_name": "カイル(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300032",
+    "collectible_item_name": "カイル(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300033",
+    "collectible_item_name": "カイル(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300034",
+    "collectible_item_name": "エシモ(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300035",
+    "collectible_item_name": "エシモ(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300036",
+    "collectible_item_name": "エシモ(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300037",
+    "collectible_item_name": "エンゾ(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300038",
+    "collectible_item_name": "エンゾ(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300039",
+    "collectible_item_name": "エンゾ(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300040",
+    "collectible_item_name": "ユジン(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300041",
+    "collectible_item_name": "ユジン(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300042",
+    "collectible_item_name": "ユジン(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300043",
+    "collectible_item_name": "ルーナ(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300044",
+    "collectible_item_name": "ルーナ(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300045",
+    "collectible_item_name": "ルーナ(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300046",
+    "collectible_item_name": "ヘイリー(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300047",
+    "collectible_item_name": "ヘイリー(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300048",
+    "collectible_item_name": "ヘイリー(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300049",
+    "collectible_item_name": "キーラン(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300050",
+    "collectible_item_name": "キーラン(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300051",
+    "collectible_item_name": "キーラン(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300052",
+    "collectible_item_name": "イネス(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300053",
+    "collectible_item_name": "イネス(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300054",
+    "collectible_item_name": "イネス(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300055",
+    "collectible_item_name": "セレナ(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300056",
+    "collectible_item_name": "セレナ(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300057",
+    "collectible_item_name": "セレナ(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300058",
+    "collectible_item_name": "ネール(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300059",
+    "collectible_item_name": "ネール(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300060",
+    "collectible_item_name": "ネール(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300062",
+    "collectible_item_name": "ビエッサー(S) - パラダイス1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300065",
+    "collectible_item_name": "バニー(S) - パラダイス1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300068",
+    "collectible_item_name": "フレイナ(S) - パラダイス1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300071",
+    "collectible_item_name": "グライ(S) - パラダイス1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300074",
+    "collectible_item_name": "シャレン(S) - パラダイス1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300077",
+    "collectible_item_name": "バルビー(S) - パラダイス1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300080",
+    "collectible_item_name": "ルーナ(S) - パラダイス1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300083",
+    "collectible_item_name": "ヘイリー(S) - パラダイス1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300086",
+    "collectible_item_name": "イネス(S) - パラダイス1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300089",
+    "collectible_item_name": "セレナ(S) - パラダイス1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300091",
+    "collectible_item_name": "ガイド(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300092",
+    "collectible_item_name": "ガイド(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300093",
+    "collectible_item_name": "ガイド(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300094",
+    "collectible_item_name": "ジェレミー(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300095",
+    "collectible_item_name": "ジェレミー(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300096",
+    "collectible_item_name": "ジェレミー(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300097",
+    "collectible_item_name": "ハギオス・シープドッグ(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300098",
+    "collectible_item_name": "ハギオス・シープドッグ(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300099",
+    "collectible_item_name": "ハギオス・シープドッグ(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300100",
+    "collectible_item_name": "ベスパーズ・ハンティングドッグ(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300101",
+    "collectible_item_name": "ベスパーズ・ハンティングドッグ(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300102",
+    "collectible_item_name": "ベスパーズ・ハンティングドッグ(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300103",
+    "collectible_item_name": "スノースレッドドッグ(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300104",
+    "collectible_item_name": "スノースレッドドッグ(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300105",
+    "collectible_item_name": "スノースレッドドッグ(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300106",
+    "collectible_item_name": "カレル：暗黒の軍団長(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300107",
+    "collectible_item_name": "カレル：暗黒の軍団長(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300108",
+    "collectible_item_name": "カレル：暗黒の軍団長(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300109",
+    "collectible_item_name": "スード：不滅の軍団の指揮官(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300110",
+    "collectible_item_name": "スード：不滅の軍団の指揮官(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300111",
+    "collectible_item_name": "スード：不滅の軍団の指揮官(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300112",
+    "collectible_item_name": "量産兵：暗黒の軍団(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300113",
+    "collectible_item_name": "量産兵：暗黒の軍団(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300114",
+    "collectible_item_name": "量産兵：暗黒の軍団(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300115",
+    "collectible_item_name": "ブレイザー：真理の教団(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300116",
+    "collectible_item_name": "ブレイザー：真理の教団(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300117",
+    "collectible_item_name": "ブレイザー：真理の教団(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300118",
+    "collectible_item_name": "サードアイ：不滅の軍団(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300119",
+    "collectible_item_name": "サードアイ：不滅の軍団(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300120",
+    "collectible_item_name": "サードアイ：不滅の軍団(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300122",
+    "collectible_item_name": "バニー(M) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300124",
+    "collectible_item_name": "グレイブ・ウォーカー(M) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300125",
+    "collectible_item_name": "グレイブ・ウォーカー(M) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300126",
+    "collectible_item_name": "グレイブ・ウォーカー(M) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300128",
+    "collectible_item_name": "エクスキューショナー(M) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300131",
+    "collectible_item_name": "デッドブライド(M) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300133",
+    "collectible_item_name": "バニー(S) - ハロウィン1",
+    "collectible_item_description": "【期間限定】ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300134",
+    "collectible_item_name": "グライ(S) - ハロウィン1",
+    "collectible_item_description": "【期間限定】ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300135",
+    "collectible_item_name": "シャレン(S) - ハロウィン1",
+    "collectible_item_description": "【期間限定】ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300136",
+    "collectible_item_name": "ヘイリー(S) - ハロウィン1",
+    "collectible_item_description": "【期間限定】ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300137",
+    "collectible_item_name": "イネス(S) - ハロウィン1",
+    "collectible_item_description": "【期間限定】ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300138",
+    "collectible_item_name": "セレナ(S) - ハロウィン1",
+    "collectible_item_description": "【期間限定】ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300139",
+    "collectible_item_name": "ネール(S) - ハロウィン1",
+    "collectible_item_description": "【期間限定】ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300140",
+    "collectible_item_name": "エシモ(S) - ハロウィン1",
+    "collectible_item_description": "【期間限定】ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300141",
+    "collectible_item_name": "ユジン(S) - アルビオン騎士団1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300142",
+    "collectible_item_name": "ハリス(S) - アルビオン騎士団1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300143",
+    "collectible_item_name": "ビエッサー(S) - ウィンターフェスティバル1",
+    "collectible_item_description": "【期間限定】ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300144",
+    "collectible_item_name": "グライ(S) - ウィンターフェスティバル1",
+    "collectible_item_description": "【期間限定】ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300145",
+    "collectible_item_name": "フレイナ(S) - ウィンターフェスティバル1",
+    "collectible_item_description": "【期間限定】ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300147",
+    "collectible_item_name": "セレナ(S) - ウィンターフェスティバル1",
+    "collectible_item_description": "【期間限定】ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300148",
+    "collectible_item_name": "ジェイバー(S) - ウィンターフェスティバル1",
+    "collectible_item_description": "【期間限定】ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300149",
+    "collectible_item_name": "ビエッサー(S) - アイドル1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300150",
+    "collectible_item_name": "バニー(S) - アイドル1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300151",
+    "collectible_item_name": "フレイナ(S) - アイドル1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300152",
+    "collectible_item_name": "グライ(S) - アイドル1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300153",
+    "collectible_item_name": "シャレン(S) - アイドル1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300154",
+    "collectible_item_name": "バルビー(S) - アイドル1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300155",
+    "collectible_item_name": "ルーナ(S) - アイドル1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300156",
+    "collectible_item_name": "ヘイリー(S) - アイドル1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300157",
+    "collectible_item_name": "イネス(S) - アイドル1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300158",
+    "collectible_item_name": "セレナ(S) - アイドル1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300159",
+    "collectible_item_name": "ネール(S) - アイドル1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300160",
+    "collectible_item_name": "ハリス(S) - アイドル1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300161",
+    "collectible_item_name": "ルーナ(M) - ムーンライトステージ1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300162",
+    "collectible_item_name": "ハリス(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300163",
+    "collectible_item_name": "ハリス(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300164",
+    "collectible_item_name": "ハリス(S) - クラシック1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300165",
+    "collectible_item_name": "レピック(S) - スキル1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300166",
+    "collectible_item_name": "レピック(S) - スキル1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300167",
+    "collectible_item_name": "レピック(S) - スキル1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300168",
+    "collectible_item_name": "エイジャックス(S) - スキル1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300169",
+    "collectible_item_name": "エイジャックス(S) - スキル1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300170",
+    "collectible_item_name": "エイジャックス(S) - スキル1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "純金で製作したフィギュア。戦場で活躍する継承者たちの功績を讃えるために作られた司令部の特製品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300171",
+    "collectible_item_name": "ビエッサー(S) - スキル1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "塗料の供給が足りず、ごく一部だけを塗装したフィギュア。野外活動のできない市民、軍事大学の学生の教材として使われるので在庫が多い。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300172",
+    "collectible_item_name": "ビエッサー(S) - スキル1",
+    "collectible_item_description": "ラウンジに配置できる収集品です。",
+    "collectible_item_narrative": "原型そっくりに製作したフィギュア。軍事大学に入学した学生の教材にするため、リアリティを高めた。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  }
+]

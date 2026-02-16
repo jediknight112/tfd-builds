@@ -1,5 +1,4 @@
 import { state } from '../state.js';
-import { getTierDisplayName } from '../config.js';
 import { UIComponents } from '../ui-components.js';
 
 export class ExternalComponentSelector {
@@ -66,7 +65,10 @@ export class ExternalComponentSelector {
     // Filter external components
     let filteredComponents = state.externalComponents.filter((component) => {
       // Filter by equipment type
-      if (component.external_component_equipment_type !== equipmentType) {
+      if (
+        component.external_component_equipment_type !==
+        state.getLocalizedEquipmentType(equipmentType)
+      ) {
         return false;
       }
 
@@ -152,7 +154,7 @@ export class ExternalComponentSelector {
           >
           <div class="flex-1 min-w-0">
             <h4 class="font-bold text-cyber-cyan line-clamp-2 mb-1">${component.external_component_name}</h4>
-            ${component.external_component_tier_id ? `<span class="inline-block px-2 py-0.5 rounded-sm text-xs font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${getTierDisplayName(component.external_component_tier_id)}</span>` : ''}
+            ${component.external_component_tier_id ? `<span class="inline-block px-2 py-0.5 rounded-sm text-xs font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${state.getTierDisplayName(component.external_component_tier_id)}</span>` : ''}
           </div>
         </div>
         
@@ -267,7 +269,7 @@ export class ExternalComponentSelector {
             <div class="flex-1 min-w-0">
               <div class="text-steel-grey text-xs mb-1">${equipmentType}</div>
               <h4 class="font-bold text-cyber-cyan mb-1">${component.external_component_name}</h4>
-              ${component.external_component_tier_id ? `<span class="inline-block px-2 py-0.5 rounded-sm text-xs font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${getTierDisplayName(component.external_component_tier_id)}</span>` : ''}
+              ${component.external_component_tier_id ? `<span class="inline-block px-2 py-0.5 rounded-sm text-xs font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${state.getTierDisplayName(component.external_component_tier_id)}</span>` : ''}
             </div>
             <button 
               onclick="app.externalComponentSelector.openExternalComponentSelector('${equipmentType}')"

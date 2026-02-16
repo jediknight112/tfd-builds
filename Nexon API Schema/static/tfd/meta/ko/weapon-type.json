@@ -1,0 +1,62 @@
+[
+  {
+    "weapon_type": "All",
+    "weapon_type_name": "무기: 전체"
+  },
+  {
+    "weapon_type": "WeaponMeleeBalanced",
+    "weapon_type_name": "밸런스형 근접 무기"
+  },
+  {
+    "weapon_type": "WeaponMeleePower",
+    "weapon_type_name": "파워형 근접 무기"
+  },
+  {
+    "weapon_type": "WeaponMeleeSpeed",
+    "weapon_type_name": "속도형 근접 무기"
+  },
+  {
+    "weapon_type": "WeaponAssaultRifle",
+    "weapon_type_name": "돌격소총"
+  },
+  {
+    "weapon_type": "WeaponBeamRifle",
+    "weapon_type_name": "광선소총"
+  },
+  {
+    "weapon_type": "WeaponHandCannon",
+    "weapon_type_name": "핸드 캐논"
+  },
+  {
+    "weapon_type": "WeaponHandGun",
+    "weapon_type_name": "권총"
+  },
+  {
+    "weapon_type": "WeaponLauncher",
+    "weapon_type_name": "런처"
+  },
+  {
+    "weapon_type": "WeaponMachineGun",
+    "weapon_type_name": "기관총"
+  },
+  {
+    "weapon_type": "WeaponScoutRifle",
+    "weapon_type_name": "정찰소총"
+  },
+  {
+    "weapon_type": "WeaponShotGun",
+    "weapon_type_name": "산탄총"
+  },
+  {
+    "weapon_type": "WeaponSniperRifle",
+    "weapon_type_name": "저격총"
+  },
+  {
+    "weapon_type": "WeaponSubMachineGun",
+    "weapon_type_name": "기관단총"
+  },
+  {
+    "weapon_type": "WeaponTacticalRifle",
+    "weapon_type_name": "전술소총"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "tier_id": "All",
+    "tier_name": "등급: 전체"
+  },
+  {
+    "tier_id": "Tier1",
+    "tier_name": "일반"
+  },
+  {
+    "tier_id": "Tier2",
+    "tier_name": "희귀"
+  },
+  {
+    "tier_id": "Tier3",
+    "tier_name": "궁극"
+  },
+  {
+    "tier_id": "Tier4",
+    "tier_name": "초월"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "weapon_type": "All",
+    "weapon_type_name": "Broń: wszystko"
+  },
+  {
+    "weapon_type": "WeaponMeleeBalanced",
+    "weapon_type_name": "Zbalansowana broń do walki wręcz"
+  },
+  {
+    "weapon_type": "WeaponMeleePower",
+    "weapon_type_name": "Potężna broń do walki wręcz"
+  },
+  {
+    "weapon_type": "WeaponMeleeSpeed",
+    "weapon_type_name": "Szybka broń do walki wręcz"
+  },
+  {
+    "weapon_type": "WeaponAssaultRifle",
+    "weapon_type_name": "Karabin szturmowy"
+  },
+  {
+    "weapon_type": "WeaponBeamRifle",
+    "weapon_type_name": "Karabin laserowy"
+  },
+  {
+    "weapon_type": "WeaponHandCannon",
+    "weapon_type_name": "Działko ręczne"
+  },
+  {
+    "weapon_type": "WeaponHandGun",
+    "weapon_type_name": "Broń krótka"
+  },
+  {
+    "weapon_type": "WeaponLauncher",
+    "weapon_type_name": "Wyrzutnia"
+  },
+  {
+    "weapon_type": "WeaponMachineGun",
+    "weapon_type_name": "Karabin maszynowy"
+  },
+  {
+    "weapon_type": "WeaponScoutRifle",
+    "weapon_type_name": "Karabin zwiadowczy"
+  },
+  {
+    "weapon_type": "WeaponShotGun",
+    "weapon_type_name": "Strzelba"
+  },
+  {
+    "weapon_type": "WeaponSniperRifle",
+    "weapon_type_name": "Karabin snajperski"
+  },
+  {
+    "weapon_type": "WeaponSubMachineGun",
+    "weapon_type_name": "Pistolet maszynowy"
+  },
+  {
+    "weapon_type": "WeaponTacticalRifle",
+    "weapon_type_name": "Karabin taktyczny"
+  }
+]

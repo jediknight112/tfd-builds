@@ -1,0 +1,22 @@
+[
+  {
+    "tier_id": "All",
+    "tier_name": "Seltenheit: Alle"
+  },
+  {
+    "tier_id": "Tier1",
+    "tier_name": "Normal"
+  },
+  {
+    "tier_id": "Tier2",
+    "tier_name": "Selten"
+  },
+  {
+    "tier_id": "Tier3",
+    "tier_name": "Ultimate"
+  },
+  {
+    "tier_id": "Tier4",
+    "tier_name": "Transzendent"
+  }
+]

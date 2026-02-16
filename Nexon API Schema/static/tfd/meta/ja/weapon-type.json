@@ -1,0 +1,62 @@
+[
+  {
+    "weapon_type": "All",
+    "weapon_type_name": "武器：全て"
+  },
+  {
+    "weapon_type": "WeaponMeleeBalanced",
+    "weapon_type_name": "バランス型近接武器"
+  },
+  {
+    "weapon_type": "WeaponMeleePower",
+    "weapon_type_name": "パワー型近接武器"
+  },
+  {
+    "weapon_type": "WeaponMeleeSpeed",
+    "weapon_type_name": "スピード型近接武器"
+  },
+  {
+    "weapon_type": "WeaponAssaultRifle",
+    "weapon_type_name": "アサルトライフル"
+  },
+  {
+    "weapon_type": "WeaponBeamRifle",
+    "weapon_type_name": "ビームライフル"
+  },
+  {
+    "weapon_type": "WeaponHandCannon",
+    "weapon_type_name": "ハンドキャノン"
+  },
+  {
+    "weapon_type": "WeaponHandGun",
+    "weapon_type_name": "ピストル"
+  },
+  {
+    "weapon_type": "WeaponLauncher",
+    "weapon_type_name": "ランチャー"
+  },
+  {
+    "weapon_type": "WeaponMachineGun",
+    "weapon_type_name": "マシンガン"
+  },
+  {
+    "weapon_type": "WeaponScoutRifle",
+    "weapon_type_name": "スカウトライフル"
+  },
+  {
+    "weapon_type": "WeaponShotGun",
+    "weapon_type_name": "ショットガン"
+  },
+  {
+    "weapon_type": "WeaponSniperRifle",
+    "weapon_type_name": "スナイパーライフル"
+  },
+  {
+    "weapon_type": "WeaponSubMachineGun",
+    "weapon_type_name": "サブマシンガン"
+  },
+  {
+    "weapon_type": "WeaponTacticalRifle",
+    "weapon_type_name": "タクティカルライフル"
+  }
+]

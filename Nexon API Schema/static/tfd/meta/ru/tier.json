@@ -1,0 +1,22 @@
+[
+  {
+    "tier_id": "All",
+    "tier_name": "Категория: все"
+  },
+  {
+    "tier_id": "Tier1",
+    "tier_name": "Обычный"
+  },
+  {
+    "tier_id": "Tier2",
+    "tier_name": "Редкий"
+  },
+  {
+    "tier_id": "Tier3",
+    "tier_name": "Великолепный"
+  },
+  {
+    "tier_id": "Tier4",
+    "tier_name": "Превосходный"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "weapon_type": "All",
+    "weapon_type_name": "Arma: tudo"
+  },
+  {
+    "weapon_type": "WeaponMeleeBalanced",
+    "weapon_type_name": "Arma Corpo a Corpo Equilibrada"
+  },
+  {
+    "weapon_type": "WeaponMeleePower",
+    "weapon_type_name": "Arma Corpo a Corpo Poderosa"
+  },
+  {
+    "weapon_type": "WeaponMeleeSpeed",
+    "weapon_type_name": "Arma Corpo a Corpo de Velocidade"
+  },
+  {
+    "weapon_type": "WeaponAssaultRifle",
+    "weapon_type_name": "Rifle de Assalto"
+  },
+  {
+    "weapon_type": "WeaponBeamRifle",
+    "weapon_type_name": "Fuzil Laser"
+  },
+  {
+    "weapon_type": "WeaponHandCannon",
+    "weapon_type_name": "Canhão de Mão"
+  },
+  {
+    "weapon_type": "WeaponHandGun",
+    "weapon_type_name": "Pistola"
+  },
+  {
+    "weapon_type": "WeaponLauncher",
+    "weapon_type_name": "Lançador"
+  },
+  {
+    "weapon_type": "WeaponMachineGun",
+    "weapon_type_name": "Metralhadora"
+  },
+  {
+    "weapon_type": "WeaponScoutRifle",
+    "weapon_type_name": "Rifle de Reconhecimento"
+  },
+  {
+    "weapon_type": "WeaponShotGun",
+    "weapon_type_name": "Escopeta"
+  },
+  {
+    "weapon_type": "WeaponSniperRifle",
+    "weapon_type_name": "Rifle de Precisão"
+  },
+  {
+    "weapon_type": "WeaponSubMachineGun",
+    "weapon_type_name": "Submetralhadora"
+  },
+  {
+    "weapon_type": "WeaponTacticalRifle",
+    "weapon_type_name": "Rifle Tático"
+  }
+]

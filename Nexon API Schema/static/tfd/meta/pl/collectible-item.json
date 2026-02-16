@@ -1,0 +1,3936 @@
+[
+  {
+    "collectible_item_id": "266300173",
+    "collectible_item_name": "Viessa (S) – Umiejętność 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Stworzona przez dowództwo, aby wyróżnić Potomków, którzy niestrudzenie walczyli na polu bitwy.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300174",
+    "collectible_item_name": "Bunny (S) – Umiejętność 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300175",
+    "collectible_item_name": "Bunny (S) – Umiejętność 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300176",
+    "collectible_item_name": "Bunny (S) – Umiejętność 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Stworzona przez dowództwo, aby wyróżnić Potomków, którzy niestrudzenie walczyli na polu bitwy.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300198",
+    "collectible_item_name": "Amon: generał Legionu Nieśmiertelności (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300199",
+    "collectible_item_name": "Amon: generał Legionu Nieśmiertelności (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300200",
+    "collectible_item_name": "Amon: generał Legionu Nieśmiertelności (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Stworzona przez dowództwo, aby wyróżnić Potomków, którzy niestrudzenie walczyli na polu bitwy.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300345",
+    "collectible_item_name": "Dia (S) – Mundur Alpha 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300347",
+    "collectible_item_name": "Ajax (S) – Mundur Alpha 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300348",
+    "collectible_item_name": "Wzór Elias (M) – Sektor Sigma 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400001",
+    "collectible_item_name": "Wąwóz Białej Nocy – Dolina Księżycowego Grobu",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Według pewnej teorii dziury rozsiane po tym paśmie górskim zostały stworzone przez Architektów. Ale nie zostało to jeszcze potwierdzone.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size4",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400004",
+    "collectible_item_name": "Miejsce bitwy przechwycenia w Otchłani",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Otchłań to miejsce, którego czasoprzestrzeń zaprzecza logice. To tam właśnie wybierają się Potomkowie, by przechwytywać kolosy zmierzające w stronę Ingris.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400005",
+    "collectible_item_name": "Rajski Basen",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Rajski Basen został zbudowany w Albionie w 2. odcinku 2. sezonu. Instruktor Potomków pracuje tam jako barman.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400006",
+    "collectible_item_name": "Upiorny ogród",
+    "collectible_item_description": "[Ograniczony czasowo] Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Ogród stworzony z okazji sezonu Halloween w 2025 roku.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400007",
+    "collectible_item_name": "Zimowy Festiwal Albionu",
+    "collectible_item_description": "[Ograniczony czasowo] Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Ogród został udekorowany w związku z nadchodzącym Zimowym Festiwalem 2025. Nadal gdzieś się tu kręci Potomek przebrany za bałwana.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400008",
+    "collectible_item_name": "Koncert zespołu Crescent",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Scena zespołu Crescent, którego członkowie będą już zawsze występować z Luną.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size4",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500001",
+    "collectible_item_name": "Malowanie",
+    "collectible_item_description": "Ruch używany przy umieszczaniu Potomka w salonie.",
+    "collectible_item_narrative": "Potomek może przy płótnie puścić wodze wyobraźni, aby oczyścić swój umysł.\n\nMożna na płótnie umieścić posiadane spraye.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500002",
+    "collectible_item_name": "Gra „Kaprys nr 24” Paganiniego",
+    "collectible_item_description": "Ruch używany przy umieszczaniu Potomka w salonie.",
+    "collectible_item_narrative": "Potomek gra na skrzypcach utwór Paganiniego, aby oczyścić swój umysł.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500003",
+    "collectible_item_name": "Gra „Salut d’Amour” Elgara",
+    "collectible_item_description": "Ruch używany przy umieszczaniu Potomka w salonie.",
+    "collectible_item_narrative": "Potomek gra na skrzypcach utwór Elgara, aby oczyścić swój umysł.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500004",
+    "collectible_item_name": "Gra „Koncert skrzypcowy, cz. III” Czajkowskiego",
+    "collectible_item_description": "Ruch używany przy umieszczaniu Potomka w salonie.",
+    "collectible_item_narrative": "Potomek gra na skrzypcach utwór Czajkowskiego, aby oczyścić swój umysł.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500005",
+    "collectible_item_name": "Czyta",
+    "collectible_item_description": "Ruch używany przy umieszczaniu Potomka w salonie.",
+    "collectible_item_narrative": "Potomek czyta książki edukacyjne, aby oczyścić swój umysł.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500006",
+    "collectible_item_name": "Kostka",
+    "collectible_item_description": "Ruch używany przy umieszczaniu Potomka w salonie.",
+    "collectible_item_narrative": "Potomek próbuje rozwinąć swój umysł, pracując nad koncentracją, pamięcią oraz zdolnością rozwiązywania problemów. A może po prostu się wygłupia w czasie przerwy.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500007",
+    "collectible_item_name": "Przerwa na herbatkę",
+    "collectible_item_description": "Ruch używany przy umieszczaniu Potomka w salonie.",
+    "collectible_item_narrative": "Przed operacjami i po ich zakończeniu każdy Potomek potrzebuje chwili na filiżankę herbaty.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500009",
+    "collectible_item_name": "Rozproszenie",
+    "collectible_item_description": "Ruch używany przy umieszczaniu Potomka w salonie.",
+    "collectible_item_narrative": "Potomek ofiarowuje swojemu umysłowi dar odpoczynku.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500010",
+    "collectible_item_name": "Wesoły prysznic",
+    "collectible_item_description": "Ruch używany przy umieszczaniu Potomka w salonie.",
+    "collectible_item_narrative": "Potomek bierze wesoły prysznic.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500011",
+    "collectible_item_name": "Odświeżający prysznic",
+    "collectible_item_description": "Ruch używany przy umieszczaniu Potomka w salonie.",
+    "collectible_item_narrative": "Potomek bierze odświeżający prysznic.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500012",
+    "collectible_item_name": "Przyjemny prysznic",
+    "collectible_item_description": "Ruch używany przy umieszczaniu Potomka w salonie.",
+    "collectible_item_narrative": "Potomek bierze prysznic, aby zaradzić zmęczeniu.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500013",
+    "collectible_item_name": "Szybka drzemka",
+    "collectible_item_description": "Ruch używany przy umieszczaniu Potomka w salonie.",
+    "collectible_item_narrative": "Przytłoczony zmęczeniem Potomek ucina sobie krótką drzemkę.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500014",
+    "collectible_item_name": "Dbanie o siebie",
+    "collectible_item_description": "Ruch używany przy umieszczaniu Potomka w salonie.",
+    "collectible_item_narrative": "Potomek wykorzystuje wolny czas, aby zadbać o szczegóły.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500018",
+    "collectible_item_name": "Walka z cieniem",
+    "collectible_item_description": "Ruch używany przy umieszczaniu Potomka w salonie.",
+    "collectible_item_narrative": "To właśnie robią Potomkowie, gdy Przewodniczki nie ma w pobliżu",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500019",
+    "collectible_item_name": "Ćwiczenia brzucha",
+    "collectible_item_description": "Ruch używany przy umieszczaniu Potomka w salonie.",
+    "collectible_item_narrative": "To ćwiczenie wykonują Potomkowie, którzy chcą wzmocnić mięśnie tułowia.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600001",
+    "collectible_item_name": "Domyślny wygląd Przewodniczki",
+    "collectible_item_description": "Standardowy wygląd Przewodniczki w salonie.",
+    "collectible_item_narrative": "Standardowy wygląd Przewodniczki podczas komunikacji z Potomkami.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600002",
+    "collectible_item_name": "Inwersja danych",
+    "collectible_item_description": "Zinwertowany wygląd Przewodniczki w salonie.",
+    "collectible_item_narrative": "Wygląd Przewodniczki dostosowany do współczesnych trendów w Albionie. Choć Przewodniczka potrafi stosować różne formy komunikacji, najwyraźniej nie odczuwa potrzeby zmiany wyglądu.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600003",
+    "collectible_item_name": "Przewodniczka w salonie",
+    "collectible_item_description": "Zinwertowany wygląd Przewodniczki w salonie.",
+    "collectible_item_narrative": "Strój Przewodniczki pozwalający Potomkom spokojnie odpoczywać. Nie wygląda na szczególnie wygodny, ale najwyraźniej jej to nie przeszkadza.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100004",
+    "collectible_item_name": "Prosty prezent",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Prezent na specjalną okazję. Czegoś mu brakuje.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100005",
+    "collectible_item_name": "Hojny prezent",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Prezent na specjalną okazję. Jest ich naprawdę mnóstwo, przez co czujesz nieopisaną radość. Czas poszukać największego pudełka...",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100006",
+    "collectible_item_name": "Otwarty prezent",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Prezent na specjalną okazję. Anais wysłała go Blairowi, by uczcić ukończenie inspekcji sprzętu Przodków.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100007",
+    "collectible_item_name": "Zapieczętowana pamiątka",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Pamiątka po rodzicach Bunny. W środku zamknięto przedmiot dla ich córki.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100008",
+    "collectible_item_name": "Otwarta pamiątka",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Pamiątka po rodzicach Bunny. Potomkini patrzy na pluszowego misia i zastanawia się, co czuli jej rodzice.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100009",
+    "collectible_item_name": "Goździki i pamiątki",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Pamiątka po rodzicach Bunny. Potomkini położyła na niej goździki, wspominając swoje dzieciństwo spędzone u boku mamy i taty.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100013",
+    "collectible_item_name": "Niespakowana walizka",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Walizka osoby wyjeżdżającej na wakacje. Znajdujące się w niej rzeczy są niepoukładane i rozrzucone.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100014",
+    "collectible_item_name": "Zwykła walizka",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Walizka osoby wyjeżdżającej na wakacje. Wygląda jak standardowy bagaż.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100015",
+    "collectible_item_name": "Udekorowana walizka",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Walizka osoby wyjeżdżającej na wakacje. Ktoś ją udekorował przed swoim wyjazdem.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100016",
+    "collectible_item_name": "Prosta rodzina bałwanów",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Rodzina bałwanów, która odwiedza Albion w trakcie świąt. Czegoś jednak im brakuje.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100017",
+    "collectible_item_name": "Radosna rodzina bałwanów",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Rodzina bałwanów, która odwiedza Albion w trakcie świąt. Teraz potrafią się uśmiechać.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100018",
+    "collectible_item_name": "Szczęśliwa rodzina bałwanów",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Rodzina bałwanów, która odwiedza Albion w trakcie świąt. Bardzo uszczęśliwiają ich te wizyty.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100019",
+    "collectible_item_name": "Drewniana trumna",
+    "collectible_item_description": "[Ograniczony czasowo] Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Wampirza trumna. Czy należała do jakiegoś biednego arystokraty?",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100020",
+    "collectible_item_name": "Żelazna trumna",
+    "collectible_item_description": "[Ograniczony czasowo] Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Wampirza trumna. Sądząc po jej wysłużonym wyglądzie, musiała kiedyś należeć do arystokraty ze wspaniałego rodu.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100021",
+    "collectible_item_name": "Pozłacana trumna",
+    "collectible_item_description": "[Ograniczony czasowo] Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Wampirza trumna. Z pewnością należała do jakiegoś możnowładcy.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100022",
+    "collectible_item_name": "Proste świąteczne drzewko",
+    "collectible_item_description": "[Ograniczony czasowo] Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Drzewko, przy którym świętuje się wyjątkowy dzień. Czegoś mu brakuje.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100023",
+    "collectible_item_name": "Zwykłe świąteczne drzewko",
+    "collectible_item_description": "[Ograniczony czasowo] Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Drzewko, przy którym świętuje się wyjątkowy dzień. Nada się do celebracji, jednak nadal czegoś mu brakuje.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100024",
+    "collectible_item_name": "Eleganckie świąteczne drzewko",
+    "collectible_item_description": "[Ograniczony czasowo] Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Drzewko, przy którym świętuje się wyjątkowy dzień. Czujesz radość na jego widok.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100025",
+    "collectible_item_name": "Puste terrarium",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Skażona Otchłanią ziemia znajdująca się w tym terrarium została oczyszczona dzięki albiońskiej technologii. Żadne z nasion jeszcze nie zaczęło kiełkować.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100026",
+    "collectible_item_name": "Zwykłe terrarium",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Skażona Otchłanią ziemia znajdująca się w tym terrarium została oczyszczona dzięki albiońskiej technologii. Możesz spodziewać się szybkiego rozwoju znajdujących się w nim roślin.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100027",
+    "collectible_item_name": "Porządne terrarium",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Skażona Otchłanią ziemia znajdująca się w tym terrarium została oczyszczona dzięki albiońskiej technologii. Wraz z zakwitnięciem albiońskich kwiatów narodziło się w nim nowe życie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100028",
+    "collectible_item_name": "Prosty taktyczny pojazd opancerzony",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Taktyczny pojazd opancerzony, który zwiększa zasięg operacyjny Potomków. Czegoś mu brakuje.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100029",
+    "collectible_item_name": "Zwykły taktyczny pojazd opancerzony",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Taktyczny pojazd opancerzony, który zwiększa zasięg operacyjny Potomków. Jego użyteczność mocno zależy od zamontowanych w nim części.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100030",
+    "collectible_item_name": "Kompletny taktyczny pojazd opancerzony",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Taktyczny pojazd opancerzony, który zwiększa zasięg operacyjny Potomków. Jest wyposażony w działka przeciwlotnicze, co pomoże przy infiltracji kolosa w przypadku nieudanego przechwycenia.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100031",
+    "collectible_item_name": "Niedawno rozpoczęte puzzle Bunny",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Te puzzle ukazują ulubione wspomnienia Bunny. Części elementów brakuje.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100032",
+    "collectible_item_name": "Prawie skończone puzzle Bunny",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Te puzzle ukazują ulubione wspomnienia Bunny. Aby je ukończyć, potrzeba jeszcze kilku fragmentów.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100033",
+    "collectible_item_name": "Ukończone puzzle Bunny",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Te puzzle ukazują ulubione wspomnienia Bunny. Będą idealne dla jej najwierniejszych fanów.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100034",
+    "collectible_item_name": "Prosta donica ze skrzyni",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Dowód prób uprawy roślin w pustych skrzyniach po zapasach przez żołnierzy z Kingston. Czegoś tu brakuje...",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100035",
+    "collectible_item_name": "Zwykła donica ze skrzyni",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Dowód prób uprawy roślin w pustych skrzyniach po zapasach przez żołnierzy z Kingston. Wonnym ziołom udało się wykiełkować, jednak jest jeszcze miejsce na rozwój.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100036",
+    "collectible_item_name": "Wystawna donica ze skrzyni",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Dowód prób uprawy roślin w pustych skrzyniach po zapasach przez żołnierzy z Kingston. Dzięki ich staraniom gleba jest świetnej jakości, a zioła rosną jak szalone.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100037",
+    "collectible_item_name": "Proste parawany",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Zestaw parawanów z uroczymi ilustracjami. Czegoś im brakuje.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100038",
+    "collectible_item_name": "Zwykłe parawany",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Zestaw parawanów z uroczymi ilustracjami. Potrzeba jeszcze kilku elementów, by stał się kompletny.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100039",
+    "collectible_item_name": "Wspaniałe parawany",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Zestaw parawanów z uroczymi ilustracjami. Dzięki latarniom atmosfera jest jeszcze żywsza.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100043",
+    "collectible_item_name": "Prosty zestaw porcelany",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Zestaw porcelanowych naczyń zebranych w Albionie, gdzie mieszkają przedstawiciele różnych kultur. Czegoś w nim brakuje.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100044",
+    "collectible_item_name": "Zwykły zestaw porcelany",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Zestaw porcelanowych naczyń zebranych w Albionie, gdzie mieszkają przedstawiciele różnych kultur. Kilku elementów brakuje, by stał się kompletny.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100045",
+    "collectible_item_name": "Ładny zestaw porcelany",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Zestaw porcelanowych naczyń zebranych w Albionie, gdzie mieszkają przedstawiciele różnych kultur. Droga, niebieska glazura zapewnia im wyjątkowy, klasyczny wygląd.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100046",
+    "collectible_item_name": "Proste latarnie",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Latarnie, dzięki którym salon stanie się nieco przyjemniejszym miejscem. Czegoś im brakuje.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100047",
+    "collectible_item_name": "Zwykłe latarnie",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Latarnie, dzięki którym salon stanie się nieco przyjemniejszym miejscem. Przydałoby się dołączyć do nich jeszcze kilka elementów.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100048",
+    "collectible_item_name": "Ładne latarnie",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Latarnie, dzięki którym salon stanie się nieco przyjemniejszym miejscem. Połączenie tych trzech kolorów wygląda bardzo ładnie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100049",
+    "collectible_item_name": "Prosty leżak",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Komplet leżaka opartego na tych z Rajskiego Basenu. Czegoś mu brakuje.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100050",
+    "collectible_item_name": "Zwykły leżak",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Komplet leżaka opartego na tych z Rajskiego Basenu. Może kilka dodatkowych elementów pozwoli uzupełnić ten komplet.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100051",
+    "collectible_item_name": "Ładny leżak",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Komplet leżaka opartego na tych z Rajskiego Basenu. Idealnie się nadaje na odpoczynek, gdy panuje taka piękna pogoda.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100052",
+    "collectible_item_name": "Taktyczne mechaniczne ramię Mk. 2",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Proteza Lepica, w której zastosowano technologię napędu arche. Jest to jej wczesna wersja i nie nadaje się do codziennego użytku.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100053",
+    "collectible_item_name": "Taktyczne mechaniczne ramię Mk. 7",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Proteza Lepica, w której zastosowano technologię napędu arche. Jest to jej wczesna wersja ze wzmocnionym egzoszkieletem, która nie nadaje się do wykorzystywania umiejętności arche.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100054",
+    "collectible_item_name": "Taktyczne mechaniczne ramię Mk. 10",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Proteza Lepica, w której zastosowano technologię napędu arche. Zaprojektowano ją z myślą o wykorzystywaniu eksplozywnego arche mężczyzny do wzmacniania naboi i granatów. Nie posiada funkcji rakietowej pięści.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100055",
+    "collectible_item_name": "Prosty stojak na akcesoria Potomkiń",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Stojak na repliki noszonych przez Potomkinie akcesoriów, które służą kadetom Akademii Wojskowej Albionu do nauki. Czegoś na nim brakuje.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100056",
+    "collectible_item_name": "Zwykły stojak na akcesoria Potomkiń",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Stojak na repliki noszonych przez Potomkinie akcesoriów, które służą kadetom Akademii Wojskowej Albionu do nauki. Są one niezwykle pomocne w edukacji, jednak nadal czegoś tu brakuje.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100057",
+    "collectible_item_name": "Pełny stojak na akcesoria Potomkiń",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Stojak na repliki noszonych przez Potomkinie akcesoriów, które służą kadetom Akademii Wojskowej Albionu do nauki. Ich widok zainspirował ponad 65% kadetek do zgłoszenia chęci dołączenia do tego elitarnego oddziału.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100058",
+    "collectible_item_name": "Zwykła głowa łowcy",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Głowa należąca do Vulgusa, który sprawił, że Sharen zaczęła zastanawiać się nad swoją przeszłością. Gdy dokonała swojej zemsty, zostawiła ją sobie na pamiątkę. Głowa jest w dobrym stanie.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100059",
+    "collectible_item_name": "Mściwa głowa łowcy",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Głowa należąca do Vulgusa, który sprawił, że Sharen zaczęła zastanawiać się nad swoją przeszłością. Gdy dokonała swojej zemsty, zostawiła ją sobie na pamiątkę. Wygląda jednak na to, że nadal trawi ją złość, gdyż na głowie widać ślady po cięciach krótkim mieczem.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100060",
+    "collectible_item_name": "Kompletna mściwa głowa łowcy",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Głowa należąca do Vulgusa, który sprawił, że Sharen zaczęła zastanawiać się nad swoją przeszłością. Gdy dokonała swojej zemsty, zostawiła ją sobie na pamiątkę i trzyma w niej swój krótki miecz.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100061",
+    "collectible_item_name": "Kawałek ciasta w kształcie pistoletu",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Wyjątkowe ciasto w kształcie broni palnej, które Blair upiekł dla poprawy morale. Może na takiego nie wygląda, ale ten szef kuchni ciężko pracuje, testując pistolety na swoich przeciwnikach. Gdy już to zrobi, broń służy jako forma do ciast. Aktualnie został już tylko jeden kawałek Czerwonego Wilka.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100062",
+    "collectible_item_name": "Połowa ciasta w kształcie pistoletu",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Wyjątkowe ciasto w kształcie broni palnej, które upiekł Blair dla poprawy morale. Może na takiego nie wygląda, ale ten szef kuchni ciężko pracuje, testując pistolety na swoich przeciwnikach. Gdy już to zrobi, broń służy jako forma do ciast. Aktualnie zostało już tylko po kawałku Czerwonego Wilka i Nowego Początku.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100063",
+    "collectible_item_name": "Ciasto w kształcie pistoletu",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Wyjątkowe ciasto w kształcie broni palnej, które upiekł Blair dla poprawy morale. Może na takiego nie wygląda, ale ten szef kuchni ciężko pracuje, testując pistolety na swoich przeciwnikach. Gdy już to zrobi, tworzy z nich formy do swoich ciast. W końcu udało mu się skończyć całe ciasto, składające się z Czerwonego Wilka, Nowego Początku i Milenijnego Mrozu.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100064",
+    "collectible_item_name": "Puste akwarium z hełmu",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Valby lubi zamieniać hełmy, z których nie korzysta, w akwaria. W tym znajduje się jedynie piach i woda.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100065",
+    "collectible_item_name": "Zwykłe akwarium z hełmu",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Valby lubi zamieniać hełmy, z których nie korzysta, w akwaria. W tym posadziła już kilka roślin wodnych – brakuje tu tylko ryb.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100066",
+    "collectible_item_name": "Wspaniałe akwarium z hełmu",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Valby lubi zamieniać hełmy, z których nie korzysta, w akwaria. Gdy obserwuje pływające w nich ryby, czasem wyobraża sobie, że do nich dołącza.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100067",
+    "collectible_item_name": "Prosty stojak na maski",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Stojak na repliki masek noszonych przez Potomków, które służą kadetom Akademii Wojskowej Albionu do nauki. Czegoś na nim brakuje.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100068",
+    "collectible_item_name": "Zwykły stojak na maski",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Stojak na repliki masek noszonych przez Potomków, które służą kadetom Akademii Wojskowej Albionu do nauki. Są one niezwykle pomocne w edukacji, jednak nadal czegoś tu brakuje.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100069",
+    "collectible_item_name": "Pełny stojak na maski",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Stojak na repliki masek noszonych przez Potomków, które służą kadetom Akademii Wojskowej Albionu do nauki. Podczas ankiety aż 60% z nich odpowiedziało, że na pewno nosiliby podobne, gdyby zostali częścią tego elitarnego oddziału.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100070",
+    "collectible_item_name": "Zwykły stojak na słuchawki",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Stojak na słuchawki Luny. Wygląda bardzo nijako – w przeciwieństwie do Potomkini.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100071",
+    "collectible_item_name": "Wyjątkowy stojak na słuchawki",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Stojak na słuchawki Luny. Można było się po niej spodziewać, że lubi ekstrawagancję.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100072",
+    "collectible_item_name": "Wspaniały stojak na słuchawki",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Stojak na słuchawki Luny. Można było się po niej spodziewać, że będzie miała osobne stojaki dla różnych rodzajów słuchawek.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100073",
+    "collectible_item_name": "Pusty stojak na lunety",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Hailey obiecała sobie, że na tym stojaku na lunety umieści tylko te pasujące do broni, których obsługę w pełni opanowała. Gdy była członkinią 33. Batalionu Snajperskiego, świecił pustkami.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100074",
+    "collectible_item_name": "Zwykły stojak na lunety",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Hailey obiecała sobie, że na tym stojaku na lunety umieści tylko te pasujące do broni, których obsługę w pełni opanowała. Po zostaniu Potomkinią odkłada tam modele powiązane z jej unikatową bronią.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100075",
+    "collectible_item_name": "Pełny stojak na lunety",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Hailey obiecała sobie, że na tym stojaku na lunety umieści tylko te pasujące do broni, których obsługę w pełni opanowała. Trafiły na niego egzemplarze związane z nie tylko jej unikatową bronią, lecz także Przeszywającym Światłem oraz Mieczem Poświaty.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100076",
+    "collectible_item_name": "Prosty stojak na okulary",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Stojak na okulary Gley, która – ku zdziwieniu wszystkich – lubi błyskotki i styl glamour. Teraz świeci pustkami.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100077",
+    "collectible_item_name": "Zwykły stojak na okulary",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Stojak na okulary Gley, która – ku zdziwieniu wszystkich – lubi błyskotki i styl glamour. Jest w połowie pełny.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100078",
+    "collectible_item_name": "Pełny stojak na okulary",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Stojak na okulary Gley, która – ku zdziwieniu wszystkich – lubi błyskotki i styl glamour. Żadna znajdująca się na nim para nie została umieszczona tam dla dekoracji.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100079",
+    "collectible_item_name": "Siostra egzorcystka Mk. 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Kombinezon bojowy emitujący fotony, który nosi Serena. Stworzono go z użyciem dawnej technologii Magistrów. Wersja Mk. 1 posiada system łączenia się z arche Potomkini, lecz brakuje jej skrzydeł.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100080",
+    "collectible_item_name": "Siostra egzorcystka Mk. 2",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Kombinezon bojowy emitujący fotony, który nosi Serena. Stworzono go z użyciem dawnej technologii Magistrów. Wersja Mk. 2 posiada skrzydła, ale należy jeszcze przetestować działanie mechanizmów bitewnych.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100081",
+    "collectible_item_name": "Siostra egzorcystka Mk. 2 – wersja bitewna",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Kombinezon bojowy emitujący fotony, który nosi Serena. Stworzono go z użyciem dawnej technologii Magistrów. Wersja Mk. 2 posiada skrzydła, a wszystkie mechanizmy działają bez zarzutu.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100085",
+    "collectible_item_name": "Kiepskiej jakości lampa odpędzająca zło",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Lampa stworzona do odpędzania złych duchów. Jest jednak zbyt słaba, by spełniać tę funkcję.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100086",
+    "collectible_item_name": "Zwykła lampa odpędzająca zło",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Lampa stworzona do odpędzania złych duchów. W jej wnętrzu znajdują się ziołowe cukierki Blaira, które mają spełniać tę samą funkcję. Lampa nadal jest jednak zbyt słaba.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100087",
+    "collectible_item_name": "Wysokiej jakości lampa odpędzająca zło",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Lampa stworzona do odpędzania złych duchów. W jej wnętrzu znajdują się ziołowe cukierki Blaira, które mają spełniać tę samą funkcję. Teraz żaden duch nie odważy się zbliżyć.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100088",
+    "collectible_item_name": "Kiepskiej jakości konsola dowodzenia",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Konsola, z której korzysta się w centrum dowodzenia operacjami w Albionie. Nie nadaje się do użytku.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100089",
+    "collectible_item_name": "Zwykła konsola dowodzenia",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Konsola, z której korzysta się w centrum dowodzenia operacjami w Albionie. Można wydać nią podstawowe rozkazy, jednak nie można z niej korzystać podczas operacji, gdy na szali są życia Potomków.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100090",
+    "collectible_item_name": "Wysokiej jakości konsola dowodzenia",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Konsola, z której korzysta się w centrum dowodzenia operacjami w Albionie. Można z niej korzystać podczas operacji, gdy na szali są życia Potomków.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100091",
+    "collectible_item_name": "Pusta butelka po 99-letniej albiońskiej whisky",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Rok po założeniu Albionu umieszczono ten alkohol w beczkach, gdzie spędził ostatnie 99 lat, by można było nim uczcić 100. urodziny miasta. Było to możliwe dzięki technologii Magistrów. Najwyraźniej ktoś wiedział, co dobre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100092",
+    "collectible_item_name": "Butelka po 99-letniej albiońskiej whisky",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Rok po założeniu Albionu umieszczono ten alkohol w beczkach, gdzie spędził ostatnie 99 lat, by można było nim uczcić 100. urodziny miasta. Było to możliwe dzięki technologii Magistrów. Cenne jest nawet jej opakowanie.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100093",
+    "collectible_item_name": "Pełna butelka 99-letniej albiońskiej whisky",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Rok po założeniu Albionu umieszczono ten alkohol w beczkach, gdzie spędził ostatnie 99 lat, by można było nim uczcić 100. urodziny miasta. Było to możliwe dzięki technologii Magistrów. W każdej kropli czuć smak prestiżowego dziedzictwa Albionu.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100094",
+    "collectible_item_name": "Pusta butelka po 7-letniej albiońskiej whisky",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Butelki tego destylowanego alkoholu są popularne wśród żołnierzy na linii frontu, gdzie wręcza się je w formie nagrody. Jest to próba podziękowania Blairowi przez oddziały z Kingston. Ta butelka jest jednak pusta.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100095",
+    "collectible_item_name": "Butelka z resztką 7-letniej albiońskiej whisky",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Butelki tego destylowanego alkoholu są popularne wśród żołnierzy na linii frontu, gdzie wręcza się je w formie nagrody. Jest to próba podziękowania Blairowi przez oddziały z Kingston. Wygląda na to, że komuś nie udało się wypić jej całej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100096",
+    "collectible_item_name": "Butelka 7-letniej albiońskiej whisky",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Butelki tego destylowanego alkoholu są popularne wśród żołnierzy na linii frontu, gdzie wręcza się je w formie nagrody. Jest to próba podziękowania Blairowi przez oddziały z Kingston. Zgodnie z tutejszym zwyczajem każdy, kto otrzyma taką butelką, musi podzielić się nią ze wszystkimi.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266200001",
+    "collectible_item_name": "Trofeum wsparcia: bitwa przechwycenia w Otchłani",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "W uznaniu twojego niezachwianego poczucia obowiązku i silnego zaangażowania w kwestie bezpieczeństwa,\nniniejszym wyrażamy uznanie za pomyślne zakończenie\nmisji przechwycenia\n\n-dowódca operacji-",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266200002",
+    "collectible_item_name": "Trofeum doskonałości: bitwa przechwycenia w Otchłani",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "W uznaniu twoich wzorowych umiejętności bojowych i silnego poczucia odpowiedzialności,\nniniejszym wyrażamy uznanie za pomyślne zakończenie\nmisji przechwycenia\n\n-dowódca operacji-",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266200003",
+    "collectible_item_name": "Trofeum za wybitne osiągnięcia: bitwa przechwycenia w Otchłani",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "W uznaniu twojego niezłomnego ducha i doświadczenia operacyjnego,\nniniejszym wyrażamy uznanie za wybitne zakończenie\nmisji przechwycenia\n\n-dowódca operacji-",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300001",
+    "collectible_item_name": "Lepic (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300002",
+    "collectible_item_name": "Lepic (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300003",
+    "collectible_item_name": "Lepic (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300004",
+    "collectible_item_name": "Ajax (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300005",
+    "collectible_item_name": "Ajax (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300006",
+    "collectible_item_name": "Ajax (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300007",
+    "collectible_item_name": "Viessa (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300008",
+    "collectible_item_name": "Viessa (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300009",
+    "collectible_item_name": "Viessa (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300010",
+    "collectible_item_name": "Bunny (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300011",
+    "collectible_item_name": "Bunny (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300012",
+    "collectible_item_name": "Bunny (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300013",
+    "collectible_item_name": "Jayber (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300014",
+    "collectible_item_name": "Jayber (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300015",
+    "collectible_item_name": "Jayber (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300016",
+    "collectible_item_name": "Freyna (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300017",
+    "collectible_item_name": "Freyna (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300018",
+    "collectible_item_name": "Freyna (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300019",
+    "collectible_item_name": "Gley (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300020",
+    "collectible_item_name": "Gley (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300021",
+    "collectible_item_name": "Gley (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300022",
+    "collectible_item_name": "Sharen (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300023",
+    "collectible_item_name": "Sharen (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300024",
+    "collectible_item_name": "Sharen (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300025",
+    "collectible_item_name": "Blair (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300026",
+    "collectible_item_name": "Blair (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300027",
+    "collectible_item_name": "Blair (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300028",
+    "collectible_item_name": "Valby (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300029",
+    "collectible_item_name": "Valby (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300030",
+    "collectible_item_name": "Valby (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300031",
+    "collectible_item_name": "Kyle (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300032",
+    "collectible_item_name": "Kyle (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300033",
+    "collectible_item_name": "Kyle (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300034",
+    "collectible_item_name": "Esiemo (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300035",
+    "collectible_item_name": "Esiemo (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300036",
+    "collectible_item_name": "Esiemo (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300037",
+    "collectible_item_name": "Enzo (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300038",
+    "collectible_item_name": "Enzo (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300039",
+    "collectible_item_name": "Enzo (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300040",
+    "collectible_item_name": "Yujin (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300041",
+    "collectible_item_name": "Yujin (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300042",
+    "collectible_item_name": "Yujin (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300043",
+    "collectible_item_name": "Luna (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300044",
+    "collectible_item_name": "Luna (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300045",
+    "collectible_item_name": "Luna (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300046",
+    "collectible_item_name": "Hailey (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300047",
+    "collectible_item_name": "Hailey (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300048",
+    "collectible_item_name": "Hailey (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300049",
+    "collectible_item_name": "Keelan (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300050",
+    "collectible_item_name": "Keelan (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300051",
+    "collectible_item_name": "Keelan (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300052",
+    "collectible_item_name": "Ines (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300053",
+    "collectible_item_name": "Ines (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300054",
+    "collectible_item_name": "Ines (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300055",
+    "collectible_item_name": "Serena (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300056",
+    "collectible_item_name": "Serena (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300057",
+    "collectible_item_name": "Serena (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300058",
+    "collectible_item_name": "Nell (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300059",
+    "collectible_item_name": "Nell (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300060",
+    "collectible_item_name": "Nell (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300062",
+    "collectible_item_name": "Viessa (S) – Raj 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300065",
+    "collectible_item_name": "Bunny (S) – Raj 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300068",
+    "collectible_item_name": "Freyna (S) – Raj 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300071",
+    "collectible_item_name": "Gley (S) – Raj 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300074",
+    "collectible_item_name": "Sharen (S) – Raj 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300077",
+    "collectible_item_name": "Valby (S) – Raj 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300080",
+    "collectible_item_name": "Luna (S) – Raj 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300083",
+    "collectible_item_name": "Hailey (S) – Raj 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300086",
+    "collectible_item_name": "Ines (S) – Raj 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300089",
+    "collectible_item_name": "Serena (S) – Raj 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300091",
+    "collectible_item_name": "Przewodniczka (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300092",
+    "collectible_item_name": "Przewodniczka (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300093",
+    "collectible_item_name": "Przewodniczka (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300094",
+    "collectible_item_name": "Jeremy (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300095",
+    "collectible_item_name": "Jeremy (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300096",
+    "collectible_item_name": "Jeremy (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300097",
+    "collectible_item_name": "Owczarek hagioski (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300098",
+    "collectible_item_name": "Owczarek hagioski (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300099",
+    "collectible_item_name": "Owczarek hagioski (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300100",
+    "collectible_item_name": "Vesperski pies myśliwski (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300101",
+    "collectible_item_name": "Vesperski pies myśliwski (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300102",
+    "collectible_item_name": "Vesperski pies myśliwski (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300103",
+    "collectible_item_name": "Pies zaprzęgowy (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300104",
+    "collectible_item_name": "Pies zaprzęgowy (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300105",
+    "collectible_item_name": "Pies zaprzęgowy (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300106",
+    "collectible_item_name": "Karel: generał Legionu Ciemności (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300107",
+    "collectible_item_name": "Karel: generał Legionu Ciemności (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300108",
+    "collectible_item_name": "Karel: generał Legionu Ciemności (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300109",
+    "collectible_item_name": "Seudo: dowódca Legionu Nieśmiertelności (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300110",
+    "collectible_item_name": "Seudo: dowódca Legionu Nieśmiertelności (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300111",
+    "collectible_item_name": "Seudo: dowódca Legionu Nieśmiertelności (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300112",
+    "collectible_item_name": "Żołnierz masowy: Legion Ciemności (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300113",
+    "collectible_item_name": "Żołnierz masowy: Legion Ciemności (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300114",
+    "collectible_item_name": "Żołnierz masowy: Legion Ciemności (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300115",
+    "collectible_item_name": "Ogniomiot: Zakon Prawdy (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300116",
+    "collectible_item_name": "Ogniomiot: Zakon Prawdy (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300117",
+    "collectible_item_name": "Ogniomiot: Zakon Prawdy (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300118",
+    "collectible_item_name": "Trójoki: Legion Nieśmiertelności (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300119",
+    "collectible_item_name": "Trójoki: Legion Nieśmiertelności (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300120",
+    "collectible_item_name": "Trójoki: Legion Nieśmiertelności (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300122",
+    "collectible_item_name": "Bunny (M) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300124",
+    "collectible_item_name": "Grobołaz (M) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300125",
+    "collectible_item_name": "Grobołaz (M) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300126",
+    "collectible_item_name": "Grobołaz (M) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Figurki takie są tworzone przez dowództwo, aby wyróżnić Potomków, którzy na polu bitwy walczyli niestrudzenie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300128",
+    "collectible_item_name": "Kat (M) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300131",
+    "collectible_item_name": "Wybranka Śmierci (M) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300133",
+    "collectible_item_name": "Bunny (S) – Halloween 1",
+    "collectible_item_description": "[Ograniczony czasowo] Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300134",
+    "collectible_item_name": "Gley (S) – Halloween 1",
+    "collectible_item_description": "[Ograniczony czasowo] Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300135",
+    "collectible_item_name": "Sharen (S) – Halloween 1",
+    "collectible_item_description": "[Ograniczony czasowo] Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300136",
+    "collectible_item_name": "Hailey (S) – Halloween 1",
+    "collectible_item_description": "[Ograniczony czasowo] Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300137",
+    "collectible_item_name": "Ines (S) – Halloween 1",
+    "collectible_item_description": "[Ograniczony czasowo] Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300138",
+    "collectible_item_name": "Serena (S) – Halloween 1",
+    "collectible_item_description": "[Ograniczony czasowo] Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300139",
+    "collectible_item_name": "Nell (S) – Halloween 1",
+    "collectible_item_description": "[Ograniczony czasowo] Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300140",
+    "collectible_item_name": "Esiemo (S) – Halloween 1",
+    "collectible_item_description": "[Ograniczony czasowo] Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300141",
+    "collectible_item_name": "Yujin (S) – Rycerze Albionu 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300142",
+    "collectible_item_name": "Harris (S) – Rycerze Albionu 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300143",
+    "collectible_item_name": "Viessa (S) – Zimowy Festiwal 1",
+    "collectible_item_description": "[Ograniczony czasowo] Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300144",
+    "collectible_item_name": "Gley (S) – Zimowy Festiwal 1",
+    "collectible_item_description": "[Ograniczony czasowo] Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300145",
+    "collectible_item_name": "Freyna (S) – Zimowy Festiwal 1",
+    "collectible_item_description": "[Ograniczony czasowo] Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300147",
+    "collectible_item_name": "Serena (S) – Zimowy Festiwal 1",
+    "collectible_item_description": "[Ograniczony czasowo] Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300148",
+    "collectible_item_name": "Jayber (S) – Zimowy Festiwal 1",
+    "collectible_item_description": "[Ograniczony czasowo] Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300149",
+    "collectible_item_name": "Viessa (S) – Idol 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300150",
+    "collectible_item_name": "Bunny (S) – Idol 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300151",
+    "collectible_item_name": "Freyna (S) – Idol 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300152",
+    "collectible_item_name": "Gley (S) – Idol 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300153",
+    "collectible_item_name": "Sharen (S) – Idol 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300154",
+    "collectible_item_name": "Valby (S) – Idol 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300155",
+    "collectible_item_name": "Luna (S) – Idol 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300156",
+    "collectible_item_name": "Hailey (S) – Idol 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300157",
+    "collectible_item_name": "Ines (S) – Idol 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300158",
+    "collectible_item_name": "Serena (S) – Idol 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300159",
+    "collectible_item_name": "Nell (S) – Idol 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300160",
+    "collectible_item_name": "Harris (S) – Idol 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300161",
+    "collectible_item_name": "Luna (M) – Scena księżycowego światła 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300162",
+    "collectible_item_name": "Harris (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300163",
+    "collectible_item_name": "Harris (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300164",
+    "collectible_item_name": "Harris (S) – Klasyk 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Stworzona przez dowództwo, aby wyróżnić Potomków, którzy niestrudzenie walczyli na polu bitwy.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300165",
+    "collectible_item_name": "Lepic (S) – Umiejętność 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300166",
+    "collectible_item_name": "Lepic (S) – Umiejętność 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300167",
+    "collectible_item_name": "Lepic (S) – Umiejętność 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Stworzona przez dowództwo, aby wyróżnić Potomków, którzy niestrudzenie walczyli na polu bitwy.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300168",
+    "collectible_item_name": "Ajax (S) – Umiejętność 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300169",
+    "collectible_item_name": "Ajax (S) – Umiejętność 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300170",
+    "collectible_item_name": "Ajax (S) – Umiejętność 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka ze szczerego złota. Stworzona przez dowództwo, aby wyróżnić Potomków, którzy niestrudzenie walczyli na polu bitwy.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300171",
+    "collectible_item_name": "Viessa (S) – Umiejętność 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka pomalowana minimalistycznie z powodu niedoboru pigmentów. Istnieje duży zapas takich figurek, gdyż są wykorzystywane w czasie szkolenia obywateli oraz kadetów akademii wojskowej, którzy mają trudności z udziałem w zajęciach na zewnątrz.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300172",
+    "collectible_item_name": "Viessa (S) – Umiejętność 1",
+    "collectible_item_description": "Przedmiot kolekcjonerski, który można umieścić w salonie.",
+    "collectible_item_narrative": "Figurka, która wyraźnie przypomina oryginał. Położono w niej nacisk na realizm, gdyż to pomaga w czasie szkolenia kadetów akademii wojskowej.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  }
+]

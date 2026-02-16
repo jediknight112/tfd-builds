@@ -1,0 +1,1318 @@
+[
+  {
+    "title_id": "270300001",
+    "title_name": "Talentierter"
+  },
+  {
+    "title_id": "270300002",
+    "title_name": "Sorgloser"
+  },
+  {
+    "title_id": "270300003",
+    "title_name": "Bahnbrechender"
+  },
+  {
+    "title_id": "270300004",
+    "title_name": "Kampferprobter"
+  },
+  {
+    "title_id": "270300006",
+    "title_name": "Wahrer"
+  },
+  {
+    "title_id": "270300007",
+    "title_name": "Leichtsinniger"
+  },
+  {
+    "title_id": "270300008",
+    "title_name": "Wiederkehrender"
+  },
+  {
+    "title_id": "270300009",
+    "title_name": "Kalter"
+  },
+  {
+    "title_id": "270300010",
+    "title_name": "Zynischer"
+  },
+  {
+    "title_id": "270300011",
+    "title_name": "Aufregender"
+  },
+  {
+    "title_id": "270300012",
+    "title_name": "Furchterregender"
+  },
+  {
+    "title_id": "270300013",
+    "title_name": "Rasender"
+  },
+  {
+    "title_id": "270300014",
+    "title_name": "Zäher"
+  },
+  {
+    "title_id": "270300015",
+    "title_name": "Leidenschaftlicher"
+  },
+  {
+    "title_id": "270300016",
+    "title_name": "Süßer"
+  },
+  {
+    "title_id": "270300017",
+    "title_name": "Entschlossener"
+  },
+  {
+    "title_id": "270300018",
+    "title_name": "Endgültiger"
+  },
+  {
+    "title_id": "270300019",
+    "title_name": "Befreiter"
+  },
+  {
+    "title_id": "270300020",
+    "title_name": "Kaltblütiger"
+  },
+  {
+    "title_id": "270300021",
+    "title_name": "Blauer"
+  },
+  {
+    "title_id": "270300022",
+    "title_name": "Letzter"
+  },
+  {
+    "title_id": "270300023",
+    "title_name": "Schöner"
+  },
+  {
+    "title_id": "270300024",
+    "title_name": "Überwältigender"
+  },
+  {
+    "title_id": "270300025",
+    "title_name": "Angehender"
+  },
+  {
+    "title_id": "270300026",
+    "title_name": "Ergrauter"
+  },
+  {
+    "title_id": "270300027",
+    "title_name": "Tatkräftiger"
+  },
+  {
+    "title_id": "270300028",
+    "title_name": "Fähiger"
+  },
+  {
+    "title_id": "270300029",
+    "title_name": "Außergewöhnlicher"
+  },
+  {
+    "title_id": "270300030",
+    "title_name": "Dynamischer"
+  },
+  {
+    "title_id": "270300031",
+    "title_name": "Überraschter"
+  },
+  {
+    "title_id": "270300032",
+    "title_name": "Relativer"
+  },
+  {
+    "title_id": "270300033",
+    "title_name": "Glamouröser"
+  },
+  {
+    "title_id": "270300034",
+    "title_name": "Falscher"
+  },
+  {
+    "title_id": "270300035",
+    "title_name": "Furchtloser"
+  },
+  {
+    "title_id": "270300036",
+    "title_name": "Harmonischer"
+  },
+  {
+    "title_id": "270300037",
+    "title_name": "Skrupelloser"
+  },
+  {
+    "title_id": "270300038",
+    "title_name": "Gefallener"
+  },
+  {
+    "title_id": "270300039",
+    "title_name": "Flinker"
+  },
+  {
+    "title_id": "270300040",
+    "title_name": "Schrecklicher"
+  },
+  {
+    "title_id": "270300041",
+    "title_name": "Gefräßiger"
+  },
+  {
+    "title_id": "270300042",
+    "title_name": "Brennender"
+  },
+  {
+    "title_id": "270300043",
+    "title_name": "Gestürzter"
+  },
+  {
+    "title_id": "270300044",
+    "title_name": "Eisiger"
+  },
+  {
+    "title_id": "270300045",
+    "title_name": "Seltsamer"
+  },
+  {
+    "title_id": "270300046",
+    "title_name": "Loyaler"
+  },
+  {
+    "title_id": "270300047",
+    "title_name": "Unerbittlicher"
+  },
+  {
+    "title_id": "270300048",
+    "title_name": "Verwehter"
+  },
+  {
+    "title_id": "270300050",
+    "title_name": "Trostloser"
+  },
+  {
+    "title_id": "270300051",
+    "title_name": "Wohlgenährter"
+  },
+  {
+    "title_id": "270300052",
+    "title_name": "Üppiger"
+  },
+  {
+    "title_id": "270300054",
+    "title_name": "Trüber"
+  },
+  {
+    "title_id": "270300055",
+    "title_name": "Widerhallender"
+  },
+  {
+    "title_id": "270300056",
+    "title_name": "Verdrehter"
+  },
+  {
+    "title_id": "270300057",
+    "title_name": "Gleichgültiger"
+  },
+  {
+    "title_id": "270300058",
+    "title_name": "Kalter"
+  },
+  {
+    "title_id": "270300059",
+    "title_name": "Hungriger"
+  },
+  {
+    "title_id": "270300060",
+    "title_name": "Schlammiger"
+  },
+  {
+    "title_id": "270300061",
+    "title_name": "Blendender"
+  },
+  {
+    "title_id": "270300062",
+    "title_name": "Albtraumhafter"
+  },
+  {
+    "title_id": "270300063",
+    "title_name": "Schwieriger"
+  },
+  {
+    "title_id": "270300064",
+    "title_name": "Kühler"
+  },
+  {
+    "title_id": "270300065",
+    "title_name": "Leerer"
+  },
+  {
+    "title_id": "270300066",
+    "title_name": "Überladener"
+  },
+  {
+    "title_id": "270300067",
+    "title_name": "Mächtiger"
+  },
+  {
+    "title_id": "270300068",
+    "title_name": "Ewiger"
+  },
+  {
+    "title_id": "270300069",
+    "title_name": "Explodierender"
+  },
+  {
+    "title_id": "270300070",
+    "title_name": "Bester"
+  },
+  {
+    "title_id": "270300071",
+    "title_name": "Nerviger"
+  },
+  {
+    "title_id": "270300072",
+    "title_name": "Fanatischer"
+  },
+  {
+    "title_id": "270300073",
+    "title_name": "Turbulenter"
+  },
+  {
+    "title_id": "270300074",
+    "title_name": "Gewaltiger"
+  },
+  {
+    "title_id": "270300075",
+    "title_name": "Grausiger"
+  },
+  {
+    "title_id": "270300076",
+    "title_name": "Giftiger"
+  },
+  {
+    "title_id": "270300077",
+    "title_name": "Schlechtester"
+  },
+  {
+    "title_id": "270300078",
+    "title_name": "Erbarmungsloser"
+  },
+  {
+    "title_id": "270300079",
+    "title_name": "Unaufhaltsamer"
+  },
+  {
+    "title_id": "270300080",
+    "title_name": "Überraschender"
+  },
+  {
+    "title_id": "270300081",
+    "title_name": "Gefährlicher"
+  },
+  {
+    "title_id": "270300082",
+    "title_name": "Vertrockneter"
+  },
+  {
+    "title_id": "270300083",
+    "title_name": "Erfahrener"
+  },
+  {
+    "title_id": "270300084",
+    "title_name": "Unerschütterlicher"
+  },
+  {
+    "title_id": "270300085",
+    "title_name": "Scharfsinniger"
+  },
+  {
+    "title_id": "270300086",
+    "title_name": "Schlagkräftiger"
+  },
+  {
+    "title_id": "270300087",
+    "title_name": "Tödlicher"
+  },
+  {
+    "title_id": "270300088",
+    "title_name": "Schneller"
+  },
+  {
+    "title_id": "270300089",
+    "title_name": "Merkwürdiger"
+  },
+  {
+    "title_id": "270300090",
+    "title_name": "Besonderer"
+  },
+  {
+    "title_id": "270300091",
+    "title_name": "Ewiger"
+  },
+  {
+    "title_id": "270300092",
+    "title_name": "Zersplitterter"
+  },
+  {
+    "title_id": "270300093",
+    "title_name": "Zerlegter"
+  },
+  {
+    "title_id": "270300094",
+    "title_name": "Geschickter"
+  },
+  {
+    "title_id": "270300095",
+    "title_name": "Einladender"
+  },
+  {
+    "title_id": "270300096",
+    "title_name": "Freundlicher"
+  },
+  {
+    "title_id": "270300097",
+    "title_name": "Verbesserter"
+  },
+  {
+    "title_id": "270300098",
+    "title_name": "Verschwenderischer"
+  },
+  {
+    "title_id": "270300099",
+    "title_name": "Abscheulicher"
+  },
+  {
+    "title_id": "270300100",
+    "title_name": "Ausführender"
+  },
+  {
+    "title_id": "270300101",
+    "title_name": "Frostiger"
+  },
+  {
+    "title_id": "270300102",
+    "title_name": "Grassierender"
+  },
+  {
+    "title_id": "270300103",
+    "title_name": "Apokalyptischer"
+  },
+  {
+    "title_id": "270300104",
+    "title_name": "Totenbleicher"
+  },
+  {
+    "title_id": "270300105",
+    "title_name": "Hübscher"
+  },
+  {
+    "title_id": "270300106",
+    "title_name": "Fester"
+  },
+  {
+    "title_id": "270300107",
+    "title_name": "Hässlicher"
+  },
+  {
+    "title_id": "270300108",
+    "title_name": "Stinkender"
+  },
+  {
+    "title_id": "270300109",
+    "title_name": "Violetter"
+  },
+  {
+    "title_id": "270300110",
+    "title_name": "Endloser"
+  },
+  {
+    "title_id": "270300111",
+    "title_name": "Robuster"
+  },
+  {
+    "title_id": "270300112",
+    "title_name": "Lebendiger"
+  },
+  {
+    "title_id": "270300113",
+    "title_name": "Brennender"
+  },
+  {
+    "title_id": "270300114",
+    "title_name": "Rückschrittlicher"
+  },
+  {
+    "title_id": "270300115",
+    "title_name": "Schwerer"
+  },
+  {
+    "title_id": "270300116",
+    "title_name": "Tobender"
+  },
+  {
+    "title_id": "270300117",
+    "title_name": "Fliegender"
+  },
+  {
+    "title_id": "270300118",
+    "title_name": "Intelligenter"
+  },
+  {
+    "title_id": "270300119",
+    "title_name": "Forschender"
+  },
+  {
+    "title_id": "270300120",
+    "title_name": "Schlummernder"
+  },
+  {
+    "title_id": "270300121",
+    "title_name": "Zukünftiger"
+  },
+  {
+    "title_id": "270300122",
+    "title_name": "Kollabierter"
+  },
+  {
+    "title_id": "270300123",
+    "title_name": "Gefallener"
+  },
+  {
+    "title_id": "270300124",
+    "title_name": "Vergessener"
+  },
+  {
+    "title_id": "270300125",
+    "title_name": "Erwachter"
+  },
+  {
+    "title_id": "270300126",
+    "title_name": "Unbegreiflicher"
+  },
+  {
+    "title_id": "270300127",
+    "title_name": "Unbekannter"
+  },
+  {
+    "title_id": "270300128",
+    "title_name": "Neuer"
+  },
+  {
+    "title_id": "270300129",
+    "title_name": "Verborgener"
+  },
+  {
+    "title_id": "270300130",
+    "title_name": "Verehrter"
+  },
+  {
+    "title_id": "270300131",
+    "title_name": "Untergründiger"
+  },
+  {
+    "title_id": "270300132",
+    "title_name": "Fliehender"
+  },
+  {
+    "title_id": "270300133",
+    "title_name": "Eroberter"
+  },
+  {
+    "title_id": "270300134",
+    "title_name": "Verlorener"
+  },
+  {
+    "title_id": "270300135",
+    "title_name": "Uralter"
+  },
+  {
+    "title_id": "270300136",
+    "title_name": "Gelagerter"
+  },
+  {
+    "title_id": "270300137",
+    "title_name": "Demoralisierter"
+  },
+  {
+    "title_id": "270300138",
+    "title_name": "Rühmender"
+  },
+  {
+    "title_id": "270300139",
+    "title_name": "Leuchtender"
+  },
+  {
+    "title_id": "270300140",
+    "title_name": "Elitärer"
+  },
+  {
+    "title_id": "270300141",
+    "title_name": "Verlassener"
+  },
+  {
+    "title_id": "270300142",
+    "title_name": "Verfolgter"
+  },
+  {
+    "title_id": "270300143",
+    "title_name": "Immerwährender"
+  },
+  {
+    "title_id": "270300144",
+    "title_name": "Begrabener"
+  },
+  {
+    "title_id": "270300145",
+    "title_name": "Schwebender"
+  },
+  {
+    "title_id": "270300146",
+    "title_name": "Eigentümlicher"
+  },
+  {
+    "title_id": "270300147",
+    "title_name": "Unversiegelter"
+  },
+  {
+    "title_id": "270300148",
+    "title_name": "Alberner"
+  },
+  {
+    "title_id": "270300149",
+    "title_name": "Verdächtiger"
+  },
+  {
+    "title_id": "270300150",
+    "title_name": "Gemischter"
+  },
+  {
+    "title_id": "270300151",
+    "title_name": "Unaufhaltsamer"
+  },
+  {
+    "title_id": "270300152",
+    "title_name": "Roter"
+  },
+  {
+    "title_id": "270300153",
+    "title_name": "Stiller"
+  },
+  {
+    "title_id": "270300154",
+    "title_name": "Friedlicher"
+  },
+  {
+    "title_id": "270300155",
+    "title_name": "Wiedererweckter"
+  },
+  {
+    "title_id": "270300156",
+    "title_name": "Mysteriöser"
+  },
+  {
+    "title_id": "270300157",
+    "title_name": "Unglaublicher"
+  },
+  {
+    "title_id": "270300158",
+    "title_name": "Alter"
+  },
+  {
+    "title_id": "270300159",
+    "title_name": "Unsterblicher"
+  },
+  {
+    "title_id": "270300160",
+    "title_name": "Geschmolzener"
+  },
+  {
+    "title_id": "270300161",
+    "title_name": "Verkehrter"
+  },
+  {
+    "title_id": "270300162",
+    "title_name": "Internierter"
+  },
+  {
+    "title_id": "270300163",
+    "title_name": "Versiegelter"
+  },
+  {
+    "title_id": "270300164",
+    "title_name": "Verdorbener"
+  },
+  {
+    "title_id": "270300165",
+    "title_name": "Glänzender"
+  },
+  {
+    "title_id": "270300166",
+    "title_name": "Absorbierender"
+  },
+  {
+    "title_id": "270300167",
+    "title_name": "Vorbereiteter"
+  },
+  {
+    "title_id": "270310001",
+    "title_name": "Held"
+  },
+  {
+    "title_id": "270310002",
+    "title_name": "Wächter"
+  },
+  {
+    "title_id": "270310003",
+    "title_name": "Grenadier"
+  },
+  {
+    "title_id": "270310004",
+    "title_name": "Überlebender"
+  },
+  {
+    "title_id": "270310005",
+    "title_name": "Magier"
+  },
+  {
+    "title_id": "270310006",
+    "title_name": "Mechaniker"
+  },
+  {
+    "title_id": "270310007",
+    "title_name": "Hase"
+  },
+  {
+    "title_id": "270310008",
+    "title_name": "Giftstoff"
+  },
+  {
+    "title_id": "270310009",
+    "title_name": "Meister"
+  },
+  {
+    "title_id": "270310010",
+    "title_name": "Assassine"
+  },
+  {
+    "title_id": "270310011",
+    "title_name": "Koch"
+  },
+  {
+    "title_id": "270310012",
+    "title_name": "Herrscher"
+  },
+  {
+    "title_id": "270310013",
+    "title_name": "Aufbaukorps-Kämpfer"
+  },
+  {
+    "title_id": "270310014",
+    "title_name": "Veteran"
+  },
+  {
+    "title_id": "270310015",
+    "title_name": "Donnerblitz"
+  },
+  {
+    "title_id": "270310016",
+    "title_name": "Mathematiker"
+  },
+  {
+    "title_id": "270310017",
+    "title_name": "Ausharrender"
+  },
+  {
+    "title_id": "270310018",
+    "title_name": "Experte"
+  },
+  {
+    "title_id": "270310019",
+    "title_name": "Techniker"
+  },
+  {
+    "title_id": "270310020",
+    "title_name": "Schwätzer"
+  },
+  {
+    "title_id": "270310021",
+    "title_name": "Lehrer"
+  },
+  {
+    "title_id": "270310022",
+    "title_name": "Professor"
+  },
+  {
+    "title_id": "270310023",
+    "title_name": "Freund"
+  },
+  {
+    "title_id": "270310024",
+    "title_name": "Prominenter"
+  },
+  {
+    "title_id": "270310025",
+    "title_name": "Mischkonzern"
+  },
+  {
+    "title_id": "270310026",
+    "title_name": "Problemlöser"
+  },
+  {
+    "title_id": "270310027",
+    "title_name": "Kaiser"
+  },
+  {
+    "title_id": "270310028",
+    "title_name": "Durchsetzer"
+  },
+  {
+    "title_id": "270310029",
+    "title_name": "Schneemann"
+  },
+  {
+    "title_id": "270310030",
+    "title_name": "Feuerlöscher"
+  },
+  {
+    "title_id": "270310031",
+    "title_name": "Vollstrecker"
+  },
+  {
+    "title_id": "270310032",
+    "title_name": "Unhold"
+  },
+  {
+    "title_id": "270310033",
+    "title_name": "Teufel"
+  },
+  {
+    "title_id": "270310034",
+    "title_name": "Trottel"
+  },
+  {
+    "title_id": "270310035",
+    "title_name": "Schattenmann"
+  },
+  {
+    "title_id": "270310036",
+    "title_name": "Regentropfen"
+  },
+  {
+    "title_id": "270310037",
+    "title_name": "Hüter"
+  },
+  {
+    "title_id": "270310038",
+    "title_name": "Funke"
+  },
+  {
+    "title_id": "270310039",
+    "title_name": "Akrobat"
+  },
+  {
+    "title_id": "270310040",
+    "title_name": "Frosch"
+  },
+  {
+    "title_id": "270310041",
+    "title_name": "Nebelschwaden"
+  },
+  {
+    "title_id": "270310042",
+    "title_name": "Aufspürer"
+  },
+  {
+    "title_id": "270310043",
+    "title_name": "Gigant"
+  },
+  {
+    "title_id": "270310044",
+    "title_name": "Vollmond"
+  },
+  {
+    "title_id": "270310045",
+    "title_name": "Künstler"
+  },
+  {
+    "title_id": "270310046",
+    "title_name": "Eroberer"
+  },
+  {
+    "title_id": "270310047",
+    "title_name": "Stern"
+  },
+  {
+    "title_id": "270310048",
+    "title_name": "Schock"
+  },
+  {
+    "title_id": "270310049",
+    "title_name": "Schmelzer"
+  },
+  {
+    "title_id": "270310050",
+    "title_name": "Tatendrang"
+  },
+  {
+    "title_id": "270310051",
+    "title_name": "Quartiermeister"
+  },
+  {
+    "title_id": "270310052",
+    "title_name": "Feldchirurg"
+  },
+  {
+    "title_id": "270310053",
+    "title_name": "Gesang"
+  },
+  {
+    "title_id": "270310054",
+    "title_name": "Räuber"
+  },
+  {
+    "title_id": "270310055",
+    "title_name": "Hunger"
+  },
+  {
+    "title_id": "270310056",
+    "title_name": "Wolf"
+  },
+  {
+    "title_id": "270310057",
+    "title_name": "Blutsauger"
+  },
+  {
+    "title_id": "270310058",
+    "title_name": "Heimatloser"
+  },
+  {
+    "title_id": "270310059",
+    "title_name": "Meisterschütze"
+  },
+  {
+    "title_id": "270310060",
+    "title_name": "Wahn"
+  },
+  {
+    "title_id": "270310061",
+    "title_name": "Assistent"
+  },
+  {
+    "title_id": "270310062",
+    "title_name": "Sanitäter"
+  },
+  {
+    "title_id": "270310063",
+    "title_name": "Verbreiter"
+  },
+  {
+    "title_id": "270310064",
+    "title_name": "Erlöser"
+  },
+  {
+    "title_id": "270310065",
+    "title_name": "Patient"
+  },
+  {
+    "title_id": "270310066",
+    "title_name": "Unsterblicher"
+  },
+  {
+    "title_id": "270310067",
+    "title_name": "Scharfschütze"
+  },
+  {
+    "title_id": "270310068",
+    "title_name": "Schläger"
+  },
+  {
+    "title_id": "270310069",
+    "title_name": "Experte"
+  },
+  {
+    "title_id": "270310070",
+    "title_name": "Nachfahre"
+  },
+  {
+    "title_id": "270310071",
+    "title_name": "Nachkomme"
+  },
+  {
+    "title_id": "270310072",
+    "title_name": "Ritter"
+  },
+  {
+    "title_id": "270310073",
+    "title_name": "Mondschein"
+  },
+  {
+    "title_id": "270310074",
+    "title_name": "Forscher"
+  },
+  {
+    "title_id": "270310075",
+    "title_name": "Verliebter"
+  },
+  {
+    "title_id": "270310076",
+    "title_name": "Partner"
+  },
+  {
+    "title_id": "270310077",
+    "title_name": "Idiot"
+  },
+  {
+    "title_id": "270310078",
+    "title_name": "Goldbarren"
+  },
+  {
+    "title_id": "270310079",
+    "title_name": "Herumtreiber"
+  },
+  {
+    "title_id": "270310080",
+    "title_name": "Eber"
+  },
+  {
+    "title_id": "270310081",
+    "title_name": "Wanderer"
+  },
+  {
+    "title_id": "270310082",
+    "title_name": "Gegensatz"
+  },
+  {
+    "title_id": "270310083",
+    "title_name": "Schlafloser"
+  },
+  {
+    "title_id": "270310084",
+    "title_name": "Kälteeinbruch"
+  },
+  {
+    "title_id": "270310085",
+    "title_name": "Beutegreifer"
+  },
+  {
+    "title_id": "270310086",
+    "title_name": "Brandstifter"
+  },
+  {
+    "title_id": "270310087",
+    "title_name": "Sumpf"
+  },
+  {
+    "title_id": "270310088",
+    "title_name": "Störenfried"
+  },
+  {
+    "title_id": "270310089",
+    "title_name": "Gletscher"
+  },
+  {
+    "title_id": "270310090",
+    "title_name": "Zerstörer"
+  },
+  {
+    "title_id": "270310091",
+    "title_name": "Smaragd"
+  },
+  {
+    "title_id": "270310092",
+    "title_name": "Schnitter"
+  },
+  {
+    "title_id": "270310093",
+    "title_name": "Rekrut"
+  },
+  {
+    "title_id": "270310094",
+    "title_name": "Schleier"
+  },
+  {
+    "title_id": "270310095",
+    "title_name": "Schweiß"
+  },
+  {
+    "title_id": "270310096",
+    "title_name": "Rückfluss"
+  },
+  {
+    "title_id": "270310097",
+    "title_name": "Regentropfen"
+  },
+  {
+    "title_id": "270310098",
+    "title_name": "Vulkan"
+  },
+  {
+    "title_id": "270310099",
+    "title_name": "Schlemmer"
+  },
+  {
+    "title_id": "270310100",
+    "title_name": "Meisterschütze"
+  },
+  {
+    "title_id": "270310101",
+    "title_name": "Grabhüter"
+  },
+  {
+    "title_id": "270310102",
+    "title_name": "Triumph"
+  },
+  {
+    "title_id": "270310103",
+    "title_name": "Bestrafer"
+  },
+  {
+    "title_id": "270310104",
+    "title_name": "Feinschmecker"
+  },
+  {
+    "title_id": "270310105",
+    "title_name": "Fußabdruck"
+  },
+  {
+    "title_id": "270310106",
+    "title_name": "Felsblock"
+  },
+  {
+    "title_id": "270310107",
+    "title_name": "Schneesturm"
+  },
+  {
+    "title_id": "270310108",
+    "title_name": "Richter"
+  },
+  {
+    "title_id": "270310109",
+    "title_name": "Verfolger"
+  },
+  {
+    "title_id": "270310110",
+    "title_name": "Wächter"
+  },
+  {
+    "title_id": "270310111",
+    "title_name": "Darsteller"
+  },
+  {
+    "title_id": "270310112",
+    "title_name": "Poet"
+  },
+  {
+    "title_id": "270310113",
+    "title_name": "Witzbold"
+  },
+  {
+    "title_id": "270310114",
+    "title_name": "Ermittler"
+  },
+  {
+    "title_id": "270310115",
+    "title_name": "Zweck"
+  },
+  {
+    "title_id": "270310116",
+    "title_name": "Albtraum"
+  },
+  {
+    "title_id": "270310117",
+    "title_name": "Felsen"
+  },
+  {
+    "title_id": "270310118",
+    "title_name": "Lenker"
+  },
+  {
+    "title_id": "270310119",
+    "title_name": "Erfolg"
+  },
+  {
+    "title_id": "270310120",
+    "title_name": "Geheimcode"
+  },
+  {
+    "title_id": "270310121",
+    "title_name": "Stahl"
+  },
+  {
+    "title_id": "270310122",
+    "title_name": "Schmerz"
+  },
+  {
+    "title_id": "270310123",
+    "title_name": "Wachposten"
+  },
+  {
+    "title_id": "270310124",
+    "title_name": "Holzfäller"
+  },
+  {
+    "title_id": "270310125",
+    "title_name": "Archäologe"
+  },
+  {
+    "title_id": "270310126",
+    "title_name": "Trost"
+  },
+  {
+    "title_id": "270310127",
+    "title_name": "Zugriffskorps-Kämpfer"
+  },
+  {
+    "title_id": "270310128",
+    "title_name": "Geflüchteter"
+  },
+  {
+    "title_id": "270310129",
+    "title_name": "Hüter des Waldes"
+  },
+  {
+    "title_id": "270310130",
+    "title_name": "Leibwächter"
+  },
+  {
+    "title_id": "270310131",
+    "title_name": "Feldpolizist"
+  },
+  {
+    "title_id": "270310132",
+    "title_name": "Wald"
+  },
+  {
+    "title_id": "270310133",
+    "title_name": "Verteidiger"
+  },
+  {
+    "title_id": "270310134",
+    "title_name": "Flüchtender"
+  },
+  {
+    "title_id": "270310135",
+    "title_name": "Geist"
+  },
+  {
+    "title_id": "270310136",
+    "title_name": "Verräter"
+  },
+  {
+    "title_id": "270310137",
+    "title_name": "Schild"
+  },
+  {
+    "title_id": "270310138",
+    "title_name": "Bauer"
+  },
+  {
+    "title_id": "270310139",
+    "title_name": "Ödländer"
+  },
+  {
+    "title_id": "270310140",
+    "title_name": "Kommandosoldat"
+  },
+  {
+    "title_id": "270310141",
+    "title_name": "Überrest"
+  },
+  {
+    "title_id": "270310142",
+    "title_name": "Hügel"
+  },
+  {
+    "title_id": "270310143",
+    "title_name": "Sonnenschein"
+  },
+  {
+    "title_id": "270310144",
+    "title_name": "Soldat"
+  },
+  {
+    "title_id": "270310145",
+    "title_name": "Sicherheitschef"
+  },
+  {
+    "title_id": "270310146",
+    "title_name": "Einblick"
+  },
+  {
+    "title_id": "270310147",
+    "title_name": "Wissenschaftler"
+  },
+  {
+    "title_id": "270310148",
+    "title_name": "Beobachter"
+  },
+  {
+    "title_id": "270310149",
+    "title_name": "Mutant"
+  },
+  {
+    "title_id": "270310150",
+    "title_name": "Testkandidat"
+  },
+  {
+    "title_id": "270310151",
+    "title_name": "Nimbus"
+  },
+  {
+    "title_id": "270310152",
+    "title_name": "Erkundungskorps-Kämpfer"
+  },
+  {
+    "title_id": "270310153",
+    "title_name": "Mystiker"
+  },
+  {
+    "title_id": "270310154",
+    "title_name": "Bestandteil"
+  },
+  {
+    "title_id": "270310155",
+    "title_name": "Opfermut"
+  },
+  {
+    "title_id": "270310156",
+    "title_name": "Nachschub"
+  },
+  {
+    "title_id": "270310157",
+    "title_name": "Göttlicher Beschluss"
+  },
+  {
+    "title_id": "270310158",
+    "title_name": "Wehrturm"
+  },
+  {
+    "title_id": "270310159",
+    "title_name": "Kampftrupp"
+  },
+  {
+    "title_id": "270310160",
+    "title_name": "Leiter"
+  },
+  {
+    "title_id": "270310161",
+    "title_name": "Veteran"
+  },
+  {
+    "title_id": "270310162",
+    "title_name": "Kommandant"
+  },
+  {
+    "title_id": "270310163",
+    "title_name": "Aufklärungskorps-Kämpfer"
+  },
+  {
+    "title_id": "270310164",
+    "title_name": "Kern"
+  },
+  {
+    "title_id": "270310165",
+    "title_name": "Ruhm"
+  }
+]

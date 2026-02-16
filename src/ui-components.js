@@ -1,5 +1,4 @@
 import { state } from './state.js';
-import { getTierDisplayName } from './config.js';
 
 // UI Components
 export class UIComponents {
@@ -13,10 +12,13 @@ export class UIComponents {
   ) {
     const moduleSlot = document.createElement('div');
 
-    // Determine slot-specific colors for special slots
-    const isTriggerSlot = slotIndex === 'trigger' || slotType === 'Trigger';
-    const isSkillSlot = slotIndex === 0 || slotType === 'Skill';
-    const isSubSlot = slotIndex === 6 || slotType === 'Sub';
+    // Determine slot-specific colors for special slots (Descendant only)
+    const isTriggerSlot =
+      !isWeaponModule && (slotIndex === 'trigger' || slotType === 'Trigger');
+    const isSkillSlot =
+      !isWeaponModule && (slotIndex === 0 || slotType === 'Skill');
+    const isSubSlot =
+      !isWeaponModule && (slotIndex === 6 || slotType === 'Sub');
 
     let borderColor, hoverBorderColor;
     if (isTriggerSlot) {
@@ -61,7 +63,8 @@ export class UIComponents {
           ? module.module_stat[module.module_stat.length - 1]
           : null;
 
-      const isTriggerSlot = slotIndex === 'trigger' || slotType === 'Trigger';
+      const isTriggerSlot =
+        !isWeaponModule && (slotIndex === 'trigger' || slotType === 'Trigger');
 
       moduleSlot.innerHTML = `
         <div class="flex flex-col gap-2">
@@ -69,7 +72,7 @@ export class UIComponents {
           <div class="flex-1">
             <h4 class="font-semibold text-xs sm:text-sm text-cyber-cyan mb-1 leading-tight">${module.module_name || 'Unknown Module'}</h4>
             ${!isTriggerSlot && module.module_socket_type ? `<p class="text-[10px] sm:text-xs text-steel-grey">${module.module_socket_type}</p>` : ''}
-            ${module.module_tier_id ? `<p class="text-[10px] sm:text-xs text-steel-grey">${getTierDisplayName(module.module_tier_id)}</p>` : ''}
+            ${module.module_tier_id ? `<p class="text-[10px] sm:text-xs text-steel-grey">${state.getTierDisplayName(module.module_tier_id)}</p>` : ''}
             ${module.module_type ? `<p class="text-[10px] sm:text-xs text-amber-gold font-semibold">${module.module_type}</p>` : ''}
           </div>
         </div>
@@ -191,12 +194,15 @@ export class UIComponents {
 
       // Show one slot per core option (not per stat)
       if (coreStatsInline && availableCoreOptions.length > 0) {
+        const localizedFreeAug =
+          state.getLocalizedCoreType('Free Augmentation');
+
         // Separate Free Augmentation from specific augmentation types
         const freeAugmentationOptions = availableCoreOptions.filter((opt) =>
-          opt.core_type_name.includes('Free Augmentation')
+          opt.core_type_name.includes(localizedFreeAug)
         );
         const specificAugmentationOptions = availableCoreOptions.filter(
-          (opt) => !opt.core_type_name.includes('Free Augmentation')
+          (opt) => !opt.core_type_name.includes(localizedFreeAug)
         );
 
         let currentIndex = 0;
@@ -236,7 +242,7 @@ export class UIComponents {
               list="${datalistId}"
               class="flex-1 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-gray-300 text-xs" 
               value="${existingCoreStat ? state.getStatName(existingCoreStat.stat_id) : ''}"
-              placeholder="Free Augmentation stat..."
+              placeholder="${localizedFreeAug} stat..."
               data-weapon-index="${weaponIndex}"
               data-core-stat-index="${currentIndex}"
               data-option-id="${firstFreeOption.option_id}"

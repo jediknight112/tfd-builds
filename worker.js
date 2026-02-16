@@ -17,7 +17,8 @@ function injectEnvVars(html, env) {
       window.__ENV__ = {
         TFD_API_KEY: "${env.TFD_API_KEY || ''}",
         WORKER_API_KEY: "${env.WORKER_API_KEY || ''}",
-        API_BASE_URL: "${env.API_BASE_URL || ''}"
+        API_BASE_URL: "${env.API_BASE_URL || ''}",
+        LANGUAGE_CODE: "${env.LANGUAGE_CODE || ''}"
       };
     </script>
   `;

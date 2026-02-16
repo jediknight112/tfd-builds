@@ -1,0 +1,3936 @@
+[
+  {
+    "collectible_item_id": "266300173",
+    "collectible_item_name": "Viessa (S) - Habilidade 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para reconhecer o trabalho pesado dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300174",
+    "collectible_item_name": "Bunny (S) - Habilidade 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300175",
+    "collectible_item_name": "Bunny (S) - Habilidade 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300176",
+    "collectible_item_name": "Bunny (S) - Habilidade 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para reconhecer o trabalho pesado dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300198",
+    "collectible_item_name": "Amon: General da Legião da Imortalidade (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300199",
+    "collectible_item_name": "Amon: General da Legião da Imortalidade (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300200",
+    "collectible_item_name": "Amon: General da Legião da Imortalidade (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para reconhecer o trabalho pesado dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300345",
+    "collectible_item_name": "Daia (S) - Uniforme do Alpha 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300347",
+    "collectible_item_name": "Ajax (S) - Uniforme do Alpha 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300348",
+    "collectible_item_name": "Padrão Elias (M) - Setor Sigma 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400001",
+    "collectible_item_name": "Ravina do Sol da Meia-noite - Bacia do Sepulcro da Lua",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Existe uma teoria de que os buracos que cobrem a cordilheira foram criados pelos Arquitetos, mas a verdadeira causa permanece desconhecida.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size4",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400004",
+    "collectible_item_name": "Localização da Plataforma do Vazio",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "O Vazio, um espaço-tempo que desafia a lógica. Os Descendentes partem para o Vazio para interceptar os Colossos antes que eles cheguem a Ingris.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400005",
+    "collectible_item_name": "Piscina do Paraíso",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "A Piscina do Paraíso foi instalada em Albion na Temporada 2 EP2. O Descendant Instructor trabalha como barman lá.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400006",
+    "collectible_item_name": "Jardim de Eerie",
+    "collectible_item_description": "[Tempo Limitado] Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um jardim construído para celebrar a temporada de Halloween de 2025.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400007",
+    "collectible_item_name": "Festival de Inverno de Albion",
+    "collectible_item_description": "[Tempo Limitado] Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Este jardim foi decorado em Albion para comemorar a temporada do Festival de Inverno de 2025. O Descendente vestido como um boneco de neve ainda está por aí em algum lugar.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400008",
+    "collectible_item_name": "Show da Crescent",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "O palco do show da banda Crescent, que estará com a Luna para sempre.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size4",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500001",
+    "collectible_item_name": "Pintura",
+    "collectible_item_description": "Um movimento usado ao colocar um Descendente no Lounge.",
+    "collectible_item_narrative": "Um Descendente pode soltar sua imaginação na tela para clarear a mente.\n\nOs sprays próprios podem ser exibidos na tela.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500002",
+    "collectible_item_name": "Tocar ＜Caprice No. 24＞ de Paganini",
+    "collectible_item_description": "Um movimento usado ao colocar um Descendente no Lounge.",
+    "collectible_item_narrative": "Um Descendente toca a peça de Paganini no violino para desopilar.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500003",
+    "collectible_item_name": "Tocar ＜Salut d'Amour＞ de Elgar",
+    "collectible_item_description": "Um movimento usado ao colocar um Descendente no Lounge.",
+    "collectible_item_narrative": "Um Descendente toca a peça de Elgar no violino para desopilar.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500004",
+    "collectible_item_name": "Tocar ＜Concerto 3rd Movement＞ de Tchaikovsky",
+    "collectible_item_description": "Um movimento usado ao colocar um Descendente no Lounge.",
+    "collectible_item_narrative": "Um Descendente toca a peça de Tchaikovsky no violino para desopilar.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500005",
+    "collectible_item_name": "Leitura",
+    "collectible_item_description": "Um movimento usado ao colocar um Descendente no Lounge.",
+    "collectible_item_narrative": "Um Descendente lê livros educativos para desopilar.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500006",
+    "collectible_item_name": "Cubo",
+    "collectible_item_description": "Um movimento usado ao colocar um Descendente no Lounge.",
+    "collectible_item_narrative": "Um Descendente tenta melhorar uma série de habilidades cognitivas, incluindo concentração, resolução de problemas e memória. Mas, é claro, ele também pode estar simplesmente brincando durante o intervalo.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500007",
+    "collectible_item_name": "Pausa para o Chá",
+    "collectible_item_description": "Um movimento usado ao colocar um Descendente no Lounge.",
+    "collectible_item_narrative": "Seja antes ou depois das Operações, um Descendente precisa fazer uma pausa para tomar uma xícara de chá.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500009",
+    "collectible_item_name": "De boa",
+    "collectible_item_description": "Um movimento usado ao colocar um Descendente no Lounge.",
+    "collectible_item_narrative": "Um Descendente está dando ao seu cérebro o presente do descanso.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500010",
+    "collectible_item_name": "Banho para levantar o astral",
+    "collectible_item_description": "Um movimento usado ao colocar um Descendente no Lounge.",
+    "collectible_item_narrative": "Um Descendente toma um banho para levantar o astral.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500011",
+    "collectible_item_name": "Banho refrescante",
+    "collectible_item_description": "Um movimento usado ao colocar um Descendente no Lounge.",
+    "collectible_item_narrative": "Um Descendente toma um banho refrescante.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500012",
+    "collectible_item_name": "Banho agradável",
+    "collectible_item_description": "Um movimento usado ao colocar um Descendente no Lounge.",
+    "collectible_item_narrative": "Um Descendente toma um banho para aliviar o cansaço.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500013",
+    "collectible_item_name": "Sonequinha",
+    "collectible_item_description": "Um movimento usado ao colocar um Descendente no Lounge.",
+    "collectible_item_narrative": "Um Descendente, vencido pelo cansaço, tira uma soneca rápida.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500014",
+    "collectible_item_name": "Manutenção pessoal",
+    "collectible_item_description": "Um movimento usado ao colocar um Descendente no Lounge.",
+    "collectible_item_narrative": "Um Descendente usa seu tempo livre para cuidar dos mínimos detalhes.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500018",
+    "collectible_item_name": "Boxe Sombra",
+    "collectible_item_description": "Um movimento usado ao colocar um Descendente no Lounge.",
+    "collectible_item_narrative": "O Descendente faz isso quando a Guide não está presente.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500019",
+    "collectible_item_name": "Treino de Abdominais",
+    "collectible_item_description": "Um movimento usado ao colocar um Descendente no Lounge.",
+    "collectible_item_narrative": "O Descendente faz abdominais para melhorar a força muscular do tronco.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600001",
+    "collectible_item_name": "Aparência Padrão da Guide",
+    "collectible_item_description": "Esta é a aparência visual padrão definida para a Guide do Lounge.",
+    "collectible_item_narrative": "Esta é a configuração visual padrão para a Guide se comunicar com Descendentes.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600002",
+    "collectible_item_name": "Reconfiguração de Dados",
+    "collectible_item_description": "Esta é a aparência visual reconfigurada da Guide do Lounge.",
+    "collectible_item_narrative": "Aparência da Guide reconfigurada para combinar com os estilos de roupa da Albion moderna. Apesar de a Guide assumir diferentes formas para se comunicar, ela aparentemente sente pouca necessidade de mudar seu visual.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600003",
+    "collectible_item_name": "Guide do Lounge",
+    "collectible_item_description": "Esta é a aparência visual reconfigurada da Guide do Lounge.",
+    "collectible_item_narrative": "Aparência da Guide reconfigurada para uma indumentária confortável para os Descendentes poderem descansar confortavelmente. Não parece particularmente confortável, mas isso também não parece ser um problema para a Guide.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100004",
+    "collectible_item_name": "Presente Simples",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um presente que pode ser dado em um dia especial. Parece que está faltando alguma coisa.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100005",
+    "collectible_item_name": "Presente Generoso",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um presente que pode ser dado em um dia especial. São tantas opções que só de olhar você fica feliz, mas o mais importante é qual deles é o maior.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100006",
+    "collectible_item_name": "Presente Aberto",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um presente que pode ser dado em um dia especial. Anaís enviou o presente para Blair para comemorar a conclusão da inspeção do equipamento dos Ancestrais.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100007",
+    "collectible_item_name": "Lembrança Lacrada",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma lembrança dos pais da Bunny. Um item deixado para Bunny está lacrado lá dentro.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100008",
+    "collectible_item_name": "Lembrança Aberta",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma lembrança dos pais da Bunny. A Bunny olha para o ursinho de pelúcia e pensa no que seus pais devem ter sentido.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100009",
+    "collectible_item_name": "Cravos e Lembranças",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma lembrança dos pais da Bunny. A Bunny colocou cravos na lembrança deixada por seus pais e relembrou sua infância com eles.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100013",
+    "collectible_item_name": "Mala Bagunçada",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "A mala de um Descendente que está saindo de férias. Não foi arrumada corretamente e está muito bagunçada.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100014",
+    "collectible_item_name": "Mala Normal",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "A mala de um Descendente que está saindo de férias. Parece uma mala simples e comum.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100015",
+    "collectible_item_name": "Mala Decorada",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "A mala de um Descendente que está saindo de férias. Foi totalmente decorada para a preparação para as férias.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100016",
+    "collectible_item_name": "Família de Bonecos de Neve Singelos",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma família de bonecos de neve que visita Albion durante as festas de fim de ano. Parece que está faltando alguma coisa.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100017",
+    "collectible_item_name": "Família de Bonecos de Neve Felizes",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma família de bonecos de neve que visita Albion durante as festas de fim de ano. Agora eles sabem sorrir.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100018",
+    "collectible_item_name": "Família de Bonecos de Neve Satisfeitos",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma família de bonecos de neve que visita Albion durante as festas de fim de ano. Eles ficam felizes em passar as festas de fim de ano como visitas.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100019",
+    "collectible_item_name": "Caixão de Madeira",
+    "collectible_item_description": "[Tempo Limitado] Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um caixão de vampiro. Pertencia a um nobre pobre?",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100020",
+    "collectible_item_name": "Caixão de Ferro",
+    "collectible_item_description": "[Tempo Limitado] Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um caixão de vampiro. A julgar pelo exterior desgastado pelo tempo, talvez tenha pertencido a um nobre de linhagem distinta.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100021",
+    "collectible_item_name": "Caixão Folheado a Ouro",
+    "collectible_item_description": "[Tempo Limitado] Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um caixão de vampiro. Com certeza pertencia a um nobre de posição prestigiosa.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100022",
+    "collectible_item_name": "Árvore Comemorativa Singela",
+    "collectible_item_description": "[Tempo Limitado] Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma árvore para celebrar um dia especial. Parece que está faltando alguma coisa.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100023",
+    "collectible_item_name": "Árvore Comemorativa Simples",
+    "collectible_item_description": "[Tempo Limitado] Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma árvore para celebrar um dia especial. Boa o suficiente para usar em uma celebração, mas ainda falta alguma coisa.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100024",
+    "collectible_item_name": "Árvore Comemorativa Sofisticada",
+    "collectible_item_description": "[Tempo Limitado] Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma árvore para celebrar um dia especial. Só de olhar você já fica feliz.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100025",
+    "collectible_item_name": "Terrário Singelo",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "O solo contaminado pelo Vazio deste terrário foi purificado pela tecnologia de engenharia de Albion. As sementes ainda não germinaram.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100026",
+    "collectible_item_name": "Terrário Simples",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "O solo contaminado pelo Vazio deste terrário foi purificado pela tecnologia de engenharia de Albion. Parece que o crescimento pode se estender além dos botões de flores.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100027",
+    "collectible_item_name": "Terrário Arrumado Sofisticado",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "O solo contaminado pelo Vazio deste terrário foi purificado pela tecnologia de engenharia de Albion. À medida que as flores silvestres de Albion floresciam, uma nova vida nascia.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100028",
+    "collectible_item_name": "Veículo Tático Blindado Simples",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um Veículo Blindado Tático essencial para expandir o alcance operacional dos Descendentes. Parece que está faltando alguma coisa.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100029",
+    "collectible_item_name": "Veículo Tático Blindado Básico",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um Veículo Blindado Tático essencial para expandir o alcance operacional dos Descendentes. Sua utilidade varia dependendo da finalidade das peças instaladas.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100030",
+    "collectible_item_name": "Veículo Tático Blindado Completo",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um Veículo Blindado Tático essencial para expandir o alcance operacional dos Descendentes. Ele é equipado com canhões antiaéreos para se preparar para a infiltração do Colosso em caso de falha na Interceptação.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100031",
+    "collectible_item_name": "Quebra-cabeças da Bunny iniciado recentemente",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Este quebra-cabeças exibe alguns momentos maravilhosos da Bunny. Estão faltando algumas peças.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100032",
+    "collectible_item_name": "Quebra-cabeça da Bunny quase concluído",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Este quebra-cabeças exibe alguns momentos maravilhosos da Bunny. Mais algumas peças podem ser suficientes para concluí-lo.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100033",
+    "collectible_item_name": "Quebra-cabeças da Bunny concluído",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Este quebra-cabeças exibe alguns momentos maravilhosos da Bunny. Imperdível para os fãs da Bunny.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100034",
+    "collectible_item_name": "Vaso de Flores Reciclado Singelo",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Evidências de cultivo para testes em terras agrícolas em caixas de munições vazias pelos soldados de Kingston. Parece que está faltando alguma coisa.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100035",
+    "collectible_item_name": "Vaso de Flores Reciclado Simples",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Evidências de cultivo para testes em terras agrícolas em caixas de munições vazias pelos soldados de Kingston. Ervas perfumadas brotaram, mas ainda há espaço para se desenvolverem.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100036",
+    "collectible_item_name": "Vaso de Flores Reciclado Sofisticado",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Evidências de cultivo para testes em terras agrícolas em caixas de munições vazias pelos soldados de Kingston. Graças aos seus esforços, o solo está excelente e as ervas floresceram.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100037",
+    "collectible_item_name": "Conjunto de Biombos Singelos",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um conjunto de biombos com ilustrações fofas. Parece que está faltando alguma coisa.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100038",
+    "collectible_item_name": "Conjunto de Biombos Simples",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um conjunto de biombos com ilustrações fofas. Mais algumas peças podem ser suficientes para concluí-lo.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100039",
+    "collectible_item_name": "Conjunto de Biombos Luxuosos",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um conjunto de biombos com ilustrações fofas. As lanternas tornam o ambiente ainda mais vívido.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100043",
+    "collectible_item_name": "Conjunto de Porcelana Singelo",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um conjunto de louças de porcelana coletadas em Albion, um caldeirão de diferentes culturas. Parece que está faltando alguma coisa.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100044",
+    "collectible_item_name": "Conjunto de Porcelana Simples",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um conjunto de louças de porcelana coletadas em Albion, um caldeirão de diferentes culturas. Mais algumas peças podem ser suficientes para completar o conjunto.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100045",
+    "collectible_item_name": "Conjunto de Porcelana Luxuoso",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um conjunto de louças de porcelana coletadas em Albion, um caldeirão de diferentes culturas. As peças são esmaltadas com um pigmento azul caro que acrescenta um toque clássico e antigo.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100046",
+    "collectible_item_name": "Conjunto de Lanternas Singelo",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um conjunto de lanternas que deixará o Lounge aconchegante. Parece que está faltando alguma coisa.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100047",
+    "collectible_item_name": "Conjunto de Lanternas Simples",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um conjunto de lanternas que deixará o Lounge aconchegante. Mais algumas peças podem ser suficientes para concluí-lo.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100048",
+    "collectible_item_name": "Conjunto de Lanternas Luxuoso",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um conjunto de lanternas que deixará o Lounge aconchegante. Essa combinação de três cores está bem harmonizada.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100049",
+    "collectible_item_name": "Espreguiçadeira Simples",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um conjunto de espreguiçadeiras inspirado nas usadas na Piscina do Paraíso. Parece que está faltando alguma coisa.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100050",
+    "collectible_item_name": "Espreguiçadeira Básica",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um conjunto de espreguiçadeiras inspirado nas usadas na Piscina do Paraíso. Mais algumas peças podem ser suficientes para completar o conjunto.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100051",
+    "collectible_item_name": "Espreguiçadeira Luxuosa",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um conjunto de espreguiçadeiras inspirado nas usadas na Piscina do Paraíso. É perfeita para fugir do calor.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100052",
+    "collectible_item_name": "Braço Protético Tático Marca 2",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Braço protético do Lepic ao qual foi aplicada a tecnologia de Acionamento de Arche. É uma versão inicial e pouco útil para uso diário.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100053",
+    "collectible_item_name": "Braço Protético Tático Marca 7",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Braço protético do Lepic ao qual foi aplicada a tecnologia de Acionamento de Arche. É a mesma versão inicial com um exoesqueleto reforçado, mas ainda é inadequado para otimizar as habilidades de Arche.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100054",
+    "collectible_item_name": "Braço Protético Tático Marca 10",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Braço protético do Lepic ao qual foi aplicada a tecnologia de Acionamento de Arche. Foi projetado para que Lepic pudesse injetar seu Arche Explosivo em munição e granadas. Não inclui a função de punho foguete.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100055",
+    "collectible_item_name": "Estande de Exposição de Acessórios de Descendentes Singelos",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um estande de exposição para réplicas dos acessórios usados pelas Descendentes mulheres, exibidos para a formação dos cadetes da Academia Militar de Albion. Parece que está faltando alguma coisa.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100056",
+    "collectible_item_name": "Estande de Exposição de Acessórios de Descendentes Simples",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um estande de exposição para réplicas dos acessórios usados pelas Descendentes mulheres, exibidos para a formação dos cadetes da Academia Militar de Albion. É um material de referência adequado para os cadetes, mas parece que ainda falta alguma coisa.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100057",
+    "collectible_item_name": "Estande de Exposição de Acessórios de Descendentes Luxuosos",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um estande de exposição para réplicas dos acessórios usados pelas Descendentes mulheres, exibidos para a formação dos cadetes da Academia Militar de Albion. Ele é tão popular que a porcentagem de cadetes mulheres que aspiram a se tornar Descendentes aumentou drasticamente para 65%.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100058",
+    "collectible_item_name": "Cabeça de Ladrão Simples",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "A cabeça de um Vulgus que certa vez fez Sharen refletir sobre seu passado. Ela guardou a cabeça depois de se vingar. Atualmente está em boas condições.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100059",
+    "collectible_item_name": "Cabeça de Ladrão Vingativo",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "A cabeça de um Vulgus que certa vez fez Sharen refletir sobre seu passado. Ela guardou a cabeça depois de se vingar. Parece que ela ainda guarda um pouco de raiva, já que há marcas de uma Espada Curta.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100060",
+    "collectible_item_name": "Cabeça de Ladrão da Vingança Concluída",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "A cabeça de um Vulgus que certa vez fez Sharen refletir sobre seu passado. Ela guardou a cabeça depois de se vingar. Agora é usada como suporte para sua Espada Curta.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100061",
+    "collectible_item_name": "Pedaço de Bolo em Formato de Arma",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um bolo exclusivo em formato de arma que Blair fez para levantar o moral. Pode não parecer, mas Blair é um chef esforçado que testa alegremente armas de fogo em seus inimigos antes de fazer moldes delas para bolos. Resta apenas um pedaço do Lobo Vermelho no momento.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100062",
+    "collectible_item_name": "Metade de um Bolo em Formato de Arma",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um bolo exclusivo em formato de arma que Blair fez para levantar o moral. Pode não parecer, mas Blair é um chef esforçado que testa alegremente armas de fogo em seus inimigos antes de fazer moldes delas para bolos. Restam apenas pedaços do Lobo Vermelho e do Novo Começo no momento.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100063",
+    "collectible_item_name": "Bolo em Formato de Arma Inteiro",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um bolo exclusivo em formato de arma que Blair fez para levantar o moral. Pode não parecer, mas Blair é um chef esforçado que testa alegremente armas de fogo em seus inimigos antes de fazer moldes delas para bolos. Finalmente, o bolo inteiro está completo, que inclui o Lobo Vermelho, o Novo Começo e a Geada do Milênio.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100064",
+    "collectible_item_name": "Aquário feito com Capacete Vazio",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Valby gosta de reformar capacetes não utilizados para usá-los como aquários. Este só tem a base do fundo e água.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100065",
+    "collectible_item_name": "Aquário feito com Capacete Simples",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Valby gosta de reformar capacetes não utilizados para usá-los como aquários. Ela colocou plantas aquáticas nele. Agora só precisa de alguns peixes.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100066",
+    "collectible_item_name": "Aquário feito com Capacete Luxuoso",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Valby gosta de reformar capacetes não utilizados para usá-los como aquários. Às vezes, ela se projeta no aquário enquanto observa os peixes nadando debaixo d'água.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100067",
+    "collectible_item_name": "Estande de Exposição de Máscaras Singelo",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um estande de exposição para réplicas das máscaras usadas pelos Descendentes, exibidas para a formação dos cadetes da Academia Militar de Albion. Parece que está faltando alguma coisa.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100068",
+    "collectible_item_name": "Estande de Exposição de Máscaras Simples",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um estande de exposição para réplicas das máscaras usadas pelos Descendentes, exibidas para a formação dos cadetes da Academia Militar de Albion. É um material de referência adequado para os cadetes, mas parece que ainda falta alguma coisa.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100069",
+    "collectible_item_name": "Estande de Exposição de Máscaras Luxuoso",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um estande de exposição para réplicas das máscaras usadas pelos Descendentes, exibidas para a formação dos cadetes da Academia Militar de Albion. De acordo com uma pesquisa com os cadetes, 60% responderam \"Muito Positivo\" à pergunta se usariam uma máscara caso se tornassem Descendentes.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100070",
+    "collectible_item_name": "Suporte para Fones de Ouvido Simples",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um suporte para colocar fones de ouvido usado pela Luna. É um pouco simples, diferente da Luna.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100071",
+    "collectible_item_name": "Suporte para Fones de Ouvido Único",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um suporte para colocar fones de ouvido usado pela Luna. Como esperado, Luna tem um gosto único.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100072",
+    "collectible_item_name": "Suporte para Fones de Ouvido Deslumbrante",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um suporte para colocar fones de ouvido usado pela Luna. É típico da Luna ter um suporte individual para cada modelo de fone de ouvido.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100073",
+    "collectible_item_name": "Montagem da Mira Vazia",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Hailey jurou que colocaria apenas as miras das armas que ela dominasse nesta montagem de mira. Estava vazio quando ela se tornou membro do 33º Esquadrão de Atiradores.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100074",
+    "collectible_item_name": "Montagem da Mira Simples",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Hailey jurou que colocaria apenas as miras das armas que ela dominasse nesta montagem de mira. Depois que se tornou uma Descendente, ela vem montando as miras de sua Arma Única.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100075",
+    "collectible_item_name": "Montagem da Mira Luxuosa",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Hailey jurou que colocaria apenas as miras das armas que ela dominasse nesta montagem de mira. Ela montou não apenas as miras da sua Arma Única, mas também as miras da Espada do Brilho Residual e da Luz Perfurante.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100076",
+    "collectible_item_name": "Estande de Exposição de Óculos Singelo",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um estande de exposição de óculos para Gley, que surpreendentemente gosta de brilho e glamour. Está quase todo vazio.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100077",
+    "collectible_item_name": "Estande de Exposição de Óculos Simples",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um estande de exposição de óculos para Gley, que surpreendentemente gosta de brilho e glamour. Metade do estande está vazio.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100078",
+    "collectible_item_name": "Estande de Exposição de Óculos Luxuoso",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um estande de exposição de óculos para Gley, que surpreendentemente gosta de brilho e glamour. Nenhum par aqui é para decoração.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100079",
+    "collectible_item_name": "Exorcista Marca 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um traje de batalha de emissão de fotopartículas usado por Serena, feito com tecnologia do Magistrado do passado. A versão Marca 1 é equipada com o Sistema de Ligação de Arche Descendente e ainda não possui fixações de asas.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100080",
+    "collectible_item_name": "Exorcista Marca 2",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um traje de batalha de emissão de fotopartículas usado por Serena, feito com tecnologia do Magistrado do passado. A versão Marca 2 é finalizada com fixações de asas, mas o mecanismo de implantação ainda precisa ser testado.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100081",
+    "collectible_item_name": "Exorcista Marca 2 Versão de Implantação",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Um traje de batalha de emissão de fotopartículas usado por Serena, feito com tecnologia do Magistrado do passado. A versão Marca 2 é finalizada com fixações de asas e um mecanismo de implantação perfeito.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100085",
+    "collectible_item_name": "Lamparina que Repele o Mal Desgastada",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma lamparina feita para afastar espíritos malignos. Não parece forte o suficiente para afastar espíritos malignos.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100086",
+    "collectible_item_name": "Lamparina que Repele o Mal Simples",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma lamparina feita para afastar espíritos malignos. Está cheia de doces de ervas feitos de acordo com a receita do Blair para afastar espíritos malignos. Mas ainda não parece o suficiente.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100087",
+    "collectible_item_name": "Lamparina que Repele o Mal Verdadeira",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma lamparina feita para afastar espíritos malignos. Enriquecida com Biscoitos Ingr e doces de ervas feitos por Blair. Agora, os espíritos malignos não ousarão chegar perto.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100088",
+    "collectible_item_name": "Console de Comando Desgastado",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "O console de comando usado no Centro de Comando de Operações de Albion. É inadequado para o Comando de Operações.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100089",
+    "collectible_item_name": "Console de Comando Simples",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "O console de comando usado no Centro de Comando de Operações de Albion. É capaz de seguir comandos básicos, mas é inadequado para uso em Operações em que as vidas dos Descendentes estão em jogo.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100090",
+    "collectible_item_name": "Console de Comando Verdadeiro",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "O console de comando usado no Centro de Comando de Operações de Albion. É mais do que adequado para uso em Operações em que as vidas dos Descendentes estão em jogo.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100091",
+    "collectible_item_name": "Albion de 99 Anos Vazia",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Para comemorar a fundação de Albion há 100 anos, esta bebida destilada foi envelhecida em barris de carvalho durante 99 anos a partir do ano seguinte à fundação. É claro que isso foi possível graças à tecnologia dos Magistrados. Pelo menos alguém reconheceu seu valor.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100092",
+    "collectible_item_name": "Albion de 99 Anos Singela",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Para comemorar a fundação de Albion há 100 anos, esta bebida destilada foi envelhecida em barris de carvalho durante 99 anos a partir do ano seguinte à fundação. É claro que isso foi possível graças à tecnologia dos Magistrados. A própria embalagem já é considerada uma raridade.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100093",
+    "collectible_item_name": "Albion de 99 Anos Cheia",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Para comemorar a fundação de Albion há 100 anos, esta bebida destilada foi envelhecida em barris de carvalho durante 99 anos a partir do ano seguinte à fundação. É claro que isso foi possível graças à tecnologia dos Magistrados. Cada gota contém o legado de prestígio de Albion.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100094",
+    "collectible_item_name": "Albion de 7 Anos Vazia",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "O item mais popular entre os soldados da linha de frente. Esta garrafa de bebida destilada é distribuída como recompensa. Também é o resultado dos soldados de Kingston darem mais um passo para agradecer ao Blair. No entanto, essa garrafa em particular está vazia.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100095",
+    "collectible_item_name": "Albion de 7 Anos Incompleta",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "O item mais popular entre os soldados da linha de frente. Esta garrafa de bebida destilada é distribuída como recompensa. Ela também é o resultado dos soldados de Kingston darem mais um passo para agradecer ao Blair. Parece que quem bebeu não conseguiu fazer isso de uma vez.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100096",
+    "collectible_item_name": "Albion de 7 Anos Cheia",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "O item mais popular entre os soldados da linha de frente. Esta garrafa de bebida destilada é distribuída como recompensa. Ela também é o resultado dos soldados de Kingston darem mais um passo para agradecer ao Blair. Tradicionalmente, a pessoa que recebe uma garrafa cheia oferece bebidas para todos nesse dia.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266200001",
+    "collectible_item_name": "Troféu de Incentivo: Batalha de Interceptação do Vazio",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Em reconhecimento ao seu inabalável senso de dever e firme compromisso com a segurança,\nvocê é condecorado pela conclusão bem-sucedida\nda Missão de Interceptação\n\n-Comandante de Operações-",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266200002",
+    "collectible_item_name": "Troféu de Excelência: Batalha de Interceptação do Vazio",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Em reconhecimento à sua exemplar capacidade de combate e ao seu forte senso de responsabilidade,\nvocê é condecorado pela excelência na conclusão\nda Missão de Interceptação.\n\n-Comandante de Operações-",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266200003",
+    "collectible_item_name": "Troféu de Realização Excepcional: Batalha de Interceptação do Vazio",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Em reconhecimento ao seu espírito indomável e experiência operacional,\nvocê é condecorado pela conclusão excepcional\nda Missão de Interceptação.\n\n-Comandante de Operações-",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300001",
+    "collectible_item_name": "Lepic (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300002",
+    "collectible_item_name": "Lepic (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300003",
+    "collectible_item_name": "Lepic (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300004",
+    "collectible_item_name": "Ajax (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300005",
+    "collectible_item_name": "Ajax (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300006",
+    "collectible_item_name": "Ajax (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300007",
+    "collectible_item_name": "Viessa (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300008",
+    "collectible_item_name": "Viessa (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300009",
+    "collectible_item_name": "Viessa (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300010",
+    "collectible_item_name": "Bunny (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300011",
+    "collectible_item_name": "Bunny (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300012",
+    "collectible_item_name": "Bunny (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300013",
+    "collectible_item_name": "Jayber (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300014",
+    "collectible_item_name": "Jayber (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300015",
+    "collectible_item_name": "Jayber (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300016",
+    "collectible_item_name": "Freyna (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300017",
+    "collectible_item_name": "Freyna (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300018",
+    "collectible_item_name": "Freyna (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300019",
+    "collectible_item_name": "Gley (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300020",
+    "collectible_item_name": "Gley (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300021",
+    "collectible_item_name": "Gley (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300022",
+    "collectible_item_name": "Sharen (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300023",
+    "collectible_item_name": "Sharen (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300024",
+    "collectible_item_name": "Sharen (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300025",
+    "collectible_item_name": "Blair (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300026",
+    "collectible_item_name": "Blair (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300027",
+    "collectible_item_name": "Blair (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300028",
+    "collectible_item_name": "Valby (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300029",
+    "collectible_item_name": "Valby (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300030",
+    "collectible_item_name": "Valby (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300031",
+    "collectible_item_name": "Kyle (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300032",
+    "collectible_item_name": "Kyle (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300033",
+    "collectible_item_name": "Kyle (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300034",
+    "collectible_item_name": "Esiemo (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300035",
+    "collectible_item_name": "Esiemo (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300036",
+    "collectible_item_name": "Esiemo (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300037",
+    "collectible_item_name": "Enzo (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300038",
+    "collectible_item_name": "Enzo (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300039",
+    "collectible_item_name": "Enzo (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300040",
+    "collectible_item_name": "Yujin (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300041",
+    "collectible_item_name": "Yujin (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300042",
+    "collectible_item_name": "Yujin (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300043",
+    "collectible_item_name": "Luna (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300044",
+    "collectible_item_name": "Luna (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300045",
+    "collectible_item_name": "Luna (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300046",
+    "collectible_item_name": "Hailey (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300047",
+    "collectible_item_name": "Hailey (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300048",
+    "collectible_item_name": "Hailey (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300049",
+    "collectible_item_name": "Keelan (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300050",
+    "collectible_item_name": "Keelan (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300051",
+    "collectible_item_name": "Keelan (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300052",
+    "collectible_item_name": "Ines (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300053",
+    "collectible_item_name": "Ines (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300054",
+    "collectible_item_name": "Ines (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300055",
+    "collectible_item_name": "Serena (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300056",
+    "collectible_item_name": "Serena (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300057",
+    "collectible_item_name": "Serena (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300058",
+    "collectible_item_name": "Nell (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300059",
+    "collectible_item_name": "Nell (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300060",
+    "collectible_item_name": "Nell (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300062",
+    "collectible_item_name": "Viessa (S) - Paraíso 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300065",
+    "collectible_item_name": "Bunny (S) - Paraíso 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300068",
+    "collectible_item_name": "Freyna (S) - Paraíso 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300071",
+    "collectible_item_name": "Gley (S) - Paraíso 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300074",
+    "collectible_item_name": "Sharen (S) - Paraíso 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300077",
+    "collectible_item_name": "Valby (S) - Paraíso 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300080",
+    "collectible_item_name": "Luna (S) - Paraíso 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300083",
+    "collectible_item_name": "Hailey (S) - Paraíso 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300086",
+    "collectible_item_name": "Ines (S) - Paraíso 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300089",
+    "collectible_item_name": "Serena (S) - Paraíso 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300091",
+    "collectible_item_name": "Guide (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300092",
+    "collectible_item_name": "Guide (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300093",
+    "collectible_item_name": "Guide (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300094",
+    "collectible_item_name": "Jeremy (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300095",
+    "collectible_item_name": "Jeremy (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300096",
+    "collectible_item_name": "Jeremy (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300097",
+    "collectible_item_name": "Cão Pastor de Hagios (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300098",
+    "collectible_item_name": "Cão Pastor de Hagios (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300099",
+    "collectible_item_name": "Cão Pastor de Hagios (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300100",
+    "collectible_item_name": "Cão de Caça de Vespers (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300101",
+    "collectible_item_name": "Cão de Caça de Vespers (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300102",
+    "collectible_item_name": "Cão de Caça de Vespers (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300103",
+    "collectible_item_name": "Cão de Trenó (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300104",
+    "collectible_item_name": "Cão de Trenó (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300105",
+    "collectible_item_name": "Cão de Trenó (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300106",
+    "collectible_item_name": "Karel: General da Legião da Escuridão (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300107",
+    "collectible_item_name": "Karel: General da Legião da Escuridão (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300108",
+    "collectible_item_name": "Karel: General da Legião da Escuridão (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300109",
+    "collectible_item_name": "Seudo: Comandante da Legião da Imortalidade (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300110",
+    "collectible_item_name": "Seudo: Comandante da Legião da Imortalidade (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300111",
+    "collectible_item_name": "Seudo: Comandante da Legião da Imortalidade (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300112",
+    "collectible_item_name": "Soldado Comum: Legião da Escuridão (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300113",
+    "collectible_item_name": "Soldado Comum: Legião da Escuridão (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300114",
+    "collectible_item_name": "Soldado Comum: Legião da Escuridão (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300115",
+    "collectible_item_name": "Esplendoroso: Ordem da Verdade (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300116",
+    "collectible_item_name": "Esplendoroso: Ordem da Verdade (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300117",
+    "collectible_item_name": "Esplendoroso: Ordem da Verdade (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300118",
+    "collectible_item_name": "Três Olhos: Legião da Imortalidade (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300119",
+    "collectible_item_name": "Três Olhos: Legião da Imortalidade (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300120",
+    "collectible_item_name": "Três Olhos: Legião da Imortalidade (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300122",
+    "collectible_item_name": "Bunny (M) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300124",
+    "collectible_item_name": "Andarilho do Sepulcro (M) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300125",
+    "collectible_item_name": "Andarilho do Sepulcro (M) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300126",
+    "collectible_item_name": "Andarilho do Sepulcro (M) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para elogiar o trabalho duro dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300128",
+    "collectible_item_name": "Carrasca (M) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300131",
+    "collectible_item_name": "Noiva Defunta (M) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300133",
+    "collectible_item_name": "Bunny (S) - Halloween 1",
+    "collectible_item_description": "[Tempo Limitado] Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300134",
+    "collectible_item_name": "Gley (S) - Halloween 1",
+    "collectible_item_description": "[Tempo Limitado] Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300135",
+    "collectible_item_name": "Sharen (S) - Halloween 1",
+    "collectible_item_description": "[Tempo Limitado] Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300136",
+    "collectible_item_name": "Hailey (S) - Halloween 1",
+    "collectible_item_description": "[Tempo Limitado] Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300137",
+    "collectible_item_name": "Ines (S) - Halloween 1",
+    "collectible_item_description": "[Tempo Limitado] Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300138",
+    "collectible_item_name": "Serena (S) - Halloween 1",
+    "collectible_item_description": "[Tempo Limitado] Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300139",
+    "collectible_item_name": "Nell (S) - Halloween 1",
+    "collectible_item_description": "[Tempo Limitado] Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300140",
+    "collectible_item_name": "Esiemo (S) - Halloween 1",
+    "collectible_item_description": "[Tempo Limitado] Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300141",
+    "collectible_item_name": "Yujin (S) - Cavaleiros de Albion 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300142",
+    "collectible_item_name": "Harris (S) - Cavaleiros de Albion 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300143",
+    "collectible_item_name": "Viessa (S) - Festival de Inverno 1",
+    "collectible_item_description": "[Tempo Limitado] Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300144",
+    "collectible_item_name": "Gley (S) - Festival de Inverno 1",
+    "collectible_item_description": "[Tempo Limitado] Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300145",
+    "collectible_item_name": "Freyna (S) - Festival de Inverno 1",
+    "collectible_item_description": "[Tempo Limitado] Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300147",
+    "collectible_item_name": "Serena (S) - Festival de Inverno 1",
+    "collectible_item_description": "[Tempo Limitado] Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300148",
+    "collectible_item_name": "Jayber (S) - Festival de Inverno 1",
+    "collectible_item_description": "[Tempo Limitado] Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300149",
+    "collectible_item_name": "Viessa (S) - Ídolo 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300150",
+    "collectible_item_name": "Bunny (S) - Ídolo 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300151",
+    "collectible_item_name": "Freyna (S) - Ídolo 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300152",
+    "collectible_item_name": "Gley (S) - Ídolo 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300153",
+    "collectible_item_name": "Sharen (S) - Ídolo 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300154",
+    "collectible_item_name": "Valby (S) - Ídolo 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300155",
+    "collectible_item_name": "Luna (S) - Ídolo 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300156",
+    "collectible_item_name": "Hailey (S) - Ídolo 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300157",
+    "collectible_item_name": "Ines (S) - Ídolo 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300158",
+    "collectible_item_name": "Serena (S) - Ídolo 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300159",
+    "collectible_item_name": "Nell (S) - Ídolo 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300160",
+    "collectible_item_name": "Harris (S) - Ídolo 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300161",
+    "collectible_item_name": "Luna (M) - Brilho do Luar 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300162",
+    "collectible_item_name": "Harris (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300163",
+    "collectible_item_name": "Harris (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300164",
+    "collectible_item_name": "Harris (S) - Clássico 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para reconhecer o trabalho pesado dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300165",
+    "collectible_item_name": "Lepic (S) - Habilidade 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300166",
+    "collectible_item_name": "Lepic (S) - Habilidade 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300167",
+    "collectible_item_name": "Lepic (S) - Habilidade 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para reconhecer o trabalho pesado dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300168",
+    "collectible_item_name": "Ajax (S) - Habilidade 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300169",
+    "collectible_item_name": "Ajax (S) - Habilidade 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300170",
+    "collectible_item_name": "Ajax (S) - Habilidade 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita de ouro puro. Foi feita especialmente pelo QG para reconhecer o trabalho pesado dos Descendentes que lutaram incansavelmente no campo de batalha.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300171",
+    "collectible_item_name": "Viessa (S) - Habilidade 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta pintada com pouca cor devido à escassez de pigmentos. Há um grande estoque dessas estatuetas porque elas são usadas para treinar cidadãos e cadetes de academias militares que têm dificuldade de participar de atividades ao ar livre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300172",
+    "collectible_item_name": "Viessa (S) - Habilidade 1",
+    "collectible_item_description": "Um item colecionável que pode ser colocado no Lounge.",
+    "collectible_item_narrative": "Uma estatueta feita para se parecer com a original. O realismo foi enfatizado para treinar cadetes da academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  }
+]

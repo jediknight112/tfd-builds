@@ -1,0 +1,3936 @@
+[
+  {
+    "collectible_item_id": "266300173",
+    "collectible_item_name": "비에사(S) - 스킬 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300174",
+    "collectible_item_name": "버니(S) - 스킬 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300175",
+    "collectible_item_name": "버니(S) - 스킬 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300176",
+    "collectible_item_name": "버니(S) - 스킬 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300198",
+    "collectible_item_name": "아몬: 불멸의 군단장(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300199",
+    "collectible_item_name": "아몬: 불멸의 군단장(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300200",
+    "collectible_item_name": "아몬: 불멸의 군단장(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300345",
+    "collectible_item_name": "다이아(S) - 알파 제복 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300347",
+    "collectible_item_name": "에이잭스(S) - 알파 제복 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300348",
+    "collectible_item_name": "패턴 앨리아스(M) - 시그마 섹터 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400001",
+    "collectible_item_name": "백야 협곡 - 달무덤 유역",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "산맥을 뒤덮은 구멍들의 출처는 설계자라는 설이 있으나 현재로선 미지의 영역이다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size4",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400004",
+    "collectible_item_name": "보이드 요격지",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "비논리적인 시공간인 보이드. 계승자는 잉그리스에 거신이 도착하기 전, 요격을 위해 보이드로 떠난다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400005",
+    "collectible_item_name": "파라다이스 수영장",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "시즌2 EP2에 알비온에 설치된 파라다이스 수영장이다. 계승자 교육관이 바텐더로 활약한다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400006",
+    "collectible_item_name": "오싹 정원",
+    "collectible_item_description": "[기간한정]라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "2025 할로윈 시즌을 기념하기 위해 만들어진 정원이다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400007",
+    "collectible_item_name": "알비온 겨울 축제",
+    "collectible_item_description": "[기간한정] 라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "2025 겨울 축제 시즌을 기념하기 위해 알비온에서 꾸민 정원이다. 눈사람 옷을 입은 계승자는 지금도 어디선가 활약 중이다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400008",
+    "collectible_item_name": "크레센트 콘서트",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "루나와 영원히 함께 할 밴드 '크레센트'의 공연장이다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size4",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500001",
+    "collectible_item_name": "회화 그리기",
+    "collectible_item_description": "라운지에 계승자를 배치할 때 사용하는 모션입니다.",
+    "collectible_item_narrative": "계승자가 머리를 식히기 위해 캔버스 위에 상상의 나래를 펼칩니다.\n\n캔버스에는 보유하고 있는 스프레이를 표시할 수 있습니다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500002",
+    "collectible_item_name": "파가니니의 ＜카프리스 24＞ 연주하기",
+    "collectible_item_description": "라운지에 계승자를 배치할 때 사용하는 모션입니다.",
+    "collectible_item_narrative": "계승자가 머리를 식히기 위해 바이올린으로 파가니니의 곡을 연주합니다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500003",
+    "collectible_item_name": "엘가의 ＜사랑의 인사＞ 연주하기",
+    "collectible_item_description": "라운지에 계승자를 배치할 때 사용하는 모션입니다.",
+    "collectible_item_narrative": "계승자가 머리를 식히기 위해 바이올린으로 엘가의 곡을 연주합니다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500004",
+    "collectible_item_name": "차이코프스키의 ＜바이올린 협주곡 3악장＞ 연주하기",
+    "collectible_item_description": "라운지에 계승자를 배치할 때 사용하는 모션입니다.",
+    "collectible_item_narrative": "계승자가 머리를 식히기 위해 바이올린으로 차이코프스키의 곡을 연주합니다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500005",
+    "collectible_item_name": "독서",
+    "collectible_item_description": "라운지에 계승자를 배치할 때 사용하는 모션입니다.",
+    "collectible_item_narrative": "계승자가 머리를 식히기 위해 교양 서적을 읽습니다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500006",
+    "collectible_item_name": "큐브",
+    "collectible_item_description": "라운지에 계승자를 배치할 때 사용하는 모션입니다.",
+    "collectible_item_narrative": "계승자가 집중력, 문제 해결 능력, 기억력 등 다양한 인지 능력을 향상시키기 노력합니다. 물론 휴식 시간이니 딴짓할 수도 있습니다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500007",
+    "collectible_item_name": "차 한 잔의 여유",
+    "collectible_item_description": "라운지에 계승자를 배치할 때 사용하는 모션입니다.",
+    "collectible_item_narrative": "작전 수행 전이든 후든 차 한 잔의 여유는 계승자에게 꼭 필요합니다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500009",
+    "collectible_item_name": "멍 때리기",
+    "collectible_item_description": "라운지에 계승자를 배치할 때 사용하는 모션입니다.",
+    "collectible_item_narrative": "계승자는 지금 뇌에게 휴식을 선물하는 중입니다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500010",
+    "collectible_item_name": "발랄한 샤워",
+    "collectible_item_description": "라운지에 계승자를 배치할 때 사용하는 모션입니다.",
+    "collectible_item_narrative": "계승자가 발랄하게 샤워합니다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500011",
+    "collectible_item_name": "산뜻한 샤워",
+    "collectible_item_description": "라운지에 계승자를 배치할 때 사용하는 모션입니다.",
+    "collectible_item_narrative": "계승자가 산뜻하게 샤워합니다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500012",
+    "collectible_item_name": "즐기는 샤워",
+    "collectible_item_description": "라운지에 계승자를 배치할 때 사용하는 모션입니다.",
+    "collectible_item_narrative": "계승자가 피로를 해소하기 위해 샤워합니다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500013",
+    "collectible_item_name": "쪽잠",
+    "collectible_item_description": "라운지에 계승자를 배치할 때 사용하는 모션입니다.",
+    "collectible_item_narrative": "피곤함을 못 이긴 계승자가 잠을 청합니다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500014",
+    "collectible_item_name": "개인 정비",
+    "collectible_item_description": "라운지에 계승자를 배치할 때 사용하는 모션입니다.",
+    "collectible_item_narrative": "계승자가 개인 시간을 활용하여 사소한 부분까지 정비합니다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500018",
+    "collectible_item_name": "쉐도우 복싱",
+    "collectible_item_description": "라운지에 계승자를 배치할 때 사용하는 모션입니다.",
+    "collectible_item_narrative": "안내자가 모습을 드러내지 않을 때 종종 계승자는 이렇게 행동합니다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500019",
+    "collectible_item_name": "복근 운동",
+    "collectible_item_description": "라운지에 계승자를 배치할 때 사용하는 모션입니다.",
+    "collectible_item_narrative": "계승자는 코어 근육 향상을 위해 복근을 단련합니다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600001",
+    "collectible_item_name": "안내자의 기본 모습",
+    "collectible_item_description": "라운지의 안내자가 설정한 기본 비주얼입니다.",
+    "collectible_item_narrative": "안내자가 계승자들과 소통할 수 있도록 설정한 기본 모습이다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600002",
+    "collectible_item_name": "데이터 재구성",
+    "collectible_item_description": "라운지의 안내자가 재구성된 비주얼입니다.",
+    "collectible_item_narrative": "현대 알비온의 의복 형태에 맞춰 재구성한 안내자의 모습. 안내자는 소통을 위해 여러 형태를 취할 수 있지만, 외형을 바꿀 필요성을 크게 느끼지 않는다고 한다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600003",
+    "collectible_item_name": "라운지 안내자",
+    "collectible_item_description": "라운지의 안내자가 재구성된 비주얼입니다.",
+    "collectible_item_narrative": "계승자들이 편안하게 휴식할 수 있도록 편안한 의상으로 재구성한 안내자의 모습. 겉보기엔 그다지 편해 보이지 않지만 어쨌든, 안내자에게 있어 그다지 큰 문제는 아닌 것 같다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100004",
+    "collectible_item_name": "단출한 선물",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "기념일에 줄 만한 선물이다. 뭔가 허전하다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100005",
+    "collectible_item_name": "푸짐한 선물",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "기념일에 줄 만한 선물이다. 보기만 해도 행복할 만큼 많은 양이지만 역시 제일 큰 게 뭔지가 중요할 것 같다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100006",
+    "collectible_item_name": "언박싱된 선물",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "기념일에 줄 만한 선물이다. 아나이스가 선각자 장비 검증을 마친 기념으로 블레어에게 보냈다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100007",
+    "collectible_item_name": "봉인된 유품",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "버니의 부모님이 남긴 유품이다. 버니에게 남긴 물건이 봉인되어 있다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100008",
+    "collectible_item_name": "개봉한 유품",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "버니의 부모님이 남긴 유품이다. 버니는 곰인형을 보며 부모님의 마음을 떠올린다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100009",
+    "collectible_item_name": "카네이션과 유품",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "버니의 부모님이 남긴 유품이다. 버니가 부모님이 남긴 유품에 카네이션을 헌화했다. 버니는 이 앞에서 부모님과 보낸 어린 시절을 추억한다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100013",
+    "collectible_item_name": "엉망인 캐리어",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "휴가를 떠나는 계승자의 캐리어이다. 정리가 덜 되어 난잡한 상태이다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100014",
+    "collectible_item_name": "멀쩡한 캐리어",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "휴가를 떠나는 계승자의 캐리어이다. 겉보기에 평범한 캐리어이다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100015",
+    "collectible_item_name": "화려해진 캐리어",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "휴가를 떠나는 계승자의 캐리어이다. 휴가지에서 한껏 꾸며진 캐리어이다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100016",
+    "collectible_item_name": "허전한 눈사람 가족",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "연말연시에 알비온을 찾는 눈사람 가족이다. 뭔가 허전하다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100017",
+    "collectible_item_name": "단란한 눈사람 가족",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "연말연시에 알비온을 찾는 눈사람 가족이다. 이제 미소지을 줄도 안다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100018",
+    "collectible_item_name": "행복만땅 눈사람 가족",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "연말연시에 알비온을 찾는 눈사람 가족이다. 따뜻한 연말연시를 보내기에 충분하다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100019",
+    "collectible_item_name": "목재 관",
+    "collectible_item_description": "[기간한정]라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "뱀파이어 관이다. 가난한 귀족 출신인가?",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100020",
+    "collectible_item_name": "철제 관",
+    "collectible_item_description": "[기간한정]라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "뱀파이어 관이다. 낡은 외관을 보면 뼈대는 있는 귀족 출신일지도.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100021",
+    "collectible_item_name": "금장 관",
+    "collectible_item_description": "[기간한정]라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "뱀파이어 관이다. 명망 높은 귀족 출신이 확실하다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100022",
+    "collectible_item_name": "허전한 기념수",
+    "collectible_item_description": "[기간한정] 라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "기념일을 축하하기 위한 나무이다. 뭔가 허전하다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100023",
+    "collectible_item_name": "평범한 기념수",
+    "collectible_item_description": "[기간한정] 라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "기념일을 축하하기 위한 나무이다. 기념일을 즐기기에 적합하지만 뭔가 부족하다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100024",
+    "collectible_item_name": "화려한 기념수",
+    "collectible_item_description": "[기간한정] 라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "기념일을 축하하기 위한 나무이다. 보고만 있어도 기분이 좋다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100025",
+    "collectible_item_name": "허전한 테라리움",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "보이드에 오염됐던 토양을 알비온의 공학 기술로 정화한 테라리움이다. 아직 씨앗이 싹트지 않았다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100026",
+    "collectible_item_name": "평범한 테라리움",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "보이드에 오염됐던 토양을 알비온의 공학 기술로 정화한 테라리움이다. 꽃봉오리 위로 더 자랄 수 있을 것 같다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100027",
+    "collectible_item_name": "화려한 테라리움",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "보이드에 오염됐던 토양을 알비온의 공학 기술로 정화한 테라리움이다. 알비온 들꽃이 만개하자 새 생명도 태어났다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100028",
+    "collectible_item_name": "허전한 전술 장갑차",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "계승자들의 활동 반경을 넓히기 위해 필수적인 전술 장갑차이다. 뭔가 허전하다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100029",
+    "collectible_item_name": "평범한 전술 장갑차",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "계승자들의 활동 반경을 넓히기 위해 필수적인 전술 장갑차이다. 어떠한 목적을 가진 부품을 추가 탑재하느냐에 따라 용도가 달라진다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100030",
+    "collectible_item_name": "완전한 전술 장갑차",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "계승자들의 활동 반경을 넓히기 위해 필수적인 전술 장갑차이다. 혹시라도 요격 실패 시 침투할 거신에 대비하기 위해 대공포를 탑재했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100031",
+    "collectible_item_name": "막 시작한 버니 퍼즐",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "버니의 멋진 순간을 담은 퍼즐이다. 군데군데 빈 곳이 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100032",
+    "collectible_item_name": "끝이 보이는 버니 퍼즐",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "버니의 멋진 순간을 담은 퍼즐이다. 조금만 더 채우면 완성할 수 있을 것 같다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100033",
+    "collectible_item_name": "완성본 버니 퍼즐",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "버니의 멋진 순간을 담은 퍼즐이다. 버니의 팬이라면 꼭 소유해야 할 것 같다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100034",
+    "collectible_item_name": "허전한 업사이클링 화분",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "킹스턴 병사들이 농지 테스트를 위해 빈 군수품 물자함에 키운 흔적이다. 뭔가 허전하다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100035",
+    "collectible_item_name": "평범한 업사이클링 화분",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "킹스턴 병사들이 농지 테스트를 위해 빈 군수품 물자함에 키운 흔적이다. 향긋한 허브가 돋아났지만, 아직 더 자랄 수 있는 듯하다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100036",
+    "collectible_item_name": "화려한 업사이클링 화분",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "킹스턴 병사들이 농지 테스트를 위해 빈 군수품 물자함에 키운 흔적이다. 병사들의 노력 덕분에 토양이 훌륭해서 허브꽃을 틔웠다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100037",
+    "collectible_item_name": "허전한 병풍 세트",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "아기자기한 일러스트가 새겨진 병풍 세트이다. 뭔가 허전하다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100038",
+    "collectible_item_name": "평범한 병풍 세트",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "아기자기한 일러스트가 새겨진 병풍 세트이다. 조금만 더 채우면 완성할 수 있을 것 같다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100039",
+    "collectible_item_name": "풍성한 병풍 세트",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "아기자기한 일러스트가 새겨진 병풍 세트이다. 등불 덕분에 분위기가 더욱 살아난다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100043",
+    "collectible_item_name": "허전한 도자기 세트",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "다양한 문화가 섞인 알비온에서 수집한 도자기 세트이다. 뭔가 허전하다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100044",
+    "collectible_item_name": "평범한 도자기 세트",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "다양한 문화가 섞인 알비온에서 수집한 도자기 세트이다. 조금만 더 채우면 완성할 수 있을 것 같다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100045",
+    "collectible_item_name": "풍성한 도자기 세트",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "다양한 문화가 섞인 알비온에서 수집한 도자기 세트이다. 값비싼 파란색 안료 도자기 덕분에 고풍스러움이 더해진다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100046",
+    "collectible_item_name": "허전한 등불 세트",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "라운지 분위기를 아늑하게 만들어줄 등불 세트이다. 뭔가 허전하다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100047",
+    "collectible_item_name": "평범한 등불 세트",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "라운지 분위기를 아늑하게 만들어줄 등불 세트이다. 조금만 더 채우면 완성할 수 있을 것 같다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100048",
+    "collectible_item_name": "풍성한 등불 세트",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "라운지 분위기를 아늑하게 만들어줄 등불 세트이다. 3가지 색 조합이 매우 잘 어울린다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100049",
+    "collectible_item_name": "허전한 선베드",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "파라다이스 수영장에서 쓰던 것을 본따 만든 선베드 세트이다. 뭔가 허전하다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100050",
+    "collectible_item_name": "평범한 선베드",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "파라다이스 수영장에서 쓰던 것을 본따 만든 선베드 세트이다. 조금만 더 채우면 완성할 수 있을 것 같다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100051",
+    "collectible_item_name": "풍성한 선베드",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "파라다이스 수영장에서 쓰던 것을 본따 만든 선베드 세트이다. 무더위를 피하기 안성맞춤이다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100052",
+    "collectible_item_name": "전술 의수 Mk.2",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "아르케 드라이브 기술이 적용된 레픽 전용 의수이다. 초기 버전으로 일상에서 겨우 사용 가능하다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100053",
+    "collectible_item_name": "전술 의수 Mk.7",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "아르케 드라이브 기술이 적용된 레픽 전용 의수이다. 초기 버전에서 외골격을 보강했으나 아르케 능력을 최적화하기에는 역시 부족하다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100054",
+    "collectible_item_name": "전술 의수 Mk.10",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "아르케 드라이브 기술이 적용된 레픽 전용 의수이다. 탄약과 수류탄에 그의 폭발성 아르케를 주입할 수 있도록 제작됐다. 로켓 주먹 기능은 들어가지 않았다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100055",
+    "collectible_item_name": "허전한 계승자 장신구 진열대",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "알비온 군사대학 생도들의 교육을 위해 레플리카 버전으로 전시된 여성 계승자들의 장신구 진열대이다. 뭔가 허전하다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100056",
+    "collectible_item_name": "평범한 계승자 장신구 진열대",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "알비온 군사대학 생도들의 교육을 위해 레플리카 버전으로 전시된 여성 계승자들의 장신구 진열대이다. 생도들의 자료로 적합하지만 뭔가 부족하다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100057",
+    "collectible_item_name": "풍성한 계승자 장신구 진열대",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "알비온 군사대학 생도들의 교육을 위해 레플리카 버전으로 전시된 여성 계승자들의 장신구 진열대이다. 이 자료를 본 여성 생도들의 계승자 희망률이 65% 급상승을 기록할 만큼 인기있다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100058",
+    "collectible_item_name": "평범한 프라울러 머리",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "샤렌을 성찰하게 만든 벌거스로, 복수에 성공한 샤렌이 머리만 따로 보관 중이다. 현재는 멀쩡한 상태이다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100059",
+    "collectible_item_name": "복수심을 자극하는 프라울러 머리",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "샤렌을 성찰하게 만든 벌거스로, 복수에 성공한 샤렌이 머리만 따로 보관 중이다. 분이 풀리지 않았는지 단검으로 표시를 해뒀다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100060",
+    "collectible_item_name": "복수에 성공한 프라울러 머리",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "샤렌을 성찰하게 만든 벌거스로, 복수에 성공한 샤렌이 머리만 따로 보관 중이다. 그녀의 단검을 보관해두는 오브제로 용도가 바뀌었다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100061",
+    "collectible_item_name": "권총 조각 케이크",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "블레어가 사기 진작을 위해 만든 권총 모양의 독특한 케이크이다. 이래 봬도 블레어는 노력파 셰프이기 때문에 모양을 본뜨기 전에 적들에게 총기를 마음껏 사용해본다고 한다. 현재는 붉은 늑대 조각만 있다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100062",
+    "collectible_item_name": "권총 하프 케이크",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "블레어가 사기 진작을 위해 만든 권총 모양의 독특한 케이크이다. 이래 봬도 블레어는 노력파 셰프이기 때문에 모양을 본뜨기 전에 적들에게 총기를 마음껏 사용해본다고 한다. 현재는 붉은 늑대, 새 시작 조각만 있다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100063",
+    "collectible_item_name": "권총 홀 케이크",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "블레어가 사기 진작을 위해 만든 권총 모양의 독특한 케이크이다. 이래 봬도 블레어는 노력파 셰프이기 때문에 모양을 본뜨기 전에 적들에게 총기를 마음껏 사용해본다고 한다. 붉은 늑대, 새 시작, 천년설로 구성된 홀 케이크가 완전체이다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100064",
+    "collectible_item_name": "텅 빈 헬멧 어항",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "밸비는 사용하지 않는 헬멧을 어항으로 만들어 기념한다. 아직 바닥재와 물만 있다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100065",
+    "collectible_item_name": "평범한 헬멧 어항",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "밸비는 사용하지 않는 헬멧을 어항으로 만들어 기념한다. 수초를 심어 환경을 구축했다. 이제 물고기만 들이면 된다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100066",
+    "collectible_item_name": "풍성한 헬멧 어항",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "밸비는 사용하지 않는 헬멧을 어항으로 만들어 기념한다. 수중에서 유영하는 물고기를 보며 자신을 투영하기도 한다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100067",
+    "collectible_item_name": "허전한 마스크 진열대",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "알비온 군사대학 생도들의 교육을 위해 레플리카 버전으로 전시된 계승자들의 마스크 진열대이다. 뭔가 허전하다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100068",
+    "collectible_item_name": "평범한 마스크 진열대",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "알비온 군사대학 생도들의 교육을 위해 레플리카 버전으로 전시된 계승자들의 마스크 진열대이다. 생도들의 자료로 적합하지만 뭔가 부족하다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100069",
+    "collectible_item_name": "풍성한 마스크 진열대",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "알비온 군사대학 생도들의 교육을 위해 레플리카 버전으로 전시된 계승자들의 마스크 진열대이다. 생도들의 설문 결과, 자신이 계승자가 됐을 때 마스크를 착용하겠냐는 질문에 대한 응답 중 60%가 '매우 긍정적'으로 답했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100070",
+    "collectible_item_name": "평범한 헤드셋 진열대",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "루나가 사용하는 헤드셋과 진열대이다. 루나답지 않게 뭔가 심심하다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100071",
+    "collectible_item_name": "독특한 헤드셋 진열대",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "루나가 사용하는 헤드셋과 진열대이다. 역시 루나의 취향은 독특하다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100072",
+    "collectible_item_name": "휘황찬란한 헤드셋 진열대",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "루나가 사용하는 헤드셋과 진열대이다. 다양한 헤드셋 디자인마다 전용 거치대도 따로 마련했다는 게 루나답다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100073",
+    "collectible_item_name": "텅 빈 스코프 거치대",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "헤일리는 이 스코프 거치대에 스스로 만족하는 수준까지 숙련도를 달성한 무기 스코프만 올리기로 했다. 제33 저격부대원 시절에는 텅 비어 있었다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100074",
+    "collectible_item_name": "평범한 스코프 거치대",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "헤일리는 이 스코프 거치대에 스스로 만족하는 수준까지 숙련도를 달성한 무기 스코프만 올리기로 했다. 계승자로 발탁되면서 전용 무기들의 스코프를 올렸다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100075",
+    "collectible_item_name": "풍성한 스코프 거치대",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "헤일리는 이 스코프 거치대에 스스로 만족하는 수준까지 숙련도를 달성한 무기 스코프만 올리기로 했다. 전용 무기는 물론 검의 잔광, 관통하는 빛의 스코프까지 올렸다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100076",
+    "collectible_item_name": "허전한 아이웨어 진열대",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "생각보다 화려한 걸 좋아하는 글레이의 아이웨어 진열대이다. 진열대가 많이 비어서 허전하다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100077",
+    "collectible_item_name": "평범한 아이웨어 진열대",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "생각보다 화려한 걸 좋아하는 글레이의 아이웨어 진열대이다. 진열대 절반이 남았다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100078",
+    "collectible_item_name": "풍성한 아이웨어 진열대",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "생각보다 화려한 걸 좋아하는 글레이의 아이웨어 진열대이다. 여기서 관상용은 단 하나도 없다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100079",
+    "collectible_item_name": "엑소 시스터 Mk.1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "세레나가 사용하는 광입자 방출 강화복으로, 과거 매지스터 기술로 만들어졌다. Mk.1에서 계승자 아르케 연동 시스템을 탑재했다. 아직 날개 부품을 부착하기 전이다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100080",
+    "collectible_item_name": "엑소 시스터 Mk.2",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "세레나가 사용하는 광입자 방출 강화복으로, 과거 매지스터 기술로 만들어졌다. Mk.2에서 날개 부품을 부착한 완성품을 제작했다. 물론 전개 동작은 따로 확인해야 한다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100081",
+    "collectible_item_name": "엑소 시스터 Mk.2 전개 버전",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "세레나가 사용하는 광입자 방출 강화복으로, 과거 매지스터 기술로 만들어졌다. Mk.2에서 날개 부품을 부착한 완성품을 제작했다. 전개 동작까지 완벽하다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100085",
+    "collectible_item_name": "초라한 악령 차단 램프",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "악령들의 접근을 막기 위해 만든 램프이다. 아직 악령을 막기엔 역부족으로 보인다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100086",
+    "collectible_item_name": "평범한 악령 차단 램프",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "악령들의 접근을 막기 위해 만든 램프이다. 악령을 막기 위해 블레어의 레시피로 만든 허브 사탕을 채웠다. 하지만 아직 부족해 보인다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100087",
+    "collectible_item_name": "진정한 악령 차단 램프",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "악령들의 접근을 막기 위해 만든 램프이다. 블레어가 만든 잉그르 쿠키와 허브 사탕으로 풍성해졌다. 이제 악령들은 얼씬도 하지 않을 것 같다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100088",
+    "collectible_item_name": "초라한 지휘콘솔",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "알비온 작전사령실에서 사용하는 지휘콘솔이다. 이걸로 지휘하기에는 역부족이다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100089",
+    "collectible_item_name": "평범한 지휘콘솔",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "알비온 작전사령실에서 사용하는 지휘콘솔이다. 기본적인 지휘는 가능하지만 계승자의 목숨이 달린 일에 사용하기는 부족하다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100090",
+    "collectible_item_name": "진정한 지휘콘솔",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "알비온 작전사령실에서 사용하는 지휘콘솔이다. 계승자의 생사를 담보로한 작전에 쓰기에 전혀 부족함이 없다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100091",
+    "collectible_item_name": "텅 빈 99년산 알비온",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "100년 전 알비온 건립을 기념하여 이듬해 오크통에 99년 간 숙성한 증류주이다. 당연히 매지스터 기술력 덕이다. 누군가 가치를 알아본 모양이다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100092",
+    "collectible_item_name": "허전한 99년산 알비온",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "100년 전 알비온 건립을 기념하여 이듬해 오크통에 99년 간 숙성한 증류주이다. 당연히 매지스터 기술력 덕이다. 패키지만 있어도 희귀하게 취급된다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100093",
+    "collectible_item_name": "완전체 99년산 알비온",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "100년 전 알비온 건립을 기념하여 이듬해 오크통에 99년 간 숙성한 증류주이다. 당연히 매지스터 기술력 덕이다. 알비온 명품 해리티지를 고스란히 느낄 수 있다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100094",
+    "collectible_item_name": "텅 빈 07년산 알비온",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "일선 병사들이 가장 좋아하는 물품으로, 포상으로 지급한다고 알려진 증류주이다. 블레어 덕에 킹스턴 병사들이 한발 나아간 결과물이다. 비록 텅 비었지만 말이다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100095",
+    "collectible_item_name": "남겨진 07년산 알비온",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "일선 병사들이 가장 좋아하는 물품으로, 포상으로 지급한다고 알려진 증류주이다. 블레어 덕에 킹스턴 병사들이 한발 나아간 결과물이다. 포상자가 원샷에 실패한 모양이다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100096",
+    "collectible_item_name": "완전체 07년산 알비온",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "일선 병사들이 가장 좋아하는 물품으로, 포상으로 지급한다고 알려진 증류주이다. 블레어 덕에 킹스턴 병사들이 한발 나아간 결과물이다. 완전체를 받은 사람이 그날 한턱 내는 관례가 있다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266200001",
+    "collectible_item_name": "장려 트로피: 보이드 요격전",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "귀 계승자는 확고한 안보관과 사명감으로\n당면한 요격 임무를 잘 완수한 공을 인정하므로\n이에 표창합니다.\n\n-작전사령관-",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266200002",
+    "collectible_item_name": "우수 트로피: 보이드 요격전",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "귀 계승자는 모범적인 전투력과 책임감으로\n당면한 요격 임무를 우수하게 완수한 공이 크므로\n이에 표창합니다.\n\n-작전사령관-",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266200003",
+    "collectible_item_name": "최우수 트로피: 보이드 요격전",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "귀 계승자는 불굴의 정신력과 작전 수행 능력으로\n당면한 요격 임무를 성공적으로 완수한 공이 크므로\n이에 표창합니다.\n\n-작전사령관-",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300001",
+    "collectible_item_name": "레픽(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300002",
+    "collectible_item_name": "레픽(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300003",
+    "collectible_item_name": "레픽(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300004",
+    "collectible_item_name": "에이잭스(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300005",
+    "collectible_item_name": "에이잭스(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300006",
+    "collectible_item_name": "에이잭스(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300007",
+    "collectible_item_name": "비에사(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300008",
+    "collectible_item_name": "비에사(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300009",
+    "collectible_item_name": "비에사(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300010",
+    "collectible_item_name": "버니(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300011",
+    "collectible_item_name": "버니(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300012",
+    "collectible_item_name": "버니(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300013",
+    "collectible_item_name": "제이버(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300014",
+    "collectible_item_name": "제이버(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300015",
+    "collectible_item_name": "제이버(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300016",
+    "collectible_item_name": "프레이나(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300017",
+    "collectible_item_name": "프레이나(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300018",
+    "collectible_item_name": "프레이나(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300019",
+    "collectible_item_name": "글레이(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300020",
+    "collectible_item_name": "글레이(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300021",
+    "collectible_item_name": "글레이(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300022",
+    "collectible_item_name": "샤렌(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300023",
+    "collectible_item_name": "샤렌(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300024",
+    "collectible_item_name": "샤렌(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300025",
+    "collectible_item_name": "블레어(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300026",
+    "collectible_item_name": "블레어(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300027",
+    "collectible_item_name": "블레어(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300028",
+    "collectible_item_name": "밸비(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300029",
+    "collectible_item_name": "밸비(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300030",
+    "collectible_item_name": "밸비(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300031",
+    "collectible_item_name": "카일(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300032",
+    "collectible_item_name": "카일(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300033",
+    "collectible_item_name": "카일(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300034",
+    "collectible_item_name": "에시모(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300035",
+    "collectible_item_name": "에시모(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300036",
+    "collectible_item_name": "에시모(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300037",
+    "collectible_item_name": "엔조(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300038",
+    "collectible_item_name": "엔조(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300039",
+    "collectible_item_name": "엔조(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300040",
+    "collectible_item_name": "유진(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300041",
+    "collectible_item_name": "유진(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300042",
+    "collectible_item_name": "유진(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300043",
+    "collectible_item_name": "루나(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300044",
+    "collectible_item_name": "루나(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300045",
+    "collectible_item_name": "루나(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300046",
+    "collectible_item_name": "헤일리(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300047",
+    "collectible_item_name": "헤일리(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300048",
+    "collectible_item_name": "헤일리(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300049",
+    "collectible_item_name": "킬런(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300050",
+    "collectible_item_name": "킬런(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300051",
+    "collectible_item_name": "킬런(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300052",
+    "collectible_item_name": "이네즈(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300053",
+    "collectible_item_name": "이네즈(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300054",
+    "collectible_item_name": "이네즈(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300055",
+    "collectible_item_name": "세레나(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300056",
+    "collectible_item_name": "세레나(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300057",
+    "collectible_item_name": "세레나(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300058",
+    "collectible_item_name": "넬(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300059",
+    "collectible_item_name": "넬(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300060",
+    "collectible_item_name": "넬(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300062",
+    "collectible_item_name": "비에사(S) - 파라다이스 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300065",
+    "collectible_item_name": "버니(S) - 파라다이스 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300068",
+    "collectible_item_name": "프레이나(S) - 파라다이스 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300071",
+    "collectible_item_name": "글레이(S) - 파라다이스 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300074",
+    "collectible_item_name": "샤렌(S) - 파라다이스 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300077",
+    "collectible_item_name": "밸비(S) - 파라다이스 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300080",
+    "collectible_item_name": "루나(S) - 파라다이스 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300083",
+    "collectible_item_name": "헤일리(S) - 파라다이스 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300086",
+    "collectible_item_name": "이네즈(S) - 파라다이스 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300089",
+    "collectible_item_name": "세레나(S) - 파라다이스 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300091",
+    "collectible_item_name": "안내자(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300092",
+    "collectible_item_name": "안내자(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300093",
+    "collectible_item_name": "안내자(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300094",
+    "collectible_item_name": "제레미(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300095",
+    "collectible_item_name": "제레미(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300096",
+    "collectible_item_name": "제레미(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300097",
+    "collectible_item_name": "하기오스 쉽독(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300098",
+    "collectible_item_name": "하기오스 쉽독(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300099",
+    "collectible_item_name": "하기오스 쉽독(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300100",
+    "collectible_item_name": "베스퍼스 헌팅독(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300101",
+    "collectible_item_name": "베스퍼스 헌팅독(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300102",
+    "collectible_item_name": "베스퍼스 헌팅독(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300103",
+    "collectible_item_name": "스노우 슬레드독(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300104",
+    "collectible_item_name": "스노우 슬레드독(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300105",
+    "collectible_item_name": "스노우 슬레드독(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300106",
+    "collectible_item_name": "카렐: 암흑의 군단장(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300107",
+    "collectible_item_name": "카렐: 암흑의 군단장(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300108",
+    "collectible_item_name": "카렐: 암흑의 군단장(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300109",
+    "collectible_item_name": "슈도: 불멸의 군단 지휘관(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300110",
+    "collectible_item_name": "슈도: 불멸의 군단 지휘관(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300111",
+    "collectible_item_name": "슈도: 불멸의 군단 지휘관(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300112",
+    "collectible_item_name": "양산병: 암흑의 군단(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300113",
+    "collectible_item_name": "양산병: 암흑의 군단(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300114",
+    "collectible_item_name": "양산병: 암흑의 군단(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300115",
+    "collectible_item_name": "화염 전사: 진리의 교단(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300116",
+    "collectible_item_name": "화염 전사: 진리의 교단(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300117",
+    "collectible_item_name": "화염 전사: 진리의 교단(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300118",
+    "collectible_item_name": "세눈박이: 불멸의 군단(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300119",
+    "collectible_item_name": "세눈박이: 불멸의 군단(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300120",
+    "collectible_item_name": "세눈박이: 불멸의 군단(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300122",
+    "collectible_item_name": "버니(M) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300124",
+    "collectible_item_name": "그레이브워커(M) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300125",
+    "collectible_item_name": "그레이브워커(M) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300126",
+    "collectible_item_name": "그레이브워커(M) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300128",
+    "collectible_item_name": "엑시큐셔너(M) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300131",
+    "collectible_item_name": "데드브라이드(M) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300133",
+    "collectible_item_name": "버니(S) - 할로윈 1",
+    "collectible_item_description": "[기간한정]라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300134",
+    "collectible_item_name": "글레이(S) - 할로윈 1",
+    "collectible_item_description": "[기간한정]라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300135",
+    "collectible_item_name": "샤렌(S) - 할로윈 1",
+    "collectible_item_description": "[기간한정]라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300136",
+    "collectible_item_name": "헤일리(S) - 할로윈 1",
+    "collectible_item_description": "[기간한정]라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300137",
+    "collectible_item_name": "이네즈(S) - 할로윈 1",
+    "collectible_item_description": "[기간한정]라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300138",
+    "collectible_item_name": "세레나(S) - 할로윈 1",
+    "collectible_item_description": "[기간한정]라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300139",
+    "collectible_item_name": "넬(S) - 할로윈 1",
+    "collectible_item_description": "[기간한정]라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300140",
+    "collectible_item_name": "에시모(S) - 할로윈 1",
+    "collectible_item_description": "[기간한정]라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300141",
+    "collectible_item_name": "유진(S) - 알비온 기사단 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300142",
+    "collectible_item_name": "해리스(S) - 알비온 기사단 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300143",
+    "collectible_item_name": "비에사(S) - 겨울 축제 1",
+    "collectible_item_description": "[기간한정] 라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300144",
+    "collectible_item_name": "글레이(S) - 겨울 축제 1",
+    "collectible_item_description": "[기간한정] 라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300145",
+    "collectible_item_name": "프레이나(S) - 겨울 축제 1",
+    "collectible_item_description": "[기간한정] 라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300147",
+    "collectible_item_name": "세레나(S) - 겨울 축제 1",
+    "collectible_item_description": "[기간한정] 라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300148",
+    "collectible_item_name": "제이버(S) - 겨울 축제 1",
+    "collectible_item_description": "[기간한정] 라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300149",
+    "collectible_item_name": "비에사(S) - 아이돌 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300150",
+    "collectible_item_name": "버니(S) - 아이돌 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300151",
+    "collectible_item_name": "프레이나(S) - 아이돌 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300152",
+    "collectible_item_name": "글레이(S) - 아이돌 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300153",
+    "collectible_item_name": "샤렌(S) - 아이돌 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300154",
+    "collectible_item_name": "밸비(S) - 아이돌 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300155",
+    "collectible_item_name": "루나(S) - 아이돌 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300156",
+    "collectible_item_name": "헤일리(S) - 아이돌 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300157",
+    "collectible_item_name": "이네즈(S) - 아이돌 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300158",
+    "collectible_item_name": "세레나(S) - 아이돌 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300159",
+    "collectible_item_name": "넬(S) - 아이돌 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300160",
+    "collectible_item_name": "해리스(S) - 아이돌 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300161",
+    "collectible_item_name": "루나(M) - 문라이트 스테이지 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300162",
+    "collectible_item_name": "해리스(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300163",
+    "collectible_item_name": "해리스(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300164",
+    "collectible_item_name": "해리스(S) - 클래식 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300165",
+    "collectible_item_name": "레픽(S) - 스킬 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300166",
+    "collectible_item_name": "레픽(S) - 스킬 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300167",
+    "collectible_item_name": "레픽(S) - 스킬 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300168",
+    "collectible_item_name": "에이잭스(S) - 스킬 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300169",
+    "collectible_item_name": "에이잭스(S) - 스킬 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300170",
+    "collectible_item_name": "에이잭스(S) - 스킬 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "순금으로 만들어진 피규어. 전장을 누비느라 지친 계승자들의 노고를 치하하기 위해 사령부에서 특별 제작했다.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300171",
+    "collectible_item_name": "비에사(S) - 스킬 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "안료 수급이 부족하여 최소한으로 도색한 피규어. 바깥 활동이 어려운 시민, 군사대학 생도들을 대상으로 교육할 때 쓰이기 때문에 재고가 많다.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300172",
+    "collectible_item_name": "비에사(S) - 스킬 1",
+    "collectible_item_description": "라운지에 배치할 수 있는 수집품입니다.",
+    "collectible_item_narrative": "원형과 똑같은 모습으로 제작한 피규어. 군사대학에 입학한 생도들을 교육하기 위해 사실감을 더했다.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  }
+]

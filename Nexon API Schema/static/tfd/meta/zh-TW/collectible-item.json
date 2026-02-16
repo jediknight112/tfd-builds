@@ -1,0 +1,3936 @@
+[
+  {
+    "collectible_item_id": "266300173",
+    "collectible_item_name": "維爾莎（S）－技能1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300174",
+    "collectible_item_name": "邦妮（S）－技能1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅漆上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300175",
+    "collectible_item_name": "邦妮（S）－技能1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300176",
+    "collectible_item_name": "邦妮（S）－技能1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300198",
+    "collectible_item_name": "亞蒙：不滅軍軍團長（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅漆上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300199",
+    "collectible_item_name": "亞蒙：不滅軍軍團長（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300200",
+    "collectible_item_name": "亞蒙：不滅軍軍團長（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300345",
+    "collectible_item_name": "黛亞（S）－艾爾發制服1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300347",
+    "collectible_item_name": "艾傑克斯（S）－艾爾發制服1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300348",
+    "collectible_item_name": "模式艾利亞斯（M）－西格瑪區1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400001",
+    "collectible_item_name": "白夜峽谷－月光墳墓流域",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "有一說認為這些覆蓋整座山脈的孔洞出自於設計師之手，但目前仍屬未知範疇。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size4",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400004",
+    "collectible_item_name": "空洞迎擊地",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "時空不合邏輯的空洞。繼承者趕在巨神抵達英格裡斯之前，前往空洞展開迎擊。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400005",
+    "collectible_item_name": "天堂泳池",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "在賽季2 EP2中，設於阿爾比恩的天堂泳池。由繼承者教官擔任調酒師。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400006",
+    "collectible_item_name": "詭異庭院",
+    "collectible_item_description": "【限時】可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "為紀念2025萬聖節所製成的庭院。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400007",
+    "collectible_item_name": "阿爾比恩冬季慶典",
+    "collectible_item_description": "【限時】可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "為了紀念2025冬季慶典賽季，在阿爾比恩佈置的庭院。穿著雪人服裝的繼承者，至今仍在某處展現出色表現。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400008",
+    "collectible_item_name": "新月演唱會",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "與露娜永遠同在的樂團「新月」的表演場地。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size4",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500001",
+    "collectible_item_name": "畫畫",
+    "collectible_item_description": "在展示廳配置繼承者時使用的動作。",
+    "collectible_item_narrative": "繼承者為了讓腦袋冷靜下來，在畫布上展開想像的翅膀。\n\n可在畫布上塗上現有的噴漆。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500002",
+    "collectible_item_name": "演奏帕格尼尼的《第24號隨想曲》",
+    "collectible_item_description": "在展示廳配置繼承者時使用的動作。",
+    "collectible_item_narrative": "繼承者為了讓腦袋冷靜下來，用小提琴演奏帕格尼尼的曲子。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500003",
+    "collectible_item_name": "演奏艾爾加的《愛的禮讚》",
+    "collectible_item_description": "在展示廳配置繼承者時使用的動作。",
+    "collectible_item_narrative": "繼承者為了讓腦袋冷靜下來，用小提琴演奏艾爾加的曲子。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500004",
+    "collectible_item_name": "演奏柴可夫斯基的《小提琴協奏曲第三樂章》",
+    "collectible_item_description": "在展示廳配置繼承者時使用的動作。",
+    "collectible_item_narrative": "繼承者為了讓腦袋冷靜下來，用小提琴演奏柴可夫斯基的曲子。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500005",
+    "collectible_item_name": "看書",
+    "collectible_item_description": "在展示廳配置繼承者時使用的動作。",
+    "collectible_item_narrative": "繼承者為了讓腦袋冷靜下來，閱讀教養書籍。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500006",
+    "collectible_item_name": "魔術方塊",
+    "collectible_item_description": "在展示廳配置繼承者時使用的動作。",
+    "collectible_item_narrative": "繼承者努力提升專注力、問題解決能力、記憶力等各種認知能力。當然，這是休息時間，也可以做些其他事情。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500007",
+    "collectible_item_name": "一杯茶的悠閒",
+    "collectible_item_description": "在展示廳配置繼承者時使用的動作。",
+    "collectible_item_narrative": "無論是在執行作戰的前後，繼承者都需要一杯茶的悠閒。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500009",
+    "collectible_item_name": "放空",
+    "collectible_item_description": "在展示廳配置繼承者時使用的動作。",
+    "collectible_item_narrative": "繼承者正在給大腦一份休息的禮物。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500010",
+    "collectible_item_name": "歡愉淋浴",
+    "collectible_item_description": "在展示廳配置繼承者時使用的動作。",
+    "collectible_item_narrative": "繼承者歡愉地淋浴。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500011",
+    "collectible_item_name": "清爽淋浴",
+    "collectible_item_description": "在展示廳配置繼承者時使用的動作。",
+    "collectible_item_narrative": "繼承者清爽地淋浴。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500012",
+    "collectible_item_name": "享受淋浴",
+    "collectible_item_description": "在展示廳配置繼承者時使用的動作。",
+    "collectible_item_narrative": "繼承者為了消除疲勞而淋浴。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500013",
+    "collectible_item_name": "小睡",
+    "collectible_item_description": "在展示廳配置繼承者時使用的動作。",
+    "collectible_item_narrative": "疲憊不堪的繼承者決定小睡一下。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500014",
+    "collectible_item_name": "個人整頓",
+    "collectible_item_description": "在展示廳配置繼承者時使用的動作。",
+    "collectible_item_narrative": "繼承者利用個人時間，對瑣碎的部分進行整頓。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500018",
+    "collectible_item_name": "打空拳",
+    "collectible_item_description": "在展示廳配置繼承者時使用的動作。",
+    "collectible_item_narrative": "當引路人不顯露身影時，繼承者經常會這樣行動。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500019",
+    "collectible_item_name": "腹肌運動",
+    "collectible_item_description": "在展示廳配置繼承者時使用的動作。",
+    "collectible_item_narrative": "繼承者為了提升核心肌肉而鍛鍊腹肌。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600001",
+    "collectible_item_name": "引路人的基本樣貌",
+    "collectible_item_description": "展示廳的引路人所設定的基本外型。",
+    "collectible_item_narrative": "引路人為了與繼承者溝通而設定的基本樣貌。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600002",
+    "collectible_item_name": "數據重組",
+    "collectible_item_description": "展示廳的引路人重組後的外型。",
+    "collectible_item_narrative": "配合現代阿爾比恩服裝樣式重組的引路人樣貌。雖然引路人為了溝通可變換多種形態，但據說她並未強烈感受到改變外觀的必要性。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600003",
+    "collectible_item_name": "展示廳引路人",
+    "collectible_item_description": "展示廳的引路人重組後的外型。",
+    "collectible_item_narrative": "為了讓繼承者能輕鬆休息，引路人換上舒適服裝後煥然一新的模樣。雖然從外觀上看起來並不怎麼舒適，但對引路人來說，這似乎不是什麼大問題。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100004",
+    "collectible_item_name": "簡樸的禮物",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "適合在紀念日贈送的禮物。總覺得有些空虛。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100005",
+    "collectible_item_name": "豐盛的禮物",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "適合在紀念日贈送的禮物。數量之多，光是看著就覺得幸福。不過最重要的，應該還是最大的禮物裡頭裝了什麼。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100006",
+    "collectible_item_name": "已開箱的禮物",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "適合在紀念日贈送的禮物。阿奈斯為紀念先覺者裝備驗證完畢，將它送給了布萊爾。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100007",
+    "collectible_item_name": "封印遺物",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "邦妮父母留下的遺物。裡頭封印著留給邦妮的東西。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100008",
+    "collectible_item_name": "開封遺物",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "邦妮父母留下的遺物。邦妮看著玩偶熊，想起了父母的心意。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100009",
+    "collectible_item_name": "康乃馨與遺物",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "邦妮父母留下的遺物。邦妮為父母留下的遺物獻上了康乃馨，她看著這些，回憶起過去曾與父母一起度過的童年時光。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100013",
+    "collectible_item_name": "凌亂行李箱",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "繼承者的度假行李箱。目前仍亂七八糟，尚未完全收拾好。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100014",
+    "collectible_item_name": "正常行李箱",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "繼承者的度假行李箱。外觀平凡無奇。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100015",
+    "collectible_item_name": "華麗行李箱",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "繼承者的度假行李箱。在度假勝地被裝飾得漂漂亮亮的。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100016",
+    "collectible_item_name": "空虛的雪人家族",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "在跨年時期來到阿爾比恩的雪人家族。總覺得有些空虛。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100017",
+    "collectible_item_name": "和睦的雪人家族",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "在跨年時期來到阿爾比恩的雪人家族。如今臉上掛著笑容。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100018",
+    "collectible_item_name": "幸福的雪人家族",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "在跨年時期來到阿爾比恩的雪人家族。如今能在溫暖的氣氛之中送舊迎新了。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100019",
+    "collectible_item_name": "木棺",
+    "collectible_item_description": "【限時】可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "吸血鬼的棺材。莫非是出身貧困的貴族嗎？",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100020",
+    "collectible_item_name": "鐵棺",
+    "collectible_item_description": "【限時】可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "吸血鬼的棺材。從老舊的外觀看來，說不定是位風骨傲然的貴族。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100021",
+    "collectible_item_name": "金棺",
+    "collectible_item_description": "【限時】可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "吸血鬼的棺材。這肯定是位德高望重的貴族。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100022",
+    "collectible_item_name": "空虛的紀念樹",
+    "collectible_item_description": "【限時】可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "用來慶祝紀念日的樹。總覺得有些空虛。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100023",
+    "collectible_item_name": "普通的紀念樹",
+    "collectible_item_description": "【限時】可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "用來慶祝紀念日的樹。雖然很適合用來慶祝紀念日，但總覺得少了些什麼。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100024",
+    "collectible_item_name": "華麗的紀念樹",
+    "collectible_item_description": "【限時】可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "用來慶祝紀念日的樹。光是看著就覺得開心。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100025",
+    "collectible_item_name": "空盪的生態艙",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "將遭到空洞汙染的土壤以阿爾比恩工學技術淨化的生態艙。目前種子尚未發芽。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100026",
+    "collectible_item_name": "普通的生態艙",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "將遭到空洞汙染的土壤以阿爾比恩工學技術淨化的生態艙。花苞似乎還能繼續生長。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100027",
+    "collectible_item_name": "華麗的生態艙",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "將遭到空洞汙染的土壤以阿爾比恩工學技術淨化的生態艙。阿爾比恩的野花盛開後，新生命也隨之誕生了。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100028",
+    "collectible_item_name": "陽春的戰術裝甲車",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "繼承者在擴大活動半徑時不可或缺的戰術裝甲車。總覺得有些空虛。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100029",
+    "collectible_item_name": "普通戰術裝甲車",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "繼承者在擴大活動半徑時不可或缺的戰術裝甲車。用途會隨著額外搭載的零件目的而有所不同。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100030",
+    "collectible_item_name": "完備的戰術裝甲車",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "繼承者在擴大活動半徑時不可或缺的戰術裝甲車。為預防迎擊失敗導致巨神入侵，搭載了高射砲。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100031",
+    "collectible_item_name": "剛開始拼的邦妮拼圖",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "描繪了邦妮精采瞬間的拼圖。還有多處尚未拼好。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100032",
+    "collectible_item_name": "快拼好的邦妮拼圖",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "描繪了邦妮精采瞬間的拼圖。只差一點就能拼好了。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100033",
+    "collectible_item_name": "邦妮拼圖成品",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "描繪了邦妮精采瞬間的拼圖。喜歡邦妮的粉絲務必收藏。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100034",
+    "collectible_item_name": "空蕩的升級再造花盆",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "金士頓士兵們為了測試農地，利用空的軍需品物資箱種植後留下的痕跡。總覺得有些空虛。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100035",
+    "collectible_item_name": "普通的升級再造花盆",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "金士頓士兵們為了測試農地，利用空的軍需品物資箱種植後留下的痕跡。目前雖然已經冒出芬芳香草，但似乎還能繼續生長。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100036",
+    "collectible_item_name": "華麗的升級再造花盆",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "金士頓士兵們為了測試農地，利用空的軍需品物資箱種植後留下的痕跡。在士兵們的努力之下，土壤肥沃，香草花也順利綻放了。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100037",
+    "collectible_item_name": "空虛的屏風組",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "刻有可愛插圖的屏風組。總覺得有些空虛。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100038",
+    "collectible_item_name": "普通的屏風組",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "刻有可愛插圖的屏風組。只差一點就能集滿整套了。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100039",
+    "collectible_item_name": "豪華的屏風組",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "刻有可愛插圖的屏風組。在燈光的襯托下，顯得更為精緻。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100043",
+    "collectible_item_name": "空虛的陶器組",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "在文化大熔爐阿爾比恩當地蒐集到的陶器組。總覺得有些空虛。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100044",
+    "collectible_item_name": "普通的陶器組",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "在文化大熔爐阿爾比恩當地蒐集到的陶器組。只差一點就能集滿整套了。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100045",
+    "collectible_item_name": "豪華的陶器組",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "在文化大熔爐阿爾比恩當地蒐集到的陶器組。高貴的藍色顏料陶器讓整體散發出典雅氣息。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100046",
+    "collectible_item_name": "空虛的燈具組",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "讓展示廳的氣氛更顯溫馨的燈具組。總覺得有些空虛。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100047",
+    "collectible_item_name": "普通的燈具組",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "讓展示廳的氣氛更顯溫馨的燈具組。只差一點就能集滿整套了。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100048",
+    "collectible_item_name": "豪華的燈具組",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "讓展示廳的氣氛更顯溫馨的燈具組。3種顏色的組合特別漂亮。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100049",
+    "collectible_item_name": "空虛的沙灘躺椅",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "仿造天堂泳池躺椅製成的躺椅組。總覺得有些空虛。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100050",
+    "collectible_item_name": "普通的沙灘躺椅",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "仿造天堂泳池躺椅製成的躺椅組。只差一點就能集滿整套了。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100051",
+    "collectible_item_name": "豪華的沙灘躺椅",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "仿造天堂泳池躺椅製成的躺椅組。相當適合用來避暑。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100052",
+    "collectible_item_name": "戰術假臂Mk.2",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "已套用始基驅動技術的萊波克專用假臂。此為初始版本，僅能勉強用於日常生活。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100053",
+    "collectible_item_name": "戰術假臂Mk.7",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "已套用始基驅動技術的萊波克專用假臂。雖然在初始版本上加強了外骨骼，但仍不足以達到始基能力的最佳化。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100054",
+    "collectible_item_name": "戰術假臂Mk.10",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "已套用始基驅動技術的萊波克專用假臂。如今已能在子彈與手榴彈中注入他的爆炸性始基，但仍然沒有火箭拳功能。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100055",
+    "collectible_item_name": "空虛的繼承者飾品展示台",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "為了教育阿爾比恩軍事大學學員，以複製版展出的女性繼承者飾品展示台。總覺得有些空虛。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100056",
+    "collectible_item_name": "普通的繼承者飾品展示台",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "為了教育阿爾比恩軍事大學學員，以複製版展出的女性繼承者飾品展示台。雖然適合作為學員們的參考資料，但感覺缺少了點什麼。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100057",
+    "collectible_item_name": "豐富的繼承者飾品展示台",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "為了教育阿爾比恩軍事大學學員，以複製版展出的女性繼承者飾品展示台。女性學員們在看了該資料後，希望成為繼承者的人激增到65%，由此可見其受歡迎程度。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100058",
+    "collectible_item_name": "普通的芙勞勒頭顱",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "讓沙連反思自我的巴格斯，成功復仇的沙連特別留下了這顆頭顱。目前狀態良好。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100059",
+    "collectible_item_name": "激起復仇怒火的芙勞勒頭顱",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "讓沙連反思自我的巴格斯，成功復仇的沙連特別留下了這顆頭顱。似乎是尚未消氣，她用短劍做了記號。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100060",
+    "collectible_item_name": "復仇成功的芙勞勒頭顱",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "讓沙連反思自我的巴格斯，成功復仇的沙連特別留下了這顆頭顱。目前已是她用來保管短劍的裝飾品。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100061",
+    "collectible_item_name": "切片手槍蛋糕",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "布萊爾為了提振士氣，特地製作了這款獨特的手槍造型蛋糕。別看他那樣，他其實是個努力型的廚師，據說在設計造型之前，他會對著敵人盡情試用槍械。目前只剩下赤狼切片蛋糕。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100062",
+    "collectible_item_name": "切半手槍蛋糕",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "布萊爾為了提振士氣，特地製作了這款獨特的手槍造型蛋糕。別看他那樣，他其實是個努力型的廚師，據說在設計造型之前，他會對著敵人盡情試用槍械。目前只剩下赤狼、新的開始切片蛋糕。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100063",
+    "collectible_item_name": "完整手槍蛋糕",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "布萊爾為了提振士氣，特地製作了這款獨特的手槍造型蛋糕。別看他那樣，他其實是個努力型的廚師，據說在設計造型之前，他會對著敵人盡情試用槍械。完整蛋糕由赤狼、新的開始與千年雪所組成。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100064",
+    "collectible_item_name": "空空的頭盔魚缸",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "渥爾比將閒置的頭盔改造成魚缸，以作為紀念。目前裡面只有底砂與水。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100065",
+    "collectible_item_name": "普通的頭盔魚缸",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "渥爾比將閒置的頭盔改造成魚缸，以作為紀念。目前已種了水草，布置好環境，接著只要放入魚就大功告成了。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100066",
+    "collectible_item_name": "豐富的頭盔魚缸",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "渥爾比將閒置的頭盔改造成魚缸，以作為紀念。她說看著在水中游泳的魚，就好像看到了自己。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100067",
+    "collectible_item_name": "空虛的面罩展示台",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "為了教育阿爾比恩軍事大學學員，以複製版展出的繼承者面罩展示台。總覺得有些空虛。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100068",
+    "collectible_item_name": "普通的面罩展示台",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "為了教育阿爾比恩軍事大學學員，以複製版展出的繼承者面罩展示台。雖然適合作為學員們的參考資料，但感覺缺少了點什麼。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100069",
+    "collectible_item_name": "豐富的面罩展示台",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "為了教育阿爾比恩軍事大學學員，以複製版展出的繼承者面罩展示台。從學員們的問卷調查結果來看，在「自己成為繼承者之後，是否會戴上面罩？」的問題答覆中，有60%的人回答了「絕對會」。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100070",
+    "collectible_item_name": "普通的耳機組展示台",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "露娜所使用的耳機組與展示台。總覺得有些單調，不像是露娜的作風。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100071",
+    "collectible_item_name": "獨特的耳機組展示台",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "露娜所使用的耳機組與展示台。露娜的品味果然獨特。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100072",
+    "collectible_item_name": "炫麗的耳機組展示台",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "露娜所使用的耳機組與展示台。真不愧是露娜，每款不同設計的耳機組還都搭配了專用架。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100073",
+    "collectible_item_name": "空蕩的狙擊鏡架",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "海莉決定，只有在熟練度達到自己滿意的水準，才會將該武器狙擊鏡放在這個狙擊鏡架上。在她還是第33狙擊隊員時，架上空無一物。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100074",
+    "collectible_item_name": "普通的狙擊鏡架",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "海莉決定，只有在熟練度達到自己滿意的水準，才會將該武器狙擊鏡放在這個狙擊鏡架上。在她被提拔為繼承者後，放上了各式專用武器的狙擊鏡。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100075",
+    "collectible_item_name": "豐富的狙擊鏡架",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "海莉決定，只有在熟練度達到自己滿意的水準，才會將該武器狙擊鏡放在這個狙擊鏡架上。除了專用武器之外，現在還多了劍之殘光、貫穿之光的狙擊鏡。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100076",
+    "collectible_item_name": "空蕩的眼鏡展示台",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "格雷的眼鏡展示台，她比想像中還更喜歡華麗風格。展示台上有許多空位，顯得有些空虛。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100077",
+    "collectible_item_name": "普通的眼鏡展示台",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "格雷的眼鏡展示台，她比想像中還更喜歡華麗風格。展示台還留有一半空位。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100078",
+    "collectible_item_name": "豐富的眼鏡展示台",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "格雷的眼鏡展示台，她比想像中還更喜歡華麗風格。裡頭沒有一個是純粹用來觀賞的。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100079",
+    "collectible_item_name": "驅魔修女Mk.1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "莎麗娜專用的光粒子釋放強化服，以昔日的魔導士技術製成。Mk.1搭載了繼承者始基連動系統，但尚未安裝翅膀零件。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100080",
+    "collectible_item_name": "驅魔修女Mk.2",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "莎麗娜專用的光粒子釋放強化服，以昔日的魔導士技術製成。Mk.2是已安裝翅膀零件的成品，不過得再另外確認展開動作是否正常運作。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100081",
+    "collectible_item_name": "驅魔修女Mk.2展開版",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "莎麗娜專用的光粒子釋放強化服，以昔日的魔導士技術製成。Mk.2是已安裝翅膀零件的成品，就連展開動作也完美無缺。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100085",
+    "collectible_item_name": "簡陋的驅靈提燈",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "用於阻擋惡靈靠近所製成的提燈。目前看來還不足以阻擋惡靈。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100086",
+    "collectible_item_name": "普通的驅靈提燈",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "用於阻擋惡靈靠近所製成的提燈。為了有效驅靈，裡頭塞滿了用布萊爾食譜製成的香草糖。不過，看起來仍有些貧乏。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100087",
+    "collectible_item_name": "真正的驅靈提燈",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "用於阻擋惡靈靠近所製成的提燈。在填入布萊爾製作的英格爾餅乾與香草糖之後，變得十分豐盛。這下惡靈應該不敢靠近了。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100088",
+    "collectible_item_name": "簡陋的指揮控制台",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "阿爾比恩作戰指揮中心使用的指揮控制台。目前仍不足以用於指揮作戰。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100089",
+    "collectible_item_name": "普通的指揮控制台",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "阿爾比恩作戰指揮中心使用的指揮控制台。雖然有基本的指揮功能，但卻不足以用於攸關繼承者生死的作戰上。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100090",
+    "collectible_item_name": "真正的指揮控制台",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "阿爾比恩作戰指揮中心使用的指揮控制台。能充分用於以繼承者生死作為擔保的作戰上。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100091",
+    "collectible_item_name": "空的99年阿爾比恩",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "為紀念100年前阿爾比恩建立，於次年在橡木桶中熟成99年的蒸餾酒。這當然要歸功於魔導士的技術能力。看來有人識貨。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100092",
+    "collectible_item_name": "空虛的99年阿爾比恩",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "為紀念100年前阿爾比恩建立，於次年在橡木桶中熟成99年的蒸餾酒。這當然要歸功於魔導士的技術能力。光是有外包裝，就會被視為稀有品。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100093",
+    "collectible_item_name": "完整的99年阿爾比恩",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "為紀念100年前阿爾比恩建立，於次年在橡木桶中熟成99年的蒸餾酒。這當然要歸功於魔導士的技術能力。能完整感受到阿爾比恩名品的傳承。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100094",
+    "collectible_item_name": "空的07年阿爾比恩",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "前線士兵們最喜愛的物品，據說會作為獎賞發放的蒸餾酒。這是布萊爾讓金士頓士兵們更進一步的成果。雖然已經空了。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100095",
+    "collectible_item_name": "剩下的07年阿爾比恩",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "前線士兵們最喜愛的物品，據說會作為獎賞發放的蒸餾酒。這是布萊爾讓金士頓士兵們更進一步的成果。看來獲獎者沒能一口乾掉。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100096",
+    "collectible_item_name": "完整的07年阿爾比恩",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "前線士兵們最喜愛的物品，據說會作為獎賞發放的蒸餾酒。這是布萊爾讓金士頓士兵們更進一步的成果。有個慣例是收到完整品的人當天要請客。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266200001",
+    "collectible_item_name": "嘉獎獎杯：空洞迎擊戰",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "貴繼承者秉持堅定的安全意識與使命感，\n完成本次迎擊任務，\n特此表彰。\n\n－作戰司令－",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266200002",
+    "collectible_item_name": "優秀獎杯：空洞迎擊戰",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "貴繼承者以模範的戰鬥力與責任感，\n順利完成本次迎擊任務，貢獻卓著，\n特此表彰。\n\n－作戰司令－",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266200003",
+    "collectible_item_name": "特級獎杯：空洞迎擊戰",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "貴繼承者以不屈的精神力量與作戰執行能力，\n圓滿完成本次迎擊任務，貢獻卓著，\n特此表彰。\n\n－作戰司令－",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300001",
+    "collectible_item_name": "萊波克（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300002",
+    "collectible_item_name": "萊波克（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300003",
+    "collectible_item_name": "萊波克（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300004",
+    "collectible_item_name": "艾傑克斯（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300005",
+    "collectible_item_name": "艾傑克斯（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300006",
+    "collectible_item_name": "艾傑克斯（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300007",
+    "collectible_item_name": "維爾莎（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300008",
+    "collectible_item_name": "維爾莎（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300009",
+    "collectible_item_name": "維爾莎（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300010",
+    "collectible_item_name": "邦妮（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300011",
+    "collectible_item_name": "邦妮（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300012",
+    "collectible_item_name": "邦妮（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300013",
+    "collectible_item_name": "傑佛（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300014",
+    "collectible_item_name": "傑佛（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300015",
+    "collectible_item_name": "傑佛（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300016",
+    "collectible_item_name": "芙蕾娜（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300017",
+    "collectible_item_name": "芙蕾娜（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300018",
+    "collectible_item_name": "芙蕾娜（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300019",
+    "collectible_item_name": "格雷（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300020",
+    "collectible_item_name": "格雷（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300021",
+    "collectible_item_name": "格雷（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300022",
+    "collectible_item_name": "沙連（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300023",
+    "collectible_item_name": "沙連（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300024",
+    "collectible_item_name": "沙連（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300025",
+    "collectible_item_name": "布萊爾（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300026",
+    "collectible_item_name": "布萊爾（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300027",
+    "collectible_item_name": "布萊爾（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300028",
+    "collectible_item_name": "渥爾比（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300029",
+    "collectible_item_name": "渥爾比（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300030",
+    "collectible_item_name": "渥爾比（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300031",
+    "collectible_item_name": "凱爾（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300032",
+    "collectible_item_name": "凱爾（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300033",
+    "collectible_item_name": "凱爾（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300034",
+    "collectible_item_name": "艾西摩（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300035",
+    "collectible_item_name": "艾西摩（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300036",
+    "collectible_item_name": "艾西摩（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300037",
+    "collectible_item_name": "恩佐（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300038",
+    "collectible_item_name": "恩佐（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300039",
+    "collectible_item_name": "恩佐（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300040",
+    "collectible_item_name": "尤金（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300041",
+    "collectible_item_name": "尤金（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300042",
+    "collectible_item_name": "尤金（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300043",
+    "collectible_item_name": "露娜（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300044",
+    "collectible_item_name": "露娜（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300045",
+    "collectible_item_name": "露娜（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300046",
+    "collectible_item_name": "海莉（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300047",
+    "collectible_item_name": "海莉（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300048",
+    "collectible_item_name": "海莉（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300049",
+    "collectible_item_name": "基蘭（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300050",
+    "collectible_item_name": "基蘭（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300051",
+    "collectible_item_name": "基蘭（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300052",
+    "collectible_item_name": "伊內茲（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300053",
+    "collectible_item_name": "伊內茲（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300054",
+    "collectible_item_name": "伊內茲（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300055",
+    "collectible_item_name": "莎麗娜（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300056",
+    "collectible_item_name": "莎麗娜（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300057",
+    "collectible_item_name": "莎麗娜（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300058",
+    "collectible_item_name": "尼爾（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300059",
+    "collectible_item_name": "尼爾（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300060",
+    "collectible_item_name": "尼爾（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300062",
+    "collectible_item_name": "維爾莎（S）－天堂1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300065",
+    "collectible_item_name": "邦妮（S）－天堂1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300068",
+    "collectible_item_name": "芙蕾娜（S）－天堂1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300071",
+    "collectible_item_name": "格雷（S）－天堂1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300074",
+    "collectible_item_name": "沙連（S）－天堂1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300077",
+    "collectible_item_name": "渥爾比（S）－天堂1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300080",
+    "collectible_item_name": "露娜（S）－天堂1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300083",
+    "collectible_item_name": "海莉（S）－天堂1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300086",
+    "collectible_item_name": "伊內茲（S）－天堂1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300089",
+    "collectible_item_name": "莎麗娜（S）－天堂1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300091",
+    "collectible_item_name": "引路人（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300092",
+    "collectible_item_name": "引路人（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300093",
+    "collectible_item_name": "引路人（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300094",
+    "collectible_item_name": "杰裡米（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300095",
+    "collectible_item_name": "杰裡米（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300096",
+    "collectible_item_name": "杰裡米（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300097",
+    "collectible_item_name": "哈吉奧斯牧羊犬（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300098",
+    "collectible_item_name": "哈吉奧斯牧羊犬（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300099",
+    "collectible_item_name": "哈吉奧斯牧羊犬（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300100",
+    "collectible_item_name": "威斯博斯獵犬（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300101",
+    "collectible_item_name": "威斯博斯獵犬（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300102",
+    "collectible_item_name": "威斯博斯獵犬（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300103",
+    "collectible_item_name": "雪橇犬（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300104",
+    "collectible_item_name": "雪橇犬（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300105",
+    "collectible_item_name": "雪橇犬（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300106",
+    "collectible_item_name": "卡雷爾：闇黑軍團長（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300107",
+    "collectible_item_name": "卡雷爾：闇黑軍團長（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300108",
+    "collectible_item_name": "卡雷爾：闇黑軍團長（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300109",
+    "collectible_item_name": "舒多：不滅軍團指揮官（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300110",
+    "collectible_item_name": "舒多：不滅軍團指揮官（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300111",
+    "collectible_item_name": "舒多：不滅軍團指揮官（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300112",
+    "collectible_item_name": "量產兵：闇黑軍團（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300113",
+    "collectible_item_name": "量產兵：闇黑軍團（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300114",
+    "collectible_item_name": "量產兵：闇黑軍團（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300115",
+    "collectible_item_name": "火焰戰士：真理教團（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300116",
+    "collectible_item_name": "火焰戰士：真理教團（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300117",
+    "collectible_item_name": "火焰戰士：真理教團（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300118",
+    "collectible_item_name": "三眼魔：不滅軍團（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300119",
+    "collectible_item_name": "三眼魔：不滅軍團（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300120",
+    "collectible_item_name": "三眼魔：不滅軍團（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300122",
+    "collectible_item_name": "邦妮（M）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300124",
+    "collectible_item_name": "墓穴行魔（M）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300125",
+    "collectible_item_name": "墓穴行魔（M）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300126",
+    "collectible_item_name": "墓穴行魔（M）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300128",
+    "collectible_item_name": "劊子手（M）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300131",
+    "collectible_item_name": "死亡新娘（M）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300133",
+    "collectible_item_name": "邦妮（S）－萬聖節1",
+    "collectible_item_description": "【限時】可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300134",
+    "collectible_item_name": "格雷（S）－萬聖節1",
+    "collectible_item_description": "【限時】可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300135",
+    "collectible_item_name": "沙連（S）－萬聖節1",
+    "collectible_item_description": "【限時】可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300136",
+    "collectible_item_name": "海莉（S）－萬聖節1",
+    "collectible_item_description": "【限時】可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300137",
+    "collectible_item_name": "伊內茲（S）－萬聖節1",
+    "collectible_item_description": "【限時】可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300138",
+    "collectible_item_name": "莎麗娜（S）－萬聖節1",
+    "collectible_item_description": "【限時】可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300139",
+    "collectible_item_name": "尼爾（S）－萬聖節1",
+    "collectible_item_description": "【限時】可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300140",
+    "collectible_item_name": "艾西摩（S）－萬聖節1",
+    "collectible_item_description": "【限時】可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300141",
+    "collectible_item_name": "尤金（S）－阿爾比恩騎士團1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300142",
+    "collectible_item_name": "哈里斯（S）－阿爾比恩騎士團1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300143",
+    "collectible_item_name": "維爾莎（S）－冬季慶典1",
+    "collectible_item_description": "【限時】可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300144",
+    "collectible_item_name": "格雷（S）－冬季慶典1",
+    "collectible_item_description": "【限時】可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300145",
+    "collectible_item_name": "芙蕾娜（S）－冬季慶典1",
+    "collectible_item_description": "【限時】可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300147",
+    "collectible_item_name": "莎麗娜（S）－冬季慶典1",
+    "collectible_item_description": "【限時】可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300148",
+    "collectible_item_name": "傑佛（S）－冬季慶典1",
+    "collectible_item_description": "【限時】可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300149",
+    "collectible_item_name": "維爾莎（S）－偶像1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300150",
+    "collectible_item_name": "邦妮（S）－偶像1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300151",
+    "collectible_item_name": "芙蕾娜（S）－偶像1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300152",
+    "collectible_item_name": "格雷（S）－偶像1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300153",
+    "collectible_item_name": "沙連（S）－偶像1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300154",
+    "collectible_item_name": "渥爾比（S）－偶像1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300155",
+    "collectible_item_name": "露娜（S）－偶像1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300156",
+    "collectible_item_name": "海莉（S）－偶像1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300157",
+    "collectible_item_name": "伊內茲（S）－偶像1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300158",
+    "collectible_item_name": "莎麗娜（S）－偶像1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300159",
+    "collectible_item_name": "尼爾（S）－偶像1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300160",
+    "collectible_item_name": "哈里斯（S）－偶像1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300161",
+    "collectible_item_name": "露娜（M）－月光舞台1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300162",
+    "collectible_item_name": "哈里斯（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅漆上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300163",
+    "collectible_item_name": "哈里斯（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300164",
+    "collectible_item_name": "哈里斯（S）－經典1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300165",
+    "collectible_item_name": "萊波克（S）－技能1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅漆上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300166",
+    "collectible_item_name": "萊波克（S）－技能1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300167",
+    "collectible_item_name": "萊波克（S）－技能1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300168",
+    "collectible_item_name": "艾傑克斯（S）－技能1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅漆上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300169",
+    "collectible_item_name": "艾傑克斯（S）－技能1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300170",
+    "collectible_item_name": "艾傑克斯（S）－技能1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "以純金打造的公仔。由司令部特別製作，用來表彰奔走於戰地的辛勞繼承者。",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300171",
+    "collectible_item_name": "維爾莎（S）－技能1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "因顏料短缺，僅漆上了基本顏色的公仔。主要作為教育外出不便的市民或軍事大學學員時的教具，因此庫存相當充足。",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300172",
+    "collectible_item_name": "維爾莎（S）－技能1",
+    "collectible_item_description": "可配置於展示廳的蒐集品。",
+    "collectible_item_narrative": "忠實還原原型樣貌的公仔。為了用於教育軍事大學的學員，特別強調了真實感。",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  }
+]

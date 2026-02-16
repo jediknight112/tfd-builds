@@ -1,0 +1,3936 @@
+[
+  {
+    "collectible_item_id": "266300173",
+    "collectible_item_name": "Viessa (S) - Compétence 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine en or massif. Un cadeau du QG pour récompenser le travail exténuant des Légataires qui ont lutté sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300174",
+    "collectible_item_name": "Bunny (S) - Compétence 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300175",
+    "collectible_item_name": "Bunny (S) - Compétence 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300176",
+    "collectible_item_name": "Bunny (S) - Compétence 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine en or massif. Un cadeau du QG pour récompenser le travail exténuant des Légataires qui ont lutté sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300198",
+    "collectible_item_name": "Amon - Général de la Légion de l'Immortalité (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300199",
+    "collectible_item_name": "Amon - Général de la Légion de l'Immortalité (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300200",
+    "collectible_item_name": "Amon - Général de la Légion de l'Immortalité (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine en or massif. Un cadeau du QG pour récompenser le travail exténuant des Légataires qui ont lutté sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300345",
+    "collectible_item_name": "Dia (S) - Uniforme d'Alpha 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300347",
+    "collectible_item_name": "Ajax (S) - Uniforme d'Alpha 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300348",
+    "collectible_item_name": "Soldate Elias (M) - Secteur Sigma 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400001",
+    "collectible_item_name": "Canyon de la nuit blanche : Bassin de tombelune",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une théorie avance que les trous recouvrant la chaîne de montagnes ont été faits par les Architectes, mais la vraie cause reste inconnue.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size4",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400004",
+    "collectible_item_name": "Position du combat d'interception du Néant",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Le Néant, un espace-temps à l'encontre de toute logique. Les Légataires se rendent dans le Néant afin d'éliminer les Colosses avant leur arrivée à Ingris.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400005",
+    "collectible_item_name": "Piscine paradisiaque",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "La piscine paradisiaque a été installée à Albion dans l'épisode 2 de la saison 2. L'Instructeur de Légataires travaille ici comme barman.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400006",
+    "collectible_item_name": "Jardin inquiétant",
+    "collectible_item_description": "[Durée limitée]Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un jardin conçu pour célébrer la saison d'Halloween de 2025.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400007",
+    "collectible_item_name": "Festival hivernal d'Albion",
+    "collectible_item_description": "[Durée limitée] Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Ce jardin situé à Albion a été décoré pour commémorer le festival hivernal de 2025. Un Légataire déguisé en bonhomme de neige se cache quelque part.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400008",
+    "collectible_item_name": "Concert de Crescent",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "La scène sur laquelle se produit le groupe Crescent, qui restera pour toujours dans le cœur de Luna.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size4",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500001",
+    "collectible_item_name": "Peindre",
+    "collectible_item_description": "Un mouvement utilisé lorsqu'un Légataire est placé dans le salon",
+    "collectible_item_narrative": "Les Légataires peuvent se vider l'esprit et laisser libre cours à leur imagination sur cette toile.\n\nLes graffitis possédés peuvent être affichés sur la toile.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500002",
+    "collectible_item_name": "Interprétation de ＜Caprice n° 24＞ de Paganini",
+    "collectible_item_description": "Un mouvement utilisé lorsqu'un Légataire est placé dans le salon",
+    "collectible_item_narrative": "Un Légataire joue le morceau de Paganini au violon pour se vider l'esprit.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500003",
+    "collectible_item_name": "Interprétation de ＜Salut d'Amour＞ d'Edward Elgar",
+    "collectible_item_description": "Un mouvement utilisé lorsqu'un Légataire est placé dans le salon",
+    "collectible_item_narrative": "Un Légataire joue le morceau d'Elgar au violon pour se vider l'esprit.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500004",
+    "collectible_item_name": "Interprétation de ＜Concerto pour violon 3e mouvement＞ de Tchaïkovski",
+    "collectible_item_description": "Un mouvement utilisé lorsqu'un Légataire est placé dans le salon",
+    "collectible_item_narrative": "Un Légataire joue le morceau de Tchaïkovski au violon pour se vider l'esprit.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500005",
+    "collectible_item_name": "Lire",
+    "collectible_item_description": "Un mouvement utilisé lorsqu'un Légataire est placé dans le salon",
+    "collectible_item_narrative": "Un Légataire lit un livre éducatif pour se vider l'esprit.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500006",
+    "collectible_item_name": "Cube",
+    "collectible_item_description": "Un mouvement utilisé lorsqu'un Légataire est placé dans le salon",
+    "collectible_item_narrative": "Un Légataire essaie d'améliorer ses capacités cognitives, notamment la concentration, la résolution de problèmes et la mémoire. Bien sûr, il se peut aussi qu'il ne fasse que s'amuser pendant sa pause.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500007",
+    "collectible_item_name": "L'heure du thé",
+    "collectible_item_description": "Un mouvement utilisé lorsqu'un Légataire est placé dans le salon",
+    "collectible_item_narrative": "Avant ou après une opération, un Légataire a toujours besoin de faire une pause avec une bonne tasse de thé.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500009",
+    "collectible_item_name": "Rêvasser",
+    "collectible_item_description": "Un mouvement utilisé lorsqu'un Légataire est placé dans le salon",
+    "collectible_item_narrative": "Un Légataire s'offre le luxe de reposer son cerveau.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500010",
+    "collectible_item_name": "Douche enjouée",
+    "collectible_item_description": "Un mouvement utilisé lorsqu'un Légataire est placé dans le salon",
+    "collectible_item_narrative": "Un Légataire prend une douche enjouée.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500011",
+    "collectible_item_name": "Douche rafraîchissante",
+    "collectible_item_description": "Un mouvement utilisé lorsqu'un Légataire est placé dans le salon",
+    "collectible_item_narrative": "Un Légataire prend une douche rafraîchissante.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500012",
+    "collectible_item_name": "Douche agréable",
+    "collectible_item_description": "Un mouvement utilisé lorsqu'un Légataire est placé dans le salon",
+    "collectible_item_narrative": "Un Légataire prend une douche agréable.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500013",
+    "collectible_item_name": "Sieste rapide",
+    "collectible_item_description": "Un mouvement utilisé lorsqu'un Légataire est placé dans le salon",
+    "collectible_item_narrative": "Un Légataire, terrassé par la fatigue, fait une petite sieste.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500014",
+    "collectible_item_name": "Maintenance personnelle",
+    "collectible_item_description": "Un mouvement utilisé lorsqu'un Légataire est placé dans le salon",
+    "collectible_item_narrative": "Un Légataire consacre son temps libre à s'occuper des moindres détails.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500018",
+    "collectible_item_name": "Shadow boxing",
+    "collectible_item_description": "Un mouvement utilisé lorsqu'un Légataire est placé dans le salon",
+    "collectible_item_narrative": "Voilà ce que font les Légataires quand la guide n'est pas là.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500019",
+    "collectible_item_name": "Renforcement des abdos",
+    "collectible_item_description": "Un mouvement utilisé lorsqu'un Légataire est placé dans le salon",
+    "collectible_item_narrative": "Le Légataire effectue un exercice idéal pour renforcer sa sangle abdominale.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600001",
+    "collectible_item_name": "Apparence par défaut de la guide",
+    "collectible_item_description": "L'apparence par défaut de la guide lorsqu'elle est dans le salon.",
+    "collectible_item_narrative": "La configuration visuelle par défaut lorsque la guide communique avec les Légataires.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600002",
+    "collectible_item_name": "Reconfiguration des données",
+    "collectible_item_description": "L'apparence reconfigurée de la guide lorsqu'elle est dans le salon.",
+    "collectible_item_narrative": "L'apparence de la guide a été reconfigurée pour correspondre au style moderne en vogue à Albion. Bien qu'elle soit capable d'adopter plusieurs formes pour communiquer, la guide n'éprouve pas vraiment le besoin de modifier son apparence.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600003",
+    "collectible_item_name": "Guide (salon)",
+    "collectible_item_description": "L'apparence reconfigurée de la guide lorsqu'elle est dans le salon.",
+    "collectible_item_narrative": "L'apparence de la guide a été reconfigurée pour inclure des vêtements confortables et permettre aux Légataires de se reposer. Cette tenue semble peu confortable, mais ça n'a pas vraiment l'air de la gêner.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100004",
+    "collectible_item_name": "Cadeau simple.",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un cadeau à offrir pour une occasion spéciale. On dirait qu'il manque quelque chose.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100005",
+    "collectible_item_name": "Cadeau généreux",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un cadeau à offrir pour une occasion spéciale. Il y en a tellement que leur simple vue vous emplit de joie. Il s'agit maintenant de trouver le plus gros...",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100006",
+    "collectible_item_name": "Cadeau ouvert",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un cadeau à offrir pour une occasion spéciale. Anaïs l'a envoyé à Blair pour célébrer la découverte et l'analyse des équipements des Anciens.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100007",
+    "collectible_item_name": "Souvenir scellé",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un souvenir des parents de Bunny. Il renferme un objet destiné à Bunny.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100008",
+    "collectible_item_name": "Souvenir ouvert",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un souvenir des parents de Bunny. En posant les yeux sur l'ours en peluche, Bunny se demande comment ses parents se sont sentis.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100009",
+    "collectible_item_name": "Souvenir et œillets",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un souvenir des parents de Bunny. Elle y a déposé des œillets avant de se remémorer son enfance.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100013",
+    "collectible_item_name": "Valise en désordre",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "La valise d'un Légataire fin prêt pour les vacances. Elle est mal fermée et semble être en désordre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100014",
+    "collectible_item_name": "Valise sans prétention",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "La valise d'un Légataire fin prêt pour les vacances. Elle ressemble à toute bonne valise qui se respecte.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100015",
+    "collectible_item_name": "Valise décorée",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "La valise d'un Légataire fin prêt pour les vacances. Elle est totalement décorée afin de se mettre dans l'ambiance.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100016",
+    "collectible_item_name": "Famille de bonhommes de neige",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une famille de bonhommes de neige qui a pris l'habitude de visiter Albion pendant les fêtes de fin d'année. On dirait qu'il manque quelque chose.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100017",
+    "collectible_item_name": "Famille de bonhommes de neige souriants",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une famille de bonhommes de neige qui a pris l'habitude de visiter Albion pendant les fêtes de fin d'année. On dirait qu'ils ont appris à sourire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100018",
+    "collectible_item_name": "Famille de bonhommes de neige heureux",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une famille de bonhommes de neige qui a pris l'habitude de visiter Albion pendant les fêtes de fin d'année. Ils semblent ravis d'être partis en vacances pour les fêtes de fin d'année.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100019",
+    "collectible_item_name": "Cercueil de bois",
+    "collectible_item_description": "[Durée limitée]Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un cercueil de vampire. Est-ce qu'il appartenait à un noble démuni ?",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100020",
+    "collectible_item_name": "Cercueil de fer",
+    "collectible_item_description": "[Durée limitée]Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un cercueil de vampire. Au vu de l'extérieur abîmé par le temps, il devait appartenir à un noble de famille reconnue.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100021",
+    "collectible_item_name": "Cercueil doré",
+    "collectible_item_description": "[Durée limitée]Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un cercueil de vampire. Il devait sûrement appartenir à un noble d'une famille des plus prestigieuses.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100022",
+    "collectible_item_name": "Arbre de célébration brut",
+    "collectible_item_description": "[Durée limitée] Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un arbre servant à célébrer un jour spécial. On dirait qu'il manque quelque chose.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100023",
+    "collectible_item_name": "Arbre de célébration simple",
+    "collectible_item_description": "[Durée limitée] Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un arbre servant à célébrer un jour spécial. Il peut servir de décoration, mais quelque chose manque toujours.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100024",
+    "collectible_item_name": "Arbre de célébration festif",
+    "collectible_item_description": "[Durée limitée] Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un arbre servant à célébrer un jour spécial. Le simple fait de le regarder vous emplit de joie.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100025",
+    "collectible_item_name": "Terrarium",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Contaminée par le Néant, la terre qui était conservée dans ce terrarium a été purifiée grâce à la technologie d'Albion. Les graines n'ont pas encore germé.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100026",
+    "collectible_item_name": "Terrarium prometteur",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Contaminée par le Néant, la terre qui était conservée dans ce terrarium a été purifiée grâce à la technologie d'Albion. On dirait bien que les boutons de fleurs peuvent encore croître.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100027",
+    "collectible_item_name": "Terrarium fleuri",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Contaminée par le Néant, la terre qui était conservée dans ce terrarium a été purifiée grâce à la technologie d'Albion. Après l'éclosion des fleurs sauvages d'Albion, une nouvelle vie voit le jour.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100028",
+    "collectible_item_name": "Véhicule blindé brut",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un véhicule blindé essentiel pour étendre le rayon d'action opérationnel des Légataires. On dirait qu'il manque quelque chose.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100029",
+    "collectible_item_name": "Véhicule blindé simple",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un véhicule blindé essentiel pour étendre le rayon d'action opérationnel des Légataires. Son utilité varie selon l'objectif et les parties installées.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100030",
+    "collectible_item_name": "Véhicule blindé complet",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un véhicule blindé essentiel pour étendre le rayon d'action opérationnel des Légataires. Il est équipé de canons antiaériens afin de se préparer à une infiltration de Colosse en cas d'échec de l'interception.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100031",
+    "collectible_item_name": "Puzzle de Bunny tout juste entamé",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Ce puzzle représente certains moments merveilleux pour Bunny. Il manque encore pas mal de pièces.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100032",
+    "collectible_item_name": "Puzzle de Bunny presque terminé",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Ce puzzle représente certains moments merveilleux pour Bunny. Plus que quelques pièces et il devrait être terminé.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100033",
+    "collectible_item_name": "Puzzle de Bunny terminé",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Ce puzzle représente certains moments merveilleux pour Bunny. Un incontournable pour les fans de Bunny.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100034",
+    "collectible_item_name": "Pot de fleurs recyclé vide",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Des soldats de Kingston ont visiblement utilisé des caisses de munitions vides pour tenter de cultiver des plantes. Ça n'a pas vraiment porté ses fruits.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100035",
+    "collectible_item_name": "Pot de fleurs recyclé simple",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Des soldats de Kingston ont visiblement utilisé des caisses de munitions vides pour tenter de cultiver des plantes. Quelques herbes aromatiques ont poussé, mais leur croissance laisse à désirer.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100036",
+    "collectible_item_name": "Pot de fleurs recyclé de qualité",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Des soldats de Kingston ont visiblement utilisé des caisses de munitions vides pour tenter de cultiver des plantes. Grâce à leurs efforts, la terre est d'excellente qualité et les herbes aromatiques prospèrent.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100037",
+    "collectible_item_name": "Ensemble de paravents simpliste",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un ensemble de paravents couverts d'illustrations adorables. On dirait qu'il manque quelque chose.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100038",
+    "collectible_item_name": "Ensemble de paravents basique",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un ensemble de paravents couverts d'illustrations adorables. Quelques éléments devraient suffire à compléter l'ensemble.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100039",
+    "collectible_item_name": "Ensemble de paravents somptueux",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un ensemble de paravents couverts d'illustrations adorables. Les lanternes créent une ambiance festive.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100043",
+    "collectible_item_name": "Ensemble de plats incomplet",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un ensemble de plats en porcelaine récupérés à Albion et représentant les différentes cultures qui s'y mélangent. On dirait qu'il manque quelque chose.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100044",
+    "collectible_item_name": "Ensemble de plats simple",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un ensemble de plats en porcelaine récupérés à Albion et représentant les différentes cultures qui s'y mélangent. Quelques éléments devraient suffire à compléter l'ensemble.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100045",
+    "collectible_item_name": "Ensemble de plats somptueux",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un ensemble de plats en porcelaine récupérés à Albion et représentant les différentes cultures qui s'y mélangent. Les différentes pièces sont vernies avec un pigment bleu très onéreux, ce qui leur confère une apparence classique, voire antique.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100046",
+    "collectible_item_name": "Ensemble de lanternes brut",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un ensemble de lanternes qui donne un côté douillet au salon. On dirait quand même qu'il manque quelque chose.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100047",
+    "collectible_item_name": "Ensemble de lanternes simple",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un ensemble de lanternes qui donne un côté douillet au salon. Quelques exemplaires supplémentaires devraient suffire à compléter l'ensemble.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100048",
+    "collectible_item_name": "Ensemble de lanternes somptueux",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un ensemble de lanternes qui donne un côté douillet au salon. Le mariage des trois couleurs est agréablement harmonieux.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100049",
+    "collectible_item_name": "Transat brut",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un ensemble de transats inspirés de ceux installés près de la piscine paradisiaque. On dirait qu'il manque quelque chose.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100050",
+    "collectible_item_name": "Transat simple",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un ensemble de transats inspirés de ceux installés près de la piscine paradisiaque. Il ne manque que quelques pièces pour le terminer.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100051",
+    "collectible_item_name": "Transat somptueux",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un ensemble de transats inspirés de ceux installés près de la piscine paradisiaque. Parfait pour échapper à la chaleur.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100052",
+    "collectible_item_name": "Bras artificiel tactique Mk.2",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Le bras artificiel de Lepic, sur lequel un système archéonique a été installé. C'est un prototype inadapté pour une utilisation quotidienne.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100053",
+    "collectible_item_name": "Bras artificiel tactique Mk.7",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Le bras artificiel de Lepic, sur lequel un système archéonique a été installé. Ce prototype est désormais équipé d'un exosquelette renforcé, mais reste inadapté à l'optimisation des capacités archéoniques.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100054",
+    "collectible_item_name": "Bras artificiel tactique Mk.10",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Le bras artificiel de Lepic, sur lequel un système archéonique a été installé. Il a été mis au point pour permettre à Lepic d'injecter son archéo explosive à ses munitions et ses grenades. Ne permet malheureusement pas d'éjecter son poing comme une fusée.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100055",
+    "collectible_item_name": "Présentoir à accessoire de Légataire brut",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un présentoir permettant d'exposer les répliques des accessoires portés par les Légataires féminines et destiné à l'éducation des cadets de l'académie militaire d'Albion. On dirait qu'il manque quelque chose.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100056",
+    "collectible_item_name": "Présentoir à accessoire de Légataire simple",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un présentoir permettant d'exposer les répliques des accessoires portés par les Légataires féminines et destiné à l'éducation des cadets de l'académie militaire d'Albion. Les cadets peuvent en tirer des conclusions intéressantes, mais il manque quand même quelque chose.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100057",
+    "collectible_item_name": "Présentoir à accessoire de Légataire somptueux",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un présentoir permettant d'exposer les répliques des accessoires portés par les Légataires féminines et destiné à l'éducation des cadets de l'académie militaire d'Albion. Ce présentoir est devenu si populaire que le pourcentage de cadettes souhaitant devenir Légataires a rapidement atteint les 65 %.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100058",
+    "collectible_item_name": "Tête de Rôdeur simple",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "La tête d'un Vulgus ayant poussé Sharen à se remémorer son passé. Une fois sa vengeance accomplie, elle a décidé de garder la tête de son ennemi. Celle-ci est relativement bien conservée.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100059",
+    "collectible_item_name": "Tête de Rôdeur vindicative",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "La tête d'un Vulgus ayant poussé Sharen à se remémorer son passé. Elle a décidé de la garder, même après avoir accompli sa vengeance. Les traces d'épée que l'on peut y voir laissent entendre qu'elle n'est pas encore vraiment passée à autre chose.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100060",
+    "collectible_item_name": "Tête de Rôdeur de la vengeance accomplie",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "La tête d'un Vulgus ayant poussé Sharen à se remémorer son passé. Une fois sa vengeance accomplie, elle a décidé de garder la tête de son ennemi. Elle sert désormais de présentoir pour ses épées.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100061",
+    "collectible_item_name": "Part de gâteau pistolet",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un gâteau unique en forme de pistolet, préparé par Blair pour remonter le moral des troupes. Malgré son air nonchalant, Blair est un perfectionniste qui adore tester ses armes sur les Vulgus avant d'en faire des moules à gâteaux. Il n'a pour le moment travaillé que sur le Loup rouge.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100062",
+    "collectible_item_name": "Moitié de gâteau pistolet",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un gâteau unique en forme de pistolet, préparé par Blair pour remonter le moral des troupes. Malgré son air nonchalant, Blair est un perfectionniste qui adore tester ses armes sur les Vulgus avant d'en faire des moules à gâteaux. Il n'a pour le moment travaillé que sur le Loup rouge et Nouveau départ.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100063",
+    "collectible_item_name": "Gâteau pistolet complet",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un gâteau unique en forme de pistolet, préparé par Blair pour remonter le moral des troupes. Malgré son air nonchalant, Blair est un perfectionniste qui adore tester ses armes sur les Vulgus avant d'en faire des moules à gâteaux. Son œuvre est enfin terminée et comprend le Loup rouge, Nouveau départ et Gel millénaire.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100064",
+    "collectible_item_name": "Casquarium vide",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Valby adore recycler les casques non utilisés en aquariums. Celui-ci ne contient que quelques graviers et de l'eau.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100065",
+    "collectible_item_name": "Casquarium inhabité",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Valby adore recycler les casques non utilisés en aquariums. Elle y a ajouté quelques plantes aquatiques, l'aquarium est fin prêt à recevoir ses nouveaux habitants.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100066",
+    "collectible_item_name": "Casquarium animé",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Valby adore recycler les casques non utilisés en aquariums. Lorsqu'elle regarde ses poissons nager, Valby s'imagine souvent plonger à leurs côtés.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100067",
+    "collectible_item_name": "Présentoir à masque brut",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un présentoir permettant d'exposer les répliques des masques portés par les Légataires et destiné à l'éducation des cadets de l'académie militaire d'Albion. On dirait qu'il manque quelque chose.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100068",
+    "collectible_item_name": "Présentoir à masque simple",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un présentoir permettant d'exposer les répliques des masques portés par les Légataires et destiné à l'éducation des cadets de l'académie militaire d'Albion. Les cadets peuvent en tirer des conclusions intéressantes, mais il manque quand même quelque chose.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100069",
+    "collectible_item_name": "Présentoir à masque somptueux",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un présentoir permettant d'exposer les répliques des masques portés par les Légataires et destiné à l'éducation des cadets de l'académie militaire d'Albion. D'après un sondage mené auprès des cadets, 60 % d'entre eux ont répondu « Absolument » quand on leur a demandé s'ils comptaient porter un masque une fois Légataires.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100070",
+    "collectible_item_name": "Présentoir à casque banal",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un présentoir à casque utilisé par Luna. Contrairement à cette dernière, il est plutôt banal.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100071",
+    "collectible_item_name": "Présentoir à casque unique",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un présentoir à casque utilisé par Luna. Sans surprise, cette dernière a des goûts uniques.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100072",
+    "collectible_item_name": "Présentoir à casque éblouissant",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un présentoir à casque utilisé par Luna. Chaque type de casque a son propre présentoir, rien d'étonnant de la part de Luna.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100073",
+    "collectible_item_name": "Présentoir à lunettes de visée vide",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Hailey s'est fait la promesse d'exposer uniquement les lunettes des armes qu'elle maîtrise. Lorsqu'elle faisait partie de la 33e escouade de snipers, ce présentoir était vide.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100074",
+    "collectible_item_name": "Présentoir à lunettes de visée simple",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Hailey s'est fait la promesse d'exposer uniquement les lunettes des armes qu'elle maîtrise. Une fois devenue Légataire, elle a pu exposer les lunettes de son arme unique.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100075",
+    "collectible_item_name": "Présentoir à lunettes de visée somptueux",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Hailey s'est fait la promesse d'exposer uniquement les lunettes des armes qu'elle maîtrise. Aujourd'hui, elle expose non seulement les lunettes de son arme unique, mais également celles de l'Épée de rémanence et de la Lumière perçante.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100076",
+    "collectible_item_name": "Présentoir à lunettes vide",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un présentoir à lunettes destiné à Gley, qui adore tout ce qui brille et les accessoires glamours. Le présentoir est en grande partie vide.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100077",
+    "collectible_item_name": "Présentoir à lunettes standard",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un présentoir à lunettes destiné à Gley, qui adore tout ce qui brille et les accessoires glamours. Le présentoir est à moitié vide.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100078",
+    "collectible_item_name": "Présentoir à lunettes somptueux",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Un présentoir à lunettes destiné à Gley, qui adore tout ce qui brille et les accessoires glamours. Elle met un point d'honneur à toutes les porter.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100079",
+    "collectible_item_name": "Exorcisœur Mk.1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "La combinaison de combat à émission de particules photoniques de Séréna, créée à l'aide de la technologie antique des Magistères. La version Mk.1 est équipée du système archéonique de connexion des Légataires et n'a pas encore d'ailes.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100080",
+    "collectible_item_name": "Exorcisœur Mk.2",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "La combinaison de combat à émission de particules photoniques de Séréna, créée à l'aide de la technologie antique des Magistères. La version Mk.2 possède des ailes, mais son mécanisme de déploiement mériterait quelques ajustements.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100081",
+    "collectible_item_name": "Exorcisœur Mk.2 modèle déploiement",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "La combinaison de combat à émission de particules photoniques de Séréna, créée à l'aide de la technologie antique des Magistères. Cette version Mk.2 est équipée d'ailes et d'un mécanisme de déploiement dernier cri.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100085",
+    "collectible_item_name": "Lampe d'exorciste miteuse",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une lampe permettant de repousser les esprits maléfiques. On dirait bien que ses pouvoirs d'exorcisme ne sont pas encore assez puissants.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100086",
+    "collectible_item_name": "Lampe d'exorciste simple",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une lampe permettant de repousser les esprits maléfiques. Elle est remplie de confiseries à base d'herbes préparées sur les conseils de Blair, mais elle ne semble toujours pas assez puissante.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100087",
+    "collectible_item_name": "Lampe d'exorciste véritable",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une lampe permettant de repousser les esprits maléfiques. Elle est remplie de biscuingris et de confiseries à base d'herbes préparés par Blair. Gare à l'esprit qui s'approcherait d'un peu trop près.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100088",
+    "collectible_item_name": "Console de commandement simpliste",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "La console utilisée par le poste de commandement d'Albion. Elle n'est pas adaptée pour diriger des opérations.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100089",
+    "collectible_item_name": "Console de commandement basique",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "La console utilisée par le poste de commandement d'Albion. Elle permet de diriger des opérations basiques, mais pas de mener à bien les missions les plus risquées pour les Légataires.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100090",
+    "collectible_item_name": "Console de commandement sophistiquée",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "La console utilisée par le poste de commandement d'Albion. Elle est parfaitement adaptée pour diriger des opérations mettant en péril la vie de Légataires.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100091",
+    "collectible_item_name": "Albion 99 ans d'âge vide",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Ce spiritueux vieilli en fût de chêne pendant 99 ans a été distillé pour commémorer la fondation d'Albion il y a 100 ans. Naturellement, c'est la technologie des Magistères qui a permis de réaliser cette prouesse. Il semblerait que quelqu'un avait bien conscience de sa valeur.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100092",
+    "collectible_item_name": "Albion 99 ans d'âge entamé",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Ce spiritueux vieilli en fût de chêne pendant 99 ans a été distillé pour commémorer la fondation d'Albion il y a 100 ans. Naturellement, c'est la technologie des Magistères qui a permis de réaliser cette prouesse. La bouteille seule possède une grande valeur.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100093",
+    "collectible_item_name": "Albion 99 ans d'âge plein",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Ce spiritueux vieilli en fût de chêne pendant 99 ans a été distillé pour commémorer la fondation d'Albion il y a 100 ans. Naturellement, c'est la technologie des Magistères qui a permis de réaliser cette prouesse. Chaque goutte reflète l'histoire et le prestige d'Albion.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100094",
+    "collectible_item_name": "Albion 7 ans d'âge vide",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Boisson préférée des soldats déployés sur la ligne de front, ce spiritueux est généralement offert en guise de récompense. Les soldats de Kingston ont choisi ce présent pour remercier Blair. Hélas, cette bouteille est vide.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100095",
+    "collectible_item_name": "Albion 7 ans d'âge entamé",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Boisson préférée des soldats déployés sur la ligne de front, ce spiritueux est généralement offert en récompense. Les soldats de Kingston ont choisi ce présent pour remercier Blair. On dirait que cette bouteille n'a pas été totalement bue.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100096",
+    "collectible_item_name": "Albion 7 ans d'âge plein",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Boisson préférée des soldats déployés sur la ligne de front, ce spiritueux est généralement offert en récompense. Les soldats de Kingston ont choisi ce présent pour remercier Blair. D'après la tradition, quand une personne reçoit une bouteille pleine en cadeau, il doit payer un coup à tous les gens présents ce jour-là.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266200001",
+    "collectible_item_name": "Trophée d'encouragement : Combat d'interception du Néant",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Vous avez démontré un grand sens du devoir et un engagement sans faille pour la sécurité d'Albion.\nCe trophée vient récompenser la réussite\ndu combat d'interception.\n\n-Commandant des opérations-",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266200002",
+    "collectible_item_name": "Trophée d'exploit majeur : Combat d'interception du Néant",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Vous avez démontré une bravoure exceptionnelle sur le champ de bataille et un grand sens des responsabilités.\nCe trophée vient récompenser les très bons résultats obtenus lors\ndu combat d'interception.\n\n-Commandant des opérations-",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266200003",
+    "collectible_item_name": "Trophée d'excellence : Combat d'interception du Néant",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Vous avez démontré une volonté à toute épreuve et une expertise opérationnelle inégalée.\nCe trophée vient récompenser les excellents résultats obtenus lors\ndu combat d'interception.\n\n-Commandant des opérations-",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300001",
+    "collectible_item_name": "Lepic (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300002",
+    "collectible_item_name": "Lepic (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300003",
+    "collectible_item_name": "Lepic (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300004",
+    "collectible_item_name": "Ajax (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300005",
+    "collectible_item_name": "Ajax (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300006",
+    "collectible_item_name": "Ajax (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300007",
+    "collectible_item_name": "Viessa (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300008",
+    "collectible_item_name": "Viessa (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300009",
+    "collectible_item_name": "Viessa (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300010",
+    "collectible_item_name": "Bunny (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300011",
+    "collectible_item_name": "Bunny (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300012",
+    "collectible_item_name": "Bunny (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300013",
+    "collectible_item_name": "Jayber (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300014",
+    "collectible_item_name": "Jayber (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300015",
+    "collectible_item_name": "Jayber (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300016",
+    "collectible_item_name": "Freyna (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300017",
+    "collectible_item_name": "Freyna (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300018",
+    "collectible_item_name": "Freyna (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300019",
+    "collectible_item_name": "Gley (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300020",
+    "collectible_item_name": "Gley (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300021",
+    "collectible_item_name": "Gley (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300022",
+    "collectible_item_name": "Sharen (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300023",
+    "collectible_item_name": "Sharen (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300024",
+    "collectible_item_name": "Sharen (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300025",
+    "collectible_item_name": "Blair (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300026",
+    "collectible_item_name": "Blair (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300027",
+    "collectible_item_name": "Blair (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300028",
+    "collectible_item_name": "Valby (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300029",
+    "collectible_item_name": "Valby (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300030",
+    "collectible_item_name": "Valby (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300031",
+    "collectible_item_name": "Kyle (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300032",
+    "collectible_item_name": "Kyle (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300033",
+    "collectible_item_name": "Kyle (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300034",
+    "collectible_item_name": "Esiemo (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300035",
+    "collectible_item_name": "Esiemo (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300036",
+    "collectible_item_name": "Esiemo (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300037",
+    "collectible_item_name": "Enzo (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300038",
+    "collectible_item_name": "Enzo (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300039",
+    "collectible_item_name": "Enzo (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300040",
+    "collectible_item_name": "Yujin (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300041",
+    "collectible_item_name": "Yujin (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300042",
+    "collectible_item_name": "Yujin (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300043",
+    "collectible_item_name": "Luna (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300044",
+    "collectible_item_name": "Luna (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300045",
+    "collectible_item_name": "Luna (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300046",
+    "collectible_item_name": "Hailey (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300047",
+    "collectible_item_name": "Hailey (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300048",
+    "collectible_item_name": "Hailey (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300049",
+    "collectible_item_name": "Keelan (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300050",
+    "collectible_item_name": "Keelan (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300051",
+    "collectible_item_name": "Keelan (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300052",
+    "collectible_item_name": "Inès (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300053",
+    "collectible_item_name": "Inès (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300054",
+    "collectible_item_name": "Inès (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300055",
+    "collectible_item_name": "Séréna (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300056",
+    "collectible_item_name": "Séréna (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300057",
+    "collectible_item_name": "Séréna (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300058",
+    "collectible_item_name": "Nell (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300059",
+    "collectible_item_name": "Nell (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300060",
+    "collectible_item_name": "Nell (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300062",
+    "collectible_item_name": "Viessa (S) - Paradis 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300065",
+    "collectible_item_name": "Bunny (S) - Paradis 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300068",
+    "collectible_item_name": "Freyna (S) - Paradis 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300071",
+    "collectible_item_name": "Gley (S) - Paradis 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300074",
+    "collectible_item_name": "Sharen (S) - Paradis 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300077",
+    "collectible_item_name": "Valby (S) - Paradis 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300080",
+    "collectible_item_name": "Luna (S) - Paradis 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300083",
+    "collectible_item_name": "Hailey (S) - Paradis 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300086",
+    "collectible_item_name": "Inès (S) - Paradis 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300089",
+    "collectible_item_name": "Séréna (S) - Paradis 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300091",
+    "collectible_item_name": "Guide (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300092",
+    "collectible_item_name": "Guide (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300093",
+    "collectible_item_name": "Guide (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300094",
+    "collectible_item_name": "Jeremy (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300095",
+    "collectible_item_name": "Jeremy (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300096",
+    "collectible_item_name": "Jeremy (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300097",
+    "collectible_item_name": "Chien de berger de Hagios (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300098",
+    "collectible_item_name": "Chien de berger de Hagios (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300099",
+    "collectible_item_name": "Chien de berger de Hagios (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300100",
+    "collectible_item_name": "Limier des Vespers (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300101",
+    "collectible_item_name": "Limier des Vespers (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300102",
+    "collectible_item_name": "Limier des Vespers (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300103",
+    "collectible_item_name": "Husky (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300104",
+    "collectible_item_name": "Husky (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300105",
+    "collectible_item_name": "Husky (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300106",
+    "collectible_item_name": "Karel - Général de la Légion des Ténèbres (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300107",
+    "collectible_item_name": "Karel - Général de la Légion des Ténèbres (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300108",
+    "collectible_item_name": "Karel - Général de la Légion des Ténèbres (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300109",
+    "collectible_item_name": "Seudo - Commandant de la Légion de l'Immortalité (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300110",
+    "collectible_item_name": "Seudo - Commandant de la Légion de l'Immortalité (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300111",
+    "collectible_item_name": "Seudo - Commandant de la Légion de l'Immortalité (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300112",
+    "collectible_item_name": "Fantassin de série - Légion des Ténèbres (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300113",
+    "collectible_item_name": "Fantassin de série - Légion des Ténèbres (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300114",
+    "collectible_item_name": "Fantassin de série - Légion des Ténèbres (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300115",
+    "collectible_item_name": "Flambeur - Ordre de la Vérité (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300116",
+    "collectible_item_name": "Flambeur - Ordre de la Vérité (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300117",
+    "collectible_item_name": "Flambeur - Ordre de la Vérité (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300118",
+    "collectible_item_name": "Troisième œil - Légion de l'Immortalité (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300119",
+    "collectible_item_name": "Troisième œil - Légion de l'Immortalité (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300120",
+    "collectible_item_name": "Troisième œil - Légion de l'Immortalité (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300122",
+    "collectible_item_name": "Bunny (M) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300124",
+    "collectible_item_name": "Marchetombe (M) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300125",
+    "collectible_item_name": "Marchetombe (M) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300126",
+    "collectible_item_name": "Marchetombe (M) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée en or pur. Elle a été spécialement conçue par le QG pour récompenser le travail acharné des Légataires qui ont combattu sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300128",
+    "collectible_item_name": "Bourreau (M) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300131",
+    "collectible_item_name": "Noce funèbre (M) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300133",
+    "collectible_item_name": "Bunny (S) - Halloween 1",
+    "collectible_item_description": "[Durée limitée]Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300134",
+    "collectible_item_name": "Gley (S) - Halloween 1",
+    "collectible_item_description": "[Durée limitée]Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300135",
+    "collectible_item_name": "Sharen (S) - Halloween 1",
+    "collectible_item_description": "[Durée limitée]Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300136",
+    "collectible_item_name": "Hailey (S) - Halloween 1",
+    "collectible_item_description": "[Durée limitée]Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300137",
+    "collectible_item_name": "Inès (S) - Halloween 1",
+    "collectible_item_description": "[Durée limitée]Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300138",
+    "collectible_item_name": "Séréna (S) - Halloween 1",
+    "collectible_item_description": "[Durée limitée]Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300139",
+    "collectible_item_name": "Nell (S) - Halloween 1",
+    "collectible_item_description": "[Durée limitée]Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300140",
+    "collectible_item_name": "Esiemo (S) - Halloween 1",
+    "collectible_item_description": "[Durée limitée]Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300141",
+    "collectible_item_name": "Yujin (S) - Chevaliers d'Albion 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300142",
+    "collectible_item_name": "Harris (S) - Chevaliers d'Albion 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300143",
+    "collectible_item_name": "Viessa (S) - Festival hivernal 1",
+    "collectible_item_description": "[Durée limitée] Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300144",
+    "collectible_item_name": "Gley (S) - Festival hivernal 1",
+    "collectible_item_description": "[Durée limitée] Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300145",
+    "collectible_item_name": "Freyna (S) - Festival hivernal 1",
+    "collectible_item_description": "[Durée limitée] Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300147",
+    "collectible_item_name": "Séréna (S) - Festival hivernal 1",
+    "collectible_item_description": "[Durée limitée] Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300148",
+    "collectible_item_name": "Jayber (S) - Festival hivernal 1",
+    "collectible_item_description": "[Durée limitée] Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300149",
+    "collectible_item_name": "Viessa (S) - Idole 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300150",
+    "collectible_item_name": "Bunny (S) - Idole 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300151",
+    "collectible_item_name": "Freyna (S) - Idole 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300152",
+    "collectible_item_name": "Gley (S) - Idole 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300153",
+    "collectible_item_name": "Sharen (S) - Idole 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300154",
+    "collectible_item_name": "Valby (S) - Idole 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300155",
+    "collectible_item_name": "Luna (S) - Idole 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300156",
+    "collectible_item_name": "Hailey (S) - Idole 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300157",
+    "collectible_item_name": "Inès (S) - Idole 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300158",
+    "collectible_item_name": "Séréna (S) - Idole 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300159",
+    "collectible_item_name": "Nell (S) - Idole 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300160",
+    "collectible_item_name": "Harris (S) - Idole 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300161",
+    "collectible_item_name": "Luna (M) - Scène sélène 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300162",
+    "collectible_item_name": "Harris (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300163",
+    "collectible_item_name": "Harris (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300164",
+    "collectible_item_name": "Harris (S) - Classique 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine en or massif. Un cadeau du QG pour récompenser le travail exténuant des Légataires qui ont lutté sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300165",
+    "collectible_item_name": "Lepic (S) - Compétence 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300166",
+    "collectible_item_name": "Lepic (S) - Compétence 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300167",
+    "collectible_item_name": "Lepic (S) - Compétence 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine en or massif. Un cadeau du QG pour récompenser le travail exténuant des Légataires qui ont lutté sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300168",
+    "collectible_item_name": "Ajax (S) - Compétence 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300169",
+    "collectible_item_name": "Ajax (S) - Compétence 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300170",
+    "collectible_item_name": "Ajax (S) - Compétence 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine en or massif. Un cadeau du QG pour récompenser le travail exténuant des Légataires qui ont lutté sans relâche sur le champ de bataille.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300171",
+    "collectible_item_name": "Viessa (S) - Compétence 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine peinte avec un minimum de couleurs en raison d'une pénurie de peinture. Il en existe un stock important, car elles sont utilisées pour entraîner les citoyens et les cadets de l'académie militaire dans l'incapacité de participer à des activités en plein air.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300172",
+    "collectible_item_name": "Viessa (S) - Compétence 1",
+    "collectible_item_description": "Un élément de valeur qui peut être placé dans le salon.",
+    "collectible_item_narrative": "Une figurine fabriquée pour ressembler à l'original. Le réalisme a été mis en avant afin d'entraîner les cadets de l'académie militaire.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  }
+]

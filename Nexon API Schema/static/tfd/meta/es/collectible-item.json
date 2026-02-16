@@ -1,0 +1,3936 @@
+[
+  {
+    "collectible_item_id": "266300173",
+    "collectible_item_name": "Viessa (figura pequeña): habilidad 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Una figurita hecha de oro puro. El cuartel general la ha fabricado especialmente para premiar el arduo trabajo de los Descendientes que han luchado de forma incansable en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300174",
+    "collectible_item_name": "Bunny (figura pequeña): habilidad 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300175",
+    "collectible_item_name": "Bunny (figura pequeña): habilidad 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300176",
+    "collectible_item_name": "Bunny (figura pequeña): habilidad 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Una figurita hecha de oro puro. El cuartel general la ha fabricado especialmente para premiar el arduo trabajo de los Descendientes que han luchado de forma incansable en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300198",
+    "collectible_item_name": "Amon, general de la Legión de la Oscuridad (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300199",
+    "collectible_item_name": "Amon, general de la Legión de la Oscuridad (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300200",
+    "collectible_item_name": "Amon, general de la Legión de la Oscuridad (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Una figurita hecha de oro puro. El cuartel general la ha fabricado especialmente para premiar el arduo trabajo de los Descendientes que han luchado de forma incansable en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300345",
+    "collectible_item_name": "Dia (figura pequeña): uniforme de Alpha 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300347",
+    "collectible_item_name": "Ajax (figura pequeña): uniforme de Alpha 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300348",
+    "collectible_item_name": "Patrón Elias (figura mediana) - El Sector Sigma 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400001",
+    "collectible_item_name": "La Cuenca del Sepulcro Lunar de El Barranco de la Noche Blanca",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Existe la teoría de que los orificios que cubren la cordillera fueron creados por los Arquitectos, aunque la verdadera causa sigue siendo desconocida.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size4",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400004",
+    "collectible_item_name": "Ubicación de Batalla de Interceptación en el Vacío",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "El vacío, un espacio-tiempo que desafía toda lógica. Los Descendientes parten hacia el vacío para interceptar a los Colosos antes de que lleguen a Ingris.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400005",
+    "collectible_item_name": "Piscina Paraíso",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "La piscina Paraíso se instaló en Albion en la temporada 2, episodio 2. Allí, el Instructor de Descendientes ejerce también como barman.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400006",
+    "collectible_item_name": "Jardín Tenebroso",
+    "collectible_item_description": "[Tiempo limitado] Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un jardín creado para celebrar la temporada de Halloween de 2025.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400007",
+    "collectible_item_name": "Festival de invierno de Albion",
+    "collectible_item_description": "[Tiempo limitado] Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Este jardín de Albion se decoró para conmemorar la temporada del festival de invierno de 2025. Dicen que el Descendiente o la Descendiente que se disfrazó de muñeco de nieve aún ronda por aquí.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400008",
+    "collectible_item_name": "Concierto de Crescent",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "El escenario de conciertos del grupo Crescent, que estarán con Luna hasta el final de sus días.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size4",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500001",
+    "collectible_item_name": "Pintar",
+    "collectible_item_description": "Movimiento disponible al colocar a un Descendiente en la sala.",
+    "collectible_item_narrative": "Un Descendiente deja volar su imaginación sobre el lienzo para despejar la mente.\n\nLos grafitis que poseas pueden exhibirse en el lienzo.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500002",
+    "collectible_item_name": "Interpretar el ＜Capricho n.º 24＞ de Paganini",
+    "collectible_item_description": "Movimiento disponible al colocar a un Descendiente en la sala.",
+    "collectible_item_narrative": "Un Descendiente ejecuta la célebre pieza de Paganini al violín para encontrar calma.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500003",
+    "collectible_item_name": "Interpretar ＜Salut d’Amour＞ de Elgar",
+    "collectible_item_description": "Movimiento disponible al colocar a un Descendiente en la sala.",
+    "collectible_item_narrative": "Un Descendiente ejecuta la célebre pieza de Elgar al violín para encontrar calma.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500004",
+    "collectible_item_name": "Interpretar el ＜Tercer movimiento del Concierto para violín＞ de Chaikovski",
+    "collectible_item_description": "Movimiento disponible al colocar a un Descendiente en la sala.",
+    "collectible_item_narrative": "Un Descendiente ejecuta la célebre pieza de Chaikovski al violín para encontrar calma.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500005",
+    "collectible_item_name": "Leer",
+    "collectible_item_description": "Movimiento disponible al colocar a un Descendiente en la sala.",
+    "collectible_item_narrative": "Un Descendiente se sumerge en libros educativos para encontrar calma.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500006",
+    "collectible_item_name": "Cubo de ingenio",
+    "collectible_item_description": "Movimiento disponible al colocar a un Descendiente en la sala.",
+    "collectible_item_narrative": "Un Descendiente se concentra en mejorar varias habilidades cognitivas, como la atención, la resolución de problemas y la memoria. Aun así, no se descarta que simplemente esté jugueteando para pasar el rato durante su descanso.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500007",
+    "collectible_item_name": "Una pausa para el té",
+    "collectible_item_description": "Movimiento disponible al colocar a un Descendiente en la sala.",
+    "collectible_item_narrative": "Antes o después de las operaciones, un Descendiente se toma un respiro con una taza de té.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500009",
+    "collectible_item_name": "Desconectar la mente",
+    "collectible_item_description": "Movimiento disponible al colocar a un Descendiente en la sala.",
+    "collectible_item_narrative": "Un Descendiente se concede un merecido descanso mental.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500010",
+    "collectible_item_name": "Ducha alegre",
+    "collectible_item_description": "Movimiento disponible al colocar a un Descendiente en la sala.",
+    "collectible_item_narrative": "Un Descendiente se da una ducha con un ánimo renovador.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500011",
+    "collectible_item_name": "Ducha refrescante",
+    "collectible_item_description": "Movimiento disponible al colocar a un Descendiente en la sala.",
+    "collectible_item_narrative": "Un Descendiente se da una ducha para recuperar energía.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500012",
+    "collectible_item_name": "Ducha placentera",
+    "collectible_item_description": "Movimiento disponible al colocar a un Descendiente en la sala.",
+    "collectible_item_narrative": "Un Descendiente disfruta de una ducha para disipar el cansancio.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500013",
+    "collectible_item_name": "Siesta rápida",
+    "collectible_item_description": "Movimiento disponible al colocar a un Descendiente en la sala.",
+    "collectible_item_narrative": "Vencido por el agotamiento, un Descendiente se echa una breve siesta.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500014",
+    "collectible_item_name": "Mantenimiento personal",
+    "collectible_item_description": "Movimiento disponible al colocar a un Descendiente en la sala.",
+    "collectible_item_narrative": "Un Descendiente dedica su tiempo libre a cuidar hasta el más mínimo detalle.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500018",
+    "collectible_item_name": "Boxeo de sombras",
+    "collectible_item_description": "Movimiento disponible al colocar a un Descendiente en la sala.",
+    "collectible_item_narrative": "Cuando la guía no está presente, esto es lo que hace el Descendiente.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500019",
+    "collectible_item_name": "Entrenamiento de abdominales",
+    "collectible_item_description": "Movimiento disponible al colocar a un Descendiente en la sala.",
+    "collectible_item_narrative": "El Descendiente hace abdominales para reforzar la musculatura central.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600001",
+    "collectible_item_name": "Aspecto predeterminado de la guía",
+    "collectible_item_description": "Este es el aspecto visual predeterminado que se ha establecido para la guía de la sala.",
+    "collectible_item_narrative": "Esta es la configuración visual predeterminada de la guía para comunicarse con los Descendientes.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600002",
+    "collectible_item_name": "Reconfiguración de datos",
+    "collectible_item_description": "Este es el aspecto visual reconfigurado para la guía de la sala.",
+    "collectible_item_narrative": "El aspecto de la guía se ha reconfigurado para adaptarse a los estilos de ropa de la Albion moderna. Aunque la guía puede adoptar diferentes formas de comunicación, parece que siente la necesidad de cambiar su aspecto visual.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600003",
+    "collectible_item_name": "Guía de la sala",
+    "collectible_item_description": "Este es el aspecto visual reconfigurado para la guía de la sala.",
+    "collectible_item_narrative": "El aspecto de la guía se ha reconfigurado en una vestimenta cómoda para que los Descendientes puedan descansar con comodidad. No parece especialmente cómodo, pero no parece ser un problema para la guía.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100004",
+    "collectible_item_name": "Regalo simple",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un regalo que se puede entregar a alguien en un día especial. Parece que falta algo.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100005",
+    "collectible_item_name": "Regalo generoso",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un regalo que se puede entregar a alguien en un día especial. Hay tantos que con solo mirarlos te sientes feliz, pero lo más importante es cuál es el más grande.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100006",
+    "collectible_item_name": "Regalo abierto",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un regalo que se puede entregar a alguien en un día especial. Anais se lo envió a Blair para celebrar la finalización de la inspección del equipamiento de los Ancestros.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100007",
+    "collectible_item_name": "Recuerdo sellado",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un recuerdo de los padres de Bunny. Contiene un objeto que dejaron sellado para Bunny en su interior.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100008",
+    "collectible_item_name": "Recuerdo abierto",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un recuerdo de los padres de Bunny. Bunny mira el osito de peluche y no puede evitar pensar en lo que debieron sentir sus padres.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100009",
+    "collectible_item_name": "Claveles y recuerdos",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un recuerdo de los padres de Bunny. Bunny colocó claveles junto al recuerdo que le dejaron sus padres y rememoró la infancia que vivió a su lado.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100013",
+    "collectible_item_name": "Maleta desordenada",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "La maleta de un Descendiente que se va de vacaciones. No está bien hecha y tiene un aspecto desastroso.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100014",
+    "collectible_item_name": "Maleta normal",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "La maleta de un Descendiente que se va de vacaciones. Parece una maleta normal y corriente.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100015",
+    "collectible_item_name": "Maleta decorada",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "La maleta de un Descendiente que se va de vacaciones. Está totalmente decorada y lista para las vacaciones.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100016",
+    "collectible_item_name": "Familia de muñecos de nieve simple",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Una familia de muñecos de nieve que visita Albion durante la temporada navideña. Parece que falta algo.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100017",
+    "collectible_item_name": "Familia de muñecos de nieve feliz",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Una familia de muñecos de nieve que visita Albion durante la temporada navideña. Sus miembros ya saben sonreír.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100018",
+    "collectible_item_name": "Familia de muñecos de nieve dichosa",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Una familia de muñecos de nieve que visita Albion durante la temporada navideña. Están pletóricos por poder visitar la zona.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100019",
+    "collectible_item_name": "Ataúd de madera",
+    "collectible_item_description": "[Tiempo limitado] Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un ataúd de vampiro. ¿Pertenecería a algún noble miserable?",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100020",
+    "collectible_item_name": "Ataúd de hierro",
+    "collectible_item_description": "[Tiempo limitado] Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un ataúd de vampiro. A juzgar por el exterior desgastado, debió pertenecer a un noble de un linaje distinguido.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100021",
+    "collectible_item_name": "Ataúd chapado en oro",
+    "collectible_item_description": "[Tiempo limitado] Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un ataúd de vampiro. Sin duda, perteneció a un noble prestigioso.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100022",
+    "collectible_item_name": "Árbol conmemorativo simple",
+    "collectible_item_description": "[Tiempo limitado] Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un árbol para celebrar un día especial. Parece que falta algo.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100023",
+    "collectible_item_name": "Árbol conmemorativo básico",
+    "collectible_item_description": "[Tiempo limitado] Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un árbol para celebrar un día especial. Está bien para usarlo en una celebración, pero todavía falta algo.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100024",
+    "collectible_item_name": "Árbol conmemorativo sofisticado",
+    "collectible_item_description": "[Tiempo limitado] Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un árbol para celebrar un día especial. Con solo mirarlo ya te hace feliz.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100025",
+    "collectible_item_name": "Terrario simple",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "La tierra contaminada de vacío de este terrario se purificó con tecnología de ingeniería de Albion. Las semillas no han brotado todavía.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100026",
+    "collectible_item_name": "Terrario básico",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "La tierra contaminada de vacío de este terrario se purificó con tecnología de ingeniería de Albion. Tiene pinta de que el crecimiento puede extenderse más allá de los capullos.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100027",
+    "collectible_item_name": "Terrario sofisticado",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "La tierra contaminada de vacío de este terrario se purificó con tecnología de ingeniería de Albion. Las flores silvestres de Albion florecen y nuevas vidas emergen.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100028",
+    "collectible_item_name": "Vehículo blindado táctico básico",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Vehículo blindado táctico esencial para ampliar el radio operativo de los Descendientes. Da la impresión de que le falta algo.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100029",
+    "collectible_item_name": "Vehículo blindado táctico estándar",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Vehículo blindado táctico esencial para ampliar el radio operativo de los Descendientes. Su utilidad varía según la finalidad de las piezas instaladas.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100030",
+    "collectible_item_name": "Vehículo blindado táctico completo",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Vehículo blindado táctico esencial para ampliar el radio operativo de los Descendientes. Está equipado con cañones antiaéreos para contrarrestar una infiltración de Colosos en caso de que falle una Interceptación.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100031",
+    "collectible_item_name": "Puzle de Bunny empezado hace poco",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Este puzle captura algunos momentos maravillosos de Bunny. Hay algún que otro hueco vacío.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100032",
+    "collectible_item_name": "Puzle de Bunny casi terminado",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Este puzle captura algunos momentos maravillosos de Bunny. Solo faltan algunas piezas para completarlo.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100033",
+    "collectible_item_name": "Puzle de Bunny terminado",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Este puzle captura algunos momentos maravillosos de Bunny. Una pieza esencial en la colección de todo fan de Bunny.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100034",
+    "collectible_item_name": "Maceta reutilizada simple",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Indicios de cultivo de los soldados de Kingston para el análisis de tierras agrícolas en cajas de munición vacías. Parece que falta algo.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100035",
+    "collectible_item_name": "Maceta reutilizada básica",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Indicios de cultivo de los soldados de Kingston para el análisis de tierras agrícolas en cajas de munición vacías. Han brotado hierbas aromáticas, pero todavía pueden crecer más.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100036",
+    "collectible_item_name": "Maceta reutilizada sofisticada",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Indicios de cultivo de los soldados de Kingston para el análisis de tierras agrícolas en cajas de munición vacías. Gracias a sus esfuerzos, la tierra es excelente y han crecido hierbas.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100037",
+    "collectible_item_name": "Conjunto de biombos simple",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un conjunto de biombos con bonitas ilustraciones. Parece que falta algo.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100038",
+    "collectible_item_name": "Conjunto de biombos básico",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un conjunto de biombos con bonitas ilustraciones. Solo quedan algunas piezas para completarlo.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100039",
+    "collectible_item_name": "Conjunto de biombos sofisticado",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un conjunto de biombos con bonitas ilustraciones. Las linternas hacen que la atmósfera se sienta más vivaz.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100043",
+    "collectible_item_name": "Vajilla de porcelana simple",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Una vajilla de platos de porcelana obtenida en Albion, un crisol de culturas. Parece que falta algo.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100044",
+    "collectible_item_name": "Vajilla de porcelana básica",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Una vajilla de platos de porcelana obtenida en Albion, un crisol de culturas. Faltarían algunas piezas para completarla.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100045",
+    "collectible_item_name": "Vajilla de porcelana sofisticada",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Una vajilla de platos de porcelana obtenida en Albion, un crisol de culturas. Las piezas están esmaltadas con un carísimo pigmento azul que aporta una sensación clásica y antigua.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100046",
+    "collectible_item_name": "Conjunto de linternas simple",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un conjunto de linternas que dan un toque acogedor a la sala. Parece que falta algo.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100047",
+    "collectible_item_name": "Conjunto de linternas básico",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un conjunto de linternas que dan un toque acogedor a la sala. Solo quedan algunas piezas para completarlo.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100048",
+    "collectible_item_name": "Conjunto de linternas sofisticado",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un conjunto de linternas que dan un toque acogedor a la sala. Los tres colores que lo componen quedan perfectos juntos.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100049",
+    "collectible_item_name": "Hamaca básica",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Hamaca inspirada en las empleadas en la piscina Paraíso. Da la impresión de que le falta algo.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100050",
+    "collectible_item_name": "Hamaca estándar",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Hamaca inspirada en las empleadas en la piscina Paraíso. Solo necesita un par de piezas más para completar el conjunto.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100051",
+    "collectible_item_name": "Hamaca de lujo",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Hamaca inspirada en las empleadas en la piscina Paraíso. Perfecta para refugiarse del calor y relajarse.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100052",
+    "collectible_item_name": "Brazo protésico táctico Mk. 2",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Brazo protésico de Lepic con tecnología de la unidad de arché aplicada. Es una versión preliminar y apenas se puede usar para el día a día.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100053",
+    "collectible_item_name": "Brazo protésico táctico Mk. 7",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Brazo protésico de Lepic con tecnología de la unidad de arché aplicada. Es la misma versión preliminar con un exoesqueleto reforzado, pero sigue siendo insuficiente para optimizar las habilidades de arché.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100054",
+    "collectible_item_name": "Brazo protésico táctico Mk. 10",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Brazo protésico de Lepic con tecnología de la unidad de arché aplicada. Se diseñó para que Lepic pudiera inyectar su arché explosivo en balas y granadas. No incluye una función de puño cohete.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100055",
+    "collectible_item_name": "Expositor de accesorios de Descendientes simple",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un expositor para las réplicas de los accesorios que llevan las Descendientes femeninas, que se exhiben con fines educativos para los cadetes de la academia militar de Albion. Parece que falta algo.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100056",
+    "collectible_item_name": "Expositor de accesorios de Descendientes básico",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un expositor para las réplicas de los accesorios que llevan las Descendientes femeninas, que se exhiben con fines educativos para los cadetes de la academia militar de Albion. Contiene un material de referencia decente para los cadetes, todavía parece que falta algo.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100057",
+    "collectible_item_name": "Expositor de accesorios de Descendientes sofisticado",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un expositor para las réplicas de los accesorios que llevan las Descendientes femeninas, que se exhiben con fines educativos para los cadetes de la academia militar de Albion. Es tan popular que el porcentaje de cadetes femeninas que aspiran a convertirse en Descendientes ha ascendido repentinamente hasta el 65 %.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100058",
+    "collectible_item_name": "Cabeza de merodeador simple",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "La cabeza de un Vulgus que hizo que, en un momento dado, Sharen reflexionara sobre su pasado. Cuando se vengó, decidió quedársela. Actualmente se encuentra en buenas condiciones.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100059",
+    "collectible_item_name": "Cabeza de merodeador con indicios de venganza",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "La cabeza de un Vulgus que hizo que, en un momento dado, Sharen reflexionara sobre su pasado. Cuando se vengó, decidió quedársela. Parece que Sharen todavía tiene algo de rabia acumulada, porque tiene marcas de una espada corta.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100060",
+    "collectible_item_name": "Cabeza de merodeador con venganza culminada",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "La cabeza de un Vulgus que hizo que, en un momento dado, Sharen reflexionara sobre su pasado. Cuando se vengó, decidió quedársela. Ahora la usa para sostener su espada corta.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100061",
+    "collectible_item_name": "Trozo de tarta de pistolas",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un pastel único con forma de pistola que Blair preparó para subir los ánimos. Aunque no lo parezca, Blair es un chef muy trabajador que no tiene problema por probar las armas con sus enemigos antes de convertirlas en moldes para tartas. Ahora mismo, solo queda un trocito de Lobo Rojo.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100062",
+    "collectible_item_name": "Media tarta de pistolas",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un pastel único con forma de pistola que Blair preparó para subir los ánimos. Aunque no lo parezca, Blair es un chef muy trabajador que no tiene problema por probar las armas con sus enemigos antes de convertirlas en moldes para tartas. Ahora mismo, solo quedan unos trocitos de Lobo Rojo y Nuevo Comienzo.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100063",
+    "collectible_item_name": "Tarta de pistolas completa",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un pastel único con forma de pistola que Blair preparó para subir los ánimos. Aunque no lo parezca, Blair es un chef muy trabajador que no tiene problema por probar las armas con sus enemigos antes de convertirlas en moldes para tartas. Por fin tenemos la tarta completa, con Lobo Rojo, Nuevo Comienzo y Escarcha Milenaria.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100064",
+    "collectible_item_name": "Casco pecera vacío",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "A Valby le gusta reacondicionar cascos en desuso para usarlos como peceras. Esta solo cuenta con una base y agua.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100065",
+    "collectible_item_name": "Casco pecera básico",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "A Valby le gusta reacondicionar cascos en desuso para usarlos como peceras. Este ya tiene plantas acuáticas, ahora solo necesita peces.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100066",
+    "collectible_item_name": "Casco pecera sofisticado",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "A Valby le gusta reacondicionar cascos en desuso para usarlos como peceras. A veces se refleja en la pecera cuando observa cómo nadan los peces.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100067",
+    "collectible_item_name": "Expositor de máscaras simple",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un expositor para las réplicas de las máscaras que llevan los Descendientes, que se exhiben con fines educativos para los cadetes de la academia militar de Albion. Parece que falta algo.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100068",
+    "collectible_item_name": "Expositor de máscaras básico",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un expositor para las réplicas de las máscaras que llevan los Descendientes, que se exhiben con fines educativos para los cadetes de la academia militar de Albion. Aunque contiene un material de referencia adecuado para los cadetes, todavía parece que falta algo.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100069",
+    "collectible_item_name": "Expositor de máscaras sofisticado",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un expositor para las réplicas de las máscaras que llevan los Descendientes, que se exhiben con fines educativos para los cadetes de la academia militar de Albion. De acuerdo con una encuesta realizada a los cadetes, un 60 % respondió «Es muy probable» cuando se les preguntó si llevarían una máscara en caso de convertirse en Descendientes.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100070",
+    "collectible_item_name": "Expositor de auriculares básico",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un expositor de auriculares de Luna. Tiene un aspecto poco sofisticado, a diferencia de la propia Luna.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100071",
+    "collectible_item_name": "Expositor de auriculares único",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un expositor de auriculares de Luna. Como es de esperar, Luna tiene un gusto único.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100072",
+    "collectible_item_name": "Expositor de auriculares deslumbrante",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un expositor de auriculares de Luna. Como es de esperar, Luna tiene un expositor distinto para cada diseño de auriculares.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100073",
+    "collectible_item_name": "Soporte para miras vacío",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Hailey prometió que solo colocaría en este soporte las miras de las armas que dominara. Cuando formaba parte del Escuadrón de Francotiradores n.º 33, estaba vacío.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100074",
+    "collectible_item_name": "Soporte para miras básico",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Hailey prometió que solo colocaría en este soporte las miras de las armas que dominara. Cuando se convirtió en Descendiente, empezó a colocar las miras de su arma única.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100075",
+    "collectible_item_name": "Soporte para miras espléndido",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Hailey prometió que solo colocaría en este soporte las miras de las armas que dominara. No solo ha colocado las miras de su arma única, sino también los de Espada Resplandeciente y Luz Penetrante.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100076",
+    "collectible_item_name": "Expositor de gafas simple",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un expositor para las gafas de Gley, que sorprendentemente adora el glamour y la ostentación. Está prácticamente vacío.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100077",
+    "collectible_item_name": "Expositor de gafas básico",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un expositor para las gafas de Gley, que sorprendentemente adora el glamour y la ostentación. La mitad está vacío.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100078",
+    "collectible_item_name": "Expositor de gafas espléndido",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un expositor para las gafas de Gley, que sorprendentemente adora el glamour y la ostentación. Ni un solo par es un mero adorno.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100079",
+    "collectible_item_name": "Novia exorcista Mk. 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un traje de combate con emisión de partículas de fotones de Serena, creado con tecnología ancestral de los Magistrados. La versión Mk. 1 está equipada con el sistema de vinculación de arché de Descendientes y todavía no tiene accesorios de ala.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100080",
+    "collectible_item_name": "Novia exorcista Mk. 2",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un traje de combate con emisión de partículas de fotones de Serena, creado con tecnología ancestral de los Magistrados. La versión Mk. 2 está equipada con accesorios de ala, pero el mecanismo de despliegue aún no se ha probado.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100081",
+    "collectible_item_name": "Novia exorcista Mk. 2 (versión con despliegue)",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Un traje de combate con emisión de partículas de fotones de Serena, creado con tecnología ancestral de los Magistrados. La versión Mk. 2 está completa con los accesorios de ala y un perfecto mecanismo de despliegue.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100085",
+    "collectible_item_name": "Lámpara contra el mal defectuosa",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Una lámpara creada para alejar a los malos espíritus. Aún no parece lo suficientemente fuerte para ahuyentarlos.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100086",
+    "collectible_item_name": "Lámpara contra el mal básica",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Una lámpara creada para alejar a los malos espíritus. Contiene caramelos de hierbas para repeler espíritus malignos preparados con la receta de Blair, pero no parece suficiente para ahuyentarlos del todo.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100087",
+    "collectible_item_name": "Lámpara contra el mal potente",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Una lámpara creada para alejar a los malos espíritus. Está fortalecida con galletas Ingr y caramelos de hierbas preparados por Blair. Ahora los espíritus malignos no se atreverán a acercarse.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100088",
+    "collectible_item_name": "Consola de mando defectuosa",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "La consola de mando usada en el centro de mando de operaciones de Albion. No es adecuada para el mando de operaciones.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100089",
+    "collectible_item_name": "Consola de mando básica",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "La consola de mando usada en el centro de mando de operaciones de Albion. Puede aceptar comandos básicos, pero no es adecuada para las operaciones en las que está en riesgo la vida de los Descendientes.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100090",
+    "collectible_item_name": "Consola de mando sofisticada",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "La consola de mando usada en el centro de mando de operaciones de Albion. Es más que adecuada para las operaciones en las que está en riesgo la vida de los Descendientes.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100091",
+    "collectible_item_name": "Albion vacía de 99 años",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Para conmemorar el centenario de la fundación de Albion, este licor destilado se ha envejecido en barricas de roble durante 99 años, a partir del año siguiente a su fundación. Naturalmente, esto solo ha sido posible gracias a la tecnología de los Magistrados. Al menos alguien supo apreciar su valor.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100092",
+    "collectible_item_name": "Albion de 99 años medio vacía",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Para conmemorar el centenario de la fundación de Albion, este licor destilado se ha envejecido en barricas de roble durante 99 años, a partir del año siguiente a su fundación. Naturalmente, esto solo ha sido posible gracias a la tecnología de los Magistrados. Incluso su envase se considera una antigüedad.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100093",
+    "collectible_item_name": "Albion de 99 años llena",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Para conmemorar el centenario de la fundación de Albion, este licor destilado se ha envejecido en barricas de roble durante 99 años, a partir del año siguiente a su fundación. Naturalmente, esto solo ha sido posible gracias a la tecnología de los Magistrados. En cada gota se percibe el legado y el prestigio de Albion.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100094",
+    "collectible_item_name": "Albion vacía de 7 años",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "El artículo más popular entre los soldados de primera línea: una botella de licor destilado que suele entregarse como recompensa. También simboliza el agradecimiento de los soldados de Kingston hacia Blair. Aunque, en este caso, la botella está vacía.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100095",
+    "collectible_item_name": "Albion vacía de 7 años sin acabar",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "El artículo más popular entre los soldados de primera línea: una botella de licor destilado que suele entregarse como recompensa. También simboliza el agradecimiento de los soldados de Kingston hacia Blair. Parece que el destinatario no logró bebérsela de un trago.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100096",
+    "collectible_item_name": "Albion de 7 años llena",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "El artículo más popular entre los soldados de primera línea: una botella de licor destilado que suele entregarse como recompensa. También simboliza el agradecimiento de los soldados de Kingston hacia Blair. Existe la costumbre de que quien recibe una botella llena invite a todos ese día.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266200001",
+    "collectible_item_name": "Trofeo de motivación: Batalla de Interceptación en el Vacío",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Como reconocimiento a su inquebrantable sentido del deber y su firme compromiso con la seguridad,\nse le felicita por haber completado con éxito\nla misión de interceptación\n\n- Comandante de operaciones.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266200002",
+    "collectible_item_name": "Trofeo de excelencia: Batalla de Interceptación en el Vacío",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Como reconocimiento a su ejemplar destreza en combate y su gran sentido de la responsabilidad,\nse le felicita por haber completado con excelencia\nla misión de interceptación\n\n- Comandante de operaciones.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266200003",
+    "collectible_item_name": "Trofeo de excepcionalidad: Batalla de Interceptación en el Vacío",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Como reconocimiento a su espíritu indomable y su experiencia operativa,\nse le felicita por haber completado de forma excepcional\nla misión de interceptación\n\n- Comandante de operaciones.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300001",
+    "collectible_item_name": "Lepic (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300002",
+    "collectible_item_name": "Lepic (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300003",
+    "collectible_item_name": "Lepic (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300004",
+    "collectible_item_name": "Ajax (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300005",
+    "collectible_item_name": "Ajax (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300006",
+    "collectible_item_name": "Ajax (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300007",
+    "collectible_item_name": "Viessa (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300008",
+    "collectible_item_name": "Viessa (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300009",
+    "collectible_item_name": "Viessa (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300010",
+    "collectible_item_name": "Bunny (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300011",
+    "collectible_item_name": "Bunny (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300012",
+    "collectible_item_name": "Bunny (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300013",
+    "collectible_item_name": "Jayber (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300014",
+    "collectible_item_name": "Jayber (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300015",
+    "collectible_item_name": "Jayber (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300016",
+    "collectible_item_name": "Freyna (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300017",
+    "collectible_item_name": "Freyna (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300018",
+    "collectible_item_name": "Freyna (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300019",
+    "collectible_item_name": "Gley (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300020",
+    "collectible_item_name": "Gley (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300021",
+    "collectible_item_name": "Gley (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300022",
+    "collectible_item_name": "Sharen (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300023",
+    "collectible_item_name": "Sharen (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300024",
+    "collectible_item_name": "Sharen (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300025",
+    "collectible_item_name": "Blair (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300026",
+    "collectible_item_name": "Blair (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300027",
+    "collectible_item_name": "Blair (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300028",
+    "collectible_item_name": "Valby (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300029",
+    "collectible_item_name": "Valby (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300030",
+    "collectible_item_name": "Valby (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300031",
+    "collectible_item_name": "Kyle (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300032",
+    "collectible_item_name": "Kyle (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300033",
+    "collectible_item_name": "Kyle (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300034",
+    "collectible_item_name": "Esiemo (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300035",
+    "collectible_item_name": "Esiemo (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300036",
+    "collectible_item_name": "Esiemo (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300037",
+    "collectible_item_name": "Enzo (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300038",
+    "collectible_item_name": "Enzo (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300039",
+    "collectible_item_name": "Enzo (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300040",
+    "collectible_item_name": "Yujin (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300041",
+    "collectible_item_name": "Yujin (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300042",
+    "collectible_item_name": "Yujin (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300043",
+    "collectible_item_name": "Luna (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300044",
+    "collectible_item_name": "Luna (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300045",
+    "collectible_item_name": "Luna (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300046",
+    "collectible_item_name": "Hailey (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300047",
+    "collectible_item_name": "Hailey (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300048",
+    "collectible_item_name": "Hailey (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300049",
+    "collectible_item_name": "Keelan (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300050",
+    "collectible_item_name": "Keelan (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300051",
+    "collectible_item_name": "Keelan (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300052",
+    "collectible_item_name": "Inés (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300053",
+    "collectible_item_name": "Inés (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300054",
+    "collectible_item_name": "Inés (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300055",
+    "collectible_item_name": "Serena (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300056",
+    "collectible_item_name": "Serena (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300057",
+    "collectible_item_name": "Serena (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300058",
+    "collectible_item_name": "Nell (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300059",
+    "collectible_item_name": "Nell (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300060",
+    "collectible_item_name": "Nell (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300062",
+    "collectible_item_name": "Viessa (figura pequeña) - Paraíso 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300065",
+    "collectible_item_name": "Bunny (figura pequeña) - Paraíso 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300068",
+    "collectible_item_name": "Freyna (figura pequeña) - Paraíso 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300071",
+    "collectible_item_name": "Gley (figura pequeña) - Paraíso 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300074",
+    "collectible_item_name": "Sharen (figura pequeña) - Paraíso 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300077",
+    "collectible_item_name": "Valby (figura pequeña) - Paraíso 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300080",
+    "collectible_item_name": "Luna (figura pequeña) - Paraíso 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300083",
+    "collectible_item_name": "Hailey (figura pequeña) - Paraíso 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300086",
+    "collectible_item_name": "Inés (figura pequeña) - Paraíso 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300089",
+    "collectible_item_name": "Serena (figura pequeña) - Paraíso 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300091",
+    "collectible_item_name": "Guía (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300092",
+    "collectible_item_name": "Guía (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300093",
+    "collectible_item_name": "Guía (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300094",
+    "collectible_item_name": "Jeremy (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300095",
+    "collectible_item_name": "Jeremy (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300096",
+    "collectible_item_name": "Jeremy (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300097",
+    "collectible_item_name": "Perro pastor de Los Hagios (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300098",
+    "collectible_item_name": "Perro pastor de Los Hagios (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300099",
+    "collectible_item_name": "Perro pastor de Los Hagios (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300100",
+    "collectible_item_name": "Perro de caza de Vespers (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300101",
+    "collectible_item_name": "Perro de caza de Vespers (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300102",
+    "collectible_item_name": "Perro de caza de Vespers (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300103",
+    "collectible_item_name": "Perro de trineo invernal (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300104",
+    "collectible_item_name": "Perro de trineo invernal (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300105",
+    "collectible_item_name": "Perro de trineo invernal (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300106",
+    "collectible_item_name": "Karel, general de la Legión de la Oscuridad (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300107",
+    "collectible_item_name": "Karel, general de la Legión de la Oscuridad (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300108",
+    "collectible_item_name": "Karel, general de la Legión de la Oscuridad (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300109",
+    "collectible_item_name": "Seudo, comandante de la Legión de la Inmortalidad (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300110",
+    "collectible_item_name": "Seudo, comandante de la Legión de la Inmortalidad (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300111",
+    "collectible_item_name": "Seudo, comandante de la Legión de la Inmortalidad (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300112",
+    "collectible_item_name": "Soldado común de la Legión de la Oscuridad (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300113",
+    "collectible_item_name": "Soldado común de la Legión de la Oscuridad (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300114",
+    "collectible_item_name": "Soldado común de la Legión de la Oscuridad (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300115",
+    "collectible_item_name": "Fogonero de la Orden de la Verdad (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300116",
+    "collectible_item_name": "Fogonero de la Orden de la Verdad (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300117",
+    "collectible_item_name": "Fogonero de la Orden de la Verdad (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300118",
+    "collectible_item_name": "Tercer ojo de la Legión de la Inmortalidad (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300119",
+    "collectible_item_name": "Tercer ojo de la Legión de la Inmortalidad (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300120",
+    "collectible_item_name": "Tercer ojo de la Legión de la Inmortalidad (figura pequeña) – Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300122",
+    "collectible_item_name": "Bunny (figura mediana) - Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300124",
+    "collectible_item_name": "Caminante de Ultratumba (figura mediana) - Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300125",
+    "collectible_item_name": "Caminante de Ultratumba (figura mediana) - Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300126",
+    "collectible_item_name": "Caminante de Ultratumba (figura mediana) - Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura de oro puro, creada especialmente por el cuartel general para condecorar a los Descendientes que han luchado incansablemente en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300128",
+    "collectible_item_name": "Ejecutor (figura mediana) - Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300131",
+    "collectible_item_name": "Novia Difunta (figura mediana) - Modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300133",
+    "collectible_item_name": "Bunny (figura pequeña) - Halloween 1",
+    "collectible_item_description": "[Tiempo limitado] Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300134",
+    "collectible_item_name": "Gley (figura pequeña) - Halloween 1",
+    "collectible_item_description": "[Tiempo limitado] Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300135",
+    "collectible_item_name": "Sharen (figura pequeña) - Halloween 1",
+    "collectible_item_description": "[Tiempo limitado] Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300136",
+    "collectible_item_name": "Hailey (figura pequeña) - Halloween 1",
+    "collectible_item_description": "[Tiempo limitado] Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300137",
+    "collectible_item_name": "Inés (figura pequeña) - Halloween 1",
+    "collectible_item_description": "[Tiempo limitado] Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300138",
+    "collectible_item_name": "Serena (figura pequeña) - Halloween 1",
+    "collectible_item_description": "[Tiempo limitado] Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300139",
+    "collectible_item_name": "Nell (figura pequeña) - Halloween 1",
+    "collectible_item_description": "[Tiempo limitado] Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300140",
+    "collectible_item_name": "Esiemo (figura pequeña) - Halloween 1",
+    "collectible_item_description": "[Tiempo limitado] Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300141",
+    "collectible_item_name": "Yujin (figura pequeña) – Caballeros de Albion 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300142",
+    "collectible_item_name": "Harris (figura pequeña) – Caballeros de Albion 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300143",
+    "collectible_item_name": "Viessa (figura pequeña) – Festival de invierno 1",
+    "collectible_item_description": "[Tiempo limitado] Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300144",
+    "collectible_item_name": "Gley (figura pequeña) – Festival de invierno 1",
+    "collectible_item_description": "[Tiempo limitado] Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300145",
+    "collectible_item_name": "Freyna (figura pequeña) – Festival de invierno 1",
+    "collectible_item_description": "[Tiempo limitado] Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300147",
+    "collectible_item_name": "Serena (figura pequeña) - Festival de invierno 1",
+    "collectible_item_description": "[Tiempo limitado] Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300148",
+    "collectible_item_name": "Jayber (figura pequeña) - Festival de invierno 1",
+    "collectible_item_description": "[Tiempo limitado] Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300149",
+    "collectible_item_name": "Viessa (figura pequeña): ídolo 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300150",
+    "collectible_item_name": "Bunny (figura pequeña): ídolo 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300151",
+    "collectible_item_name": "Freyna (figura pequeña): ídolo 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300152",
+    "collectible_item_name": "Gley (figura pequeña): ídolo 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300153",
+    "collectible_item_name": "Sharen (figura pequeña): ídolo 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300154",
+    "collectible_item_name": "Valby (figura pequeña): ídolo 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300155",
+    "collectible_item_name": "Luna (figura pequeña): ídolo 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300156",
+    "collectible_item_name": "Hailey (figura pequeña): ídolo 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300157",
+    "collectible_item_name": "Inés (figura pequeña): ídolo 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300158",
+    "collectible_item_name": "Serena (figura pequeña): ídolo 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300159",
+    "collectible_item_name": "Nell (figura pequeña): ídolo 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300160",
+    "collectible_item_name": "Harris (figura pequeña): ídolo 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300161",
+    "collectible_item_name": "Luna (figura mediana): Bajo la luz de la luna 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300162",
+    "collectible_item_name": "Harris (figura pequeña): modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300163",
+    "collectible_item_name": "Harris (figura pequeña): modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300164",
+    "collectible_item_name": "Harris (figura pequeña): modelo clásico 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Una figurita hecha de oro puro. El cuartel general la ha fabricado especialmente para premiar el arduo trabajo de los Descendientes que han luchado de forma incansable en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300165",
+    "collectible_item_name": "Lepic (figura pequeña): habilidad 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300166",
+    "collectible_item_name": "Lepic (figura pequeña): habilidad 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300167",
+    "collectible_item_name": "Lepic (figura pequeña): habilidad 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Una figurita hecha de oro puro. El cuartel general la ha fabricado especialmente para premiar el arduo trabajo de los Descendientes que han luchado de forma incansable en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300168",
+    "collectible_item_name": "Ajax (figura pequeña): habilidad 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300169",
+    "collectible_item_name": "Ajax (figura pequeña): habilidad 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300170",
+    "collectible_item_name": "Ajax (figura pequeña): habilidad 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Una figurita hecha de oro puro. El cuartel general la ha fabricado especialmente para premiar el arduo trabajo de los Descendientes que han luchado de forma incansable en el campo de batalla.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300171",
+    "collectible_item_name": "Viessa (figura pequeña): habilidad 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura pintada con pocos colores debido a la escasez de pigmentos. Se producen en grandes cantidades para entrenar a ciudadanos y cadetes de la academia militar con dificultades para participar en actividades al aire libre.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300172",
+    "collectible_item_name": "Viessa (figura pequeña): habilidad 1",
+    "collectible_item_description": "Objeto coleccionable que puede colocarse en la sala.",
+    "collectible_item_narrative": "Figura fiel al original, con gran énfasis en el realismo para la formación de cadetes de la academia militar.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  }
+]

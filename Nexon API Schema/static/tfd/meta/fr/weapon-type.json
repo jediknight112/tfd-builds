@@ -1,0 +1,62 @@
+[
+  {
+    "weapon_type": "All",
+    "weapon_type_name": "Arme : toutes"
+  },
+  {
+    "weapon_type": "WeaponMeleeBalanced",
+    "weapon_type_name": "Arme de mêlée équilibrée"
+  },
+  {
+    "weapon_type": "WeaponMeleePower",
+    "weapon_type_name": "Arme de mêlée puissante"
+  },
+  {
+    "weapon_type": "WeaponMeleeSpeed",
+    "weapon_type_name": "Arme de mêlée rapide"
+  },
+  {
+    "weapon_type": "WeaponAssaultRifle",
+    "weapon_type_name": "Fusil d'assaut"
+  },
+  {
+    "weapon_type": "WeaponBeamRifle",
+    "weapon_type_name": "Fusil à rayons"
+  },
+  {
+    "weapon_type": "WeaponHandCannon",
+    "weapon_type_name": "Revolver"
+  },
+  {
+    "weapon_type": "WeaponHandGun",
+    "weapon_type_name": "Pistolet"
+  },
+  {
+    "weapon_type": "WeaponLauncher",
+    "weapon_type_name": "Lanceur"
+  },
+  {
+    "weapon_type": "WeaponMachineGun",
+    "weapon_type_name": "Mitrailleuse"
+  },
+  {
+    "weapon_type": "WeaponScoutRifle",
+    "weapon_type_name": "Fusil éclaireur"
+  },
+  {
+    "weapon_type": "WeaponShotGun",
+    "weapon_type_name": "Fusil de chasse"
+  },
+  {
+    "weapon_type": "WeaponSniperRifle",
+    "weapon_type_name": "Fusil de précision"
+  },
+  {
+    "weapon_type": "WeaponSubMachineGun",
+    "weapon_type_name": "Pistolet-mitrailleur"
+  },
+  {
+    "weapon_type": "WeaponTacticalRifle",
+    "weapon_type_name": "Fusil tactique"
+  }
+]

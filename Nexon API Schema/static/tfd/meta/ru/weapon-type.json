@@ -1,0 +1,62 @@
+[
+  {
+    "weapon_type": "All",
+    "weapon_type_name": "Оружие: все"
+  },
+  {
+    "weapon_type": "WeaponMeleeBalanced",
+    "weapon_type_name": "Сбалансированное оружие ближнего боя"
+  },
+  {
+    "weapon_type": "WeaponMeleePower",
+    "weapon_type_name": "Мощное оружие ближнего боя"
+  },
+  {
+    "weapon_type": "WeaponMeleeSpeed",
+    "weapon_type_name": "Скоростное оружие ближнего боя"
+  },
+  {
+    "weapon_type": "WeaponAssaultRifle",
+    "weapon_type_name": "Штурмовая винтовка"
+  },
+  {
+    "weapon_type": "WeaponBeamRifle",
+    "weapon_type_name": "Лучевая винтовка"
+  },
+  {
+    "weapon_type": "WeaponHandCannon",
+    "weapon_type_name": "Ручная пушка"
+  },
+  {
+    "weapon_type": "WeaponHandGun",
+    "weapon_type_name": "Пистолет"
+  },
+  {
+    "weapon_type": "WeaponLauncher",
+    "weapon_type_name": "Ракетница"
+  },
+  {
+    "weapon_type": "WeaponMachineGun",
+    "weapon_type_name": "Пулемет"
+  },
+  {
+    "weapon_type": "WeaponScoutRifle",
+    "weapon_type_name": "Винтовка разведчика"
+  },
+  {
+    "weapon_type": "WeaponShotGun",
+    "weapon_type_name": "Дробовик"
+  },
+  {
+    "weapon_type": "WeaponSniperRifle",
+    "weapon_type_name": "Снайперская винтовка"
+  },
+  {
+    "weapon_type": "WeaponSubMachineGun",
+    "weapon_type_name": "Пистолет-пулемет"
+  },
+  {
+    "weapon_type": "WeaponTacticalRifle",
+    "weapon_type_name": "Тактическая винтовка"
+  }
+]

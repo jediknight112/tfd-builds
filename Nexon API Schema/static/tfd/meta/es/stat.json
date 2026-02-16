@@ -1,0 +1,1332 @@
+[
+  {
+    "stat_id": "105000001",
+    "stat_name": "PS máximos",
+    "stat_order_no": 300
+  },
+  {
+    "stat_id": "105000002",
+    "stat_name": "Velocidad de retroceso",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000003",
+    "stat_name": "Tiempo de retroceso",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000004",
+    "stat_name": "Tiempo de derribo",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000005",
+    "stat_name": "Rango máximo",
+    "stat_order_no": 154
+  },
+  {
+    "stat_id": "105000006",
+    "stat_name": "Precisión al disparar a la cadera",
+    "stat_order_no": 144
+  },
+  {
+    "stat_id": "105000008",
+    "stat_name": "Impulso",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000011",
+    "stat_name": "Tasa de aumento del tiempo de recarga del garfio",
+    "stat_order_no": 419
+  },
+  {
+    "stat_id": "105000013",
+    "stat_name": "Tiempo de retraso al apuntar",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000014",
+    "stat_name": "Tiempo de retraso al apuntar de cerca",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000015",
+    "stat_name": "Velocidad de salto",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000017",
+    "stat_name": "Tiempo de rescate",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000018",
+    "stat_name": "Velocidad de movimiento",
+    "stat_order_no": 402
+  },
+  {
+    "stat_id": "105000019",
+    "stat_name": "Velocidad de esprint",
+    "stat_order_no": 405
+  },
+  {
+    "stat_id": "105000020",
+    "stat_name": "Velocidad de movimiento al apuntar",
+    "stat_order_no": 404
+  },
+  {
+    "stat_id": "105000021",
+    "stat_name": "Balas por cargador",
+    "stat_order_no": 120
+  },
+  {
+    "stat_id": "105000022",
+    "stat_name": "Capacidad de carga",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000023",
+    "stat_name": "Cadencia de tiro",
+    "stat_order_no": 118
+  },
+  {
+    "stat_id": "105000024",
+    "stat_name": "PM máximos",
+    "stat_order_no": 200
+  },
+  {
+    "stat_id": "105000025",
+    "stat_name": "Valor de escudo máximo",
+    "stat_order_no": 301
+  },
+  {
+    "stat_id": "105000026",
+    "stat_name": "Ataque de armas de fuego",
+    "stat_order_no": 100
+  },
+  {
+    "stat_id": "105000027",
+    "stat_name": "Ataque mínimo",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000028",
+    "stat_name": "Ataque máximo",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000029",
+    "stat_name": "Defensa",
+    "stat_order_no": 302
+  },
+  {
+    "stat_id": "105000030",
+    "stat_name": "Tasa de golpe crítico de arma de fuego",
+    "stat_order_no": 126
+  },
+  {
+    "stat_id": "105000031",
+    "stat_name": "Daño por golpe crítico de arma de fuego",
+    "stat_order_no": 128
+  },
+  {
+    "stat_id": "105000032",
+    "stat_name": "Capacidad para cartuchos",
+    "stat_order_no": 112
+  },
+  {
+    "stat_id": "105000033",
+    "stat_name": "Coste de la bala",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000034",
+    "stat_name": "Velocidad de movimiento al disparar",
+    "stat_order_no": 403
+  },
+  {
+    "stat_id": "105000035",
+    "stat_name": "Daño en puntos débiles",
+    "stat_order_no": 138
+  },
+  {
+    "stat_id": "105000036",
+    "stat_name": "Precisión de disparo al apuntar",
+    "stat_order_no": 146
+  },
+  {
+    "stat_id": "105000042",
+    "stat_name": "Velocidad de escalada (monstruo)",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000043",
+    "stat_name": "Velocidad de marcha (monstruo)",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000044",
+    "stat_name": "Destrucción medioambiental (jefe)",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000045",
+    "stat_name": "Tasa de aumento del radio de la explosión del lanzamisiles",
+    "stat_order_no": 117
+  },
+  {
+    "stat_id": "105000046",
+    "stat_name": "Duración del movimiento de rodar",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000047",
+    "stat_name": "Tiempo de recarga tras rodar",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000048",
+    "stat_name": "Dominación",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000049",
+    "stat_name": "Control",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000050",
+    "stat_name": "Fortaleza",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000052",
+    "stat_name": "Modificador de tiempo de carga",
+    "stat_order_no": 124
+  },
+  {
+    "stat_id": "105000053",
+    "stat_name": "Tiempo de recarga del cargador",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000054",
+    "stat_name": "Rango del efecto (comienzo de la disminución)",
+    "stat_order_no": 148
+  },
+  {
+    "stat_id": "105000055",
+    "stat_name": "Rango del efecto (fin de la disminución)",
+    "stat_order_no": 150
+  },
+  {
+    "stat_id": "105000056",
+    "stat_name": "Modificador de disminución de ataque",
+    "stat_order_no": 152
+  },
+  {
+    "stat_id": "105000057",
+    "stat_name": "Ataque explosivo",
+    "stat_order_no": 102
+  },
+  {
+    "stat_id": "105000058",
+    "stat_name": "Ataque ígneo",
+    "stat_order_no": 104
+  },
+  {
+    "stat_id": "105000059",
+    "stat_name": "Ataque helado",
+    "stat_order_no": 106
+  },
+  {
+    "stat_id": "105000060",
+    "stat_name": "Ataque eléctrico",
+    "stat_order_no": 108
+  },
+  {
+    "stat_id": "105000061",
+    "stat_name": "Ataque tóxico",
+    "stat_order_no": 110
+  },
+  {
+    "stat_id": "105000062",
+    "stat_name": "Resistencia al fuego",
+    "stat_order_no": 307
+  },
+  {
+    "stat_id": "105000063",
+    "stat_name": "Resistencia al frío",
+    "stat_order_no": 308
+  },
+  {
+    "stat_id": "105000064",
+    "stat_name": "Resistencia eléctrica",
+    "stat_order_no": 309
+  },
+  {
+    "stat_id": "105000065",
+    "stat_name": "Resistencia a las toxinas",
+    "stat_order_no": 310
+  },
+  {
+    "stat_id": "105000066",
+    "stat_name": "Resistencia a golpes críticos",
+    "stat_order_no": 304
+  },
+  {
+    "stat_id": "105000069",
+    "stat_name": "Reventar",
+    "stat_order_no": 130
+  },
+  {
+    "stat_id": "105000070",
+    "stat_name": "Aplastar",
+    "stat_order_no": 132
+  },
+  {
+    "stat_id": "105000071",
+    "stat_name": "Perforar",
+    "stat_order_no": 134
+  },
+  {
+    "stat_id": "105000072",
+    "stat_name": "Cadencia de tiro al aplastar",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000073",
+    "stat_name": "Rango de disminución de ataque de explosión",
+    "stat_order_no": 114
+  },
+  {
+    "stat_id": "105000074",
+    "stat_name": "Retraso al alejar",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000075",
+    "stat_name": "Penetración",
+    "stat_order_no": 141
+  },
+  {
+    "stat_id": "105000076",
+    "stat_name": "Defensa de penetración",
+    "stat_order_no": 110
+  },
+  {
+    "stat_id": "105000077",
+    "stat_name": "Destrucción medioambiental (arma)",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000078",
+    "stat_name": "Destrucción medioambiental (habilidad)",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000079",
+    "stat_name": "Tasa de aumento del tiempo de carga del garfio",
+    "stat_order_no": 421
+  },
+  {
+    "stat_id": "105000080",
+    "stat_name": "Probabilidad de retroceso",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000081",
+    "stat_name": "Probabilidad de resistencia al retroceso",
+    "stat_order_no": 312
+  },
+  {
+    "stat_id": "105000082",
+    "stat_name": "Valor de resistencia al tiempo de retroceso",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000083",
+    "stat_name": "Valor de resistencia a la velocidad de retroceso",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000084",
+    "stat_name": "Probabilidad de derribo",
+    "stat_order_no": 176
+  },
+  {
+    "stat_id": "105000085",
+    "stat_name": "Velocidad de derribo en eje X",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000086",
+    "stat_name": "Velocidad de derribo en eje Z",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000087",
+    "stat_name": "Probabilidad de resistencia al derribo",
+    "stat_order_no": 313
+  },
+  {
+    "stat_id": "105000088",
+    "stat_name": "Valor de resistencia a la velocidad de derribo en eje X",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000089",
+    "stat_name": "Valor de resistencia a la velocidad de derribo en eje Z",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000090",
+    "stat_name": "Valor de resistencia al tiempo de derribo",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000092",
+    "stat_name": "Valor de ataque con mareo",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000093",
+    "stat_name": "Valor de resistencia al agotamiento",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000094",
+    "stat_name": "Velocidad de movimiento en frenesí",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000095",
+    "stat_name": "Tiempo de recarga",
+    "stat_order_no": 122
+  },
+  {
+    "stat_id": "105000096",
+    "stat_name": "Intervalo de tiempo de recuperación de PS",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000097",
+    "stat_name": "Intervalo de tiempo de recuperación de PM",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000098",
+    "stat_name": "Intervalo de tiempo de recuperación de escudo",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000100",
+    "stat_name": "Recuperación de PS fuera de combate",
+    "stat_order_no": 405
+  },
+  {
+    "stat_id": "105000101",
+    "stat_name": "Recuperación de PM fuera de combate",
+    "stat_order_no": 406
+  },
+  {
+    "stat_id": "105000102",
+    "stat_name": "Recuperación de escudo fuera de combate",
+    "stat_order_no": 407
+  },
+  {
+    "stat_id": "105000103",
+    "stat_name": "Recuperación de PS en combate",
+    "stat_order_no": 408
+  },
+  {
+    "stat_id": "105000104",
+    "stat_name": "Recuperación de PM en combate",
+    "stat_order_no": 409
+  },
+  {
+    "stat_id": "105000105",
+    "stat_name": "Recuperación de escudo en combate",
+    "stat_order_no": 410
+  },
+  {
+    "stat_id": "105000106",
+    "stat_name": "PS actuales",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000107",
+    "stat_name": "PM actuales",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000108",
+    "stat_name": "Escudo actual",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000115",
+    "stat_name": "Número de cargas adicionales del garfio",
+    "stat_order_no": 420
+  },
+  {
+    "stat_id": "105000116",
+    "stat_name": "Retroceso",
+    "stat_order_no": 142
+  },
+  {
+    "stat_id": "105000117",
+    "stat_name": "Tiempo de recarga de habilidad",
+    "stat_order_no": 225
+  },
+  {
+    "stat_id": "105000118",
+    "stat_name": "Coste de habilidad",
+    "stat_order_no": 226
+  },
+  {
+    "stat_id": "105000119",
+    "stat_name": "Modificador de poder de habilidad",
+    "stat_order_no": 213
+  },
+  {
+    "stat_id": "105000123",
+    "stat_name": "Aumento de la duración de la habilidad",
+    "stat_order_no": 227
+  },
+  {
+    "stat_id": "105000124",
+    "stat_name": "Reducción de la duración de la habilidad",
+    "stat_order_no": 228
+  },
+  {
+    "stat_id": "105000125",
+    "stat_name": "Rango de efecto de habilidad",
+    "stat_order_no": 229
+  },
+  {
+    "stat_id": "105000126",
+    "stat_name": "Velocidad de recarga de cargador vacío",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000127",
+    "stat_name": "Velocidad de cambio de arma",
+    "stat_order_no": 422
+  },
+  {
+    "stat_id": "105000128",
+    "stat_name": "Modificador de máximo de balas generales",
+    "stat_order_no": 411
+  },
+  {
+    "stat_id": "105000129",
+    "stat_name": "Modificador de máximo de balas especiales",
+    "stat_order_no": 412
+  },
+  {
+    "stat_id": "105000130",
+    "stat_name": "Modificador de máximo de balas de impacto",
+    "stat_order_no": 413
+  },
+  {
+    "stat_id": "105000131",
+    "stat_name": "Modificador de máximo de balas de gran potencia",
+    "stat_order_no": 414
+  },
+  {
+    "stat_id": "105000133",
+    "stat_name": "Modificador de ataque físico de habilidad",
+    "stat_order_no": 230
+  },
+  {
+    "stat_id": "105000134",
+    "stat_name": "Modificador de ataque de atributos de habilidad",
+    "stat_order_no": 231
+  },
+  {
+    "stat_id": "105000135",
+    "stat_name": "Modificador de recuperación de PS",
+    "stat_order_no": 415
+  },
+  {
+    "stat_id": "105000136",
+    "stat_name": "Modificador de recuperación de PS",
+    "stat_order_no": 416
+  },
+  {
+    "stat_id": "105000137",
+    "stat_name": "Modificador de recuperación de PM",
+    "stat_order_no": 232
+  },
+  {
+    "stat_id": "105000138",
+    "stat_name": "Modificador de recuperación de PM",
+    "stat_order_no": 233
+  },
+  {
+    "stat_id": "105000139",
+    "stat_name": "Modificador de daño de arma de fuego",
+    "stat_order_no": 178
+  },
+  {
+    "stat_id": "105000140",
+    "stat_name": "Modificador de daño externo",
+    "stat_order_no": 172
+  },
+  {
+    "stat_id": "105000141",
+    "stat_name": "Modificador de daño entrante",
+    "stat_order_no": 311
+  },
+  {
+    "stat_id": "105000142",
+    "stat_name": "Nivel de objeto",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000143",
+    "stat_name": "Modificador de poder de habilidad base",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000144",
+    "stat_name": "Constante de corrección de nivel de objeto",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000145",
+    "stat_name": "Poder de habilidad",
+    "stat_order_no": 202
+  },
+  {
+    "stat_id": "105000146",
+    "stat_name": "Tasa de aumento del poder de habilidad base",
+    "stat_order_no": 203
+  },
+  {
+    "stat_id": "105000147",
+    "stat_name": "Tasa de aumento del poder de habilidad sin atributos",
+    "stat_order_no": 204
+  },
+  {
+    "stat_id": "105000148",
+    "stat_name": "Tasa de aumento del poder de habilidad ígnea",
+    "stat_order_no": 205
+  },
+  {
+    "stat_id": "105000149",
+    "stat_name": "Tasa de aumento del poder de habilidad de frío",
+    "stat_order_no": 206
+  },
+  {
+    "stat_id": "105000150",
+    "stat_name": "Tasa de aumento del poder de habilidad eléctrica",
+    "stat_order_no": 207
+  },
+  {
+    "stat_id": "105000151",
+    "stat_name": "Tasa de aumento del poder de habilidad tóxica",
+    "stat_order_no": 208
+  },
+  {
+    "stat_id": "105000152",
+    "stat_name": "Tasa de aumento del poder de habilidad de fusión",
+    "stat_order_no": 209
+  },
+  {
+    "stat_id": "105000153",
+    "stat_name": "Tasa de aumento del poder de habilidad singular",
+    "stat_order_no": 210
+  },
+  {
+    "stat_id": "105000154",
+    "stat_name": "Tasa de aumento del poder de habilidad dimensional",
+    "stat_order_no": 211
+  },
+  {
+    "stat_id": "105000155",
+    "stat_name": "Tasa de aumento del poder de habilidad técnica",
+    "stat_order_no": 212
+  },
+  {
+    "stat_id": "105000156",
+    "stat_name": "Modificador de habilidad sin atributos",
+    "stat_order_no": 214
+  },
+  {
+    "stat_id": "105000157",
+    "stat_name": "Modificador de la habilidad ígnea",
+    "stat_order_no": 215
+  },
+  {
+    "stat_id": "105000158",
+    "stat_name": "Modificador de habilidad de frío",
+    "stat_order_no": 216
+  },
+  {
+    "stat_id": "105000159",
+    "stat_name": "Modificador de habilidad eléctrica",
+    "stat_order_no": 217
+  },
+  {
+    "stat_id": "105000160",
+    "stat_name": "Modificador de habilidad tóxica",
+    "stat_order_no": 218
+  },
+  {
+    "stat_id": "105000161",
+    "stat_name": "Modificador de habilidad de fusión",
+    "stat_order_no": 219
+  },
+  {
+    "stat_id": "105000162",
+    "stat_name": "Modificador de habilidad singular",
+    "stat_order_no": 220
+  },
+  {
+    "stat_id": "105000163",
+    "stat_name": "Modificador de habilidad dimensional",
+    "stat_order_no": 221
+  },
+  {
+    "stat_id": "105000164",
+    "stat_name": "Modificador de habilidad técnica",
+    "stat_order_no": 222
+  },
+  {
+    "stat_id": "105000165",
+    "stat_name": "Tasa de golpe crítico de habilidad",
+    "stat_order_no": 223
+  },
+  {
+    "stat_id": "105000166",
+    "stat_name": "Daño por golpe crítico de habilidad",
+    "stat_order_no": 224
+  },
+  {
+    "stat_id": "105000167",
+    "stat_name": "Resistencia a golpes críticos de habilidad",
+    "stat_order_no": 305
+  },
+  {
+    "stat_id": "105000168",
+    "stat_name": "Defensa de habilidad",
+    "stat_order_no": 303
+  },
+  {
+    "stat_id": "105000169",
+    "stat_name": "Resistencia sin atributos",
+    "stat_order_no": 306
+  },
+  {
+    "stat_id": "105000170",
+    "stat_name": "Tasa de activación de efectos de estado de atributos",
+    "stat_order_no": 136
+  },
+  {
+    "stat_id": "105000171",
+    "stat_name": "Modificador de recuperación de escudo saliente",
+    "stat_order_no": 417
+  },
+  {
+    "stat_id": "105000172",
+    "stat_name": "Modificador de recuperación de escudo",
+    "stat_order_no": 418
+  },
+  {
+    "stat_id": "105000174",
+    "stat_name": "Radio de la explosión del lanzamisiles",
+    "stat_order_no": 116
+  },
+  {
+    "stat_id": "105000175",
+    "stat_name": "Duración de la reanimación",
+    "stat_order_no": 423
+  },
+  {
+    "stat_id": "105000176",
+    "stat_name": "Modificador de aumento de la tasa de aparición de módulos",
+    "stat_order_no": 433
+  },
+  {
+    "stat_id": "105000177",
+    "stat_name": "Modificador de aumento de la tasa de aparición de equipamiento",
+    "stat_order_no": 431
+  },
+  {
+    "stat_id": "105000178",
+    "stat_name": "Modificador de tasa de aparición de consumibles",
+    "stat_order_no": 434
+  },
+  {
+    "stat_id": "105000179",
+    "stat_name": "Modificador de aumento de la tasa de aparición de oro",
+    "stat_order_no": 430
+  },
+  {
+    "stat_id": "105000180",
+    "stat_name": "Modificador de aumento de la tasa de aparición de fragmentos de Kuiper",
+    "stat_order_no": 432
+  },
+  {
+    "stat_id": "105000181",
+    "stat_name": "Modificador de ganancia de experiencia del personaje",
+    "stat_order_no": 428
+  },
+  {
+    "stat_id": "105000182",
+    "stat_name": "Modificador de ganancia de dominio de armas de fuego",
+    "stat_order_no": 429
+  },
+  {
+    "stat_id": "105000183",
+    "stat_name": "Ataque de arma adicional (frente a Coloso)",
+    "stat_order_no": 168
+  },
+  {
+    "stat_id": "105000184",
+    "stat_name": "Ataque de arma adicional (frente a la Legión de la Oscuridad)",
+    "stat_order_no": 156
+  },
+  {
+    "stat_id": "105000185",
+    "stat_name": "Ataque de arma adicional (frente a la Orden de la Verdad)",
+    "stat_order_no": 160
+  },
+  {
+    "stat_id": "105000186",
+    "stat_name": "Ataque de arma adicional (frente a la Legión de la Inmortalidad)",
+    "stat_order_no": 164
+  },
+  {
+    "stat_id": "105000187",
+    "stat_name": "Tiempo para reanimar",
+    "stat_order_no": 424
+  },
+  {
+    "stat_id": "105000188",
+    "stat_name": "Modificador de aumento de distancia de adquisición de objetos",
+    "stat_order_no": 427
+  },
+  {
+    "stat_id": "105000190",
+    "stat_name": "Modificador de aumento del radio de búsqueda de Ecive",
+    "stat_order_no": 425
+  },
+  {
+    "stat_id": "105000191",
+    "stat_name": "Tiempo de visualización de Ecive",
+    "stat_order_no": 426
+  },
+  {
+    "stat_id": "105000192",
+    "stat_name": "Poder de ataque secundario",
+    "stat_order_no": 400
+  },
+  {
+    "stat_id": "105000193",
+    "stat_name": "Modificador de poder de ataque secundario",
+    "stat_order_no": 401
+  },
+  {
+    "stat_id": "105000194",
+    "stat_name": "Velocidad de carga de rifles de haz",
+    "stat_order_no": 180
+  },
+  {
+    "stat_id": "105000195",
+    "stat_name": "Velocidad de descarga de rifles de haz",
+    "stat_order_no": 182
+  },
+  {
+    "stat_id": "105000196",
+    "stat_name": "Ataque de habilidad adicional (frente a Coloso)",
+    "stat_order_no": 235
+  },
+  {
+    "stat_id": "105000197",
+    "stat_name": "Ataque de habilidad adicional (frente a la Legión de la Oscuridad)",
+    "stat_order_no": 236
+  },
+  {
+    "stat_id": "105000198",
+    "stat_name": "Ataque de habilidad adicional (frente a la Orden de la Verdad)",
+    "stat_order_no": 237
+  },
+  {
+    "stat_id": "105000199",
+    "stat_name": "Ataque de habilidad adicional (frente a la Legión de la Inmortalidad)",
+    "stat_order_no": 238
+  },
+  {
+    "stat_id": "105000214",
+    "stat_name": "Modificador de velocidad de habilidad y aumento de rango",
+    "stat_order_no": 234
+  },
+  {
+    "stat_id": "105000219",
+    "stat_name": "Penetración de proyectil",
+    "stat_order_no": null
+  },
+  {
+    "stat_id": "105000220",
+    "stat_name": "Defensa de perforación de proyectil",
+    "stat_order_no": null
+  },
+  {
+    "stat_id": "105000226",
+    "stat_name": "Modificador de daño de afinidad de ventaja",
+    "stat_order_no": 135
+  },
+  {
+    "stat_id": "105000227",
+    "stat_name": "Probabilidad de impacto múltiple",
+    "stat_order_no": 139
+  },
+  {
+    "stat_id": "105000228",
+    "stat_name": "Modificador de gravedad",
+    "stat_order_no": 440
+  },
+  {
+    "stat_id": "105000229",
+    "stat_name": "Daño por impacto múltiple",
+    "stat_order_no": 140
+  },
+  {
+    "stat_id": "105000230",
+    "stat_name": "Velocidad máx.",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000231",
+    "stat_name": "Aceleración",
+    "stat_order_no": 10
+  },
+  {
+    "stat_id": "105000232",
+    "stat_name": "Velocidad máxima con potenciador",
+    "stat_order_no": 20
+  },
+  {
+    "stat_id": "105000233",
+    "stat_name": "Aceleración con potenciador",
+    "stat_order_no": 30
+  },
+  {
+    "stat_id": "105000234",
+    "stat_name": "Modificador de velocidad de movimiento inverso",
+    "stat_order_no": 90
+  },
+  {
+    "stat_id": "105000235",
+    "stat_name": "Modificador de velocidad de movimiento lateral",
+    "stat_order_no": 80
+  },
+  {
+    "stat_id": "105000236",
+    "stat_name": "Potencia de giro",
+    "stat_order_no": 60
+  },
+  {
+    "stat_id": "105000237",
+    "stat_name": "Potencia de giro durante la potenciación",
+    "stat_order_no": 70
+  },
+  {
+    "stat_id": "105000238",
+    "stat_name": "Capacidad del medidor de potenciador",
+    "stat_order_no": 40
+  },
+  {
+    "stat_id": "105000239",
+    "stat_name": "Intervalo de recuperación del medidor de potenciador",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000240",
+    "stat_name": "Cantidad de recuperación del medidor de potenciador",
+    "stat_order_no": 50
+  },
+  {
+    "stat_id": "105000241",
+    "stat_name": "Retraso del inicio de recuperación del medidor de potenciador",
+    "stat_order_no": 45
+  },
+  {
+    "stat_id": "105000242",
+    "stat_name": "Modificador de consumo del medidor de potenciador",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000243",
+    "stat_name": "Modificador de recuperación del medidor de potenciador",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000244",
+    "stat_name": "Ataque de arma cuerpo a cuerpo",
+    "stat_order_no": 100
+  },
+  {
+    "stat_id": "105000245",
+    "stat_name": "Velocidad de ataque",
+    "stat_order_no": 118
+  },
+  {
+    "stat_id": "105000246",
+    "stat_name": "Ataque ígneo de arma cuerpo a cuerpo",
+    "stat_order_no": 104
+  },
+  {
+    "stat_id": "105000247",
+    "stat_name": "Ataque helado de arma cuerpo a cuerpo",
+    "stat_order_no": 106
+  },
+  {
+    "stat_id": "105000248",
+    "stat_name": "Ataque tóxico de arma cuerpo a cuerpo",
+    "stat_order_no": 108
+  },
+  {
+    "stat_id": "105000249",
+    "stat_name": "Ataque eléctrico de arma cuerpo a cuerpo",
+    "stat_order_no": 110
+  },
+  {
+    "stat_id": "105000250",
+    "stat_name": "Tasa de golpe crítico de arma cuerpo a cuerpo",
+    "stat_order_no": 128
+  },
+  {
+    "stat_id": "105000251",
+    "stat_name": "Daño por golpe crítico de arma cuerpo a cuerpo",
+    "stat_order_no": 130
+  },
+  {
+    "stat_id": "105000252",
+    "stat_name": "Probabilidad de ataque adicional",
+    "stat_order_no": 142
+  },
+  {
+    "stat_id": "105000253",
+    "stat_name": "Daño de ataque adicional",
+    "stat_order_no": 143
+  },
+  {
+    "stat_id": "105000254",
+    "stat_name": "Tasa de perforación de arma cuerpo a cuerpo",
+    "stat_order_no": 187
+  },
+  {
+    "stat_id": "105000255",
+    "stat_name": "Tasa de perforación mín. de arma cuerpo a cuerpo",
+    "stat_order_no": 188
+  },
+  {
+    "stat_id": "105000256",
+    "stat_name": "Resistencia de perforación de arma cuerpo a cuerpo",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000257",
+    "stat_name": "Rango de ataque de arma cuerpo a cuerpo",
+    "stat_order_no": 189
+  },
+  {
+    "stat_id": "105000258",
+    "stat_name": "Multiplicador de rango de ataque de arma cuerpo a cuerpo máx.",
+    "stat_order_no": 190
+  },
+  {
+    "stat_id": "105000259",
+    "stat_name": "Medidor de bloqueo máximo",
+    "stat_order_no": 191
+  },
+  {
+    "stat_id": "105000260",
+    "stat_name": "Medidor de bloqueo actual",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000261",
+    "stat_name": "Coste de medidor de bloqueo de inicio",
+    "stat_order_no": 192
+  },
+  {
+    "stat_id": "105000262",
+    "stat_name": "Coste de medidor de bloqueo de mantenimiento",
+    "stat_order_no": 193
+  },
+  {
+    "stat_id": "105000263",
+    "stat_name": "Tiempo de inicio de recuperación del medidor de bloqueo",
+    "stat_order_no": 194
+  },
+  {
+    "stat_id": "105000264",
+    "stat_name": "Cantidad de recuperación del medidor de bloqueo",
+    "stat_order_no": 195
+  },
+  {
+    "stat_id": "105000265",
+    "stat_name": "Eficiencia de bloqueo",
+    "stat_order_no": 196
+  },
+  {
+    "stat_id": "105000266",
+    "stat_name": "Modificador de eficiencia de bloqueo",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000267",
+    "stat_name": "Medidor de ataque especial máximo",
+    "stat_order_no": 198
+  },
+  {
+    "stat_id": "105000268",
+    "stat_name": "Medidor de ataque especial actual",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000269",
+    "stat_name": "Tiempo de inicio de recuperación del medidor de ataque especial",
+    "stat_order_no": 199
+  },
+  {
+    "stat_id": "105000270",
+    "stat_name": "Cantidad de recuperación del medidor de ataque especial",
+    "stat_order_no": 199
+  },
+  {
+    "stat_id": "105000272",
+    "stat_name": "Daño entrante en puntos débiles",
+    "stat_order_no": null
+  },
+  {
+    "stat_id": "105000273",
+    "stat_name": "Resistencia a armas ígneas",
+    "stat_order_no": 314
+  },
+  {
+    "stat_id": "105000274",
+    "stat_name": "Resistencia a armas de frío",
+    "stat_order_no": 315
+  },
+  {
+    "stat_id": "105000275",
+    "stat_name": "Resistencia a armas eléctricas",
+    "stat_order_no": 316
+  },
+  {
+    "stat_id": "105000276",
+    "stat_name": "Resistencia a armas tóxicas",
+    "stat_order_no": 317
+  },
+  {
+    "stat_id": "105000278",
+    "stat_name": "Coste del boost",
+    "stat_order_no": 55
+  },
+  {
+    "stat_id": "105000280",
+    "stat_name": "Ataque de arma adicional (frente a Legión de La Grieta)",
+    "stat_order_no": 165
+  },
+  {
+    "stat_id": "105000281",
+    "stat_name": "Ataque de habilidad adicional al atacar a la Legión de La Grieta",
+    "stat_order_no": 239
+  },
+  {
+    "stat_id": "105000282",
+    "stat_name": "Modificador de velocidad de ataque",
+    "stat_order_no": 118
+  },
+  {
+    "stat_id": "105000283",
+    "stat_name": "Multiplicador de daño adicional frente a monstruos comunes de la Legión de la Oscuridad",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000284",
+    "stat_name": "Multiplicador de daño adicional frente a élites de la Legión de la Oscuridad",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000285",
+    "stat_name": "Multiplicador de daño adicional frente a comandantes de la Legión de la Oscuridad",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000286",
+    "stat_name": "Multiplicador de daño adicional frente a monstruos comunes de la Orden de la verdad",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000287",
+    "stat_name": "Multiplicador de daño adicional frente a élites de la Orden de la verdad",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000288",
+    "stat_name": "Multiplicador de daño adicional frente a comandantes de la Orden de la verdad",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000289",
+    "stat_name": "Multiplicador de daño adicional frente a monstruos comunes de la Legión de la Inmortalidad",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000290",
+    "stat_name": "Multiplicador de daño adicional frente a élites de la Legión de la Inmortalidad",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000291",
+    "stat_name": "Multiplicador de daño adicional frente a comandantes de la Legión de la Inmortalidad",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000292",
+    "stat_name": "Multiplicador de daño adicional frente a monstruos comunes de la Legión de La Grieta",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000293",
+    "stat_name": "Multiplicador de daño adicional frente a élites de la Legión de La Grieta",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000294",
+    "stat_name": "Multiplicador de daño adicional frente a comandantes de la Legión de La Grieta",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000295",
+    "stat_name": "Resistencia al multiplicador de daño adicional frente a legiones y monstruos",
+    "stat_order_no": 318
+  },
+  {
+    "stat_id": "105000296",
+    "stat_name": "Multiplicador de daño adicional vs. tiranos de la Legión de la Oscuridad",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000297",
+    "stat_name": "Multiplicador de daño adicional vs. tiranos de la Orden de la Verdad",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000298",
+    "stat_name": "Multiplicador de daño adicional vs. tiranos de la Legión de la Inmortalidad",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000299",
+    "stat_name": "Multiplicador de daño adicional vs. tiranos de la Legión de La Grieta",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000300",
+    "stat_name": "Modificador de tasa de perforación de armas cuerpo a cuerpo",
+    "stat_order_no": 187
+  },
+  {
+    "stat_id": "105000301",
+    "stat_name": "Modificador de tasa de perforación mín. de armas cuerpo a cuerpo",
+    "stat_order_no": 188
+  },
+  {
+    "stat_id": "105000302",
+    "stat_name": "Resistencia a impacto múltiple",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000303",
+    "stat_name": "Resistencia al daño causado por impacto múltiple",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000305",
+    "stat_name": "Ataque de armas adicional (frente a Élites)",
+    "stat_order_no": 314
+  },
+  {
+    "stat_id": "105000306",
+    "stat_name": "Ataque de armas adicional (frente a Comandantes)",
+    "stat_order_no": 315
+  },
+  {
+    "stat_id": "105000307",
+    "stat_name": "Ataque de armas adicional (frente a Tiranos)",
+    "stat_order_no": 316
+  },
+  {
+    "stat_id": "105000308",
+    "stat_name": "Ataque de habilidad adicional (frente a Élites)",
+    "stat_order_no": 317
+  },
+  {
+    "stat_id": "105000309",
+    "stat_name": "Ataque de habilidad adicional (frente a Comandantes)",
+    "stat_order_no": 318
+  },
+  {
+    "stat_id": "105000310",
+    "stat_name": "Ataque de habilidad adicional (frente a Tiranos)",
+    "stat_order_no": 319
+  },
+  {
+    "stat_id": "105000311",
+    "stat_name": "Valor de sincronización",
+    "stat_order_no": 441
+  },
+  {
+    "stat_id": "105000109:101000002",
+    "stat_name": "Energía del vacío máxima",
+    "stat_order_no": 201
+  },
+  {
+    "stat_id": "105000109:101000006",
+    "stat_name": "Electricidad máxima",
+    "stat_order_no": 201
+  },
+  {
+    "stat_id": "105000109:101000009",
+    "stat_name": "Poder de vida máximo",
+    "stat_order_no": 201
+  },
+  {
+    "stat_id": "105000109:101000014",
+    "stat_name": "Fuerza magnética máxima",
+    "stat_order_no": 201
+  },
+  {
+    "stat_id": "105000109:101000018",
+    "stat_name": "Medidor de inspiración máximo",
+    "stat_order_no": 201
+  },
+  {
+    "stat_id": "105000109:101000024",
+    "stat_name": "Inyección ácida máxima",
+    "stat_order_no": 201
+  },
+  {
+    "stat_id": "105000109:101000026",
+    "stat_name": "Plasma máximo",
+    "stat_order_no": 201
+  },
+  {
+    "stat_id": "105000109:101000031",
+    "stat_name": "Nivel máximo de toxinas",
+    "stat_order_no": 201
+  },
+  {
+    "stat_id": "105000109:101000033",
+    "stat_name": "Placer máximo",
+    "stat_order_no": 201
+  }
+]

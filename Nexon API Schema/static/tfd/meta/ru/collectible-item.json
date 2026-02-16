@@ -1,0 +1,3936 @@
+[
+  {
+    "collectible_item_id": "266300173",
+    "collectible_item_name": "Вьесса (мал.) — Навык 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300174",
+    "collectible_item_name": "Банни (мал.) — Навык 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300175",
+    "collectible_item_name": "Банни (мал.) — Навык 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300176",
+    "collectible_item_name": "Банни (мал.) — Навык 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300198",
+    "collectible_item_name": "Амон: генерал Легиона бессмертных (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300199",
+    "collectible_item_name": "Амон: генерал Легиона бессмертных (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300200",
+    "collectible_item_name": "Амон: генерал Легиона бессмертных (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300345",
+    "collectible_item_name": "Дия (мал.) — Униформа Альфы 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300347",
+    "collectible_item_name": "Аякс (мал.) — Униформа Альфы 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300348",
+    "collectible_item_name": "Копия Элиас (средн.) — Сектор «Сигма» 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400001",
+    "collectible_item_name": "Лощина белых ночей — Котловина мертвой луны",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "По одной из теорий, отверстия, которыми испещрен этот горный хребет, — дело рук Творцов. Однако достоверной информации насчет их происхождения нет.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size4",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400004",
+    "collectible_item_name": "Место перехвата в Бездне",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Бездна — пространство-время, отрицающее логику. Потомки отправляются в Бездну на перехват Колоссов, прежде чем те прибудут на Ингрис.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400005",
+    "collectible_item_name": "Бассейн «Парадиз»",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Бассейн «Парадиз» появился в Альбионе в эпизоде 2 сезона 2. Инструктор Потомков работает там барменом.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400006",
+    "collectible_item_name": "Зловещий сад",
+    "collectible_item_description": "[Временный предмет]Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Сад, разбитый в честь Хэллоуина-2025.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400007",
+    "collectible_item_name": "Зимний фестиваль Альбиона",
+    "collectible_item_description": "[Временный предмет] Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Этот сад в Альбионе был украшен в честь сезона Зимнего фестиваля 2025 года. Где-то тут до сих пор можно увидеть Потомка, одетого в костюм снеговика.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266400008",
+    "collectible_item_name": "Концерт группы Crescent",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Концертная сцена для группы Crescent, которые навеки останутся с Луной.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size4",
+    "collect_type": "Diorama",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500001",
+    "collectible_item_name": "Рисует",
+    "collectible_item_description": "Движение, выполняемое Потомком в комнате отдыха.",
+    "collectible_item_narrative": "Чтобы очистить голову от незваных мыслей, Потомок может отпустить воображение на волю и отобразить свой внутренний мир на холсте.\n\nНа холсте могут отображаться имеющиеся в наличии граффити.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500002",
+    "collectible_item_name": "Исполняет ＜Каприс № 24＞ Паганини",
+    "collectible_item_description": "Движение, выполняемое Потомком в комнате отдыха.",
+    "collectible_item_narrative": "Чтобы очистить голову от незваных мыслей, Потомок исполняет на скрипке произведение Паганини.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500003",
+    "collectible_item_name": "Исполняет ＜Salut d'Amour＞ Элгара",
+    "collectible_item_description": "Движение, выполняемое Потомком в комнате отдыха.",
+    "collectible_item_narrative": "Чтобы очистить голову от незваных мыслей, Потомок исполняет на скрипке произведение Элгара.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500004",
+    "collectible_item_name": "Исполняет ＜Третью часть концерта для скрипки с оркестром＞ Чайковского",
+    "collectible_item_description": "Движение, выполняемое Потомком в комнате отдыха.",
+    "collectible_item_narrative": "Чтобы очистить голову от незваных мыслей, Потомок исполняет на скрипке произведение Чайковского.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500005",
+    "collectible_item_name": "Читает",
+    "collectible_item_description": "Движение, выполняемое Потомком в комнате отдыха.",
+    "collectible_item_narrative": "Чтобы очистить голову от незваных мыслей, Потомок читает образовательную литературу.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500006",
+    "collectible_item_name": "Кубик",
+    "collectible_item_description": "Движение, выполняемое Потомком в комнате отдыха.",
+    "collectible_item_narrative": "Потомок пытается улучшить свои когнитивные способности, в том числе концентрацию, умение решать задачи и память. Или просто убивает время.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500007",
+    "collectible_item_name": "Перерыв на чай",
+    "collectible_item_description": "Движение, выполняемое Потомком в комнате отдыха.",
+    "collectible_item_narrative": "Потомку иногда нужно отдохнуть с чашечкой чая — и перед операцией, и после.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500009",
+    "collectible_item_name": "На своей волне",
+    "collectible_item_description": "Движение, выполняемое Потомком в комнате отдыха.",
+    "collectible_item_narrative": "Потомок думает о чем-то своем.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500010",
+    "collectible_item_name": "Веселый душ",
+    "collectible_item_description": "Движение, выполняемое Потомком в комнате отдыха.",
+    "collectible_item_narrative": "Потомок принимает душ в отличном расположении духа.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500011",
+    "collectible_item_name": "Освежающий душ",
+    "collectible_item_description": "Движение, выполняемое Потомком в комнате отдыха.",
+    "collectible_item_narrative": "Потомок принимает освежающий душ.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500012",
+    "collectible_item_name": "Приятный душ",
+    "collectible_item_description": "Движение, выполняемое Потомком в комнате отдыха.",
+    "collectible_item_narrative": "Потомок принимает душ, чтобы избавиться от усталости.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500013",
+    "collectible_item_name": "Дремлет",
+    "collectible_item_description": "Движение, выполняемое Потомком в комнате отдыха.",
+    "collectible_item_narrative": "Притомившись, Потомок решает вздремнуть.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500014",
+    "collectible_item_name": "Маникюр и педикюр",
+    "collectible_item_description": "Движение, выполняемое Потомком в комнате отдыха.",
+    "collectible_item_narrative": "Потомок решает использовать свободное время для ухода за собой.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500018",
+    "collectible_item_name": "Бой с тенью",
+    "collectible_item_description": "Движение, выполняемое Потомком в комнате отдыха.",
+    "collectible_item_narrative": "Так поступает Потомок в отсутствие Советницы.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266500019",
+    "collectible_item_name": "Упражнения на пресс",
+    "collectible_item_description": "Движение, выполняемое Потомком в комнате отдыха.",
+    "collectible_item_narrative": "Потомок качает пресс, чтобы повысить силу мышц.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "PoseMotion",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600001",
+    "collectible_item_name": "Стандартный внешний вид Советницы",
+    "collectible_item_description": "Это внешний вид, заданный по умолчанию для Советницы в комнате отдыха.",
+    "collectible_item_narrative": "Это визуальная конфигурация по умолчанию для Советницы при общении с Потомками.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600002",
+    "collectible_item_name": "Реконфигурация данных",
+    "collectible_item_description": "Это обновленный внешний вид Советницы в комнате отдыха.",
+    "collectible_item_narrative": "Внешний вид Советницы был переработан в соответствии со стилем одежды современного Альбиона. Хотя Советница может принимать для общения разные обличья, она, по-видимому, не испытывает особой потребности в смене внешнего вида.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266600003",
+    "collectible_item_name": "Советница в комнате отдыха",
+    "collectible_item_description": "Это обновленный внешний вид Советницы в комнате отдыха.",
+    "collectible_item_narrative": "Внешний вид Советницы, переделанный в нечто более удобное, чтобы Потомки могли спокойно отдыхать. Выглядит не слишком удобно, но для Советницы это, похоже, не такая уж большая проблема.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": null,
+    "collect_type": "GuideVisual",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100004",
+    "collectible_item_name": "Простой подарок",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Подарок, который можно вручить по поводу какого-нибудь праздника. Чего-то в нем не хватает.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100005",
+    "collectible_item_name": "Щедрый подарок",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Подарок, который можно вручить по поводу какого-нибудь праздника. Коробок здесь так много, что одно удовольствие смотреть. Но остается один важный вопрос: какая из них самая большая?",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100006",
+    "collectible_item_name": "Открытый подарок",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Подарок, который можно вручить по поводу какого-нибудь праздника. Анаис прислала его Блэру в честь завершения изучения экипировки Предков.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100007",
+    "collectible_item_name": "Запечатанный подарок на память",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Подарок на память от родителей Банни. Внутри лежит предмет, который они ей оставили.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100008",
+    "collectible_item_name": "Открытый подарок на память",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Подарок на память от родителей Банни. Банни смотрит на плюшевого мишку и пытается понять, какие чувства переживали ее родители.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100009",
+    "collectible_item_name": "Гвоздики и подарок на память",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Подарок на память от родителей Банни. Банни положила сверху несколько гвоздик, вспоминая о проведенном с родителями детстве.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100013",
+    "collectible_item_name": "Неряшливый чемодан",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Чемодан отправляющегося в отпуск Потомка. Упакован абы как и выглядит крайне неряшливо.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100014",
+    "collectible_item_name": "Обычный чемодан",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Чемодан отправляющегося в отпуск Потомка. Просто самый что ни на есть обычный чемодан.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100015",
+    "collectible_item_name": "Украшенный чемодан",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Чемодан отправляющегося в отпуск Потомка. Украшен и полностью готов к путешествию.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100016",
+    "collectible_item_name": "Базовая семья снеговиков",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Семья снеговиков, посещающая Альбион во время праздников. Чего-то здесь не хватает.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100017",
+    "collectible_item_name": "Радостная семья снеговиков",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Семья снеговиков, посещающая Альбион во время праздников. Теперь они научились улыбаться.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100018",
+    "collectible_item_name": "Счастливая семья снеговиков",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Семья снеговиков, посещающая Альбион во время праздников. Они рады приехать в гости на праздники.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100019",
+    "collectible_item_name": "Деревянный гроб",
+    "collectible_item_description": "[Временный предмет]Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Гроб вампира. Судя по виду, принадлежал обедневшему дворянину.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100020",
+    "collectible_item_name": "Железный гроб",
+    "collectible_item_description": "[Временный предмет]Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Гроб вампира. Судя по виду, мог принадлежать дворянину из древнего и почтенного рода.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100021",
+    "collectible_item_name": "Позолоченный гроб",
+    "collectible_item_description": "[Временный предмет]Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Гроб вампира. Определенно принадлежал высокопоставленному дворянину.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100022",
+    "collectible_item_name": "Базовое праздничное дерево",
+    "collectible_item_description": "[Временный предмет] Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Дерево, которое ставят на праздники. Чего-то в нем не хватает.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100023",
+    "collectible_item_name": "Простое праздничное дерево",
+    "collectible_item_description": "[Временный предмет] Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Дерево, которое ставят на праздники. Такого для праздника будет вполне достаточно, но чего-то все же не хватает.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100024",
+    "collectible_item_name": "Роскошное праздничное дерево",
+    "collectible_item_description": "[Временный предмет] Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Дерево, которое ставят на праздники. Смотреть на него — одно удовольствие.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100025",
+    "collectible_item_name": "Базовый террариум",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Зараженная Бездной почва в этом террариуме прошла обработку с помощью альбионских инженерных технологий. Посаженные семена еще не проклюнулись.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100026",
+    "collectible_item_name": "Простой террариум",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Зараженная Бездной почва в этом террариуме прошла обработку с помощью альбионских инженерных технологий. Похоже, растения не ограничатся одними бутонами.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100027",
+    "collectible_item_name": "Роскошный террариум",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Зараженная Бездной почва в этом террариуме прошла обработку с помощью альбионских инженерных технологий. Альбионские полевые цветы полностью распустились, давая начало новой жизни.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100028",
+    "collectible_item_name": "Базовая тактическая бронированная машина",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Тактическая бронированная машина, необходимая для увеличения дальности перемещения Потомков. Чего-то в ней не хватает.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100029",
+    "collectible_item_name": "Незаконченная тактическая бронированная машина",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Тактическая бронированная машина, необходимая для увеличения дальности перемещения Потомков. Ее назначение может разниться в зависимости от того, какие детали на нее установлены.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100030",
+    "collectible_item_name": "Законченная тактическая бронированная машина",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Тактическая бронированная машина, необходимая для увеличения дальности перемещения Потомков. Оснащена зенитными пушками для борьбы с Колоссами на случай неудачного перехвата.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100031",
+    "collectible_item_name": "Недавно начатый пазл Банни",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "На этом пазле запечатлен ряд классных моментов с Банни. Тут и там остались незавершенные фрагменты.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100032",
+    "collectible_item_name": "Почти завершенный пазл Банни",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "На этом пазле запечатлен ряд классных моментов с Банни. Еще несколько фрагментов — и он будет готов.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100033",
+    "collectible_item_name": "Завершенный пазл Банни",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "На этом пазле запечатлен ряд классных моментов с Банни. У каждого фаната Банни должен быть такой.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100034",
+    "collectible_item_name": "Базовый импровизированный цветочный горшок",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Результат тестирования почвы для сельскохозяйственных нужд, проведенного солдатами из Кингстона. В качестве цветочных горшков использовались ящики из-под боеприпасов. Чего-то здесь определенно не хватает.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100035",
+    "collectible_item_name": "Простой импровизированный цветочный горшок",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Результат тестирования почвы для сельскохозяйственных нужд, проведенного солдатами из Кингстона. В качестве цветочных горшков использовались ящики из-под боеприпасов. Из земли показались ароматные травы, но им еще расти и расти.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100036",
+    "collectible_item_name": "Роскошный импровизированный цветочный горшок",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Результат тестирования почвы для сельскохозяйственных нужд, проведенного солдатами из Кингстона. В качестве цветочных горшков использовались ящики из-под боеприпасов. Благодаря усилиям солдат почва отличается исключительным плодородием, и травы пышно разрослись.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100037",
+    "collectible_item_name": "Базовый набор складных ширм",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Набор складных ширм с симпатичными иллюстрациями. Чего-то здесь не хватает.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100038",
+    "collectible_item_name": "Простой набор складных ширм",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Набор складных ширм с симпатичными иллюстрациями. Еще немного, и он будет полным.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100039",
+    "collectible_item_name": "Роскошный набор складных ширм",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Набор складных ширм с симпатичными иллюстрациями. Фонари привносят финальный штрих в создаваемую атмосферу.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100043",
+    "collectible_item_name": "Базовый набор фарфоровой посуды",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Набор фарфоровой посуды из Альбиона, места встречи и переплетения множества разных культур. Чего-то в нем не хватает.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100044",
+    "collectible_item_name": "Обычный набор фарфоровой посуды",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Набор фарфоровой посуды из Альбиона, места встречи и переплетения множества разных культур. Еще немного — и он будет полностью готов.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100045",
+    "collectible_item_name": "Роскошный набор фарфоровой посуды",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Набор фарфоровой посуды из Альбиона, места встречи и переплетения множества разных культур. Поверхность фарфора покрыта дорогим пигментом голубого оттенка, что придает ему изысканный старинный вид.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100046",
+    "collectible_item_name": "Базовый набор фонарей",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Набор фонарей, призванный сделать атмосферу в комнате отдыха более уютной. Чего-то в нем не хватает.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100047",
+    "collectible_item_name": "Обычный набор фонарей",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Набор фонарей, призванный сделать атмосферу в комнате отдыха более уютной. Еще несколько деталей — и он будет готов.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100048",
+    "collectible_item_name": "Роскошный набор фонарей",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Набор фонарей, призванный сделать атмосферу в комнате отдыха более уютной. Комбинация из трех разных цветов, особенно хорошо смотрящихся вместе.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100049",
+    "collectible_item_name": "Неотделанный шезлонг",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Комплект с шезлонгом, сделан по образцу тех, что используют в бассейне «Парадиз».",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100050",
+    "collectible_item_name": "Простой шезлонг",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Комплект с шезлонгом, сделан по образцу тех, что используют в бассейне «Парадиз». Еще несколько деталей, и он будет готов.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100051",
+    "collectible_item_name": "Роскошный шезлонг",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Комплект с шезлонгом, сделан по образцу тех, что используют в бассейне «Парадиз». Идеально подходит для жаркого солнечного дня.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100052",
+    "collectible_item_name": "Тактический протез руки MK.2",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Протез руки Лепика, оснащенный Арха-приводом. Ранняя версия, едва пригодная для повседневного использования.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100053",
+    "collectible_item_name": "Тактический протез руки MK.7",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Протез руки Лепика, оснащенный Арха-приводом. Все та же ранняя версия с усиленным экзоскелетом. По-прежнему не очень подходит для оптимизации способностей Архи.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100054",
+    "collectible_item_name": "Тактический протез руки MK.10",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Протез руки Лепика, оснащенный Арха-приводом. Позволяет Лепику пропитывать своей взрывной Архой гранаты и боеприпасы. Ракетницей не оснащен.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100055",
+    "collectible_item_name": "Базовый демонстрационный стенд с аксессуарами Потомков",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Демонстрационный стенд для копий аксессуаров, которые носят Потомки-женщины. Предназначен для обучения кадетов военной академии Альбиона. Чего-то здесь не хватает.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100056",
+    "collectible_item_name": "Простой демонстрационный стенд с аксессуарами Потомков",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Демонстрационный стенд для копий аксессуаров, которые носят Потомки-женщины. Предназначен для обучения кадетов военной академии Альбиона. Может служить неплохим учебным пособием, но чего-то все равно не хватает.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100057",
+    "collectible_item_name": "Роскошный демонстрационный стенд с аксессуарами Потомков",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Демонстрационный стенд для копий аксессуаров, которые носят Потомки-женщины. Предназначен для обучения кадетов военной академии Альбиона. Пользуется такой популярностью, что среди девушек-кадетов процент желающих стать Потомками резко вырос — аж до 65%.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100058",
+    "collectible_item_name": "Базовая голова Мародера",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Голова валгуса, который некогда заставил Шарен вспомнить о том, что ей довелось пережить. Отомстив, она оставила себе ее на память. Голова сейчас в хорошем состоянии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100059",
+    "collectible_item_name": "Голова Мародера в процессе отмщения",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Голова валгуса, который некогда заставил Шарен вспомнить о том, что ей довелось пережить. Отомстив, она оставила себе ее на память. Похоже, Шарен до сих пор на него злится, потому что на голове видны отметины от ее меча.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100060",
+    "collectible_item_name": "Голова Мародера после свершенной мести",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Голова валгуса, который некогда заставил Шарен вспомнить о том, что ей довелось пережить. Отомстив, она оставила себе ее на память и теперь использует в качестве подставки для меча.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100061",
+    "collectible_item_name": "Кусок пистолетного торта",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Уникальный торт в форме пистолетов, испеченный Блэром для поднятия боевого духа личного состава. Может быть, по нему этого и не скажешь, но Блэр — опытный повар, который с равным энтузиазмом и тестирует оружие на врагах, и печет торты в форме особо полюбившихся ему моделей. Пока что готова только часть торта в форме «Красного Волка».",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100062",
+    "collectible_item_name": "Половина пистолетного торта",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Уникальный торт в форме пистолетов, испеченный Блэром для поднятия боевого духа. Может быть, по нему этого и не скажешь, но Блэр — опытный повар, который с равным энтузиазмом и тестирует оружие на врагах, и печет торты в форме особо полюбившихся ему моделей. Пока что готовы только части торта в форме «Красного Волка» и «Нового начала».",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100063",
+    "collectible_item_name": "Готовый пистолетный торт",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Уникальный торт в форме пистолетов, испеченный Блэром для поднятия боевого духа. Может быть, по нему этого и не скажешь, но Блэр — опытный повар, который с равным энтузиазмом и тестирует оружие на врагах, и печет торты в форме особо полюбившихся ему моделей. Наконец-то торт полностью готов: теперь в нем есть части в форме «Красного Волка», «Нового начала» и «Тысячелетнего мороза».",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100064",
+    "collectible_item_name": "Пустой аквариум из шлема",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Валби любит использовать старые ненужные шлемы в качестве аквариумов. В этом пока нет ничего, кроме грунта и воды.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100065",
+    "collectible_item_name": "Обычный аквариум из шлема",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Валби любит использовать старые ненужные шлемы в качестве аквариумов. Она посадила в нем водоросли, так что теперь только осталось добавить рыбок.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100066",
+    "collectible_item_name": "Роскошный аквариум из шлема",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Валби любит использовать старые ненужные шлемы в качестве аквариумов. Иногда она сама обращается в воду и смотрит изнутри, как в аквариуме плавают рыбки.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100067",
+    "collectible_item_name": "Базовый стенд с масками",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Демонстрационный стенд для копий масок, которые носят Потомки. Предназначен для обучения кадетов военной академии Альбиона. Чего-то здесь не хватает.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100068",
+    "collectible_item_name": "Простой стенд с масками",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Демонстрационный стенд для копий масок, которые носят Потомки. Предназначен для обучения кадетов военной академии Альбиона. Может служить неплохим учебным пособием, но чего-то все равно не хватает.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100069",
+    "collectible_item_name": "Роскошный стенд с масками",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Демонстрационный стенд для копий масок, которые носят Потомки. Предназначен для обучения кадетов военной академии Альбиона. Согласно проведенным среди кадетов опросам, на вопрос «Будете ли вы носить маску, если станете Потомком?» 60% опрошенных ответили «точно да».",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100070",
+    "collectible_item_name": "Обычная стойка для наушников",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Стойка для наушников, которой пользуется Луна. В отличие от Луны, ничем особо не примечательна.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100071",
+    "collectible_item_name": "Уникальная стойка для наушников",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Стойка для наушников, которой пользуется Луна. Вкусы у Луны, что вполне ожидаемо, уникальные.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100072",
+    "collectible_item_name": "Бесподобная стойка для наушников",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Стойка для наушников, которой пользуется Луна. Как и следовало ожидать, у Луны отдельные стойки для наушников с разным дизайном.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100073",
+    "collectible_item_name": "Пустой стенд для прицелов",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Хейли поклялась, что будет добавлять на этот стенд прицелы только для того оружия, которое она в полной мере освоила. Когда она состояла в 33-м снайперском отряде, стенд был пуст.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100074",
+    "collectible_item_name": "Простой стенд для прицелов",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Хейли поклялась, что будет добавлять на этот стенд прицелы только для того оружия, которое она в полной мере освоила. Став Потомком, она добавила на стенд прицелы для своего уникального оружия.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100075",
+    "collectible_item_name": "Роскошный стенд для прицелов",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Хейли поклялась, что будет добавлять на этот стенд прицелы только для того оружия, которое она в полной мере освоила. Теперь она добавила на него прицелы не только для своего уникального оружия, но также для «Призрачного луча» и «Пронзающего света».",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100076",
+    "collectible_item_name": "Базовая стойка для очков",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Подставка для очков Глей, которая на удивление большая любительница гламурного стиля. По большей части здесь пусто.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100077",
+    "collectible_item_name": "Обычная стойка для очков",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Подставка для очков Глей, которая на удивление большая любительница гламурного стиля. Половина мест пустует.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100078",
+    "collectible_item_name": "Роскошная стойка для очков",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Подставка для очков Глей, которая на удивление большая любительница гламурного стиля. Каждая пара очков здесь подобрана с умом.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100079",
+    "collectible_item_name": "Экзорцистка MK.1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Светоизлучающий боевой костюм Серены, созданный на базе технологии Магистров прошлого. Версия MK.1 оснащена системой соединения с Архой Потомка, но крыльев у нее пока нет.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100080",
+    "collectible_item_name": "Экзорцистка MK.2",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Светоизлучающий боевой костюм Серены, созданный на базе технологии Магистров прошлого. В версии MK.2 уже есть крылья, но механизм их развертывания еще только предстоит протестировать.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100081",
+    "collectible_item_name": "Экзорцистка MK.2, версия для боевого применения",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Светоизлучающий боевой костюм Серены, созданный на базе технологии Магистров прошлого. Версия MK.2 оснащена крыльями и идеально работающим механизмом их развертывания.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100085",
+    "collectible_item_name": "Незамысловатая лампа для отпугивания злых духов",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Лампа, призванная отгонять злых духов. Пока что смотрится недостаточно основательной, чтобы действительно кого-то отпугивать.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100086",
+    "collectible_item_name": "Обычная лампа для отпугивания злых духов",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Лампа, призванная отгонять злых духов. Внутрь помещены сделанные по рецепту Блэра свечи с травяными экстрактами. Но выглядит по-прежнему не очень впечатляюще.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100087",
+    "collectible_item_name": "Полноценная лампа для отпугивания злых духов",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Лампа, призванная отгонять злых духов. Усилена печеньками «Ингр» и сделанными Блэром свечами с травяными экстрактами. Теперь злые силы точно не решатся приблизиться.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100088",
+    "collectible_item_name": "Базовый командный пульт",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Командный пульт, используемый в альбионском центре управления. Его функционала недостаточно для полноценного руководства операциями.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100089",
+    "collectible_item_name": "Обычный командный пульт",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Командный пульт, используемый в альбионском центре управления. Справляется с базовыми командами, однако не годится для полноценного использования в операциях, когда на кону жизни Потомков.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100090",
+    "collectible_item_name": "Полноценный командный пульт",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Командный пульт, используемый в альбионском центре управления. Его функционала более чем достаточно для использования в операциях, когда на кону жизни Потомков.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100091",
+    "collectible_item_name": "Пустая бутылка из-под 99-летнего «Альбиона»",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Этот памятный спиртной напиток залили в дубовые бочки через год после основания Альбиона, и он созревал там 99 лет. Естественно, это стало возможно благодаря технологии Магистров. Хотя бы кто-то должен признать ее ценность.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100092",
+    "collectible_item_name": "Полная на треть бутылка 99-летнего «Альбиона»",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Этот памятный спиртной напиток залили в дубовые бочки через год после основания Альбиона, и он созревал там 99 лет. Естественно, это стало возможно благодаря технологии Магистров. Одна только бутылка считается раритетом.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100093",
+    "collectible_item_name": "Полная бутылка 99-летнего «Альбиона»",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Этот памятный спиртной напиток залили в дубовые бочки через год после основания Альбиона, и он созревал там 99 лет. Естественно, это стало возможно благодаря технологии Магистров. Прославленное наследие Альбиона ощущается в каждой капле.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266100094",
+    "collectible_item_name": "Пустая бутылка из-под семилетнего «Альбиона»",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Самый популярный предмет для фронтовиков. Такую бутылку с крепким спиртным напитком вручают в качестве награды. А еще это очередная попытка солдат Кингстона отблагодарить Блэра. Но конкретно эта бутылка пуста.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100095",
+    "collectible_item_name": "Остатки семилетнего «Альбиона»",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Самый популярный предмет для фронтовиков. Такую бутылку с крепким спиртным напитком вручают в качестве награды. А еще это очередная попытка солдат Кингстона отблагодарить Блэра. Похоже, у того, кто это пил, не получилось опустошить бутылку с одного раза.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266100096",
+    "collectible_item_name": "Полная бутылка семилетнего «Альбиона»",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Самый популярный предмет для фронтовиков. Такую бутылку с крепким спиртным напитком вручают в качестве награды. А еще это очередная попытка солдат Кингстона отблагодарить Блэра. По обычаю тот, кто получил полную бутылку, в этот день угощает всех.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Artifact",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266200001",
+    "collectible_item_name": "Трофей поощрения: Перехват в Бездне",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "В знак признательности за ваше непоколебимое чувство долга и преданность делу безопасности\nвы награждаетесь за успешное завершение\nзадания по перехвату\n\n-Командующий операциями-",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266200002",
+    "collectible_item_name": "Трофей превосходства: Перехват в Бездне",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "В знак признательности за отличную боевую выучку и чувство ответственности\nвы награждаетесь за превосходное завершение\nзадания по перехвату\n\n-Командующий операциями-",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266200003",
+    "collectible_item_name": "Трофей выдающегося достижения: Перехват в Бездне",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "В знак признательности за неукротимый дух и оперативный опыт\nвы награждаетесь за выдающееся завершение\nзадания по перехвату\n\n-Командующий операциями-",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Trophy",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300001",
+    "collectible_item_name": "Лепик (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300002",
+    "collectible_item_name": "Лепик (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300003",
+    "collectible_item_name": "Лепик (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300004",
+    "collectible_item_name": "Аякс (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300005",
+    "collectible_item_name": "Аякс (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300006",
+    "collectible_item_name": "Аякс (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300007",
+    "collectible_item_name": "Вьесса (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300008",
+    "collectible_item_name": "Вьесса (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300009",
+    "collectible_item_name": "Вьесса (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300010",
+    "collectible_item_name": "Банни (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300011",
+    "collectible_item_name": "Банни (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300012",
+    "collectible_item_name": "Банни (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300013",
+    "collectible_item_name": "Джейбер (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300014",
+    "collectible_item_name": "Джейбер (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300015",
+    "collectible_item_name": "Джейбер (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300016",
+    "collectible_item_name": "Фрейна (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300017",
+    "collectible_item_name": "Фрейна (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300018",
+    "collectible_item_name": "Фрейна (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300019",
+    "collectible_item_name": "Глей (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300020",
+    "collectible_item_name": "Глей (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300021",
+    "collectible_item_name": "Глей (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300022",
+    "collectible_item_name": "Шарен (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300023",
+    "collectible_item_name": "Шарен (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300024",
+    "collectible_item_name": "Шарен (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300025",
+    "collectible_item_name": "Блэр (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300026",
+    "collectible_item_name": "Блэр (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300027",
+    "collectible_item_name": "Блэр (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300028",
+    "collectible_item_name": "Валби (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300029",
+    "collectible_item_name": "Валби (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300030",
+    "collectible_item_name": "Валби (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300031",
+    "collectible_item_name": "Кайл (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300032",
+    "collectible_item_name": "Кайл (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300033",
+    "collectible_item_name": "Кайл (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300034",
+    "collectible_item_name": "Эсьемо (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300035",
+    "collectible_item_name": "Эсьемо (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300036",
+    "collectible_item_name": "Эсьемо (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300037",
+    "collectible_item_name": "Энцо (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300038",
+    "collectible_item_name": "Энцо (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300039",
+    "collectible_item_name": "Энцо (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300040",
+    "collectible_item_name": "Юджин (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300041",
+    "collectible_item_name": "Юджин (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300042",
+    "collectible_item_name": "Юджин (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300043",
+    "collectible_item_name": "Луна (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300044",
+    "collectible_item_name": "Луна (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300045",
+    "collectible_item_name": "Луна (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300046",
+    "collectible_item_name": "Хейли (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300047",
+    "collectible_item_name": "Хейли (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300048",
+    "collectible_item_name": "Хейли (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300049",
+    "collectible_item_name": "Килан (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300050",
+    "collectible_item_name": "Килан (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300051",
+    "collectible_item_name": "Килан (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300052",
+    "collectible_item_name": "Инес (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300053",
+    "collectible_item_name": "Инес (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300054",
+    "collectible_item_name": "Инес (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300055",
+    "collectible_item_name": "Серена (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300056",
+    "collectible_item_name": "Серена (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300057",
+    "collectible_item_name": "Серена (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300058",
+    "collectible_item_name": "Нелл (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300059",
+    "collectible_item_name": "Нелл (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300060",
+    "collectible_item_name": "Нелл (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300062",
+    "collectible_item_name": "Вьесса (мал.) — Парадиз 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300065",
+    "collectible_item_name": "Банни (мал.) — Парадиз 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300068",
+    "collectible_item_name": "Фрейна (мал.) — Парадиз 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300071",
+    "collectible_item_name": "Глей (мал.) — Парадиз 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300074",
+    "collectible_item_name": "Шарен (мал.) — Парадиз 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300077",
+    "collectible_item_name": "Валби (мал.) — Парадиз 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300080",
+    "collectible_item_name": "Луна (мал.) — Парадиз 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300083",
+    "collectible_item_name": "Хейли (мал.) — Парадиз 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300086",
+    "collectible_item_name": "Инес (мал.) — Парадиз 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300089",
+    "collectible_item_name": "Серена (мал.) — Парадиз 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300091",
+    "collectible_item_name": "Советница (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300092",
+    "collectible_item_name": "Советница (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300093",
+    "collectible_item_name": "Советница (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300094",
+    "collectible_item_name": "Джереми (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300095",
+    "collectible_item_name": "Джереми (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300096",
+    "collectible_item_name": "Джереми (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300097",
+    "collectible_item_name": "Агиосская овчарка (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300098",
+    "collectible_item_name": "Агиосская овчарка (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300099",
+    "collectible_item_name": "Агиосская овчарка (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300100",
+    "collectible_item_name": "Охотничий пес Сумеречья (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300101",
+    "collectible_item_name": "Охотничий пес Сумеречья (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300102",
+    "collectible_item_name": "Охотничий пес Сумеречья (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300103",
+    "collectible_item_name": "Снежная ездовая собака (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300104",
+    "collectible_item_name": "Снежная ездовая собака (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300105",
+    "collectible_item_name": "Снежная ездовая собака (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300106",
+    "collectible_item_name": "Карел: генерал Легиона тьмы (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300107",
+    "collectible_item_name": "Карел: генерал Легиона тьмы (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300108",
+    "collectible_item_name": "Карел: генерал Легиона тьмы (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300109",
+    "collectible_item_name": "Псевдо: командир Легиона бессмертных (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300110",
+    "collectible_item_name": "Псевдо: командир Легиона бессмертных (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300111",
+    "collectible_item_name": "Псевдо: командир Легиона бессмертных (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300112",
+    "collectible_item_name": "Солдат-расходник: Легион тьмы (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300113",
+    "collectible_item_name": "Солдат-расходник: Легион тьмы (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300114",
+    "collectible_item_name": "Солдат-расходник: Легион тьмы (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300115",
+    "collectible_item_name": "Поджигатель: Орден истины (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300116",
+    "collectible_item_name": "Поджигатель: Орден истины (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300117",
+    "collectible_item_name": "Поджигатель: Орден истины (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300118",
+    "collectible_item_name": "Трехглазый: Легион бессмертных (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300119",
+    "collectible_item_name": "Трехглазый: Легион бессмертных (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300120",
+    "collectible_item_name": "Трехглазый: Легион бессмертных (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300122",
+    "collectible_item_name": "Банни (средн.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300124",
+    "collectible_item_name": "Могильный страж (средн.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300125",
+    "collectible_item_name": "Могильный страж (средн.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300126",
+    "collectible_item_name": "Могильный страж (средн.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300128",
+    "collectible_item_name": "Палач (средн.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300131",
+    "collectible_item_name": "Мертвая невеста (средн.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300133",
+    "collectible_item_name": "Банни (мал.) — Хэллоуин 1",
+    "collectible_item_description": "[Временный предмет]Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300134",
+    "collectible_item_name": "Глей (мал.) — Хэллоуин 1",
+    "collectible_item_description": "[Временный предмет]Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300135",
+    "collectible_item_name": "Шарен (мал.) — Хэллоуин 1",
+    "collectible_item_description": "[Временный предмет]Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300136",
+    "collectible_item_name": "Хейли (мал.) — Хэллоуин 1",
+    "collectible_item_description": "[Временный предмет]Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300137",
+    "collectible_item_name": "Инес (мал.) — Хэллоуин 1",
+    "collectible_item_description": "[Временный предмет]Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300138",
+    "collectible_item_name": "Серена (мал.) — Хэллоуин 1",
+    "collectible_item_description": "[Временный предмет]Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300139",
+    "collectible_item_name": "Нелл (мал.) — Хэллоуин 1",
+    "collectible_item_description": "[Временный предмет]Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300140",
+    "collectible_item_name": "Эсьемо (мал.) — Хэллоуин 1",
+    "collectible_item_description": "[Временный предмет]Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300141",
+    "collectible_item_name": "Юджин (мал.) — Рыцари Альбиона 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300142",
+    "collectible_item_name": "Харрис (мал.) — Рыцари Альбиона 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300143",
+    "collectible_item_name": "Вьесса (мал.) — Зимний фестиваль 1",
+    "collectible_item_description": "[Временный предмет] Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300144",
+    "collectible_item_name": "Глей (мал.) — Зимний фестиваль 1",
+    "collectible_item_description": "[Временный предмет] Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300145",
+    "collectible_item_name": "Фрейна (мал.) — Зимний фестиваль 1",
+    "collectible_item_description": "[Временный предмет] Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300147",
+    "collectible_item_name": "Серена (мал.) — Зимний фестиваль 1",
+    "collectible_item_description": "[Временный предмет] Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300148",
+    "collectible_item_name": "Джейбер (мал.) — Зимний фестиваль 1",
+    "collectible_item_description": "[Временный предмет] Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300149",
+    "collectible_item_name": "Вьесса (мал.) — Айдол 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300150",
+    "collectible_item_name": "Банни (мал.) — Айдол 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300151",
+    "collectible_item_name": "Фрейна (мал.) — Айдол 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300152",
+    "collectible_item_name": "Глей (мал.) — Айдол 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300153",
+    "collectible_item_name": "Шарен (мал.) — Айдол 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300154",
+    "collectible_item_name": "Валби (мал.) — Айдол 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300155",
+    "collectible_item_name": "Луна (мал.) — Айдол 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300156",
+    "collectible_item_name": "Хейли (мал.) — Айдол 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300157",
+    "collectible_item_name": "Инес (мал.) — Айдол 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300158",
+    "collectible_item_name": "Серена (мал.) — Айдол 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300159",
+    "collectible_item_name": "Нелл (мал.) — Айдол 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300160",
+    "collectible_item_name": "Харрис (мал.) — Айдол 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300161",
+    "collectible_item_name": "Луна (средн.) — Сцена в лучах лунного света 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size3",
+    "collect_type": "Figure",
+    "decomposition_flag": "0",
+    "decomposition_reward": null
+  },
+  {
+    "collectible_item_id": "266300162",
+    "collectible_item_name": "Харрис (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300163",
+    "collectible_item_name": "Харрис (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300164",
+    "collectible_item_name": "Харрис (мал.) — Классика 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300165",
+    "collectible_item_name": "Лепик (мал.) — Навык 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300166",
+    "collectible_item_name": "Лепик (мал.) — Навык 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300167",
+    "collectible_item_name": "Лепик (мал.) — Навык 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300168",
+    "collectible_item_name": "Аякс (мал.) — Навык 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300169",
+    "collectible_item_name": "Аякс (мал.) — Навык 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300170",
+    "collectible_item_name": "Аякс (мал.) — Навык 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка из чистого золота. Изготовлена по специальному заказу штаба в ознаменование тяжкого труда Потомков, бьющихся с врагом на поле боя.",
+    "collectible_item_tier_id": "Tier3",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300171",
+    "collectible_item_name": "Вьесса (мал.) — Навык 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, окрашенная с использованием минимально возможного количества красок (из-за перебоев с поставками пигментов). Этих фигурок всегда в избытке, потому что преподаватели часто используют их для наглядности при обучении гражданских и кадетов военной академии.",
+    "collectible_item_tier_id": "Tier1",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "collectible_item_id": "266300172",
+    "collectible_item_name": "Вьесса (мал.) — Навык 1",
+    "collectible_item_description": "Коллекционный предмет, который можно разместить в комнате отдыха.",
+    "collectible_item_narrative": "Фигурка, выглядящая в точности как оригинал. Поскольку она используется для обучения кадетов военной академии, реализму уделялось особое внимание.",
+    "collectible_item_tier_id": "Tier2",
+    "collectible_item_lounge_size": "Size2",
+    "collect_type": "Figure",
+    "decomposition_flag": "1",
+    "decomposition_reward": [
+      {
+        "item_id": "263080002",
+        "item_type": "consumable_material_id",
+        "count": 25
+      }
+    ]
+  }
+]

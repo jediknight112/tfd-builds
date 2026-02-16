@@ -1,0 +1,773 @@
+[
+  {
+    "vehicle_id": "107300001",
+    "vehicle_name": "グライド-4",
+    "vehicle_description": "基本型ホバーバイク「グライド-4」",
+    "vehicle_tier_id": "Tier1",
+    "image_url": "https://open.api.nexon.com/static/tfd/img/798b692523171dffbf0b0f8b0a841af4",
+    "stat_effect": [
+      {
+        "stat_id": "105000233",
+        "stat_value": 3000.0
+      },
+      {
+        "stat_id": "105000234",
+        "stat_value": 0.25
+      },
+      {
+        "stat_id": "105000235",
+        "stat_value": 0.25
+      },
+      {
+        "stat_id": "105000236",
+        "stat_value": 190.0
+      },
+      {
+        "stat_id": "105000237",
+        "stat_value": 150.0
+      },
+      {
+        "stat_id": "105000239",
+        "stat_value": 0.1
+      },
+      {
+        "stat_id": "105000240",
+        "stat_value": 20.0
+      },
+      {
+        "stat_id": "105000241",
+        "stat_value": 2.0
+      },
+      {
+        "stat_id": "105000278",
+        "stat_value": 100.0
+      }
+    ],
+    "stat_effect_per_level": [
+      {
+        "vehicle_level": 1,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 1700.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 1800.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 2000.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 700.0
+          }
+        ]
+      },
+      {
+        "vehicle_level": 2,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 1730.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 1820.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 2030.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 725.0
+          }
+        ]
+      },
+      {
+        "vehicle_level": 3,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 1760.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 1840.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 2060.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 750.0
+          }
+        ]
+      },
+      {
+        "vehicle_level": 4,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 1790.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 1860.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 2090.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 775.0
+          }
+        ]
+      },
+      {
+        "vehicle_level": 5,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 1820.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 1880.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 2120.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 800.0
+          }
+        ]
+      },
+      {
+        "vehicle_level": 6,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 1850.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 1900.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 2150.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 825.0
+          }
+        ]
+      },
+      {
+        "vehicle_level": 7,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 1880.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 1920.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 2180.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 850.0
+          }
+        ]
+      },
+      {
+        "vehicle_level": 8,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 1910.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 1940.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 2210.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 875.0
+          }
+        ]
+      },
+      {
+        "vehicle_level": 9,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 1940.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 1960.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 2240.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 900.0
+          }
+        ]
+      },
+      {
+        "vehicle_level": 10,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 2000.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 2000.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 2300.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 1000.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vehicle_id": "107300002",
+    "vehicle_name": "ボルテックス",
+    "vehicle_description": "スピードを重視したホバーバイク「ボルテックス」",
+    "vehicle_tier_id": "Tier2",
+    "image_url": "https://open.api.nexon.com/static/tfd/img/59f6f6d4b60018a2d3396795a21b3fa7",
+    "stat_effect": [
+      {
+        "stat_id": "105000233",
+        "stat_value": 3600.0
+      },
+      {
+        "stat_id": "105000234",
+        "stat_value": 0.15
+      },
+      {
+        "stat_id": "105000235",
+        "stat_value": 0.15
+      },
+      {
+        "stat_id": "105000236",
+        "stat_value": 80.0
+      },
+      {
+        "stat_id": "105000237",
+        "stat_value": 50.0
+      },
+      {
+        "stat_id": "105000239",
+        "stat_value": 0.1
+      },
+      {
+        "stat_id": "105000240",
+        "stat_value": 15.0
+      },
+      {
+        "stat_id": "105000241",
+        "stat_value": 2.5
+      },
+      {
+        "stat_id": "105000278",
+        "stat_value": 100.0
+      }
+    ],
+    "stat_effect_per_level": [
+      {
+        "vehicle_level": 1,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 2000.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 1800.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 2500.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 700.0
+          }
+        ]
+      },
+      {
+        "vehicle_level": 2,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 2050.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 1820.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 2550.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 725.0
+          }
+        ]
+      },
+      {
+        "vehicle_level": 3,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 2100.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 1840.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 2600.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 750.0
+          }
+        ]
+      },
+      {
+        "vehicle_level": 4,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 2150.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 1860.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 2650.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 775.0
+          }
+        ]
+      },
+      {
+        "vehicle_level": 5,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 2200.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 1880.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 2700.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 800.0
+          }
+        ]
+      },
+      {
+        "vehicle_level": 6,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 2250.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 1900.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 2750.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 825.0
+          }
+        ]
+      },
+      {
+        "vehicle_level": 7,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 2300.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 1920.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 2800.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 850.0
+          }
+        ]
+      },
+      {
+        "vehicle_level": 8,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 2350.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 1940.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 2850.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 875.0
+          }
+        ]
+      },
+      {
+        "vehicle_level": 9,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 2400.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 1960.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 2900.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 900.0
+          }
+        ]
+      },
+      {
+        "vehicle_level": 10,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 2500.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 2000.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 3000.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 1000.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vehicle_id": "107300003",
+    "vehicle_name": "オルカ",
+    "vehicle_description": "バランスを重視したホバーバイク「オルカ」",
+    "vehicle_tier_id": "Tier2",
+    "image_url": "https://open.api.nexon.com/static/tfd/img/e3290ca08423165e98ada888d709c23f",
+    "stat_effect": [
+      {
+        "stat_id": "105000233",
+        "stat_value": 3600.0
+      },
+      {
+        "stat_id": "105000234",
+        "stat_value": 0.4
+      },
+      {
+        "stat_id": "105000235",
+        "stat_value": 0.4
+      },
+      {
+        "stat_id": "105000236",
+        "stat_value": 240.0
+      },
+      {
+        "stat_id": "105000237",
+        "stat_value": 200.0
+      },
+      {
+        "stat_id": "105000239",
+        "stat_value": 0.1
+      },
+      {
+        "stat_id": "105000240",
+        "stat_value": 25.0
+      },
+      {
+        "stat_id": "105000241",
+        "stat_value": 1.8
+      },
+      {
+        "stat_id": "105000278",
+        "stat_value": 100.0
+      }
+    ],
+    "stat_effect_per_level": [
+      {
+        "vehicle_level": 1,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 1800.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 2000.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 2300.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 1000.0
+          }
+        ]
+      },
+      {
+        "vehicle_level": 2,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 1850.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 2050.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 2340.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 1050.0
+          }
+        ]
+      },
+      {
+        "vehicle_level": 3,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 1900.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 2100.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 2380.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 1100.0
+          }
+        ]
+      },
+      {
+        "vehicle_level": 4,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 1950.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 2150.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 2420.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 1150.0
+          }
+        ]
+      },
+      {
+        "vehicle_level": 5,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 2000.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 2200.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 2460.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 1200.0
+          }
+        ]
+      },
+      {
+        "vehicle_level": 6,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 2050.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 2250.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 2500.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 1250.0
+          }
+        ]
+      },
+      {
+        "vehicle_level": 7,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 2100.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 2300.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 2540.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 1300.0
+          }
+        ]
+      },
+      {
+        "vehicle_level": 8,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 2150.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 2350.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 2580.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 1350.0
+          }
+        ]
+      },
+      {
+        "vehicle_level": 9,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 2200.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 2400.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 2620.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 1400.0
+          }
+        ]
+      },
+      {
+        "vehicle_level": 10,
+        "stat_effect": [
+          {
+            "stat_id": "105000230",
+            "stat_value": 2300.0
+          },
+          {
+            "stat_id": "105000231",
+            "stat_value": 2500.0
+          },
+          {
+            "stat_id": "105000232",
+            "stat_value": 2700.0
+          },
+          {
+            "stat_id": "105000238",
+            "stat_value": 1500.0
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,1332 @@
+[
+  {
+    "stat_id": "105000001",
+    "stat_name": "Max. LP",
+    "stat_order_no": 300
+  },
+  {
+    "stat_id": "105000002",
+    "stat_name": "Zurückstoßtempo",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000003",
+    "stat_name": "Zurückstoßzeit",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000004",
+    "stat_name": "Niederschlagzeit",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000005",
+    "stat_name": "Max. Reichweite",
+    "stat_order_no": 154
+  },
+  {
+    "stat_id": "105000006",
+    "stat_name": "Hüftschuss-Genauigkeit",
+    "stat_order_no": 144
+  },
+  {
+    "stat_id": "105000008",
+    "stat_name": "Impuls",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000011",
+    "stat_name": "Abklingzeit-Erhöhung des Greifhakens",
+    "stat_order_no": 419
+  },
+  {
+    "stat_id": "105000013",
+    "stat_name": "Zielen-Verzögerung",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000014",
+    "stat_name": "Nahzielen-Verzögerung",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000015",
+    "stat_name": "Sprungtempo",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000017",
+    "stat_name": "Rettungszeit",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000018",
+    "stat_name": "Bewegungstempo",
+    "stat_order_no": 402
+  },
+  {
+    "stat_id": "105000019",
+    "stat_name": "Sprinttempo",
+    "stat_order_no": 405
+  },
+  {
+    "stat_id": "105000020",
+    "stat_name": "Bewegungstempo beim Zielen",
+    "stat_order_no": 404
+  },
+  {
+    "stat_id": "105000021",
+    "stat_name": "Munition pro Magazin",
+    "stat_order_no": 120
+  },
+  {
+    "stat_id": "105000022",
+    "stat_name": "Ladekapazität",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000023",
+    "stat_name": "Feuerrate",
+    "stat_order_no": 118
+  },
+  {
+    "stat_id": "105000024",
+    "stat_name": "Max. MP",
+    "stat_order_no": 200
+  },
+  {
+    "stat_id": "105000025",
+    "stat_name": "Max. Schild",
+    "stat_order_no": 301
+  },
+  {
+    "stat_id": "105000026",
+    "stat_name": "Schusswaffen-ANG",
+    "stat_order_no": 100
+  },
+  {
+    "stat_id": "105000027",
+    "stat_name": "Min. ANG",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000028",
+    "stat_name": "Max. ANG",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000029",
+    "stat_name": "VER",
+    "stat_order_no": 302
+  },
+  {
+    "stat_id": "105000030",
+    "stat_name": "Schusswaffen-KritTrefferrate",
+    "stat_order_no": 126
+  },
+  {
+    "stat_id": "105000031",
+    "stat_name": "Schusswaffen-KritSchaden",
+    "stat_order_no": 128
+  },
+  {
+    "stat_id": "105000032",
+    "stat_name": "Patronenkapazität",
+    "stat_order_no": 112
+  },
+  {
+    "stat_id": "105000033",
+    "stat_name": "Munitionskosten",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000034",
+    "stat_name": "Bewegungstempo beim Schießen",
+    "stat_order_no": 403
+  },
+  {
+    "stat_id": "105000035",
+    "stat_name": "Schwachpunktschaden",
+    "stat_order_no": 138
+  },
+  {
+    "stat_id": "105000036",
+    "stat_name": "Genauigkeit gezielter Schüsse",
+    "stat_order_no": 146
+  },
+  {
+    "stat_id": "105000042",
+    "stat_name": "Klettertempo (Monster)",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000043",
+    "stat_name": "Bewegungstempo (Monster)",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000044",
+    "stat_name": "Umgebungszerstörung (Boss)",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000045",
+    "stat_name": "Steigerung des Werfer-Explosionsradius",
+    "stat_order_no": 117
+  },
+  {
+    "stat_id": "105000046",
+    "stat_name": "Rolldauer",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000047",
+    "stat_name": "Rollen-Abklingzeit",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000048",
+    "stat_name": "Beherrschung",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000049",
+    "stat_name": "Steuerung",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000050",
+    "stat_name": "Zähigkeit",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000052",
+    "stat_name": "Nachladezeit-Modifikator",
+    "stat_order_no": 124
+  },
+  {
+    "stat_id": "105000053",
+    "stat_name": "Magazin-Nachladezeit",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000054",
+    "stat_name": "Startdistanz für ANG-Minderung",
+    "stat_order_no": 148
+  },
+  {
+    "stat_id": "105000055",
+    "stat_name": "Enddistanz für ANG-Minderung",
+    "stat_order_no": 150
+  },
+  {
+    "stat_id": "105000056",
+    "stat_name": "Modifikator der ANG-Minderung",
+    "stat_order_no": 152
+  },
+  {
+    "stat_id": "105000057",
+    "stat_name": "Explosions-ANG",
+    "stat_order_no": 102
+  },
+  {
+    "stat_id": "105000058",
+    "stat_name": "Feuer-ANG",
+    "stat_order_no": 104
+  },
+  {
+    "stat_id": "105000059",
+    "stat_name": "Kälte-ANG",
+    "stat_order_no": 106
+  },
+  {
+    "stat_id": "105000060",
+    "stat_name": "Elektro-ANG",
+    "stat_order_no": 108
+  },
+  {
+    "stat_id": "105000061",
+    "stat_name": "Gift-ANG",
+    "stat_order_no": 110
+  },
+  {
+    "stat_id": "105000062",
+    "stat_name": "Feuerwiderstand",
+    "stat_order_no": 307
+  },
+  {
+    "stat_id": "105000063",
+    "stat_name": "Kältewiderstand",
+    "stat_order_no": 308
+  },
+  {
+    "stat_id": "105000064",
+    "stat_name": "Elektrowiderstand",
+    "stat_order_no": 309
+  },
+  {
+    "stat_id": "105000065",
+    "stat_name": "Giftwiderstand",
+    "stat_order_no": 310
+  },
+  {
+    "stat_id": "105000066",
+    "stat_name": "Widerstand gegen kritische Treffer",
+    "stat_order_no": 304
+  },
+  {
+    "stat_id": "105000069",
+    "stat_name": "Zerbersten",
+    "stat_order_no": 130
+  },
+  {
+    "stat_id": "105000070",
+    "stat_name": "Zerschmettern",
+    "stat_order_no": 132
+  },
+  {
+    "stat_id": "105000071",
+    "stat_name": "Durchbohren",
+    "stat_order_no": 134
+  },
+  {
+    "stat_id": "105000072",
+    "stat_name": "Zerbersten-Feuerrate",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000073",
+    "stat_name": "Explosions-ANG-Minderungsreichweite",
+    "stat_order_no": 114
+  },
+  {
+    "stat_id": "105000074",
+    "stat_name": "Herauszoomen-Verzögerung",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000075",
+    "stat_name": "Durchdringung",
+    "stat_order_no": 141
+  },
+  {
+    "stat_id": "105000076",
+    "stat_name": "Durchdringen-VER",
+    "stat_order_no": 110
+  },
+  {
+    "stat_id": "105000077",
+    "stat_name": "Umgebungszerstörung (Waffe)",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000078",
+    "stat_name": "Umgebungszerstörung (Fertigkeit)",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000079",
+    "stat_name": "Aufladungszeit-Erhöhung des Greifhakens",
+    "stat_order_no": 421
+  },
+  {
+    "stat_id": "105000080",
+    "stat_name": "Zurückstoßchance",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000081",
+    "stat_name": "Zurückstoßwiderstand-Chance",
+    "stat_order_no": 312
+  },
+  {
+    "stat_id": "105000082",
+    "stat_name": "Zurückstoßzeit-Widerstandswert",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000083",
+    "stat_name": "Zurückstoßtempo-Widerstandswert",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000084",
+    "stat_name": "Niederschlagchance",
+    "stat_order_no": 176
+  },
+  {
+    "stat_id": "105000085",
+    "stat_name": "Niederschlagtempo X",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000086",
+    "stat_name": "Niederschlagtempo Z",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000087",
+    "stat_name": "Niederschlagwiderstand-Chance",
+    "stat_order_no": 313
+  },
+  {
+    "stat_id": "105000088",
+    "stat_name": "Niederschlagtempo-Widerstandswert X",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000089",
+    "stat_name": "Niederschlagtempo-Widerstandswert Z",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000090",
+    "stat_name": "Niederschlagzeit-Widerstandswert",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000092",
+    "stat_name": "Benommenheit-Angriffswert",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000093",
+    "stat_name": "Benommenheit-Widerstandswert",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000094",
+    "stat_name": "Bewegungstempo im Raserei-Zustand",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000095",
+    "stat_name": "Nachladezeit",
+    "stat_order_no": 122
+  },
+  {
+    "stat_id": "105000096",
+    "stat_name": "Zeitintervall der LP-Wiederherstellung",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000097",
+    "stat_name": "Zeitintervall der MP-Wiederherstellung",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000098",
+    "stat_name": "Zeitintervall der Schildwiederherstellung",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000100",
+    "stat_name": "LP-Wiederherstellung außerhalb Kämpfe",
+    "stat_order_no": 405
+  },
+  {
+    "stat_id": "105000101",
+    "stat_name": "MP-Wiederherstellung außerhalb von Kämpfen",
+    "stat_order_no": 406
+  },
+  {
+    "stat_id": "105000102",
+    "stat_name": "Schildwiederherstellung außerhalb von Kämpfen",
+    "stat_order_no": 407
+  },
+  {
+    "stat_id": "105000103",
+    "stat_name": "LP-Wiederherstellung im Kampf",
+    "stat_order_no": 408
+  },
+  {
+    "stat_id": "105000104",
+    "stat_name": "MP-Wiederherstellung im Kampf",
+    "stat_order_no": 409
+  },
+  {
+    "stat_id": "105000105",
+    "stat_name": "Schildwiederherstellung im Kampf",
+    "stat_order_no": 410
+  },
+  {
+    "stat_id": "105000106",
+    "stat_name": "Aktuelle LP",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000107",
+    "stat_name": "Aktuelle MP",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000108",
+    "stat_name": "Aktueller Schild",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000115",
+    "stat_name": "Anzahl zusätzlicher Greifhaken-Aufladungen",
+    "stat_order_no": 420
+  },
+  {
+    "stat_id": "105000116",
+    "stat_name": "Rückstoß",
+    "stat_order_no": 142
+  },
+  {
+    "stat_id": "105000117",
+    "stat_name": "Fertigkeiten-Abklingzeit",
+    "stat_order_no": 225
+  },
+  {
+    "stat_id": "105000118",
+    "stat_name": "Fertigkeitenkosten",
+    "stat_order_no": 226
+  },
+  {
+    "stat_id": "105000119",
+    "stat_name": "Fertigkeitsstärke-Modifikator",
+    "stat_order_no": 213
+  },
+  {
+    "stat_id": "105000123",
+    "stat_name": "Fertigkeitendauer STEIGERN",
+    "stat_order_no": 227
+  },
+  {
+    "stat_id": "105000124",
+    "stat_name": "Fertigkeitendauer VERRINGERN",
+    "stat_order_no": 228
+  },
+  {
+    "stat_id": "105000125",
+    "stat_name": "Fertigkeitseffekt-Reichweite",
+    "stat_order_no": 229
+  },
+  {
+    "stat_id": "105000126",
+    "stat_name": "Nachladetempo bei leerem Magazin",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000127",
+    "stat_name": "Waffenwechseltempo",
+    "stat_order_no": 422
+  },
+  {
+    "stat_id": "105000128",
+    "stat_name": "Modifikator der max. Standardmunition",
+    "stat_order_no": 411
+  },
+  {
+    "stat_id": "105000129",
+    "stat_name": "Modifikator der max. Spezialmunition",
+    "stat_order_no": 412
+  },
+  {
+    "stat_id": "105000130",
+    "stat_name": "Modifikator der max. Einschlagmunition",
+    "stat_order_no": 413
+  },
+  {
+    "stat_id": "105000131",
+    "stat_name": "Modifikator der max. Hochleistungsmunition",
+    "stat_order_no": 414
+  },
+  {
+    "stat_id": "105000133",
+    "stat_name": "Modifikator des physischen Fertigkeiten-ANG",
+    "stat_order_no": 230
+  },
+  {
+    "stat_id": "105000134",
+    "stat_name": "Modifikator des Fertigkeiten-Attribut-ANG",
+    "stat_order_no": 231
+  },
+  {
+    "stat_id": "105000135",
+    "stat_name": "Modifikator der LP-Heilung",
+    "stat_order_no": 415
+  },
+  {
+    "stat_id": "105000136",
+    "stat_name": "Modifikator der LP-Wiederherstellung",
+    "stat_order_no": 416
+  },
+  {
+    "stat_id": "105000137",
+    "stat_name": "Modifikator der MP-Wiederherstellung",
+    "stat_order_no": 232
+  },
+  {
+    "stat_id": "105000138",
+    "stat_name": "Modifikator der MP-Wiederherstellung",
+    "stat_order_no": 233
+  },
+  {
+    "stat_id": "105000139",
+    "stat_name": "Schusswaffen-SDN-Modifikator",
+    "stat_order_no": 178
+  },
+  {
+    "stat_id": "105000140",
+    "stat_name": "Modifikator des ausgeteilten SDN",
+    "stat_order_no": 172
+  },
+  {
+    "stat_id": "105000141",
+    "stat_name": "Modifikator des erhaltenen Schadens",
+    "stat_order_no": 311
+  },
+  {
+    "stat_id": "105000142",
+    "stat_name": "Gegenstandsstufe",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000143",
+    "stat_name": "Basis-Fertigkeitsstärke-Modifikator",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000144",
+    "stat_name": "Gegenstandsstufen-Korrekturwert",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000145",
+    "stat_name": "Fertigkeitsstärke",
+    "stat_order_no": 202
+  },
+  {
+    "stat_id": "105000146",
+    "stat_name": "Steigerung der Basis-Fertigkeitsstärke",
+    "stat_order_no": 203
+  },
+  {
+    "stat_id": "105000147",
+    "stat_name": "Steigerung der attributlosen Fertigkeitsstärke",
+    "stat_order_no": 204
+  },
+  {
+    "stat_id": "105000148",
+    "stat_name": "Steigerung der Feuer-Fertigkeitsstärke",
+    "stat_order_no": 205
+  },
+  {
+    "stat_id": "105000149",
+    "stat_name": "Steigerung der Kälte-Fertigkeitsstärke",
+    "stat_order_no": 206
+  },
+  {
+    "stat_id": "105000150",
+    "stat_name": "Steigerung der Elektro-Fertigkeitsstärke",
+    "stat_order_no": 207
+  },
+  {
+    "stat_id": "105000151",
+    "stat_name": "Steigerung der Gift-Fertigkeitsstärke",
+    "stat_order_no": 208
+  },
+  {
+    "stat_id": "105000152",
+    "stat_name": "Steigerung der Fusion-Fertigkeitsstärke",
+    "stat_order_no": 209
+  },
+  {
+    "stat_id": "105000153",
+    "stat_name": "Steigerung der Singulär-Fertigkeitsstärke",
+    "stat_order_no": 210
+  },
+  {
+    "stat_id": "105000154",
+    "stat_name": "Steigerung der Dimension-Fertigkeitsstärke",
+    "stat_order_no": 211
+  },
+  {
+    "stat_id": "105000155",
+    "stat_name": "Steigerung der Tech-Fertigkeitsstärke",
+    "stat_order_no": 212
+  },
+  {
+    "stat_id": "105000156",
+    "stat_name": "Attributlose-Fertigkeiten-Modifikator",
+    "stat_order_no": 214
+  },
+  {
+    "stat_id": "105000157",
+    "stat_name": "Feuer-Fertigkeiten-Modifikator",
+    "stat_order_no": 215
+  },
+  {
+    "stat_id": "105000158",
+    "stat_name": "Kälte-Fertigkeiten-Modifikator",
+    "stat_order_no": 216
+  },
+  {
+    "stat_id": "105000159",
+    "stat_name": "Elektro-Fertigkeiten-Modifikator",
+    "stat_order_no": 217
+  },
+  {
+    "stat_id": "105000160",
+    "stat_name": "Gift-Fertigkeiten-Modifikator",
+    "stat_order_no": 218
+  },
+  {
+    "stat_id": "105000161",
+    "stat_name": "Fusion-Fertigkeiten-Modifikator",
+    "stat_order_no": 219
+  },
+  {
+    "stat_id": "105000162",
+    "stat_name": "Singular-Fertigkeiten-Modifikator",
+    "stat_order_no": 220
+  },
+  {
+    "stat_id": "105000163",
+    "stat_name": "Dimension-Fertigkeiten-Modifikator",
+    "stat_order_no": 221
+  },
+  {
+    "stat_id": "105000164",
+    "stat_name": "Tech-Fertigkeiten-Modifikator",
+    "stat_order_no": 222
+  },
+  {
+    "stat_id": "105000165",
+    "stat_name": "Fertigkeiten-KritTrefferrate",
+    "stat_order_no": 223
+  },
+  {
+    "stat_id": "105000166",
+    "stat_name": "Fertigkeiten-KritSchaden",
+    "stat_order_no": 224
+  },
+  {
+    "stat_id": "105000167",
+    "stat_name": "Fertigkeiten-KritWiderstand",
+    "stat_order_no": 305
+  },
+  {
+    "stat_id": "105000168",
+    "stat_name": "Fertigkeiten-VER",
+    "stat_order_no": 303
+  },
+  {
+    "stat_id": "105000169",
+    "stat_name": "Attributlos-Widerstand",
+    "stat_order_no": 306
+  },
+  {
+    "stat_id": "105000170",
+    "stat_name": "Auslöserate des Attributstatuseffekts",
+    "stat_order_no": 136
+  },
+  {
+    "stat_id": "105000171",
+    "stat_name": "Modifikator der verteilten Schildwiederherstellung",
+    "stat_order_no": 417
+  },
+  {
+    "stat_id": "105000172",
+    "stat_name": "Modifikator der Schildwiederherstellung",
+    "stat_order_no": 418
+  },
+  {
+    "stat_id": "105000174",
+    "stat_name": "Werfer-Explosionsradius",
+    "stat_order_no": 116
+  },
+  {
+    "stat_id": "105000175",
+    "stat_name": "„DBNO“-Wiederbelebungszeit",
+    "stat_order_no": 423
+  },
+  {
+    "stat_id": "105000176",
+    "stat_name": "Modifikator der Modul-Abwurfrate",
+    "stat_order_no": 433
+  },
+  {
+    "stat_id": "105000177",
+    "stat_name": "Modifikator der Ausrüstungs-Abwurfrate",
+    "stat_order_no": 431
+  },
+  {
+    "stat_id": "105000178",
+    "stat_name": "Modifikator der Verbrauchsgegenstände-Abwurfrate",
+    "stat_order_no": 434
+  },
+  {
+    "stat_id": "105000179",
+    "stat_name": "Modifikator der Gold-Abwurfrate",
+    "stat_order_no": 430
+  },
+  {
+    "stat_id": "105000180",
+    "stat_name": "Modifikator der Kuiper-Splitter-Abwurfrate",
+    "stat_order_no": 432
+  },
+  {
+    "stat_id": "105000181",
+    "stat_name": "Modifikator des Charakter-EP-Gewinns",
+    "stat_order_no": 428
+  },
+  {
+    "stat_id": "105000182",
+    "stat_name": "Modifikator der Waffen-Leistungsstufe-Steigerung",
+    "stat_order_no": 429
+  },
+  {
+    "stat_id": "105000183",
+    "stat_name": "Zusätzlicher Waffen-ANG gegen Kolosse",
+    "stat_order_no": 168
+  },
+  {
+    "stat_id": "105000184",
+    "stat_name": "Zusätzlicher Waffen-ANG gegen Legion der Finsternis",
+    "stat_order_no": 156
+  },
+  {
+    "stat_id": "105000185",
+    "stat_name": "Zusätzlicher Waffen-ANG gegen Orden der Wahrheit",
+    "stat_order_no": 160
+  },
+  {
+    "stat_id": "105000186",
+    "stat_name": "Zusätzlicher Waffen-ANG gegen Legion der Unsterblichkeit",
+    "stat_order_no": 164
+  },
+  {
+    "stat_id": "105000187",
+    "stat_name": "„DBNO“-Dauer",
+    "stat_order_no": 424
+  },
+  {
+    "stat_id": "105000188",
+    "stat_name": "Modifikator der Gegenstand-Erbeutungsreichweite",
+    "stat_order_no": 427
+  },
+  {
+    "stat_id": "105000190",
+    "stat_name": "Modifikator des Essiv-Suchradius",
+    "stat_order_no": 425
+  },
+  {
+    "stat_id": "105000191",
+    "stat_name": "Essiv-Anzeigedauer",
+    "stat_order_no": 426
+  },
+  {
+    "stat_id": "105000192",
+    "stat_name": "Sekundärangriffsstärke",
+    "stat_order_no": 400
+  },
+  {
+    "stat_id": "105000193",
+    "stat_name": "Sekundärangriffsstärke-Modifikator",
+    "stat_order_no": 401
+  },
+  {
+    "stat_id": "105000194",
+    "stat_name": "Strahlengewehr-Aufladetempo",
+    "stat_order_no": 180
+  },
+  {
+    "stat_id": "105000195",
+    "stat_name": "Strahlengewehr-Entladetempo",
+    "stat_order_no": 182
+  },
+  {
+    "stat_id": "105000196",
+    "stat_name": "Zusätzlicher Fertigkeiten-ANG gegen Kolosse",
+    "stat_order_no": 235
+  },
+  {
+    "stat_id": "105000197",
+    "stat_name": "Zusätzlicher Fertigkeiten-ANG gegen Legion der Finsternis",
+    "stat_order_no": 236
+  },
+  {
+    "stat_id": "105000198",
+    "stat_name": "Zusätzlicher Fertigkeiten-ANG gegen Orden der Wahrheit",
+    "stat_order_no": 237
+  },
+  {
+    "stat_id": "105000199",
+    "stat_name": "Zusätzlicher Fertigkeiten-ANG gegen Legion der Unsterblichkeit",
+    "stat_order_no": 238
+  },
+  {
+    "stat_id": "105000214",
+    "stat_name": "Modifikator des Fertigkeitentempos und der Reichweite",
+    "stat_order_no": 234
+  },
+  {
+    "stat_id": "105000219",
+    "stat_name": "Projektildurchdringung",
+    "stat_order_no": null
+  },
+  {
+    "stat_id": "105000220",
+    "stat_name": "Projektildurchdringung-Verteidigung",
+    "stat_order_no": null
+  },
+  {
+    "stat_id": "105000226",
+    "stat_name": "Modifikator des Vorteilsaffinität-SDN",
+    "stat_order_no": 135
+  },
+  {
+    "stat_id": "105000227",
+    "stat_name": "Mehrfachtreffer-Chance",
+    "stat_order_no": 139
+  },
+  {
+    "stat_id": "105000228",
+    "stat_name": "Schwerkraft-Modifikator",
+    "stat_order_no": 440
+  },
+  {
+    "stat_id": "105000229",
+    "stat_name": "Mehrfachtreffer-Schaden",
+    "stat_order_no": 140
+  },
+  {
+    "stat_id": "105000230",
+    "stat_name": "Höchstgeschwindigkeit",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000231",
+    "stat_name": "Beschleunigung",
+    "stat_order_no": 10
+  },
+  {
+    "stat_id": "105000232",
+    "stat_name": "Höchstgeschwindigkeit während Boost",
+    "stat_order_no": 20
+  },
+  {
+    "stat_id": "105000233",
+    "stat_name": "Beschleunigung während Boost",
+    "stat_order_no": 30
+  },
+  {
+    "stat_id": "105000234",
+    "stat_name": "Modifikator der Rückwärts-Bewegungsgeschwindigkeit",
+    "stat_order_no": 90
+  },
+  {
+    "stat_id": "105000235",
+    "stat_name": "Modifikator der seitlichen Bewegungsgeschwindigkeit",
+    "stat_order_no": 80
+  },
+  {
+    "stat_id": "105000236",
+    "stat_name": "Wendestärke",
+    "stat_order_no": 60
+  },
+  {
+    "stat_id": "105000237",
+    "stat_name": "Wendestärke während des Boosts",
+    "stat_order_no": 70
+  },
+  {
+    "stat_id": "105000238",
+    "stat_name": "Boostanzeige-Kapazität",
+    "stat_order_no": 40
+  },
+  {
+    "stat_id": "105000239",
+    "stat_name": "Boostanzeige-Regenerationsintervall",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000240",
+    "stat_name": "Boostanzeige-Regenerationsrate",
+    "stat_order_no": 50
+  },
+  {
+    "stat_id": "105000241",
+    "stat_name": "Boostanzeige-Regenerations-Startverzögerung",
+    "stat_order_no": 45
+  },
+  {
+    "stat_id": "105000242",
+    "stat_name": "Modifikator des Boostanzeige-Verbrauchs",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000243",
+    "stat_name": "Modifikator der Boostanzeige-Wiederherstellung",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000244",
+    "stat_name": "Nahkampfwaffen-ANG",
+    "stat_order_no": 100
+  },
+  {
+    "stat_id": "105000245",
+    "stat_name": "Angriffstempo",
+    "stat_order_no": 118
+  },
+  {
+    "stat_id": "105000246",
+    "stat_name": "Nahkampfwaffen-Feuer-ANG",
+    "stat_order_no": 104
+  },
+  {
+    "stat_id": "105000247",
+    "stat_name": "Nahkampfwaffen-Kälte-ANG",
+    "stat_order_no": 106
+  },
+  {
+    "stat_id": "105000248",
+    "stat_name": "Nahkampfwaffen-Gift-ANG",
+    "stat_order_no": 108
+  },
+  {
+    "stat_id": "105000249",
+    "stat_name": "Nahkampfwaffen-Elektro-ANG",
+    "stat_order_no": 110
+  },
+  {
+    "stat_id": "105000250",
+    "stat_name": "Nahkampfwaffen-KritTrefferrate",
+    "stat_order_no": 128
+  },
+  {
+    "stat_id": "105000251",
+    "stat_name": "Nahkampfwaffen-KritSchaden",
+    "stat_order_no": 130
+  },
+  {
+    "stat_id": "105000252",
+    "stat_name": "Chance auf zusätzlichen Angriff",
+    "stat_order_no": 142
+  },
+  {
+    "stat_id": "105000253",
+    "stat_name": "Zusätzlicher Angriffsschaden",
+    "stat_order_no": 143
+  },
+  {
+    "stat_id": "105000254",
+    "stat_name": "Nahkampfwaffen-Durchbohrungsrate",
+    "stat_order_no": 187
+  },
+  {
+    "stat_id": "105000255",
+    "stat_name": "Min. Nahkampfwaffen-Durchbohrungsrate",
+    "stat_order_no": 188
+  },
+  {
+    "stat_id": "105000256",
+    "stat_name": "Nahkampfwaffen-Durchbohren-Widerstand",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000257",
+    "stat_name": "Nahkampfwaffen-Angriffsreichweite",
+    "stat_order_no": 189
+  },
+  {
+    "stat_id": "105000258",
+    "stat_name": "Max. Nahkampfwaffen-Angriffsreichweite-Multiplikator",
+    "stat_order_no": 190
+  },
+  {
+    "stat_id": "105000259",
+    "stat_name": "Max. Blockanzeige",
+    "stat_order_no": 191
+  },
+  {
+    "stat_id": "105000260",
+    "stat_name": "Aktuelle Blockanzeige",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000261",
+    "stat_name": "Blockanzeige-Kosten bei Beginn",
+    "stat_order_no": 192
+  },
+  {
+    "stat_id": "105000262",
+    "stat_name": "Blockanzeige-Kosten bei Aufrechterhaltung",
+    "stat_order_no": 193
+  },
+  {
+    "stat_id": "105000263",
+    "stat_name": "Startzeit der Blockanzeige-Wiederherstellung",
+    "stat_order_no": 194
+  },
+  {
+    "stat_id": "105000264",
+    "stat_name": "Betrag der Blockanzeige-Wiederherstellung",
+    "stat_order_no": 195
+  },
+  {
+    "stat_id": "105000265",
+    "stat_name": "Block-Effizienz",
+    "stat_order_no": 196
+  },
+  {
+    "stat_id": "105000266",
+    "stat_name": "Block-Effizienz-Modifikator",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000267",
+    "stat_name": "Max. Spezialangriffsanzeige",
+    "stat_order_no": 198
+  },
+  {
+    "stat_id": "105000268",
+    "stat_name": "Aktuelle Spezialangriffsanzeige",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000269",
+    "stat_name": "Startzeit der Spezialangriffsanzeige-Wiederherstellung",
+    "stat_order_no": 199
+  },
+  {
+    "stat_id": "105000270",
+    "stat_name": "Betrag der Spezialangriffsanzeige-Wiederherstellung",
+    "stat_order_no": 199
+  },
+  {
+    "stat_id": "105000272",
+    "stat_name": "Erhaltener Schwachpunktschaden",
+    "stat_order_no": null
+  },
+  {
+    "stat_id": "105000273",
+    "stat_name": "Feuerwaffen-Widerstand",
+    "stat_order_no": 314
+  },
+  {
+    "stat_id": "105000274",
+    "stat_name": "Kältewaffen-Widerstand",
+    "stat_order_no": 315
+  },
+  {
+    "stat_id": "105000275",
+    "stat_name": "Elektrowaffen-Widerstand",
+    "stat_order_no": 316
+  },
+  {
+    "stat_id": "105000276",
+    "stat_name": "Giftwaffen-Widerstand",
+    "stat_order_no": 317
+  },
+  {
+    "stat_id": "105000278",
+    "stat_name": "Boost-Kosten",
+    "stat_order_no": 55
+  },
+  {
+    "stat_id": "105000280",
+    "stat_name": "Zusätzlicher Waffen-ANG gegen Legion der Bresche",
+    "stat_order_no": 165
+  },
+  {
+    "stat_id": "105000281",
+    "stat_name": "Bonus-Fertigkeiten-ANG gegen Legion der Bresche",
+    "stat_order_no": 239
+  },
+  {
+    "stat_id": "105000282",
+    "stat_name": "Angriffstempo-Modifikator",
+    "stat_order_no": 118
+  },
+  {
+    "stat_id": "105000283",
+    "stat_name": "Zusätzlicher Schadensmultiplikator gegen gewöhnliche Monster der Legion der Finsternis",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000284",
+    "stat_name": "Zusätzlicher Schadensmultiplikator gegen Elite-Gegner der Legion der Finsternis",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000285",
+    "stat_name": "Zusätzlicher Schadensmultiplikator gegen Kommandanten der Legion der Finsternis",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000286",
+    "stat_name": "Zusätzlicher Schadensmultiplikator gegen gewöhnliche Monster des Ordens der Wahrheit",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000287",
+    "stat_name": "Zusätzlicher Schadensmultiplikator gegen Elite-Gegner des Ordens der Wahrheit",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000288",
+    "stat_name": "Zusätzlicher Schadensmultiplikator gegen Kommandanten des Ordens der Wahrheit",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000289",
+    "stat_name": "Zusätzlicher Schadensmultiplikator gegen gewöhnliche Monster der Legion der Unsterblichkeit",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000290",
+    "stat_name": "Zusätzlicher Schadensmultiplikator gegen Elite-Gegner der Legion der Unsterblichkeit",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000291",
+    "stat_name": "Zusätzlicher Schadensmultiplikator gegen Kommandanten der Legion der Unsterblichkeit",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000292",
+    "stat_name": "Zusätzlicher Schadensmultiplikator gegen gewöhnliche Monster der Legion der Bresche",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000293",
+    "stat_name": "Zusätzlicher Schadensmultiplikator gegen Elite-Gegner der Legion der Bresche",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000294",
+    "stat_name": "Zusätzlicher Schadensmultiplikator gegen Kommandanten der Legion der Bresche",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000295",
+    "stat_name": "Zusätzlicher Schadensmultiplikator-Widerstand gegen Legion und Monster",
+    "stat_order_no": 318
+  },
+  {
+    "stat_id": "105000296",
+    "stat_name": "Zusätzlicher Schadensmultiplikator gegen Tyrannen der Legion der Finsternis",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000297",
+    "stat_name": "Zusätzlicher Schadensmultiplikator gegen Tyrannen des Ordens der Wahrheit",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000298",
+    "stat_name": "Zusätzlicher Schadensmultiplikator gegen Tyrannen der Legion der Unsterblichkeit",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000299",
+    "stat_name": "Zusätzlicher Schadensmultiplikator gegen Tyrannen der Legion der Bresche",
+    "stat_order_no": 169
+  },
+  {
+    "stat_id": "105000300",
+    "stat_name": "Nahkampfwaffen-Durchbohrungsrate-Modifikator",
+    "stat_order_no": 187
+  },
+  {
+    "stat_id": "105000301",
+    "stat_name": "Min. Nahkampfwaffen-Durchbohrungsrate-Modifikator",
+    "stat_order_no": 188
+  },
+  {
+    "stat_id": "105000302",
+    "stat_name": "Mehrfachtreffer-Widerstand",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000303",
+    "stat_name": "Mehrfachtreffer-Schadenswiderstand",
+    "stat_order_no": 0
+  },
+  {
+    "stat_id": "105000305",
+    "stat_name": "Zusätzlicher Waffen-ANG gegen Elite-Gegner",
+    "stat_order_no": 314
+  },
+  {
+    "stat_id": "105000306",
+    "stat_name": "Zusätzlicher Waffen-ANG gegen Kommandanten",
+    "stat_order_no": 315
+  },
+  {
+    "stat_id": "105000307",
+    "stat_name": "Zusätzlicher Waffen-ANG gegen Tyrannen",
+    "stat_order_no": 316
+  },
+  {
+    "stat_id": "105000308",
+    "stat_name": "Zusätzlicher Fertigkeiten-ANG gegen Elite-Gegner",
+    "stat_order_no": 317
+  },
+  {
+    "stat_id": "105000309",
+    "stat_name": "Zusätzlicher Fertigkeiten-ANG gegen Kommandanten",
+    "stat_order_no": 318
+  },
+  {
+    "stat_id": "105000310",
+    "stat_name": "Zusätzlicher Fertigkeiten-ANG gegen Tyrannen",
+    "stat_order_no": 319
+  },
+  {
+    "stat_id": "105000311",
+    "stat_name": "Synchronisierungswert",
+    "stat_order_no": 441
+  },
+  {
+    "stat_id": "105000109:101000002",
+    "stat_name": "Max. Leeren-Energie",
+    "stat_order_no": 201
+  },
+  {
+    "stat_id": "105000109:101000006",
+    "stat_name": "Max. Elektrizität",
+    "stat_order_no": 201
+  },
+  {
+    "stat_id": "105000109:101000009",
+    "stat_name": "Max. Lebenskraft",
+    "stat_order_no": 201
+  },
+  {
+    "stat_id": "105000109:101000014",
+    "stat_name": "Max. Magnetkraft",
+    "stat_order_no": 201
+  },
+  {
+    "stat_id": "105000109:101000018",
+    "stat_name": "Maximales Inspirationsniveau",
+    "stat_order_no": 201
+  },
+  {
+    "stat_id": "105000109:101000024",
+    "stat_name": "Maximaler Säurequell",
+    "stat_order_no": 201
+  },
+  {
+    "stat_id": "105000109:101000026",
+    "stat_name": "Max. Plasma",
+    "stat_order_no": 201
+  },
+  {
+    "stat_id": "105000109:101000031",
+    "stat_name": "Max. Gift",
+    "stat_order_no": 201
+  },
+  {
+    "stat_id": "105000109:101000033",
+    "stat_name": "Max. Entzücken",
+    "stat_order_no": 201
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "weapon_type": "All",
+    "weapon_type_name": "Arma: Todo"
+  },
+  {
+    "weapon_type": "WeaponMeleeBalanced",
+    "weapon_type_name": "Arma cuerpo a cuerpo equilibrada"
+  },
+  {
+    "weapon_type": "WeaponMeleePower",
+    "weapon_type_name": "Arma cuerpo a cuerpo poderosa"
+  },
+  {
+    "weapon_type": "WeaponMeleeSpeed",
+    "weapon_type_name": "Arma cuerpo a cuerpo veloz"
+  },
+  {
+    "weapon_type": "WeaponAssaultRifle",
+    "weapon_type_name": "Rifle de asalto"
+  },
+  {
+    "weapon_type": "WeaponBeamRifle",
+    "weapon_type_name": "Rifle de haz"
+  },
+  {
+    "weapon_type": "WeaponHandCannon",
+    "weapon_type_name": "Cañón de mano"
+  },
+  {
+    "weapon_type": "WeaponHandGun",
+    "weapon_type_name": "Pistola"
+  },
+  {
+    "weapon_type": "WeaponLauncher",
+    "weapon_type_name": "Lanzamisiles"
+  },
+  {
+    "weapon_type": "WeaponMachineGun",
+    "weapon_type_name": "Ametralladora"
+  },
+  {
+    "weapon_type": "WeaponScoutRifle",
+    "weapon_type_name": "Rifle de cerrojo"
+  },
+  {
+    "weapon_type": "WeaponShotGun",
+    "weapon_type_name": "Escopeta"
+  },
+  {
+    "weapon_type": "WeaponSniperRifle",
+    "weapon_type_name": "Rifle de francotirador"
+  },
+  {
+    "weapon_type": "WeaponSubMachineGun",
+    "weapon_type_name": "Subfusil"
+  },
+  {
+    "weapon_type": "WeaponTacticalRifle",
+    "weapon_type_name": "Rifle táctico"
+  }
+]

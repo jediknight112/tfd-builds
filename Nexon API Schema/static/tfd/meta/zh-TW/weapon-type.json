@@ -1,0 +1,62 @@
+[
+  {
+    "weapon_type": "All",
+    "weapon_type_name": "武器：全部"
+  },
+  {
+    "weapon_type": "WeaponMeleeBalanced",
+    "weapon_type_name": "平衡型近戰武器"
+  },
+  {
+    "weapon_type": "WeaponMeleePower",
+    "weapon_type_name": "力量型近戰武器"
+  },
+  {
+    "weapon_type": "WeaponMeleeSpeed",
+    "weapon_type_name": "速度型近戰武器"
+  },
+  {
+    "weapon_type": "WeaponAssaultRifle",
+    "weapon_type_name": "突擊步槍"
+  },
+  {
+    "weapon_type": "WeaponBeamRifle",
+    "weapon_type_name": "光束步槍"
+  },
+  {
+    "weapon_type": "WeaponHandCannon",
+    "weapon_type_name": "手銃"
+  },
+  {
+    "weapon_type": "WeaponHandGun",
+    "weapon_type_name": "手槍"
+  },
+  {
+    "weapon_type": "WeaponLauncher",
+    "weapon_type_name": "發射器"
+  },
+  {
+    "weapon_type": "WeaponMachineGun",
+    "weapon_type_name": "機關槍"
+  },
+  {
+    "weapon_type": "WeaponScoutRifle",
+    "weapon_type_name": "偵察步槍"
+  },
+  {
+    "weapon_type": "WeaponShotGun",
+    "weapon_type_name": "散彈槍"
+  },
+  {
+    "weapon_type": "WeaponSniperRifle",
+    "weapon_type_name": "狙擊槍"
+  },
+  {
+    "weapon_type": "WeaponSubMachineGun",
+    "weapon_type_name": "衝鋒槍"
+  },
+  {
+    "weapon_type": "WeaponTacticalRifle",
+    "weapon_type_name": "戰術步槍"
+  }
+]

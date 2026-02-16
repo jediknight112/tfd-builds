@@ -1,0 +1,1318 @@
+[
+  {
+    "title_id": "270300001",
+    "title_name": "Promissor"
+  },
+  {
+    "title_id": "270300002",
+    "title_name": "Desatento"
+  },
+  {
+    "title_id": "270300003",
+    "title_name": "Pioneiro"
+  },
+  {
+    "title_id": "270300004",
+    "title_name": "Comprovado"
+  },
+  {
+    "title_id": "270300006",
+    "title_name": "Verdadeiro"
+  },
+  {
+    "title_id": "270300007",
+    "title_name": "Impulsivo"
+  },
+  {
+    "title_id": "270300008",
+    "title_name": "Retornado"
+  },
+  {
+    "title_id": "270300009",
+    "title_name": "Frio"
+  },
+  {
+    "title_id": "270300010",
+    "title_name": "Cínico"
+  },
+  {
+    "title_id": "270300011",
+    "title_name": "Empolgante"
+  },
+  {
+    "title_id": "270300012",
+    "title_name": "Temível"
+  },
+  {
+    "title_id": "270300013",
+    "title_name": "Em Frenesi"
+  },
+  {
+    "title_id": "270300014",
+    "title_name": "Tenaz"
+  },
+  {
+    "title_id": "270300015",
+    "title_name": "Fervoroso"
+  },
+  {
+    "title_id": "270300016",
+    "title_name": "Fofo"
+  },
+  {
+    "title_id": "270300017",
+    "title_name": "Determinado"
+  },
+  {
+    "title_id": "270300018",
+    "title_name": "Final"
+  },
+  {
+    "title_id": "270300019",
+    "title_name": "Liberado"
+  },
+  {
+    "title_id": "270300020",
+    "title_name": "De Sangue Frio"
+  },
+  {
+    "title_id": "270300021",
+    "title_name": "Azul"
+  },
+  {
+    "title_id": "270300022",
+    "title_name": "Último"
+  },
+  {
+    "title_id": "270300023",
+    "title_name": "Belo"
+  },
+  {
+    "title_id": "270300024",
+    "title_name": "Impressionante"
+  },
+  {
+    "title_id": "270300025",
+    "title_name": "Florescente"
+  },
+  {
+    "title_id": "270300026",
+    "title_name": "Grisalho"
+  },
+  {
+    "title_id": "270300027",
+    "title_name": "Enérgico"
+  },
+  {
+    "title_id": "270300028",
+    "title_name": "Capaz"
+  },
+  {
+    "title_id": "270300029",
+    "title_name": "Extraordinário"
+  },
+  {
+    "title_id": "270300030",
+    "title_name": "Dinâmico"
+  },
+  {
+    "title_id": "270300031",
+    "title_name": "Surpreso"
+  },
+  {
+    "title_id": "270300032",
+    "title_name": "Relativo"
+  },
+  {
+    "title_id": "270300033",
+    "title_name": "Glamoroso"
+  },
+  {
+    "title_id": "270300034",
+    "title_name": "Errado"
+  },
+  {
+    "title_id": "270300035",
+    "title_name": "Destemido"
+  },
+  {
+    "title_id": "270300036",
+    "title_name": "Harmonioso"
+  },
+  {
+    "title_id": "270300037",
+    "title_name": "Sem Escrúpulos"
+  },
+  {
+    "title_id": "270300038",
+    "title_name": "Caído"
+  },
+  {
+    "title_id": "270300039",
+    "title_name": "Transportador"
+  },
+  {
+    "title_id": "270300040",
+    "title_name": "Terrível"
+  },
+  {
+    "title_id": "270300041",
+    "title_name": "Devorador"
+  },
+  {
+    "title_id": "270300042",
+    "title_name": "Ardente"
+  },
+  {
+    "title_id": "270300043",
+    "title_name": "Virado"
+  },
+  {
+    "title_id": "270300044",
+    "title_name": "Congelado"
+  },
+  {
+    "title_id": "270300045",
+    "title_name": "Estranho"
+  },
+  {
+    "title_id": "270300046",
+    "title_name": "Leal"
+  },
+  {
+    "title_id": "270300047",
+    "title_name": "Implacável"
+  },
+  {
+    "title_id": "270300048",
+    "title_name": "Levado pelo Vento"
+  },
+  {
+    "title_id": "270300050",
+    "title_name": "Desolado"
+  },
+  {
+    "title_id": "270300051",
+    "title_name": "Bem alimentado"
+  },
+  {
+    "title_id": "270300052",
+    "title_name": "Abundante"
+  },
+  {
+    "title_id": "270300054",
+    "title_name": "Turvo"
+  },
+  {
+    "title_id": "270300055",
+    "title_name": "Ecoante"
+  },
+  {
+    "title_id": "270300056",
+    "title_name": "Perverso"
+  },
+  {
+    "title_id": "270300057",
+    "title_name": "Apático"
+  },
+  {
+    "title_id": "270300058",
+    "title_name": "Frio"
+  },
+  {
+    "title_id": "270300059",
+    "title_name": "Esfomeado"
+  },
+  {
+    "title_id": "270300060",
+    "title_name": "Lamaçal"
+  },
+  {
+    "title_id": "270300061",
+    "title_name": "Deslumbrante"
+  },
+  {
+    "title_id": "270300062",
+    "title_name": "Pesadelo"
+  },
+  {
+    "title_id": "270300063",
+    "title_name": "Difícil"
+  },
+  {
+    "title_id": "270300064",
+    "title_name": "Frígido"
+  },
+  {
+    "title_id": "270300065",
+    "title_name": "Vazio"
+  },
+  {
+    "title_id": "270300066",
+    "title_name": "Sobrecarregado"
+  },
+  {
+    "title_id": "270300067",
+    "title_name": "Poderoso"
+  },
+  {
+    "title_id": "270300068",
+    "title_name": "Eterno"
+  },
+  {
+    "title_id": "270300069",
+    "title_name": "Detonado"
+  },
+  {
+    "title_id": "270300070",
+    "title_name": "Melhor"
+  },
+  {
+    "title_id": "270300071",
+    "title_name": "Irritante"
+  },
+  {
+    "title_id": "270300072",
+    "title_name": "Fanático"
+  },
+  {
+    "title_id": "270300073",
+    "title_name": "Turbulento"
+  },
+  {
+    "title_id": "270300074",
+    "title_name": "Gigantesco"
+  },
+  {
+    "title_id": "270300075",
+    "title_name": "Horrível"
+  },
+  {
+    "title_id": "270300076",
+    "title_name": "Venenoso"
+  },
+  {
+    "title_id": "270300077",
+    "title_name": "Pior"
+  },
+  {
+    "title_id": "270300078",
+    "title_name": "Impiedoso"
+  },
+  {
+    "title_id": "270300079",
+    "title_name": "Imparável"
+  },
+  {
+    "title_id": "270300080",
+    "title_name": "Surpreendente"
+  },
+  {
+    "title_id": "270300081",
+    "title_name": "Perigoso"
+  },
+  {
+    "title_id": "270300082",
+    "title_name": "Ressecado"
+  },
+  {
+    "title_id": "270300083",
+    "title_name": "Experiente"
+  },
+  {
+    "title_id": "270300084",
+    "title_name": "Inabalável"
+  },
+  {
+    "title_id": "270300085",
+    "title_name": "Perspicaz"
+  },
+  {
+    "title_id": "270300086",
+    "title_name": "Ataque único"
+  },
+  {
+    "title_id": "270300087",
+    "title_name": "Letal"
+  },
+  {
+    "title_id": "270300088",
+    "title_name": "Rápido"
+  },
+  {
+    "title_id": "270300089",
+    "title_name": "Peculiar"
+  },
+  {
+    "title_id": "270300090",
+    "title_name": "Especial"
+  },
+  {
+    "title_id": "270300091",
+    "title_name": "Eterno"
+  },
+  {
+    "title_id": "270300092",
+    "title_name": "Fragmentado"
+  },
+  {
+    "title_id": "270300093",
+    "title_name": "Desmontado"
+  },
+  {
+    "title_id": "270300094",
+    "title_name": "Ágil"
+  },
+  {
+    "title_id": "270300095",
+    "title_name": "Acolhedor"
+  },
+  {
+    "title_id": "270300096",
+    "title_name": "Simpático"
+  },
+  {
+    "title_id": "270300097",
+    "title_name": "Melhorado"
+  },
+  {
+    "title_id": "270300098",
+    "title_name": "Esbanjador"
+  },
+  {
+    "title_id": "270300099",
+    "title_name": "Abominação"
+  },
+  {
+    "title_id": "270300100",
+    "title_name": "Executando"
+  },
+  {
+    "title_id": "270300101",
+    "title_name": "Frio"
+  },
+  {
+    "title_id": "270300102",
+    "title_name": "Disseminador"
+  },
+  {
+    "title_id": "270300103",
+    "title_name": "Apocalíptico"
+  },
+  {
+    "title_id": "270300104",
+    "title_name": "Mortífero"
+  },
+  {
+    "title_id": "270300105",
+    "title_name": "Bonito"
+  },
+  {
+    "title_id": "270300106",
+    "title_name": "Firme"
+  },
+  {
+    "title_id": "270300107",
+    "title_name": "Feio"
+  },
+  {
+    "title_id": "270300108",
+    "title_name": "Malcheiroso"
+  },
+  {
+    "title_id": "270300109",
+    "title_name": "Roxo"
+  },
+  {
+    "title_id": "270300110",
+    "title_name": "Interminável"
+  },
+  {
+    "title_id": "270300111",
+    "title_name": "Tenaz"
+  },
+  {
+    "title_id": "270300112",
+    "title_name": "Animado"
+  },
+  {
+    "title_id": "270300113",
+    "title_name": "Ardente"
+  },
+  {
+    "title_id": "270300114",
+    "title_name": "Retrógrado"
+  },
+  {
+    "title_id": "270300115",
+    "title_name": "Pesado"
+  },
+  {
+    "title_id": "270300116",
+    "title_name": "Impetuoso"
+  },
+  {
+    "title_id": "270300117",
+    "title_name": "Voador"
+  },
+  {
+    "title_id": "270300118",
+    "title_name": "Inteligente"
+  },
+  {
+    "title_id": "270300119",
+    "title_name": "Pesquisador"
+  },
+  {
+    "title_id": "270300120",
+    "title_name": "Sonolento"
+  },
+  {
+    "title_id": "270300121",
+    "title_name": "Futuro"
+  },
+  {
+    "title_id": "270300122",
+    "title_name": "Destruído"
+  },
+  {
+    "title_id": "270300123",
+    "title_name": "Caído"
+  },
+  {
+    "title_id": "270300124",
+    "title_name": "Esquecido"
+  },
+  {
+    "title_id": "270300125",
+    "title_name": "Desperto"
+  },
+  {
+    "title_id": "270300126",
+    "title_name": "Irreconhecível"
+  },
+  {
+    "title_id": "270300127",
+    "title_name": "Não Identificado"
+  },
+  {
+    "title_id": "270300128",
+    "title_name": "Novo"
+  },
+  {
+    "title_id": "270300129",
+    "title_name": "Oculto"
+  },
+  {
+    "title_id": "270300130",
+    "title_name": "Consagrado"
+  },
+  {
+    "title_id": "270300131",
+    "title_name": "Subterrâneo"
+  },
+  {
+    "title_id": "270300132",
+    "title_name": "Evasivo"
+  },
+  {
+    "title_id": "270300133",
+    "title_name": "Capturado"
+  },
+  {
+    "title_id": "270300134",
+    "title_name": "Perdido"
+  },
+  {
+    "title_id": "270300135",
+    "title_name": "Antigo"
+  },
+  {
+    "title_id": "270300136",
+    "title_name": "Armazenado"
+  },
+  {
+    "title_id": "270300137",
+    "title_name": "Desmoralizado"
+  },
+  {
+    "title_id": "270300138",
+    "title_name": "Idolatrado"
+  },
+  {
+    "title_id": "270300139",
+    "title_name": "Radiante"
+  },
+  {
+    "title_id": "270300140",
+    "title_name": "Elite"
+  },
+  {
+    "title_id": "270300141",
+    "title_name": "Abandonado"
+  },
+  {
+    "title_id": "270300142",
+    "title_name": "Reprimido"
+  },
+  {
+    "title_id": "270300143",
+    "title_name": "Contínuo"
+  },
+  {
+    "title_id": "270300144",
+    "title_name": "Enterrado"
+  },
+  {
+    "title_id": "270300145",
+    "title_name": "Flutuando"
+  },
+  {
+    "title_id": "270300146",
+    "title_name": "Especial"
+  },
+  {
+    "title_id": "270300147",
+    "title_name": "Aberto"
+  },
+  {
+    "title_id": "270300148",
+    "title_name": "Tolo"
+  },
+  {
+    "title_id": "270300149",
+    "title_name": "Suspeito"
+  },
+  {
+    "title_id": "270300150",
+    "title_name": "Misturado"
+  },
+  {
+    "title_id": "270300151",
+    "title_name": "Imparável"
+  },
+  {
+    "title_id": "270300152",
+    "title_name": "Vermelho"
+  },
+  {
+    "title_id": "270300153",
+    "title_name": "Silencioso"
+  },
+  {
+    "title_id": "270300154",
+    "title_name": "Pacífico"
+  },
+  {
+    "title_id": "270300155",
+    "title_name": "Ressuscitado"
+  },
+  {
+    "title_id": "270300156",
+    "title_name": "Misterioso"
+  },
+  {
+    "title_id": "270300157",
+    "title_name": "Inacreditável"
+  },
+  {
+    "title_id": "270300158",
+    "title_name": "Velho"
+  },
+  {
+    "title_id": "270300159",
+    "title_name": "Imortal"
+  },
+  {
+    "title_id": "270300160",
+    "title_name": "Derretido"
+  },
+  {
+    "title_id": "270300161",
+    "title_name": "Invertido"
+  },
+  {
+    "title_id": "270300162",
+    "title_name": "Em Quarentena"
+  },
+  {
+    "title_id": "270300163",
+    "title_name": "Fechado"
+  },
+  {
+    "title_id": "270300164",
+    "title_name": "Depravado"
+  },
+  {
+    "title_id": "270300165",
+    "title_name": "Brilhante"
+  },
+  {
+    "title_id": "270300166",
+    "title_name": "Absorvente"
+  },
+  {
+    "title_id": "270300167",
+    "title_name": "Preparado"
+  },
+  {
+    "title_id": "270310001",
+    "title_name": "Herói"
+  },
+  {
+    "title_id": "270310002",
+    "title_name": "Guardião"
+  },
+  {
+    "title_id": "270310003",
+    "title_name": "Granadeiro"
+  },
+  {
+    "title_id": "270310004",
+    "title_name": "Sobrevivente"
+  },
+  {
+    "title_id": "270310005",
+    "title_name": "Mago"
+  },
+  {
+    "title_id": "270310006",
+    "title_name": "Engenheiro"
+  },
+  {
+    "title_id": "270310007",
+    "title_name": "Coelho"
+  },
+  {
+    "title_id": "270310008",
+    "title_name": "Tóxico"
+  },
+  {
+    "title_id": "270310009",
+    "title_name": "Mestre"
+  },
+  {
+    "title_id": "270310010",
+    "title_name": "Assassino"
+  },
+  {
+    "title_id": "270310011",
+    "title_name": "Cozinheiro"
+  },
+  {
+    "title_id": "270310012",
+    "title_name": "Dominador"
+  },
+  {
+    "title_id": "270310013",
+    "title_name": "Equipe de Construção"
+  },
+  {
+    "title_id": "270310014",
+    "title_name": "Veterano"
+  },
+  {
+    "title_id": "270310015",
+    "title_name": "Relâmpago"
+  },
+  {
+    "title_id": "270310016",
+    "title_name": "Matemático"
+  },
+  {
+    "title_id": "270310017",
+    "title_name": "Remanescente"
+  },
+  {
+    "title_id": "270310018",
+    "title_name": "Especialista"
+  },
+  {
+    "title_id": "270310019",
+    "title_name": "Técnico"
+  },
+  {
+    "title_id": "270310020",
+    "title_name": "Persuasivo"
+  },
+  {
+    "title_id": "270310021",
+    "title_name": "Professor Assistente"
+  },
+  {
+    "title_id": "270310022",
+    "title_name": "Professor"
+  },
+  {
+    "title_id": "270310023",
+    "title_name": "Amigo"
+  },
+  {
+    "title_id": "270310024",
+    "title_name": "VIP"
+  },
+  {
+    "title_id": "270310025",
+    "title_name": "Conglomerado"
+  },
+  {
+    "title_id": "270310026",
+    "title_name": "Reparador"
+  },
+  {
+    "title_id": "270310027",
+    "title_name": "Imperador"
+  },
+  {
+    "title_id": "270310028",
+    "title_name": "Executor"
+  },
+  {
+    "title_id": "270310029",
+    "title_name": "Boneco de Neve"
+  },
+  {
+    "title_id": "270310030",
+    "title_name": "Bombeiro"
+  },
+  {
+    "title_id": "270310031",
+    "title_name": "Carrasco"
+  },
+  {
+    "title_id": "270310032",
+    "title_name": "Malvado"
+  },
+  {
+    "title_id": "270310033",
+    "title_name": "Diabo"
+  },
+  {
+    "title_id": "270310034",
+    "title_name": "Cabeça oca"
+  },
+  {
+    "title_id": "270310035",
+    "title_name": "Sombra"
+  },
+  {
+    "title_id": "270310036",
+    "title_name": "Flocos de Neve"
+  },
+  {
+    "title_id": "270310037",
+    "title_name": "Tutor"
+  },
+  {
+    "title_id": "270310038",
+    "title_name": "Chamas"
+  },
+  {
+    "title_id": "270310039",
+    "title_name": "Acrobata"
+  },
+  {
+    "title_id": "270310040",
+    "title_name": "Tartaruga"
+  },
+  {
+    "title_id": "270310041",
+    "title_name": "Neblina"
+  },
+  {
+    "title_id": "270310042",
+    "title_name": "Rastreador"
+  },
+  {
+    "title_id": "270310043",
+    "title_name": "Gigante"
+  },
+  {
+    "title_id": "270310044",
+    "title_name": "Lua Cheia"
+  },
+  {
+    "title_id": "270310045",
+    "title_name": "Obra de Arte"
+  },
+  {
+    "title_id": "270310046",
+    "title_name": "Conquistador"
+  },
+  {
+    "title_id": "270310047",
+    "title_name": "Estrela"
+  },
+  {
+    "title_id": "270310048",
+    "title_name": "Chocado"
+  },
+  {
+    "title_id": "270310049",
+    "title_name": "Forno"
+  },
+  {
+    "title_id": "270310050",
+    "title_name": "Paixão"
+  },
+  {
+    "title_id": "270310051",
+    "title_name": "Timoneiro"
+  },
+  {
+    "title_id": "270310052",
+    "title_name": "Cirurgião militar"
+  },
+  {
+    "title_id": "270310053",
+    "title_name": "Melodia"
+  },
+  {
+    "title_id": "270310054",
+    "title_name": "Atacante"
+  },
+  {
+    "title_id": "270310055",
+    "title_name": "Faminto"
+  },
+  {
+    "title_id": "270310056",
+    "title_name": "Espírito de Devorador"
+  },
+  {
+    "title_id": "270310057",
+    "title_name": "Sanguessuga"
+  },
+  {
+    "title_id": "270310058",
+    "title_name": "Requerente de asilo"
+  },
+  {
+    "title_id": "270310059",
+    "title_name": "Atirador"
+  },
+  {
+    "title_id": "270310060",
+    "title_name": "Maníaco"
+  },
+  {
+    "title_id": "270310061",
+    "title_name": "Assistente"
+  },
+  {
+    "title_id": "270310062",
+    "title_name": "Médico"
+  },
+  {
+    "title_id": "270310063",
+    "title_name": "Disseminador"
+  },
+  {
+    "title_id": "270310064",
+    "title_name": "Salvador"
+  },
+  {
+    "title_id": "270310065",
+    "title_name": "Paciente"
+  },
+  {
+    "title_id": "270310066",
+    "title_name": "Imortal"
+  },
+  {
+    "title_id": "270310067",
+    "title_name": "Franco-atirador"
+  },
+  {
+    "title_id": "270310068",
+    "title_name": "Arruaceiro"
+  },
+  {
+    "title_id": "270310069",
+    "title_name": "Especialista"
+  },
+  {
+    "title_id": "270310070",
+    "title_name": "Descendente"
+  },
+  {
+    "title_id": "270310071",
+    "title_name": "Herdeiro"
+  },
+  {
+    "title_id": "270310072",
+    "title_name": "Cavaleiro"
+  },
+  {
+    "title_id": "270310073",
+    "title_name": "Luar"
+  },
+  {
+    "title_id": "270310074",
+    "title_name": "Explorador"
+  },
+  {
+    "title_id": "270310075",
+    "title_name": "Carinhoso"
+  },
+  {
+    "title_id": "270310076",
+    "title_name": "Parceiro"
+  },
+  {
+    "title_id": "270310077",
+    "title_name": "Idiota"
+  },
+  {
+    "title_id": "270310078",
+    "title_name": "Dourado"
+  },
+  {
+    "title_id": "270310079",
+    "title_name": "Ladrão"
+  },
+  {
+    "title_id": "270310080",
+    "title_name": "Porco"
+  },
+  {
+    "title_id": "270310081",
+    "title_name": "Caminhar"
+  },
+  {
+    "title_id": "270310082",
+    "title_name": "Paradoxo"
+  },
+  {
+    "title_id": "270310083",
+    "title_name": "Insônia"
+  },
+  {
+    "title_id": "270310084",
+    "title_name": "Frente Fria"
+  },
+  {
+    "title_id": "270310085",
+    "title_name": "Predador"
+  },
+  {
+    "title_id": "270310086",
+    "title_name": "Incendiário"
+  },
+  {
+    "title_id": "270310087",
+    "title_name": "Pantanoso"
+  },
+  {
+    "title_id": "270310088",
+    "title_name": "O Intrometido"
+  },
+  {
+    "title_id": "270310089",
+    "title_name": "Glacial"
+  },
+  {
+    "title_id": "270310090",
+    "title_name": "Destruidor"
+  },
+  {
+    "title_id": "270310091",
+    "title_name": "Esmeralda"
+  },
+  {
+    "title_id": "270310092",
+    "title_name": "Ceifeiro"
+  },
+  {
+    "title_id": "270310093",
+    "title_name": "Novo Recruta"
+  },
+  {
+    "title_id": "270310094",
+    "title_name": "Véu"
+  },
+  {
+    "title_id": "270310095",
+    "title_name": "Calor"
+  },
+  {
+    "title_id": "270310096",
+    "title_name": "Refluxo"
+  },
+  {
+    "title_id": "270310097",
+    "title_name": "Flocos de Neve"
+  },
+  {
+    "title_id": "270310098",
+    "title_name": "Vulcão"
+  },
+  {
+    "title_id": "270310099",
+    "title_name": "Guloso"
+  },
+  {
+    "title_id": "270310100",
+    "title_name": "Atirador"
+  },
+  {
+    "title_id": "270310101",
+    "title_name": "Guardião de Sepulcros"
+  },
+  {
+    "title_id": "270310102",
+    "title_name": "Obra-prima"
+  },
+  {
+    "title_id": "270310103",
+    "title_name": "Punidor"
+  },
+  {
+    "title_id": "270310104",
+    "title_name": "Gourmand"
+  },
+  {
+    "title_id": "270310105",
+    "title_name": "Pegada"
+  },
+  {
+    "title_id": "270310106",
+    "title_name": "Obstáculo"
+  },
+  {
+    "title_id": "270310107",
+    "title_name": "Nevasca"
+  },
+  {
+    "title_id": "270310108",
+    "title_name": "Juiz"
+  },
+  {
+    "title_id": "270310109",
+    "title_name": "Vestígio"
+  },
+  {
+    "title_id": "270310110",
+    "title_name": "Guarda"
+  },
+  {
+    "title_id": "270310111",
+    "title_name": "Ator"
+  },
+  {
+    "title_id": "270310112",
+    "title_name": "Poeta"
+  },
+  {
+    "title_id": "270310113",
+    "title_name": "Palhaço"
+  },
+  {
+    "title_id": "270310114",
+    "title_name": "Pesquisador"
+  },
+  {
+    "title_id": "270310115",
+    "title_name": "Chamado"
+  },
+  {
+    "title_id": "270310116",
+    "title_name": "Pesadelo"
+  },
+  {
+    "title_id": "270310117",
+    "title_name": "Pedra"
+  },
+  {
+    "title_id": "270310118",
+    "title_name": "Controlador"
+  },
+  {
+    "title_id": "270310119",
+    "title_name": "Sucesso"
+  },
+  {
+    "title_id": "270310120",
+    "title_name": "Secreto"
+  },
+  {
+    "title_id": "270310121",
+    "title_name": "Aço"
+  },
+  {
+    "title_id": "270310122",
+    "title_name": "Dor"
+  },
+  {
+    "title_id": "270310123",
+    "title_name": "Sentinela"
+  },
+  {
+    "title_id": "270310124",
+    "title_name": "Lenhador"
+  },
+  {
+    "title_id": "270310125",
+    "title_name": "Arqueólogo"
+  },
+  {
+    "title_id": "270310126",
+    "title_name": "Promessa"
+  },
+  {
+    "title_id": "270310127",
+    "title_name": "Equipe de Ataque"
+  },
+  {
+    "title_id": "270310128",
+    "title_name": "Refugiado"
+  },
+  {
+    "title_id": "270310129",
+    "title_name": "Guardião da Floresta"
+  },
+  {
+    "title_id": "270310130",
+    "title_name": "Guarda-costas"
+  },
+  {
+    "title_id": "270310131",
+    "title_name": "Polícia Militar"
+  },
+  {
+    "title_id": "270310132",
+    "title_name": "Florestal"
+  },
+  {
+    "title_id": "270310133",
+    "title_name": "Equipe de Defesa"
+  },
+  {
+    "title_id": "270310134",
+    "title_name": "Fugitivo"
+  },
+  {
+    "title_id": "270310135",
+    "title_name": "Espírito"
+  },
+  {
+    "title_id": "270310136",
+    "title_name": "Traidor"
+  },
+  {
+    "title_id": "270310137",
+    "title_name": "Escudo"
+  },
+  {
+    "title_id": "270310138",
+    "title_name": "Agricultor"
+  },
+  {
+    "title_id": "270310139",
+    "title_name": "Baldio"
+  },
+  {
+    "title_id": "270310140",
+    "title_name": "Forças Especiais"
+  },
+  {
+    "title_id": "270310141",
+    "title_name": "Resquício"
+  },
+  {
+    "title_id": "270310142",
+    "title_name": "Duna"
+  },
+  {
+    "title_id": "270310143",
+    "title_name": "Sol"
+  },
+  {
+    "title_id": "270310144",
+    "title_name": "Soldado"
+  },
+  {
+    "title_id": "270310145",
+    "title_name": "Guarda de Segurança"
+  },
+  {
+    "title_id": "270310146",
+    "title_name": "Verdade"
+  },
+  {
+    "title_id": "270310147",
+    "title_name": "Cientista"
+  },
+  {
+    "title_id": "270310148",
+    "title_name": "Vigilante"
+  },
+  {
+    "title_id": "270310149",
+    "title_name": "Mutante"
+  },
+  {
+    "title_id": "270310150",
+    "title_name": "Espécime de Teste"
+  },
+  {
+    "title_id": "270310151",
+    "title_name": "Honra"
+  },
+  {
+    "title_id": "270310152",
+    "title_name": "Equipe de Batedores"
+  },
+  {
+    "title_id": "270310153",
+    "title_name": "Mistério"
+  },
+  {
+    "title_id": "270310154",
+    "title_name": "Componente"
+  },
+  {
+    "title_id": "270310155",
+    "title_name": "Sacrifício"
+  },
+  {
+    "title_id": "270310156",
+    "title_name": "Reforços"
+  },
+  {
+    "title_id": "270310157",
+    "title_name": "Punição Divina"
+  },
+  {
+    "title_id": "270310158",
+    "title_name": "Baluarte"
+  },
+  {
+    "title_id": "270310159",
+    "title_name": "Força de Ataque"
+  },
+  {
+    "title_id": "270310160",
+    "title_name": "Chefe"
+  },
+  {
+    "title_id": "270310161",
+    "title_name": "Veterano"
+  },
+  {
+    "title_id": "270310162",
+    "title_name": "Comandante"
+  },
+  {
+    "title_id": "270310163",
+    "title_name": "Equipe de Análise"
+  },
+  {
+    "title_id": "270310164",
+    "title_name": "Coração"
+  },
+  {
+    "title_id": "270310165",
+    "title_name": "Glória"
+  }
+]

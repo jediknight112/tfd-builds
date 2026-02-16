@@ -1,0 +1,22 @@
+[
+  {
+    "tier_id": "All",
+    "tier_name": "Palier : tous"
+  },
+  {
+    "tier_id": "Tier1",
+    "tier_name": "Normal"
+  },
+  {
+    "tier_id": "Tier2",
+    "tier_name": "Rare"
+  },
+  {
+    "tier_id": "Tier3",
+    "tier_name": "Ultime"
+  },
+  {
+    "tier_id": "Tier4",
+    "tier_name": "Transcendant"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "tier_id": "All",
+    "tier_name": "グレード：全て"
+  },
+  {
+    "tier_id": "Tier1",
+    "tier_name": "ノーマル"
+  },
+  {
+    "tier_id": "Tier2",
+    "tier_name": "レア"
+  },
+  {
+    "tier_id": "Tier3",
+    "tier_name": "アルティメット"
+  },
+  {
+    "tier_id": "Tier4",
+    "tier_name": "イクシード"
+  }
+]
