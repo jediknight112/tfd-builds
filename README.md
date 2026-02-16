@@ -22,7 +22,7 @@ A modern web application for viewing and planning character builds for **The Fir
 ## Tech Stack
 
 - **Frontend**: Vanilla JavaScript (ES6+)
-- **Styling**: Tailwind CSS with custom gaming theme
+- **Styling**: Tailwind CSS v4 with custom gaming theme
 - **Build Tool**: Vite
 - **API**: TFD Cache API (Cloudflare Workers)
 - **Icons**: Heroicons (inline SVG)

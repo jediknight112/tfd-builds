@@ -138,7 +138,7 @@ export class CoreSelector {
                   if (statsArray.length === 0) return '';
 
                   return `
-                  <div class="bg-tfd-darker p-3 rounded">
+                  <div class="bg-tfd-darker p-3 rounded-sm">
                     <div class="text-sm font-semibold text-gray-300 mb-2">Option ${optionIndex + 1}</div>
                     <div class="space-y-2">
                       ${statsArray
@@ -166,7 +166,7 @@ export class CoreSelector {
                               step="0.01"
                               placeholder="Value"
                               value="${existingCoreStat?.stat_value || ''}"
-                              class="w-20 px-2 py-1 text-xs bg-tfd-dark border border-gray-600 rounded text-tfd-primary"
+                              class="w-20 px-2 py-1 text-xs bg-tfd-dark border border-gray-600 rounded-sm text-tfd-primary"
                               ${existingCoreStat ? '' : 'disabled'}
                               onchange="window.app.updateCoreStatValue('${coreTypeId}', '${option.core_option_id}', '${stat.stat_id}', this.value)"
                             >
@@ -313,7 +313,7 @@ export class CoreSelector {
                   if (statsArray.length === 0) return '';
 
                   return `
-                  <div class="bg-tfd-darker p-3 rounded">
+                  <div class="bg-tfd-darker p-3 rounded-sm">
                     <div class="text-sm font-semibold text-gray-300 mb-2">Option ${optionIndex + 1}</div>
                     <div class="space-y-2">
                       ${statsArray
@@ -341,7 +341,7 @@ export class CoreSelector {
                               step="0.01"
                               placeholder="Value"
                               value="${existingCoreStat?.stat_value || ''}"
-                              class="w-20 px-2 py-1 text-xs bg-tfd-dark border border-gray-600 rounded text-tfd-primary"
+                              class="w-20 px-2 py-1 text-xs bg-tfd-dark border border-gray-600 rounded-sm text-tfd-primary"
                               ${existingCoreStat ? '' : 'disabled'}
                               onchange="window.app.updateExternalComponentCoreStatValue('${equipmentType}', '${coreTypeId}', '${option.core_option_id}', '${stat.stat_id}', this.value)"
                             >
