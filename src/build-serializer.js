@@ -5,7 +5,8 @@ import LZString from 'lz-string';
  * Uses LZ-string for compression and localStorage for backup
  *
  * Compact format (v2) uses single-letter keys to minimize URL length:
- * v: version, d: descendant_id, t: trigger_module_id, m: descendant_modules
+ * v: version, d: descendant_id, t: trigger_module_id
+ * m: descendant_modules - [[slot_index, module_id]] preserves positions (critical for slots 0 & 6)
  * w: weapons array [weapon_id, [modules], [[stat_id,value]], core_type_id, [[opt,stat,val]]]
  * r: reactor_id, s: reactor_stats, e: external_components, a: arche_tuning
  */
@@ -38,10 +39,14 @@ export class BuildSerializer {
       data.t = build.triggerModule.module_id; // trigger_module
     }
 
-    // Descendant modules - filter out nulls
-    const descendantMods = build.descendantModules
-      .map((m) => m?.module_id)
-      .filter((id) => id);
+    // Descendant modules - preserve slot positions with [index, module_id] pairs
+    // This is critical because slot 0 (Skill) and slot 6 (Sub) have special restrictions
+    const descendantMods = [];
+    build.descendantModules.forEach((m, idx) => {
+      if (m?.module_id) {
+        descendantMods.push([idx, m.module_id]);
+      }
+    });
     if (descendantMods.length) {
       data.m = descendantMods;
     }
@@ -192,12 +197,26 @@ export class BuildSerializer {
     }
 
     // Reconstruct descendant modules
+    // Format: [[slot_index, module_id]] - preserves slot positions for special slots
     const descendantModules = new Array(12).fill(null);
-    (buildData.m || []).forEach((id, idx) => {
-      if (!id) return;
-      const module = this.state.modules.find((m) => m.module_id === id);
-      if (!module) warnings.push(`Module not found: ${id}`);
-      descendantModules[idx] = module || null;
+    (buildData.m || []).forEach((entry) => {
+      // Handle both new format [index, id] and legacy format (just id)
+      let slotIndex, moduleId;
+      if (Array.isArray(entry)) {
+        [slotIndex, moduleId] = entry;
+      } else {
+        // Legacy format: assume sequential filling (will be wrong for special slots)
+        // This handles old URLs that didn't preserve positions
+        console.warn('Legacy module format detected - slot positions may be incorrect');
+        const nextEmpty = descendantModules.findIndex((m) => m === null);
+        slotIndex = nextEmpty >= 0 ? nextEmpty : descendantModules.length;
+        moduleId = entry;
+      }
+      
+      if (!moduleId || slotIndex >= 12) return;
+      const module = this.state.modules.find((m) => m.module_id === moduleId);
+      if (!module) warnings.push(`Module not found: ${moduleId}`);
+      descendantModules[slotIndex] = module || null;
     });
 
     // Reconstruct weapons from compact format: [weaponId, [modIds], [[statId,val]], coreTypeId, [[opt,stat,val]]]
@@ -380,9 +399,14 @@ export class BuildSerializer {
       v2.t = v1Data.trigger_module_id;
     }
 
-    const descendantMods = (v1Data.descendant_module_ids || []).filter(
-      (id) => id
-    );
+    // Convert descendant modules to new format with [index, module_id] pairs
+    // This preserves slot positions for special slots (0=Skill, 6=Sub)
+    const descendantMods = [];
+    (v1Data.descendant_module_ids || []).forEach((id, idx) => {
+      if (id) {
+        descendantMods.push([idx, id]);
+      }
+    });
     if (descendantMods.length) {
       v2.m = descendantMods;
     }

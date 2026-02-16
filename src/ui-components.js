@@ -8,11 +8,44 @@ export class UIComponents {
     module,
     slotIndex,
     isWeaponModule = false,
-    weaponIndex = null
+    weaponIndex = null,
+    slotType = null
   ) {
     const moduleSlot = document.createElement('div');
-    moduleSlot.className =
-      'module-slot group relative border-2 border-tfd-primary/30 rounded-lg p-2 sm:p-3 hover:border-tfd-accent transition-all cursor-pointer bg-black/50 hover:bg-black/70';
+    
+    // Determine slot-specific colors for special slots
+    const isTriggerSlot = slotIndex === 'trigger' || slotType === 'Trigger';
+    const isSkillSlot = slotIndex === 0 || slotType === 'Skill';
+    const isSubSlot = slotIndex === 6 || slotType === 'Sub';
+    
+    let borderColor, hoverBorderColor;
+    if (isTriggerSlot) {
+      borderColor = '#EAD590';
+      hoverBorderColor = '#EAD590';
+    } else if (isSkillSlot) {
+      borderColor = '#549E94';
+      hoverBorderColor = '#549E94';
+    } else if (isSubSlot) {
+      borderColor = '#A98163';
+      hoverBorderColor = '#A98163';
+    }
+    
+    if (borderColor) {
+      moduleSlot.className =
+        'module-slot group relative border-2 rounded-lg p-2 sm:p-3 transition-all cursor-pointer bg-black/50 hover:bg-black/70';
+      moduleSlot.style.borderColor = borderColor + '4D'; // 30% opacity
+      // Add hover effect via CSS variable
+      moduleSlot.style.setProperty('--hover-border-color', hoverBorderColor);
+      moduleSlot.addEventListener('mouseenter', () => {
+        moduleSlot.style.borderColor = hoverBorderColor;
+      });
+      moduleSlot.addEventListener('mouseleave', () => {
+        moduleSlot.style.borderColor = borderColor + '4D';
+      });
+    } else {
+      moduleSlot.className =
+        'module-slot group relative border-2 border-tfd-primary/30 rounded-lg p-2 sm:p-3 hover:border-tfd-accent transition-all cursor-pointer bg-black/50 hover:bg-black/70';
+    }
 
     if (module) {
       const tierClass = module.module_tier
@@ -28,7 +61,7 @@ export class UIComponents {
           ? module.module_stat[module.module_stat.length - 1]
           : null;
 
-      const isTriggerSlot = slotIndex === 'trigger';
+      const isTriggerSlot = slotIndex === 'trigger' || slotType === 'Trigger';
 
       moduleSlot.innerHTML = `
         <div class="flex flex-col gap-2">
@@ -546,7 +579,10 @@ export class UIComponents {
       triggerSlot.innerHTML = '';
       const triggerModuleSlot = this.createModuleSlot(
         state.currentBuild.triggerModule,
-        'trigger'
+        'trigger',
+        false,
+        null,
+        'Trigger'
       );
       triggerSlot.appendChild(triggerModuleSlot);
 
@@ -563,9 +599,22 @@ export class UIComponents {
     if (modulesGrid) {
       modulesGrid.innerHTML = '';
       for (let i = 0; i < 12; i++) {
+        // Determine slot type based on index
+        let slotType;
+        if (i === 0) {
+          slotType = 'Skill';
+        } else if (i === 6) {
+          slotType = 'Sub';
+        } else {
+          slotType = 'Main';
+        }
+        
         const moduleSlot = this.createModuleSlot(
           state.currentBuild.descendantModules[i],
-          i
+          i,
+          false,
+          null,
+          slotType
         );
         modulesGrid.appendChild(moduleSlot);
 
@@ -573,15 +622,6 @@ export class UIComponents {
         if (!state.currentBuild.descendantModules[i]) {
           moduleSlot.addEventListener('click', () => {
             if (window.app) {
-              // Determine slot type based on index
-              let slotType;
-              if (i === 0) {
-                slotType = 'Skill';
-              } else if (i === 6) {
-                slotType = 'Sub';
-              } else {
-                slotType = 'Main';
-              }
               window.app.openModuleSelector(i, slotType);
             }
           });

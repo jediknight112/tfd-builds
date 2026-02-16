@@ -58,6 +58,10 @@ I will act as a **senior full-stack JavaScript developer** with expertise in:
   - `tfd-secondary`: Orange
   - `tfd-accent`: Purple
   - `tfd-neutral`: Gray/Slate
+  - **Special slot colors** (custom borders for visual differentiation):
+    - Skill slot (slot 0): Teal `#549E94`
+    - Sub slot (slot 6): Tan `#A98163`
+    - Trigger slot: Gold `#EAD590`
 
 ## 5. Data Flow
 
@@ -72,8 +76,11 @@ I will act as a **senior full-stack JavaScript developer** with expertise in:
 
 ### Build Sharing (Serialization)
 
-- Builds are saved in the URL using the `?build=` query parameter.
+- Builds are saved in the URL using the `?build=` query parameter or `#<compressed_data>` hash format.
 - The build data from the state object is serialized into a string and compressed using `lz-string`.
+- **Module slot positions are preserved** during serialization using `[slot_index, module_id]` pairs.
+  - This is critical because slot 0 (Skill) and slot 6 (Sub) are special slots with module type restrictions.
+  - See `docs/MODULE_SLOT_POSITION_FIX.md` for implementation details.
 - On page load, the app checks for this parameter, decompresses it, and hydrates the state.
 
 ## 6. Development Workflow
@@ -102,8 +109,17 @@ I will act as a **senior full-stack JavaScript developer** with expertise in:
 - `src/state.js`: **Single source of truth for all data.**
 - `src/ui-components.js`: Reusable UI element factories.
 - `src/api-client.js`: Handles all API communication with `tfd-cache`.
-- `src/build-serializer.js`: Handles URL build compression/decompression.
+- `src/build-serializer.js`: Handles URL build compression/decompression with slot position preservation.
 - `docs/`: Detailed project documentation.
+
+### Descendant Module Slots (Important Constraints)
+
+- **12 total module slots** with special restrictions:
+  - **Slot 0 (displayed as Slot 1)**: Skill modules only (teal border)
+  - **Slot 6 (displayed as Slot 7)**: Sub modules only (tan border)
+  - **Trigger slot**: Separate trigger module slot (gold border)
+  - **Other slots**: Main modules only
+- Slot positions must be preserved during serialization (handled automatically by `build-serializer.js`).
 
 ### Core Commands
 
