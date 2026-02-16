@@ -24,7 +24,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20260210.0",
+    "@cloudflare/workers-types": "^4.20260214.0",
     "@vitest/ui": "^4.0.18",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.49",
