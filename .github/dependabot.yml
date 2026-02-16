@@ -35,14 +35,6 @@ updates:
     allow:
       - dependency-type: 'direct'
       - dependency-type: 'indirect'
-    # Skip major version updates for critical dependencies
-    ignore:
-      - dependency-name: '@cloudflare/workers-types'
-        update-types: ['version-update:semver-major']
-      - dependency-name: 'wrangler'
-        update-types: ['version-update:semver-major']
-      - dependency-name: 'vite'
-        update-types: ['version-update:semver-major']
 
   # Enable version updates for GitHub Actions
   - package-ecosystem: 'github-actions'
