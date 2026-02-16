@@ -32,6 +32,11 @@ I will act as a **senior full-stack JavaScript developer** with expertise in:
 - **Centralized State**: `src/state.js` is the **single source of truth**. Do not manage state within components or modules directly.
 - **Component Factories**: UI elements are created by plain JavaScript functions in `src/ui-components.js` that return DOM elements.
 - **API Client**: All backend communication is handled through `src/api-client.js`.
+- **Localization**:
+  - The app supports 12 languages via the `language_code` query parameter in API calls.
+  - Localized category names (Module Class, Socket Type, etc.) are managed in `state.js` via the `LOCALIZED_STRINGS` object.
+  - Use `state.getLocalizedModuleClass()`, `state.getLocalizedSocketType()`, etc., for robust filtering across languages.
+  - When the language changes, metadata is re-fetched and the current build is reset.
 
 ## 4. Code Conventions
 
@@ -53,6 +58,10 @@ I will act as a **senior full-stack JavaScript developer** with expertise in:
   ```
 
 - **Styling**: Use **Tailwind CSS utility classes exclusively**. Do not write inline styles or separate CSS files.
+- **Responsive Design**: The application is mobile-first. Use Tailwind's responsive prefixes (`sm:`, `md:`, etc.).
+  - **Bottom Action Bar**: On mobile (`< sm`), primary actions (Refresh, Share, New Build) are located in a fixed bottom bar.
+  - **Modals**: Modals should be full-screen on mobile (`h-full rounded-none`) and use standard card styling on larger screens.
+  - **Touch Targets**: Ensure interactive elements have a minimum touch target size (44x44px where possible).
 - **Theming**: Adhere to the established gaming theme. Use the custom colors defined in `tailwind.config.js`:
   - `tfd-primary`: Cyan
   - `tfd-secondary`: Orange
@@ -73,6 +82,7 @@ I will act as a **senior full-stack JavaScript developer** with expertise in:
 4.  All game metadata (descendants, modules, weapons, etc.) is fetched from the `tfd-cache` service.
 5.  This metadata is stored in `state.js`.
 6.  The UI renders based on the data in the state object.
+7.  **Mobile UI state** is updated (e.g., enabling/disabling the share button via `UIComponents.updateMobileShareButton`).
 
 ### Build Sharing (Serialization)
 

@@ -82,6 +82,14 @@ Each module is self-contained and handles a specific feature:
 - **[docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)**: Deployment instructions
 - **[docs/API_KEYS_SETUP.md](docs/API_KEYS_SETUP.md)**: API key configuration guide
 
+### Localization System
+
+- **Multi-language Support**: Supports 12 languages (en, de, es, fr, it, ja, ko, pl, pt, ru, zh-CN, zh-TW).
+- **Localized Metadata**: API calls include `language_code` to fetch translated game data.
+- **Internal Translation Map**: `LOCALIZED_STRINGS` in `state.js` provides a mapping for static game categories (e.g., "Socket Type", "Module Class") used in filtering logic.
+- **Language Switching**: Changing the language triggers a full metadata re-fetch and resets the current build to ensure data consistency.
+- **Helper Methods**: Use `state.getLocalized*` methods to get the correct string for the current active language.
+
 ## Code Conventions & Patterns
 
 ### JavaScript Style
@@ -119,13 +127,17 @@ export function createMyComponent(data) {
 - Components read from state but don't directly mutate it
 - Use state update functions when modifying state
 - Components re-render when state changes
+- **Mobile Actions**: Update mobile-specific UI states (like the share button enabled/disabled state) using `UIComponents.updateMobileShareButton()`.
 
 ### Styling
 
 - Use **Tailwind CSS utility classes exclusively**
 - Reference custom theme colors: `tfd-primary`, `tfd-secondary`, `tfd-accent`, `tfd-neutral`
 - Gaming theme: use neon effects, borders, shadows from Tailwind config
-- Responsive design: use Tailwind's responsive prefixes (`sm:`, `md:`, `lg:`)
+- **Responsive design**: Use Tailwind's responsive prefixes (`sm:`, `md:`, `lg:`).
+  - **Mobile-First**: Primary navigation and actions (Share, New Build) use a fixed bottom action bar on mobile.
+  - **Full-Screen Modals**: On mobile, modals occupy the full viewport and use tighter internal spacing.
+  - **Touch Targets**: Use `min-height: 44px` for buttons and interactive slots.
 
 ### API Interactions
 
@@ -133,6 +145,7 @@ export function createMyComponent(data) {
 - API client handles authentication (API keys in headers)
 - Error handling at the API client level
 - Loading states managed in state.js
+- **UI Notifications**: Use `UIComponents.showSuccess()`, `showWarning()`, or `showError()` instead of browser `alert()`. Toasts appear at the bottom-center on mobile.
 
 ## Development Workflow
 
@@ -225,6 +238,7 @@ Keys can be configured via:
 - 5 core stats per weapon (predefined options)
 - 4 external component types
 - Arche tuning boards with multiple nodes
+- **Mobile Share Button**: The mobile share button is disabled (greyed out) until a descendant is selected.
 
 ### Gaming Theme
 
