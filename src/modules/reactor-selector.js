@@ -150,13 +150,13 @@ export class ReactorSelector {
           <img 
             src="${reactor.image_url}" 
             alt="${reactor.reactor_name}"
-            class="w-16 h-16 object-cover rounded border-2 border-steel-grey/30 flex-shrink-0"
+            class="w-16 h-16 object-cover rounded-sm border-2 border-steel-grey/30 shrink-0"
             loading="lazy"
             onerror="this.style.display='none'"
           >
           <div class="flex-1 min-w-0">
             <h4 class="font-bold text-cyber-cyan line-clamp-2 mb-1">${reactor.reactor_name}</h4>
-            ${reactor.reactor_tier_id ? `<span class="inline-block px-2 py-0.5 rounded text-xs font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${getTierDisplayName(reactor.reactor_tier_id)}</span>` : ''}
+            ${reactor.reactor_tier_id ? `<span class="inline-block px-2 py-0.5 rounded-sm text-xs font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${getTierDisplayName(reactor.reactor_tier_id)}</span>` : ''}
           </div>
         </div>
         
@@ -258,13 +258,13 @@ export class ReactorSelector {
           <img 
             src="${reactor.image_url}" 
             alt="${reactor.reactor_name}"
-            class="w-24 h-24 object-cover rounded border-2 border-steel-grey/30 flex-shrink-0"
+            class="w-24 h-24 object-cover rounded-sm border-2 border-steel-grey/30 shrink-0"
             loading="lazy"
             onerror="this.style.display='none'"
           >
           <div class="flex-1">
             <h3 class="text-xl font-bold text-cyber-cyan mb-2">${reactor.reactor_name}</h3>
-            ${reactor.reactor_tier_id ? `<span class="inline-block px-3 py-1 rounded text-sm font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${getTierDisplayName(reactor.reactor_tier_id)}</span>` : ''}
+            ${reactor.reactor_tier_id ? `<span class="inline-block px-3 py-1 rounded-sm text-sm font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${getTierDisplayName(reactor.reactor_tier_id)}</span>` : ''}
           </div>
           <button 
             onclick="app.reactorSelector.openReactorSelector()"
@@ -343,14 +343,14 @@ export class ReactorSelector {
                     placeholder="Stat Name" 
                     value="${stat.name}"
                     list="reactor-stat-names"
-                    class="flex-1 px-3 py-2 bg-void-deep border border-cyber-cyan/30 rounded text-steel-light placeholder-steel-grey text-sm focus:border-cyber-cyan focus:outline-none"
+                    class="flex-1 px-3 py-2 bg-void-deep border border-cyber-cyan/30 rounded-sm text-steel-light placeholder-steel-grey text-sm focus:border-cyber-cyan focus:outline-hidden"
                     data-stat-index="${index}"
                   />
                   <input 
                     type="number" 
                     placeholder="0" 
                     value="${stat.value}"
-                    class="w-24 px-3 py-2 bg-void-deep border border-cyber-cyan/30 rounded text-steel-light text-right text-sm focus:border-cyber-cyan focus:outline-none"
+                    class="w-24 px-3 py-2 bg-void-deep border border-cyber-cyan/30 rounded-sm text-steel-light text-right text-sm focus:border-cyber-cyan focus:outline-hidden"
                     data-stat-index="${index}"
                     data-type="value"
                   />

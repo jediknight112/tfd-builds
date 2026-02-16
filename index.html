@@ -84,14 +84,14 @@
         <!-- Descendant Info Header -->
         <section class="mb-6">
           <div
-            class="card bg-gradient-to-r from-tfd-dark via-tfd-dark to-tfd-accent/20"
+            class="card bg-linear-to-r from-tfd-dark via-tfd-dark to-tfd-accent/20"
           >
             <div
               class="flex flex-col sm:flex-row items-center sm:items-center gap-4 sm:gap-6"
             >
               <div
                 id="descendant-image"
-                class="w-24 h-24 sm:w-32 sm:h-32 bg-tfd-darker rounded-lg border-2 border-tfd-primary flex items-center justify-center overflow-hidden flex-shrink-0"
+                class="w-24 h-24 sm:w-32 sm:h-32 bg-tfd-darker rounded-lg border-2 border-tfd-primary flex items-center justify-center overflow-hidden shrink-0"
               >
                 <svg
                   class="w-12 h-12 sm:w-16 sm:h-16 text-tfd-primary/50"
@@ -459,7 +459,7 @@
           <input
             type="text"
             id="module-search"
-            class="w-full px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-none focus:ring-2 focus:ring-cyber-cyan/50 transition-all"
+            class="w-full px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-hidden focus:ring-2 focus:ring-cyber-cyan/50 transition-all"
             placeholder="Search modules..."
             oninput="app.filterModules()"
           />
@@ -606,7 +606,7 @@
           <input
             type="text"
             id="weapon-search"
-            class="w-full px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-none focus:ring-2 focus:ring-cyber-cyan/50 transition-all"
+            class="w-full px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-hidden focus:ring-2 focus:ring-cyber-cyan/50 transition-all"
             placeholder="Search weapons..."
             oninput="app.filterWeapons()"
           />
@@ -844,7 +844,7 @@
               type="text"
               id="reactor-search"
               placeholder="Search reactors..."
-              class="flex-1 px-3 sm:px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-none focus:ring-2 focus:ring-cyber-cyan/50 transition-all text-sm"
+              class="flex-1 px-3 sm:px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-hidden focus:ring-2 focus:ring-cyber-cyan/50 transition-all text-sm"
             />
 
             <!-- Tier Filter -->
@@ -925,7 +925,7 @@
               type="text"
               id="external-component-search"
               placeholder="Search components..."
-              class="flex-1 px-3 sm:px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-none focus:ring-2 focus:ring-cyber-cyan/50 transition-all text-sm"
+              class="flex-1 px-3 sm:px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-hidden focus:ring-2 focus:ring-cyber-cyan/50 transition-all text-sm"
             />
 
             <!-- Tier Filter -->
@@ -998,7 +998,7 @@
               type="text"
               id="stat-search"
               placeholder="Search stats..."
-              class="w-full px-4 py-2 bg-tfd-dark border border-gray-600 rounded-lg text-gray-300 placeholder-gray-500 focus:border-tfd-primary focus:outline-none"
+              class="w-full px-4 py-2 bg-tfd-dark border border-gray-600 rounded-lg text-gray-300 placeholder-gray-500 focus:border-tfd-primary focus:outline-hidden"
               oninput="app.filterStats()"
             />
           </div>
@@ -1021,7 +1021,7 @@
               step="0.01"
               id="custom-stat-value"
               placeholder="Enter value (e.g., 150 or 0.25 for 25%)"
-              class="w-full px-4 py-2 bg-tfd-dark border border-gray-600 rounded-lg text-gray-300 placeholder-gray-500 focus:border-tfd-primary focus:outline-none"
+              class="w-full px-4 py-2 bg-tfd-dark border border-gray-600 rounded-lg text-gray-300 placeholder-gray-500 focus:border-tfd-primary focus:outline-hidden"
             />
           </div>
         </div>

@@ -7,15 +7,18 @@ This document provides essential context for me, Gemini, to effectively assist w
 TFD-Builds is a Single-Page Application (SPA) for the video game "The First Descendant." It allows players to create, view, and share character builds. It is built intentionally with **vanilla JavaScript** (no frameworks) to be lightweight and fast.
 
 ### Companion Service: tfd-cache
+
 This project is tightly coupled with a companion service named `tfd-cache`, located at `/Users/jeffrey.crane/GitHub/tfd-cache`. This Cloudflare Worker service is responsible for:
+
 - Caching data from the official Nexon API.
 - Caching game asset images.
 - Handling API key authentication.
-**All API calls from this project go to the `tfd-cache` service, not directly to the Nexon API.**
+  **All API calls from this project go to the `tfd-cache` service, not directly to the Nexon API.**
 
 ## 2. Persona
 
 I will act as a **senior full-stack JavaScript developer** with expertise in:
+
 - Modern Vanilla JavaScript (ES6+), SPAs, and direct DOM manipulation.
 - Tailwind CSS for utility-first styling and theming.
 - Vite for development and bundling.
@@ -34,29 +37,32 @@ I will act as a **senior full-stack JavaScript developer** with expertise in:
 
 - **JavaScript**: Write clean, modern ES6+ code. Use `const` and `let` (no `var`), arrow functions for callbacks, template literals, and destructuring.
 - **Component Example**: Follow this pattern from `src/ui-components.js`:
+
   ```javascript
   // Components are functions that build and return a DOM element
   export function createMyComponent(data) {
     const container = document.createElement('div');
     container.className = 'flex flex-col gap-2'; // Style with Tailwind
-    
+
     const header = document.createElement('h2');
     header.textContent = data.title;
     container.appendChild(header);
-    
+
     return container;
   }
   ```
+
 - **Styling**: Use **Tailwind CSS utility classes exclusively**. Do not write inline styles or separate CSS files.
 - **Theming**: Adhere to the established gaming theme. Use the custom colors defined in `tailwind.config.js`:
-    - `tfd-primary`: Cyan
-    - `tfd-secondary`: Orange
-    - `tfd-accent`: Purple
-    - `tfd-neutral`: Gray/Slate
+  - `tfd-primary`: Cyan
+  - `tfd-secondary`: Orange
+  - `tfd-accent`: Purple
+  - `tfd-neutral`: Gray/Slate
 
 ## 5. Data Flow
 
 ### Initial Data Load
+
 1.  App starts.
 2.  API keys are loaded from localStorage (`.dev.vars`) or environment variables.
 3.  `api-client.js` is configured with these keys.
@@ -65,6 +71,7 @@ I will act as a **senior full-stack JavaScript developer** with expertise in:
 6.  The UI renders based on the data in the state object.
 
 ### Build Sharing (Serialization)
+
 - Builds are saved in the URL using the `?build=` query parameter.
 - The build data from the state object is serialized into a string and compressed using `lz-string`.
 - On page load, the app checks for this parameter, decompresses it, and hydrates the state.
@@ -90,6 +97,7 @@ I will act as a **senior full-stack JavaScript developer** with expertise in:
 ## 8. Quick Reference
 
 ### Key Files
+
 - `src/index.js`: Main application entry point.
 - `src/state.js`: **Single source of truth for all data.**
 - `src/ui-components.js`: Reusable UI element factories.
@@ -98,6 +106,7 @@ I will act as a **senior full-stack JavaScript developer** with expertise in:
 - `docs/`: Detailed project documentation.
 
 ### Core Commands
+
 - `npm run dev`: Start the local development server.
 - `npm test`: Run the unit tests with Vitest.
 - `npm run format`: Format all code with Prettier.
