@@ -204,7 +204,7 @@ tfd-error: #ff006e (Pink) - Error states
 
 ```bash
 # Navigate to project
-cd /Users/jeffrey.crane/GitHub/tfd-builds
+cd tfd-builds
 
 # Install dependencies
 npm install

@@ -257,7 +257,7 @@ The companion Cloudflare Workers service that provides:
 - Image caching with CDN distribution
 - API authentication layer
 
-Located at: `/Users/jeffrey.crane/GitHub/tfd-cache`
+(See companion repository `tfd-cache`)
 
 ## Quick Reference
 

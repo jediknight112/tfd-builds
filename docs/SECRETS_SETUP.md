@@ -18,7 +18,7 @@ You need to set these secrets **once** using the Wrangler CLI:
 
 ```bash
 # Navigate to the project directory
-cd /Users/jeffrey.crane/GitHub/tfd-builds
+cd tfd-builds
 
 # Install dependencies (if not already done)
 npm install

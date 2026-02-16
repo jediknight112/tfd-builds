@@ -6,7 +6,7 @@ Get the TFD Build Viewer running in 2 minutes!
 
 ```bash
 # 1. Navigate to project
-cd /Users/jeffrey.crane/GitHub/tfd-builds
+cd tfd-builds
 
 # 2. Install dependencies (first time only)
 npm install

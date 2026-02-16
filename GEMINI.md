@@ -8,7 +8,7 @@ TFD-Builds is a Single-Page Application (SPA) for the video game "The First Desc
 
 ### Companion Service: tfd-cache
 
-This project is tightly coupled with a companion service named `tfd-cache`, located at `/Users/jeffrey.crane/GitHub/tfd-cache`. This Cloudflare Worker service is responsible for:
+This project is tightly coupled with a companion service named `tfd-cache`. This Cloudflare Worker service is responsible for:
 
 - Caching data from the official Nexon API.
 - Caching game asset images.
