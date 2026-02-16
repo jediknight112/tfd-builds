@@ -1,6 +1,7 @@
 {
   "name": "tfd-builds",
   "version": "1.0.0",
+  "type": "module",
   "description": "The First Descendant Character Build Viewer",
   "main": "src/index.js",
   "scripts": {
@@ -29,7 +30,7 @@
     "postcss": "^8.4.49",
     "prettier": "^3.8.1",
     "tailwindcss": "^4.1.18",
-    "vite": "^6.0.5",
+    "vite": "^7.3.1",
     "vitest": "^4.0.18",
     "wrangler": "^4.65.0"
   },
