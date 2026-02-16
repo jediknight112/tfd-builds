@@ -140,13 +140,13 @@ export class WeaponSelector {
         <div class="flex items-start gap-3 mb-3">
           ${
             weapon.image_url
-              ? `<img src="${weapon.image_url}" alt="${weapon.weapon_name}" class="w-16 h-16 object-cover rounded border-2 border-steel-grey/30 flex-shrink-0" loading="lazy" onerror="this.style.display='none'">`
-              : '<div class="w-16 h-16 bg-void-deep flex items-center justify-center rounded border-2 border-steel-grey/30 flex-shrink-0"><span class="text-steel-dark text-xs">No Image</span></div>'
+              ? `<img src="${weapon.image_url}" alt="${weapon.weapon_name}" class="w-16 h-16 object-cover rounded-sm border-2 border-steel-grey/30 shrink-0" loading="lazy" onerror="this.style.display='none'">`
+              : '<div class="w-16 h-16 bg-void-deep flex items-center justify-center rounded-sm border-2 border-steel-grey/30 shrink-0"><span class="text-steel-dark text-xs">No Image</span></div>'
           }
           <div class="flex-1 min-w-0">
             <h4 class="font-bold text-cyber-cyan text-sm line-clamp-2 mb-1">${weapon.weapon_name}</h4>
             <div class="flex flex-wrap gap-1">
-              ${weapon.weapon_tier_id ? `<span class="inline-block px-2 py-0.5 rounded text-xs font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${getTierDisplayName(weapon.weapon_tier_id)}</span>` : ''}
+              ${weapon.weapon_tier_id ? `<span class="inline-block px-2 py-0.5 rounded-sm text-xs font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${getTierDisplayName(weapon.weapon_tier_id)}</span>` : ''}
             </div>
           </div>
         </div>
@@ -407,7 +407,7 @@ export class WeaponSelector {
             ${
               maxLevelStat
                 ? `
-              <div class="absolute top-1 left-1 px-1.5 py-0.5 text-xs font-bold rounded bg-amber-gold text-void-deep">
+              <div class="absolute top-1 left-1 px-1.5 py-0.5 text-xs font-bold rounded-sm bg-amber-gold text-void-deep">
                 ${maxLevelStat.module_capacity}
               </div>
             `

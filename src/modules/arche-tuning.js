@@ -218,7 +218,7 @@ export class ArcheTuning {
     let tooltip = `
       <div class="arche-tooltip">
         <div class="flex items-center gap-2 mb-1 sm:mb-2">
-          <img src="${nodeInfo.node_image_url}" alt="${nodeInfo.node_name}" class="flex-shrink-0" loading="lazy" />
+          <img src="${nodeInfo.node_image_url}" alt="${nodeInfo.node_name}" class="shrink-0" loading="lazy" />
           <div class="min-w-0">
             <div class="font-bold text-cyber-cyan text-xs sm:text-sm truncate">${nodeInfo.node_name}</div>
             <div class="text-[10px] sm:text-xs text-steel-grey">${nodeInfo.node_type}${nodeInfo.tier_id !== 'None' ? ` - ${tierDisplay}` : ''}</div>

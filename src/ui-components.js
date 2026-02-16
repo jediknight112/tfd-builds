@@ -32,7 +32,7 @@ export class UIComponents {
 
       moduleSlot.innerHTML = `
         <div class="flex flex-col gap-2">
-          ${module.image_url ? `<img src="${module.image_url}" alt="${module.module_name}" class="w-full h-16 sm:h-20 object-contain rounded" loading="lazy" />` : ''}
+          ${module.image_url ? `<img src="${module.image_url}" alt="${module.module_name}" class="w-full h-16 sm:h-20 object-contain rounded-sm" loading="lazy" />` : ''}
           <div class="flex-1">
             <h4 class="font-semibold text-xs sm:text-sm text-cyber-cyan mb-1 leading-tight">${module.module_name || 'Unknown Module'}</h4>
             ${!isTriggerSlot && module.module_socket_type ? `<p class="text-[10px] sm:text-xs text-steel-grey">${module.module_socket_type}</p>` : ''}
@@ -102,7 +102,7 @@ export class UIComponents {
 
       weaponCard.innerHTML = `
         <div class="flex items-center gap-2 sm:gap-3 mb-3 sm:mb-4">
-          ${weapon.image_url ? `<img src="${weapon.image_url}" alt="${weapon.weapon_name}" class="w-12 h-12 sm:w-16 sm:h-16 rounded object-cover" loading="lazy" />` : ''}
+          ${weapon.image_url ? `<img src="${weapon.image_url}" alt="${weapon.weapon_name}" class="w-12 h-12 sm:w-16 sm:h-16 rounded-sm object-cover" loading="lazy" />` : ''}
           <div class="flex-1 min-w-0">
             <h4 class="font-semibold text-sm sm:text-base truncate">${weapon.weapon_name || 'Unknown Weapon'}</h4>
             <p class="text-xs sm:text-sm text-gray-400 truncate">${weapon.weapon_type || ''}</p>
@@ -201,7 +201,7 @@ export class UIComponents {
           statDiv.innerHTML = `
             <input type="text" 
               list="${datalistId}"
-              class="flex-1 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded text-gray-300 text-xs" 
+              class="flex-1 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-gray-300 text-xs" 
               value="${existingCoreStat ? state.getStatName(existingCoreStat.stat_id) : ''}"
               placeholder="Free Augmentation stat..."
               data-weapon-index="${weaponIndex}"
@@ -210,7 +210,7 @@ export class UIComponents {
               data-core-type-id="${firstFreeOption.core_type_id}">
             <input type="number" 
               step="0.01"
-              class="w-24 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded text-right text-xs" 
+              class="w-24 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-right text-xs" 
               value="${existingCoreStat ? existingCoreStat.stat_value || 0 : ''}"
               placeholder="Value"
               data-weapon-index="${weaponIndex}"
@@ -248,7 +248,7 @@ export class UIComponents {
           statDiv.innerHTML = `
             <input type="text" 
               list="${datalistId}"
-              class="flex-1 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded text-gray-300 text-xs" 
+              class="flex-1 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-gray-300 text-xs" 
               value="${existingCoreStat ? state.getStatName(existingCoreStat.stat_id) : ''}"
               placeholder="${coreOption.core_type_name} stat..."
               data-weapon-index="${weaponIndex}"
@@ -257,7 +257,7 @@ export class UIComponents {
               data-core-type-id="${coreOption.core_type_id}">
             <input type="number" 
               step="0.01"
-              class="w-24 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded text-right text-xs" 
+              class="w-24 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-right text-xs" 
               value="${existingCoreStat ? existingCoreStat.stat_value || 0 : ''}"
               placeholder="Value"
               data-weapon-index="${weaponIndex}"
@@ -288,13 +288,13 @@ export class UIComponents {
           statDiv.innerHTML = `
             <input type="text" 
               list="weapon-stat-names-${weaponIndex}"
-              class="flex-1 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded text-gray-300" 
+              class="flex-1 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-gray-300" 
               value="${state.getStatName(customStat.stat_id)}"
               placeholder="Stat Name"
               data-weapon-index="${weaponIndex}"
               data-stat-index="${statIndex}">
             <input type="number" 
-              class="w-20 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded text-right" 
+              class="w-20 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-right" 
               value="${customStat.stat_value || 0}"
               placeholder="0"
               data-weapon-index="${weaponIndex}"
@@ -307,13 +307,13 @@ export class UIComponents {
           statDiv.innerHTML = `
             <input type="text" 
               list="weapon-stat-names-${weaponIndex}"
-              class="flex-1 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded text-gray-400" 
+              class="flex-1 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-gray-400" 
               value=""
               placeholder="Stat Name"
               data-weapon-index="${weaponIndex}"
               data-stat-index="${statIndex}">
             <input type="number" 
-              class="w-20 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded text-right text-gray-400" 
+              class="w-20 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-right text-gray-400" 
               value=""
               placeholder="0"
               data-weapon-index="${weaponIndex}"
@@ -503,7 +503,7 @@ export class UIComponents {
     card.className = 'card cursor-pointer hover:scale-105 transition-transform';
 
     card.innerHTML = `
-      <div class="aspect-square bg-tfd-darker rounded mb-2 overflow-hidden">
+      <div class="aspect-square bg-tfd-darker rounded-sm mb-2 overflow-hidden">
         ${
           descendant.descendant_image_url
             ? `

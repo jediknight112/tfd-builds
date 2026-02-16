@@ -8433,7 +8433,7 @@
         "element_type": "Chill",
         "arche_type": "Fusion",
         "skill_image_url": "https://open.api.nexon.com/static/tfd/img/a41399ff81f6fab8e90035495cdbf495",
-        "skill_description": "Using the skill activates Glacial Clash.Using Glacial Clash dashes forward and stabs enemies to deal damage and inflict Knockback. Holding the skill input activates Glacial Breakthrough. Using Glacial Breakthrough moves forward and damages enemies collided with. Inflicts Snowflake on targets damaged by this skill. Snowflake creates an AoE that deals Explosion Damage."
+        "skill_description": "Using the skill, activates Glacial Clash. Using Glacial Clash dashes forward and stabs enemies to deal damage and inflict Knockback. Holding the skill input activates Glacial Breakthrough. Glacial Breakthrough continuously moves forward, pushing back enemies caught in the collision. Enemies caught in the collision take continuous damage."
       },
       {
         "skill_type": "Active Skill",
@@ -8441,7 +8441,7 @@
         "element_type": "Chill",
         "arche_type": "Singular",
         "skill_image_url": "https://open.api.nexon.com/static/tfd/img/afa00183d2f6ae3ada4dc532326c1dbc",
-        "skill_description": "Grants Ice Wall to self. Ice Wall increases stats and explodes to deal AoE damage. When using Glacial Breakthrough while Ice Wall is active, increases Movement Speed.\nWhen Ice Wall ends, restores HP."
+        "skill_description": "Grants Ice Wall to self. Ice Wall increases stats and explodes to deal AoE damage. When using Glacial Breakthrough while Ice Wall is active, increases Movement Speed.\nWhen Ice Wall ends, restores Delight."
       },
       {
         "skill_type": "Active Skill",

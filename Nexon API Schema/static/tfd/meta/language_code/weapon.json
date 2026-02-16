@@ -24937,7 +24937,7 @@
       }
     ],
     "weapon_perk_ability_name": "Multiple Barrels",
-    "weapon_perk_ability_description": "Whenever you press the Aim button, the weapon's barrel changes instead of aiming.\n\nSmoothbore Barrel: Hammer\nFires Kuiper Shells from the Smoothbore Barrel at the top of the gun.\nRifled Barrel: Anvil\nFires Gyrojet Explosive Rounds from the Rifled Barrel at the bottom of the gun.\nGyrojet Explosive Rounds last for a certain duration, and when detonated in midair, they fire Guided Explosive Rounds from the detonated location.\nGuided Explosive Rounds are fired in numbers proportional to Shell Capacity, detonating and causing Multi-Hits.\nThe damage of Guided Explosive Rounds increases the more targets are hit when detonating against multiple targets.",
+    "weapon_perk_ability_description": "Whenever you press the Aim button, the weapon's barrel changes instead of aiming.\n\nSmoothbore Barrel: Hammer\nFires Kuiper Shells from the Smoothbore Barrel at the top of the gun.\nRifled Barrel: Anvil\nFires Gyrojet Explosive Rounds from the Rifled Barrel at the bottom of the gun.\nGyrojet Explosive Rounds last for a certain duration, and when detonated in midair, they fire Guided Explosive Rounds from the detonated location.\nGuided Explosive Rounds are fired in numbers proportional to Shell Capacity, detonating and causing Multi-Hits.",
     "weapon_perk_ability_image_url": "https://open.api.nexon.com/static/tfd/img/4dd9864136d702c50f1078e57a2ea2b5"
   },
   {

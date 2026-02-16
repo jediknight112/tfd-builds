@@ -65,8 +65,7 @@ tfd-builds/
 └── 📦 Generated (not in repo)
     ├── node_modules/             # npm dependencies
     ├── dist/                     # Production build output
-    ├── .env                      # Local environment variables
-    └── src/styles/output.css     # Compiled CSS (if using tailwind:build)
+    └── .env                      # Local environment variables
 ```
 
 ## 📄 File Descriptions
@@ -93,8 +92,8 @@ tfd-builds/
 
 **postcss.config.js**
 
-- Tailwind CSS processing
-- Autoprefixer for browser compatibility
+- Tailwind CSS v4 processing via @tailwindcss/postcss plugin
+- Integrated with Vite build pipeline
 
 **.prettierrc**
 

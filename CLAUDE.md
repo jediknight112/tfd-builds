@@ -26,7 +26,7 @@ This project relies on **tfd-cache** (a separate repository in this workspace) w
 ### Core Technologies
 - **Vanilla JavaScript (ES6+)**: No frameworks - intentionally uses modern browser APIs
 - **Vite**: Development server and build tool
-- **Tailwind CSS**: Utility-first styling with custom gaming theme
+- **Tailwind CSS v4**: Utility-first styling with custom gaming theme
 - **Vitest**: Unit testing framework
 - **Cloudflare Workers**: Deployment platform (Pages)
 - **LZ-String**: URL compression for build sharing

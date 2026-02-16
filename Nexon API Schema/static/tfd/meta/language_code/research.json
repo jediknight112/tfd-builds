@@ -10690,8 +10690,8 @@
     ],
     "research_result": [
       {
-        "meta_type": null,
-        "meta_id": null,
+        "meta_type": "consumable_material_id",
+        "meta_id": "262084001",
         "result_count": 1
       }
     ],
@@ -10747,8 +10747,8 @@
     ],
     "research_result": [
       {
-        "meta_type": null,
-        "meta_id": null,
+        "meta_type": "consumable_material_id",
+        "meta_id": "262084002",
         "result_count": 1
       }
     ],
@@ -10804,8 +10804,8 @@
     ],
     "research_result": [
       {
-        "meta_type": null,
-        "meta_id": null,
+        "meta_type": "consumable_material_id",
+        "meta_id": "262084003",
         "result_count": 1
       }
     ],
@@ -10861,8 +10861,8 @@
     ],
     "research_result": [
       {
-        "meta_type": null,
-        "meta_id": null,
+        "meta_type": "consumable_material_id",
+        "meta_id": "262084004",
         "result_count": 1
       }
     ],
@@ -10918,8 +10918,8 @@
     ],
     "research_result": [
       {
-        "meta_type": null,
-        "meta_id": null,
+        "meta_type": "consumable_material_id",
+        "meta_id": "262084005",
         "result_count": 1
       }
     ],
@@ -10975,8 +10975,8 @@
     ],
     "research_result": [
       {
-        "meta_type": null,
-        "meta_id": null,
+        "meta_type": "consumable_material_id",
+        "meta_id": "262084006",
         "result_count": 1
       }
     ],
@@ -11032,8 +11032,8 @@
     ],
     "research_result": [
       {
-        "meta_type": null,
-        "meta_id": null,
+        "meta_type": "consumable_material_id",
+        "meta_id": "262084007",
         "result_count": 1
       }
     ],
@@ -11089,8 +11089,8 @@
     ],
     "research_result": [
       {
-        "meta_type": null,
-        "meta_id": null,
+        "meta_type": "consumable_material_id",
+        "meta_id": "262084008",
         "result_count": 1
       }
     ],

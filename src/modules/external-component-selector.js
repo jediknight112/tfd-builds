@@ -146,13 +146,13 @@ export class ExternalComponentSelector {
           <img 
             src="${component.image_url}" 
             alt="${component.external_component_name}"
-            class="w-16 h-16 object-cover rounded border-2 border-steel-grey/30 flex-shrink-0"
+            class="w-16 h-16 object-cover rounded-sm border-2 border-steel-grey/30 shrink-0"
             loading="lazy"
             onerror="this.style.display='none'"
           >
           <div class="flex-1 min-w-0">
             <h4 class="font-bold text-cyber-cyan line-clamp-2 mb-1">${component.external_component_name}</h4>
-            ${component.external_component_tier_id ? `<span class="inline-block px-2 py-0.5 rounded text-xs font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${getTierDisplayName(component.external_component_tier_id)}</span>` : ''}
+            ${component.external_component_tier_id ? `<span class="inline-block px-2 py-0.5 rounded-sm text-xs font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${getTierDisplayName(component.external_component_tier_id)}</span>` : ''}
           </div>
         </div>
         
@@ -260,14 +260,14 @@ export class ExternalComponentSelector {
             <img 
               src="${component.image_url}" 
               alt="${component.external_component_name}"
-              class="w-16 h-16 object-cover rounded border-2 border-steel-grey/30 flex-shrink-0"
+              class="w-16 h-16 object-cover rounded-sm border-2 border-steel-grey/30 shrink-0"
               loading="lazy"
               onerror="this.style.display='none'"
             >
             <div class="flex-1 min-w-0">
               <div class="text-steel-grey text-xs mb-1">${equipmentType}</div>
               <h4 class="font-bold text-cyber-cyan mb-1">${component.external_component_name}</h4>
-              ${component.external_component_tier_id ? `<span class="inline-block px-2 py-0.5 rounded text-xs font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${getTierDisplayName(component.external_component_tier_id)}</span>` : ''}
+              ${component.external_component_tier_id ? `<span class="inline-block px-2 py-0.5 rounded-sm text-xs font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${getTierDisplayName(component.external_component_tier_id)}</span>` : ''}
             </div>
             <button 
               onclick="app.externalComponentSelector.openExternalComponentSelector('${equipmentType}')"
@@ -280,7 +280,7 @@ export class ExternalComponentSelector {
           ${
             level100Stat
               ? `
-            <div class="bg-void-blue/40 rounded p-2 mb-2">
+            <div class="bg-void-blue/40 rounded-sm p-2 mb-2">
               <div class="flex justify-between items-center text-sm">
                 <span class="text-steel-grey">${state.getStatName(level100Stat.stat_id)}:</span>
                 <span class="text-cyber-cyan font-bold">${level100Stat.stat_value}</span>
@@ -294,7 +294,7 @@ export class ExternalComponentSelector {
             component.set_option_detail &&
             component.set_option_detail.length > 0
               ? `
-            <div class="bg-amber-gold/10 rounded p-2 border border-amber-gold/30 mb-2">
+            <div class="bg-amber-gold/10 rounded-sm p-2 border border-amber-gold/30 mb-2">
               <div class="text-amber-gold text-xs font-bold mb-2">Set Bonus: ${component.set_option_detail[0].set_option}</div>
               ${component.set_option_detail
                 .map(
@@ -358,7 +358,7 @@ export class ExternalComponentSelector {
             statDiv.innerHTML = `
               <input type="text" 
                 list="${datalistId}"
-                class="flex-1 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded text-gray-300 text-xs" 
+                class="flex-1 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-gray-300 text-xs" 
                 value="${existingCoreStat ? state.getStatName(existingCoreStat.stat_id) : ''}"
                 placeholder="${coreOption.core_type_name} stat..."
                 data-equipment-type="${equipmentType}"
@@ -367,7 +367,7 @@ export class ExternalComponentSelector {
                 data-core-type-id="${coreOption.core_type_id}">
               <input type="number" 
                 step="0.01"
-                class="w-24 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded text-right text-xs" 
+                class="w-24 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-right text-xs" 
                 value="${existingCoreStat ? existingCoreStat.stat_value || 0 : ''}"
                 placeholder="Value"
                 data-equipment-type="${equipmentType}"
