@@ -789,7 +789,6 @@ layer(base);
 }
 
 @layer utilities {
-
   @keyframes loading {
     0% {
       background-position: 200% 0;
