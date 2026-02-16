@@ -1,11 +1,12 @@
 import { state } from '../state.js';
+import { UIComponents } from '../ui-components.js';
 
 export class CustomStatSelector {
   openCustomStatSelector(weaponIndex, statSlot = null) {
     const weaponData = state.currentBuild.weapons[weaponIndex];
     const weapon = weaponData?.weapon;
     if (!weapon) {
-      alert('Please select a weapon first.');
+      UIComponents.showWarning('Please select a weapon first.');
       return;
     }
 
@@ -13,7 +14,7 @@ export class CustomStatSelector {
     if (statSlot === null) {
       statSlot = weaponData.customStats.length;
       if (statSlot >= 4) {
-        alert('Maximum 4 custom stats allowed per weapon.');
+        UIComponents.showWarning('Maximum 4 custom stats allowed per weapon.');
         return;
       }
     }
@@ -149,7 +150,7 @@ export class CustomStatSelector {
     }
 
     if (!state.selectedStatId) {
-      alert('Please select a stat first.');
+      UIComponents.showWarning('Please select a stat first.');
       return;
     }
 
@@ -157,7 +158,7 @@ export class CustomStatSelector {
     const value = valueInput ? parseFloat(valueInput.value) : 0;
 
     if (isNaN(value) || value === 0) {
-      alert('Please enter a valid stat value.');
+      UIComponents.showWarning('Please enter a valid stat value.');
       return;
     }
 
@@ -174,7 +175,7 @@ export class CustomStatSelector {
     if (weaponData.customStats.length < 4) {
       weaponData.customStats.push(newStat);
     } else {
-      alert('Maximum 4 custom stats allowed per weapon.');
+      UIComponents.showWarning('Maximum 4 custom stats allowed per weapon.');
       return;
     }
 

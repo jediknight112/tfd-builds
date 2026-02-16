@@ -35,6 +35,7 @@ class Application {
   async init() {
     try {
       UIComponents.showLoading();
+      UIComponents.updateMobileShareButton(false);
 
       // Populate language selector
       this.populateLanguageSelector();
@@ -262,6 +263,7 @@ class Application {
 
     // Show build tabs
     UIComponents.showBuildTabs();
+    UIComponents.updateMobileShareButton(true);
 
     // Collapse descendant selection section
     const descendantSection = document.querySelector(
@@ -370,6 +372,7 @@ class Application {
   createNewBuild() {
     if (confirm('Create a new build? This will reset your current build.')) {
       UIComponents.hideBuildTabs();
+      UIComponents.updateMobileShareButton(false);
 
       // Show descendant selection section
       const descendantSection = document.querySelector(

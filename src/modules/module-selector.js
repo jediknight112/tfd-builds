@@ -188,7 +188,7 @@ export class ModuleSelector {
   createModuleCard(module, slotType) {
     const card = document.createElement('div');
     card.className =
-      'card cursor-pointer hover:border-cyber-cyan transition-all hover:scale-105';
+      'card cursor-pointer hover:border-cyber-cyan transition-all hover:scale-[1.02] p-2 sm:p-4';
 
     const maxLevelStat =
       module.module_stat && module.module_stat.length > 0
@@ -210,14 +210,14 @@ export class ModuleSelector {
 
     card.innerHTML = `
       <div class="flex flex-col h-full">
-        <div class="flex items-start gap-3 mb-3">
+        <div class="flex items-start gap-2 sm:gap-3 mb-2 sm:mb-3">
           ${
             module.image_url
-              ? `<img src="${module.image_url}" alt="${module.module_name}" class="w-16 h-16 object-cover rounded-sm border-2 border-steel-grey/30 shrink-0" loading="lazy" onerror="this.style.display='none'">`
-              : '<div class="w-16 h-16 bg-void-deep flex items-center justify-center rounded-sm border-2 border-steel-grey/30 shrink-0"><span class="text-steel-dark text-xs">No Image</span></div>'
+              ? `<img src="${module.image_url}" alt="${module.module_name}" class="w-12 h-12 sm:w-16 sm:h-16 object-cover rounded-sm border-2 border-steel-grey/30 shrink-0" loading="lazy" onerror="this.style.display='none'">`
+              : '<div class="w-12 h-12 sm:w-16 sm:h-16 bg-void-deep flex items-center justify-center rounded-sm border-2 border-steel-grey/30 shrink-0"><span class="text-steel-dark text-[10px]">No Image</span></div>'
           }
           <div class="flex-1 min-w-0">
-            <h4 class="font-bold text-cyber-cyan line-clamp-2 mb-1">${module.module_name}</h4>
+            <h4 class="font-bold text-cyber-cyan line-clamp-2 mb-1 text-xs sm:text-sm md:text-base">${module.module_name}</h4>
             <div class="flex flex-wrap gap-1">
               ${
                 !isTriggerModule && module.module_socket_type
@@ -226,7 +226,7 @@ export class ModuleSelector {
                         module.module_socket_type
                       );
                       return `
-                        <span class="inline-block px-2 py-0.5 rounded text-xs font-semibold ${
+                        <span class="inline-block px-1.5 py-0.5 rounded text-[9px] sm:text-xs font-semibold ${
                           socketKey === 'Almandine'
                             ? 'bg-red-600 text-white'
                             : socketKey === 'Rutile'
@@ -241,8 +241,8 @@ export class ModuleSelector {
                     })()
                   : ''
               }
-              ${module.module_tier_id ? `<span class="inline-block px-2 py-0.5 rounded-sm text-xs font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${state.getTierDisplayName(module.module_tier_id)}</span>` : ''}
-              ${module.module_type ? `<span class="inline-block px-2 py-0.5 rounded-sm text-xs font-semibold bg-amber-gold/20 text-amber-gold border border-amber-gold/30">${module.module_type}</span>` : ''}
+              ${module.module_tier_id ? `<span class="inline-block px-1.5 py-0.5 rounded-sm text-[9px] sm:text-xs font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${state.getTierDisplayName(module.module_tier_id)}</span>` : ''}
+              ${module.module_type ? `<span class="inline-block px-1.5 py-0.5 rounded-sm text-[9px] sm:text-xs font-semibold bg-amber-gold/20 text-amber-gold border border-amber-gold/30">${module.module_type}</span>` : ''}
             </div>
           </div>
         </div>
@@ -250,7 +250,7 @@ export class ModuleSelector {
         ${
           maxLevelStat
             ? `
-          <div class="space-y-2 text-sm border-t border-steel-grey/20 pt-3">
+          <div class="space-y-1 sm:space-y-2 text-[10px] sm:text-sm border-t border-steel-grey/20 pt-2 sm:pt-3">
             ${
               !isTriggerModule
                 ? `
@@ -261,10 +261,10 @@ export class ModuleSelector {
             `
                 : ''
             }
-            ${maxLevelStat.value ? `<div class="text-xs text-steel-light">${maxLevelStat.value.replace(/\[\+\]/g, '')}</div>` : ''}
+            ${maxLevelStat.value ? `<div class="text-[10px] sm:text-xs text-steel-light leading-tight">${maxLevelStat.value.replace(/\[\+\]/g, '')}</div>` : ''}
           </div>
         `
-            : '<div class="text-steel-grey text-sm">No stat data</div>'
+            : '<div class="text-steel-grey text-[10px] sm:text-sm">No stat data</div>'
         }
       </div>
     `;
@@ -288,7 +288,7 @@ export class ModuleSelector {
         state.currentBuild.triggerModule.module_type === module.module_type &&
         state.currentModuleSlot.index !== -1
       ) {
-        alert(
+        UIComponents.showWarning(
           `A module with type "${module.module_type}" is already equipped in Trigger Slot. Only one module of each type is allowed per build.`
         );
         return;
@@ -303,7 +303,7 @@ export class ModuleSelector {
       );
 
       if (duplicateIndex !== -1) {
-        alert(
+        UIComponents.showWarning(
           `A module with type "${module.module_type}" is already equipped in Slot ${duplicateIndex + 1}. Only one module of each type is allowed per build.`
         );
         return;

@@ -1,4 +1,5 @@
 import { state } from '../state.js';
+import { UIComponents } from '../ui-components.js';
 
 export class CoreSelector {
   openCoreTypeSelector(weaponIndex) {
@@ -9,7 +10,7 @@ export class CoreSelector {
       !weapon.available_core_slot ||
       weapon.available_core_slot.length === 0
     ) {
-      alert('This weapon has no core slot available.');
+      UIComponents.showWarning('This weapon has no core slot available.');
       return;
     }
 
@@ -22,7 +23,7 @@ export class CoreSelector {
       !coreSlot.available_core_type_id ||
       coreSlot.available_core_type_id.length === 0
     ) {
-      alert('No core types available for this weapon.');
+      UIComponents.showWarning('No core types available for this weapon.');
       return;
     }
 
@@ -51,7 +52,9 @@ export class CoreSelector {
       !component.available_core_slot ||
       component.available_core_slot.length === 0
     ) {
-      alert('This external component has no core slot available.');
+      UIComponents.showWarning(
+        'This external component has no core slot available.'
+      );
       return;
     }
 
@@ -64,7 +67,9 @@ export class CoreSelector {
       !coreSlot.available_core_type_id ||
       coreSlot.available_core_type_id.length === 0
     ) {
-      alert('No core types available for this external component.');
+      UIComponents.showWarning(
+        'No core types available for this external component.'
+      );
       return;
     }
 

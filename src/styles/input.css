@@ -204,7 +204,7 @@ layer(base);
 }
 
 @utility module-filter-btn {
-  @apply px-2 sm:px-3 py-1 sm:py-1.5 text-[10px] sm:text-xs border border-steel-dark hover:border-cyber-cyan transition-all duration-200 cursor-pointer font-gaming uppercase tracking-wide bg-void-blue/40 backdrop-blur-sm;
+  @apply px-3 sm:px-3 py-2 sm:py-1.5 text-xs sm:text-xs border border-steel-dark hover:border-cyber-cyan transition-all duration-200 cursor-pointer font-gaming uppercase tracking-wide bg-void-blue/40 backdrop-blur-sm;
   clip-path: polygon(
     0 0,
     calc(100% - 4px) 0,
@@ -214,7 +214,7 @@ layer(base);
     0 calc(100% - 4px)
   );
   /* Ensure minimum touch target size on mobile */
-  min-height: 36px;
+  min-height: 40px;
 
   &.active {
     @apply border-cyber-cyan bg-cyber-cyan/20 text-cyber-cyan shadow-neon;
@@ -222,7 +222,7 @@ layer(base);
 }
 
 @utility reactor-filter-btn {
-  @apply px-2 sm:px-3 py-1 sm:py-1.5 text-[10px] sm:text-xs border border-steel-dark hover:border-cyber-cyan transition-all duration-200 cursor-pointer font-gaming uppercase tracking-wide bg-void-blue/40 backdrop-blur-sm;
+  @apply px-3 sm:px-3 py-2 sm:py-1.5 text-xs sm:text-xs border border-steel-dark hover:border-cyber-cyan transition-all duration-200 cursor-pointer font-gaming uppercase tracking-wide bg-void-blue/40 backdrop-blur-sm;
   clip-path: polygon(
     0 0,
     calc(100% - 4px) 0,
@@ -232,7 +232,7 @@ layer(base);
     0 calc(100% - 4px)
   );
   /* Ensure minimum touch target size on mobile */
-  min-height: 36px;
+  min-height: 40px;
 
   &.active {
     @apply border-cyber-cyan bg-cyber-cyan/20 text-cyber-cyan shadow-neon;
@@ -240,7 +240,7 @@ layer(base);
 }
 
 @utility external-component-filter-btn {
-  @apply px-2 sm:px-3 py-1 sm:py-1.5 text-[10px] sm:text-xs border border-steel-dark hover:border-cyber-cyan transition-all duration-200 cursor-pointer font-gaming uppercase tracking-wide bg-void-blue/40 backdrop-blur-sm;
+  @apply px-3 sm:px-3 py-2 sm:py-1.5 text-xs sm:text-xs border border-steel-dark hover:border-cyber-cyan transition-all duration-200 cursor-pointer font-gaming uppercase tracking-wide bg-void-blue/40 backdrop-blur-sm;
   clip-path: polygon(
     0 0,
     calc(100% - 4px) 0,
@@ -250,7 +250,7 @@ layer(base);
     0 calc(100% - 4px)
   );
   /* Ensure minimum touch target size on mobile */
-  min-height: 36px;
+  min-height: 40px;
 
   &.active {
     @apply border-cyber-cyan bg-cyber-cyan/20 text-cyber-cyan shadow-neon;

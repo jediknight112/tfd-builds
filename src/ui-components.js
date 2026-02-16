@@ -236,29 +236,32 @@ export class UIComponents {
             .join('');
 
           const statDiv = document.createElement('div');
-          statDiv.className = 'flex items-center gap-2';
+          statDiv.className =
+            'flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2 mb-2 sm:mb-0';
           statDiv.innerHTML = `
             <input type="text" 
               list="${datalistId}"
-              class="flex-1 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-gray-300 text-xs" 
+              class="flex-1 px-2 py-1.5 sm:py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-gray-300 text-xs" 
               value="${existingCoreStat ? state.getStatName(existingCoreStat.stat_id) : ''}"
               placeholder="${localizedFreeAug} stat..."
               data-weapon-index="${weaponIndex}"
               data-core-stat-index="${currentIndex}"
               data-option-id="${firstFreeOption.option_id}"
               data-core-type-id="${firstFreeOption.core_type_id}">
-            <input type="number" 
-              step="0.01"
-              class="w-24 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-right text-xs" 
-              value="${existingCoreStat ? existingCoreStat.stat_value || 0 : ''}"
-              placeholder="Value"
-              data-weapon-index="${weaponIndex}"
-              data-core-stat-index="${currentIndex}"
-              data-type="core-value">
-            <button class="text-red-500 hover:text-red-400 w-6 text-center text-sm" 
-              data-weapon-index="${weaponIndex}" 
-              data-core-stat-index="${currentIndex}"
-              data-type="remove-core-stat">×</button>
+            <div class="flex items-center gap-2">
+              <input type="number" 
+                step="0.01"
+                class="flex-1 sm:w-24 px-2 py-1.5 sm:py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-right text-xs" 
+                value="${existingCoreStat ? existingCoreStat.stat_value || 0 : ''}"
+                placeholder="Value"
+                data-weapon-index="${weaponIndex}"
+                data-core-stat-index="${currentIndex}"
+                data-type="core-value">
+              <button class="text-red-500 hover:text-red-400 w-8 h-8 flex items-center justify-center text-lg sm:text-base sm:w-6" 
+                data-weapon-index="${weaponIndex}" 
+                data-core-stat-index="${currentIndex}"
+                data-type="remove-core-stat">×</button>
+            </div>
           `;
 
           coreStatsInline.appendChild(datalist);
@@ -283,29 +286,32 @@ export class UIComponents {
             .join('');
 
           const statDiv = document.createElement('div');
-          statDiv.className = 'flex items-center gap-2';
+          statDiv.className =
+            'flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2 mb-2 sm:mb-0';
           statDiv.innerHTML = `
             <input type="text" 
               list="${datalistId}"
-              class="flex-1 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-gray-300 text-xs" 
+              class="flex-1 px-2 py-1.5 sm:py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-gray-300 text-xs" 
               value="${existingCoreStat ? state.getStatName(existingCoreStat.stat_id) : ''}"
               placeholder="${coreOption.core_type_name} stat..."
               data-weapon-index="${weaponIndex}"
               data-core-stat-index="${currentIndex}"
               data-option-id="${coreOption.option_id}"
               data-core-type-id="${coreOption.core_type_id}">
-            <input type="number" 
-              step="0.01"
-              class="w-24 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-right text-xs" 
-              value="${existingCoreStat ? existingCoreStat.stat_value || 0 : ''}"
-              placeholder="Value"
-              data-weapon-index="${weaponIndex}"
-              data-core-stat-index="${currentIndex}"
-              data-type="core-value">
-            <button class="text-red-500 hover:text-red-400 w-6 text-center text-sm" 
-              data-weapon-index="${weaponIndex}" 
-              data-core-stat-index="${currentIndex}"
-              data-type="remove-core-stat">×</button>
+            <div class="flex items-center gap-2">
+              <input type="number" 
+                step="0.01"
+                class="flex-1 sm:w-24 px-2 py-1.5 sm:py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-right text-xs" 
+                value="${existingCoreStat ? existingCoreStat.stat_value || 0 : ''}"
+                placeholder="Value"
+                data-weapon-index="${weaponIndex}"
+                data-core-stat-index="${currentIndex}"
+                data-type="core-value">
+              <button class="text-red-500 hover:text-red-400 w-8 h-8 flex items-center justify-center text-lg sm:text-base sm:w-6" 
+                data-weapon-index="${weaponIndex}" 
+                data-core-stat-index="${currentIndex}"
+                data-type="remove-core-stat">×</button>
+            </div>
           `;
 
           coreStatsInline.appendChild(datalist);
@@ -320,45 +326,50 @@ export class UIComponents {
         const customStat =
           state.currentBuild.weapons[weaponIndex].customStats[statIndex];
         const statDiv = document.createElement('div');
-        statDiv.className = 'flex items-center gap-2 text-xs';
+        statDiv.className =
+          'flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2 mb-2 sm:mb-0 text-xs';
 
         if (customStat) {
           // Existing stat - show stat name from lookup
           statDiv.innerHTML = `
             <input type="text" 
               list="weapon-stat-names-${weaponIndex}"
-              class="flex-1 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-gray-300" 
+              class="flex-1 px-2 py-1.5 sm:py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-gray-300" 
               value="${state.getStatName(customStat.stat_id)}"
               placeholder="Stat Name"
               data-weapon-index="${weaponIndex}"
               data-stat-index="${statIndex}">
-            <input type="number" 
-              class="w-20 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-right" 
-              value="${customStat.stat_value || 0}"
-              placeholder="0"
-              data-weapon-index="${weaponIndex}"
-              data-stat-index="${statIndex}"
-              data-type="value">
-            <button class="text-red-500 hover:text-red-400 w-6 text-center" data-weapon-index="${weaponIndex}" data-stat-index="${statIndex}">×</button>
+            <div class="flex items-center gap-2">
+              <input type="number" 
+                class="flex-1 sm:w-20 px-2 py-1.5 sm:py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-right" 
+                value="${customStat.stat_value || 0}"
+                placeholder="0"
+                data-weapon-index="${weaponIndex}"
+                data-stat-index="${statIndex}"
+                data-type="value">
+              <button class="text-red-500 hover:text-red-400 w-8 h-8 flex items-center justify-center text-lg sm:text-base sm:w-6" data-weapon-index="${weaponIndex}" data-stat-index="${statIndex}">×</button>
+            </div>
           `;
         } else {
           // Empty slot - show input fields
           statDiv.innerHTML = `
             <input type="text" 
               list="weapon-stat-names-${weaponIndex}"
-              class="flex-1 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-gray-400" 
+              class="flex-1 px-2 py-1.5 sm:py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-gray-400" 
               value=""
               placeholder="Stat Name"
               data-weapon-index="${weaponIndex}"
               data-stat-index="${statIndex}">
-            <input type="number" 
-              class="w-20 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-right text-gray-400" 
-              value=""
-              placeholder="0"
-              data-weapon-index="${weaponIndex}"
-              data-stat-index="${statIndex}"
-              data-type="value">
-            <button class="text-red-500 hover:text-red-400 w-6 text-center opacity-0" data-weapon-index="${weaponIndex}" data-stat-index="${statIndex}">×</button>
+            <div class="flex items-center gap-2">
+              <input type="number" 
+                class="flex-1 sm:w-20 px-2 py-1.5 sm:py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-right text-gray-400" 
+                value=""
+                placeholder="0"
+                data-weapon-index="${weaponIndex}"
+                data-stat-index="${statIndex}"
+                data-type="value">
+              <button class="text-red-500 hover:text-red-400 w-8 h-8 flex items-center justify-center text-lg sm:text-base sm:w-6 opacity-0" data-weapon-index="${weaponIndex}" data-stat-index="${statIndex}">×</button>
+            </div>
           `;
         }
 
@@ -715,6 +726,40 @@ export class UIComponents {
     UIComponents.showToast(message, 'success');
   }
 
+  // Update mobile share button state
+  static updateMobileShareButton(hasDescendant) {
+    const mobileShareBtn = document.getElementById('mobile-share-btn');
+    if (!mobileShareBtn) return;
+
+    const iconContainer = mobileShareBtn.querySelector('div');
+
+    if (hasDescendant) {
+      mobileShareBtn.disabled = false;
+      mobileShareBtn.classList.remove(
+        'text-gray-500',
+        'cursor-not-allowed',
+        'opacity-50'
+      );
+      mobileShareBtn.classList.add('text-tfd-primary');
+      if (iconContainer) {
+        iconContainer.classList.remove('bg-gray-600', 'shadow-none');
+        iconContainer.classList.add('bg-tfd-primary', 'shadow-neon');
+      }
+    } else {
+      mobileShareBtn.disabled = true;
+      mobileShareBtn.classList.add(
+        'text-gray-500',
+        'cursor-not-allowed',
+        'opacity-50'
+      );
+      mobileShareBtn.classList.remove('text-tfd-primary');
+      if (iconContainer) {
+        iconContainer.classList.add('bg-gray-600', 'shadow-none');
+        iconContainer.classList.remove('bg-tfd-primary', 'shadow-neon');
+      }
+    }
+  }
+
   // Show warning toast notification
   static showWarning(message) {
     UIComponents.showToast(message, 'warning');
@@ -727,7 +772,8 @@ export class UIComponents {
     if (!toastContainer) {
       toastContainer = document.createElement('div');
       toastContainer.id = 'toast-container';
-      toastContainer.className = 'fixed top-4 right-4 z-50 flex flex-col gap-2';
+      toastContainer.className =
+        'fixed bottom-4 left-1/2 -translate-x-1/2 sm:bottom-auto sm:top-4 sm:right-4 sm:left-auto sm:translate-x-0 z-50 flex flex-col gap-2 w-[calc(100%-2rem)] sm:w-auto';
       document.body.appendChild(toastContainer);
     }
 

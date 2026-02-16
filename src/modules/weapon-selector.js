@@ -252,7 +252,7 @@ export class WeaponSelector {
   openWeaponModuleSelector(weaponIndex, moduleIndex) {
     const weaponData = state.currentBuild.weapons[weaponIndex];
     if (!weaponData?.weapon) {
-      alert('Please select a weapon first');
+      UIComponents.showWarning('Please select a weapon first');
       return;
     }
 
@@ -457,7 +457,7 @@ export class WeaponSelector {
       );
 
       if (duplicateIndex !== -1) {
-        alert(
+        UIComponents.showWarning(
           `A module with type "${module.module_type}" is already equipped in Module Slot ${duplicateIndex + 1}. Only one module of each type is allowed per weapon.`
         );
         return;

@@ -17,19 +17,16 @@
     <header
       class="bg-tfd-dark border-b border-tfd-primary/30 shadow-lg sticky top-0 z-50"
     >
-      <div class="container mx-auto px-3 sm:px-4 py-3 sm:py-4">
-        <div class="flex items-center justify-between flex-wrap gap-3">
+      <div class="container mx-auto px-3 sm:px-4 py-2 sm:py-4">
+        <div class="flex items-center justify-between gap-2">
           <div class="flex items-center gap-2 sm:gap-4 flex-wrap">
             <h1
-              class="text-xl sm:text-2xl md:text-3xl font-bold text-tfd-primary text-shadow"
+              class="text-lg sm:text-2xl md:text-3xl font-bold text-tfd-primary text-shadow truncate max-w-[150px] xs:max-w-none"
             >
               TFD BUILD VIEWER
             </h1>
-            <span class="text-xs sm:text-sm text-gray-400 hidden xs:inline"
-              >The First Descendant</span
-            >
           </div>
-          <nav class="flex gap-2 sm:gap-4 items-center">
+          <nav class="flex gap-1.5 sm:gap-4 items-center">
             <select
               id="language-selector"
               class="bg-tfd-darker text-tfd-primary border border-tfd-primary/30 rounded px-2 py-1 text-xs sm:text-sm focus:outline-hidden focus:ring-1 focus:ring-tfd-primary transition-all"
@@ -38,18 +35,18 @@
               <!-- Populated by JavaScript -->
             </select>
             <button
-              class="btn-secondary text-xs sm:text-sm py-1 px-3 sm:px-4"
+              class="hidden sm:flex btn-secondary text-[10px] sm:text-sm py-1 px-2 sm:px-4 items-center justify-center min-w-0"
               onclick="app.init()"
+              title="Refresh Data"
             >
-              <span class="hidden sm:inline">Refresh Data</span>
-              <span class="sm:hidden">Refresh</span>
+              <span class="hidden sm:inline">Refresh</span>
             </button>
             <button
-              class="btn-primary text-xs sm:text-sm py-1 px-3 sm:px-4"
+              class="hidden sm:flex btn-primary text-[10px] sm:text-sm py-1 px-2 sm:px-4 items-center justify-center min-w-0"
               onclick="app.createNewBuild()"
+              title="New Build"
             >
               <span class="hidden sm:inline">+ New Build</span>
-              <span class="sm:hidden">+ New</span>
             </button>
           </nav>
         </div>
@@ -175,7 +172,7 @@
               </button>
             </div>
             <button
-              class="btn-primary px-4 sm:px-6 py-2 whitespace-nowrap text-sm"
+              class="hidden sm:flex btn-primary px-4 sm:px-6 py-2 whitespace-nowrap text-sm items-center justify-center"
               onclick="app.shareBuild()"
             >
               <svg
@@ -191,8 +188,7 @@
                   d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"
                 ></path>
               </svg>
-              <span class="hidden sm:inline">Share Build</span>
-              <span class="sm:hidden">Share</span>
+              <span>Share Build</span>
             </button>
           </div>
         </section>
@@ -429,31 +425,31 @@
     <!-- Module Selector Modal -->
     <div
       id="module-selector-modal"
-      class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-2 sm:p-4"
+      class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-0 sm:p-4"
       onclick="if (event.target === this) app.closeModuleSelector();"
     >
       <div
-        class="card max-w-6xl w-full bg-tfd-dark max-h-[95vh] sm:max-h-[90vh] flex flex-col rounded-lg shadow-[0_0_30px_rgba(0,240,255,0.3)]"
+        class="card max-w-6xl w-full bg-tfd-dark h-full sm:h-auto sm:max-h-[90vh] flex flex-col rounded-none sm:rounded-lg shadow-[0_0_30px_rgba(0,240,255,0.3)] border-x-0 border-b-0 sm:border border-t-2 border-t-cyber-cyan sm:border-cyber-cyan/20"
       >
         <div
-          class="flex items-center justify-between mb-3 sm:mb-4 p-4 sm:p-6 pb-3 sm:pb-4 border-b border-cyber-cyan/30"
+          class="flex items-center justify-between p-4 sm:p-6 pb-3 sm:pb-4 border-b border-cyber-cyan/30"
         >
           <div>
             <h3
-              class="text-xl sm:text-2xl md:text-3xl font-bold text-cyber-cyan"
+              class="text-lg sm:text-2xl md:text-3xl font-bold text-cyber-cyan"
             >
               Select Module
             </h3>
             <p
               id="module-slot-info"
-              class="text-xs sm:text-sm text-steel-grey mt-1"
+              class="text-[10px] sm:text-sm text-steel-grey mt-0.5"
             >
               <span id="module-count">0 modules</span>
             </p>
           </div>
           <button
             onclick="app.closeModuleSelector()"
-            class="text-steel-grey hover:text-cyber-cyan text-2xl sm:text-3xl leading-none transition-colors"
+            class="w-10 h-10 flex items-center justify-center text-steel-grey hover:text-cyber-cyan text-3xl transition-colors rounded-full hover:bg-void-lighter"
           >
             &times;
           </button>
@@ -461,58 +457,60 @@
 
         <!-- Search and Filter -->
         <div
-          class="p-4 sm:p-6 pt-3 sm:pt-4 pb-3 sm:pb-4 border-b border-steel-grey/20 space-y-3"
+          class="p-3 sm:p-6 pt-2 sm:pt-4 pb-3 sm:pb-4 border-b border-steel-grey/20 space-y-3 overflow-y-auto sm:overflow-visible max-h-[40vh] sm:max-h-none"
         >
           <input
             type="text"
             id="module-search"
-            class="w-full px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-hidden focus:ring-2 focus:ring-cyber-cyan/50 transition-all"
+            class="w-full px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-hidden focus:ring-2 focus:ring-cyber-cyan/50 transition-all text-sm"
             placeholder="Search modules..."
             oninput="app.filterModules()"
           />
 
           <!-- Socket Type Filters -->
           <div>
-            <p class="text-xs text-steel-grey mb-2">Socket Type:</p>
-            <div class="flex gap-1 sm:gap-2 flex-wrap">
+            <p class="text-[10px] sm:text-xs text-steel-grey mb-1.5 sm:mb-2">
+              Socket Type:
+            </p>
+            <div class="flex gap-1.5 sm:gap-2 flex-wrap">
               <button
                 onclick="app.filterModulesBySocket('all')"
-                class="module-filter-btn active text-[10px] sm:text-xs px-2 sm:px-3"
+                class="module-filter-btn active"
                 data-socket="all"
               >
                 All
               </button>
               <button
                 onclick="app.filterModulesBySocket('Almandine')"
-                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
+                class="module-filter-btn"
                 data-socket="Almandine"
               >
                 Almandine
               </button>
               <button
                 onclick="app.filterModulesBySocket('Malachite')"
-                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
+                class="module-filter-btn"
                 data-socket="Malachite"
               >
                 Malachite
               </button>
               <button
                 onclick="app.filterModulesBySocket('Cerulean')"
-                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
+                class="module-filter-btn"
                 data-socket="Cerulean"
               >
                 Cerulean
               </button>
               <button
                 onclick="app.filterModulesBySocket('Xantic')"
-                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
+                class="module-filter-btn"
                 data-socket="Xantic"
               >
                 Xantic
               </button>
               <button
                 onclick="app.filterModulesBySocket('Rutile')"
-                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
+                class="module-filter-btn"
                 data-socket="Rutile"
               >
                 Rutile
@@ -522,8 +520,10 @@
 
           <!-- Tier Filters -->
           <div>
-            <p class="text-xs text-steel-grey mb-2">Tier:</p>
-            <div class="flex gap-1 sm:gap-2 flex-wrap">
+            <p class="text-[10px] sm:text-xs text-steel-grey mb-1.5 sm:mb-2">
+              Tier:
+            </p>
+            <div class="flex gap-1.5 sm:gap-2 flex-wrap">
               <button
                 onclick="app.filterModulesByTier('all')"
                 class="module-filter-btn active"
@@ -566,7 +566,7 @@
         <!-- Module Grid -->
         <div
           id="module-selector-grid"
-          class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 p-6 pt-4 overflow-y-auto flex-1"
+          class="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4 p-3 sm:p-6 overflow-y-auto flex-1"
         >
           <!-- Populated by JavaScript -->
         </div>
@@ -576,31 +576,31 @@
     <!-- Weapon Selector Modal -->
     <div
       id="weapon-selector-modal"
-      class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-2 sm:p-4"
+      class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-0 sm:p-4"
       onclick="if (event.target === this) app.closeWeaponSelector();"
     >
       <div
-        class="card max-w-6xl w-full bg-tfd-dark max-h-[95vh] sm:max-h-[90vh] flex flex-col rounded-lg shadow-[0_0_30px_rgba(0,240,255,0.3)]"
+        class="card max-w-6xl w-full bg-tfd-dark h-full sm:h-auto sm:max-h-[90vh] flex flex-col rounded-none sm:rounded-lg shadow-[0_0_30px_rgba(0,240,255,0.3)] border-x-0 border-b-0 sm:border border-t-2 border-t-cyber-cyan sm:border-cyber-cyan/20"
       >
         <div
-          class="flex items-center justify-between mb-3 sm:mb-4 p-4 sm:p-6 pb-3 sm:pb-4 border-b border-cyber-cyan/30"
+          class="flex items-center justify-between p-4 sm:p-6 pb-3 sm:pb-4 border-b border-cyber-cyan/30"
         >
           <div>
             <h3
-              class="text-xl sm:text-2xl md:text-3xl font-bold text-cyber-cyan"
+              class="text-lg sm:text-2xl md:text-3xl font-bold text-cyber-cyan"
             >
               Select Weapon
             </h3>
             <p
               id="weapon-slot-info"
-              class="text-xs sm:text-sm text-steel-grey mt-1"
+              class="text-[10px] sm:text-sm text-steel-grey mt-0.5"
             >
               <span id="weapon-count">0 weapons</span>
             </p>
           </div>
           <button
             onclick="app.closeWeaponSelector()"
-            class="text-steel-grey hover:text-cyber-cyan text-2xl sm:text-3xl leading-none transition-colors"
+            class="w-10 h-10 flex items-center justify-center text-steel-grey hover:text-cyber-cyan text-3xl transition-colors rounded-full hover:bg-void-lighter"
           >
             &times;
           </button>
@@ -608,79 +608,81 @@
 
         <!-- Search and Filter -->
         <div
-          class="p-4 sm:p-6 pt-3 sm:pt-4 pb-3 sm:pb-4 border-b border-steel-grey/20 space-y-3"
+          class="p-3 sm:p-6 pt-2 sm:pt-4 pb-3 sm:pb-4 border-b border-steel-grey/20 space-y-3 overflow-y-auto sm:overflow-visible max-h-[40vh] sm:max-h-none"
         >
           <input
             type="text"
             id="weapon-search"
-            class="w-full px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-hidden focus:ring-2 focus:ring-cyber-cyan/50 transition-all"
+            class="w-full px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-hidden focus:ring-2 focus:ring-cyber-cyan/50 transition-all text-sm"
             placeholder="Search weapons..."
             oninput="app.filterWeapons()"
           />
 
           <!-- Weapon Type Filters -->
           <div>
-            <p class="text-xs text-steel-grey mb-2">Weapon Type:</p>
-            <div class="flex gap-1 sm:gap-2 flex-wrap">
+            <p class="text-[10px] sm:text-xs text-steel-grey mb-1.5 sm:mb-2">
+              Weapon Type:
+            </p>
+            <div class="flex gap-1.5 sm:gap-2 flex-wrap">
               <button
                 onclick="app.filterWeaponsByType('all')"
-                class="module-filter-btn active text-[10px] sm:text-xs px-2 sm:px-3"
+                class="module-filter-btn active"
                 data-weapon-type="all"
               >
                 All
               </button>
               <button
                 onclick="app.filterWeaponsByType('Handgun')"
-                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
+                class="module-filter-btn"
                 data-weapon-type="Handgun"
               >
                 Handgun
               </button>
               <button
                 onclick="app.filterWeaponsByType('Assault Rifle')"
-                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
+                class="module-filter-btn"
                 data-weapon-type="Assault Rifle"
               >
                 Assault Rifle
               </button>
               <button
                 onclick="app.filterWeaponsByType('Scout Rifle')"
-                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
+                class="module-filter-btn"
                 data-weapon-type="Scout Rifle"
               >
                 Scout Rifle
               </button>
               <button
                 onclick="app.filterWeaponsByType('SMG')"
-                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
+                class="module-filter-btn"
                 data-weapon-type="SMG"
               >
                 SMG
               </button>
               <button
                 onclick="app.filterWeaponsByType('Shotgun')"
-                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
+                class="module-filter-btn"
                 data-weapon-type="Shotgun"
               >
                 Shotgun
               </button>
               <button
                 onclick="app.filterWeaponsByType('Machine Gun')"
-                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
+                class="module-filter-btn"
                 data-weapon-type="Machine Gun"
               >
                 Machine Gun
               </button>
               <button
                 onclick="app.filterWeaponsByType('Sniper Rifle')"
-                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
+                class="module-filter-btn"
                 data-weapon-type="Sniper Rifle"
               >
                 Sniper Rifle
               </button>
               <button
                 onclick="app.filterWeaponsByType('Launcher')"
-                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
+                class="module-filter-btn"
                 data-weapon-type="Launcher"
               >
                 Launcher
@@ -690,32 +692,34 @@
 
           <!-- Tier Filters -->
           <div>
-            <p class="text-xs text-steel-grey mb-2">Tier:</p>
-            <div class="flex gap-1 sm:gap-2 flex-wrap">
+            <p class="text-[10px] sm:text-xs text-steel-grey mb-1.5 sm:mb-2">
+              Tier:
+            </p>
+            <div class="flex gap-1.5 sm:gap-2 flex-wrap">
               <button
                 onclick="app.filterWeaponsByTier('all')"
-                class="module-filter-btn active text-[10px] sm:text-xs px-2 sm:px-3"
+                class="module-filter-btn active"
                 data-weapon-tier="all"
               >
                 All
               </button>
               <button
                 onclick="app.filterWeaponsByTier('Tier1')"
-                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
+                class="module-filter-btn"
                 data-weapon-tier="Tier1"
               >
                 Normal
               </button>
               <button
                 onclick="app.filterWeaponsByTier('Tier2')"
-                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
+                class="module-filter-btn"
                 data-weapon-tier="Tier2"
               >
                 Rare
               </button>
               <button
                 onclick="app.filterWeaponsByTier('Tier3')"
-                class="module-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
+                class="module-filter-btn"
                 data-weapon-tier="Tier3"
               >
                 Ultimate
@@ -727,7 +731,7 @@
         <!-- Weapon Grid -->
         <div
           id="weapon-selector-grid"
-          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-3 p-4 sm:p-6 pt-3 sm:pt-4 overflow-y-auto flex-1"
+          class="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4 p-3 sm:p-6 overflow-y-auto flex-1"
         >
           <!-- Populated by JavaScript -->
         </div>
@@ -819,66 +823,57 @@
     <!-- Reactor Selector Modal -->
     <div
       id="reactor-selector-modal"
-      class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-2 sm:p-4"
+      class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-0 sm:p-4"
     >
       <div
-        class="bg-void-deep/95 border-2 border-cyber-cyan/50 rounded-lg max-w-6xl w-full max-h-[95vh] sm:max-h-[90vh] flex flex-col shadow-[0_0_30px_rgba(0,240,255,0.3)]"
+        class="bg-void-deep/95 border-x-0 border-b-0 sm:border-2 border-t-2 border-t-cyber-cyan sm:border-cyber-cyan/50 rounded-none sm:rounded-lg max-w-6xl w-full h-full sm:h-auto sm:max-h-[90vh] flex flex-col shadow-[0_0_30px_rgba(0,240,255,0.3)]"
       >
         <div class="p-4 sm:p-6 border-b border-cyber-cyan/30">
           <div class="flex items-center justify-between mb-3 sm:mb-4">
             <h3
-              class="text-xl sm:text-2xl md:text-3xl font-bold text-cyber-cyan"
+              class="text-lg sm:text-2xl md:text-3xl font-bold text-cyber-cyan"
             >
               Select Reactor
             </h3>
             <button
               id="close-reactor-selector"
-              class="text-steel-grey hover:text-cyber-cyan text-2xl sm:text-3xl leading-none transition-colors"
+              class="w-10 h-10 flex items-center justify-center text-steel-grey hover:text-cyber-cyan text-3xl transition-colors rounded-full hover:bg-void-lighter"
             >
               &times;
             </button>
           </div>
-          <p id="reactor-slot-info" class="text-xs sm:text-sm text-steel-grey">
+          <p
+            id="reactor-slot-info"
+            class="text-[10px] sm:text-sm text-steel-grey"
+          >
             Select a reactor
           </p>
         </div>
 
         <!-- Search and Filters -->
-        <div class="p-4 sm:p-6 border-b border-steel-grey/20">
+        <div
+          class="p-3 sm:p-6 border-b border-steel-grey/20 overflow-y-auto sm:overflow-visible max-h-[40vh] sm:max-h-none"
+        >
           <div class="flex flex-col md:flex-row gap-3 sm:gap-4">
             <!-- Search -->
             <input
               type="text"
               id="reactor-search"
               placeholder="Search reactors..."
-              class="flex-1 px-3 sm:px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-hidden focus:ring-2 focus:ring-cyber-cyan/50 transition-all text-sm"
+              class="flex-1 px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-hidden focus:ring-2 focus:ring-cyber-cyan/50 transition-all text-sm"
             />
 
             <!-- Tier Filter -->
-            <div class="flex gap-1 sm:gap-2 flex-wrap">
-              <button
-                class="reactor-filter-btn active text-[10px] sm:text-xs px-2 sm:px-3"
-                data-tier="all"
-              >
+            <div class="flex gap-1.5 sm:gap-2 flex-wrap">
+              <button class="reactor-filter-btn active" data-tier="all">
                 All Tiers
               </button>
-              <button
-                class="reactor-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
-                data-tier="Tier1"
-              >
-                Tier 1
+              <button class="reactor-filter-btn" data-tier="Tier1">
+                Normal
               </button>
-              <button
-                class="reactor-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
-                data-tier="Tier2"
-              >
-                Tier 2
-              </button>
-              <button
-                class="reactor-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
-                data-tier="Tier3"
-              >
-                Tier 3
+              <button class="reactor-filter-btn" data-tier="Tier2">Rare</button>
+              <button class="reactor-filter-btn" data-tier="Tier3">
+                Ultimate
               </button>
             </div>
           </div>
@@ -887,7 +882,7 @@
         <!-- Reactor Grid -->
         <div
           id="reactor-selector-grid"
-          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-3 md:gap-4 p-4 sm:p-6 overflow-y-auto flex-1"
+          class="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4 p-3 sm:p-6 overflow-y-auto flex-1"
         >
           <!-- Populated by JavaScript -->
         </div>
@@ -897,69 +892,62 @@
     <!-- External Component Selector Modal -->
     <div
       id="external-component-selector-modal"
-      class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-2 sm:p-4"
+      class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-0 sm:p-4"
     >
       <div
-        class="bg-void-deep/95 border-2 border-cyber-cyan/50 rounded-lg max-w-6xl w-full max-h-[95vh] sm:max-h-[90vh] flex flex-col shadow-[0_0_30px_rgba(0,240,255,0.3)]"
+        class="bg-void-deep/95 border-x-0 border-b-0 sm:border-2 border-t-2 border-t-cyber-cyan sm:border-cyber-cyan/50 rounded-none sm:rounded-lg max-w-6xl w-full h-full sm:h-auto sm:max-h-[90vh] flex flex-col shadow-[0_0_30px_rgba(0,240,255,0.3)]"
       >
         <div class="p-4 sm:p-6 border-b border-cyber-cyan/30">
           <div class="flex items-center justify-between mb-3 sm:mb-4">
             <h3
-              class="text-xl sm:text-2xl md:text-3xl font-bold text-cyber-cyan"
+              class="text-lg sm:text-2xl md:text-3xl font-bold text-cyber-cyan"
             >
               Select External Component
             </h3>
             <button
               id="close-external-component-selector"
-              class="text-steel-grey hover:text-cyber-cyan text-2xl sm:text-3xl leading-none transition-colors"
+              class="w-10 h-10 flex items-center justify-center text-steel-grey hover:text-cyber-cyan text-3xl transition-colors rounded-full hover:bg-void-lighter"
             >
               &times;
             </button>
           </div>
           <p
             id="external-component-slot-info"
-            class="text-xs sm:text-sm text-steel-grey"
+            class="text-[10px] sm:text-sm text-steel-grey"
           >
             Select a component
           </p>
         </div>
 
         <!-- Search and Filters -->
-        <div class="p-4 sm:p-6 border-b border-steel-grey/20">
+        <div
+          class="p-3 sm:p-6 border-b border-steel-grey/20 overflow-y-auto sm:overflow-visible max-h-[40vh] sm:max-h-none"
+        >
           <div class="flex flex-col md:flex-row gap-3 sm:gap-4">
             <!-- Search -->
             <input
               type="text"
               id="external-component-search"
               placeholder="Search components..."
-              class="flex-1 px-3 sm:px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-hidden focus:ring-2 focus:ring-cyber-cyan/50 transition-all text-sm"
+              class="flex-1 px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-hidden focus:ring-2 focus:ring-cyber-cyan/50 transition-all text-sm"
             />
 
             <!-- Tier Filter -->
-            <div class="flex gap-1 sm:gap-2 flex-wrap">
+            <div class="flex gap-1.5 sm:gap-2 flex-wrap">
               <button
-                class="external-component-filter-btn active text-[10px] sm:text-xs px-2 sm:px-3"
+                class="external-component-filter-btn active"
                 data-tier="all"
               >
                 All Tiers
               </button>
-              <button
-                class="external-component-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
-                data-tier="Tier1"
-              >
-                Tier 1
+              <button class="external-component-filter-btn" data-tier="Tier1">
+                Normal
               </button>
-              <button
-                class="external-component-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
-                data-tier="Tier2"
-              >
-                Tier 2
+              <button class="external-component-filter-btn" data-tier="Tier2">
+                Rare
               </button>
-              <button
-                class="external-component-filter-btn text-[10px] sm:text-xs px-2 sm:px-3"
-                data-tier="Tier3"
-              >
-                Tier 3
+              <button class="external-component-filter-btn" data-tier="Tier3">
+                Ultimate
               </button>
             </div>
           </div>
@@ -968,7 +956,7 @@
         <!-- External Component Grid -->
         <div
           id="external-component-selector-grid"
-          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-3 md:gap-4 p-4 sm:p-6 overflow-y-auto flex-1"
+          class="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4 p-3 sm:p-6 overflow-y-auto flex-1"
         >
           <!-- Populated by JavaScript -->
         </div>
@@ -1045,12 +1033,83 @@
     </div>
 
     <!-- Footer -->
-    <footer class="bg-tfd-dark border-t border-tfd-primary/30 mt-12 py-6">
+    <footer
+      class="bg-tfd-dark border-t border-tfd-primary/30 mt-12 py-6 mb-20 sm:mb-0"
+    >
       <div class="container mx-auto px-4 text-center text-gray-400 text-sm">
         <p>TFD Build Viewer - The First Descendant Character Build Planner</p>
         <p class="mt-2">Data provided by TFD Cache API</p>
       </div>
     </footer>
+
+    <!-- Mobile Bottom Action Bar -->
+    <div
+      class="fixed bottom-0 left-0 right-0 bg-tfd-dark/95 backdrop-blur-md border-t border-tfd-primary/30 z-40 sm:hidden flex items-center justify-around p-3 shadow-[0_-4px_10px_rgba(0,0,0,0.5)]"
+    >
+      <button
+        onclick="app.init()"
+        class="flex flex-col items-center gap-1 text-gray-400 hover:text-tfd-primary transition-colors"
+      >
+        <svg
+          class="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
+          ></path>
+        </svg>
+        <span class="text-[10px] uppercase font-bold">Refresh</span>
+      </button>
+      <button
+        id="mobile-share-btn"
+        onclick="app.shareBuild()"
+        class="flex flex-col items-center gap-1 text-gray-500 cursor-not-allowed opacity-50"
+        disabled
+      >
+        <div
+          class="bg-gray-600 text-void-deep p-3 rounded-full -mt-8 shadow-none transition-all duration-300"
+        >
+          <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"
+            ></path>
+          </svg>
+        </div>
+        <span class="text-[10px] uppercase font-bold mt-1">Share</span>
+      </button>
+      <button
+        onclick="app.createNewBuild()"
+        class="flex flex-col items-center gap-1 text-gray-400 hover:text-tfd-primary transition-colors"
+      >
+        <svg
+          class="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M12 4v16m8-8H4"
+          ></path>
+        </svg>
+        <span class="text-[10px] uppercase font-bold">New Build</span>
+      </button>
+    </div>
 
     <script type="module" src="/src/index.js"></script>
   </body>
