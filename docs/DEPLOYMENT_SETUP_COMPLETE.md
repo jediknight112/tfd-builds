@@ -24,7 +24,7 @@ Your tfd-builds project is now ready to deploy to Cloudflare Workers at `tfd-bui
 These secrets must be set **once** before your first deployment:
 
 ```bash
-cd /Users/jeffrey.crane/GitHub/tfd-builds
+cd tfd-builds
 
 # Set TFD_API_KEY
 npx wrangler secret put TFD_API_KEY

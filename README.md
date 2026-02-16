@@ -73,7 +73,7 @@ tfd-builds/
 1. Navigate to the project directory:
 
 ```bash
-cd /Users/jeffrey.crane/GitHub/tfd-builds
+cd tfd-builds
 ```
 
 2. Install dependencies:
