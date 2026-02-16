@@ -13,6 +13,7 @@ When modules were serialized and deserialized, they would be placed in the wrong
 ### Example of the Issue
 
 **Before Fix:**
+
 ```javascript
 // Original build state:
 descendantModules = [
@@ -45,6 +46,7 @@ Changed the serialization format to preserve slot positions by storing modules a
 ### New Format
 
 **After Fix:**
+
 ```javascript
 // Serialize with slot indices:
 m: [
@@ -69,19 +71,23 @@ descendantModules = [
 ## Changes Made
 
 ### 1. `serialize()` method
+
 - Changed from filtering module IDs to creating `[index, module_id]` pairs
 - Preserves slot positions while still excluding empty slots
 
 ### 2. `deserialize()` method
+
 - Updated to handle the new `[index, module_id]` format
 - Includes backward compatibility for legacy format (old URLs)
 - Shows warning when legacy format is detected
 
 ### 3. `_convertV1ToV2()` method
+
 - Updated v1 to v2 converter to use the new format
 - Maintains slot positions when converting old builds
 
 ### 4. Documentation
+
 - Updated JSDoc comments to reflect the new format
 - Added note about critical slot position preservation
 
@@ -95,7 +101,9 @@ if (Array.isArray(entry)) {
   [slotIndex, moduleId] = entry;
 } else {
   // Legacy format: assume sequential filling
-  console.warn('Legacy module format detected - slot positions may be incorrect');
+  console.warn(
+    'Legacy module format detected - slot positions may be incorrect'
+  );
   // ... fallback logic
 }
 ```
@@ -107,7 +115,7 @@ This ensures existing shared URLs continue to work, though slot positions may be
 Created comprehensive test suite in [tests/build-serializer.test.js](tests/build-serializer.test.js) covering:
 
 - ✅ Slot position preservation during serialization
-- ✅ Slot position restoration during deserialization  
+- ✅ Slot position restoration during deserialization
 - ✅ Empty slot handling
 - ✅ Special slots 0 (Skill) and 6 (Sub) preservation
 - ✅ Full 12-slot builds
