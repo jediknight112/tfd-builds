@@ -6,6 +6,7 @@
     <title>TFD Build Viewer - The First Descendant</title>
     <link rel="icon" type="image/png" href="/TFD_icon.png" />
     <link rel="stylesheet" href="/src/styles/input.css" />
+    <script type="text/javascript" src="https://openapi.nexon.com/js/analytics.js?app_id=239454" async></script>
     <link rel="preconnect" href="https://cdn.jsdelivr.net" />
     <link
       rel="stylesheet"
@@ -75,6 +76,32 @@
             </svg>
             Select Descendant
           </h2>
+          <div
+            class="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-3 mb-4 pb-4 border-b border-tfd-primary/20"
+          >
+            <p class="text-gray-400 text-sm">
+              Or import your/any current in-game build:
+            </p>
+            <button
+              class="btn-secondary px-4 py-2 text-sm flex items-center gap-2"
+              onclick="app.openImportBuild()"
+            >
+              <svg
+                class="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                ></path>
+              </svg>
+              Import from Nexon
+            </button>
+          </div>
           <div
             id="descendant-selector"
             class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4"
@@ -967,6 +994,87 @@
           </button>
           <button onclick="app.saveCustomStat()" class="btn-primary">
             Add Stat
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Import Build Modal -->
+    <div
+      id="import-build-modal"
+      class="hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="import-build-title"
+      onclick="if (event.target === this) app.closeImportBuild();"
+    >
+      <div
+        class="card max-w-md w-full bg-tfd-dark rounded-lg shadow-[0_0_30px_rgba(0,240,255,0.3)] border border-cyber-cyan/20"
+      >
+        <div class="p-6 border-b border-cyber-cyan/30">
+          <div class="flex items-center justify-between mb-2">
+            <h3
+              id="import-build-title"
+              class="text-xl sm:text-2xl font-bold text-cyber-cyan"
+            >
+              Import Build
+            </h3>
+            <button
+              onclick="app.closeImportBuild()"
+              aria-label="Close import dialog"
+              class="w-10 h-10 flex items-center justify-center text-steel-grey hover:text-cyber-cyan text-3xl transition-colors rounded-full hover:bg-void-lighter"
+            >
+              &times;
+            </button>
+          </div>
+          <p class="text-sm text-steel-grey">
+            Enter your Nexon username to import your current in-game build.
+          </p>
+        </div>
+
+        <div class="p-6 space-y-4">
+          <div>
+            <label
+              for="import-username"
+              class="block text-sm font-bold text-gray-300 mb-2"
+              >Nexon Username</label
+            >
+            <input
+              type="text"
+              id="import-username"
+              placeholder="Username#1234"
+              class="w-full px-4 py-3 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-hidden focus:ring-2 focus:ring-cyber-cyan/50 transition-all text-sm"
+              onkeydown="if (event.key === 'Enter') app.importBuild();"
+            />
+          </div>
+          <div
+            id="import-error"
+            class="hidden text-red-400 text-sm bg-red-900/20 border border-red-500/30 rounded-lg p-3"
+          ></div>
+          <div
+            id="import-loading"
+            class="hidden flex items-center gap-3 text-steel-grey text-sm"
+          >
+            <div
+              class="animate-spin rounded-full h-5 w-5 border-2 border-cyber-cyan border-t-transparent"
+            ></div>
+            <span>Importing build...</span>
+          </div>
+        </div>
+
+        <div class="p-6 border-t border-steel-grey/20 flex justify-end gap-3">
+          <button
+            onclick="app.closeImportBuild()"
+            class="btn-secondary px-4 py-2 text-sm"
+          >
+            Cancel
+          </button>
+          <button
+            id="import-submit-btn"
+            onclick="app.importBuild()"
+            class="btn-primary px-6 py-2 text-sm"
+          >
+            Import
           </button>
         </div>
       </div>

@@ -93,6 +93,22 @@ describe('Localization Tests', () => {
       expect(state.getLocalizedEquipmentType('Sensor')).toBe('Датчик');
     });
 
+    it('should reverse-lookup localized equipment types to English keys', () => {
+      expect(state.getEnglishEquipmentType('Auxiliary Power')).toBe(
+        'Auxiliary Power'
+      );
+      expect(state.getEnglishEquipmentType('Hilfsenergie')).toBe(
+        'Auxiliary Power'
+      );
+      expect(state.getEnglishEquipmentType('輔助電源')).toBe('Auxiliary Power');
+      expect(state.getEnglishEquipmentType('感應器')).toBe('Sensor');
+      expect(state.getEnglishEquipmentType('儲存器')).toBe('Memory');
+      expect(state.getEnglishEquipmentType('處理裝置')).toBe('Processor');
+      expect(state.getEnglishEquipmentType('Датчик')).toBe('Sensor');
+      // Unknown should pass through
+      expect(state.getEnglishEquipmentType('UnknownType')).toBe('UnknownType');
+    });
+
     it('should localize core types (Free Augmentation)', () => {
       state.setLanguage('ko');
       expect(state.getLocalizedCoreType('Free Augmentation')).toBe('자유 증강');

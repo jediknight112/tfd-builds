@@ -397,7 +397,7 @@ export function createDefaultBuild() {
       { name: '', value: 0 },
     ],
     externalComponents: {},
-    archeTuning: null,
+    archeTuning: [null, null, null],
   };
 }
 
@@ -543,6 +543,20 @@ class AppState {
       LOCALIZED_STRINGS.equipmentType[enEquipmentType]?.en ||
       enEquipmentType
     );
+  }
+
+  // Reverse-lookup: convert a (possibly localized) equipment type back to its English key.
+  // Returns the English key if found, otherwise the original value.
+  getEnglishEquipmentType(localizedEquipmentType) {
+    for (const [enKey, translations] of Object.entries(
+      LOCALIZED_STRINGS.equipmentType
+    )) {
+      if (enKey === localizedEquipmentType) return enKey;
+      for (const translatedValue of Object.values(translations)) {
+        if (translatedValue === localizedEquipmentType) return enKey;
+      }
+    }
+    return localizedEquipmentType;
   }
 
   // Get localized core type

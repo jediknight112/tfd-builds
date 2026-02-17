@@ -60,7 +60,7 @@ describe('BuildSerializer - Extended Coverage', () => {
           { name: '', value: 0 },
         ],
         externalComponents: {},
-        archeTuning: null,
+        archeTuning: [null, null, null],
       },
     };
 
@@ -78,7 +78,7 @@ describe('BuildSerializer - Extended Coverage', () => {
     it('should omit empty fields for a minimal build', () => {
       const data = serializer.serialize();
 
-      expect(data.v).toBe(2);
+      expect(data.v).toBe(3);
       expect(data.d).toBe('desc1');
       expect(data.t).toBeUndefined();
       expect(data.m).toBeUndefined();
@@ -159,20 +159,25 @@ describe('BuildSerializer - Extended Coverage', () => {
       expect(data.e.Sensor[1]).toEqual([['opt_s1', 'stat_s1', 200]]);
     });
 
-    it('should serialize arche tuning with board and selected nodes', () => {
-      mockState.currentBuild.archeTuning = {
-        board: { arche_tuning_board_id: 'board1' },
-        selectedNodes: [
-          { node_id: 'node1', position_row: 9, position_column: 10 },
-          { node_id: 'node2', position_row: 8, position_column: 10 },
-        ],
-      };
+    it('should serialize arche tuning with board and selected nodes (multi-board v3)', () => {
+      mockState.currentBuild.archeTuning = [
+        {
+          board: { arche_tuning_board_id: 'board1' },
+          selectedNodes: [
+            { node_id: 'node1', position_row: 9, position_column: 10 },
+            { node_id: 'node2', position_row: 8, position_column: 10 },
+          ],
+        },
+        null,
+        null,
+      ];
 
       const data = serializer.serialize();
 
       expect(data.a).toBeDefined();
-      expect(data.a[0]).toBe('board1');
-      expect(data.a[1]).toEqual([
+      expect(data.a).toHaveLength(1);
+      expect(data.a[0][0]).toBe('board1');
+      expect(data.a[0][1]).toEqual([
         ['node1', 9, 10],
         ['node2', 8, 10],
       ]);
@@ -275,7 +280,7 @@ describe('BuildSerializer - Extended Coverage', () => {
       ]);
     });
 
-    it('should deserialize arche tuning nodes with positions', () => {
+    it('should deserialize v2 arche tuning nodes into slot 0 of multi-board array', () => {
       const buildData = {
         v: 2,
         d: 'desc1',
@@ -291,16 +296,43 @@ describe('BuildSerializer - Extended Coverage', () => {
       const result = serializer.deserialize(buildData);
 
       expect(result.valid).toBe(true);
-      expect(result.build.archeTuning).toBeDefined();
-      expect(result.build.archeTuning.board.arche_tuning_board_id).toBe(
+      expect(Array.isArray(result.build.archeTuning)).toBe(true);
+      expect(result.build.archeTuning).toHaveLength(3);
+      expect(result.build.archeTuning[0]).not.toBeNull();
+      expect(result.build.archeTuning[0].board.arche_tuning_board_id).toBe(
         'board1'
       );
-      expect(result.build.archeTuning.selectedNodes).toHaveLength(2);
-      expect(result.build.archeTuning.selectedNodes[0].node_id).toBe('node1');
-      expect(result.build.archeTuning.selectedNodes[0].position_row).toBe(9);
-      expect(result.build.archeTuning.selectedNodes[0].position_column).toBe(
-        10
+      expect(result.build.archeTuning[0].selectedNodes).toHaveLength(2);
+      expect(result.build.archeTuning[0].selectedNodes[0].node_id).toBe(
+        'node1'
       );
+      expect(result.build.archeTuning[0].selectedNodes[0].position_row).toBe(9);
+      expect(result.build.archeTuning[1]).toBeNull();
+      expect(result.build.archeTuning[2]).toBeNull();
+    });
+
+    it('should deserialize v3 multi-board arche tuning', () => {
+      const buildData = {
+        v: 3,
+        d: 'desc1',
+        a: [
+          ['board1', [['node1', 9, 10]]],
+          ['board1', [['node2', 8, 10]]],
+        ],
+      };
+
+      const result = serializer.deserialize(buildData);
+
+      expect(result.valid).toBe(true);
+      expect(result.build.archeTuning[0]).not.toBeNull();
+      expect(result.build.archeTuning[0].selectedNodes[0].node_id).toBe(
+        'node1'
+      );
+      expect(result.build.archeTuning[1]).not.toBeNull();
+      expect(result.build.archeTuning[1].selectedNodes[0].node_id).toBe(
+        'node2'
+      );
+      expect(result.build.archeTuning[2]).toBeNull();
     });
 
     it('should warn for missing arche tuning board and nodes', () => {
@@ -313,7 +345,8 @@ describe('BuildSerializer - Extended Coverage', () => {
       const result = serializer.deserialize(buildData);
 
       expect(result.valid).toBe(true);
-      expect(result.build.archeTuning).toBeNull();
+      // Board not found so slot stays null
+      expect(result.build.archeTuning[0]).toBeNull();
       expect(
         result.warnings.some((w) => w.includes('Arche tuning board not found'))
       ).toBe(true);
@@ -408,7 +441,7 @@ describe('BuildSerializer - Extended Coverage', () => {
       ]);
     });
 
-    it('should convert v1 arche tuning to v2 format', () => {
+    it('should convert v1 arche tuning to multi-board format', () => {
       const v1Data = {
         version: '1.0',
         descendant_id: 'desc1',
@@ -423,12 +456,15 @@ describe('BuildSerializer - Extended Coverage', () => {
       const result = serializer.deserialize(v1Data);
 
       expect(result.valid).toBe(true);
-      expect(result.build.archeTuning.board.arche_tuning_board_id).toBe(
+      expect(Array.isArray(result.build.archeTuning)).toBe(true);
+      expect(result.build.archeTuning[0].board.arche_tuning_board_id).toBe(
         'board1'
       );
-      expect(result.build.archeTuning.selectedNodes).toHaveLength(1);
-      expect(result.build.archeTuning.selectedNodes[0].node_id).toBe('node1');
-      expect(result.build.archeTuning.selectedNodes[0].position_row).toBe(9);
+      expect(result.build.archeTuning[0].selectedNodes).toHaveLength(1);
+      expect(result.build.archeTuning[0].selectedNodes[0].node_id).toBe(
+        'node1'
+      );
+      expect(result.build.archeTuning[0].selectedNodes[0].position_row).toBe(9);
     });
 
     it('should convert v1 reactor stats to v2 format', () => {

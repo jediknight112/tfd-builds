@@ -13,6 +13,7 @@ import { CoreSelector } from './modules/core-selector.js';
 import { CustomStatSelector } from './modules/custom-stat-selector.js';
 import { ArcheTuning } from './modules/arche-tuning.js';
 import { BuildSerializer } from './build-serializer.js';
+import { BuildImporter } from './modules/build-importer.js';
 
 // Application class - orchestrates all components
 class Application {
@@ -28,6 +29,7 @@ class Application {
     this.customStatSelector = new CustomStatSelector();
     this.archeTuning = new ArcheTuning();
     this.buildSerializer = new BuildSerializer(state);
+    this.buildImporter = new BuildImporter();
 
     // Setup event listeners once
     this.reactorSelector.setupEventListeners();
@@ -127,7 +129,10 @@ class Application {
         if (urlBuild.build.reactor) {
           this.reactorSelector.renderReactorDisplay();
         }
-        if (urlBuild.build.archeTuning) {
+        const hasArcheData = Array.isArray(urlBuild.build.archeTuning)
+          ? urlBuild.build.archeTuning.some((s) => s !== null)
+          : urlBuild.build.archeTuning !== null;
+        if (hasArcheData) {
           this.archeTuning.renderArcheTuningBoard();
         }
         UIComponents.showSuccess('Build loaded from URL');
@@ -300,6 +305,9 @@ class Application {
 
   initializeBuild() {
     state.currentBuild = createDefaultBuild();
+
+    // Reset arche tuning state so stale data from previous builds doesn't persist
+    this.archeTuning.reset();
 
     // Render all build sections
     this.renderModules();
@@ -538,6 +546,101 @@ class Application {
     this.customStatSelector.removeCustomStat(weaponIndex, statIndex);
   }
 
+  // Build import methods
+  openImportBuild() {
+    const modal = document.getElementById('import-build-modal');
+    if (modal) {
+      modal.classList.remove('hidden');
+      const input = document.getElementById('import-username');
+      if (input) {
+        input.value = '';
+        input.focus();
+      }
+      // Clear previous error/loading states
+      const errorEl = document.getElementById('import-error');
+      if (errorEl) errorEl.classList.add('hidden');
+      const loadingEl = document.getElementById('import-loading');
+      if (loadingEl) loadingEl.classList.add('hidden');
+      const submitBtn = document.getElementById('import-submit-btn');
+      if (submitBtn) submitBtn.disabled = false;
+    }
+  }
+
+  closeImportBuild() {
+    const modal = document.getElementById('import-build-modal');
+    if (modal) modal.classList.add('hidden');
+  }
+
+  async importBuild() {
+    const input = document.getElementById('import-username');
+    const errorEl = document.getElementById('import-error');
+    const loadingEl = document.getElementById('import-loading');
+    const submitBtn = document.getElementById('import-submit-btn');
+
+    const username = input?.value?.trim();
+    if (!username) {
+      if (errorEl) {
+        errorEl.textContent = 'Please enter a username.';
+        errorEl.classList.remove('hidden');
+      }
+      return;
+    }
+
+    // Show loading, hide error, disable submit
+    if (errorEl) errorEl.classList.add('hidden');
+    if (loadingEl) loadingEl.classList.remove('hidden');
+    if (submitBtn) submitBtn.disabled = true;
+
+    try {
+      const result = await this.buildImporter.importBuild(username);
+
+      if (result.warnings.length > 0) {
+        UIComponents.showWarning(
+          `Build imported with warnings: ${result.warnings.join(', ')}`
+        );
+      }
+
+      // Close the modal
+      this.closeImportBuild();
+
+      // Reset arche tuning before loading new data
+      this.archeTuning.reset();
+
+      // Load the imported build
+      await this.selectDescendant(result.descendant);
+      state.currentBuild = result.build;
+
+      // Re-render everything with imported build
+      this.renderModules();
+      this.renderWeapons();
+
+      if (result.build.reactor) {
+        this.reactorSelector.renderReactorDisplay();
+      }
+
+      const hasArcheData = Array.isArray(result.build.archeTuning)
+        ? result.build.archeTuning.some((s) => s !== null)
+        : result.build.archeTuning !== null;
+      if (hasArcheData) {
+        this.archeTuning.renderArcheTuningBoard();
+      }
+
+      UIComponents.showSuccess(
+        `Build imported for ${result.userName || username}`
+      );
+    } catch (error) {
+      console.error('Import failed:', error);
+      if (errorEl) {
+        errorEl.textContent =
+          error.message || 'Failed to import build. Please try again.';
+        errorEl.classList.remove('hidden');
+      }
+    } finally {
+      if (loadingEl) loadingEl.classList.add('hidden');
+      if (submitBtn) submitBtn.disabled = false;
+    }
+  }
+
   // Build sharing methods
   shareBuild() {
     try {
@@ -608,6 +711,10 @@ document.addEventListener('keydown', (e) => {
       {
         id: 'custom-stat-modal',
         close: () => app.closeCustomStatSelector(),
+      },
+      {
+        id: 'import-build-modal',
+        close: () => app.closeImportBuild(),
       },
     ];
 

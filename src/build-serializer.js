@@ -13,7 +13,7 @@ import LZString from 'lz-string';
 export class BuildSerializer {
   constructor(state) {
     this.state = state;
-    this.version = 2; // v2 uses compact format
+    this.version = 3; // v3 adds multi-board arche tuning
     this.localStorageKey = 'tfd_last_build';
   }
 
@@ -119,13 +119,22 @@ export class BuildSerializer {
       data.e = externalComps;
     }
 
-    // Arche tuning - [board_id, [[node_id, row, col]]]
-    if (build.archeTuning?.board?.arche_tuning_board_id) {
-      const nodes = (build.archeTuning.selectedNodes || [])
-        .filter((n) => n && n.node_id)
-        .map((n) => [n.node_id, n.position_row, n.position_column]);
+    // Arche tuning - v3 multi-board: [[board_id, [[node_id, row, col]]], ...]
+    const archeBoards = Array.isArray(build.archeTuning)
+      ? build.archeTuning
+      : [build.archeTuning];
+    const serializedBoards = archeBoards
+      .map((slot) => {
+        if (!slot?.board?.arche_tuning_board_id) return null;
+        const nodes = (slot.selectedNodes || [])
+          .filter((n) => n && n.node_id)
+          .map((n) => [n.node_id, n.position_row, n.position_column]);
+        return [slot.board.arche_tuning_board_id, nodes];
+      })
+      .filter(Boolean);
 
-      data.a = [build.archeTuning.board.arche_tuning_board_id, nodes];
+    if (serializedBoards.length) {
+      data.a = serializedBoards;
     }
 
     return data;
@@ -328,39 +337,50 @@ export class BuildSerializer {
       };
     });
 
-    // Reconstruct arche tuning from [board_id, [[node_id, row, col]]]
-    let archeTuning = null;
-    if (buildData.a && buildData.a[0]) {
-      const board = this.state.archeTuningBoards.find(
-        (b) => b.arche_tuning_board_id === buildData.a[0]
-      );
-      if (!board) {
-        warnings.push(`Arche tuning board not found: ${buildData.a[0]}`);
-      }
+    // Reconstruct arche tuning
+    // v3: data.a = [[board_id, [[node_id, row, col]]], ...]
+    // v2: data.a = [board_id, [[node_id, row, col]]] (single board)
+    const archeTuning = [null, null, null];
+    if (buildData.a && buildData.a.length > 0) {
+      // Detect v2 vs v3: in v2 data.a[0] is a string (board_id), in v3 it's an array
+      const isV3 = Array.isArray(buildData.a[0]);
+      const boardEntries = isV3 ? buildData.a : [buildData.a];
 
-      const selectedNodes = (buildData.a[1] || [])
-        .map(([node_id, position_row, position_column]) => {
-          const node = this.state.archeTuningNodes.find(
-            (n) => n.node_id === node_id
-          );
-          if (!node) {
-            warnings.push(`Arche tuning node not found: ${node_id}`);
-            return null;
-          }
-          return {
-            ...node,
-            position_row,
-            position_column,
+      boardEntries.forEach((entry, slotIdx) => {
+        if (!entry || slotIdx >= 3) return;
+
+        const boardId = entry[0];
+        const board = this.state.archeTuningBoards.find(
+          (b) => b.arche_tuning_board_id === boardId
+        );
+        if (!board) {
+          warnings.push(`Arche tuning board not found: ${boardId}`);
+        }
+
+        const selectedNodes = (entry[1] || [])
+          .map(([node_id, position_row, position_column]) => {
+            const node = this.state.archeTuningNodes.find(
+              (n) => n.node_id === node_id
+            );
+            if (!node) {
+              warnings.push(`Arche tuning node not found: ${node_id}`);
+              return null;
+            }
+            return {
+              ...node,
+              position_row,
+              position_column,
+            };
+          })
+          .filter(Boolean);
+
+        if (board) {
+          archeTuning[slotIdx] = {
+            board,
+            selectedNodes,
           };
-        })
-        .filter(Boolean);
-
-      if (board) {
-        archeTuning = {
-          board,
-          selectedNodes,
-        };
-      }
+        }
+      });
     }
 
     return {

@@ -109,6 +109,97 @@ class TFDApiClient {
   async fetchCoreTypes() {
     return this.fetchMetadata('core-type');
   }
+
+  // --- User API methods (proxied through tfd-cache, not cached) ---
+
+  async fetchUserData(endpoint, params = {}) {
+    try {
+      const queryString = Object.entries(params)
+        .map(
+          ([key, value]) =>
+            `${encodeURIComponent(key)}=${encodeURIComponent(value)}`
+        )
+        .join('&');
+      const url = `${this.baseUrl}/tfd/v1/${endpoint}${queryString ? `?${queryString}` : ''}`;
+      const { workerApiKey, nexonApiKey } = state.apiKeys;
+
+      if (!workerApiKey || !nexonApiKey) {
+        throw new Error(
+          'API keys are not configured. Please contact the administrator.'
+        );
+      }
+
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 30000);
+
+      const response = await fetch(url, {
+        headers: {
+          'x-worker-api-key': workerApiKey,
+          'x-nxopen-api-key': nexonApiKey,
+        },
+        signal: controller.signal,
+      });
+
+      clearTimeout(timeoutId);
+
+      if (!response.ok) {
+        if (response.status === 400) {
+          throw new Error('User not found. Please check the username.');
+        }
+        if (response.status === 401) {
+          throw new Error(
+            'Authentication failed. Please configure your API keys.'
+          );
+        }
+        throw new Error(
+          `Failed to fetch ${endpoint}: ${response.status} ${response.statusText}`
+        );
+      }
+
+      return response.json();
+    } catch (error) {
+      if (error.name === 'AbortError') {
+        throw new Error(`Request timed out for ${endpoint}`);
+      }
+      throw error;
+    }
+  }
+
+  async resolveUsername(username) {
+    return this.fetchUserData('id', { user_name: username });
+  }
+
+  async fetchUserDescendant(ouid) {
+    return this.fetchUserData('user/descendant', { ouid });
+  }
+
+  async fetchUserWeapon(ouid, languageCode) {
+    return this.fetchUserData('user/weapon', {
+      ouid,
+      language_code: languageCode,
+    });
+  }
+
+  async fetchUserReactor(ouid, languageCode) {
+    return this.fetchUserData('user/reactor', {
+      ouid,
+      language_code: languageCode,
+    });
+  }
+
+  async fetchUserExternalComponent(ouid, languageCode) {
+    return this.fetchUserData('user/external-component', {
+      ouid,
+      language_code: languageCode,
+    });
+  }
+
+  async fetchUserArcheTuning(ouid, descendantGroupId) {
+    return this.fetchUserData('user/arche-tuning', {
+      ouid,
+      descendant_group_id: descendantGroupId,
+    });
+  }
 }
 
 export const apiClient = new TFDApiClient();

@@ -2,7 +2,6 @@ import { state } from '../state.js';
 
 export class ArcheTuning {
   constructor() {
-    this.selectedNodes = new Set();
     this.gridSize = 21; // 21x21 grid
 
     // Define the grid structure based on the visual template
@@ -18,12 +17,23 @@ export class ArcheTuning {
       { row: 20, col: 10 }, // Bottom
     ];
 
+    // Multi-board slot management (3 slots: 0, 1, 2)
+    this.currentSlotIndex = 0;
+    this.boardSlots = [
+      { selectedNodes: new Set(), nodePositionMap: {}, currentBoard: null },
+      { selectedNodes: new Set(), nodePositionMap: {}, currentBoard: null },
+      { selectedNodes: new Set(), nodePositionMap: {}, currentBoard: null },
+    ];
+
+    // Active slot state (mirrors boardSlots[currentSlotIndex])
+    this.selectedNodes = this.boardSlots[0].selectedNodes;
+    this.nodePositionMap = this.boardSlots[0].nodePositionMap;
+    this.currentBoard = null;
+
     // Metadata storage
     this.archeBoardData = null;
     this.archeNodeData = null;
     this.statData = null;
-    this.currentBoard = null; // Currently active board
-    this.nodePositionMap = {}; // Maps "row,col" to node_id
     this.metadataLoaded = false;
 
     // DOM reference map for targeted updates (keyed by "row,col")
@@ -36,8 +46,14 @@ export class ArcheTuning {
   }
 
   reset() {
-    this.selectedNodes = new Set();
-    this.nodePositionMap = {};
+    this.currentSlotIndex = 0;
+    this.boardSlots = [
+      { selectedNodes: new Set(), nodePositionMap: {}, currentBoard: null },
+      { selectedNodes: new Set(), nodePositionMap: {}, currentBoard: null },
+      { selectedNodes: new Set(), nodePositionMap: {}, currentBoard: null },
+    ];
+    this.selectedNodes = this.boardSlots[0].selectedNodes;
+    this.nodePositionMap = this.boardSlots[0].nodePositionMap;
     this.currentBoard = null;
     this.metadataLoaded = false;
     this.nodeDomMap.clear();
@@ -49,66 +65,44 @@ export class ArcheTuning {
 
   createGridStructure() {
     // Create a 21x21 grid marking which positions have visible nodes
-    // Based on the exact template from the Go code (cmd.go lines 332-354)
     const grid = Array(21)
       .fill(null)
       .map(() => Array(21).fill(false));
 
-    // Row 0
     [2, 3, 4, 5, 6, 10, 14, 15, 16, 17, 18].forEach((c) => (grid[0][c] = true));
-    // Row 1
     [2, 6, 8, 9, 10, 11, 12, 14, 18].forEach((c) => (grid[1][c] = true));
-    // Row 2
     [2, 4, 5, 6, 7, 8, 12, 13, 14, 15, 16, 18].forEach(
       (c) => (grid[2][c] = true)
     );
-    // Row 3
     [2, 4, 8, 12, 16, 18].forEach((c) => (grid[3][c] = true));
-    // Row 4
     [2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18].forEach(
       (c) => (grid[4][c] = true)
     );
-    // Row 5
     [4, 6, 8, 12, 14, 16].forEach((c) => (grid[5][c] = true));
-    // Row 6
     [4, 5, 6, 7, 8, 12, 13, 14, 15, 16].forEach((c) => (grid[6][c] = true));
-    // Row 7
     [4, 8, 12, 16].forEach((c) => (grid[7][c] = true));
-    // Row 8
     [2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18].forEach(
       (c) => (grid[8][c] = true)
     );
-    // Row 9
     [2, 4, 6, 8, 10, 12, 14, 16, 18].forEach((c) => (grid[9][c] = true));
-    // Row 10
     [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 18, 19, 20].forEach(
       (c) => (grid[10][c] = true)
     );
-    // Row 11
     [2, 4, 6, 8, 10, 12, 14, 16, 18].forEach((c) => (grid[11][c] = true));
-    // Row 12
     [2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18].forEach(
       (c) => (grid[12][c] = true)
     );
-    // Row 13
     [4, 8, 12, 16].forEach((c) => (grid[13][c] = true));
-    // Row 14
     [4, 5, 6, 7, 8, 12, 13, 14, 15, 16].forEach((c) => (grid[14][c] = true));
-    // Row 15
     [4, 6, 8, 12, 14, 16].forEach((c) => (grid[15][c] = true));
-    // Row 16
     [2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18].forEach(
       (c) => (grid[16][c] = true)
     );
-    // Row 17
     [2, 4, 8, 12, 13, 16, 18].forEach((c) => (grid[17][c] = true));
-    // Row 18
     [2, 4, 5, 6, 7, 8, 12, 13, 14, 15, 16, 18].forEach(
       (c) => (grid[18][c] = true)
     );
-    // Row 19
     [2, 6, 8, 9, 10, 11, 12, 14, 18].forEach((c) => (grid[19][c] = true));
-    // Row 20
     [2, 3, 4, 5, 6, 10, 14, 15, 16, 17, 18].forEach(
       (c) => (grid[20][c] = true)
     );
@@ -116,17 +110,39 @@ export class ArcheTuning {
     return grid;
   }
 
-  loadMetadata() {
-    // Clear previous selections when reloading metadata (e.g., descendant change)
-    this.selectedNodes = new Set();
-    this.nodePositionMap = {};
+  // --- Slot switching ---
 
-    // Get data from state (already loaded on page init)
-    this.archeBoardData = state.archeTuningBoards;
-    this.archeNodeData = state.archeTuningNodes;
-    this.statData = state.stats;
+  _saveCurrentSlot() {
+    const slot = this.boardSlots[this.currentSlotIndex];
+    slot.selectedNodes = this.selectedNodes;
+    slot.nodePositionMap = this.nodePositionMap;
+    slot.currentBoard = this.currentBoard;
+  }
 
-    // Find the correct board based on the selected descendant
+  _loadSlot(index) {
+    const slot = this.boardSlots[index];
+    this.selectedNodes = slot.selectedNodes;
+    this.nodePositionMap = slot.nodePositionMap;
+    this.currentBoard = slot.currentBoard;
+  }
+
+  switchBoardSlot(index) {
+    if (index === this.currentSlotIndex) return;
+    if (index < 0 || index > 2) return;
+
+    this._saveCurrentSlot();
+    this.currentSlotIndex = index;
+    this._loadSlot(index);
+
+    // If this slot has no board loaded yet, load the default board for the descendant
+    if (!this.currentBoard && this.metadataLoaded) {
+      this._loadDefaultBoard();
+    }
+
+    this.renderArcheTuningBoard();
+  }
+
+  _loadDefaultBoard() {
     let boardToUse = null;
 
     if (
@@ -155,7 +171,6 @@ export class ArcheTuning {
       }
     }
 
-    // Fall back to first board if no descendant selected or board not found
     if (!boardToUse && this.archeBoardData && this.archeBoardData.length > 0) {
       boardToUse = this.archeBoardData[0];
     }
@@ -163,14 +178,35 @@ export class ArcheTuning {
     this.currentBoard = boardToUse;
 
     // Create position map from the selected board
+    this.nodePositionMap = {};
     if (boardToUse && boardToUse.node && Array.isArray(boardToUse.node)) {
       boardToUse.node.forEach((node) => {
         const key = `${node.position_row},${node.position_column}`;
         this.nodePositionMap[key] = node.node_id;
       });
-    } else {
-      console.error('Arche Tuning: Board data does not have node array');
     }
+
+    // Sync back to the current board slot so references stay consistent
+    const slot = this.boardSlots[this.currentSlotIndex];
+    slot.currentBoard = this.currentBoard;
+    slot.nodePositionMap = this.nodePositionMap;
+  }
+
+  loadMetadata() {
+    this.selectedNodes = new Set();
+    this.nodePositionMap = {};
+
+    this.archeBoardData = state.archeTuningBoards;
+    this.archeNodeData = state.archeTuningNodes;
+    this.statData = state.stats;
+
+    this._loadDefaultBoard();
+
+    // Sync back to slot
+    this.boardSlots[this.currentSlotIndex].selectedNodes = this.selectedNodes;
+    this.boardSlots[this.currentSlotIndex].nodePositionMap =
+      this.nodePositionMap;
+    this.boardSlots[this.currentSlotIndex].currentBoard = this.currentBoard;
 
     this.metadataLoaded = true;
   }
@@ -359,6 +395,23 @@ export class ArcheTuning {
     const container = document.getElementById('arche-tuning');
     if (!container) return;
 
+    const slotTabs = [0, 1, 2]
+      .map((i) => {
+        const isActive = i === this.currentSlotIndex;
+        const hasData = this.boardSlots[i].selectedNodes.size > 0;
+        return `<button
+          class="px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm font-bold rounded-t border border-b-0 transition-colors ${
+            isActive
+              ? 'bg-void-deep text-cyber-cyan border-cyber-cyan/50'
+              : hasData
+                ? 'bg-void-blue/30 text-steel-light border-steel-grey/30 hover:text-cyber-cyan'
+                : 'bg-transparent text-steel-grey border-steel-grey/20 hover:text-steel-light'
+          }"
+          onclick="app.archeTuning.switchBoardSlot(${i})"
+        >Board ${i + 1}${hasData ? ' *' : ''}</button>`;
+      })
+      .join('');
+
     container.innerHTML = `
       <div class="card">
         <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 mb-3">
@@ -374,6 +427,9 @@ export class ArcheTuning {
               Clear Selection
             </button>
           </div>
+        </div>
+        <div class="flex gap-1 mb-3 border-b border-steel-grey/20">
+          ${slotTabs}
         </div>
         <div class="flex items-center gap-3 sm:gap-4 mb-3 text-[10px] sm:text-xs text-steel-grey flex-wrap">
           <div class="flex items-center gap-1">
@@ -735,54 +791,111 @@ export class ArcheTuning {
     }
   }
 
-  // Save current selection to state
+  // Save all board slots to state
   saveToState() {
     if (!this.metadataLoaded) {
       this.loadMetadata();
     }
 
-    if (!this.currentBoard) {
-      return;
-    }
+    // Ensure current slot is synced
+    this._saveCurrentSlot();
 
-    const selectedNodes = [];
-    this.selectedNodes.forEach((nodeKey) => {
-      const [row, col] = nodeKey.split(',').map(Number);
-      const nodeInfo = this.getNodeInfo(row, col);
-      if (nodeInfo) {
-        selectedNodes.push({
-          ...nodeInfo,
-          position_row: row,
-          position_column: col,
-        });
-      }
-    });
+    const archeTuning = [null, null, null];
+    for (let i = 0; i < 3; i++) {
+      const slot = this.boardSlots[i];
+      if (!slot.currentBoard || slot.selectedNodes.size === 0) continue;
 
-    state.currentBuild.archeTuning = {
-      board: this.currentBoard,
-      selectedNodes: selectedNodes,
-    };
-  }
-
-  // Load selection from state
-  loadFromState() {
-    if (!state.currentBuild.archeTuning) {
-      return;
-    }
-
-    const archeTuning = state.currentBuild.archeTuning;
-    this.selectedNodes.clear();
-
-    if (archeTuning.selectedNodes && Array.isArray(archeTuning.selectedNodes)) {
-      archeTuning.selectedNodes.forEach((node) => {
-        if (
-          node.position_row !== undefined &&
-          node.position_column !== undefined
-        ) {
-          const nodeKey = `${node.position_row},${node.position_column}`;
-          this.selectedNodes.add(nodeKey);
+      const selectedNodes = [];
+      slot.selectedNodes.forEach((nodeKey) => {
+        const [row, col] = nodeKey.split(',').map(Number);
+        const nodeId = slot.nodePositionMap[`${row},${col}`];
+        if (nodeId && this.archeNodeData) {
+          const nodeInfo = this.archeNodeData.find((n) => n.node_id === nodeId);
+          if (nodeInfo) {
+            selectedNodes.push({
+              ...nodeInfo,
+              position_row: row,
+              position_column: col,
+            });
+          }
         }
       });
+
+      archeTuning[i] = {
+        board: slot.currentBoard,
+        selectedNodes,
+      };
     }
+
+    state.currentBuild.archeTuning = archeTuning;
+  }
+
+  // Load selection from state (multi-board aware)
+  loadFromState() {
+    const archeTuning = state.currentBuild.archeTuning;
+    if (!archeTuning) return;
+
+    // Handle both old single-object format and new array format
+    if (Array.isArray(archeTuning)) {
+      archeTuning.forEach((slot, idx) => {
+        if (idx >= 3 || !slot) return;
+        const boardSlot = this.boardSlots[idx];
+        boardSlot.selectedNodes = new Set();
+
+        if (slot.board) {
+          boardSlot.currentBoard = slot.board;
+          boardSlot.nodePositionMap = {};
+          if (slot.board.node && Array.isArray(slot.board.node)) {
+            slot.board.node.forEach((node) => {
+              const key = `${node.position_row},${node.position_column}`;
+              boardSlot.nodePositionMap[key] = node.node_id;
+            });
+          }
+        }
+
+        if (slot.selectedNodes && Array.isArray(slot.selectedNodes)) {
+          slot.selectedNodes.forEach((node) => {
+            if (
+              node.position_row !== undefined &&
+              node.position_column !== undefined
+            ) {
+              boardSlot.selectedNodes.add(
+                `${node.position_row},${node.position_column}`
+              );
+            }
+          });
+        }
+      });
+    } else if (archeTuning && archeTuning.board) {
+      // Legacy single-board format
+      const boardSlot = this.boardSlots[0];
+      boardSlot.currentBoard = archeTuning.board;
+      boardSlot.nodePositionMap = {};
+      if (archeTuning.board.node && Array.isArray(archeTuning.board.node)) {
+        archeTuning.board.node.forEach((node) => {
+          const key = `${node.position_row},${node.position_column}`;
+          boardSlot.nodePositionMap[key] = node.node_id;
+        });
+      }
+      boardSlot.selectedNodes = new Set();
+      if (
+        archeTuning.selectedNodes &&
+        Array.isArray(archeTuning.selectedNodes)
+      ) {
+        archeTuning.selectedNodes.forEach((node) => {
+          if (
+            node.position_row !== undefined &&
+            node.position_column !== undefined
+          ) {
+            boardSlot.selectedNodes.add(
+              `${node.position_row},${node.position_column}`
+            );
+          }
+        });
+      }
+    }
+
+    // Load the current slot into active state
+    this._loadSlot(this.currentSlotIndex);
   }
 }

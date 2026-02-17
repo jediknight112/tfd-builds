@@ -10,7 +10,7 @@ vi.mock('../src/state.js', () => ({
     descendants: [],
     stats: [],
     currentDescendant: null,
-    currentBuild: { archeTuning: null },
+    currentBuild: { archeTuning: [null, null, null] },
   },
 }));
 
@@ -203,13 +203,14 @@ describe('ArcheTuning - Pure Logic', () => {
   });
 
   describe('reset', () => {
-    it('should clear all internal state', () => {
+    it('should clear all internal state including all board slots', () => {
       // Set up some state
       tuning.selectedNodes.add('9,10');
       tuning.selectedNodes.add('8,10');
       tuning.nodePositionMap = { '9,10': 'n1' };
       tuning.currentBoard = { arche_tuning_board_id: 'board1' };
       tuning.metadataLoaded = true;
+      tuning.currentSlotIndex = 1;
 
       tuning.reset();
 
@@ -217,6 +218,13 @@ describe('ArcheTuning - Pure Logic', () => {
       expect(tuning.nodePositionMap).toEqual({});
       expect(tuning.currentBoard).toBeNull();
       expect(tuning.metadataLoaded).toBe(false);
+      expect(tuning.currentSlotIndex).toBe(0);
+      expect(tuning.boardSlots).toHaveLength(3);
+      tuning.boardSlots.forEach((slot) => {
+        expect(slot.selectedNodes.size).toBe(0);
+        expect(slot.nodePositionMap).toEqual({});
+        expect(slot.currentBoard).toBeNull();
+      });
     });
   });
 

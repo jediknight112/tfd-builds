@@ -54,7 +54,7 @@ describe('BuildSerializer - Module Slot Position Preservation', () => {
           { name: '', value: 0 },
         ],
         externalComponents: {},
-        archeTuning: null,
+        archeTuning: [null, null, null],
       },
     };
 
