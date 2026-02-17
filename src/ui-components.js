@@ -1,4 +1,11 @@
-import { state } from './state.js';
+import { state, createDefaultBuild } from './state.js';
+
+// Escape HTML special characters to prevent XSS
+function escapeHTML(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
 
 // UI Components
 export class UIComponents {
@@ -37,7 +44,6 @@ export class UIComponents {
         'module-slot group relative border-2 rounded-lg p-2 sm:p-3 transition-all cursor-pointer bg-black/50 hover:bg-black/70';
       moduleSlot.style.borderColor = borderColor + '4D'; // 30% opacity
       // Add hover effect via CSS variable
-      moduleSlot.style.setProperty('--hover-border-color', hoverBorderColor);
       moduleSlot.addEventListener('mouseenter', () => {
         moduleSlot.style.borderColor = hoverBorderColor;
       });
@@ -62,9 +68,6 @@ export class UIComponents {
         module.module_stat && module.module_stat.length > 0
           ? module.module_stat[module.module_stat.length - 1]
           : null;
-
-      const isTriggerSlot =
-        !isWeaponModule && (slotIndex === 'trigger' || slotType === 'Trigger');
 
       moduleSlot.innerHTML = `
         <div class="flex flex-col gap-2">
@@ -592,57 +595,53 @@ export class UIComponents {
       return;
     }
 
-    if (triggerSlot) {
-      triggerSlot.innerHTML = '';
-      const triggerModuleSlot = this.createModuleSlot(
-        state.currentBuild.triggerModule,
-        'trigger',
-        false,
-        null,
-        'Trigger'
-      );
-      triggerSlot.appendChild(triggerModuleSlot);
+    triggerSlot.innerHTML = '';
+    const triggerModuleSlot = this.createModuleSlot(
+      state.currentBuild.triggerModule,
+      'trigger',
+      false,
+      null,
+      'Trigger'
+    );
+    triggerSlot.appendChild(triggerModuleSlot);
 
-      // Add click handler to open module selector only if slot is empty
-      if (!state.currentBuild.triggerModule) {
-        triggerModuleSlot.addEventListener('click', () => {
-          if (window.app) {
-            window.app.openModuleSelector(-1, 'Trigger');
-          }
-        });
-      }
+    // Add click handler to open module selector only if slot is empty
+    if (!state.currentBuild.triggerModule) {
+      triggerModuleSlot.addEventListener('click', () => {
+        if (window.app) {
+          window.app.openModuleSelector(-1, 'Trigger');
+        }
+      });
     }
 
-    if (modulesGrid) {
-      modulesGrid.innerHTML = '';
-      for (let i = 0; i < 12; i++) {
-        // Determine slot type based on index
-        let slotType;
-        if (i === 0) {
-          slotType = 'Skill';
-        } else if (i === 6) {
-          slotType = 'Sub';
-        } else {
-          slotType = 'Main';
-        }
+    modulesGrid.innerHTML = '';
+    for (let i = 0; i < 12; i++) {
+      // Determine slot type based on index
+      let slotType;
+      if (i === 0) {
+        slotType = 'Skill';
+      } else if (i === 6) {
+        slotType = 'Sub';
+      } else {
+        slotType = 'Main';
+      }
 
-        const moduleSlot = this.createModuleSlot(
-          state.currentBuild.descendantModules[i],
-          i,
-          false,
-          null,
-          slotType
-        );
-        modulesGrid.appendChild(moduleSlot);
+      const moduleSlot = this.createModuleSlot(
+        state.currentBuild.descendantModules[i],
+        i,
+        false,
+        null,
+        slotType
+      );
+      modulesGrid.appendChild(moduleSlot);
 
-        // Add click handler to open module selector only if slot is empty
-        if (!state.currentBuild.descendantModules[i]) {
-          moduleSlot.addEventListener('click', () => {
-            if (window.app) {
-              window.app.openModuleSelector(i, slotType);
-            }
-          });
-        }
+      // Add click handler to open module selector only if slot is empty
+      if (!state.currentBuild.descendantModules[i]) {
+        moduleSlot.addEventListener('click', () => {
+          if (window.app) {
+            window.app.openModuleSelector(i, slotType);
+          }
+        });
       }
     }
   }
@@ -678,22 +677,7 @@ export class UIComponents {
     }
 
     state.currentDescendant = null;
-    state.currentBuild = {
-      triggerModule: null,
-      descendantModules: Array(12).fill(null),
-      weapons: Array(3)
-        .fill(null)
-        .map(() => ({
-          weapon: null,
-          modules: Array(10).fill(null),
-          customStats: [],
-          coreType: null,
-          coreStats: [],
-        })),
-      reactor: null,
-      externalComponents: [],
-      archeTuning: null,
-    };
+    state.currentBuild = createDefaultBuild();
   }
 
   // Show loading indicator
@@ -760,6 +744,37 @@ export class UIComponents {
     }
   }
 
+  // Show a confirm dialog (replaces browser confirm())
+  static showConfirmDialog(message, onConfirm) {
+    const overlay = document.createElement('div');
+    overlay.className =
+      'fixed inset-0 bg-black/80 backdrop-blur-sm z-[60] flex items-center justify-center p-4';
+
+    const dialog = document.createElement('div');
+    dialog.className =
+      'bg-void-blue/95 border border-cyber-cyan/30 rounded-lg p-6 max-w-md w-full shadow-[0_0_30px_rgba(0,240,255,0.2)]';
+    dialog.innerHTML = `
+      <p class="text-steel-light text-sm mb-6">${escapeHTML(message)}</p>
+      <div class="flex justify-end gap-3">
+        <button class="btn-secondary text-xs px-4 py-2 cancel-btn">Cancel</button>
+        <button class="btn-primary text-xs px-4 py-2 confirm-btn">Confirm</button>
+      </div>
+    `;
+
+    overlay.appendChild(dialog);
+    document.body.appendChild(overlay);
+
+    const close = () => overlay.remove();
+    overlay.addEventListener('click', (e) => {
+      if (e.target === overlay) close();
+    });
+    dialog.querySelector('.cancel-btn').addEventListener('click', close);
+    dialog.querySelector('.confirm-btn').addEventListener('click', () => {
+      close();
+      onConfirm();
+    });
+  }
+
   // Show warning toast notification
   static showWarning(message) {
     UIComponents.showToast(message, 'warning');
@@ -772,6 +787,8 @@ export class UIComponents {
     if (!toastContainer) {
       toastContainer = document.createElement('div');
       toastContainer.id = 'toast-container';
+      toastContainer.setAttribute('role', 'alert');
+      toastContainer.setAttribute('aria-live', 'polite');
       toastContainer.className =
         'fixed bottom-4 left-1/2 -translate-x-1/2 sm:bottom-auto sm:top-4 sm:right-4 sm:left-auto sm:translate-x-0 z-50 flex flex-col gap-2 w-[calc(100%-2rem)] sm:w-auto';
       document.body.appendChild(toastContainer);
@@ -796,7 +813,7 @@ export class UIComponents {
 
     toast.innerHTML = `
       <span class="text-xl font-bold">${icons[type] || icons.info}</span>
-      <span class="flex-1">${message}</span>
+      <span class="flex-1">${escapeHTML(message)}</span>
       <button onclick="this.parentElement.remove()" class="text-white hover:text-gray-200 text-xl font-bold">&times;</button>
     `;
 
@@ -810,126 +827,69 @@ export class UIComponents {
     }, 5000);
   }
 
-  // Show build container
-  static showBuildContainer() {
-    document.getElementById('build-container')?.classList.remove('hidden');
+  // Get available core options for an item (weapon or external component)
+  static getAvailableCoreOptions(item) {
+    if (
+      !item ||
+      !item.available_core_slot ||
+      item.available_core_slot.length === 0
+    ) {
+      return [];
+    }
+
+    const coreSlotId = item.available_core_slot[0];
+    const coreSlot = state.getCoreSlot(coreSlotId);
+
+    if (
+      !coreSlot ||
+      !coreSlot.available_core_type_id ||
+      coreSlot.available_core_type_id.length === 0
+    ) {
+      return [];
+    }
+
+    const coreOptions = [];
+
+    coreSlot.available_core_type_id.forEach((coreTypeId) => {
+      const coreType = state.getCoreType(coreTypeId);
+      if (coreType && coreType.core_option) {
+        coreType.core_option.forEach((option) => {
+          const availableStats = [];
+          option.detail?.forEach((detail) => {
+            detail.available_item_option?.forEach((itemOption) => {
+              const existingStat = availableStats.find(
+                (s) => s.stat_id === itemOption.option_effect.stat_id
+              );
+              if (!existingStat) {
+                availableStats.push({
+                  stat_id: itemOption.option_effect.stat_id,
+                  stat_name: itemOption.item_option,
+                });
+              }
+            });
+          });
+
+          if (availableStats.length > 0) {
+            coreOptions.push({
+              option_id: option.core_option_id,
+              core_type_id: coreTypeId,
+              core_type_name: coreType.core_type,
+              available_stats: availableStats,
+            });
+          }
+        });
+      }
+    });
+
+    return coreOptions;
   }
 
-  // Get available core options for a weapon
+  // Backward-compatible aliases
   static getAvailableWeaponCoreOptions(weapon) {
-    if (
-      !weapon ||
-      !weapon.available_core_slot ||
-      weapon.available_core_slot.length === 0
-    ) {
-      return [];
-    }
-
-    const coreSlotId = weapon.available_core_slot[0];
-    const coreSlot = state.getCoreSlot(coreSlotId);
-
-    if (
-      !coreSlot ||
-      !coreSlot.available_core_type_id ||
-      coreSlot.available_core_type_id.length === 0
-    ) {
-      return [];
-    }
-
-    const coreOptions = [];
-
-    // Collect all core options from all core types
-    coreSlot.available_core_type_id.forEach((coreTypeId) => {
-      const coreType = state.getCoreType(coreTypeId);
-      if (coreType && coreType.core_option) {
-        coreType.core_option.forEach((option) => {
-          // Collect all available stats for this option
-          const availableStats = [];
-          option.detail?.forEach((detail) => {
-            detail.available_item_option?.forEach((itemOption) => {
-              const existingStat = availableStats.find(
-                (s) => s.stat_id === itemOption.option_effect.stat_id
-              );
-              if (!existingStat) {
-                availableStats.push({
-                  stat_id: itemOption.option_effect.stat_id,
-                  stat_name: itemOption.item_option,
-                });
-              }
-            });
-          });
-
-          if (availableStats.length > 0) {
-            coreOptions.push({
-              option_id: option.core_option_id,
-              core_type_id: coreTypeId,
-              core_type_name: coreType.core_type,
-              available_stats: availableStats,
-            });
-          }
-        });
-      }
-    });
-
-    return coreOptions;
+    return this.getAvailableCoreOptions(weapon);
   }
 
-  // Get available core options for external component
   static getAvailableExternalComponentCoreOptions(component) {
-    if (
-      !component ||
-      !component.available_core_slot ||
-      component.available_core_slot.length === 0
-    ) {
-      return [];
-    }
-
-    const coreSlotId = component.available_core_slot[0];
-    const coreSlot = state.getCoreSlot(coreSlotId);
-
-    if (
-      !coreSlot ||
-      !coreSlot.available_core_type_id ||
-      coreSlot.available_core_type_id.length === 0
-    ) {
-      return [];
-    }
-
-    const coreOptions = [];
-
-    // Collect all core options from all core types
-    coreSlot.available_core_type_id.forEach((coreTypeId) => {
-      const coreType = state.getCoreType(coreTypeId);
-      if (coreType && coreType.core_option) {
-        coreType.core_option.forEach((option) => {
-          // Collect all available stats for this option
-          const availableStats = [];
-          option.detail?.forEach((detail) => {
-            detail.available_item_option?.forEach((itemOption) => {
-              const existingStat = availableStats.find(
-                (s) => s.stat_id === itemOption.option_effect.stat_id
-              );
-              if (!existingStat) {
-                availableStats.push({
-                  stat_id: itemOption.option_effect.stat_id,
-                  stat_name: itemOption.item_option,
-                });
-              }
-            });
-          });
-
-          if (availableStats.length > 0) {
-            coreOptions.push({
-              option_id: option.core_option_id,
-              core_type_id: coreTypeId,
-              core_type_name: coreType.core_type,
-              available_stats: availableStats,
-            });
-          }
-        });
-      }
-    });
-
-    return coreOptions;
+    return this.getAvailableCoreOptions(component);
   }
 }

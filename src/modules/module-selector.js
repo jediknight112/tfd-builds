@@ -102,9 +102,8 @@ export class ModuleSelector {
 
       // Filter by slot type using available_module_slot_type
       if (slotType && module.available_module_slot_type) {
-        const localizedSlotType = state.getLocalizedSlotType(slotType);
         const hasSlotType =
-          module.available_module_slot_type.includes(localizedSlotType);
+          module.available_module_slot_type.includes(slotType);
         if (!hasSlotType) {
           return false;
         }

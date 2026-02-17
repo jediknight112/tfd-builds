@@ -189,6 +189,55 @@ describe('BuildSerializer - Module Slot Position Preservation', () => {
     }
   });
 
+  it('should preserve reactor additional stats during deserialization', () => {
+    mockState.reactors = [
+      { reactor_id: 'reactor1', reactor_name: 'Test Reactor' },
+    ];
+
+    const buildData = {
+      v: 2,
+      d: 'desc1',
+      r: 'reactor1',
+      s: [
+        ['ATK', 1500],
+        ['DEF', 800],
+      ],
+    };
+
+    const result = serializer.deserialize(buildData);
+
+    expect(result.valid).toBe(true);
+    expect(result.build.reactorAdditionalStats).toHaveLength(2);
+    expect(result.build.reactorAdditionalStats[0]).toEqual({
+      name: 'ATK',
+      value: 1500,
+    });
+    expect(result.build.reactorAdditionalStats[1]).toEqual({
+      name: 'DEF',
+      value: 800,
+    });
+  });
+
+  it('should default reactor additional stats when none are provided', () => {
+    const buildData = {
+      v: 2,
+      d: 'desc1',
+    };
+
+    const result = serializer.deserialize(buildData);
+
+    expect(result.valid).toBe(true);
+    expect(result.build.reactorAdditionalStats).toHaveLength(2);
+    expect(result.build.reactorAdditionalStats[0]).toEqual({
+      name: '',
+      value: 0,
+    });
+    expect(result.build.reactorAdditionalStats[1]).toEqual({
+      name: '',
+      value: 0,
+    });
+  });
+
   it('should handle v1 to v2 conversion with slot positions', () => {
     // Create a v1 format build
     const v1BuildData = {

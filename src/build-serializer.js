@@ -371,15 +371,9 @@ export class BuildSerializer {
         descendantModules,
         weapons,
         reactor,
-        reactorAdditionalStats: buildData.reactor_additional_stats || [
-          { name: '', value: 0 },
-          { name: '', value: 0 },
-        ],
+        reactorAdditionalStats,
         externalComponents,
         archeTuning,
-        fellow: null,
-        vehicle: null,
-        inversionReinforcement: null,
       },
       warnings,
     };
@@ -507,29 +501,5 @@ export class BuildSerializer {
     } catch (error) {
       console.error('Failed to save build to localStorage:', error);
     }
-  }
-
-  /**
-   * Load build from localStorage
-   * @returns {Object|null} Deserialized build or null if none saved
-   */
-  loadFromLocalStorage() {
-    try {
-      const saved = localStorage.getItem(this.localStorageKey);
-      if (!saved) return null;
-
-      const buildData = JSON.parse(saved);
-      return this.deserialize(buildData);
-    } catch (error) {
-      console.error('Failed to load build from localStorage:', error);
-      return null;
-    }
-  }
-
-  /**
-   * Clear saved build from localStorage
-   */
-  clearLocalStorage() {
-    localStorage.removeItem(this.localStorageKey);
   }
 }

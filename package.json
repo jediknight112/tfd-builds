@@ -5,10 +5,10 @@
   "description": "The First Descendant Character Build Viewer",
   "main": "src/index.js",
   "scripts": {
-    "dev": "npx vite",
+    "dev": "vite",
     "dev:worker": "npm run build && wrangler dev",
-    "build": "npx vite build",
-    "preview": "npx vite preview",
+    "build": "vite build",
+    "preview": "vite preview",
     "deploy": "npm run build && wrangler deploy",
     "test": "vitest run",
     "test:watch": "vitest",
@@ -24,9 +24,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20260214.0",
     "@tailwindcss/postcss": "^4.1.18",
-    "@vitest/ui": "^4.0.18",
     "postcss": "^8.4.49",
     "prettier": "^3.8.1",
     "tailwindcss": "^4.1.18",
@@ -36,7 +34,6 @@
   },
   "dependencies": {
     "@cloudflare/kv-asset-handler": "^0.4.2",
-    "axios": "^1.7.9",
     "lz-string": "^1.5.0"
   }
 }

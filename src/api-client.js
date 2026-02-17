@@ -18,12 +18,18 @@ class TFDApiClient {
         );
       }
 
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 30000);
+
       const response = await fetch(url, {
         headers: {
           'x-worker-api-key': workerApiKey,
           'x-nxopen-api-key': nexonApiKey,
         },
+        signal: controller.signal,
       });
+
+      clearTimeout(timeoutId);
 
       if (!response.ok) {
         console.error(
@@ -41,9 +47,7 @@ class TFDApiClient {
         );
       }
 
-      const data = await response.json();
-
-      return data;
+      return response.json();
     } catch (error) {
       console.error(`Error in fetchMetadata(${type}):`, error);
       throw error;
@@ -68,14 +72,6 @@ class TFDApiClient {
 
   async fetchExternalComponents() {
     return this.fetchMetadata('external-component');
-  }
-
-  async fetchFellows() {
-    return this.fetchMetadata('fellow');
-  }
-
-  async fetchVehicles() {
-    return this.fetchMetadata('vehicle');
   }
 
   async fetchArcheTuningNodes() {

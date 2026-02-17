@@ -1,7 +1,7 @@
 // TFD Builds - The First Descendant Build Planner
 // Main application file
 
-import { state } from './state.js';
+import { state, createDefaultBuild } from './state.js';
 import { apiClient } from './api-client.js';
 import { UIComponents } from './ui-components.js';
 import { SUPPORTED_LANGUAGES } from './config.js';
@@ -17,6 +17,8 @@ import { BuildSerializer } from './build-serializer.js';
 // Application class - orchestrates all components
 class Application {
   constructor() {
+    this._initializing = false;
+
     // Initialize feature modules
     this.moduleSelector = new ModuleSelector();
     this.weaponSelector = new WeaponSelector();
@@ -33,6 +35,9 @@ class Application {
   }
 
   async init() {
+    if (this._initializing) return;
+    this._initializing = true;
+
     try {
       UIComponents.showLoading();
       UIComponents.updateMobileShareButton(false);
@@ -118,7 +123,6 @@ class Application {
         // Re-render everything with loaded build
         this.renderModules();
         this.renderWeapons();
-        this.renderExternalComponents();
         // Render special tabs if they have data
         if (urlBuild.build.reactor) {
           this.reactorSelector.renderReactorDisplay();
@@ -190,6 +194,8 @@ class Application {
           `Failed to load data: ${error.message || 'Unknown error'}. Please check your connection and try again.`
         );
       }
+    } finally {
+      this._initializing = false;
     }
   }
 
@@ -258,7 +264,13 @@ class Application {
 
     // Update image
     if (imageEl && descendant.descendant_image_url) {
-      imageEl.innerHTML = `<img src="${descendant.descendant_image_url}" alt="${descendant.descendant_name}" class="w-full h-full object-cover rounded-lg" loading="lazy">`;
+      const img = document.createElement('img');
+      img.src = descendant.descendant_image_url;
+      img.alt = descendant.descendant_name || '';
+      img.className = 'w-full h-full object-cover rounded-lg';
+      img.loading = 'lazy';
+      imageEl.innerHTML = '';
+      imageEl.appendChild(img);
     }
 
     // Show build tabs
@@ -287,31 +299,11 @@ class Application {
   }
 
   initializeBuild() {
-    // Reset build
-    state.currentBuild = {
-      triggerModule: null,
-      descendantModules: Array(12).fill(null),
-      weapons: Array(3)
-        .fill(null)
-        .map(() => ({
-          weapon: null,
-          modules: Array(10).fill(null),
-          customStats: [],
-          coreType: null,
-          coreStats: [],
-        })),
-      reactor: null,
-      externalComponents: [],
-      archeTuning: null,
-      fellow: null,
-      vehicle: null,
-      inversionReinforcement: null,
-    };
+    state.currentBuild = createDefaultBuild();
 
     // Render all build sections
     this.renderModules();
     this.renderWeapons();
-    this.renderExternalComponents();
   }
 
   renderModules() {
@@ -320,22 +312,6 @@ class Application {
 
   renderWeapons() {
     UIComponents.refreshWeaponsTab();
-  }
-
-  renderExternalComponents() {
-    const container = document.getElementById('external-components');
-    if (!container) return;
-
-    container.innerHTML = `
-      <div class="module-slot p-4 text-center">
-        <div class="text-gray-500 mb-2">
-          <svg class="w-8 h-8 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-          </svg>
-        </div>
-        <p class="text-sm text-gray-400">Add Component</p>
-      </div>
-    `.repeat(4);
   }
 
   switchTab(tabName) {
@@ -370,20 +346,28 @@ class Application {
   }
 
   createNewBuild() {
-    if (confirm('Create a new build? This will reset your current build.')) {
-      UIComponents.hideBuildTabs();
-      UIComponents.updateMobileShareButton(false);
+    UIComponents.showConfirmDialog(
+      'Create a new build? This will reset your current build.',
+      () => {
+        UIComponents.hideBuildTabs();
+        UIComponents.updateMobileShareButton(false);
+        this.archeTuning.reset();
 
-      // Show descendant selection section
-      const descendantSection = document.querySelector(
-        'section:has(#descendant-selector)'
-      );
-      if (descendantSection) {
-        descendantSection.classList.remove('hidden');
+        // Clear build hash from URL so refresh doesn't reload the old build
+        if (window.location.hash) {
+          history.replaceState(null, '', window.location.pathname);
+        }
+
+        const descendantSection = document.querySelector(
+          'section:has(#descendant-selector)'
+        );
+        if (descendantSection) {
+          descendantSection.classList.remove('hidden');
+        }
+
+        window.scrollTo({ top: 0, behavior: 'smooth' });
       }
-
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
+    );
   }
 
   // Module selector methods (delegated to ModuleSelector)
@@ -393,15 +377,6 @@ class Application {
 
   closeModuleSelector() {
     this.moduleSelector.closeModuleSelector();
-  }
-
-  renderModuleSelectorGrid(slotType, searchQuery, socketFilter, tierFilter) {
-    this.moduleSelector.renderModuleSelectorGrid(
-      slotType,
-      searchQuery,
-      socketFilter,
-      tierFilter
-    );
   }
 
   selectModule(moduleId) {
@@ -442,14 +417,6 @@ class Application {
     this.weaponSelector.closeWeaponSelector();
   }
 
-  renderWeaponSelectorGrid(searchQuery, typeFilter, tierFilter) {
-    this.weaponSelector.renderWeaponSelectorGrid(
-      searchQuery,
-      typeFilter,
-      tierFilter
-    );
-  }
-
   selectWeapon(weaponId) {
     this.weaponSelector.selectWeapon(weaponId);
   }
@@ -468,14 +435,6 @@ class Application {
 
   openWeaponModuleSelector(weaponIndex, moduleIndex) {
     this.weaponSelector.openWeaponModuleSelector(weaponIndex, moduleIndex);
-  }
-
-  renderWeaponModuleSelectorGrid(searchQuery, socketFilter, tierFilter) {
-    this.weaponSelector.renderWeaponModuleSelectorGrid(
-      searchQuery,
-      socketFilter,
-      tierFilter
-    );
   }
 
   selectWeaponModule(moduleId) {
@@ -501,10 +460,6 @@ class Application {
 
   closeCoreSelector() {
     this.coreSelector.closeCoreSelector();
-  }
-
-  renderCoreTypeSelector(availableCoreTypeIds, weaponIndex) {
-    this.coreSelector.renderCoreTypeSelector(availableCoreTypeIds, weaponIndex);
   }
 
   toggleCoreStat(coreTypeId, optionId, statId, checked) {
@@ -567,10 +522,6 @@ class Application {
     this.customStatSelector.closeCustomStatSelector();
   }
 
-  renderStatSelector(searchQuery) {
-    this.customStatSelector.renderStatSelector(searchQuery);
-  }
-
   filterStats() {
     this.customStatSelector.filterStats();
   }
@@ -607,15 +558,16 @@ class Application {
         .writeText(url)
         .then(() => {
           UIComponents.showSuccess('Build URL copied to clipboard!');
-          console.log('Shared build URL:', url);
         })
-        .catch((err) => {
-          console.error('Failed to copy to clipboard:', err);
-          // Fallback: show the URL in an alert
-          UIComponents.showWarning(
-            'Could not copy automatically. Here is your build URL:'
-          );
-          prompt('Copy this URL to share your build:', url);
+        .catch(() => {
+          // Fallback: select text in a temporary input
+          const tempInput = document.createElement('input');
+          tempInput.value = url;
+          document.body.appendChild(tempInput);
+          tempInput.select();
+          document.execCommand('copy');
+          document.body.removeChild(tempInput);
+          UIComponents.showSuccess('Build URL copied to clipboard!');
         });
     } catch (error) {
       console.error('Failed to share build:', error);
@@ -632,12 +584,46 @@ const app = new Application();
 // Make app globally available for HTML onclick handlers
 window.app = app;
 
+// Global Escape key handler for modals
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    const modals = [
+      { id: 'module-selector-modal', close: () => app.closeModuleSelector() },
+      { id: 'weapon-selector-modal', close: () => app.closeWeaponSelector() },
+      { id: 'core-selector-modal', close: () => app.closeCoreSelector() },
+      {
+        id: 'reactor-selector-modal',
+        close: () =>
+          document
+            .getElementById('reactor-selector-modal')
+            ?.classList.add('hidden'),
+      },
+      {
+        id: 'external-component-selector-modal',
+        close: () =>
+          document
+            .getElementById('external-component-selector-modal')
+            ?.classList.add('hidden'),
+      },
+      {
+        id: 'custom-stat-modal',
+        close: () => app.closeCustomStatSelector(),
+      },
+    ];
+
+    for (const modal of modals) {
+      const el = document.getElementById(modal.id);
+      if (el && !el.classList.contains('hidden')) {
+        modal.close();
+        break;
+      }
+    }
+  }
+});
+
 // Start the application when DOM is ready
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', () => app.init());
 } else {
   app.init();
 }
-
-// Export for module usage
-export default app;

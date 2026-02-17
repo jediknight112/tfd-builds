@@ -1,5 +1,4 @@
 import { state } from '../state.js';
-import { UIComponents } from '../ui-components.js';
 
 export class ReactorSelector {
   openReactorSelector() {
@@ -363,7 +362,6 @@ export class ReactorSelector {
           <!-- Datalist for stat name autocomplete -->
           <datalist id="reactor-stat-names">
             ${state.stats.map((s) => `<option value="${s.stat_name}"></option>`).join('')}
-          </datalist>
           </datalist>
         `
             : '<div class="text-steel-grey">No level 100 data available</div>'

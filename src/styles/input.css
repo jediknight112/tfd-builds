@@ -31,17 +31,8 @@ layer(base);
   border-radius: 0.5rem; /* rounded-lg equivalent */
 }
 
-@utility card-premium {
-  @apply bg-void-blue/60 backdrop-blur-md border border-amber-gold/30 p-3 sm:p-4 shadow-glass-gold hover:border-amber-gold/60 transition-all duration-300 relative mb-4 sm:mb-6;
-  border-radius: 0.5rem; /* rounded-lg equivalent */
-}
-
 @utility card-header {
   @apply text-cyber-cyan font-gaming font-bold text-base sm:text-lg mb-2 sm:mb-3 uppercase tracking-wider;
-}
-
-@utility card-header-premium {
-  @apply text-amber-gold font-gaming font-bold text-base sm:text-lg mb-2 sm:mb-3 uppercase tracking-wider;
 }
 
 @utility module-slot {
@@ -86,34 +77,6 @@ layer(base);
   }
 }
 
-@utility stat-bar {
-  @apply bg-steel-dark/50 h-2 overflow-hidden;
-  clip-path: polygon(
-    2px 0,
-    calc(100% - 2px) 0,
-    100% 2px,
-    100% calc(100% - 2px),
-    calc(100% - 2px) 100%,
-    2px 100%,
-    0 calc(100% - 2px),
-    0 2px
-  );
-}
-
-@utility stat-bar-fill {
-  @apply bg-linear-to-r from-cyber-cyan to-cyber-cyan-glow h-full transition-all duration-500;
-  box-shadow:
-    0 0 8px rgba(0, 240, 255, 0.6),
-    inset 0 0 8px rgba(0, 240, 255, 0.4);
-}
-
-@utility stat-bar-fill-premium {
-  @apply bg-linear-to-r from-amber-gold to-amber-bright h-full transition-all duration-500;
-  box-shadow:
-    0 0 8px rgba(212, 163, 115, 0.6),
-    inset 0 0 8px rgba(212, 163, 115, 0.4);
-}
-
 @utility btn-primary {
   @apply bg-cyber-cyan hover:bg-cyber-cyan-glow text-void-deep font-gaming font-bold py-2 px-4 sm:px-6 transition-all duration-300 shadow-neon hover:shadow-neon-strong uppercase tracking-wide text-sm;
   clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 0 100%);
@@ -128,21 +91,9 @@ layer(base);
   min-height: 44px;
 }
 
-@utility btn-premium {
-  @apply bg-amber-gold hover:bg-amber-bright text-void-deep font-gaming font-bold py-2 px-4 sm:px-6 transition-all duration-300 shadow-gold-glow hover:shadow-gold-glow-strong uppercase tracking-wide text-sm;
-  clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 0 100%);
-  /* Ensure minimum touch target size on mobile */
-  min-height: 44px;
-}
-
 @utility section-title {
   @apply text-lg sm:text-xl md:text-2xl font-gaming font-bold text-cyber-cyan mb-3 sm:mb-4 uppercase tracking-wider flex items-center gap-2;
   text-shadow: 0 0 15px rgba(0, 240, 255, 0.6);
-}
-
-@utility section-title-premium {
-  @apply text-lg sm:text-xl md:text-2xl font-gaming font-bold text-amber-gold mb-3 sm:mb-4 uppercase tracking-wider flex items-center gap-2;
-  text-shadow: 0 0 15px rgba(212, 163, 115, 0.6);
 }
 
 @utility weapon-card {
@@ -180,26 +131,10 @@ layer(base);
     @apply border-cyber-cyan bg-cyber-cyan/10 text-cyber-cyan shadow-neon;
   }
 
-  &.tab-premium {
-    @apply border-amber-gold bg-amber-gold/10 text-amber-gold shadow-gold-glow;
-  }
-
-  &.module-filter-btn {
-    @apply border-cyber-cyan bg-cyber-cyan/20 text-cyber-cyan shadow-neon;
-  }
-
-  &.reactor-filter-btn {
-    @apply border-cyber-cyan bg-cyber-cyan/20 text-cyber-cyan shadow-neon;
-  }
-
+  &.module-filter-btn,
+  &.reactor-filter-btn,
   &.external-component-filter-btn {
     @apply border-cyber-cyan bg-cyber-cyan/20 text-cyber-cyan shadow-neon;
-  }
-}
-
-@utility tab-premium {
-  &.active {
-    @apply border-amber-gold bg-amber-gold/10 text-amber-gold shadow-gold-glow;
   }
 }
 
@@ -213,7 +148,6 @@ layer(base);
     4px 100%,
     0 calc(100% - 4px)
   );
-  /* Ensure minimum touch target size on mobile */
   min-height: 40px;
 
   &.active {
@@ -222,57 +156,11 @@ layer(base);
 }
 
 @utility reactor-filter-btn {
-  @apply px-3 sm:px-3 py-2 sm:py-1.5 text-xs sm:text-xs border border-steel-dark hover:border-cyber-cyan transition-all duration-200 cursor-pointer font-gaming uppercase tracking-wide bg-void-blue/40 backdrop-blur-sm;
-  clip-path: polygon(
-    0 0,
-    calc(100% - 4px) 0,
-    100% 4px,
-    100% 100%,
-    4px 100%,
-    0 calc(100% - 4px)
-  );
-  /* Ensure minimum touch target size on mobile */
-  min-height: 40px;
-
-  &.active {
-    @apply border-cyber-cyan bg-cyber-cyan/20 text-cyber-cyan shadow-neon;
-  }
+  @apply module-filter-btn;
 }
 
 @utility external-component-filter-btn {
-  @apply px-3 sm:px-3 py-2 sm:py-1.5 text-xs sm:text-xs border border-steel-dark hover:border-cyber-cyan transition-all duration-200 cursor-pointer font-gaming uppercase tracking-wide bg-void-blue/40 backdrop-blur-sm;
-  clip-path: polygon(
-    0 0,
-    calc(100% - 4px) 0,
-    100% 4px,
-    100% 100%,
-    4px 100%,
-    0 calc(100% - 4px)
-  );
-  /* Ensure minimum touch target size on mobile */
-  min-height: 40px;
-
-  &.active {
-    @apply border-cyber-cyan bg-cyber-cyan/20 text-cyber-cyan shadow-neon;
-  }
-}
-
-@utility grid-bg {
-  @apply bg-grid-pattern bg-size-[24px_24px];
-}
-
-@utility hex-bg {
-  @apply bg-hex-pattern bg-size-[28px_49px];
-}
-
-@utility tag-new {
-  @apply inline-block px-2 py-0.5 text-xs font-gaming font-bold uppercase bg-cyber-cyan/20 text-cyber-cyan border border-cyber-cyan/50 shadow-neon;
-  clip-path: polygon(0 0, calc(100% - 4px) 0, 100% 4px, 100% 100%, 0 100%);
-}
-
-@utility tag-ultimate {
-  @apply inline-block px-2 py-0.5 text-xs font-gaming font-bold uppercase bg-amber-gold/20 text-amber-gold border border-amber-gold/50 shadow-gold-glow;
-  clip-path: polygon(0 0, calc(100% - 4px) 0, 100% 4px, 100% 100%, 0 100%);
+  @apply module-filter-btn;
 }
 
 @utility arche-scroll-container {
@@ -456,115 +344,6 @@ layer(base);
     @apply border-transparent bg-transparent cursor-default;
     pointer-events: none;
   }
-  @media (hover: hover) and (pointer: fine) {
-    &:hover .arche-node-tooltip {
-      @apply block;
-    }
-  }
-  @media (hover: none) or (pointer: coarse) {
-    &:active .arche-node-tooltip {
-      @apply block;
-    }
-  }
-}
-
-@utility selected {
-  &.arche-node {
-    filter: brightness(1);
-  }
-
-  /* Tier-specific selection colors */
-  &.arche-node.tier-normal {
-    background-color: rgba(86, 184, 245, 0.6);
-    border-color: #56b8f5;
-    box-shadow:
-      0 0 12px rgba(86, 184, 245, 0.8),
-      inset 0 0 8px rgba(86, 184, 245, 0.4);
-  }
-
-  &.arche-node.tier-normal img {
-    filter: brightness(1.3) drop-shadow(0 0 4px rgba(86, 184, 245, 0.6));
-  }
-
-  &.arche-node.tier-rare {
-    background-color: rgba(211, 135, 244, 0.6);
-    border-color: #d387f4;
-    box-shadow:
-      0 0 12px rgba(211, 135, 244, 0.8),
-      inset 0 0 8px rgba(211, 135, 244, 0.4);
-  }
-
-  &.arche-node.tier-rare img {
-    filter: brightness(1.3) drop-shadow(0 0 4px rgba(211, 135, 244, 0.6));
-  }
-
-  &.arche-node.tier-ultimate {
-    background-color: rgba(248, 225, 121, 0.6);
-    border-color: #f8e179;
-    box-shadow:
-      0 0 12px rgba(248, 225, 121, 0.8),
-      inset 0 0 8px rgba(248, 225, 121, 0.4);
-  }
-
-  &.arche-node.tier-ultimate img {
-    filter: brightness(1.3) drop-shadow(0 0 4px rgba(248, 225, 121, 0.6));
-  }
-}
-
-@utility tier-normal {
-  /* Tier-specific selection colors */
-  &.arche-node.selected {
-    background-color: rgba(86, 184, 245, 0.6);
-    border-color: #56b8f5;
-    box-shadow:
-      0 0 12px rgba(86, 184, 245, 0.8),
-      inset 0 0 8px rgba(86, 184, 245, 0.4);
-  }
-
-  &.arche-node.selected img {
-    filter: brightness(1.3) drop-shadow(0 0 4px rgba(86, 184, 245, 0.6));
-  }
-
-  /* Tier-based border colors */
-  &.arche-node {
-    border-color: #56b8f5;
-  }
-}
-
-@utility tier-rare {
-  &.arche-node.selected {
-    background-color: rgba(211, 135, 244, 0.6);
-    border-color: #d387f4;
-    box-shadow:
-      0 0 12px rgba(211, 135, 244, 0.8),
-      inset 0 0 8px rgba(211, 135, 244, 0.4);
-  }
-
-  &.arche-node.selected img {
-    filter: brightness(1.3) drop-shadow(0 0 4px rgba(211, 135, 244, 0.6));
-  }
-
-  &.arche-node {
-    border-color: #d387f4;
-  }
-}
-
-@utility tier-ultimate {
-  &.arche-node.selected {
-    background-color: rgba(248, 225, 121, 0.6);
-    border-color: #f8e179;
-    box-shadow:
-      0 0 12px rgba(248, 225, 121, 0.8),
-      inset 0 0 8px rgba(248, 225, 121, 0.4);
-  }
-
-  &.arche-node.selected img {
-    filter: brightness(1.3) drop-shadow(0 0 4px rgba(248, 225, 121, 0.6));
-  }
-
-  &.arche-node {
-    border-color: #f8e179;
-  }
 }
 
 @utility anchor {
@@ -580,52 +359,26 @@ layer(base);
   }
 }
 
-@utility arche-node-tooltip {
-  /* Arche Node Tooltip */
-  @apply hidden absolute z-50 bg-void-deep border border-cyber-cyan rounded-lg shadow-neon;
-  /* Responsive sizing */
+@utility arche-floating-tooltip {
+  @apply bg-void-deep border border-cyber-cyan rounded-lg shadow-neon;
+  position: fixed;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s ease-in-out;
   padding: 8px;
   min-width: 160px;
   max-width: 90vw;
-  bottom: 100%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-4px);
-  pointer-events: none;
   white-space: normal;
-  filter: brightness(1);
 
   @media (min-width: 640px) {
     padding: 12px;
     min-width: 200px;
     max-width: 300px;
-    transform: translateX(-50%) translateY(-8px);
-  }
-  @media (hover: hover) and (pointer: fine) {
-    .arche-node:hover & {
-      @apply block;
-    }
-  }
-  @media (hover: none) or (pointer: coarse) {
-    .arche-node:active & {
-      @apply block;
-    }
   }
 
-  &::after {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    border: 4px solid transparent;
-    border-top-color: var(--color-cyber-cyan);
-  }
-
-  @media (min-width: 640px) {
-    &::after {
-      border: 6px solid transparent;
-      border-top-color: var(--color-cyber-cyan);
-    }
+  &.visible {
+    opacity: 1;
   }
 }
 
@@ -643,74 +396,6 @@ layer(base);
 
 @utility text-shadow {
   text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
-}
-
-@utility text-shadow-strong {
-  text-shadow:
-    0 0 15px rgba(0, 240, 255, 0.8),
-    0 0 25px rgba(0, 240, 255, 0.5);
-}
-
-@utility text-shadow-gold {
-  text-shadow: 0 0 10px rgba(212, 163, 115, 0.6);
-}
-
-@utility text-shadow-gold-strong {
-  text-shadow:
-    0 0 15px rgba(212, 163, 115, 0.8),
-    0 0 25px rgba(212, 163, 115, 0.5);
-}
-
-@utility glow {
-  filter: drop-shadow(0 0 8px rgba(0, 240, 255, 0.6));
-}
-
-@utility glow-strong {
-  filter: drop-shadow(0 0 12px rgba(0, 240, 255, 0.8))
-    drop-shadow(0 0 20px rgba(0, 240, 255, 0.4));
-}
-
-@utility glow-gold {
-  filter: drop-shadow(0 0 8px rgba(212, 163, 115, 0.6));
-}
-
-@utility glow-gold-strong {
-  filter: drop-shadow(0 0 12px rgba(212, 163, 115, 0.8))
-    drop-shadow(0 0 20px rgba(212, 163, 115, 0.4));
-}
-
-@utility glass-effect {
-  background: rgba(10, 15, 30, 0.6);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-}
-
-@utility glass-effect-strong {
-  background: rgba(10, 15, 30, 0.8);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-}
-
-@utility angle-clip {
-  clip-path: polygon(
-    0 0,
-    calc(100% - 12px) 0,
-    100% 12px,
-    100% 100%,
-    12px 100%,
-    0 calc(100% - 12px)
-  );
-}
-
-@utility angle-clip-sm {
-  clip-path: polygon(
-    0 0,
-    calc(100% - 6px) 0,
-    100% 6px,
-    100% 100%,
-    6px 100%,
-    0 calc(100% - 6px)
-  );
 }
 
 @utility loading-image {
@@ -736,24 +421,6 @@ layer(base);
   transition:
     opacity 0.3s,
     transform 0.3s;
-}
-
-/*
-  The default border color has changed to `currentcolor` in Tailwind CSS v4,
-  so we've added these compatibility styles to make sure everything still
-  looks the same as it did with Tailwind CSS v3.
-
-  If we ever want to remove these styles, we need to add an explicit border
-  color utility to any element that depends on these defaults.
-*/
-@layer base {
-  *,
-  ::after,
-  ::before,
-  ::backdrop,
-  ::file-selector-button {
-    border-color: var(--color-gray-200, currentcolor);
-  }
 }
 
 @layer base {

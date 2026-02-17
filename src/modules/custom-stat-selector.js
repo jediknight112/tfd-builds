@@ -39,7 +39,9 @@ export class CustomStatSelector {
     const searchInput = document.getElementById('stat-search');
     if (searchInput) {
       searchInput.value = '';
-      searchInput.focus();
+      if (window.matchMedia('(min-width: 768px)').matches) {
+        searchInput.focus();
+      }
     }
 
     const valueInput = document.getElementById('custom-stat-value');

@@ -379,6 +379,28 @@ export const LOCALIZED_STRINGS = {
   },
 };
 
+// Factory for default build state
+export function createDefaultBuild() {
+  return {
+    triggerModule: null,
+    descendantModules: new Array(12).fill(null),
+    weapons: new Array(3).fill(null).map(() => ({
+      weapon: null,
+      modules: new Array(10).fill(null),
+      customStats: [],
+      coreType: null,
+      coreStats: [],
+    })),
+    reactor: null,
+    reactorAdditionalStats: [
+      { name: '', value: 0 },
+      { name: '', value: 0 },
+    ],
+    externalComponents: {},
+    archeTuning: null,
+  };
+}
+
 // State Management
 class AppState {
   constructor() {
@@ -402,29 +424,7 @@ class AppState {
     this.coreTypeLookup = {}; // Map core_type_id to core type data
     this.tierLookup = {}; // Map tier_id to localized tier_name
     this.currentDescendant = null;
-    this.currentBuild = {
-      triggerModule: null,
-      descendantModules: Array(12).fill(null),
-      weapons: Array(3)
-        .fill(null)
-        .map(() => ({
-          weapon: null,
-          modules: Array(10).fill(null),
-          customStats: [],
-          coreType: null,
-          coreStats: [], // Array of { option_id, stat_id, stat_value }
-        })),
-      reactor: null,
-      reactorAdditionalStats: [
-        { name: '', value: 0 },
-        { name: '', value: 0 },
-      ],
-      externalComponents: {}, // { 'Auxiliary Power': { component, coreStats }, ... }
-      archeTuning: null,
-      fellow: null,
-      vehicle: null,
-      inversionReinforcement: null,
-    };
+    this.currentBuild = createDefaultBuild();
     this.currentTab = 'modules';
     this.apiKeys = getApiKeys();
     this.language = getLanguage();
@@ -433,12 +433,6 @@ class AppState {
     this.currentWeaponSlot = null; // Track which weapon slot is being filled (weapon or module)
     this.currentExternalComponentCoreType = null; // Track which external component is being configured for cores
     this.selectedStatId = null; // Track selected stat in custom stat selector
-  }
-
-  setApiKeys(workerApiKey, nexonApiKey) {
-    this.apiKeys = { workerApiKey, nexonApiKey };
-    if (workerApiKey) localStorage.setItem('workerApiKey', workerApiKey);
-    if (nexonApiKey) localStorage.setItem('nexonApiKey', nexonApiKey);
   }
 
   setLanguage(languageCode) {
@@ -516,12 +510,6 @@ class AppState {
     );
   }
 
-  // Get localized slot type
-  getLocalizedSlotType(enSlotType) {
-    // Slot types are currently not localized in the API (Main, Skill, Sub, Trigger)
-    return enSlotType;
-  }
-
   // Get localized socket type
   getLocalizedSocketType(enSocketType) {
     return (
@@ -546,12 +534,6 @@ class AppState {
       LOCALIZED_STRINGS.weaponType[enWeaponType]?.en ||
       enWeaponType
     );
-  }
-
-  // Get localized node type
-  getLocalizedNodeType(enNodeType) {
-    // Only 'Hole' is used for styling and it's not localized in API logic
-    return enNodeType;
   }
 
   // Get localized equipment type
