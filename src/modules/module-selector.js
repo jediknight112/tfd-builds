@@ -9,7 +9,7 @@ export class ModuleSelector {
     // Show the modal
     const modal = document.getElementById('module-selector-modal');
     if (modal) {
-      modal.classList.remove('hidden');
+      modal.showModal();
     }
 
     // Update slot info text
@@ -69,8 +69,8 @@ export class ModuleSelector {
 
   closeModuleSelector() {
     const modal = document.getElementById('module-selector-modal');
-    if (modal) {
-      modal.classList.add('hidden');
+    if (modal?.open) {
+      modal.close();
     }
     state.currentModuleSlot = null;
     state.currentWeaponSlot = null;

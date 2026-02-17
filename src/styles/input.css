@@ -24,6 +24,28 @@ layer(base);
   ::file-selector-button {
     border-color: var(--color-gray-200, currentcolor);
   }
+
+  /* Native <dialog> reset: remove browser defaults and make it behave like the
+     previous overlay-div pattern. showModal() puts the dialog in the top layer
+     so z-index and fixed positioning are handled automatically. */
+  dialog {
+    border: none;
+    padding: 0;
+    margin: 0;
+    max-width: none;
+    max-height: none;
+    background: transparent;
+    color: inherit;
+  }
+
+  dialog[open] {
+    display: flex;
+  }
+
+  dialog::backdrop {
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(4px);
+  }
 }
 
 @utility card {

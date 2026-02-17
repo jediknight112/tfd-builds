@@ -5,7 +5,7 @@ export class ReactorSelector {
     // Show the modal
     const modal = document.getElementById('reactor-selector-modal');
     if (modal) {
-      modal.classList.remove('hidden');
+      modal.showModal();
     }
 
     // Update info text
@@ -45,8 +45,8 @@ export class ReactorSelector {
 
   closeReactorSelector() {
     const modal = document.getElementById('reactor-selector-modal');
-    if (modal) {
-      modal.classList.add('hidden');
+    if (modal?.open) {
+      modal.close();
     }
   }
 

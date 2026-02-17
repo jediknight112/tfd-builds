@@ -27,7 +27,7 @@ export class CustomStatSelector {
 
     const modal = document.getElementById('custom-stat-modal');
     if (modal) {
-      modal.classList.remove('hidden');
+      modal.showModal();
     }
 
     const info = document.getElementById('custom-stat-info');
@@ -65,8 +65,8 @@ export class CustomStatSelector {
 
   closeCustomStatSelector() {
     const modal = document.getElementById('custom-stat-modal');
-    if (modal) {
-      modal.classList.add('hidden');
+    if (modal?.open) {
+      modal.close();
     }
     state.currentWeaponSlot = null;
     state.selectedStatId = null;

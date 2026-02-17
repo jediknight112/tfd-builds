@@ -32,7 +32,7 @@ export class CoreSelector {
 
     const modal = document.getElementById('core-selector-modal');
     if (modal) {
-      modal.classList.remove('hidden');
+      modal.showModal();
     }
 
     const slotInfo = document.getElementById('core-slot-info');
@@ -78,7 +78,7 @@ export class CoreSelector {
 
     const modal = document.getElementById('core-selector-modal');
     if (modal) {
-      modal.classList.remove('hidden');
+      modal.showModal();
     }
 
     const slotInfo = document.getElementById('core-slot-info');
@@ -94,8 +94,8 @@ export class CoreSelector {
 
   closeCoreSelector() {
     const modal = document.getElementById('core-selector-modal');
-    if (modal) {
-      modal.classList.add('hidden');
+    if (modal?.open) {
+      modal.close();
     }
     state.currentWeaponSlot = null;
     state.currentExternalComponentCoreType = null;

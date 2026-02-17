@@ -9,7 +9,7 @@ export class ExternalComponentSelector {
     // Show the modal
     const modal = document.getElementById('external-component-selector-modal');
     if (modal) {
-      modal.classList.remove('hidden');
+      modal.showModal();
     }
 
     // Update info text
@@ -49,8 +49,8 @@ export class ExternalComponentSelector {
 
   closeExternalComponentSelector() {
     const modal = document.getElementById('external-component-selector-modal');
-    if (modal) {
-      modal.classList.add('hidden');
+    if (modal?.open) {
+      modal.close();
     }
     state.currentExternalComponentType = null;
   }

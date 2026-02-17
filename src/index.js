@@ -550,7 +550,7 @@ class Application {
   openImportBuild() {
     const modal = document.getElementById('import-build-modal');
     if (modal) {
-      modal.classList.remove('hidden');
+      modal.showModal();
       const input = document.getElementById('import-username');
       if (input) {
         input.value = '';
@@ -568,7 +568,7 @@ class Application {
 
   closeImportBuild() {
     const modal = document.getElementById('import-build-modal');
-    if (modal) modal.classList.add('hidden');
+    if (modal?.open) modal.close();
   }
 
   async importBuild() {
@@ -687,45 +687,29 @@ const app = new Application();
 // Make app globally available for HTML onclick handlers
 window.app = app;
 
-// Global Escape key handler for modals
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape') {
-    const modals = [
-      { id: 'module-selector-modal', close: () => app.closeModuleSelector() },
-      { id: 'weapon-selector-modal', close: () => app.closeWeaponSelector() },
-      { id: 'core-selector-modal', close: () => app.closeCoreSelector() },
-      {
-        id: 'reactor-selector-modal',
-        close: () =>
-          document
-            .getElementById('reactor-selector-modal')
-            ?.classList.add('hidden'),
-      },
-      {
-        id: 'external-component-selector-modal',
-        close: () =>
-          document
-            .getElementById('external-component-selector-modal')
-            ?.classList.add('hidden'),
-      },
-      {
-        id: 'custom-stat-modal',
-        close: () => app.closeCustomStatSelector(),
-      },
-      {
-        id: 'import-build-modal',
-        close: () => app.closeImportBuild(),
-      },
-    ];
-
-    for (const modal of modals) {
-      const el = document.getElementById(modal.id);
-      if (el && !el.classList.contains('hidden')) {
-        modal.close();
-        break;
-      }
-    }
-  }
+// Native <dialog> elements handle Escape key automatically (fires "cancel" event
+// then closes). We listen for "cancel" to run any cleanup logic (state resets, etc.).
+// Backdrop click (clicking the dialog padding area, not a child) also closes.
+const dialogHandlers = {
+  'module-selector-modal': () => app.closeModuleSelector(),
+  'weapon-selector-modal': () => app.closeWeaponSelector(),
+  'core-selector-modal': () => app.closeCoreSelector(),
+  'reactor-selector-modal': () => app.reactorSelector.closeReactorSelector(),
+  'external-component-selector-modal': () =>
+    app.externalComponentSelector.closeExternalComponentSelector(),
+  'custom-stat-modal': () => app.closeCustomStatSelector(),
+  'import-build-modal': () => app.closeImportBuild(),
+};
+Object.entries(dialogHandlers).forEach(([id, close]) => {
+  const dialog = document.getElementById(id);
+  if (!dialog) return;
+  dialog.addEventListener('cancel', (e) => {
+    e.preventDefault();
+    close();
+  });
+  dialog.addEventListener('click', (e) => {
+    if (e.target === dialog) close();
+  });
 });
 
 // Start the application when DOM is ready

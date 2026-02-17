@@ -7,7 +7,7 @@ export class WeaponSelector {
 
     const modal = document.getElementById('weapon-selector-modal');
     if (modal) {
-      modal.classList.remove('hidden');
+      modal.showModal();
     }
 
     const slotInfo = document.getElementById('weapon-slot-info');
@@ -53,8 +53,8 @@ export class WeaponSelector {
 
   closeWeaponSelector() {
     const modal = document.getElementById('weapon-selector-modal');
-    if (modal) {
-      modal.classList.add('hidden');
+    if (modal?.open) {
+      modal.close();
     }
     state.currentWeaponSlot = null;
   }
@@ -264,7 +264,7 @@ export class WeaponSelector {
 
     const modal = document.getElementById('module-selector-modal');
     if (modal) {
-      modal.classList.remove('hidden');
+      modal.showModal();
     }
 
     const slotInfo = document.getElementById('module-slot-info');
@@ -470,8 +470,8 @@ export class WeaponSelector {
 
     // Close the modal
     const modal = document.getElementById('module-selector-modal');
-    if (modal) {
-      modal.classList.add('hidden');
+    if (modal?.open) {
+      modal.close();
     }
 
     // Re-render weapons via app instance
