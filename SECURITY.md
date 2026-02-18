@@ -6,7 +6,7 @@ If you discover a security vulnerability in this project, please report it respo
 
 **Do NOT open a public GitHub issue for security vulnerabilities.**
 
-Instead, please email: **jeffrey.crane@wpengine.com**
+Instead, please email: **jediknight112@users.noreply.github.com**
 
 ### What to include
 
