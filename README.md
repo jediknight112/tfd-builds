@@ -1,5 +1,10 @@
 # TFD Build Viewer
 
+[![CI](https://github.com/jediknight112/tfd-builds/actions/workflows/ci.yml/badge.svg)](https://github.com/jediknight112/tfd-builds/actions/workflows/ci.yml)
+[![Deploy](https://github.com/jediknight112/tfd-builds/actions/workflows/deploy.yml/badge.svg)](https://github.com/jediknight112/tfd-builds/actions/workflows/deploy.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Cloudflare Pages](https://img.shields.io/badge/Cloudflare-Pages-F38020?logo=cloudflare&logoColor=white)](https://pages.cloudflare.com)
+
 A modern web application for viewing and planning character builds for **The First Descendant** video game.
 
 ## Features
