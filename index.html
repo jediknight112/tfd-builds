@@ -1,6 +1,23 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="dark">
   <head>
+    <script>
+      (function () {
+        var t = localStorage.getItem('theme');
+        var isDark = true;
+        if (t === 'light') {
+          document.documentElement.classList.remove('dark');
+          isDark = false;
+        } else if (
+          !t &&
+          window.matchMedia('(prefers-color-scheme: light)').matches
+        ) {
+          document.documentElement.classList.remove('dark');
+          isDark = false;
+        }
+        window.__initialTheme = isDark ? 'dark' : 'light';
+      })();
+    </script>
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -55,6 +72,39 @@
               <!-- Populated by JavaScript -->
             </select>
             <button
+              onclick="app.toggleTheme()"
+              title="Toggle light/dark mode"
+              aria-label="Toggle light/dark mode"
+              class="w-9 h-9 flex items-center justify-center rounded-full border border-tfd-primary/30 hover:border-tfd-primary text-steel-grey hover:text-tfd-primary transition-colors"
+            >
+              <svg
+                class="w-5 h-5 theme-icon-sun hidden"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
+                ></path>
+              </svg>
+              <svg
+                class="w-5 h-5 theme-icon-moon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+                ></path>
+              </svg>
+            </button>
+            <button
               class="hidden sm:flex btn-secondary text-[10px] sm:text-sm py-1 px-2 sm:px-4 items-center justify-center min-w-0"
               onclick="app.init()"
               title="Refresh Data"
@@ -97,7 +147,7 @@
           <div
             class="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-3 mb-4 pb-4 border-b border-tfd-primary/20"
           >
-            <p class="text-gray-400 text-sm">
+            <p class="text-steel-grey text-sm">
               Or import your/any current in-game build:
             </p>
             <button
@@ -162,7 +212,7 @@
                 </h2>
                 <p
                   id="descendant-description"
-                  class="text-sm sm:text-base text-gray-400"
+                  class="text-sm sm:text-base text-steel-grey"
                 >
                   Descendant description will appear here
                 </p>
@@ -284,7 +334,7 @@
                 </svg>
                 Descendant Modules (12 Slots)
               </h3>
-              <div class="mb-2 text-sm text-gray-400">
+              <div class="mb-2 text-sm text-steel-grey">
                 <span class="inline-block mr-4">Slot 1: Skill</span>
                 <span class="inline-block mr-4">Slot 7: Sub</span>
                 <span class="inline-block">Slots 2-6, 8-12: Main</span>
@@ -330,7 +380,7 @@
                 class="grid grid-cols-1 md:grid-cols-2 gap-6"
               >
                 <div class="module-slot p-4 text-center">
-                  <p class="text-gray-400">Select a reactor...</p>
+                  <p class="text-steel-grey">Select a reactor...</p>
                 </div>
               </div>
             </div>
@@ -385,7 +435,7 @@
               </h3>
               <div id="arche-tuning" class="space-y-4">
                 <div class="module-slot p-4 text-center">
-                  <p class="text-gray-400">Configure Arche Tuning...</p>
+                  <p class="text-steel-grey">Configure Arche Tuning...</p>
                 </div>
               </div>
             </div>
@@ -398,14 +448,14 @@
         <div
           class="inline-block animate-spin rounded-full h-12 w-12 border-4 border-tfd-primary border-t-transparent"
         ></div>
-        <p class="mt-4 text-gray-400">Loading data...</p>
+        <p class="mt-4 text-steel-grey">Loading data...</p>
       </output>
 
       <!-- Error State -->
       <div id="error" class="hidden">
         <div class="card bg-red-900/20 border-red-500">
           <h3 class="text-red-400 font-bold mb-2">Error Loading Data</h3>
-          <p id="error-message" class="text-gray-300"></p>
+          <p id="error-message" class="text-steel-light"></p>
           <button class="btn-primary mt-4" onclick="app.init()">Retry</button>
         </div>
       </div>
@@ -418,7 +468,7 @@
       aria-labelledby="module-selector-title"
     >
       <div
-        class="card max-w-6xl w-full bg-tfd-dark h-full sm:h-auto sm:max-h-[90vh] flex flex-col rounded-none sm:rounded-lg shadow-[0_0_30px_rgba(0,240,255,0.3)] border-x-0 border-b-0 sm:border border-t-2 border-t-cyber-cyan sm:border-cyber-cyan/20"
+        class="card max-w-6xl w-full bg-tfd-dark h-full sm:h-auto sm:max-h-[90vh] flex flex-col rounded-none sm:rounded-lg shadow-neon border-x-0 border-b-0 sm:border border-t-2 border-t-cyber-cyan sm:border-cyber-cyan/20"
       >
         <div
           class="flex items-center justify-between p-4 sm:p-6 pb-3 sm:pb-4 border-b border-cyber-cyan/30"
@@ -453,7 +503,7 @@
           <input
             type="text"
             id="module-search"
-            class="w-full px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-hidden focus:ring-2 focus:ring-cyber-cyan/50 transition-all text-sm"
+            class="w-full px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-steel-light placeholder-steel-grey focus:border-cyber-cyan focus:outline-hidden focus:ring-2 focus:ring-cyber-cyan/50 transition-all text-sm"
             placeholder="Search modules..."
             oninput="app.filterModules()"
           />
@@ -571,7 +621,7 @@
       aria-labelledby="weapon-selector-title"
     >
       <div
-        class="card max-w-6xl w-full bg-tfd-dark h-full sm:h-auto sm:max-h-[90vh] flex flex-col rounded-none sm:rounded-lg shadow-[0_0_30px_rgba(0,240,255,0.3)] border-x-0 border-b-0 sm:border border-t-2 border-t-cyber-cyan sm:border-cyber-cyan/20"
+        class="card max-w-6xl w-full bg-tfd-dark h-full sm:h-auto sm:max-h-[90vh] flex flex-col rounded-none sm:rounded-lg shadow-neon border-x-0 border-b-0 sm:border border-t-2 border-t-cyber-cyan sm:border-cyber-cyan/20"
       >
         <div
           class="flex items-center justify-between p-4 sm:p-6 pb-3 sm:pb-4 border-b border-cyber-cyan/30"
@@ -606,7 +656,7 @@
           <input
             type="text"
             id="weapon-search"
-            class="w-full px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-hidden focus:ring-2 focus:ring-cyber-cyan/50 transition-all text-sm"
+            class="w-full px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-steel-light placeholder-steel-grey focus:border-cyber-cyan focus:outline-hidden focus:ring-2 focus:ring-cyber-cyan/50 transition-all text-sm"
             placeholder="Search weapons..."
             oninput="app.filterWeapons()"
           />
@@ -740,7 +790,7 @@
       <div
         class="bg-tfd-darker border border-tfd-primary rounded-lg max-w-4xl w-full max-h-[90vh] flex flex-col"
       >
-        <div class="p-6 border-b border-gray-700">
+        <div class="p-6 border-b border-steel-dark">
           <div class="flex items-center justify-between mb-4">
             <h3
               id="core-selector-title"
@@ -750,12 +800,12 @@
             </h3>
             <button
               onclick="app.closeCoreSelector()"
-              class="text-gray-400 hover:text-tfd-primary text-2xl leading-none"
+              class="text-steel-grey hover:text-tfd-primary text-2xl leading-none"
             >
               &times;
             </button>
           </div>
-          <p id="core-slot-info" class="text-sm text-gray-400">
+          <p id="core-slot-info" class="text-sm text-steel-grey">
             Select a core type and configure stats
           </p>
         </div>
@@ -768,7 +818,7 @@
           <!-- Populated by JavaScript -->
         </div>
 
-        <div class="p-6 border-t border-gray-700 flex justify-end">
+        <div class="p-6 border-t border-steel-dark flex justify-end">
           <button onclick="app.closeCoreSelector()" class="btn-secondary">
             Cancel
           </button>
@@ -783,7 +833,7 @@
       aria-labelledby="reactor-selector-title"
     >
       <div
-        class="bg-void-deep/95 border-x-0 border-b-0 sm:border-2 border-t-2 border-t-cyber-cyan sm:border-cyber-cyan/50 rounded-none sm:rounded-lg max-w-6xl w-full h-full sm:h-auto sm:max-h-[90vh] flex flex-col shadow-[0_0_30px_rgba(0,240,255,0.3)]"
+        class="bg-void-deep/95 border-x-0 border-b-0 sm:border-2 border-t-2 border-t-cyber-cyan sm:border-cyber-cyan/50 rounded-none sm:rounded-lg max-w-6xl w-full h-full sm:h-auto sm:max-h-[90vh] flex flex-col shadow-neon"
       >
         <div class="p-4 sm:p-6 border-b border-cyber-cyan/30">
           <div class="flex items-center justify-between mb-3 sm:mb-4">
@@ -818,7 +868,7 @@
               type="text"
               id="reactor-search"
               placeholder="Search reactors..."
-              class="flex-1 px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-hidden focus:ring-2 focus:ring-cyber-cyan/50 transition-all text-sm"
+              class="flex-1 px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-steel-light placeholder-steel-grey focus:border-cyber-cyan focus:outline-hidden focus:ring-2 focus:ring-cyber-cyan/50 transition-all text-sm"
             />
 
             <!-- Tier Filter -->
@@ -854,7 +904,7 @@
       aria-labelledby="external-component-selector-title"
     >
       <div
-        class="bg-void-deep/95 border-x-0 border-b-0 sm:border-2 border-t-2 border-t-cyber-cyan sm:border-cyber-cyan/50 rounded-none sm:rounded-lg max-w-6xl w-full h-full sm:h-auto sm:max-h-[90vh] flex flex-col shadow-[0_0_30px_rgba(0,240,255,0.3)]"
+        class="bg-void-deep/95 border-x-0 border-b-0 sm:border-2 border-t-2 border-t-cyber-cyan sm:border-cyber-cyan/50 rounded-none sm:rounded-lg max-w-6xl w-full h-full sm:h-auto sm:max-h-[90vh] flex flex-col shadow-neon"
       >
         <div class="p-4 sm:p-6 border-b border-cyber-cyan/30">
           <div class="flex items-center justify-between mb-3 sm:mb-4">
@@ -889,7 +939,7 @@
               type="text"
               id="external-component-search"
               placeholder="Search components..."
-              class="flex-1 px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-hidden focus:ring-2 focus:ring-cyber-cyan/50 transition-all text-sm"
+              class="flex-1 px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-steel-light placeholder-steel-grey focus:border-cyber-cyan focus:outline-hidden focus:ring-2 focus:ring-cyber-cyan/50 transition-all text-sm"
             />
 
             <!-- Tier Filter -->
@@ -932,7 +982,7 @@
       <div
         class="bg-tfd-darker border border-tfd-primary rounded-lg max-w-2xl w-full max-h-[80vh] flex flex-col"
       >
-        <div class="p-6 border-b border-gray-700">
+        <div class="p-6 border-b border-steel-dark">
           <div class="flex items-center justify-between mb-4">
             <h3
               id="custom-stat-title"
@@ -942,12 +992,12 @@
             </h3>
             <button
               onclick="app.closeCustomStatSelector()"
-              class="text-gray-400 hover:text-tfd-primary text-2xl leading-none"
+              class="text-steel-grey hover:text-tfd-primary text-2xl leading-none"
             >
               &times;
             </button>
           </div>
-          <p id="custom-stat-info" class="text-sm text-gray-400">
+          <p id="custom-stat-info" class="text-sm text-steel-grey">
             Select a stat and enter a value
           </p>
         </div>
@@ -959,7 +1009,7 @@
               type="text"
               id="stat-search"
               placeholder="Search stats..."
-              class="w-full px-4 py-2 bg-tfd-dark border border-gray-600 rounded-lg text-gray-300 placeholder-gray-500 focus:border-tfd-primary focus:outline-hidden"
+              class="w-full px-4 py-2 bg-tfd-dark border border-steel-dark rounded-lg text-steel-light placeholder-steel-grey focus:border-tfd-primary focus:outline-hidden"
               oninput="app.filterStats()"
             />
           </div>
@@ -976,7 +1026,7 @@
           <div class="mt-4">
             <label
               for="custom-stat-value"
-              class="block text-sm font-bold text-gray-300 mb-2"
+              class="block text-sm font-bold text-steel-light mb-2"
               >Stat Value</label
             >
             <input
@@ -984,12 +1034,12 @@
               step="0.01"
               id="custom-stat-value"
               placeholder="Enter value (e.g., 150 or 0.25 for 25%)"
-              class="w-full px-4 py-2 bg-tfd-dark border border-gray-600 rounded-lg text-gray-300 placeholder-gray-500 focus:border-tfd-primary focus:outline-hidden"
+              class="w-full px-4 py-2 bg-tfd-dark border border-steel-dark rounded-lg text-steel-light placeholder-steel-grey focus:border-tfd-primary focus:outline-hidden"
             />
           </div>
         </div>
 
-        <div class="p-6 border-t border-gray-700 flex justify-end gap-2">
+        <div class="p-6 border-t border-steel-dark flex justify-end gap-2">
           <button onclick="app.closeCustomStatSelector()" class="btn-secondary">
             Cancel
           </button>
@@ -1007,7 +1057,7 @@
       aria-labelledby="import-build-title"
     >
       <div
-        class="card max-w-md w-full bg-tfd-dark rounded-lg shadow-[0_0_30px_rgba(0,240,255,0.3)] border border-cyber-cyan/20"
+        class="card max-w-md w-full bg-tfd-dark rounded-lg shadow-neon border border-cyber-cyan/20"
       >
         <div class="p-6 border-b border-cyber-cyan/30">
           <div class="flex items-center justify-between mb-2">
@@ -1034,14 +1084,14 @@
           <div>
             <label
               for="import-username"
-              class="block text-sm font-bold text-gray-300 mb-2"
+              class="block text-sm font-bold text-steel-light mb-2"
               >Nexon Username</label
             >
             <input
               type="text"
               id="import-username"
               placeholder="Username#1234"
-              class="w-full px-4 py-3 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-gray-300 placeholder-steel-grey focus:border-cyber-cyan focus:outline-hidden focus:ring-2 focus:ring-cyber-cyan/50 transition-all text-sm"
+              class="w-full px-4 py-3 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-steel-light placeholder-steel-grey focus:border-cyber-cyan focus:outline-hidden focus:ring-2 focus:ring-cyber-cyan/50 transition-all text-sm"
               onkeydown="if (event.key === 'Enter') app.importBuild();"
             />
           </div>
@@ -1082,7 +1132,7 @@
     <footer
       class="bg-tfd-dark border-t border-tfd-primary/30 mt-12 py-6 mb-20 sm:mb-0"
     >
-      <div class="container mx-auto px-4 text-center text-gray-400 text-sm">
+      <div class="container mx-auto px-4 text-center text-steel-grey text-sm">
         <p>TFD Builds Viewer - The First Descendant Character Build Viewer</p>
         <p class="mt-2">Data provided by TFD Cache API</p>
         <div class="mt-3 flex items-center justify-center gap-4">
@@ -1090,7 +1140,7 @@
             href="https://github.com/jediknight112/tfd-builds"
             target="_blank"
             rel="noopener noreferrer"
-            class="inline-flex items-center gap-1.5 text-gray-400 hover:text-tfd-primary transition-colors"
+            class="inline-flex items-center gap-1.5 text-steel-grey hover:text-tfd-primary transition-colors"
           >
             <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
               <path
@@ -1099,12 +1149,12 @@
             </svg>
             GitHub
           </a>
-          <span class="text-gray-600">·</span>
+          <span class="text-steel-dark">·</span>
           <a
             href="https://buymeacoffee.com/jediknight112"
             target="_blank"
             rel="noopener noreferrer"
-            class="inline-flex items-center gap-1.5 text-gray-400 hover:text-tfd-secondary transition-colors"
+            class="inline-flex items-center gap-1.5 text-steel-grey hover:text-tfd-secondary transition-colors"
           >
             <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
               <path
@@ -1132,7 +1182,7 @@
     >
       <button
         onclick="app.init()"
-        class="flex flex-col items-center gap-1 text-gray-400 hover:text-tfd-primary transition-colors"
+        class="flex flex-col items-center gap-1 text-steel-grey hover:text-tfd-primary transition-colors"
       >
         <svg
           class="w-6 h-6"
@@ -1152,11 +1202,11 @@
       <button
         id="mobile-share-btn"
         onclick="app.shareBuild()"
-        class="flex flex-col items-center gap-1 text-gray-500 cursor-not-allowed opacity-50"
+        class="flex flex-col items-center gap-1 text-steel-dark cursor-not-allowed opacity-50"
         disabled
       >
         <div
-          class="bg-gray-600 text-void-deep p-3 rounded-full -mt-8 shadow-none transition-all duration-300"
+          class="bg-steel-dark text-void-deep p-3 rounded-full -mt-8 shadow-none transition-all duration-300"
         >
           <svg
             class="w-6 h-6"
@@ -1176,7 +1226,7 @@
       </button>
       <button
         onclick="app.createNewBuild()"
-        class="flex flex-col items-center gap-1 text-gray-400 hover:text-tfd-primary transition-colors"
+        class="flex flex-col items-center gap-1 text-steel-grey hover:text-tfd-primary transition-colors"
       >
         <svg
           class="w-6 h-6"

@@ -17,6 +17,121 @@ layer(base);
   color utility to any element that depends on these defaults.
 */
 @layer base {
+  :root {
+    /* Light mode (default) */
+    --void-deep: 255 255 255;
+    --void-blue: 241 245 249;
+    --void-lighter: 226 232 240;
+    --cyber-cyan: 8 145 178;
+    --cyber-cyan-dim: 14 116 144;
+    --cyber-cyan-glow: 6 182 212;
+    --amber-gold: 180 83 9;
+    --amber-dark: 146 64 14;
+    --amber-bright: 217 119 6;
+    --steel-grey: 100 116 139;
+    --steel-dark: 148 163 184;
+    --steel-light: 30 41 59;
+    --tier-1: 69 132 137;
+    --tier-2: 121 47 134;
+    --tier-3: 188 148 79;
+    --tier-4: 146 54 38;
+
+    --body-gradient-inner: rgba(241, 245, 249, 0.8);
+    --body-gradient-outer: rgba(255, 255, 255, 1);
+    --scrollbar-track: rgba(0, 0, 0, 0.05);
+    --scrollbar-thumb: rgba(8, 145, 178, 0.3);
+    --scrollbar-thumb-hover: rgba(8, 145, 178, 0.5);
+    --shimmer-base: #e2e8f0;
+    --shimmer-highlight: #f1f5f9;
+    --text-shadow-cyan: rgba(8, 145, 178, 0.3);
+    --section-title-shadow: rgba(8, 145, 178, 0.2);
+    --neon-shadow:
+      0 1px 3px rgba(8, 145, 178, 0.3), 0 1px 6px rgba(8, 145, 178, 0.15);
+    --neon-shadow-strong:
+      0 1px 4px rgba(8, 145, 178, 0.5), 0 2px 8px rgba(8, 145, 178, 0.3),
+      0 4px 12px rgba(8, 145, 178, 0.15);
+    --gold-shadow:
+      0 1px 3px rgba(180, 83, 9, 0.35), 0 1px 6px rgba(180, 83, 9, 0.2);
+    --gold-shadow-strong:
+      0 1px 4px rgba(180, 83, 9, 0.5), 0 2px 8px rgba(180, 83, 9, 0.3);
+    --glass-shadow: 0 4px 16px 0 rgba(8, 145, 178, 0.08);
+    --glass-gold-shadow: 0 4px 16px 0 rgba(180, 83, 9, 0.1);
+    --dialog-backdrop: rgba(0, 0, 0, 0.4);
+    --modal-glow: 0 0 15px rgba(8, 145, 178, 0.15);
+    --game-img-bg: rgb(15 23 42);
+    --arche-grid-bg: rgba(148, 163, 184, 0.15);
+    --arche-grid-border: rgba(8, 145, 178, 0.2);
+    --arche-node-bg-center: rgba(100, 116, 139, 0.04);
+    --arche-node-bg-edge: rgba(100, 116, 139, 0.1);
+    --arche-node-border: rgba(100, 116, 139, 0.2);
+    --arche-node-dim: brightness(0.7);
+    --arche-node-img-bg: rgba(71, 85, 105, 0.45);
+    --arche-node-hover-bg: rgba(8, 145, 178, 0.15);
+    --arche-node-hover-border: rgb(8, 145, 178);
+    --arche-tooltip-bg: rgba(241, 245, 249, 0.95);
+    --arche-tooltip-border: rgba(8, 145, 178, 0.5);
+    --arche-tooltip-shadow:
+      0 1px 6px rgba(8, 145, 178, 0.2), 0 2px 12px rgba(8, 145, 178, 0.1);
+    color-scheme: light;
+  }
+
+  .dark {
+    --void-deep: 5 7 10;
+    --void-blue: 10 15 30;
+    --void-lighter: 20 27 46;
+    --cyber-cyan: 0 240 255;
+    --cyber-cyan-dim: 0 168 181;
+    --cyber-cyan-glow: 77 255 255;
+    --amber-gold: 212 163 115;
+    --amber-dark: 184 137 90;
+    --amber-bright: 232 196 154;
+    --steel-grey: 160 160 160;
+    --steel-dark: 107 107 107;
+    --steel-light: 200 200 200;
+    --tier-1: 69 132 137;
+    --tier-2: 121 47 134;
+    --tier-3: 188 148 79;
+    --tier-4: 146 54 38;
+
+    --body-gradient-inner: rgba(10, 15, 30, 0.8);
+    --body-gradient-outer: rgba(5, 7, 10, 1);
+    --scrollbar-track: rgba(0, 0, 0, 0.2);
+    --scrollbar-thumb: rgba(0, 240, 255, 0.3);
+    --scrollbar-thumb-hover: rgba(0, 240, 255, 0.5);
+    --shimmer-base: #1a1a2e;
+    --shimmer-highlight: #2a2a3e;
+    --text-shadow-cyan: rgba(0, 240, 255, 0.5);
+    --section-title-shadow: rgba(0, 240, 255, 0.6);
+    --neon-shadow:
+      0 0 10px rgba(0, 240, 255, 0.5), 0 0 20px rgba(0, 240, 255, 0.3);
+    --neon-shadow-strong:
+      0 0 15px rgba(0, 240, 255, 0.8), 0 0 30px rgba(0, 240, 255, 0.5),
+      0 0 45px rgba(0, 240, 255, 0.3);
+    --gold-shadow:
+      0 0 10px rgba(212, 163, 115, 0.6), 0 0 20px rgba(212, 163, 115, 0.4);
+    --gold-shadow-strong:
+      0 0 15px rgba(212, 163, 115, 0.8), 0 0 30px rgba(212, 163, 115, 0.5);
+    --glass-shadow: 0 8px 32px 0 rgba(0, 240, 255, 0.1);
+    --glass-gold-shadow: 0 8px 32px 0 rgba(212, 163, 115, 0.15);
+    --dialog-backdrop: rgba(0, 0, 0, 0.8);
+    --modal-glow: 0 0 30px rgba(0, 240, 255, 0.3);
+    --game-img-bg: transparent;
+    --arche-grid-bg: rgba(5, 7, 10, 0.8);
+    --arche-grid-border: rgba(0, 240, 255, 0.2);
+    --arche-node-bg-center: rgba(10, 15, 30, 0.15);
+    --arche-node-bg-edge: rgba(10, 15, 30, 0.4);
+    --arche-node-border: rgba(160, 160, 160, 0.4);
+    --arche-node-dim: brightness(0.4);
+    --arche-node-img-bg: transparent;
+    --arche-node-hover-bg: rgba(0, 240, 255, 0.2);
+    --arche-node-hover-border: rgb(0, 240, 255);
+    --arche-tooltip-bg: rgba(5, 7, 10, 0.98);
+    --arche-tooltip-border: rgb(0, 240, 255);
+    --arche-tooltip-shadow:
+      0 0 10px rgba(0, 240, 255, 0.5), 0 0 20px rgba(0, 240, 255, 0.3);
+    color-scheme: dark;
+  }
+
   *,
   ::after,
   ::before,
@@ -43,7 +158,7 @@ layer(base);
   }
 
   dialog::backdrop {
-    background: rgba(0, 0, 0, 0.8);
+    background: var(--dialog-backdrop);
     backdrop-filter: blur(4px);
   }
 }
@@ -115,7 +230,7 @@ layer(base);
 
 @utility section-title {
   @apply text-lg sm:text-xl md:text-2xl font-gaming font-bold text-cyber-cyan mb-3 sm:mb-4 uppercase tracking-wider flex items-center gap-2;
-  text-shadow: 0 0 15px rgba(0, 240, 255, 0.6);
+  text-shadow: 0 0 15px var(--section-title-shadow);
 }
 
 @utility weapon-card {
@@ -200,22 +315,23 @@ layer(base);
       height: 4px;
     }
     &::-webkit-scrollbar-track {
-      background: rgba(0, 0, 0, 0.2);
+      background: var(--scrollbar-track);
       border-radius: 2px;
     }
     &::-webkit-scrollbar-thumb {
-      background: rgba(0, 240, 255, 0.3);
+      background: var(--scrollbar-thumb);
       border-radius: 2px;
     }
     &::-webkit-scrollbar-thumb:hover {
-      background: rgba(0, 240, 255, 0.5);
+      background: var(--scrollbar-thumb-hover);
     }
   }
 }
 
 @utility arche-grid {
-  /* Hide scrollbar on mobile but keep functionality */
-  @apply bg-void-deep/80 rounded-lg border border-cyber-cyan/20;
+  background-color: var(--arche-grid-bg);
+  border: 1px solid var(--arche-grid-border);
+  border-radius: 0.5rem;
   display: inline-flex;
   flex-direction: column;
   /* Remove width constraints to allow proper sizing */
@@ -247,7 +363,14 @@ layer(base);
 }
 
 @utility arche-node {
-  @apply border border-steel-grey/40 bg-void-blue/40 cursor-pointer transition-all duration-200;
+  border: 1px solid var(--arche-node-border);
+  background: radial-gradient(
+    circle at center,
+    var(--arche-node-bg-center),
+    var(--arche-node-bg-edge)
+  );
+  cursor: pointer;
+  transition: all 0.2s;
   /* Responsive sizing: smaller on mobile, larger on desktop */
   width: 20px;
   height: 20px;
@@ -258,7 +381,7 @@ layer(base);
   font-size: 14px;
   font-weight: bold;
   position: relative;
-  filter: brightness(0.4);
+  filter: var(--arche-node-dim);
   flex-shrink: 0;
 
   @media (min-width: 375px) {
@@ -295,12 +418,14 @@ layer(base);
   }
 
   &:not(.invisible):not(.anchor):hover {
-    @apply border-cyber-cyan bg-cyber-cyan/20 transform scale-110;
+    border-color: var(--arche-node-hover-border);
+    background-color: var(--arche-node-hover-bg);
+    transform: scale(1.1);
   }
 
-  /* Add active state for touch devices */
   &:not(.invisible):not(.anchor):active {
-    @apply border-cyber-cyan bg-cyber-cyan/30;
+    border-color: var(--arche-node-hover-border);
+    background-color: var(--arche-node-hover-bg);
     transform: scale(0.95);
   }
 
@@ -366,6 +491,10 @@ layer(base);
     @apply border-transparent bg-transparent cursor-default;
     pointer-events: none;
   }
+
+  & .game-img {
+    background-color: var(--arche-node-img-bg);
+  }
 }
 
 @utility anchor {
@@ -382,7 +511,10 @@ layer(base);
 }
 
 @utility arche-floating-tooltip {
-  @apply bg-void-deep border border-cyber-cyan rounded-lg shadow-neon;
+  background-color: var(--arche-tooltip-bg);
+  border: 1px solid var(--arche-tooltip-border);
+  border-radius: 0.5rem;
+  box-shadow: var(--arche-tooltip-shadow);
   position: fixed;
   z-index: 9999;
   pointer-events: none;
@@ -416,15 +548,25 @@ layer(base);
   }
 }
 
+@utility game-img {
+  background-color: var(--game-img-bg);
+  border-radius: 0.25rem;
+}
+
 @utility text-shadow {
-  text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+  text-shadow: 0 0 10px var(--text-shadow-cyan);
 }
 
 @utility loading-image {
   /* Image loading states */
   &img {
     @apply opacity-50 animate-pulse;
-    background: linear-gradient(90deg, #1a1a2e 25%, #2a2a3e 50%, #1a1a2e 75%);
+    background: linear-gradient(
+      90deg,
+      var(--shimmer-base) 25%,
+      var(--shimmer-highlight) 50%,
+      var(--shimmer-base) 75%
+    );
     background-size: 200% 100%;
     animation: loading 1.5s ease-in-out infinite;
   }
@@ -460,8 +602,8 @@ layer(base);
     height: 100%;
     background: radial-gradient(
       circle at 50% 50%,
-      rgba(10, 15, 30, 0.8) 0%,
-      rgba(5, 7, 10, 1) 100%
+      var(--body-gradient-inner) 0%,
+      var(--body-gradient-outer) 100%
     );
     pointer-events: none;
     z-index: -1;

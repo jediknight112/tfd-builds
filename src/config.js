@@ -34,6 +34,28 @@ export const getLanguage = () => {
     'en'
   );
 };
+export const getTheme = () => {
+  try {
+    if (typeof localStorage !== 'undefined' && localStorage?.getItem) {
+      const stored = localStorage.getItem('theme');
+      if (stored === 'light' || stored === 'dark') return stored;
+    }
+  } catch {
+    // localStorage may be unavailable
+  }
+  try {
+    if (
+      typeof globalThis !== 'undefined' &&
+      globalThis.matchMedia?.('(prefers-color-scheme: light)')?.matches
+    ) {
+      return 'light';
+    }
+  } catch {
+    // matchMedia may be unavailable
+  }
+  return 'dark';
+};
+
 // Helper to get API keys from environment or localStorage
 export const getApiKeys = () => {
   const serverEnv = getEnv();

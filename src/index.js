@@ -151,7 +151,7 @@ class Application {
 
         if (state.descendants.length === 0) {
           container.innerHTML =
-            '<p class="col-span-full text-center text-gray-400">No descendants found</p>';
+            '<p class="col-span-full text-center text-steel-grey">No descendants found</p>';
         } else {
           // Sort descendants alphabetically by name
           // Ultimate versions come after their base version
@@ -272,7 +272,7 @@ class Application {
       const img = document.createElement('img');
       img.src = descendant.descendant_image_url;
       img.alt = descendant.descendant_name || '';
-      img.className = 'w-full h-full object-cover rounded-lg';
+      img.className = 'w-full h-full object-cover rounded-lg game-img';
       img.loading = 'lazy';
       imageEl.innerHTML = '';
       imageEl.appendChild(img);
@@ -641,6 +641,32 @@ class Application {
     }
   }
 
+  toggleTheme() {
+    const newTheme = state.theme === 'dark' ? 'light' : 'dark';
+    state.setTheme(newTheme);
+    this.applyTheme();
+  }
+
+  applyTheme() {
+    const html = document.documentElement;
+    if (state.theme === 'dark') {
+      html.classList.add('dark');
+    } else {
+      html.classList.remove('dark');
+    }
+    this.updateThemeToggleIcons();
+  }
+
+  updateThemeToggleIcons() {
+    const isDark = state.theme === 'dark';
+    document.querySelectorAll('.theme-icon-sun').forEach((el) => {
+      el.classList.toggle('hidden', isDark);
+    });
+    document.querySelectorAll('.theme-icon-moon').forEach((el) => {
+      el.classList.toggle('hidden', !isDark);
+    });
+  }
+
   // Build sharing methods
   shareBuild() {
     try {
@@ -683,6 +709,9 @@ class Application {
 
 // Initialize the application
 const app = new Application();
+
+// Apply saved theme immediately
+app.applyTheme();
 
 // Make app globally available for HTML onclick handlers
 window.app = app;
