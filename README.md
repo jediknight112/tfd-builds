@@ -4,7 +4,6 @@
 [![Deploy](https://github.com/jediknight112/tfd-builds/actions/workflows/deploy.yml/badge.svg)](https://github.com/jediknight112/tfd-builds/actions/workflows/deploy.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Cloudflare Workers](https://img.shields.io/badge/Cloudflare-Workers-F38020?logo=cloudflare&logoColor=white)](https://workers.cloudflare.com)
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/jediknight112)
 
 A web application for creating, viewing, and sharing character builds for **The First Descendant**.
 
@@ -124,3 +123,9 @@ Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
 
 - Game data provided by [Nexon's The First Descendant API](https://openapi.nexon.com/)
 - Built for the TFD community
+
+## Support
+
+If you find this project useful, consider buying me a coffee!
+
+<a href="https://buymeacoffee.com/jediknight112" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="180"></a>
