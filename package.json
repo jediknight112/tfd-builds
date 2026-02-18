@@ -14,7 +14,8 @@
     "test:watch": "vitest",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "lint": "npm run format:check"
+    "lint": "npm run format:check",
+    "prepare": "husky"
   },
   "keywords": [
     "tfd",
@@ -23,8 +24,15 @@
   ],
   "author": "",
   "license": "MIT",
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,css,md,yml,yaml}": [
+      "prettier --write"
+    ]
+  },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.18",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
     "postcss": "^8.4.49",
     "prettier": "^3.8.1",
     "tailwindcss": "^4.1.18",
