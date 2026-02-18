@@ -12,38 +12,32 @@ export default {
     },
     extend: {
       colors: {
-        // Deep Space/Void Blue
-        'void-deep': '#05070A',
-        'void-blue': '#0A0F1E',
-        'void-lighter': '#141B2E',
+        'void-deep': 'rgb(var(--void-deep) / <alpha-value>)',
+        'void-blue': 'rgb(var(--void-blue) / <alpha-value>)',
+        'void-lighter': 'rgb(var(--void-lighter) / <alpha-value>)',
 
-        // Cyan/Electric Aqua (Main Accent)
-        'cyber-cyan': '#00F0FF',
-        'cyber-cyan-dim': '#00A8B5',
-        'cyber-cyan-glow': '#4DFFFF',
+        'cyber-cyan': 'rgb(var(--cyber-cyan) / <alpha-value>)',
+        'cyber-cyan-dim': 'rgb(var(--cyber-cyan-dim) / <alpha-value>)',
+        'cyber-cyan-glow': 'rgb(var(--cyber-cyan-glow) / <alpha-value>)',
 
-        // Muted Gold/Amber (Ultimate/Premium)
-        'amber-gold': '#D4A373',
-        'amber-dark': '#B8895A',
-        'amber-bright': '#E8C49A',
+        'amber-gold': 'rgb(var(--amber-gold) / <alpha-value>)',
+        'amber-dark': 'rgb(var(--amber-dark) / <alpha-value>)',
+        'amber-bright': 'rgb(var(--amber-bright) / <alpha-value>)',
 
-        // Steel Grey/Silver (Secondary)
-        'steel-grey': '#A0A0A0',
-        'steel-dark': '#6B6B6B',
-        'steel-light': '#C8C8C8',
+        'steel-grey': 'rgb(var(--steel-grey) / <alpha-value>)',
+        'steel-dark': 'rgb(var(--steel-dark) / <alpha-value>)',
+        'steel-light': 'rgb(var(--steel-light) / <alpha-value>)',
 
-        // Tier Colors
-        'tier-1': '#458489',
-        'tier-2': '#792F86',
-        'tier-3': '#BC944F',
-        'tier-4': '#923626',
+        'tier-1': 'rgb(var(--tier-1) / <alpha-value>)',
+        'tier-2': 'rgb(var(--tier-2) / <alpha-value>)',
+        'tier-3': 'rgb(var(--tier-3) / <alpha-value>)',
+        'tier-4': 'rgb(var(--tier-4) / <alpha-value>)',
 
-        // Legacy compatibility (map to new colors)
-        'tfd-primary': '#00F0FF',
-        'tfd-secondary': '#D4A373',
-        'tfd-dark': '#0A0F1E',
-        'tfd-darker': '#05070A',
-        'tfd-accent': '#00A8B5',
+        'tfd-primary': 'rgb(var(--cyber-cyan) / <alpha-value>)',
+        'tfd-secondary': 'rgb(var(--amber-gold) / <alpha-value>)',
+        'tfd-dark': 'rgb(var(--void-blue) / <alpha-value>)',
+        'tfd-darker': 'rgb(var(--void-deep) / <alpha-value>)',
+        'tfd-accent': 'rgb(var(--cyber-cyan-dim) / <alpha-value>)',
       },
       fontFamily: {
         gaming: [
@@ -56,15 +50,12 @@ export default {
         mono: ['"Roboto Mono"', '"Courier New"', 'monospace'],
       },
       boxShadow: {
-        neon: '0 0 10px rgba(0, 240, 255, 0.5), 0 0 20px rgba(0, 240, 255, 0.3)',
-        'neon-strong':
-          '0 0 15px rgba(0, 240, 255, 0.8), 0 0 30px rgba(0, 240, 255, 0.5), 0 0 45px rgba(0, 240, 255, 0.3)',
-        'gold-glow':
-          '0 0 10px rgba(212, 163, 115, 0.6), 0 0 20px rgba(212, 163, 115, 0.4)',
-        'gold-glow-strong':
-          '0 0 15px rgba(212, 163, 115, 0.8), 0 0 30px rgba(212, 163, 115, 0.5)',
-        glass: '0 8px 32px 0 rgba(0, 240, 255, 0.1)',
-        'glass-gold': '0 8px 32px 0 rgba(212, 163, 115, 0.15)',
+        neon: 'var(--neon-shadow)',
+        'neon-strong': 'var(--neon-shadow-strong)',
+        'gold-glow': 'var(--gold-shadow)',
+        'gold-glow-strong': 'var(--gold-shadow-strong)',
+        glass: 'var(--glass-shadow)',
+        'glass-gold': 'var(--glass-gold-shadow)',
       },
     },
   },

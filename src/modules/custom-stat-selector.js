@@ -108,11 +108,11 @@ export class CustomStatSelector {
           class="w-full text-left px-3 py-2 rounded transition-colors ${
             isSelected
               ? 'bg-tfd-primary/20 border border-tfd-primary text-tfd-primary'
-              : 'bg-tfd-dark hover:bg-tfd-primary/10 border border-gray-700 text-gray-300'
+              : 'bg-tfd-dark hover:bg-tfd-primary/10 border border-steel-dark text-steel-light'
           }"
           onclick="window.app.selectStat('${stat.stat_id}')">
           <div class="text-sm font-semibold">${stat.stat_name}</div>
-          <div class="text-xs text-gray-500">ID: ${stat.stat_id}</div>
+          <div class="text-xs text-steel-dark">ID: ${stat.stat_id}</div>
         </button>
       `;
       })
@@ -120,7 +120,7 @@ export class CustomStatSelector {
 
     if (filteredStats.length === 0) {
       grid.innerHTML =
-        '<p class="text-center text-gray-500 py-4">No stats found</p>';
+        '<p class="text-center text-steel-dark py-4">No stats found</p>';
     }
   }
 

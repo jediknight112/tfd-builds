@@ -78,6 +78,46 @@ describe('config.js', () => {
     });
   });
 
+  describe('getTheme', () => {
+    it('should return "dark" by default when nothing is stored', async () => {
+      const { getTheme } = await import('../src/config.js');
+      expect(getTheme()).toBe('dark');
+    });
+
+    it('should return localStorage value when set to "light"', async () => {
+      localStorageMock.setItem('theme', 'light');
+      const { getTheme } = await import('../src/config.js');
+      expect(getTheme()).toBe('light');
+    });
+
+    it('should return localStorage value when set to "dark"', async () => {
+      localStorageMock.setItem('theme', 'dark');
+      const { getTheme } = await import('../src/config.js');
+      expect(getTheme()).toBe('dark');
+    });
+
+    it('should ignore invalid localStorage values and fall back to "dark"', async () => {
+      localStorageMock.setItem('theme', 'blue');
+      const { getTheme } = await import('../src/config.js');
+      expect(getTheme()).toBe('dark');
+    });
+
+    it('should respect prefers-color-scheme: light when no localStorage value', async () => {
+      vi.stubGlobal(
+        'matchMedia',
+        vi.fn((query) => ({
+          matches: query === '(prefers-color-scheme: light)',
+          media: query,
+          addEventListener: vi.fn(),
+          removeEventListener: vi.fn(),
+        }))
+      );
+
+      const { getTheme } = await import('../src/config.js');
+      expect(getTheme()).toBe('light');
+    });
+  });
+
   describe('getApiKeys', () => {
     it('should return keys from localStorage', async () => {
       localStorageMock.setItem('workerApiKey', 'test-worker-key');

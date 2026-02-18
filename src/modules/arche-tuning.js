@@ -98,7 +98,7 @@ export class ArcheTuning {
     [2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18].forEach(
       (c) => (grid[16][c] = true)
     );
-    [2, 4, 8, 12, 13, 16, 18].forEach((c) => (grid[17][c] = true));
+    [2, 4, 8, 12, 16, 18].forEach((c) => (grid[17][c] = true));
     [2, 4, 5, 6, 7, 8, 12, 13, 14, 15, 16, 18].forEach(
       (c) => (grid[18][c] = true)
     );
@@ -247,7 +247,7 @@ export class ArcheTuning {
     let tooltip = `
       <div class="arche-tooltip">
         <div class="flex items-center gap-2 mb-1 sm:mb-2">
-          <img src="${nodeInfo.node_image_url}" alt="${nodeInfo.node_name}" class="shrink-0" loading="lazy" />
+          <img src="${nodeInfo.node_image_url}" alt="${nodeInfo.node_name}" class="shrink-0 game-img" loading="lazy" />
           <div class="min-w-0">
             <div class="font-bold text-cyber-cyan text-xs sm:text-sm truncate">${nodeInfo.node_name}</div>
             <div class="text-[10px] sm:text-xs text-steel-grey">${nodeInfo.node_type}${nodeInfo.tier_id !== 'None' ? ` - ${tierDisplay}` : ''}</div>
@@ -523,7 +523,7 @@ export class ArcheTuning {
             const imgEl = document.createElement('img');
             imgEl.src = nodeInfo.node_image_url;
             imgEl.alt = nodeInfo.node_name || '';
-            imgEl.className = 'w-full h-full object-contain';
+            imgEl.className = 'w-full h-full object-contain game-img';
             imgEl.loading = 'lazy';
             nodeDiv.appendChild(imgEl);
           }

@@ -144,7 +144,7 @@ export class CoreSelector {
 
                   return `
                   <div class="bg-tfd-darker p-3 rounded-sm">
-                    <div class="text-sm font-semibold text-gray-300 mb-2">Option ${optionIndex + 1}</div>
+                    <div class="text-sm font-semibold text-steel-light mb-2">Option ${optionIndex + 1}</div>
                     <div class="space-y-2">
                       ${statsArray
                         .map((stat) => {
@@ -163,7 +163,7 @@ export class CoreSelector {
                               ${existingCoreStat ? 'checked' : ''}
                               onchange="window.app.toggleCoreStat('${coreTypeId}', '${option.core_option_id}', '${stat.stat_id}', this.checked)"
                             >
-                            <label class="text-xs text-gray-400 flex-1" for="core_${coreTypeId}_${option.core_option_id}_${stat.stat_id}">
+                            <label class="text-xs text-steel-grey flex-1" for="core_${coreTypeId}_${option.core_option_id}_${stat.stat_id}">
                               ${stat.stat_name}
                             </label>
                             <input 
@@ -171,7 +171,7 @@ export class CoreSelector {
                               step="0.01"
                               placeholder="Value"
                               value="${existingCoreStat?.stat_value || ''}"
-                              class="w-20 px-2 py-1 text-xs bg-tfd-dark border border-gray-600 rounded-sm text-tfd-primary"
+                              class="w-20 px-2 py-1 text-xs bg-tfd-dark border border-steel-dark rounded-sm text-tfd-primary"
                               ${existingCoreStat ? '' : 'disabled'}
                               onchange="window.app.updateCoreStatValue('${coreTypeId}', '${option.core_option_id}', '${stat.stat_id}', this.value)"
                             >
@@ -192,7 +192,7 @@ export class CoreSelector {
               ${isSelected ? 'Update Core' : 'Select Core'}
             </button>
           `
-              : '<div class="text-xs text-gray-500">No options available</div>'
+              : '<div class="text-xs text-steel-dark">No options available</div>'
           }
         </div>
       `;
@@ -319,7 +319,7 @@ export class CoreSelector {
 
                   return `
                   <div class="bg-tfd-darker p-3 rounded-sm">
-                    <div class="text-sm font-semibold text-gray-300 mb-2">Option ${optionIndex + 1}</div>
+                    <div class="text-sm font-semibold text-steel-light mb-2">Option ${optionIndex + 1}</div>
                     <div class="space-y-2">
                       ${statsArray
                         .map((stat) => {
@@ -338,7 +338,7 @@ export class CoreSelector {
                               ${existingCoreStat ? 'checked' : ''}
                               onchange="window.app.toggleExternalComponentCoreStat('${equipmentType}', '${coreTypeId}', '${option.core_option_id}', '${stat.stat_id}', this.checked)"
                             >
-                            <label class="text-xs text-gray-400 flex-1" for="core_${coreTypeId}_${option.core_option_id}_${stat.stat_id}">
+                            <label class="text-xs text-steel-grey flex-1" for="core_${coreTypeId}_${option.core_option_id}_${stat.stat_id}">
                               ${stat.stat_name}
                             </label>
                             <input 
@@ -346,7 +346,7 @@ export class CoreSelector {
                               step="0.01"
                               placeholder="Value"
                               value="${existingCoreStat?.stat_value || ''}"
-                              class="w-20 px-2 py-1 text-xs bg-tfd-dark border border-gray-600 rounded-sm text-tfd-primary"
+                              class="w-20 px-2 py-1 text-xs bg-tfd-dark border border-steel-dark rounded-sm text-tfd-primary"
                               ${existingCoreStat ? '' : 'disabled'}
                               onchange="window.app.updateExternalComponentCoreStatValue('${equipmentType}', '${coreTypeId}', '${option.core_option_id}', '${stat.stat_id}', this.value)"
                             >
@@ -367,7 +367,7 @@ export class CoreSelector {
               ${isSelected ? 'Update Core' : 'Select Core'}
             </button>
           `
-              : '<div class="text-xs text-gray-500">No options available</div>'
+              : '<div class="text-xs text-steel-dark">No options available</div>'
           }
         </div>
       `;

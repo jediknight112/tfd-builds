@@ -95,7 +95,7 @@ export class ReactorSelector {
     grid.innerHTML = '';
     if (filteredReactors.length === 0) {
       grid.innerHTML =
-        '<div class="col-span-full text-center py-8 text-gray-400">No reactors found</div>';
+        '<div class="col-span-full text-center py-8 text-steel-grey">No reactors found</div>';
       return;
     }
 
@@ -148,7 +148,7 @@ export class ReactorSelector {
           <img 
             src="${reactor.image_url}" 
             alt="${reactor.reactor_name}"
-            class="w-16 h-16 object-cover rounded-sm border-2 border-steel-grey/30 shrink-0"
+            class="w-16 h-16 object-cover rounded-sm border-2 border-steel-grey/30 shrink-0 game-img"
             loading="lazy"
             onerror="this.style.display='none'"
           >
@@ -213,7 +213,7 @@ export class ReactorSelector {
           <svg class="w-12 h-12 mx-auto mb-2 text-steel-grey" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
           </svg>
-          <p class="text-gray-400">Click to select a reactor</p>
+          <p class="text-steel-grey">Click to select a reactor</p>
         </div>
       `;
       return;
@@ -256,7 +256,7 @@ export class ReactorSelector {
           <img 
             src="${reactor.image_url}" 
             alt="${reactor.reactor_name}"
-            class="w-24 h-24 object-cover rounded-sm border-2 border-steel-grey/30 shrink-0"
+            class="w-24 h-24 object-cover rounded-sm border-2 border-steel-grey/30 shrink-0 game-img"
             loading="lazy"
             onerror="this.style.display='none'"
           >

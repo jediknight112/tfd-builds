@@ -111,7 +111,7 @@ export class WeaponSelector {
     grid.innerHTML = '';
     if (filteredWeapons.length === 0) {
       grid.innerHTML =
-        '<div class="col-span-full text-center py-8 text-gray-400">No weapons found</div>';
+        '<div class="col-span-full text-center py-8 text-steel-grey">No weapons found</div>';
       return;
     }
 
@@ -142,7 +142,7 @@ export class WeaponSelector {
         <div class="flex items-start gap-3 mb-3">
           ${
             weapon.image_url
-              ? `<img src="${weapon.image_url}" alt="${weapon.weapon_name}" class="w-16 h-16 object-cover rounded-sm border-2 border-steel-grey/30 shrink-0" loading="lazy" onerror="this.style.display='none'">`
+              ? `<img src="${weapon.image_url}" alt="${weapon.weapon_name}" class="w-16 h-16 object-cover rounded-sm border-2 border-steel-grey/30 shrink-0 game-img" loading="lazy" onerror="this.style.display='none'">`
               : '<div class="w-16 h-16 bg-void-deep flex items-center justify-center rounded-sm border-2 border-steel-grey/30 shrink-0"><span class="text-steel-dark text-xs">No Image</span></div>'
           }
           <div class="flex-1 min-w-0">
@@ -374,68 +374,94 @@ export class WeaponSelector {
 
     filteredModules.sort((a, b) => a.module_name.localeCompare(b.module_name));
 
-    grid.innerHTML = filteredModules
-      .map((module) => {
-        const maxLevelStat =
-          module.module_stat && module.module_stat.length > 0
-            ? module.module_stat[module.module_stat.length - 1]
-            : null;
-
-        return `
-        <div class="card cursor-pointer hover:border-cyber-cyan transition-all" 
-             data-module-id="${module.module_id}"
-             onclick="window.app.selectWeaponModule('${module.module_id}')">
-          <div class="relative mb-2">
-            ${
-              module.image_url
-                ? `<img src="${module.image_url}" alt="${module.module_name}" class="w-full h-24 object-contain" loading="lazy">`
-                : '<div class="w-full h-24 bg-void-deep flex items-center justify-center"><span class="text-steel-dark text-xs">No Image</span></div>'
-            }
-            <div class="absolute top-1 right-1 px-1.5 py-0.5 text-xs font-bold rounded ${(() => {
-              const socketKey = state.getSocketTypeKey(
-                module.module_socket_type
-              );
-              return socketKey === 'Almandine'
-                ? 'bg-red-600'
-                : socketKey === 'Malachite'
-                  ? 'bg-green-600'
-                  : socketKey === 'Cerulean'
-                    ? 'bg-blue-600'
-                    : socketKey === 'Xantic'
-                      ? 'bg-yellow-600'
-                      : socketKey === 'Rutile'
-                        ? 'bg-purple-600'
-                        : 'bg-gray-500';
-            })()}">
-              ${module.module_socket_type?.[0] || '?'}
-            </div>
-            ${
-              maxLevelStat
-                ? `
-              <div class="absolute top-1 left-1 px-1.5 py-0.5 text-xs font-bold rounded-sm bg-amber-gold text-void-deep">
-                ${maxLevelStat.module_capacity}
-              </div>
-            `
-                : ''
-            }
-          </div>
-          <div class="min-h-0">
-            <h4 class="font-gaming font-bold text-xs text-cyber-cyan mb-1 leading-tight line-clamp-2" title="${module.module_name}">${module.module_name}</h4>
-            <div class="text-xs text-steel-grey space-y-0.5">
-              ${module.module_tier_id ? `<div class="text-tier-${module.module_tier_id.replace('Tier', '').toLowerCase()}">${state.getTierDisplayName(module.module_tier_id)}</div>` : ''}
-              ${module.module_type ? `<div class="text-amber-gold font-semibold">${module.module_type}</div>` : ''}
-              ${maxLevelStat && maxLevelStat.value ? `<div class="text-steel-light line-clamp-2 leading-tight" title="${maxLevelStat.value.replace(/\[\+\]/g, '')}">${maxLevelStat.value.replace(/\[\+\]/g, '')}</div>` : ''}
-            </div>
-          </div>
-        </div>
-      `;
-      })
-      .join('');
+    grid.innerHTML = '';
+    filteredModules.forEach((module) => {
+      const card = this.createWeaponModuleCard(module);
+      grid.appendChild(card);
+    });
 
     const countEl = document.getElementById('module-count');
     if (countEl) {
       countEl.textContent = `${filteredModules.length} modules`;
     }
+  }
+
+  createWeaponModuleCard(module) {
+    const card = document.createElement('div');
+    card.className =
+      'card cursor-pointer hover:border-cyber-cyan transition-all hover:scale-[1.02] p-2 sm:p-4';
+
+    const maxLevelStat =
+      module.module_stat && module.module_stat.length > 0
+        ? module.module_stat[module.module_stat.length - 1]
+        : null;
+
+    let tierClass = '';
+    if (module.module_tier_id) {
+      const tierNum = module.module_tier_id.replace('Tier', '');
+      tierClass = `tier-${tierNum}`;
+    }
+    if (tierClass) {
+      card.classList.add('border-2', `border-${tierClass}`);
+    }
+
+    const socketKey = state.getSocketTypeKey(module.module_socket_type);
+    const socketBgClass =
+      socketKey === 'Almandine'
+        ? 'bg-red-600 text-white'
+        : socketKey === 'Rutile'
+          ? 'bg-yellow-600 text-white'
+          : socketKey === 'Cerulean'
+            ? 'bg-blue-600 text-white'
+            : socketKey === 'Malachite'
+              ? 'bg-green-600 text-white'
+              : socketKey === 'Xantic'
+                ? 'bg-purple-600 text-white'
+                : 'bg-steel-dark text-white';
+
+    card.innerHTML = `
+      <div class="flex flex-col h-full">
+        <div class="flex items-start gap-2 sm:gap-3 mb-2 sm:mb-3">
+          ${
+            module.image_url
+              ? `<img src="${module.image_url}" alt="${module.module_name}" class="w-12 h-12 sm:w-16 sm:h-16 object-cover rounded-sm border-2 border-steel-grey/30 shrink-0 game-img" loading="lazy" onerror="this.style.display='none'">`
+              : '<div class="w-12 h-12 sm:w-16 sm:h-16 bg-void-deep flex items-center justify-center rounded-sm border-2 border-steel-grey/30 shrink-0"><span class="text-steel-dark text-[10px]">No Image</span></div>'
+          }
+          <div class="flex-1 min-w-0">
+            <h4 class="font-bold text-cyber-cyan line-clamp-2 mb-1 text-xs sm:text-sm md:text-base">${module.module_name}</h4>
+            <div class="flex flex-wrap gap-1">
+              ${
+                module.module_socket_type
+                  ? `<span class="inline-block px-1.5 py-0.5 rounded text-[9px] sm:text-xs font-semibold ${socketBgClass}">${module.module_socket_type}</span>`
+                  : ''
+              }
+              ${tierClass ? `<span class="inline-block px-1.5 py-0.5 rounded-sm text-[9px] sm:text-xs font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${state.getTierDisplayName(module.module_tier_id)}</span>` : ''}
+              ${module.module_type ? `<span class="inline-block px-1.5 py-0.5 rounded-sm text-[9px] sm:text-xs font-semibold bg-amber-gold/20 text-amber-gold border border-amber-gold/30">${module.module_type}</span>` : ''}
+            </div>
+          </div>
+        </div>
+        
+        ${
+          maxLevelStat
+            ? `
+          <div class="space-y-1 sm:space-y-2 text-[10px] sm:text-sm border-t border-steel-grey/20 pt-2 sm:pt-3">
+            <div class="flex justify-between items-center">
+              <span class="text-steel-grey">Capacity:</span>
+              <span class="text-amber-gold font-bold">${maxLevelStat.module_capacity || 0}</span>
+            </div>
+            ${maxLevelStat.value ? `<div class="text-[10px] sm:text-xs text-steel-light leading-tight">${maxLevelStat.value.replace(/\[\+\]/g, '')}</div>` : ''}
+          </div>
+        `
+            : '<div class="text-steel-grey text-[10px] sm:text-sm">No stat data</div>'
+        }
+      </div>
+    `;
+
+    card.addEventListener('click', () =>
+      this.selectWeaponModule(module.module_id)
+    );
+
+    return card;
   }
 
   selectWeaponModule(moduleId) {

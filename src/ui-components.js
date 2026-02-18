@@ -41,7 +41,7 @@ export class UIComponents {
 
     if (borderColor) {
       moduleSlot.className =
-        'module-slot group relative border-2 rounded-lg p-2 sm:p-3 transition-all cursor-pointer bg-black/50 hover:bg-black/70';
+        'module-slot group relative border-2 rounded-lg p-2 sm:p-3 transition-all cursor-pointer bg-void-deep/50 hover:bg-void-deep/70';
       moduleSlot.style.borderColor = borderColor + '4D'; // 30% opacity
       // Add hover effect via CSS variable
       moduleSlot.addEventListener('mouseenter', () => {
@@ -52,7 +52,7 @@ export class UIComponents {
       });
     } else {
       moduleSlot.className =
-        'module-slot group relative border-2 border-tfd-primary/30 rounded-lg p-2 sm:p-3 hover:border-tfd-accent transition-all cursor-pointer bg-black/50 hover:bg-black/70';
+        'module-slot group relative border-2 border-tfd-primary/30 rounded-lg p-2 sm:p-3 hover:border-tfd-accent transition-all cursor-pointer bg-void-deep/50 hover:bg-void-deep/70';
     }
 
     if (module) {
@@ -71,7 +71,7 @@ export class UIComponents {
 
       moduleSlot.innerHTML = `
         <div class="flex flex-col gap-2">
-          ${module.image_url ? `<img src="${module.image_url}" alt="${module.module_name}" class="w-full h-16 sm:h-20 object-contain rounded-sm" loading="lazy" />` : ''}
+          ${module.image_url ? `<img src="${module.image_url}" alt="${module.module_name}" class="w-full h-16 sm:h-20 object-contain rounded-sm game-img" loading="lazy" />` : ''}
           <div class="flex-1">
             <h4 class="font-semibold text-xs sm:text-sm text-cyber-cyan mb-1 leading-tight">${module.module_name || 'Unknown Module'}</h4>
             ${!isTriggerSlot && module.module_socket_type ? `<p class="text-[10px] sm:text-xs text-steel-grey">${module.module_socket_type}</p>` : ''}
@@ -116,7 +116,7 @@ export class UIComponents {
       });
     } else {
       moduleSlot.innerHTML = `
-        <div class="flex items-center justify-center h-16 text-gray-500">
+        <div class="flex items-center justify-center h-16 text-steel-dark">
           <span class="text-sm">Empty Slot</span>
         </div>
       `;
@@ -129,7 +129,7 @@ export class UIComponents {
   static createWeaponCard(weapon, weaponIndex) {
     const weaponCard = document.createElement('div');
     weaponCard.className =
-      'weapon-card border-2 border-tfd-primary/30 rounded-lg p-3 sm:p-4 bg-black/50';
+      'weapon-card border-2 border-tfd-primary/30 rounded-lg p-3 sm:p-4 bg-void-deep/50';
 
     if (weapon) {
       const tierClass = weapon.weapon_tier_id
@@ -141,10 +141,10 @@ export class UIComponents {
 
       weaponCard.innerHTML = `
         <div class="flex items-center gap-2 sm:gap-3 mb-3 sm:mb-4">
-          ${weapon.image_url ? `<img src="${weapon.image_url}" alt="${weapon.weapon_name}" class="w-12 h-12 sm:w-16 sm:h-16 rounded-sm object-cover" loading="lazy" />` : ''}
+          ${weapon.image_url ? `<img src="${weapon.image_url}" alt="${weapon.weapon_name}" class="w-12 h-12 sm:w-16 sm:h-16 rounded-sm object-cover game-img" loading="lazy" />` : ''}
           <div class="flex-1 min-w-0">
             <h4 class="font-semibold text-sm sm:text-base truncate">${weapon.weapon_name || 'Unknown Weapon'}</h4>
-            <p class="text-xs sm:text-sm text-gray-400 truncate">${weapon.weapon_type || ''}</p>
+            <p class="text-xs sm:text-sm text-steel-grey truncate">${weapon.weapon_type || ''}</p>
             <p class="text-xs sm:text-sm text-tfd-accent truncate">${weapon.weapon_tier_id?.replace('Tier', 'Tier ') || ''} - ${weapon.weapon_rounds_type || ''}</p>
           </div>
           <button class="btn-secondary text-[10px] sm:text-xs px-2 sm:px-3 py-1 clear-weapon-btn whitespace-nowrap">Clear</button>
@@ -244,7 +244,7 @@ export class UIComponents {
           statDiv.innerHTML = `
             <input type="text" 
               list="${datalistId}"
-              class="flex-1 px-2 py-1.5 sm:py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-gray-300 text-xs" 
+              class="flex-1 px-2 py-1.5 sm:py-1 bg-void-deep/50 border border-tfd-primary/30 rounded-sm text-steel-light text-xs" 
               value="${existingCoreStat ? state.getStatName(existingCoreStat.stat_id) : ''}"
               placeholder="${localizedFreeAug} stat..."
               data-weapon-index="${weaponIndex}"
@@ -254,7 +254,7 @@ export class UIComponents {
             <div class="flex items-center gap-2">
               <input type="number" 
                 step="0.01"
-                class="flex-1 sm:w-24 px-2 py-1.5 sm:py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-right text-xs" 
+                class="flex-1 sm:w-24 px-2 py-1.5 sm:py-1 bg-void-deep/50 border border-tfd-primary/30 rounded-sm text-right text-xs" 
                 value="${existingCoreStat ? existingCoreStat.stat_value || 0 : ''}"
                 placeholder="Value"
                 data-weapon-index="${weaponIndex}"
@@ -294,7 +294,7 @@ export class UIComponents {
           statDiv.innerHTML = `
             <input type="text" 
               list="${datalistId}"
-              class="flex-1 px-2 py-1.5 sm:py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-gray-300 text-xs" 
+              class="flex-1 px-2 py-1.5 sm:py-1 bg-void-deep/50 border border-tfd-primary/30 rounded-sm text-steel-light text-xs" 
               value="${existingCoreStat ? state.getStatName(existingCoreStat.stat_id) : ''}"
               placeholder="${coreOption.core_type_name} stat..."
               data-weapon-index="${weaponIndex}"
@@ -304,7 +304,7 @@ export class UIComponents {
             <div class="flex items-center gap-2">
               <input type="number" 
                 step="0.01"
-                class="flex-1 sm:w-24 px-2 py-1.5 sm:py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-right text-xs" 
+                class="flex-1 sm:w-24 px-2 py-1.5 sm:py-1 bg-void-deep/50 border border-tfd-primary/30 rounded-sm text-right text-xs" 
                 value="${existingCoreStat ? existingCoreStat.stat_value || 0 : ''}"
                 placeholder="Value"
                 data-weapon-index="${weaponIndex}"
@@ -337,14 +337,14 @@ export class UIComponents {
           statDiv.innerHTML = `
             <input type="text" 
               list="weapon-stat-names-${weaponIndex}"
-              class="flex-1 px-2 py-1.5 sm:py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-gray-300" 
+              class="flex-1 px-2 py-1.5 sm:py-1 bg-void-deep/50 border border-tfd-primary/30 rounded-sm text-steel-light" 
               value="${state.getStatName(customStat.stat_id)}"
               placeholder="Stat Name"
               data-weapon-index="${weaponIndex}"
               data-stat-index="${statIndex}">
             <div class="flex items-center gap-2">
               <input type="number" 
-                class="flex-1 sm:w-20 px-2 py-1.5 sm:py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-right" 
+                class="flex-1 sm:w-20 px-2 py-1.5 sm:py-1 bg-void-deep/50 border border-tfd-primary/30 rounded-sm text-right" 
                 value="${customStat.stat_value || 0}"
                 placeholder="0"
                 data-weapon-index="${weaponIndex}"
@@ -358,14 +358,14 @@ export class UIComponents {
           statDiv.innerHTML = `
             <input type="text" 
               list="weapon-stat-names-${weaponIndex}"
-              class="flex-1 px-2 py-1.5 sm:py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-gray-400" 
+              class="flex-1 px-2 py-1.5 sm:py-1 bg-void-deep/50 border border-tfd-primary/30 rounded-sm text-steel-grey" 
               value=""
               placeholder="Stat Name"
               data-weapon-index="${weaponIndex}"
               data-stat-index="${statIndex}">
             <div class="flex items-center gap-2">
               <input type="number" 
-                class="flex-1 sm:w-20 px-2 py-1.5 sm:py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-right text-gray-400" 
+                class="flex-1 sm:w-20 px-2 py-1.5 sm:py-1 bg-void-deep/50 border border-tfd-primary/30 rounded-sm text-right text-steel-grey" 
                 value=""
                 placeholder="0"
                 data-weapon-index="${weaponIndex}"
@@ -534,7 +534,7 @@ export class UIComponents {
       });
     } else {
       weaponCard.innerHTML = `
-        <div class="flex items-center justify-center h-24 text-gray-500">
+        <div class="flex items-center justify-center h-24 text-steel-dark">
           <button class="btn-primary select-weapon-btn">Select Weapon</button>
         </div>
       `;
@@ -560,7 +560,7 @@ export class UIComponents {
         ${
           descendant.descendant_image_url
             ? `
-          <img src="${descendant.descendant_image_url}" alt="${descendant.descendant_name}" class="w-full h-full object-cover" loading="lazy">
+          <img src="${descendant.descendant_image_url}" alt="${descendant.descendant_name}" class="w-full h-full object-cover game-img" loading="lazy">
         `
             : `
           <div class="w-full h-full flex items-center justify-center">
@@ -720,25 +720,25 @@ export class UIComponents {
     if (hasDescendant) {
       mobileShareBtn.disabled = false;
       mobileShareBtn.classList.remove(
-        'text-gray-500',
+        'text-steel-dark',
         'cursor-not-allowed',
         'opacity-50'
       );
       mobileShareBtn.classList.add('text-tfd-primary');
       if (iconContainer) {
-        iconContainer.classList.remove('bg-gray-600', 'shadow-none');
+        iconContainer.classList.remove('bg-steel-dark', 'shadow-none');
         iconContainer.classList.add('bg-tfd-primary', 'shadow-neon');
       }
     } else {
       mobileShareBtn.disabled = true;
       mobileShareBtn.classList.add(
-        'text-gray-500',
+        'text-steel-dark',
         'cursor-not-allowed',
         'opacity-50'
       );
       mobileShareBtn.classList.remove('text-tfd-primary');
       if (iconContainer) {
-        iconContainer.classList.add('bg-gray-600', 'shadow-none');
+        iconContainer.classList.add('bg-steel-dark', 'shadow-none');
         iconContainer.classList.remove('bg-tfd-primary', 'shadow-neon');
       }
     }
@@ -752,7 +752,7 @@ export class UIComponents {
 
     const dialog = document.createElement('div');
     dialog.className =
-      'bg-void-blue/95 border border-cyber-cyan/30 rounded-lg p-6 max-w-md w-full shadow-[0_0_30px_rgba(0,240,255,0.2)]';
+      'bg-void-blue/95 border border-cyber-cyan/30 rounded-lg p-6 max-w-md w-full shadow-neon';
     dialog.innerHTML = `
       <p class="text-steel-light text-sm mb-6">${escapeHTML(message)}</p>
       <div class="flex justify-end gap-3">
@@ -814,7 +814,7 @@ export class UIComponents {
     toast.innerHTML = `
       <span class="text-xl font-bold">${icons[type] || icons.info}</span>
       <span class="flex-1">${escapeHTML(message)}</span>
-      <button onclick="this.parentElement.remove()" class="text-white hover:text-gray-200 text-xl font-bold">&times;</button>
+      <button onclick="this.parentElement.remove()" class="text-white hover:text-white/80 text-xl font-bold">&times;</button>
     `;
 
     toastContainer.appendChild(toast);

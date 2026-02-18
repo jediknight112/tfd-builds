@@ -174,7 +174,7 @@ export class ModuleSelector {
     grid.innerHTML = '';
     if (filteredModules.length === 0) {
       grid.innerHTML =
-        '<div class="col-span-full text-center py-8 text-gray-400">No modules found</div>';
+        '<div class="col-span-full text-center py-8 text-steel-grey">No modules found</div>';
       return;
     }
 
@@ -212,7 +212,7 @@ export class ModuleSelector {
         <div class="flex items-start gap-2 sm:gap-3 mb-2 sm:mb-3">
           ${
             module.image_url
-              ? `<img src="${module.image_url}" alt="${module.module_name}" class="w-12 h-12 sm:w-16 sm:h-16 object-cover rounded-sm border-2 border-steel-grey/30 shrink-0" loading="lazy" onerror="this.style.display='none'">`
+              ? `<img src="${module.image_url}" alt="${module.module_name}" class="w-12 h-12 sm:w-16 sm:h-16 object-cover rounded-sm border-2 border-steel-grey/30 shrink-0 game-img" loading="lazy" onerror="this.style.display='none'">`
               : '<div class="w-12 h-12 sm:w-16 sm:h-16 bg-void-deep flex items-center justify-center rounded-sm border-2 border-steel-grey/30 shrink-0"><span class="text-steel-dark text-[10px]">No Image</span></div>'
           }
           <div class="flex-1 min-w-0">
@@ -234,7 +234,7 @@ export class ModuleSelector {
                                 ? 'bg-blue-600 text-white'
                                 : socketKey === 'Malachite'
                                   ? 'bg-green-600 text-white'
-                                  : 'bg-gray-600 text-white'
+                                  : 'bg-steel-dark text-white'
                         }">${module.module_socket_type}</span>
                       `;
                     })()

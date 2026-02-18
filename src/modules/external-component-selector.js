@@ -111,7 +111,7 @@ export class ExternalComponentSelector {
     grid.innerHTML = '';
     if (filteredComponents.length === 0) {
       grid.innerHTML =
-        '<div class="col-span-full text-center py-8 text-gray-400">No components found</div>';
+        '<div class="col-span-full text-center py-8 text-steel-grey">No components found</div>';
       return;
     }
 
@@ -148,7 +148,7 @@ export class ExternalComponentSelector {
           <img 
             src="${component.image_url}" 
             alt="${component.external_component_name}"
-            class="w-16 h-16 object-cover rounded-sm border-2 border-steel-grey/30 shrink-0"
+            class="w-16 h-16 object-cover rounded-sm border-2 border-steel-grey/30 shrink-0 game-img"
             loading="lazy"
             onerror="this.style.display='none'"
           >
@@ -262,7 +262,7 @@ export class ExternalComponentSelector {
             <img 
               src="${component.image_url}" 
               alt="${component.external_component_name}"
-              class="w-16 h-16 object-cover rounded-sm border-2 border-steel-grey/30 shrink-0"
+              class="w-16 h-16 object-cover rounded-sm border-2 border-steel-grey/30 shrink-0 game-img"
               loading="lazy"
               onerror="this.style.display='none'"
             >
@@ -360,7 +360,7 @@ export class ExternalComponentSelector {
             statDiv.innerHTML = `
               <input type="text" 
                 list="${datalistId}"
-                class="flex-1 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-gray-300 text-xs" 
+                class="flex-1 px-2 py-1 bg-void-deep/50 border border-tfd-primary/30 rounded-sm text-steel-light text-xs" 
                 value="${existingCoreStat ? state.getStatName(existingCoreStat.stat_id) : ''}"
                 placeholder="${coreOption.core_type_name} stat..."
                 data-equipment-type="${equipmentType}"
@@ -369,7 +369,7 @@ export class ExternalComponentSelector {
                 data-core-type-id="${coreOption.core_type_id}">
               <input type="number" 
                 step="0.01"
-                class="w-24 px-2 py-1 bg-black/50 border border-tfd-primary/30 rounded-sm text-right text-xs" 
+                class="w-24 px-2 py-1 bg-void-deep/50 border border-tfd-primary/30 rounded-sm text-right text-xs" 
                 value="${existingCoreStat ? existingCoreStat.stat_value || 0 : ''}"
                 placeholder="Value"
                 data-equipment-type="${equipmentType}"

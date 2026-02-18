@@ -36,6 +36,7 @@ jobs:
         run: npm run build
 
       - name: Deploy to Cloudflare Workers with Custom Domain
+        id: deploy
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -47,3 +48,19 @@ jobs:
           # They need to be configured once using:
           # wrangler secret put TFD_API_KEY
           # wrangler secret put WORKER_API_KEY
+
+      - name: Notify deploy success
+        if: success()
+        run: |
+          curl --request POST \
+            --url ${{ secrets.WEBHOOK_URL }} \
+            --header 'content-type: application/json' \
+            --data '{"alert":{"title":"TFD Builds","message":{"body":"Deploy Successful"}}}'
+
+      - name: Notify deploy failure
+        if: failure()
+        run: |
+          curl --request POST \
+            --url ${{ secrets.WEBHOOK_URL }} \
+            --header 'content-type: application/json' \
+            --data '{"alert":{"title":"TFD Builds","message":{"body":"Deploy Failed"}}}'

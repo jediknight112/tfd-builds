@@ -1,4 +1,4 @@
-import { getApiKeys, getLanguage } from './config.js';
+import { getApiKeys, getLanguage, getTheme } from './config.js';
 
 // Localized string constants for game-specific categories
 // These are used for filtering and UI logic across different languages
@@ -428,6 +428,7 @@ class AppState {
     this.currentTab = 'modules';
     this.apiKeys = getApiKeys();
     this.language = getLanguage();
+    this.theme = getTheme();
     this.dataLoaded = false;
     this.currentModuleSlot = null; // Track which module slot is being filled
     this.currentWeaponSlot = null; // Track which weapon slot is being filled (weapon or module)
@@ -438,6 +439,11 @@ class AppState {
   setLanguage(languageCode) {
     this.language = languageCode;
     localStorage.setItem('languageCode', languageCode);
+  }
+
+  setTheme(theme) {
+    this.theme = theme;
+    localStorage.setItem('theme', theme);
   }
 
   // Build stat lookup map
