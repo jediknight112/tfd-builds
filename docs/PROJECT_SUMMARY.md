@@ -231,34 +231,13 @@ make clean              # Remove node_modules and dist
 make install            # Install dependencies
 ```
 
-## 🔮 Next Steps (Not Yet Implemented)
+## 🔮 Roadmap
 
-Priority features to add:
+Potential future features:
 
-1. **Module/Weapon Selectors**
-   - Modal dialogs for selecting modules
-   - Search and filter functionality
-   - Module stats display
-
-2. **Build Persistence**
-   - Save builds to localStorage
-   - Load saved builds
-   - Multiple build slots
-
-3. **Build Sharing**
-   - URL-based build sharing
-   - Copy build link button
-   - Import builds from URL
-
-4. **Stat Calculations**
-   - Real-time stat calculations
-   - Total build stats display
-   - Stat comparison
-
-5. **Enhanced UI**
-   - Module details on hover/click
-   - Weapon comparison view
-   - Build validation
+1. **Stat Calculations** - Real-time stat totals and comparison
+2. **Build Templates/Presets** - Save and share common builds
+3. **Build Comparison** - Side-by-side build comparison view
 
 ## 📁 Project Structure
 
@@ -268,28 +247,37 @@ tfd-builds/
 ├── package.json              # Dependencies & scripts
 ├── vite.config.js            # Vite configuration
 ├── tailwind.config.js        # Tailwind config
-├── postcss.config.js         # PostCSS config
-├── Makefile                  # Build shortcuts
-├── .gitignore               # Git ignore rules
+├── worker.js                 # Cloudflare Worker entry point
+├── wrangler.toml             # Cloudflare deployment config
 ├── .env.example             # Environment template
-├── README.md                # Project documentation
-├── DEVELOPMENT.md           # Developer guide
-├── DEPLOYMENT.md            # Deployment guide
-├── PROJECT_SUMMARY.md       # This file
+├── docs/                    # Project documentation
+├── tests/                   # Test files (Vitest)
 └── src/
-    ├── index.js            # Main application logic
-    └── styles/
-        └── input.css       # Tailwind CSS input
+    ├── index.js             # Main application entry point
+    ├── state.js             # Global state management
+    ├── api-client.js        # API client for TFD Cache
+    ├── config.js            # Configuration and constants
+    ├── ui-components.js     # Reusable UI components
+    ├── build-serializer.js  # Build URL encoding/decoding
+    └── modules/             # Feature modules
+        ├── module-selector.js
+        ├── weapon-selector.js
+        ├── reactor-selector.js
+        ├── external-component-selector.js
+        ├── core-selector.js
+        ├── custom-stat-selector.js
+        ├── arche-tuning.js
+        └── build-importer.js
 ```
 
 ## 🔗 Related Projects
 
-1. **tfd-cache** (`../tfd-cache`)
+1. **[tfd-cache](https://github.com/jediknight112/tfd-cache)**
    - Cloudflare Workers cache
    - Caches TFD API data
    - Provides fast data access
 
-2. **jedishell-tools/tfd** (`../jedishell-tools/tfd`)
+2. **[jedishell-tools/tfd](https://github.com/jediknight112/jedishell-tools)**
    - Go CLI tool
    - TFD API client
    - Command-line data access
@@ -312,17 +300,14 @@ tfd-builds/
 
 ## 🐛 Known Limitations
 
-1. Module/Weapon selectors are placeholder buttons
-2. Build saving not implemented (memory only)
-3. Stat calculations not implemented
-4. No image assets from API (using placeholder SVGs)
-5. No mobile-specific optimizations yet
+1. Stat calculations not yet implemented
+2. No build comparison view
 
 ## 🎯 Use Cases
 
 1. **Build Planning** - Plan character builds before committing resources in-game
-2. **Build Sharing** - Share builds with team/community (future)
-3. **Build Comparison** - Compare different build configurations (future)
+2. **Build Sharing** - Share builds with team/community via compressed URLs
+3. **Build Import** - Import your current in-game build via Nexon API username lookup
 4. **Learning** - Understand descendant capabilities and equipment options
 
 ## 📈 Performance
@@ -354,12 +339,10 @@ MIT License - Free to use, modify, and distribute
 
 ---
 
-**Status**: ✅ **Ready for Development**
+**Status**: ✅ **Production Ready**
 
-The project is fully set up and ready for:
+The project is fully functional and deployed. To run locally:
 
 1. `npm install` to install dependencies
-2. `npm run dev` to start development
-3. Further feature development as outlined above
-
-All core infrastructure is in place. The app loads descendant data and displays the build interface. Next steps involve implementing the interactive selectors and build persistence features.
+2. Configure API keys (see [API_KEYS_SETUP.md](API_KEYS_SETUP.md))
+3. `npm run dev` to start development

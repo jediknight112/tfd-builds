@@ -9,3 +9,6 @@ src/styles/output.css
 # Wrangler
 .wrangler/
 .dev.vars
+
+# Nexon API reference data (large, contains personal data)
+Nexon API Schema/

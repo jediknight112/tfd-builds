@@ -119,18 +119,6 @@ Available data types:
 - External Components
 - And more...
 
-## ⚠️ Current Limitations
-
-The basic framework is complete, but these features are placeholders:
-
-- ❌ Module selector (shows alert)
-- ❌ Weapon selector (shows alert)
-- ❌ Build saving/loading
-- ❌ Real stat calculations
-- ❌ Build sharing
-
-These will be implemented in future updates!
-
 ## 🐛 Troubleshooting
 
 ### Port Already in Use

@@ -235,8 +235,8 @@ export const API_BASE_URL = 'https://your-api-url.com';
 
 ## Related Projects
 
-- **[tfd-cache](../tfd-cache)** - Cloudflare Workers cache for TFD API data
-- **[jedishell-tools/tfd](../jedishell-tools/tfd)** - Go CLI tool for TFD API
+- **[tfd-cache](https://github.com/jediknight112/tfd-cache)** - Cloudflare Workers cache for TFD API data
+- **[jedishell-tools/tfd](https://github.com/jediknight112/jedishell-tools)** - Go CLI tool for TFD API
 
 ## Contributing
 

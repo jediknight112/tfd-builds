@@ -1,53 +1,32 @@
 # CI Testing Setup
 
-This document describes the CI testing setup for the TFD Builds project, modeled after the tfd-cache project.
+This document describes the CI/CD pipeline for the TFD Builds project.
 
-## What Was Added
+## Overview
 
-### 1. GitHub Actions CI Workflow
+### GitHub Actions CI Workflow
 
-- **File**: [.github/workflows/ci.yml](.github/workflows/ci.yml)
+- **File**: [.github/workflows/ci.yml](../.github/workflows/ci.yml)
 - **Triggers**: On pull requests and pushes to main branch
 - **Jobs**:
   - **test**: Runs linting and tests
   - **build-test**: Verifies the Vite build works correctly
 
-### 2. Testing Framework
+### Automated Deployment
 
-- **Vitest**: Modern testing framework that works well with Vite
-- **Basic test file**: [tests/basic.test.js](tests/basic.test.js)
+- **File**: [.github/workflows/deploy.yml](../.github/workflows/deploy.yml)
+- **Triggers**: After CI passes on main branch
+- **Deploys**: To Cloudflare Workers
 
-### 3. Code Formatting
+### Dependabot
 
-- **Prettier**: Code formatter for consistent code style
-- **Configuration**: [.prettierrc](.prettierrc)
-- **Ignore file**: [.prettierignore](.prettierignore)
+- **File**: [.github/dependabot.yml](../.github/dependabot.yml)
+- Automatically creates PRs for dependency updates (weekly)
 
-### 4. Dependabot Configuration
+## Tools
 
-- **File**: [.github/dependabot.yml](.github/dependabot.yml)
-- **Purpose**: Automatically creates PRs for dependency updates
-- **Schedule**: Weekly updates for npm packages and GitHub Actions
-
-## NPM Scripts Added
-
-The following scripts were added to [package.json](package.json):
-
-```json
-"test": "vitest run"           // Run tests once
-"test:watch": "vitest"          // Run tests in watch mode
-"format": "prettier --write ."  // Format all files
-"format:check": "prettier --check ."  // Check formatting
-"lint": "npm run format:check"  // Run linting (checks formatting)
-```
-
-## Dependencies Added
-
-### Dev Dependencies
-
-- `vitest` - Testing framework
-- `@vitest/ui` - UI for test visualization
-- `prettier` - Code formatter
+- **Vitest**: Testing framework (integrates with Vite)
+- **Prettier**: Code formatting ([.prettierrc](../.prettierrc))
 
 ## Running Tests Locally
 
@@ -96,34 +75,10 @@ describe('Feature Name', () => {
 });
 ```
 
-### Formatting Your Code
+### Code Formatting
 
-Before committing, you may want to format your code:
+Format your code before committing:
 
 ```bash
 npm run format
 ```
-
-Note: Currently there are formatting issues in 32 files that need to be addressed if you want CI to pass with linting enabled.
-
-### Optional: Setup Pre-commit Hooks
-
-Like tfd-cache, you could add Husky for pre-commit hooks to automatically format code before commits:
-
-```bash
-npm install --save-dev husky lint-staged
-npm run prepare
-```
-
-## Differences from tfd-cache
-
-- **Testing Framework**: Uses Vitest instead of Jest (better Vite integration)
-- **No Type Checking**: tfd-cache has TypeScript type checking, tfd-builds doesn't use TypeScript
-- **Build Tool**: Uses Vite instead of Wrangler
-- **No Deployment**: CI only tests and builds, doesn't deploy (can be added later)
-
-## Status
-
-✅ CI workflow created and ready to use
-✅ Tests pass locally
-⚠️ Formatting issues in existing files (run `npm run format` to fix)

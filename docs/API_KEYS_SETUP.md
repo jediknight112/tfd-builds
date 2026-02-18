@@ -120,7 +120,7 @@ If you don't have a worker API key configured in tfd-cache, you may need to:
 
 Check:
 
-- [tfd-cache README](../tfd-cache/README.md) - Worker documentation
+- [tfd-cache README](https://github.com/jediknight112/tfd-cache) - Worker documentation
 - Browser console for detailed error messages
 - Network tab to inspect request/response
 
