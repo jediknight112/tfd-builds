@@ -4,6 +4,7 @@
 [![Deploy](https://github.com/jediknight112/tfd-builds/actions/workflows/deploy.yml/badge.svg)](https://github.com/jediknight112/tfd-builds/actions/workflows/deploy.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Cloudflare Workers](https://img.shields.io/badge/Cloudflare-Workers-F38020?logo=cloudflare&logoColor=white)](https://workers.cloudflare.com)
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/jediknight112)
 
 A web application for creating, viewing, and sharing character builds for **The First Descendant**.
 
