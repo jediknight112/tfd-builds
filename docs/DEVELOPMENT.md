@@ -70,13 +70,14 @@ export const state = {
 
 Each major feature has its own module in `src/modules/`:
 
-- **ModuleSelector** - Descendant module selection
+- **ModuleSelector** - Descendant module selection (12 slots with Skill/Sub/Main restrictions)
 - **WeaponSelector** - Weapon selection and configuration
 - **ReactorSelector** - Reactor selection
-- **ExternalComponentSelector** - External component management
+- **ExternalComponentSelector** - External component management (4 types)
 - **CoreSelector** - Core stat selection system
 - **CustomStatSelector** - Custom stat configuration
-- **ArcheTuning** - Arche tuning board and node selection
+- **ArcheTuning** - Multi-board arche tuning (3 boards per build, hex grid)
+- **BuildImporter** - Import builds from Nexon API via username lookup
 
 ### UI Components
 
@@ -119,7 +120,8 @@ src/
 │   ├── external-component-selector.js
 │   ├── core-selector.js      # Core stat selection
 │   ├── custom-stat-selector.js
-│   └── arche-tuning.js       # Arche tuning
+│   ├── arche-tuning.js       # Multi-board arche tuning
+│   └── build-importer.js     # Import builds from Nexon API
 └── styles/
     └── input.css             # Tailwind CSS with custom styles
 ```
@@ -327,12 +329,13 @@ Output goes to `dist/` directory.
 npm run preview
 ```
 
-### Deployment Options
+### Deployment
 
-- **GitHub Pages**: Deploy `dist/` folder
-- **Netlify**: Connect repo, build command: `npm run build`
-- **Vercel**: Auto-detect Vite project
-- **Cloudflare Pages**: Connect repo, build: `npm run build`, output: `dist`
+The app deploys to **Cloudflare Workers** via GitHub Actions. See [DEPLOYMENT.md](DEPLOYMENT.md) for details.
+
+```bash
+npm run deploy
+```
 
 ## Common Tasks
 
@@ -375,33 +378,6 @@ npm run build
 - Clear `node_modules` and reinstall
 - Check Node.js version (need 18+)
 - Verify all imports are correct
-
-## Future Enhancements
-
-Priority features to add:
-
-1. **Stat Calculations** - Real-time stat totals and calculations
-2. **Build Comparison** - Side-by-side build comparison
-3. **Build Templates** - Pre-made build presets
-4. **Mobile Responsive** - Improved mobile UX
-5. **Dark/Light Theme** - Theme toggle
-6. **Advanced Search** - Better filtering and search
-7. **Build Comments** - Add notes to builds
-8. **User Accounts** - Save multiple builds to account
-9. **Community Sharing** - Public build database
-10. **Import/Export** - JSON import/export
-
-### Completed
-
-- ✅ Module/Weapon Selectors - Interactive modals with filters
-- ✅ Build Persistence - localStorage backup
-- ✅ Build Sharing - URL-based with LZ-string compression
-- ✅ Reactor Configuration - Fully implemented
-- ✅ External Components - Complete with core stats
-- ✅ Arche Tuning - Board and node selection
-- ✅ CI/CD Pipeline - GitHub Actions
-- ✅ Testing Infrastructure - Vitest setup
-- ✅ Code Formatting - Prettier integration
 
 ## Resources
 

@@ -139,20 +139,18 @@ Modules are categorized by their usage:
 
 ### State Management
 
-The `AppState` class tracks:
+The `state` object (from `state.js`) tracks:
 
 ```javascript
 {
-  currentModuleSlot: {
-    index: -1 | 0-11,  // -1 for trigger, 0-11 for regular slots
-    type: 'trigger' | 'skill' | 'sub' | 'standard'
-  },
   currentBuild: {
     triggerModule: null | ModuleObject,
     descendantModules: [null, ...] // Array of 12 module objects
   }
 }
 ```
+
+The currently selected slot index and type are tracked within the `ModuleSelector` class instance.
 
 ## Visual Design
 
@@ -186,11 +184,3 @@ The `AppState` class tracks:
 - `.module-filter-btn`: Filter button styling
 - `.module-filter-btn.active`: Active filter button state
 - `.module-card`: Individual module in selector grid
-
-## Next Steps
-
-1. Add right-click context menu to remove modules from slots
-2. Add drag-and-drop support for rearranging modules
-3. Add module comparison tooltips
-4. Implement build validation (checking if all required slots are filled)
-5. Add module stat summaries (total bonuses from all equipped modules)
