@@ -263,7 +263,8 @@ export class ArcheTuning {
       tooltip += '<div class="text-xs sm:text-sm">';
       nodeInfo.node_effect.forEach((effect) => {
         const statName = this.getStatName(effect.stat_id);
-        tooltip += `<div class="text-steel-light">+${effect.stat_value} ${statName}</div>`;
+        const opPrefix = effect.operator_type === 'Multiply' ? '[x]' : '[+]';
+        tooltip += `<div class="text-steel-light">${opPrefix} ${effect.stat_value} ${statName}</div>`;
       });
       tooltip += '</div>';
     }
@@ -726,7 +727,7 @@ export class ArcheTuning {
       return;
     }
 
-    // Aggregate stats from all selected nodes
+    // Aggregate stats from all selected nodes, keyed by statName + operator_type
     const statMap = new Map();
     this.selectedNodes.forEach((nodeKey) => {
       const [row, col] = nodeKey.split(',').map(Number);
@@ -734,8 +735,15 @@ export class ArcheTuning {
       if (nodeInfo && nodeInfo.node_effect) {
         nodeInfo.node_effect.forEach((effect) => {
           const statName = this.getStatName(effect.stat_id);
-          const current = statMap.get(statName) || 0;
-          statMap.set(statName, current + effect.stat_value);
+          const key = `${statName}|${effect.operator_type}`;
+          const current = statMap.get(key) || {
+            value: 0,
+            operator: effect.operator_type,
+          };
+          statMap.set(key, {
+            value: current.value + effect.stat_value,
+            operator: effect.operator_type,
+          });
         });
       }
     });
@@ -760,12 +768,16 @@ export class ArcheTuning {
         <div class="stat-list grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-1 mt-2">
     `;
 
-    sortedStats.forEach(([statName, value]) => {
-      const displayValue = Number.isInteger(value) ? value : value.toFixed(2);
+    sortedStats.forEach(([key, entry]) => {
+      const statName = key.split('|')[0];
+      const displayValue = Number.isInteger(entry.value)
+        ? entry.value
+        : entry.value.toFixed(2);
+      const opPrefix = entry.operator === 'Multiply' ? '[x]' : '[+]';
       html += `
         <div class="flex justify-between text-xs sm:text-sm py-0.5">
           <span class="text-steel-light truncate mr-2">${statName}</span>
-          <span class="text-cyber-cyan font-bold whitespace-nowrap">+${displayValue}</span>
+          <span class="text-cyber-cyan font-bold whitespace-nowrap">${opPrefix} ${displayValue}</span>
         </div>
       `;
     });
