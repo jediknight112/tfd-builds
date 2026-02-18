@@ -1,262 +1,125 @@
-# TFD Build Viewer
+# TFD Build Planner
 
 [![CI](https://github.com/jediknight112/tfd-builds/actions/workflows/ci.yml/badge.svg)](https://github.com/jediknight112/tfd-builds/actions/workflows/ci.yml)
 [![Deploy](https://github.com/jediknight112/tfd-builds/actions/workflows/deploy.yml/badge.svg)](https://github.com/jediknight112/tfd-builds/actions/workflows/deploy.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Cloudflare Pages](https://img.shields.io/badge/Cloudflare-Pages-F38020?logo=cloudflare&logoColor=white)](https://pages.cloudflare.com)
+[![Cloudflare Workers](https://img.shields.io/badge/Cloudflare-Workers-F38020?logo=cloudflare&logoColor=white)](https://workers.cloudflare.com)
 
-A modern web application for viewing and planning character builds for **The First Descendant** video game.
+A web application for creating, viewing, and sharing character builds for **The First Descendant**.
+
+**Live site**: [tfd-builds.jediknight112.com](https://tfd-builds.jediknight112.com)
 
 ## Features
 
-- 🎮 **Descendant Selection** - Choose from all available descendants with visual cards
-- 🔧 **Module Management** - Configure up to 12 descendant modules with interactive selectors
-- ⚔️ **Weapon Loadouts** - Equip and configure 3 weapons with:
-  - 10 module slots per weapon
-  - 4 customizable base stats
-  - 5 core stats with selectable options
-- ⚡ **Reactor Configuration** - Select reactor and configure additional stats
-- 🎯 **External Components** - Add and manage 4 external component types with core stats
-- 🔬 **Arche Tuning** - Configure Arche tuning boards and node selections
-- 🔗 **Build Sharing** - Share builds via compressed URL parameters
-- 💾 **Build Serialization** - Automatic save/load with LZ-string compression
-- 📊 **Complete Data Loading** - Loads all game metadata (descendants, modules, weapons, reactors, etc.)
-- 🖼️ **Image Caching** - Automatic image caching through TFD Cache service with authentication
-- 🔐 **API Key Management** - Configurable API keys via UI or environment variables
+- **Descendant Selection** - Browse and select from all available descendants
+- **Module Management** - Configure 12 descendant modules with filtering by tier, class, and socket type
+- **Weapon Loadouts** - Equip 3 weapons, each with 10 module slots, 4 custom stats, and 5 core stats
+- **Reactor Configuration** - Select reactor and configure additional stats
+- **External Components** - Manage 4 component types (Auxiliary Power, Sensor, Memory, Processor) with core stats
+- **Arche Tuning** - Configure up to 3 independent tuning boards per build with a hex-grid node selector
+- **Build Import** - Import your current in-game build by entering your Nexon username
+- **Build Sharing** - Share builds via compressed URL parameters
+- **Multi-language** - Supports 12 languages (EN, DE, ES, FR, IT, JA, KO, PL, PT, RU, ZH-CN, ZH-TW)
+- **Mobile Responsive** - Full-screen modals, bottom action bar, and touch-friendly controls on mobile
 
 ## Tech Stack
 
-- **Frontend**: Vanilla JavaScript (ES6+)
-- **Styling**: Tailwind CSS v4 with custom gaming theme
+- **Frontend**: Vanilla JavaScript (ES6+) -- no frameworks
+- **Styling**: Tailwind CSS v4 with a custom gaming theme
 - **Build Tool**: Vite
-- **API**: TFD Cache API (Cloudflare Workers)
-- **Icons**: Heroicons (inline SVG)
+- **Testing**: Vitest
+- **Deployment**: Cloudflare Workers
+- **Backend**: [tfd-cache](https://github.com/jediknight112/tfd-cache) (Cloudflare Workers API proxy/cache)
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- API keys:
+  - **Nexon API Key** from [openapi.nexon.com](https://openapi.nexon.com/)
+  - **Worker API Key** from your [tfd-cache](https://github.com/jediknight112/tfd-cache) deployment
+
+### Setup
+
+```bash
+npm install
+npm run dev
+```
+
+Configure API keys through the **Settings** button in the app, or copy `.env.example` to `.env` and fill in your keys.
+
+See [docs/API_KEYS_SETUP.md](docs/API_KEYS_SETUP.md) for detailed instructions.
+
+## Scripts
+
+| Command          | Description                            |
+| ---------------- | -------------------------------------- |
+| `npm run dev`    | Start dev server with hot reload       |
+| `npm run build`  | Build for production                   |
+| `npm test`       | Run tests                              |
+| `npm run format` | Auto-format code with Prettier         |
+| `npm run deploy` | Build and deploy to Cloudflare Workers |
 
 ## Project Structure
 
 ```
 tfd-builds/
 ├── index.html              # Main HTML file
-├── package.json            # Dependencies and scripts
-├── vite.config.js          # Vite configuration
-├── tailwind.config.js      # Tailwind CSS configuration
-├── postcss.config.js       # PostCSS configuration
-├── .prettierrc             # Prettier code formatting config
+├── worker.js               # Cloudflare Worker entry point
+├── wrangler.toml           # Cloudflare deployment config
 ├── tests/                  # Test files (Vitest)
-├── docs/                   # Project documentation
+├── docs/                   # Documentation
 └── src/
-    ├── index.js            # Main application entry point
-    ├── state.js            # Global state management
-    ├── api-client.js       # API client for TFD Cache
+    ├── index.js            # Application entry point
+    ├── state.js            # Centralized state management
+    ├── api-client.js       # API client for tfd-cache
     ├── config.js           # Configuration and constants
-    ├── ui-components.js    # Reusable UI components
-    ├── build-serializer.js # Build URL encoding/decoding
-    ├── debug-image-loading.js # Image loading utilities
-    ├── modules/            # Feature modules
-    │   ├── module-selector.js
-    │   ├── weapon-selector.js
-    │   ├── reactor-selector.js
-    │   ├── external-component-selector.js
-    │   ├── core-selector.js
-    │   ├── custom-stat-selector.js
-    │   └── arche-tuning.js
-    └── styles/
-        └── input.css       # Tailwind CSS input file
+    ├── ui-components.js    # Reusable UI component factories
+    ├── build-serializer.js # Build URL encoding/decoding (LZ-string)
+    └── modules/
+        ├── module-selector.js
+        ├── weapon-selector.js
+        ├── reactor-selector.js
+        ├── external-component-selector.js
+        ├── core-selector.js
+        ├── custom-stat-selector.js
+        ├── arche-tuning.js
+        └── build-importer.js
 ```
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js 18+ and npm
-- **API Keys** (Required for data access):
-  - Nexon API Key from [openapi.nexon.com](https://openapi.nexon.com/)
-  - Worker API Key from your tfd-cache deployment
-
-### Installation
-
-1. Navigate to the project directory:
-
-```bash
-cd tfd-builds
-```
-
-2. Install dependencies:
-
-```bash
-npm install
-```
-
-3. **Configure API Keys** (Choose one method):
-
-   **Method A: Using the Settings UI** (Easiest)
-   - Start the app: `npm run dev`
-   - Click **Settings** button in the top navigation
-   - Enter your API keys
-   - Click **Save & Reload**
-
-   **Method B: Using Environment Variables**
-   - Copy `.env.example` to `.env`
-   - Edit `.env` and add your actual API keys:
-     ```env
-     VITE_WORKER_API_KEY=your_worker_api_key
-     VITE_NEXON_API_KEY=your_nexon_api_key
-     ```
-
-4. Start the development server:
-
-```bash
-npm run dev
-```
-
-The application will open in your browser at `http://localhost:3000`
-
-**See [docs/API_KEYS_SETUP.md](docs/API_KEYS_SETUP.md) for detailed instructions on obtaining API keys.**
-
-## Available Scripts
-
-- `npm run dev` - Start development server with hot reload
-- `npm run dev:worker` - Test Cloudflare Worker locally (after building)
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build locally
-- `npm run deploy` - Build and deploy to Cloudflare Workers
-- `npm test` - Run tests once
-- `npm run test:watch` - Run tests in watch mode
-- `npm run lint` - Check code formatting
-- `npm run format` - Auto-format code with Prettier
-- `make install` - Install dependencies (alternative)
-- `make dev` - Start dev server (alternative)
 
 ## Deployment
 
-The app is automatically deployed to **Cloudflare Workers** at:
+Pushes to `main` trigger automatic deployment via GitHub Actions:
 
-- **Production URL**: `https://tfd-builds.jediknight112.com`
+1. CI runs tests and build
+2. On success, deploys to Cloudflare Workers
 
-### Automated Deployment
+For manual deployment: `npm run deploy`
 
-The project uses GitHub Actions for continuous deployment:
-
-1. Push changes to `main` branch
-2. CI tests run automatically
-3. If tests pass, deployment triggers automatically
-4. Site is live within minutes
-
-### Manual Deployment
+Cloudflare Worker secrets (one-time setup):
 
 ```bash
-# Build and deploy
-npm run deploy
-
-# Or use wrangler directly
-npx wrangler deploy
-```
-
-### Secrets Setup
-
-The application requires two secrets to be configured in Cloudflare Workers:
-
-```bash
-# Set secrets (one-time setup)
 npx wrangler secret put TFD_API_KEY
 npx wrangler secret put WORKER_API_KEY
 ```
 
-**See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) and [docs/SECRETS_SETUP.md](docs/SECRETS_SETUP.md) for complete deployment instructions.**
-
-## Data Structure
-
-### Descendant Build
-
-Each descendant build consists of:
-
-- **12 Module Slots** - Enhance descendant abilities
-- **3 Weapon Slots** - Each weapon has:
-  - 10 module slots
-  - 4 base stats
-  - 5 core stats
-- **1 Reactor** - Power source configuration
-- **External Components** - Additional equipment
-- **Arche Tuning** - Special ability modifications
-- **Fellow** - Companion configuration
-- **Vehicle** - Transportation setup
-- **Inversion Reinforcement** - Advanced modifications
-
-## API Integration
-
-This app connects to the TFD Cache API:
-
-- **Base URL**: `https://tfd-cache.jediknight112.com`
-- **Endpoints**:
-  - `/tfd/metadata/descendant` - Get descendant data
-  - `/tfd/metadata/module` - Get module data
-  - `/tfd/metadata/weapon` - Get weapon data
-  - `/tfd/metadata/reactor` - Get reactor data
-  - `/tfd/metadata/external-component` - Get external component data
-
-## Customization
-
-### Theme Colors
-
-Edit tailwind.config.js to customize the color scheme:
-
-- `tfd-primary`: Main accent color (cyan)
-- `tfd-secondary`: Secondary accent (orange)
-- `tfd-dark`: Dark background
-- `tfd-accent`: Purple accent
-
-### API Configuration
-
-Edit the API base URL in [src/config.js](src/config.js):
-
-```javascript
-export const API_BASE_URL = 'https://your-api-url.com';
-```
-
-## Development Roadmap
-
-- [x] Basic project setup with Vite + Tailwind
-- [x] Descendant selection UI
-- [x] Module slot system
-- [x] Weapon cards with stats
-- [x] Tab navigation
-- [x] Module selector modal
-- [x] Weapon selector modal
-- [x] Reactor selector
-- [x] External component selector
-- [x] Core selector system
-- [x] Custom stat selector
-- [x] Arche Tuning configuration
-- [x] Build serialization (save/load)
-- [x] Build sharing (URL-based with compression)
-- [x] CI/CD with GitHub Actions
-- [x] Testing infrastructure (Vitest)
-- [x] Code formatting (Prettier)
-- [ ] Build comparison
-- [ ] Stat calculations and totals
-- [ ] Build templates/presets
-- [ ] Mobile responsive improvements
-- [ ] Dark/light theme toggle
+See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for full details.
 
 ## Related Projects
 
-- **[tfd-cache](https://github.com/jediknight112/tfd-cache)** - Cloudflare Workers cache for TFD API data
-- **[jedishell-tools/tfd](https://github.com/jediknight112/jedishell-tools)** - Go CLI tool for TFD API
+- **[tfd-cache](https://github.com/jediknight112/tfd-cache)** - Cloudflare Workers API proxy and cache for Nexon TFD data
+- **[jedishell-tools](https://github.com/jediknight112/jedishell-tools)** - Go CLI tools including a TFD API client
 
 ## Contributing
 
-Contributions are welcome! Feel free to:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
+Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## License
 
-MIT
+[MIT](LICENSE)
 
 ## Acknowledgments
 
-- Data provided by Nexon's The First Descendant API
-- Built with ❤️ for the TFD community
+- Game data provided by [Nexon's The First Descendant API](https://openapi.nexon.com/)
+- Built for the TFD community
