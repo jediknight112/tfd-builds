@@ -338,12 +338,17 @@ export class ExternalComponentSelector {
         const availableCoreOptions =
           UIComponents.getAvailableExternalComponentCoreOptions(component);
 
-        // Show one slot per core option (not per stat)
+        // Show one independent input per core option
         if (coreStatsInline && availableCoreOptions.length > 0) {
           for (let i = 0; i < availableCoreOptions.length; i++) {
             const coreOption = availableCoreOptions[i];
+            // Find existing stat for this slot index
             const existingCoreStat =
-              slotData && slotData.coreStats ? slotData.coreStats[i] : null;
+              slotData && slotData.coreStats
+                ? slotData.coreStats.find(
+                    (cs) => cs.slot_index === coreOption.slot_index
+                  )
+                : null;
 
             const datalistId = `external-component-core-stats-${equipmentType}-option-${i}`;
             const datalist = document.createElement('datalist');
@@ -364,92 +369,110 @@ export class ExternalComponentSelector {
                 value="${existingCoreStat ? state.getStatName(existingCoreStat.stat_id) : ''}"
                 placeholder="${coreOption.core_type_name} stat..."
                 data-equipment-type="${equipmentType}"
-                data-core-stat-index="${i}"
-                data-option-id="${coreOption.option_id}"
-                data-core-type-id="${coreOption.core_type_id}">
+                data-slot-index="${coreOption.slot_index}">
               <input type="number" 
                 step="0.01"
                 class="w-24 px-2 py-1 bg-void-deep/50 border border-tfd-primary/30 rounded-sm text-right text-xs" 
                 value="${existingCoreStat ? existingCoreStat.stat_value || 0 : ''}"
                 placeholder="Value"
                 data-equipment-type="${equipmentType}"
-                data-core-stat-index="${i}"
+                data-slot-index="${coreOption.slot_index}"
                 data-type="core-value">
               <button class="text-red-500 hover:text-red-400 w-6 text-center text-sm" 
                 data-equipment-type="${equipmentType}"
-                data-core-stat-index="${i}"
+                data-slot-index="${coreOption.slot_index}"
                 data-type="remove-core-stat">×</button>
             `;
 
-            // Add event listeners for stat name input
-            const nameInput = statDiv.querySelector('input[type="text"]');
-            nameInput.addEventListener('change', (e) => {
-              const statName = e.target.value.trim();
-              const coreStatIndex = parseInt(nameInput.dataset.coreStatIndex);
-              const optionId = nameInput.dataset.optionId;
-              const coreTypeId = nameInput.dataset.coreTypeId;
-
-              if (statName) {
-                // Find the matching stat from the specific core option
-                const matchingStat = coreOption.available_stats.find(
-                  (s) => state.getStatName(s.stat_id) === statName
-                );
-
-                if (matchingStat) {
-                  if (!slotData.coreStats) {
-                    slotData.coreStats = [];
-                  }
-
-                  if (!slotData.coreStats[coreStatIndex]) {
-                    slotData.coreStats[coreStatIndex] = {
-                      option_id: optionId,
-                      stat_id: matchingStat.stat_id,
-                      stat_value: 0,
-                    };
-                  } else {
-                    slotData.coreStats[coreStatIndex].option_id = optionId;
-                    slotData.coreStats[coreStatIndex].stat_id =
-                      matchingStat.stat_id;
-                  }
-
-                  if (!slotData.coreType) {
-                    slotData.coreType = coreTypeId;
-                  }
-
-                  this.renderExternalComponentsDisplay();
-                }
-              }
-            });
-
-            // Add event listener for value input
-            const valueInput = statDiv.querySelector(
-              'input[data-type="core-value"]'
-            );
-            valueInput.addEventListener('change', (e) => {
-              const coreStatIndex = parseInt(valueInput.dataset.coreStatIndex);
-              const value = parseFloat(e.target.value) || 0;
-
-              if (slotData.coreStats && slotData.coreStats[coreStatIndex]) {
-                slotData.coreStats[coreStatIndex].stat_value = value;
-              }
-            });
-
-            // Add event listener for remove button
-            const removeBtn = statDiv.querySelector(
-              'button[data-type="remove-core-stat"]'
-            );
-            removeBtn.addEventListener('click', () => {
-              const coreStatIndex = parseInt(removeBtn.dataset.coreStatIndex);
-              if (slotData.coreStats && slotData.coreStats[coreStatIndex]) {
-                slotData.coreStats.splice(coreStatIndex, 1);
-                this.renderExternalComponentsDisplay();
-              }
-            });
-
-            // Append datalist and stat div to container
             coreStatsInline.appendChild(datalist);
             coreStatsInline.appendChild(statDiv);
           }
+
+          // Add event listeners for the newly created elements
+          coreStatsInline
+            .querySelectorAll('input[data-slot-index]')
+            .forEach((input) => {
+              if (input.type === 'text') {
+                input.addEventListener('change', (e) => {
+                  const statName = e.target.value.trim();
+                  const slotIndex = parseInt(input.dataset.slotIndex, 10);
+
+                  if (statName) {
+                    // Find the core option entry by slot_index
+                    const coreOption = availableCoreOptions.find(
+                      (opt) => opt.slot_index === slotIndex
+                    );
+                    const matchingStat = coreOption?.available_stats.find(
+                      (s) => state.getStatName(s.stat_id) === statName
+                    );
+
+                    if (matchingStat) {
+                      if (!slotData.coreStats) {
+                        slotData.coreStats = [];
+                      }
+
+                      // Find existing stat for this slot index
+                      const existingIdx = slotData.coreStats.findIndex(
+                        (cs) => cs.slot_index === slotIndex
+                      );
+
+                      if (existingIdx === -1) {
+                        slotData.coreStats.push({
+                          slot_index: slotIndex,
+                          core_type_id: coreOption.core_type_id,
+                          option_id: matchingStat.option_id,
+                          stat_id: matchingStat.stat_id,
+                          stat_value: 0,
+                        });
+                      } else {
+                        slotData.coreStats[existingIdx].option_id =
+                          matchingStat.option_id;
+                        slotData.coreStats[existingIdx].stat_id =
+                          matchingStat.stat_id;
+                      }
+
+                      if (!slotData.coreType) {
+                        slotData.coreType = coreOption.core_type_id;
+                      }
+
+                      this.renderExternalComponentsDisplay();
+                    }
+                  }
+                });
+              } else if (input.dataset.type === 'core-value') {
+                input.addEventListener('change', (e) => {
+                  const slotIndex = parseInt(input.dataset.slotIndex, 10);
+                  const value = parseFloat(e.target.value) || 0;
+
+                  const existingStat =
+                    slotData.coreStats &&
+                    slotData.coreStats.find(
+                      (cs) => cs.slot_index === slotIndex
+                    );
+
+                  if (existingStat) {
+                    existingStat.stat_value = value;
+                  }
+                });
+              }
+            });
+
+          coreStatsInline
+            .querySelectorAll('button[data-type="remove-core-stat"]')
+            .forEach((btn) => {
+              btn.addEventListener('click', () => {
+                const slotIndex = parseInt(btn.dataset.slotIndex, 10);
+                if (slotData.coreStats) {
+                  const statIndex = slotData.coreStats.findIndex(
+                    (cs) => cs.slot_index === slotIndex
+                  );
+                  if (statIndex !== -1) {
+                    slotData.coreStats.splice(statIndex, 1);
+                    this.renderExternalComponentsDisplay();
+                  }
+                }
+              });
+            });
         }
       }
 

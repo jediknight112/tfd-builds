@@ -178,7 +178,9 @@ export class BuildImporter {
       }));
 
       // Map core stats
-      const coreStats = (w.core || []).map((c) => ({
+      const coreStats = (w.core || []).map((c, idx) => ({
+        slot_index: idx,
+        core_type_id: null,
         option_id: c.core_slot_id,
         stat_id: c.core_option_name,
         stat_value: Number.parseFloat(c.core_option_value) || 0,
@@ -242,7 +244,9 @@ export class BuildImporter {
       // Convert localized equipment type to English key for internal storage
       const equipmentType = state.getEnglishEquipmentType(rawEquipmentType);
 
-      const coreStats = (ec.core || []).map((c) => ({
+      const coreStats = (ec.core || []).map((c, idx) => ({
+        slot_index: idx,
+        core_type_id: null,
         option_id: c.core_slot_id,
         stat_id: c.core_option_name,
         stat_value: Number.parseFloat(c.core_option_value) || 0,

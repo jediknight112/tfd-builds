@@ -71,10 +71,16 @@ export class BuildSerializer {
 
         weapon[3] = w.coreType?.core_type_id || null; // core_type_id
 
-        // Core stats: [[option_id, stat_id, stat_value]]
+        // Core stats: [[slot_index, core_type_id, option_id, stat_id, stat_value]]
         const coreStats = (w.coreStats || [])
           .filter((cs) => cs && cs.option_id)
-          .map((cs) => [cs.option_id, cs.stat_id, cs.stat_value]);
+          .map((cs) => [
+            cs.slot_index ?? null,
+            cs.core_type_id || null,
+            cs.option_id,
+            cs.stat_id,
+            cs.stat_value,
+          ]);
         weapon[4] = coreStats.length ? coreStats : null;
 
         return weapon;
@@ -106,10 +112,16 @@ export class BuildSerializer {
 
       const comp = [ec.component?.external_component_id || null];
 
-      // Core stats: [[option_id, stat_id, stat_value]]
+      // Core stats: [[slot_index, core_type_id, option_id, stat_id, stat_value]]
       const coreStats = (ec.coreStats || [])
         .filter((cs) => cs && cs.option_id)
-        .map((cs) => [cs.option_id, cs.stat_id, cs.stat_value]);
+        .map((cs) => [
+          cs.slot_index ?? null,
+          cs.core_type_id || null,
+          cs.option_id,
+          cs.stat_id,
+          cs.stat_value,
+        ]);
       comp[1] = coreStats.length ? coreStats : null;
 
       externalComps[equipmentType] = comp;
@@ -271,14 +283,36 @@ export class BuildSerializer {
         warnings.push(`Core type not found: ${w[3]}`);
       }
 
-      // Core stats from [[option_id, stat_id, stat_value]]
-      const coreStats = (w[4] || []).map(
-        ([option_id, stat_id, stat_value]) => ({
-          option_id,
-          stat_id,
-          stat_value,
-        })
-      );
+      // Core stats: [[slot_index, core_type_id, option_id, stat_id, stat_value]] or legacy formats
+      const coreStats = (w[4] || []).map((entry, idx) => {
+        if (entry.length === 5) {
+          return {
+            slot_index: entry[0],
+            core_type_id: entry[1],
+            option_id: entry[2],
+            stat_id: entry[3],
+            stat_value: entry[4],
+          };
+        }
+        if (entry.length === 4) {
+          // Legacy 4-element format (core_type_id, option_id, stat_id, stat_value)
+          return {
+            slot_index: idx,
+            core_type_id: entry[0],
+            option_id: entry[1],
+            stat_id: entry[2],
+            stat_value: entry[3],
+          };
+        }
+        // Legacy 3-element format
+        return {
+          slot_index: idx,
+          core_type_id: null,
+          option_id: entry[0],
+          stat_id: entry[1],
+          stat_value: entry[2],
+        };
+      });
 
       return {
         weapon,
@@ -322,14 +356,36 @@ export class BuildSerializer {
         warnings.push(`External component not found: ${ec[0]}`);
       }
 
-      // Core stats from [[option_id, stat_id, stat_value]]
-      const coreStats = (ec[1] || []).map(
-        ([option_id, stat_id, stat_value]) => ({
-          option_id,
-          stat_id,
-          stat_value,
-        })
-      );
+      // Core stats: [[slot_index, core_type_id, option_id, stat_id, stat_value]] or legacy formats
+      const coreStats = (ec[1] || []).map((entry, idx) => {
+        if (entry.length === 5) {
+          return {
+            slot_index: entry[0],
+            core_type_id: entry[1],
+            option_id: entry[2],
+            stat_id: entry[3],
+            stat_value: entry[4],
+          };
+        }
+        if (entry.length === 4) {
+          // Legacy 4-element format
+          return {
+            slot_index: idx,
+            core_type_id: entry[0],
+            option_id: entry[1],
+            stat_id: entry[2],
+            stat_value: entry[3],
+          };
+        }
+        // Legacy 3-element format
+        return {
+          slot_index: idx,
+          core_type_id: null,
+          option_id: entry[0],
+          stat_id: entry[1],
+          stat_value: entry[2],
+        };
+      });
 
       externalComponents[equipmentType] = {
         component,

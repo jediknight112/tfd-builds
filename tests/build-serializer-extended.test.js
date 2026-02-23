@@ -111,7 +111,14 @@ describe('BuildSerializer - Extended Coverage', () => {
           { stat_id: 'stat_def', stat_value: 80 },
         ],
         coreType: { core_type_id: 'ct1' },
-        coreStats: [{ option_id: 'opt1', stat_id: 'stat_hp', stat_value: 500 }],
+        coreStats: [
+          {
+            slot_index: 0,
+            option_id: 'opt1',
+            stat_id: 'stat_hp',
+            stat_value: 500,
+          },
+        ],
       };
 
       const data = serializer.serialize();
@@ -138,7 +145,7 @@ describe('BuildSerializer - Extended Coverage', () => {
         ['stat_def', 80],
       ]);
       expect(w[3]).toBe('ct1');
-      expect(w[4]).toEqual([['opt1', 'stat_hp', 500]]);
+      expect(w[4]).toEqual([[0, null, 'opt1', 'stat_hp', 500]]);
     });
 
     it('should serialize external components with core stats', () => {
@@ -146,7 +153,12 @@ describe('BuildSerializer - Extended Coverage', () => {
         Sensor: {
           component: { external_component_id: 'ec1' },
           coreStats: [
-            { option_id: 'opt_s1', stat_id: 'stat_s1', stat_value: 200 },
+            {
+              slot_index: 0,
+              option_id: 'opt_s1',
+              stat_id: 'stat_s1',
+              stat_value: 200,
+            },
           ],
         },
       };
@@ -156,7 +168,7 @@ describe('BuildSerializer - Extended Coverage', () => {
       expect(data.e).toBeDefined();
       expect(data.e.Sensor).toBeDefined();
       expect(data.e.Sensor[0]).toBe('ec1');
-      expect(data.e.Sensor[1]).toEqual([['opt_s1', 'stat_s1', 200]]);
+      expect(data.e.Sensor[1]).toEqual([[0, null, 'opt_s1', 'stat_s1', 200]]);
     });
 
     it('should serialize arche tuning with board and selected nodes (multi-board v3)', () => {
@@ -257,7 +269,13 @@ describe('BuildSerializer - Extended Coverage', () => {
       ]);
       expect(weapon.coreType.core_type_id).toBe('ct1');
       expect(weapon.coreStats).toEqual([
-        { option_id: 'opt1', stat_id: 'stat_hp', stat_value: 500 },
+        {
+          slot_index: 0,
+          core_type_id: null,
+          option_id: 'opt1',
+          stat_id: 'stat_hp',
+          stat_value: 500,
+        },
       ]);
     });
 
@@ -276,7 +294,13 @@ describe('BuildSerializer - Extended Coverage', () => {
       const sensor = result.build.externalComponents.Sensor;
       expect(sensor.component.external_component_id).toBe('ec1');
       expect(sensor.coreStats).toEqual([
-        { option_id: 'opt_s1', stat_id: 'stat_s1', stat_value: 200 },
+        {
+          slot_index: 0,
+          core_type_id: null,
+          option_id: 'opt_s1',
+          stat_id: 'stat_s1',
+          stat_value: 200,
+        },
       ]);
     });
 
@@ -413,7 +437,13 @@ describe('BuildSerializer - Extended Coverage', () => {
       ]);
       expect(weapon.coreType.core_type_id).toBe('ct1');
       expect(weapon.coreStats).toEqual([
-        { option_id: 'opt1', stat_id: 'stat_hp', stat_value: 500 },
+        {
+          slot_index: 0,
+          core_type_id: null,
+          option_id: 'opt1',
+          stat_id: 'stat_hp',
+          stat_value: 500,
+        },
       ]);
     });
 
@@ -437,7 +467,13 @@ describe('BuildSerializer - Extended Coverage', () => {
       const sensor = result.build.externalComponents.Sensor;
       expect(sensor.component.external_component_id).toBe('ec1');
       expect(sensor.coreStats).toEqual([
-        { option_id: 'opt_s1', stat_id: 'stat_s1', stat_value: 200 },
+        {
+          slot_index: 0,
+          core_type_id: null,
+          option_id: 'opt_s1',
+          stat_id: 'stat_s1',
+          stat_value: 200,
+        },
       ]);
     });
 

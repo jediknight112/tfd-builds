@@ -195,90 +195,16 @@ export class UIComponents {
       // Get available core options for this weapon
       const availableCoreOptions = this.getAvailableWeaponCoreOptions(weapon);
 
-      // Show one slot per core option (not per stat)
+      // Show one independent input per core option
       if (coreStatsInline && availableCoreOptions.length > 0) {
-        const localizedFreeAug =
-          state.getLocalizedCoreType('Free Augmentation');
+        for (let i = 0; i < availableCoreOptions.length; i++) {
+          const coreOption = availableCoreOptions[i];
+          // Find existing stat for this slot_index (unique per core slot position)
+          const existingCoreStat = state.currentBuild.weapons[
+            weaponIndex
+          ].coreStats.find((cs) => cs.slot_index === coreOption.slot_index);
 
-        // Separate Free Augmentation from specific augmentation types
-        const freeAugmentationOptions = availableCoreOptions.filter((opt) =>
-          opt.core_type_name.includes(localizedFreeAug)
-        );
-        const specificAugmentationOptions = availableCoreOptions.filter(
-          (opt) => !opt.core_type_name.includes(localizedFreeAug)
-        );
-
-        let currentIndex = 0;
-
-        // Handle Free Augmentation - show ONLY 1 input with ALL combined stats
-        if (freeAugmentationOptions.length > 0) {
-          // Combine all stats from all Free Augmentation options
-          const allFreeStats = [];
-          const seenStatIds = new Set();
-          freeAugmentationOptions.forEach((opt) => {
-            opt.available_stats.forEach((stat) => {
-              if (!seenStatIds.has(stat.stat_id)) {
-                seenStatIds.add(stat.stat_id);
-                allFreeStats.push(stat);
-              }
-            });
-          });
-
-          const existingCoreStat =
-            state.currentBuild.weapons[weaponIndex].coreStats[currentIndex];
-          const firstFreeOption = freeAugmentationOptions[0]; // Use first for option_id/core_type_id
-
-          const datalistId = `weapon-core-stats-${weaponIndex}-free`;
-          const datalist = document.createElement('datalist');
-          datalist.id = datalistId;
-          datalist.innerHTML = allFreeStats
-            .map(
-              (stat) =>
-                `<option value="${state.getStatName(stat.stat_id)}"></option>`
-            )
-            .join('');
-
-          const statDiv = document.createElement('div');
-          statDiv.className =
-            'flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2 mb-2 sm:mb-0';
-          statDiv.innerHTML = `
-            <input type="text" 
-              list="${datalistId}"
-              class="flex-1 px-2 py-1.5 sm:py-1 bg-void-deep/50 border border-tfd-primary/30 rounded-sm text-steel-light text-xs" 
-              value="${existingCoreStat ? state.getStatName(existingCoreStat.stat_id) : ''}"
-              placeholder="${localizedFreeAug} stat..."
-              data-weapon-index="${weaponIndex}"
-              data-core-stat-index="${currentIndex}"
-              data-option-id="${firstFreeOption.option_id}"
-              data-core-type-id="${firstFreeOption.core_type_id}">
-            <div class="flex items-center gap-2">
-              <input type="number" 
-                step="0.01"
-                class="flex-1 sm:w-24 px-2 py-1.5 sm:py-1 bg-void-deep/50 border border-tfd-primary/30 rounded-sm text-right text-xs" 
-                value="${existingCoreStat ? existingCoreStat.stat_value || 0 : ''}"
-                placeholder="Value"
-                data-weapon-index="${weaponIndex}"
-                data-core-stat-index="${currentIndex}"
-                data-type="core-value">
-              <button class="text-red-500 hover:text-red-400 w-8 h-8 flex items-center justify-center text-lg sm:text-base sm:w-6" 
-                data-weapon-index="${weaponIndex}" 
-                data-core-stat-index="${currentIndex}"
-                data-type="remove-core-stat">×</button>
-            </div>
-          `;
-
-          coreStatsInline.appendChild(datalist);
-          coreStatsInline.appendChild(statDiv);
-          currentIndex++;
-        }
-
-        // Handle specific augmentation types - show filtered inputs per core option
-        for (let i = 0; i < specificAugmentationOptions.length; i++) {
-          const coreOption = specificAugmentationOptions[i];
-          const existingCoreStat =
-            state.currentBuild.weapons[weaponIndex].coreStats[currentIndex];
-
-          const datalistId = `weapon-core-stats-${weaponIndex}-option-${currentIndex}`;
+          const datalistId = `weapon-core-stats-${weaponIndex}-option-${i}`;
           const datalist = document.createElement('datalist');
           datalist.id = datalistId;
           datalist.innerHTML = coreOption.available_stats
@@ -298,9 +224,7 @@ export class UIComponents {
               value="${existingCoreStat ? state.getStatName(existingCoreStat.stat_id) : ''}"
               placeholder="${coreOption.core_type_name} stat..."
               data-weapon-index="${weaponIndex}"
-              data-core-stat-index="${currentIndex}"
-              data-option-id="${coreOption.option_id}"
-              data-core-type-id="${coreOption.core_type_id}">
+              data-slot-index="${coreOption.slot_index}">
             <div class="flex items-center gap-2">
               <input type="number" 
                 step="0.01"
@@ -308,18 +232,17 @@ export class UIComponents {
                 value="${existingCoreStat ? existingCoreStat.stat_value || 0 : ''}"
                 placeholder="Value"
                 data-weapon-index="${weaponIndex}"
-                data-core-stat-index="${currentIndex}"
+                data-slot-index="${coreOption.slot_index}"
                 data-type="core-value">
               <button class="text-red-500 hover:text-red-400 w-8 h-8 flex items-center justify-center text-lg sm:text-base sm:w-6" 
                 data-weapon-index="${weaponIndex}" 
-                data-core-stat-index="${currentIndex}"
+                data-slot-index="${coreOption.slot_index}"
                 data-type="remove-core-stat">×</button>
             </div>
           `;
 
           coreStatsInline.appendChild(datalist);
           coreStatsInline.appendChild(statDiv);
-          currentIndex++;
         }
       }
 
@@ -432,50 +355,50 @@ export class UIComponents {
       // Add event listeners for inline core stats
       if (coreStatsInline && availableCoreOptions.length > 0) {
         coreStatsInline
-          .querySelectorAll('input[data-core-stat-index]')
+          .querySelectorAll('input[data-slot-index]')
           .forEach((input) => {
             if (input.type === 'text') {
               // Stat name input - autocomplete
               input.addEventListener('change', (e) => {
                 const statName = e.target.value.trim();
-                const coreStatIndex = parseInt(input.dataset.coreStatIndex);
-                const optionId = input.dataset.optionId;
-                const coreTypeId = input.dataset.coreTypeId;
+                const slotIndex = parseInt(input.dataset.slotIndex, 10);
 
                 if (statName) {
-                  // Find the matching stat from the specific core option
-                  const coreOption = availableCoreOptions[coreStatIndex];
-                  const matchingStat = coreOption.available_stats.find(
+                  // Find the core option entry by slot_index
+                  const coreOption = availableCoreOptions.find(
+                    (opt) => opt.slot_index === slotIndex
+                  );
+                  const matchingStat = coreOption?.available_stats.find(
                     (s) => state.getStatName(s.stat_id) === statName
                   );
 
                   if (matchingStat) {
-                    // Update or create core stat entry
-                    if (
-                      !state.currentBuild.weapons[weaponIndex].coreStats[
-                        coreStatIndex
-                      ]
-                    ) {
-                      state.currentBuild.weapons[weaponIndex].coreStats[
-                        coreStatIndex
-                      ] = {
-                        option_id: optionId,
+                    const coreStats =
+                      state.currentBuild.weapons[weaponIndex].coreStats;
+                    // Find existing stat for this slot_index
+                    const existingIdx = coreStats.findIndex(
+                      (cs) => cs.slot_index === slotIndex
+                    );
+
+                    if (existingIdx === -1) {
+                      coreStats.push({
+                        slot_index: slotIndex,
+                        core_type_id: coreOption.core_type_id,
+                        option_id: matchingStat.option_id,
                         stat_id: matchingStat.stat_id,
                         stat_value: 0,
-                      };
+                      });
                     } else {
-                      state.currentBuild.weapons[weaponIndex].coreStats[
-                        coreStatIndex
-                      ].option_id = optionId;
-                      state.currentBuild.weapons[weaponIndex].coreStats[
-                        coreStatIndex
-                      ].stat_id = matchingStat.stat_id;
+                      // Update option_id and stat_id (option_id may change
+                      // when switching between stats from different sub-options)
+                      coreStats[existingIdx].option_id = matchingStat.option_id;
+                      coreStats[existingIdx].stat_id = matchingStat.stat_id;
                     }
 
                     // Set core type if not already set
                     if (!state.currentBuild.weapons[weaponIndex].coreType) {
                       state.currentBuild.weapons[weaponIndex].coreType =
-                        coreTypeId;
+                        coreOption.core_type_id;
                     }
 
                     this.refreshWeaponsTab();
@@ -485,17 +408,15 @@ export class UIComponents {
             } else if (input.dataset.type === 'core-value') {
               // Core stat value input
               input.addEventListener('change', (e) => {
-                const coreStatIndex = parseInt(input.dataset.coreStatIndex);
+                const slotIndex = parseInt(input.dataset.slotIndex, 10);
                 const value = parseFloat(e.target.value) || 0;
 
-                if (
-                  state.currentBuild.weapons[weaponIndex].coreStats[
-                    coreStatIndex
-                  ]
-                ) {
-                  state.currentBuild.weapons[weaponIndex].coreStats[
-                    coreStatIndex
-                  ].stat_value = value;
+                const existingStat = state.currentBuild.weapons[
+                  weaponIndex
+                ].coreStats.find((cs) => cs.slot_index === slotIndex);
+
+                if (existingStat) {
+                  existingStat.stat_value = value;
                 }
               });
             }
@@ -503,17 +424,18 @@ export class UIComponents {
 
         // Remove core stat button handlers
         coreStatsInline
-          .querySelectorAll('button[data-type=\"remove-core-stat\"]')
+          .querySelectorAll('button[data-type="remove-core-stat"]')
           .forEach((btn) => {
             btn.addEventListener('click', () => {
-              const coreStatIndex = parseInt(btn.dataset.coreStatIndex);
-              if (
-                state.currentBuild.weapons[weaponIndex].coreStats[coreStatIndex]
-              ) {
-                state.currentBuild.weapons[weaponIndex].coreStats.splice(
-                  coreStatIndex,
-                  1
-                );
+              const slotIndex = parseInt(btn.dataset.slotIndex, 10);
+              const coreStats =
+                state.currentBuild.weapons[weaponIndex].coreStats;
+              const statIdx = coreStats.findIndex(
+                (cs) => cs.slot_index === slotIndex
+              );
+
+              if (statIdx !== -1) {
+                coreStats.splice(statIdx, 1);
                 this.refreshWeaponsTab();
               }
             });
@@ -850,34 +772,42 @@ export class UIComponents {
 
     const coreOptions = [];
 
-    coreSlot.available_core_type_id.forEach((coreTypeId) => {
+    coreSlot.available_core_type_id.forEach((coreTypeId, slotIndex) => {
       const coreType = state.getCoreType(coreTypeId);
       if (coreType && coreType.core_option) {
+        // Collect stats from all core_options for this core type.
+        // Core types with multiple core_options (e.g., Free Augmentation)
+        // are merged into a single UI row with all stats combined.
+        const mergedStats = [];
+        const optionIds = [];
+
         coreType.core_option.forEach((option) => {
-          const availableStats = [];
+          optionIds.push(option.core_option_id);
           option.detail?.forEach((detail) => {
             detail.available_item_option?.forEach((itemOption) => {
-              const existingStat = availableStats.find(
+              const existingStat = mergedStats.find(
                 (s) => s.stat_id === itemOption.option_effect.stat_id
               );
               if (!existingStat) {
-                availableStats.push({
+                mergedStats.push({
                   stat_id: itemOption.option_effect.stat_id,
                   stat_name: itemOption.item_option,
+                  option_id: option.core_option_id,
                 });
               }
             });
           });
-
-          if (availableStats.length > 0) {
-            coreOptions.push({
-              option_id: option.core_option_id,
-              core_type_id: coreTypeId,
-              core_type_name: coreType.core_type,
-              available_stats: availableStats,
-            });
-          }
         });
+
+        if (mergedStats.length > 0) {
+          coreOptions.push({
+            slot_index: slotIndex,
+            option_ids: optionIds,
+            core_type_id: coreTypeId,
+            core_type_name: coreType.core_type,
+            available_stats: mergedStats,
+          });
+        }
       }
     });
 
