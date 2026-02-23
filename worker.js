@@ -59,7 +59,16 @@ async function handleShortenRequest(request, env) {
     });
 
     const url = new URL(request.url);
-    const shortUrl = `${url.origin}/s/${shortId}`;
+    const hostHeader = request.headers.get('host') || '';
+    const isLocal =
+      url.hostname === 'localhost' ||
+      url.hostname === '127.0.0.1' ||
+      url.hostname === '[::1]' ||
+      (url.hostname === 'tfd-builds.jediknight112.com' &&
+        url.protocol === 'http:') ||
+      hostHeader.includes('localhost');
+    const origin = isLocal ? 'http://localhost:3000' : url.origin;
+    const shortUrl = `${origin}/s/${shortId}`;
 
     return new Response(JSON.stringify({ shortUrl }), {
       headers: { 'Content-Type': 'application/json' },
@@ -82,11 +91,32 @@ async function handleRedirectRequest(request, env, shortId) {
   if (!hash) {
     // If not found, redirect to home
     const url = new URL(request.url);
-    return Response.redirect(`${url.origin}/`, 302);
+    const hostHeader = request.headers.get('host') || '';
+    const isLocal =
+      url.hostname === 'localhost' ||
+      url.hostname === '127.0.0.1' ||
+      url.hostname === '[::1]' ||
+      (url.hostname === 'tfd-builds.jediknight112.com' &&
+        url.protocol === 'http:') ||
+      hostHeader.includes('localhost');
+    const origin = isLocal ? 'http://localhost:3000' : url.origin;
+    return Response.redirect(`${origin}/`, 302);
   }
 
   const url = new URL(request.url);
-  return Response.redirect(`${url.origin}/#${hash}`, 302);
+  const hostHeader = request.headers.get('host') || '';
+  const isLocal =
+    url.hostname === 'localhost' ||
+    url.hostname === '127.0.0.1' ||
+    url.hostname === '[::1]' ||
+    (url.hostname === 'tfd-builds.jediknight112.com' &&
+      url.protocol === 'http:') ||
+    hostHeader.includes('localhost');
+  const origin = isLocal ? 'http://localhost:3000' : url.origin;
+  console.log(
+    `Redirecting ${request.url} to ${origin}/#${hash.substring(0, 10)}...`
+  );
+  return Response.redirect(`${origin}/#${hash}`, 302);
 }
 
 /**
@@ -133,16 +163,28 @@ export default {
       }
 
       // Get the asset from KV storage
-      let response = await getAssetFromKV(
-        {
-          request,
-          waitUntil: ctx.waitUntil.bind(ctx),
-        },
-        {
-          ASSET_NAMESPACE: env.__STATIC_CONTENT,
-          ASSET_MANIFEST: assetManifest,
+      let response;
+      try {
+        response = await getAssetFromKV(
+          {
+            request,
+            waitUntil: ctx.waitUntil.bind(ctx),
+          },
+          {
+            ASSET_NAMESPACE: env.__STATIC_CONTENT,
+            ASSET_MANIFEST: assetManifest,
+          }
+        );
+      } catch (e) {
+        if (
+          e.message.includes('could not find') ||
+          e.name === 'NotFoundError' ||
+          e.status === 404
+        ) {
+          return new Response('Not Found', { status: 404 });
         }
-      );
+        throw e;
+      }
 
       // If it's the main HTML file, inject environment variables
       if (
