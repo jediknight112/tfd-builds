@@ -85,6 +85,7 @@ A modern, responsive web application for creating and viewing character builds f
    - ✅ Arche Tuning with board and node selection
    - ✅ Build serialization for save/load
    - ✅ URL sharing with LZ-string compression
+   - ✅ **URL Shortener** with Cloudflare KV backend
 
 ### UI/UX Features
 
@@ -288,6 +289,7 @@ tfd-builds/
 - **Styling**: Tailwind CSS 3.4+
 - **Build Tool**: Vite 6.0+
 - **Package Manager**: npm
+- **Backend**: Cloudflare Workers + KV (URL Shortener)
 - **Font**: Orbitron (Google Fonts)
 - **Icons**: Heroicons (inline SVG)
 

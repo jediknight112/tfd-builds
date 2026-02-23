@@ -18,7 +18,7 @@ A web application for creating, viewing, and sharing character builds for **The 
 - **External Components** - Manage 4 component types (Auxiliary Power, Sensor, Memory, Processor) with core stats
 - **Arche Tuning** - Configure up to 3 independent tuning boards per build with a hex-grid node selector
 - **Build Import** - Import your current in-game build by entering your Nexon username
-- **Build Sharing** - Share builds via compressed URL parameters
+- **Build Sharing** - Share builds via **short links** (e.g., `/s/AbCdEf`)
 - **Multi-language** - Supports 12 languages (EN, DE, ES, FR, IT, JA, KO, PL, PT, RU, ZH-CN, ZH-TW)
 - **Mobile Responsive** - Full-screen modals, bottom action bar, and touch-friendly controls on mobile
 

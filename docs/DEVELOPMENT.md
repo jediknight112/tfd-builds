@@ -6,11 +6,11 @@
 # Install dependencies
 npm install
 
-# Start development server
+# Start development environment (Frontend + Backend)
 npm run dev
 ```
 
-Visit `http://localhost:3000` to see the app.
+Visit `http://localhost:3000` to see the app. The backend worker runs concurrently on port 8787.
 
 ## Architecture Overview
 
@@ -24,6 +24,7 @@ The app uses a modular class-based architecture with separation of concerns:
 - **build-serializer.js** - Build save/load/share with LZ-string compression
 - **modules/** - Feature-specific modules for each section
 - **index.js** - Main application orchestration
+- **worker.js** - Cloudflare Worker (backend logic + URL shortener)
 
 ### State Management
 

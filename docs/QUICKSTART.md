@@ -43,14 +43,14 @@ npm run dev
    - **Arche Tuning**: Select board and configure nodes
 
 5. **Share Your Build**
-   - Click "Copy Build URL" to share via compressed URL
+   - Click "Copy Build URL" to generate a short link
    - URL is automatically saved to localStorage
    - Load builds by opening the URL
 
 ## 🔧 Common Commands
 
 ```bash
-# Start development server
+# Start development environment (Frontend + Backend)
 npm run dev
 
 # Build for production

@@ -35,10 +35,15 @@ I will act as a **senior full-stack JavaScript developer** with expertise in:
 - **API Client**: All backend communication is handled through `src/api-client.js`. This includes:
   - **Metadata endpoints**: Static game data (cached by tfd-cache)
   - **User data endpoints**: Player-specific data like `resolveUsername`, `fetchUserDescendant`, `fetchUserWeapon`, `fetchUserReactor`, `fetchUserExternalComponent`, `fetchUserArcheTuning` (proxied through tfd-cache)
+  - **URL Shortener**: `shortenUrl(hash)` calls the local worker endpoint `/api/shorten` to generate short links.
 - **Build Importer**: `src/modules/build-importer.js` handles importing builds from the Nexon API:
   - Resolves username → OUID
   - Uses a **two-pass module placement** strategy (named slots first, then numeric slots) to avoid ordering conflicts
   - Converts localized equipment types to English keys using `state.getEnglishEquipmentType()`
+- **URL Shortener**: Implemented in `worker.js` using Cloudflare KV (`URL_SHORTENER` namespace).
+  - **POST /api/shorten**: Accepts `{ hash }`, generates a 6-char ID, stores it in KV, and returns the short URL.
+  - **GET /s/:id**: Redirects to `/#<hash>`.
+  - **Local Development**: `npm run dev` runs both the frontend (Vite) and backend (Wrangler) concurrently. The worker detects local requests and redirects to `localhost:3000` instead of the production domain.
 - **Localization**:
   - The app supports 12 languages via the `language_code` query parameter in API calls.
   - Localized category names (Module Class, Socket Type, Equipment Type, etc.) are managed in `state.js` via the `LOCALIZED_STRINGS` object.
@@ -105,10 +110,15 @@ I will act as a **senior full-stack JavaScript developer** with expertise in:
 6.  **Localization handling**: External component equipment types from localized metadata are converted to English keys via `state.getEnglishEquipmentType()`.
 7.  Build data applied to state and all UI sections re-rendered.
 
-### Build Sharing (Serialization)
+### Build Sharing (Serialization & Shortening)
 
 - Builds are saved in the URL hash as `#<compressed_data>`.
 - The build data from the state object is serialized into a string and compressed using `lz-string`.
+- **URL Shortener**: When clicking "Share Build", the app:
+  1. Serializes and compresses the build.
+  2. Calls `/api/shorten` to generate a short link (e.g., `tfd-builds.jediknight112.com/s/AbCdEf`).
+  3. Copies the short link to the clipboard.
+  4. Falls back to the long URL if the shortener service is unavailable.
 - **Format v3** (current): Supports multi-board arche tuning serialized as `[[board_id, [[node_id, row, col]]], ...]`.
 - **Backward compatible**: v2 single-board and v1 legacy formats are auto-detected and upgraded on deserialization.
 - **Module slot positions are preserved** during serialization using `[slot_index, module_id]` pairs.
@@ -204,7 +214,7 @@ I will act as a **senior full-stack JavaScript developer** with expertise in:
 
 ### Core Commands
 
-- `npm run dev`: Start the local development server.
+- `npm run dev`: Start the full development environment (Vite frontend + Wrangler backend concurrently).
 - `npm test`: Run the unit tests with Vitest.
 - `npm run format`: Format all code with Prettier.
 - `npm run build`: Create a production build.

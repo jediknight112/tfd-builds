@@ -12,7 +12,7 @@ This document provides essential context for Claude to effectively assist with d
 - Configure reactors with additional stats
 - Add external components with core stats
 - Set up Arche Tuning boards and nodes (up to 3 boards per build)
-- Share builds via compressed URL parameters
+- Share builds via **short links** (e.g., `/s/AbCdEf`) backed by Cloudflare KV
 - **Import builds from the Nexon API** using an in-game username
 
 ### Companion Service
@@ -31,7 +31,7 @@ This project relies on **tfd-cache** (a separate repository in this workspace) w
 - **Vite**: Development server and build tool
 - **Tailwind CSS v4**: Utility-first styling with custom gaming theme
 - **Vitest**: Unit testing framework
-- **Cloudflare Workers**: Deployment platform (Pages)
+- **Cloudflare Workers & KV**: Deployment platform and **URL Shortener storage**
 - **LZ-String**: URL compression for build sharing
 
 ### Architecture Pattern
@@ -222,10 +222,14 @@ export function createMyComponent(data) {
 6. **Localized equipment type handling**: External component equipment types are converted from localized strings to English keys via `state.getEnglishEquipmentType()` for internal consistency
 7. Build data populated into state and UI re-rendered
 
-### Build Serialization
+### Build Serialization & Sharing
 
 - Builds are serialized to URL hash parameters
 - LZ-String compression keeps URLs manageable
+- **URL Shortener**:
+  - `apiClient.shortenUrl()` POSTs to `/api/shorten`
+  - Worker stores hash in KV and returns 6-char ID
+  - Frontend copies short URL to clipboard
 - **Format v3** (current): Supports multi-board arche tuning as `[[board_id, [[node_id, row, col]]], ...]`
 - **Backward compatible**: v2 single-board and v1 legacy formats are auto-detected and upgraded on deserialization
 - **Module slot positions are preserved** using `[slot_index, module_id]` pairs
@@ -366,7 +370,7 @@ The companion Cloudflare Workers service that provides:
 ### Commands
 
 ```bash
-npm run dev      # Start dev server
+npm run dev      # Start dev server (Vite + Wrangler backend)
 npm run build    # Build for production
 npm test         # Run tests
 npm run format   # Format code with Prettier
