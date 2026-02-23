@@ -32,16 +32,16 @@
     ]
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.18",
+    "@tailwindcss/postcss": "^4.2.1",
     "concurrently": "^9.2.1",
     "husky": "^9.1.7",
     "lint-staged": "^16.2.7",
     "postcss": "^8.4.49",
     "prettier": "^3.8.1",
-    "tailwindcss": "^4.1.18",
+    "tailwindcss": "^4.2.1",
     "vite": "^7.3.1",
     "vitest": "^4.0.18",
-    "wrangler": "^4.66.0"
+    "wrangler": "^4.67.0"
   },
   "dependencies": {
     "@cloudflare/kv-asset-handler": "^0.4.2",
