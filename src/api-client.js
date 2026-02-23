@@ -200,6 +200,29 @@ class TFDApiClient {
       descendant_group_id: descendantGroupId,
     });
   }
+
+  // URL Shortener
+  async shortenUrl(hash) {
+    try {
+      const response = await fetch('/api/shorten', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ hash }),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to shorten URL');
+      }
+
+      const data = await response.json();
+      return data.shortUrl;
+    } catch (error) {
+      console.error('Error shortening URL:', error);
+      throw error;
+    }
+  }
 }
 
 export const apiClient = new TFDApiClient();
