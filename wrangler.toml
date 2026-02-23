@@ -19,6 +19,12 @@ pattern = "tfd-builds.jediknight112.com"
 zone_name = "jediknight112.com"
 custom_domain = true
 
+# KV Namespace for URL Shortener
+[[kv_namespaces]]
+binding = "URL_SHORTENER"
+id = "08962119bd9e470ba307d0c9320701c0"
+preview_id = "7ef5c41331164b379f410ac7d81aa67b"
+
 # Observability configuration
 [observability]
 enabled = true

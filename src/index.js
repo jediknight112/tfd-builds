@@ -668,7 +668,7 @@ class Application {
   }
 
   // Build sharing methods
-  shareBuild() {
+  async shareBuild() {
     try {
       if (!state.currentDescendant) {
         UIComponents.showError(
@@ -677,27 +677,43 @@ class Application {
         return;
       }
 
-      const url = this.buildSerializer.generateUrl();
+      UIComponents.showToast('Generating short link...', 'info');
+
+      // Serialize build data
+      const buildData = this.buildSerializer.serialize();
+      const compressed = this.buildSerializer.compress(buildData);
+
+      let finalUrl;
+      try {
+        // Try to generate short URL
+        finalUrl = await apiClient.shortenUrl(compressed);
+      } catch (shortenError) {
+        console.warn(
+          'URL shortening failed, falling back to long URL:',
+          shortenError
+        );
+        // Fallback to long URL
+        const baseUrl = window.location.origin + window.location.pathname;
+        finalUrl = `${baseUrl}#${compressed}`;
+      }
 
       // Save to localStorage as backup
       this.buildSerializer.saveToLocalStorage();
 
       // Copy to clipboard
-      navigator.clipboard
-        .writeText(url)
-        .then(() => {
-          UIComponents.showSuccess('Build URL copied to clipboard!');
-        })
-        .catch(() => {
-          // Fallback: select text in a temporary input
-          const tempInput = document.createElement('input');
-          tempInput.value = url;
-          document.body.appendChild(tempInput);
-          tempInput.select();
-          document.execCommand('copy');
-          document.body.removeChild(tempInput);
-          UIComponents.showSuccess('Build URL copied to clipboard!');
-        });
+      try {
+        await navigator.clipboard.writeText(finalUrl);
+        UIComponents.showToast('Build URL copied to clipboard!', 'success');
+      } catch (clipboardError) {
+        // Fallback: select text in a temporary input
+        const tempInput = document.createElement('input');
+        tempInput.value = finalUrl;
+        document.body.appendChild(tempInput);
+        tempInput.select();
+        document.execCommand('copy');
+        document.body.removeChild(tempInput);
+        UIComponents.showToast('Build URL copied to clipboard!', 'success');
+      }
     } catch (error) {
       console.error('Failed to share build:', error);
       UIComponents.showError(

@@ -1,11 +1,123 @@
 /**
  * TFD Builds Cloudflare Worker
  * Serves the Vite-built static site with environment variable injection
+ * and handles URL shortening
  */
 
 import { getAssetFromKV } from '@cloudflare/kv-asset-handler';
 import manifestJSON from '__STATIC_CONTENT_MANIFEST';
 const assetManifest = JSON.parse(manifestJSON);
+
+/**
+ * Generate a random short ID
+ * @param {number} length
+ * @returns {string}
+ */
+function generateShortId(length = 6) {
+  const chars =
+    'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+  let result = '';
+  for (let i = 0; i < length; i++) {
+    result += chars.charAt(Math.floor(Math.random() * chars.length));
+  }
+  return result;
+}
+
+/**
+ * Handle URL shortening request
+ * @param {Request} request
+ * @param {Object} env
+ */
+async function handleShortenRequest(request, env) {
+  if (request.method !== 'POST') {
+    return new Response('Method Not Allowed', { status: 405 });
+  }
+
+  try {
+    const { hash } = await request.json();
+    if (!hash) {
+      return new Response('Missing hash', { status: 400 });
+    }
+
+    // Check if we already have this hash stored (optional optimization, skip for now to keep it simple)
+    // or just generate a new ID every time.
+
+    let shortId = generateShortId();
+    let retries = 0;
+    while ((await env.URL_SHORTENER.get(shortId)) !== null && retries < 5) {
+      shortId = generateShortId();
+      retries++;
+    }
+
+    if (retries >= 5) {
+      return new Response('Failed to generate short ID', { status: 500 });
+    }
+
+    // Store in KV (expire in 90 days?)
+    await env.URL_SHORTENER.put(shortId, hash, {
+      expirationTtl: 60 * 60 * 24 * 90, // 90 days
+    });
+
+    const url = new URL(request.url);
+    const hostHeader = request.headers.get('host') || '';
+    const isLocal =
+      url.hostname === 'localhost' ||
+      url.hostname === '127.0.0.1' ||
+      url.hostname === '[::1]' ||
+      (url.hostname === 'tfd-builds.jediknight112.com' &&
+        url.protocol === 'http:') ||
+      hostHeader.includes('localhost');
+    const origin = isLocal ? 'http://localhost:3000' : url.origin;
+    const shortUrl = `${origin}/s/${shortId}`;
+
+    return new Response(JSON.stringify({ shortUrl }), {
+      headers: { 'Content-Type': 'application/json' },
+    });
+  } catch (error) {
+    console.error('Shorten error:', error);
+    return new Response('Internal Server Error', { status: 500 });
+  }
+}
+
+/**
+ * Handle short URL redirect
+ * @param {Request} request
+ * @param {Object} env
+ * @param {string} shortId
+ */
+async function handleRedirectRequest(request, env, shortId) {
+  const hash = await env.URL_SHORTENER.get(shortId);
+
+  if (!hash) {
+    // If not found, redirect to home
+    const url = new URL(request.url);
+    const hostHeader = request.headers.get('host') || '';
+    const isLocal =
+      url.hostname === 'localhost' ||
+      url.hostname === '127.0.0.1' ||
+      url.hostname === '[::1]' ||
+      (url.hostname === 'tfd-builds.jediknight112.com' &&
+        url.protocol === 'http:') ||
+      hostHeader.includes('localhost');
+    const origin = isLocal ? 'http://localhost:3000' : url.origin;
+    return Response.redirect(`${origin}/`, 302);
+  }
+
+  const url = new URL(request.url);
+  const hostHeader = request.headers.get('host') || '';
+  const isLocal =
+    url.hostname === 'localhost' ||
+    url.hostname === '127.0.0.1' ||
+    url.hostname === '[::1]' ||
+    (url.hostname === 'tfd-builds.jediknight112.com' &&
+      url.protocol === 'http:') ||
+    hostHeader.includes('localhost');
+  const origin = isLocal ? 'http://localhost:3000' : url.origin;
+  console.log(
+    `Redirecting ${request.url} to ${origin}/#${hash.substring(0, 10)}...`
+  );
+  return Response.redirect(`${origin}/#${hash}`, 302);
+}
 
 /**
  * Inject environment variables into the HTML
@@ -39,17 +151,40 @@ export default {
     try {
       const url = new URL(request.url);
 
+      // API: Shorten URL
+      if (url.pathname === '/api/shorten') {
+        return handleShortenRequest(request, env);
+      }
+
+      // API: Redirect short URL
+      const match = url.pathname.match(/^\/s\/([a-zA-Z0-9]+)$/);
+      if (match) {
+        return handleRedirectRequest(request, env, match[1]);
+      }
+
       // Get the asset from KV storage
-      let response = await getAssetFromKV(
-        {
-          request,
-          waitUntil: ctx.waitUntil.bind(ctx),
-        },
-        {
-          ASSET_NAMESPACE: env.__STATIC_CONTENT,
-          ASSET_MANIFEST: assetManifest,
+      let response;
+      try {
+        response = await getAssetFromKV(
+          {
+            request,
+            waitUntil: ctx.waitUntil.bind(ctx),
+          },
+          {
+            ASSET_NAMESPACE: env.__STATIC_CONTENT,
+            ASSET_MANIFEST: assetManifest,
+          }
+        );
+      } catch (e) {
+        if (
+          e.message.includes('could not find') ||
+          e.name === 'NotFoundError' ||
+          e.status === 404
+        ) {
+          return new Response('Not Found', { status: 404 });
         }
-      );
+        throw e;
+      }
 
       // If it's the main HTML file, inject environment variables
       if (
