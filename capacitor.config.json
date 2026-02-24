@@ -1,0 +1,8 @@
+{
+  "appId": "com.tfdbuilds.app",
+  "appName": "TFD Builds",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}
