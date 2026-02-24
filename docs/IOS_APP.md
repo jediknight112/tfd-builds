@@ -5,7 +5,7 @@ TFD Builds can run as a native iPhone app using [Capacitor](https://capacitorjs.
 ## Prerequisites
 
 - **macOS** with [Xcode](https://developer.apple.com/xcode/) installed (15.0+)
-- **Node.js** 18+ and npm
+- **Node.js** 22+ and npm
 - An [Apple Developer account](https://developer.apple.com/) (free for device testing, paid for App Store distribution)
 
 ## Quick Start
