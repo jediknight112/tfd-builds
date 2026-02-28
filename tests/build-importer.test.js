@@ -22,6 +22,7 @@ vi.mock('../src/state.js', () => ({
     externalComponents: [],
     archeTuningBoards: [],
     archeTuningNodes: [],
+    archeTuningBoardGroups: [],
     language: 'en',
     // Reverse-lookup: localized equipment type → English key
     getEnglishEquipmentType(localizedType) {
@@ -596,7 +597,25 @@ describe('BuildImporter', () => {
       expect(result.build.archeTuning[2]).toBeNull();
     });
 
-    it('should handle multiple board slots', async () => {
+    it('should handle multiple boards within a slot (merge nodes by slot_id)', async () => {
+      // Add a board group so the importer can resolve the descendant-specific board
+      state.archeTuningBoardGroups = [
+        {
+          descendant_group_id: 'dg1',
+          arche_tuning_board_id: 'board_desc',
+        },
+      ];
+      state.archeTuningBoards.push({
+        arche_tuning_board_id: 'board_desc',
+        node: [],
+      });
+      // Add a third node for slot 1
+      state.archeTuningNodes.push({
+        node_id: 'anode_3',
+        node_name: 'Node Gamma',
+        required_tuning_point: 4,
+      });
+
       apiClient.fetchUserArcheTuning.mockResolvedValue({
         arche_tuning: [
           {
@@ -612,17 +631,27 @@ describe('BuildImporter', () => {
                   },
                 ],
               },
-            ],
-          },
-          {
-            slot_id: '2',
-            arche_tuning_board: [
               {
-                arche_tuning_board_id: 'board_001',
+                arche_tuning_board_id: 'board_desc',
                 node: [
                   {
                     node_id: 'anode_2',
                     position_row: '8',
+                    position_column: '10',
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            slot_id: '1',
+            arche_tuning_board: [
+              {
+                arche_tuning_board_id: 'board_desc',
+                node: [
+                  {
+                    node_id: 'anode_3',
+                    position_row: '7',
                     position_column: '10',
                   },
                 ],
@@ -634,12 +663,25 @@ describe('BuildImporter', () => {
 
       const result = await importer.importBuild('User#1234');
 
+      // Slot 0: both boards' nodes merged into boardSlot[0], using descendant-specific board
       expect(result.build.archeTuning[0]).not.toBeNull();
-      expect(result.build.archeTuning[1]).toBeNull();
-      expect(result.build.archeTuning[2]).not.toBeNull();
-      expect(result.build.archeTuning[2].selectedNodes[0].node_id).toBe(
-        'anode_2'
+      expect(result.build.archeTuning[0].board.arche_tuning_board_id).toBe(
+        'board_desc'
       );
+      expect(result.build.archeTuning[0].selectedNodes).toHaveLength(2);
+      expect(
+        result.build.archeTuning[0].selectedNodes.map((n) => n.node_id).sort()
+      ).toEqual(['anode_1', 'anode_2']);
+
+      // Slot 1: single board → boardSlot[1]
+      expect(result.build.archeTuning[1]).not.toBeNull();
+      expect(result.build.archeTuning[1].selectedNodes).toHaveLength(1);
+      expect(result.build.archeTuning[1].selectedNodes[0].node_id).toBe(
+        'anode_3'
+      );
+
+      // Slot 2: not used
+      expect(result.build.archeTuning[2]).toBeNull();
     });
 
     it('should handle no arche tuning data', async () => {

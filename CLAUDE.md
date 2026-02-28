@@ -220,7 +220,9 @@ export function createMyComponent(data) {
 4. Parallel fetches: weapons, reactor, external components, arche tuning (with `language_code` and `descendant_group_id` params)
 5. **Two-pass module placement**: Named slots (`Main 3`, `Skill 1`) placed first, then numeric-only slots (`"9"`) placed into remaining empties based on `available_module_slot_type`
 6. **Localized equipment type handling**: External component equipment types are converted from localized strings to English keys via `state.getEnglishEquipmentType()` for internal consistency
-7. Build data populated into state and UI re-rendered
+7. **Weapon rounds type resolution**: The Nexon API uses `weapon_rounds_type: "Enhanced Ammo"` for certain weapons, but the matching modules use `module_class: "Special Rounds"`. The `state.resolveModuleClassForRoundsType()` method handles this mismatch (including all 12 localized variants). Other rounds types (`General Rounds`, `Impact Rounds`, `High-Power Rounds`) match directly between weapons and modules.
+8. **Arche tuning slot-based mapping**: Each slot from the API maps by `slot_id` to a board slot (0-2). Nodes from ALL boards within a slot are merged. See the Arche Tuning System section below for details.
+9. Build data populated into state and UI re-rendered
 
 ### Build Serialization & Sharing
 
@@ -273,13 +275,105 @@ Keys can be configured via:
 
 ### Arche Tuning System
 
-- **Multi-board**: Each build supports 3 independent boards (Board 1, Board 2, Board 3)
-- **Board slot management**: `ArcheTuning` class tracks 3 `boardSlots`, each with its own `selectedNodes`, `nodePositionMap`, and `currentBoard`
-- **Default board loading**: When switching to an empty board slot, the descendant's default board is auto-loaded via `_loadDefaultBoard()` which syncs to the slot
-- **State sync pattern**: Active references (`this.selectedNodes`, `this.nodePositionMap`, `this.currentBoard`) must stay in sync with `boardSlots[currentSlotIndex]`. Key methods: `_saveCurrentSlot()`, `_loadSlot()`, `_loadDefaultBoard()`
-- **Reset behavior**: `initializeBuild()` calls `archeTuning.reset()` to clear all board slots when switching descendants or languages
-- **Grid**: 21x21 hex-style grid with anchor points, adjacency-based selection, and cost system (40 points max)
-- **Responsive**: Horizontal scroll on mobile with auto-centering, floating tooltips (hover on desktop, long-press on mobile)
+#### High-Level Overview
+
+Each build supports **3 independent arche tuning board slots** (Board 1, Board 2, Board 3). The `ArcheTuning` class manages these via a `boardSlots[3]` array, each containing `selectedNodes` (Set), `nodePositionMap` (object mapping `"row,col"` → `node_id`), and `currentBoard` (board metadata object).
+
+- **Grid**: 21×21 hex-style grid with anchor points, adjacency-based selection, and a 40-point cost limit.
+- **Responsive**: Horizontal scroll on mobile with auto-centering, floating tooltips (hover on desktop, long-press on mobile).
+
+#### Board Composition (CRITICAL to understand)
+
+The Nexon API and static metadata define boards at two levels:
+
+1. **Base board** (e.g., `101400001`): A shared board with ~167 grid positions that is common to all descendants. This defines the "inner" hex grid.
+2. **Descendant-specific board** (e.g., `101400601`, `101400901`): A **superset** board with ~211 positions (the base 167 + ~44 corner/edge positions unique to this descendant).
+
+The descendant-specific board is the **complete** board — it contains ALL positions, not just the extras. The base board is a subset of it.
+
+**Lookup chain**: `descendant.descendant_group_id` → `archeTuningBoardGroups[].descendant_group_id` → `arche_tuning_board_id` → the descendant-specific board in `archeTuningBoards[]`.
+
+#### Nexon API Arche Tuning Response Format
+
+When importing a build, the Nexon API returns arche tuning data grouped by **slot** and then by **source board**:
+
+```json
+{
+  "arche_tuning": [
+    {
+      "slot_id": "0",
+      "arche_tuning_board": [
+        {
+          "arche_tuning_board_id": "101400001",
+          "node": [ { "node_id": "...", "position_row": "9", "position_column": "10" }, ... ]
+        },
+        {
+          "arche_tuning_board_id": "101400601",
+          "node": [ { "node_id": "...", "position_row": "0", "position_column": "10" }, ... ]
+        }
+      ]
+    },
+    {
+      "slot_id": "1",
+      "arche_tuning_board": [
+        {
+          "arche_tuning_board_id": "101400601",
+          "node": [ ... ]
+        }
+      ]
+    }
+  ]
+}
+```
+
+**Key insight**: Within a single slot, the `arche_tuning_board` array can contain MULTIPLE boards. The selected nodes are distributed across boards based on which board "owns" each grid position. Nodes on inner positions come from the base board; nodes on corner/edge positions come from the descendant-specific board. **All of these nodes belong to the same visual grid in the same slot** — they must be merged.
+
+#### Build Importer Arche Tuning Logic (`build-importer.js`)
+
+1. **Resolve the descendant-specific board** via `state.archeTuningBoardGroups` using the descendant's `descendant_group_id`.
+2. **Map by `slot_id`** (not by iterating boards sequentially). `slot_id: "0"` → `archeTuning[0]`, `slot_id: "1"` → `archeTuning[1]`, etc.
+3. **Use the descendant-specific board as the stored board object** (it has all grid positions). Fall back to the first board in the slot if the descendant-specific board can't be resolved.
+4. **Merge selected nodes** from ALL boards within the slot using `flatMap` over the `arche_tuning_board[]` array.
+5. Store as `{ board: boardObj, selectedNodes: [...] }` in the `archeTuning[slotIdx]` array.
+
+#### `loadFromState()` Logic (`arche-tuning.js`)
+
+When loading a build from state (e.g., from a shared URL or after import):
+
+1. **Array format** (current v3): Iterates `archeTuning[0..2]`, populating each `boardSlot` with the stored board, building the `nodePositionMap`, and reconstructing the `selectedNodes` Set.
+2. **Legacy format**: Falls back to single-board format for backward compatibility.
+3. **`_buildNodePositionMap(board)`**: Builds the position map from the stored board. If the stored board is NOT the descendant-specific board (e.g., old URLs that stored base board `101400001`), it **also merges in** the descendant-specific board's positions. This ensures all grid positions are covered even for legacy serialized data.
+4. **`_getDescendantSpecificBoard()`**: Reusable helper that resolves the descendant-specific board from `state.archeTuningBoardGroups`.
+
+#### Grid Rendering & Invisible Spacers (`applyNodeClasses`)
+
+The 21×21 grid template includes ALL possible positions. Some positions exist in the grid but have no node on a particular board. These render as **invisible spacers** (CSS `invisible` class) so the hex grid layout remains correct without showing empty outlines:
+
+```javascript
+// In applyNodeClasses():
+if (!nodeInfo && !isAnchor) {
+  classes.push('invisible'); // empty grid position — hide but preserve layout
+}
+```
+
+This is important because the base board has ~167 positions while the descendant-specific board has ~211. Positions unique to the descendant-specific board would show as empty outlines on the base board without this logic.
+
+#### State Sync Pattern
+
+Active references (`this.selectedNodes`, `this.nodePositionMap`, `this.currentBoard`) must stay in sync with `boardSlots[currentSlotIndex]`. Key methods:
+
+- **`_saveCurrentSlot()`**: Writes active references back to `boardSlots[currentSlotIndex]`.
+- **`_loadSlot(index)`**: Reads from `boardSlots[index]` into active references.
+- **`_loadDefaultBoard()`**: Resolves and loads the descendant-specific board, syncs to slot.
+- **`reset()`**: Called by `initializeBuild()` when switching descendants or languages. Clears all 3 board slots.
+
+#### Common Arche Tuning Mistakes to Avoid
+
+- **DON'T map boards sequentially** across slots (e.g., iterating all boards with `boardSlotIdx++`). Each slot's boards are part of a SINGLE composite grid — they must be merged within the slot.
+- **DON'T assume one board per slot**. A slot typically has 2 boards (base + descendant-specific) when nodes span both.
+- **DON'T store the base board as the reference** if the descendant-specific board is available. The descendant-specific board is the superset with all positions.
+- **DON'T modify `_loadDefaultBoard()` or `loadFromState()` without ensuring active `this.*` references stay in sync** with `boardSlots[currentSlotIndex]`.
+- **DON'T remove the `invisible` class logic** from `applyNodeClasses` — it prevents empty position outlines on boards with fewer positions.
 
 ### Gaming Theme
 
@@ -305,6 +399,8 @@ Keys can be configured via:
 6. **Don't forget API keys**: The app won't work without proper authentication
 7. **Don't use English-only keys for localized data**: Use `state.getEnglishEquipmentType()` to normalize localized values back to English keys for internal storage
 8. **Don't forget to sync arche tuning board slots**: When modifying `_loadDefaultBoard()` or `loadFromState()`, ensure active `this.*` references stay in sync with `boardSlots[currentSlotIndex]`
+9. **Don't map arche tuning boards sequentially across slots**: A single slot can contain multiple boards — merge their nodes, don't split them into separate board slots. See the Arche Tuning System section for details.
+10. **Don't assume weapon `weapon_rounds_type` matches `module_class` directly**: "Enhanced Ammo" maps to "Special Rounds". Use `state.resolveModuleClassForRoundsType()`.
 
 ## Related Repositories
 

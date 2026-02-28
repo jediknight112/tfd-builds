@@ -330,11 +330,18 @@ export class WeaponSelector {
       return;
     }
 
+    // Resolve the weapon's rounds type to the matching module_class.
+    // The Nexon API uses "Enhanced Ammo" for some weapons, but the
+    // corresponding modules have module_class "Special Rounds".
+    const resolvedModuleClass = state.resolveModuleClassForRoundsType(
+      weapon.weapon_rounds_type
+    );
+
     // Filter modules for this weapon type
     let filteredModules = state.modules.filter((module) => {
       // Only show modules that match the weapon's specific rounds type
       // Don't show General Rounds modules for specialized weapons
-      if (module.module_class !== weapon.weapon_rounds_type) {
+      if (module.module_class !== resolvedModuleClass) {
         return false;
       }
 

@@ -259,8 +259,25 @@ export class BuildImporter {
     });
 
     // Step 9: Map arche tuning (multi-board)
+    // The Nexon API groups selected nodes by source board within each slot.
+    // A slot's complete grid is composed of positions from multiple boards
+    // (a shared base board and a descendant-specific board). We map each
+    // slot_id to a board slot, collect selected nodes from ALL boards in
+    // that slot, and store the descendant-specific board (which contains
+    // all grid positions) as the reference board.
     const archeTuning = [null, null, null];
     if (archeTuningData.arche_tuning) {
+      // Resolve the descendant-specific board (superset of all positions)
+      const boardGroup = (state.archeTuningBoardGroups || []).find(
+        (bg) => bg.descendant_group_id === descendantGroupId
+      );
+      const descendantBoardId = boardGroup?.arche_tuning_board_id;
+      const descendantBoard = descendantBoardId
+        ? state.archeTuningBoards.find(
+            (b) => b.arche_tuning_board_id === descendantBoardId
+          )
+        : null;
+
       archeTuningData.arche_tuning.forEach((slot) => {
         const slotIdx = Number.parseInt(String(slot.slot_id), 10);
         if (slotIdx < 0 || slotIdx >= 3) return;
@@ -268,19 +285,23 @@ export class BuildImporter {
         const boards = slot.arche_tuning_board || [];
         if (boards.length === 0) return;
 
-        // Each slot has one board configuration
-        const boardEntry = boards[0];
-        const boardObj = state.archeTuningBoards.find(
-          (b) => b.arche_tuning_board_id === boardEntry.arche_tuning_board_id
-        );
+        // Use the descendant-specific board as the reference (has all
+        // grid positions). Fall back to the first board in the slot.
+        const boardObj =
+          descendantBoard ||
+          state.archeTuningBoards.find(
+            (b) => b.arche_tuning_board_id === boards[0].arche_tuning_board_id
+          );
         if (!boardObj) {
           warnings.push(
-            `Arche tuning board not found: ${boardEntry.arche_tuning_board_id}`
+            `Arche tuning board not found: ${boards[0].arche_tuning_board_id}`
           );
           return;
         }
 
-        const selectedNodes = (boardEntry.node || [])
+        // Collect selected nodes from ALL boards in this slot
+        const selectedNodes = boards
+          .flatMap((boardEntry) => boardEntry.node || [])
           .map((n) => {
             const nodeObj = state.archeTuningNodes.find(
               (nd) => nd.node_id === n.node_id

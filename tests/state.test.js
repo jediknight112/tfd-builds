@@ -221,4 +221,44 @@ describe('AppState - Lookup Builders', () => {
       expect(state.getStatName('some_random_id')).toBe('some_random_id');
     });
   });
+
+  describe('resolveModuleClassForRoundsType', () => {
+    it('should map Enhanced Ammo to Special Rounds', () => {
+      expect(state.resolveModuleClassForRoundsType('Enhanced Ammo')).toBe(
+        'Special Rounds'
+      );
+    });
+
+    it('should pass through General Rounds unchanged', () => {
+      expect(state.resolveModuleClassForRoundsType('General Rounds')).toBe(
+        'General Rounds'
+      );
+    });
+
+    it('should pass through High-Power Rounds unchanged', () => {
+      expect(state.resolveModuleClassForRoundsType('High-Power Rounds')).toBe(
+        'High-Power Rounds'
+      );
+    });
+
+    it('should pass through Impact Rounds unchanged', () => {
+      expect(state.resolveModuleClassForRoundsType('Impact Rounds')).toBe(
+        'Impact Rounds'
+      );
+    });
+
+    it('should handle localized Enhanced Ammo (Japanese)', () => {
+      expect(state.resolveModuleClassForRoundsType('強化弾')).toBe('特殊弾');
+    });
+
+    it('should handle localized Enhanced Ammo (Korean)', () => {
+      expect(state.resolveModuleClassForRoundsType('강화탄')).toBe('특수탄');
+    });
+
+    it('should return unknown types unchanged', () => {
+      expect(state.resolveModuleClassForRoundsType('Unknown Type')).toBe(
+        'Unknown Type'
+      );
+    });
+  });
 });

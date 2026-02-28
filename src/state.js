@@ -459,6 +459,40 @@ class AppState {
   }
 
   // Build weapon type lookup map
+  /**
+   * Map weapon_rounds_type to the corresponding module_class.
+   * The Nexon API uses "Enhanced Ammo" for weapons, but the matching
+   * modules have module_class "Special Rounds". All other rounds types
+   * share the same name between weapons and modules.
+   */
+  resolveModuleClassForRoundsType(weaponRoundsType) {
+    if (weaponRoundsType === 'Enhanced Ammo') return 'Special Rounds';
+    // Check localized variants of "Enhanced Ammo"
+    const enhancedAmmoLocalizations = {
+      de: 'Verstärkte Munition',
+      es: 'Munición mejorada',
+      fr: 'Munitions améliorées',
+      it: 'Munizioni potenziate',
+      ja: '強化弾',
+      ko: '강화탄',
+      pl: 'Wzmocniona amunicja',
+      pt: 'Munição Aprimorada',
+      ru: 'Усиленные патроны',
+      'zh-CN': '强化弹',
+      'zh-TW': '強化彈',
+    };
+    const localizedSpecialRounds =
+      LOCALIZED_STRINGS.moduleClass['Special Rounds'];
+    for (const [lang, localizedEnhancedAmmo] of Object.entries(
+      enhancedAmmoLocalizations
+    )) {
+      if (weaponRoundsType === localizedEnhancedAmmo) {
+        return localizedSpecialRounds?.[lang] || 'Special Rounds';
+      }
+    }
+    return weaponRoundsType;
+  }
+
   buildWeaponTypeLookup() {
     this.weaponTypeNameLookup = {};
     if (this.weaponTypes && Array.isArray(this.weaponTypes)) {

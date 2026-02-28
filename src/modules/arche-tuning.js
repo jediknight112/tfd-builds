@@ -487,6 +487,10 @@ export class ArcheTuning {
       else if (nodeInfo.tier_id === 'Tier3') classes.push('tier-ultimate');
 
       if (nodeInfo.node_type === 'Hole') classes.push('tier-ultimate');
+    } else if (!isAnchor) {
+      // Grid position exists in the template but this board has no node
+      // here — render as an invisible spacer so the layout stays correct.
+      classes.push('invisible');
     }
 
     nodeDiv.className = classes.join(' ');
@@ -842,6 +846,63 @@ export class ArcheTuning {
     state.currentBuild.archeTuning = archeTuning;
   }
 
+  /**
+   * Look up the descendant-specific board from the board-group mapping.
+   * This board is a superset that contains ALL grid positions (base +
+   * descendant-specific), so it can fill in positions the base board lacks.
+   */
+  _getDescendantSpecificBoard() {
+    if (
+      !state.currentDescendant ||
+      !this.archeBoardData ||
+      !state.archeTuningBoardGroups
+    ) {
+      return null;
+    }
+
+    const descendantGroupId = state.currentDescendant.descendant_group_id;
+    if (!descendantGroupId) return null;
+
+    const boardGroup = state.archeTuningBoardGroups.find(
+      (bg) => bg.descendant_group_id === descendantGroupId
+    );
+    if (!boardGroup) return null;
+
+    return (
+      this.archeBoardData.find(
+        (b) => b.arche_tuning_board_id === boardGroup.arche_tuning_board_id
+      ) || null
+    );
+  }
+
+  /**
+   * Build a nodePositionMap from a board. If the board is not the
+   * descendant-specific board, also merge in the descendant-specific
+   * board's positions so the full grid is covered (handles old URLs
+   * that stored the base board ID).
+   */
+  _buildNodePositionMap(board) {
+    const map = {};
+    if (board?.node && Array.isArray(board.node)) {
+      board.node.forEach((node) => {
+        const key = `${node.position_row},${node.position_column}`;
+        map[key] = node.node_id;
+      });
+    }
+
+    const descBoard = this._getDescendantSpecificBoard();
+    if (descBoard && descBoard !== board && descBoard.node) {
+      descBoard.node.forEach((node) => {
+        const key = `${node.position_row},${node.position_column}`;
+        if (!map[key]) {
+          map[key] = node.node_id;
+        }
+      });
+    }
+
+    return map;
+  }
+
   // Load selection from state (multi-board aware)
   loadFromState() {
     const archeTuning = state.currentBuild.archeTuning;
@@ -856,13 +917,7 @@ export class ArcheTuning {
 
         if (slot.board) {
           boardSlot.currentBoard = slot.board;
-          boardSlot.nodePositionMap = {};
-          if (slot.board.node && Array.isArray(slot.board.node)) {
-            slot.board.node.forEach((node) => {
-              const key = `${node.position_row},${node.position_column}`;
-              boardSlot.nodePositionMap[key] = node.node_id;
-            });
-          }
+          boardSlot.nodePositionMap = this._buildNodePositionMap(slot.board);
         }
 
         if (slot.selectedNodes && Array.isArray(slot.selectedNodes)) {
@@ -882,13 +937,7 @@ export class ArcheTuning {
       // Legacy single-board format
       const boardSlot = this.boardSlots[0];
       boardSlot.currentBoard = archeTuning.board;
-      boardSlot.nodePositionMap = {};
-      if (archeTuning.board.node && Array.isArray(archeTuning.board.node)) {
-        archeTuning.board.node.forEach((node) => {
-          const key = `${node.position_row},${node.position_column}`;
-          boardSlot.nodePositionMap[key] = node.node_id;
-        });
-      }
+      boardSlot.nodePositionMap = this._buildNodePositionMap(archeTuning.board);
       boardSlot.selectedNodes = new Set();
       if (
         archeTuning.selectedNodes &&
