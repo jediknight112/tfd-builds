@@ -83,16 +83,20 @@ export default {
           'Content-Security-Policy',
           [
             "default-src 'self'",
-            // 'strict-dynamic' lets nonced scripts load further scripts (GTM does this)
-            // without needing every Google host listed.
-            `script-src 'self' 'nonce-${nonce}' 'strict-dynamic' https://www.googletagmanager.com https://openapi.nexon.com https://www.google-analytics.com`,
+            // Nonces unlock the two inline <script> blocks (theme bootstrap +
+            // GTM init); the host allowlist covers external scripts. Note we
+            // do NOT use 'strict-dynamic' — that would *replace* the host
+            // allowlist with nonce-only enforcement, blocking GTM/Nexon
+            // analytics tags (which Vite emits without nonces) and the
+            // Vite-built /assets/index-*.js entry chunk.
+            `script-src 'self' 'nonce-${nonce}' https://www.googletagmanager.com https://openapi.nexon.com https://www.google-analytics.com https://static.cloudflareinsights.com`,
             // Inline style attributes are emitted via innerHTML in several modules,
             // so we need 'unsafe-inline' here. Tightening this would require a
             // larger refactor of ui-components.js.
             "style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com",
             "font-src 'self' data: https://cdn.jsdelivr.net https://fonts.gstatic.com",
             "img-src 'self' data: https:",
-            "connect-src 'self' https://www.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com",
+            "connect-src 'self' https://www.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://cloudflareinsights.com https://static.cloudflareinsights.com",
             "frame-ancestors 'none'",
             "base-uri 'self'",
             "form-action 'self'",
