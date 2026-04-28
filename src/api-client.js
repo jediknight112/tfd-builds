@@ -1,57 +1,50 @@
 import { API_BASE_URL } from './config.js';
 import { state } from './state.js';
 
-// API Client for TFD Cache
+// API Client for TFD Cache.
+// All upstream auth (worker API key + Nexon API key) is added by the
+// tfd-builds Worker's /api/tfd/* proxy. The browser never sees the keys.
 class TFDApiClient {
   constructor() {
     this.baseUrl = API_BASE_URL;
   }
 
-  async fetchMetadata(type) {
+  async _fetchJson(url, errorContext) {
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 30000);
+
+    let response;
     try {
-      const url = `${this.baseUrl}/tfd/metadata/${type}?language_code=${state.language}`;
-      const { workerApiKey, nexonApiKey } = state.apiKeys;
-
-      if (!workerApiKey || !nexonApiKey) {
-        throw new Error(
-          'API keys are not configured. Please contact the administrator.'
-        );
-      }
-
-      const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 30000);
-
-      const response = await fetch(url, {
-        headers: {
-          'x-worker-api-key': workerApiKey,
-          'x-nxopen-api-key': nexonApiKey,
-        },
-        signal: controller.signal,
-      });
-
-      clearTimeout(timeoutId);
-
-      if (!response.ok) {
-        console.error(
-          `Failed to fetch ${type}:`,
-          response.status,
-          response.statusText
-        );
-        if (response.status === 401) {
-          throw new Error(
-            'Authentication failed. Please configure your API keys.'
-          );
-        }
-        throw new Error(
-          `Failed to fetch ${type}: ${response.status} ${response.statusText}`
-        );
-      }
-
-      return response.json();
+      response = await fetch(url, { signal: controller.signal });
     } catch (error) {
-      console.error(`Error in fetchMetadata(${type}):`, error);
+      clearTimeout(timeoutId);
+      if (error.name === 'AbortError') {
+        throw new Error(`Request timed out for ${errorContext}`);
+      }
       throw error;
     }
+    clearTimeout(timeoutId);
+
+    if (!response.ok) {
+      if (response.status === 400) {
+        throw new Error('User not found. Please check the username.');
+      }
+      if (response.status === 401 || response.status === 500) {
+        throw new Error(
+          'TFD backend is misconfigured. Please contact the administrator.'
+        );
+      }
+      throw new Error(
+        `Failed to fetch ${errorContext}: ${response.status} ${response.statusText}`
+      );
+    }
+
+    return response.json();
+  }
+
+  async fetchMetadata(type) {
+    const url = `${this.baseUrl}/tfd/metadata/${type}?language_code=${state.language}`;
+    return this._fetchJson(url, type);
   }
 
   async fetchDescendants() {
@@ -110,59 +103,17 @@ class TFDApiClient {
     return this.fetchMetadata('core-type');
   }
 
-  // --- User API methods (proxied through tfd-cache, not cached) ---
+  // --- User API methods (proxied through tfd-cache, not cached long-term) ---
 
   async fetchUserData(endpoint, params = {}) {
-    try {
-      const queryString = Object.entries(params)
-        .map(
-          ([key, value]) =>
-            `${encodeURIComponent(key)}=${encodeURIComponent(value)}`
-        )
-        .join('&');
-      const url = `${this.baseUrl}/tfd/v1/${endpoint}${queryString ? `?${queryString}` : ''}`;
-      const { workerApiKey, nexonApiKey } = state.apiKeys;
-
-      if (!workerApiKey || !nexonApiKey) {
-        throw new Error(
-          'API keys are not configured. Please contact the administrator.'
-        );
-      }
-
-      const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 30000);
-
-      const response = await fetch(url, {
-        headers: {
-          'x-worker-api-key': workerApiKey,
-          'x-nxopen-api-key': nexonApiKey,
-        },
-        signal: controller.signal,
-      });
-
-      clearTimeout(timeoutId);
-
-      if (!response.ok) {
-        if (response.status === 400) {
-          throw new Error('User not found. Please check the username.');
-        }
-        if (response.status === 401) {
-          throw new Error(
-            'Authentication failed. Please configure your API keys.'
-          );
-        }
-        throw new Error(
-          `Failed to fetch ${endpoint}: ${response.status} ${response.statusText}`
-        );
-      }
-
-      return response.json();
-    } catch (error) {
-      if (error.name === 'AbortError') {
-        throw new Error(`Request timed out for ${endpoint}`);
-      }
-      throw error;
-    }
+    const queryString = Object.entries(params)
+      .map(
+        ([key, value]) =>
+          `${encodeURIComponent(key)}=${encodeURIComponent(value)}`
+      )
+      .join('&');
+    const url = `${this.baseUrl}/tfd/v1/${endpoint}${queryString ? `?${queryString}` : ''}`;
+    return this._fetchJson(url, endpoint);
   }
 
   async resolveUsername(username) {
@@ -201,7 +152,6 @@ class TFDApiClient {
     });
   }
 
-  // URL Shortener
   async shortenUrl(hash) {
     try {
       const response = await fetch('/api/shorten', {

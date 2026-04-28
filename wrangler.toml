@@ -1,6 +1,6 @@
 name = "tfd-builds"
 main = "worker.js"
-compatibility_date = "2024-10-01"
+compatibility_date = "2026-04-01"
 
 # Static assets configuration
 [site]
@@ -8,10 +8,12 @@ bucket = "./dist"
 
 # Environment variables (non-sensitive)
 [vars]
-API_BASE_URL = "https://tfd-cache.jediknight112.com"
-LANGUAGE_CODE = "en"
-# The secrets TFD_API_KEY and WORKER_API_KEY will be set via GitHub Actions
-# or wrangler secret put command
+# Upstream tfd-cache URL. The Worker proxies /api/tfd/* requests here,
+# adding API keys server-side. Override only if pointing at a different cache.
+TFD_CACHE_URL = "https://tfd-cache.jediknight112.com"
+# Required secrets (set via `wrangler secret put` or GitHub Actions):
+#   TFD_API_KEY      - Nexon TFD API key
+#   WORKER_API_KEY   - tfd-cache worker authentication key
 
 # Custom domain routes
 [[routes]]

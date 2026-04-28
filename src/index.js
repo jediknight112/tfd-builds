@@ -47,63 +47,68 @@ class Application {
       // Populate language selector
       this.populateLanguageSelector();
 
-      // Check if API keys are configured
-      if (!state.apiKeys.workerApiKey || !state.apiKeys.nexonApiKey) {
+      // Load all metadata in parallel. Use allSettled so a single slow or
+      // failing endpoint degrades gracefully instead of stalling the whole
+      // app for 30 s — the user still gets a usable UI for the data that
+      // did arrive, with a warning naming what's missing.
+      const fetches = [
+        ['descendants', apiClient.fetchDescendants()],
+        ['modules', apiClient.fetchModules()],
+        ['weapons', apiClient.fetchWeapons()],
+        ['reactors', apiClient.fetchReactors()],
+        ['externalComponents', apiClient.fetchExternalComponents()],
+        ['archeTuningNodes', apiClient.fetchArcheTuningNodes()],
+        ['archeTuningBoards', apiClient.fetchArcheTuningBoards()],
+        ['archeTuningBoardGroups', apiClient.fetchArcheTuningBoardGroups()],
+        ['descendantGroups', apiClient.fetchDescendantGroups()],
+        ['weaponTypes', apiClient.fetchWeaponTypes()],
+        ['tiers', apiClient.fetchTiers()],
+        ['stats', apiClient.fetchStats()],
+        ['coreSlots', apiClient.fetchCoreSlots()],
+        ['coreTypes', apiClient.fetchCoreTypes()],
+      ];
+      const settled = await Promise.allSettled(fetches.map(([, p]) => p));
+      const data = {};
+      const failed = [];
+      settled.forEach((result, i) => {
+        const [key] = fetches[i];
+        if (result.status === 'fulfilled') {
+          data[key] = result.value || [];
+        } else {
+          console.warn(`Failed to fetch ${key}:`, result.reason);
+          failed.push(key);
+          data[key] = [];
+        }
+      });
+
+      // Store all data in state
+      state.descendants = data.descendants;
+      state.modules = data.modules;
+      state.weapons = data.weapons;
+      state.reactors = data.reactors;
+      state.externalComponents = data.externalComponents;
+      state.archeTuningNodes = data.archeTuningNodes;
+      state.archeTuningBoards = data.archeTuningBoards;
+      state.archeTuningBoardGroups = data.archeTuningBoardGroups;
+      state.descendantGroups = data.descendantGroups;
+      state.weaponTypes = data.weaponTypes;
+      state.tiers = data.tiers;
+      state.stats = data.stats;
+      state.coreSlots = data.coreSlots;
+      state.coreTypes = data.coreTypes;
+
+      if (failed.length === fetches.length) {
         UIComponents.hideLoading();
         UIComponents.showError(
-          'API keys are not configured. Please contact the administrator.'
+          'Could not load any game data. Please try again later.'
         );
         return;
       }
-
-      // Load all metadata in parallel for better performance
-      const [
-        descendants,
-        modules,
-        weapons,
-        reactors,
-        externalComponents,
-        archeTuningNodes,
-        archeTuningBoards,
-        archeTuningBoardGroups,
-        descendantGroups,
-        weaponTypes,
-        tiers,
-        stats,
-        coreSlots,
-        coreTypes,
-      ] = await Promise.all([
-        apiClient.fetchDescendants(),
-        apiClient.fetchModules(),
-        apiClient.fetchWeapons(),
-        apiClient.fetchReactors(),
-        apiClient.fetchExternalComponents(),
-        apiClient.fetchArcheTuningNodes(),
-        apiClient.fetchArcheTuningBoards(),
-        apiClient.fetchArcheTuningBoardGroups(),
-        apiClient.fetchDescendantGroups(),
-        apiClient.fetchWeaponTypes(),
-        apiClient.fetchTiers(),
-        apiClient.fetchStats(),
-        apiClient.fetchCoreSlots(),
-        apiClient.fetchCoreTypes(),
-      ]);
-
-      // Store all data in state
-      state.descendants = descendants || [];
-      state.modules = modules || [];
-      state.weapons = weapons || [];
-      state.reactors = reactors || [];
-      state.externalComponents = externalComponents || [];
-      state.archeTuningNodes = archeTuningNodes || [];
-      state.archeTuningBoards = archeTuningBoards || [];
-      state.archeTuningBoardGroups = archeTuningBoardGroups || [];
-      state.descendantGroups = descendantGroups || [];
-      state.weaponTypes = weaponTypes || [];
-      state.tiers = tiers || [];
-      state.stats = stats || [];
-      state.coreSlots = coreSlots || [];
-      state.coreTypes = coreTypes || [];
+      if (failed.length > 0) {
+        UIComponents.showWarning(
+          `Some data failed to load (${failed.join(', ')}). Some features may not work.`
+        );
+      }
       state.buildStatLookup();
       state.buildWeaponTypeLookup();
       state.buildCoreSlotLookup();
@@ -729,8 +734,38 @@ const app = new Application();
 // Apply saved theme immediately
 app.applyTheme();
 
-// Make app globally available for HTML onclick handlers
+// Make app globally available for any debug/console use.
 window.app = app;
+
+// Event delegation: HTML uses data-action / data-input-action / data-change-action
+// instead of inline onclick=, so we can ship a strict CSP without 'unsafe-inline'.
+// Format: data-action="methodName" or data-action="methodName:arg" (single string arg).
+document.addEventListener('click', (e) => {
+  const target = e.target.closest('[data-action]');
+  if (!target) return;
+  const spec = target.getAttribute('data-action');
+  const colonIdx = spec.indexOf(':');
+  const name = colonIdx === -1 ? spec : spec.slice(0, colonIdx);
+  const arg = colonIdx === -1 ? undefined : spec.slice(colonIdx + 1);
+  const fn = app?.[name];
+  if (typeof fn !== 'function') return;
+  if (arg === undefined) fn.call(app);
+  else fn.call(app, arg);
+});
+
+document.addEventListener('input', (e) => {
+  const action = e.target?.getAttribute?.('data-input-action');
+  if (!action) return;
+  const fn = app?.[action];
+  if (typeof fn === 'function') fn.call(app);
+});
+
+document.addEventListener('change', (e) => {
+  const action = e.target?.getAttribute?.('data-change-action');
+  if (!action) return;
+  const fn = app?.[action];
+  if (typeof fn === 'function') fn.call(app, e.target.value);
+});
 
 // Native <dialog> elements handle Escape key automatically (fires "cancel" event
 // then closes). We listen for "cancel" to run any cleanup logic (state resets, etc.).

@@ -24,8 +24,7 @@ describe('config.js', () => {
     localStorageMock.clear();
     // Clear Vite env vars that take priority over localStorage in the fallback chain
     vi.stubEnv('VITE_LANGUAGE_CODE', '');
-    vi.stubEnv('VITE_WORKER_API_KEY', '');
-    vi.stubEnv('VITE_NEXON_API_KEY', '');
+    vi.stubEnv('VITE_API_BASE_URL', '');
     vi.resetModules();
   });
 
@@ -118,24 +117,10 @@ describe('config.js', () => {
     });
   });
 
-  describe('getApiKeys', () => {
-    it('should return keys from localStorage', async () => {
-      localStorageMock.setItem('workerApiKey', 'test-worker-key');
-      localStorageMock.setItem('nexonApiKey', 'test-nexon-key');
-
-      const { getApiKeys } = await import('../src/config.js');
-      const keys = getApiKeys();
-
-      expect(keys.workerApiKey).toBe('test-worker-key');
-      expect(keys.nexonApiKey).toBe('test-nexon-key');
-    });
-
-    it('should return null values when no keys are configured', async () => {
-      const { getApiKeys } = await import('../src/config.js');
-      const keys = getApiKeys();
-
-      expect(keys.workerApiKey).toBeNull();
-      expect(keys.nexonApiKey).toBeNull();
+  describe('API_BASE_URL', () => {
+    it('should default to /api (Worker proxy) when no env override is set', async () => {
+      const { API_BASE_URL } = await import('../src/config.js');
+      expect(API_BASE_URL).toBe('/api');
     });
   });
 });

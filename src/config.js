@@ -1,12 +1,15 @@
-// Helper to get environment variables safely
-const getEnv = () =>
-  typeof window !== 'undefined' && window.__ENV__ ? window.__ENV__ : {};
-
 // API Configuration
-export const API_BASE_URL =
-  getEnv().API_BASE_URL ||
-  import.meta.env.VITE_API_BASE_URL ||
-  'https://tfd-cache.jediknight112.com';
+// All TFD API calls go through the tfd-builds Worker's /api/tfd/* proxy.
+// The proxy adds the worker + Nexon API keys server-side, so the browser
+// never sees them.
+//
+// Base URL is "/api" so the api-client can keep the cache's native
+// "/tfd/..." path prefix unchanged (api-client builds e.g.
+// `${baseUrl}/tfd/metadata/descendant`). The Worker rewrites
+// /api/tfd → /tfd before forwarding upstream. Override VITE_API_BASE_URL
+// only when intentionally bypassing the proxy for direct-to-cache testing
+// (e.g. VITE_API_BASE_URL=https://tfd-cache.jediknight112.com).
+export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '/api';
 
 // Supported Languages
 export const SUPPORTED_LANGUAGES = [
@@ -24,25 +27,33 @@ export const SUPPORTED_LANGUAGES = [
   { code: 'es', name: 'Español' },
 ];
 
+// Safe localStorage read — Node 22 ships a partial localStorage stub without
+// getItem unless --localstorage-file is set, so always guard.
+const safeLocalStorageGet = (key) => {
+  try {
+    if (
+      typeof localStorage !== 'undefined' &&
+      typeof localStorage.getItem === 'function'
+    ) {
+      return localStorage.getItem(key);
+    }
+  } catch {
+    // localStorage may be unavailable or sandboxed
+  }
+  return null;
+};
+
 export const getLanguage = () => {
   return (
-    getEnv().LANGUAGE_CODE ||
     import.meta.env.VITE_LANGUAGE_CODE ||
-    (typeof localStorage !== 'undefined'
-      ? localStorage.getItem('languageCode')
-      : null) ||
+    safeLocalStorageGet('languageCode') ||
     'en'
   );
 };
+
 export const getTheme = () => {
-  try {
-    if (typeof localStorage !== 'undefined' && localStorage?.getItem) {
-      const stored = localStorage.getItem('theme');
-      if (stored === 'light' || stored === 'dark') return stored;
-    }
-  } catch {
-    // localStorage may be unavailable
-  }
+  const stored = safeLocalStorageGet('theme');
+  if (stored === 'light' || stored === 'dark') return stored;
   try {
     if (
       typeof globalThis !== 'undefined' &&
@@ -54,25 +65,4 @@ export const getTheme = () => {
     // matchMedia may be unavailable
   }
   return 'dark';
-};
-
-// Helper to get API keys from environment or localStorage
-export const getApiKeys = () => {
-  const serverEnv = getEnv();
-
-  const workerApiKey =
-    serverEnv.WORKER_API_KEY ||
-    import.meta.env.VITE_WORKER_API_KEY ||
-    (typeof localStorage !== 'undefined'
-      ? localStorage.getItem('workerApiKey')
-      : null);
-
-  const nexonApiKey =
-    serverEnv.TFD_API_KEY ||
-    import.meta.env.VITE_NEXON_API_KEY ||
-    (typeof localStorage !== 'undefined'
-      ? localStorage.getItem('nexonApiKey')
-      : null);
-
-  return { workerApiKey, nexonApiKey };
 };

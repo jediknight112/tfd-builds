@@ -1,9 +1,21 @@
 # Local Development Environment Variables
-# Copy this file to .dev.vars and fill in your actual values
-# .dev.vars is gitignored and used by `wrangler dev` for local testing
+# Copy this file to .dev.vars and fill in your actual values.
+# .dev.vars is gitignored and used by `wrangler dev` for local testing.
+#
+# These values feed the /api/tfd/* proxy on the local tfd-builds Worker.
+# The browser never sees them — they're only added to upstream requests
+# server-side by worker-handlers.js > handleTfdProxy.
 
-# Your Nexon TFD API Key
+# Your Nexon TFD API Key (https://openapi.nexon.com/)
 TFD_API_KEY=your_tfd_api_key_here
 
-# Your Worker API Key for tfd-cache
+# Your Worker API Key for tfd-cache.
+# MUST match the WORKER_API_KEY of whichever tfd-cache instance you're
+# proxying to (production or local).
 WORKER_API_KEY=your_worker_api_key_here
+
+# (Optional) Override the upstream tfd-cache URL.
+# Default: https://tfd-cache.jediknight112.com (the deployed cache).
+# Set this to http://localhost:8788 if you're running tfd-cache locally
+# (start it on port 8788 to avoid colliding with this Worker on 8787).
+# TFD_CACHE_URL=http://localhost:8788

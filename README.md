@@ -36,7 +36,7 @@ A web application for creating, viewing, and sharing character builds for **The 
 ### Prerequisites
 
 - Node.js 18+
-- API keys:
+- API keys (set as Worker secrets, NOT in the browser):
   - **Nexon API Key** from [openapi.nexon.com](https://openapi.nexon.com/)
   - **Worker API Key** from your [tfd-cache](https://github.com/jediknight112/tfd-cache) deployment
 
@@ -47,9 +47,14 @@ npm install
 npm run dev
 ```
 
-Configure API keys through the **Settings** button in the app, or copy `.env.example` to `.env` and fill in your keys.
+The browser never sees the keys. The deployed Worker proxies `/api/tfd/*` to tfd-cache and adds the auth headers server-side. Set the secrets with:
 
-See [docs/API_KEYS_SETUP.md](docs/API_KEYS_SETUP.md) for detailed instructions.
+```bash
+npx wrangler secret put TFD_API_KEY
+npx wrangler secret put WORKER_API_KEY
+```
+
+For local dev, put the same values in `.dev.vars` (gitignored). See [docs/API_KEYS_SETUP.md](docs/API_KEYS_SETUP.md) for detailed instructions.
 
 ## Scripts
 
@@ -65,18 +70,21 @@ See [docs/API_KEYS_SETUP.md](docs/API_KEYS_SETUP.md) for detailed instructions.
 
 ```
 tfd-builds/
-├── index.html              # Main HTML file
-├── worker.js               # Cloudflare Worker entry point
+├── index.html              # Main HTML file (no inline event handlers — uses data-action)
+├── worker.js               # Cloudflare Worker entry: serves SPA, injects CSP nonce
+├── worker-handlers.js      # Pure handler logic (proxy / shorten / redirect) — unit-testable
 ├── wrangler.toml           # Cloudflare deployment config
+├── scripts/
+│   └── ensure-dist.js      # predev: builds dist/ on first clone so wrangler dev starts cleanly
 ├── tests/                  # Test files (Vitest)
 ├── docs/                   # Documentation
 └── src/
-    ├── index.js            # Application entry point
+    ├── index.js            # Application entry + global event delegation for data-action
     ├── state.js            # Centralized state management
-    ├── api-client.js       # API client for tfd-cache
+    ├── api-client.js       # API client (calls /api/tfd/* on this Worker, no auth headers)
     ├── config.js           # Configuration and constants
     ├── ui-components.js    # Reusable UI component factories
-    ├── build-serializer.js # Build URL encoding/decoding (LZ-string)
+    ├── build-serializer.js # Build URL encoding/decoding (LZ-string, with size + shape caps)
     └── modules/
         ├── module-selector.js
         ├── weapon-selector.js
@@ -97,12 +105,14 @@ Pushes to `main` trigger automatic deployment via GitHub Actions:
 
 For manual deployment: `npm run deploy`
 
-Cloudflare Worker secrets (one-time setup):
+Cloudflare Worker secrets (one-time setup — required, not optional):
 
 ```bash
 npx wrangler secret put TFD_API_KEY
 npx wrangler secret put WORKER_API_KEY
 ```
+
+The Worker uses these to proxy `/api/tfd/*` requests to tfd-cache. Without them, the SPA gets 500 errors from its own backend and shows no game data.
 
 See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for full details.
 

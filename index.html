@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en" class="dark">
   <head>
-    <script>
+    <script nonce="__CSP_NONCE__">
       (function () {
         var t = localStorage.getItem('theme');
         var isDark = true;
@@ -23,7 +23,7 @@
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-8KZ1STE9VK"
     ></script>
-    <script>
+    <script nonce="__CSP_NONCE__">
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
@@ -42,10 +42,12 @@
       src="https://openapi.nexon.com/js/analytics.js?app_id=255709"
       async
     ></script>
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+      integrity="sha384-SN6A48CJQjx946+DRb8wsoifC4a8ur9ZS6R+HCTgnBHOKCa6GLXAR3Qn8d1jztxg"
+      crossorigin="anonymous"
     />
   </head>
   <body class="min-h-screen">
@@ -67,12 +69,12 @@
               id="language-selector"
               aria-label="Language"
               class="bg-tfd-darker text-tfd-primary border border-tfd-primary/30 rounded px-2 py-1 text-xs sm:text-sm focus:outline-hidden focus:ring-1 focus:ring-tfd-primary transition-all"
-              onchange="app.changeLanguage(this.value)"
+              data-change-action="changeLanguage"
             >
               <!-- Populated by JavaScript -->
             </select>
             <button
-              onclick="app.toggleTheme()"
+              data-action="toggleTheme"
               title="Toggle light/dark mode"
               aria-label="Toggle light/dark mode"
               class="w-9 h-9 flex items-center justify-center rounded-full border border-tfd-primary/30 hover:border-tfd-primary text-steel-grey hover:text-tfd-primary transition-colors"
@@ -106,14 +108,14 @@
             </button>
             <button
               class="hidden sm:flex btn-secondary text-[10px] sm:text-sm py-1 px-2 sm:px-4 items-center justify-center min-w-0"
-              onclick="app.init()"
+              data-action="init"
               title="Refresh Data"
             >
               <span class="hidden sm:inline">Refresh</span>
             </button>
             <button
               class="hidden sm:flex btn-primary text-[10px] sm:text-sm py-1 px-2 sm:px-4 items-center justify-center min-w-0"
-              onclick="app.createNewBuild()"
+              data-action="createNewBuild"
               title="New Build"
             >
               <span class="hidden sm:inline">+ New Build</span>
@@ -152,7 +154,7 @@
             </p>
             <button
               class="btn-secondary px-4 py-2 text-sm flex items-center gap-2"
-              onclick="app.openImportBuild()"
+              data-action="openImportBuild"
             >
               <svg
                 class="w-4 h-4"
@@ -232,28 +234,28 @@
               <button
                 class="tab active text-xs sm:text-sm px-2 sm:px-4"
                 data-tab="modules"
-                onclick="app.switchTab('modules')"
+                data-action="switchTab:modules"
               >
                 Modules
               </button>
               <button
                 class="tab text-xs sm:text-sm px-2 sm:px-4"
                 data-tab="weapons"
-                onclick="app.switchTab('weapons')"
+                data-action="switchTab:weapons"
               >
                 Weapons
               </button>
               <button
                 class="tab text-xs sm:text-sm px-2 sm:px-4"
                 data-tab="reactor"
-                onclick="app.switchTab('reactor')"
+                data-action="switchTab:reactor"
               >
                 Reactor
               </button>
               <button
                 class="tab text-xs sm:text-sm px-2 sm:px-4"
                 data-tab="external"
-                onclick="app.switchTab('external')"
+                data-action="switchTab:external"
               >
                 <span class="hidden md:inline">External Components</span>
                 <span class="md:hidden">External</span>
@@ -261,7 +263,7 @@
               <button
                 class="tab text-xs sm:text-sm px-2 sm:px-4"
                 data-tab="arche"
-                onclick="app.switchTab('arche')"
+                data-action="switchTab:arche"
               >
                 <span class="hidden sm:inline">Arche Tuning</span>
                 <span class="sm:hidden">Arche</span>
@@ -269,7 +271,7 @@
             </div>
             <button
               class="hidden sm:flex btn-primary px-4 sm:px-6 py-2 whitespace-nowrap text-sm items-center justify-center"
-              onclick="app.shareBuild()"
+              data-action="shareBuild"
             >
               <svg
                 class="w-4 h-4 sm:w-5 sm:h-5 inline mr-1 sm:mr-2"
@@ -456,7 +458,7 @@
         <div class="card bg-red-900/20 border-red-500">
           <h3 class="text-red-400 font-bold mb-2">Error Loading Data</h3>
           <p id="error-message" class="text-steel-light"></p>
-          <button class="btn-primary mt-4" onclick="app.init()">Retry</button>
+          <button class="btn-primary mt-4" data-action="init">Retry</button>
         </div>
       </div>
     </main>
@@ -488,7 +490,7 @@
             </p>
           </div>
           <button
-            onclick="app.closeModuleSelector()"
+            data-action="closeModuleSelector"
             aria-label="Close module selector"
             class="w-10 h-10 flex items-center justify-center text-steel-grey hover:text-cyber-cyan text-3xl transition-colors rounded-full hover:bg-void-lighter"
           >
@@ -505,7 +507,7 @@
             id="module-search"
             class="w-full px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-steel-light placeholder-steel-grey focus:border-cyber-cyan focus:outline-hidden focus:ring-2 focus:ring-cyber-cyan/50 transition-all text-sm"
             placeholder="Search modules..."
-            oninput="app.filterModules()"
+            data-input-action="filterModules"
           />
 
           <!-- Socket Type Filters -->
@@ -515,42 +517,42 @@
             </p>
             <div class="flex gap-1.5 sm:gap-2 flex-wrap">
               <button
-                onclick="app.filterModulesBySocket('all')"
+                data-action="filterModulesBySocket:all"
                 class="module-filter-btn active"
                 data-socket="all"
               >
                 All
               </button>
               <button
-                onclick="app.filterModulesBySocket('Almandine')"
+                data-action="filterModulesBySocket:Almandine"
                 class="module-filter-btn"
                 data-socket="Almandine"
               >
                 Almandine
               </button>
               <button
-                onclick="app.filterModulesBySocket('Malachite')"
+                data-action="filterModulesBySocket:Malachite"
                 class="module-filter-btn"
                 data-socket="Malachite"
               >
                 Malachite
               </button>
               <button
-                onclick="app.filterModulesBySocket('Cerulean')"
+                data-action="filterModulesBySocket:Cerulean"
                 class="module-filter-btn"
                 data-socket="Cerulean"
               >
                 Cerulean
               </button>
               <button
-                onclick="app.filterModulesBySocket('Xantic')"
+                data-action="filterModulesBySocket:Xantic"
                 class="module-filter-btn"
                 data-socket="Xantic"
               >
                 Xantic
               </button>
               <button
-                onclick="app.filterModulesBySocket('Rutile')"
+                data-action="filterModulesBySocket:Rutile"
                 class="module-filter-btn"
                 data-socket="Rutile"
               >
@@ -566,35 +568,35 @@
             </p>
             <div class="flex gap-1.5 sm:gap-2 flex-wrap">
               <button
-                onclick="app.filterModulesByTier('all')"
+                data-action="filterModulesByTier:all"
                 class="module-filter-btn active"
                 data-tier="all"
               >
                 All
               </button>
               <button
-                onclick="app.filterModulesByTier('Tier1')"
+                data-action="filterModulesByTier:Tier1"
                 class="module-filter-btn"
                 data-tier="Tier1"
               >
                 Normal
               </button>
               <button
-                onclick="app.filterModulesByTier('Tier2')"
+                data-action="filterModulesByTier:Tier2"
                 class="module-filter-btn"
                 data-tier="Tier2"
               >
                 Rare
               </button>
               <button
-                onclick="app.filterModulesByTier('Tier3')"
+                data-action="filterModulesByTier:Tier3"
                 class="module-filter-btn"
                 data-tier="Tier3"
               >
                 Ultimate
               </button>
               <button
-                onclick="app.filterModulesByTier('Tier4')"
+                data-action="filterModulesByTier:Tier4"
                 class="module-filter-btn"
                 data-tier="Tier4"
               >
@@ -641,7 +643,7 @@
             </p>
           </div>
           <button
-            onclick="app.closeWeaponSelector()"
+            data-action="closeWeaponSelector"
             aria-label="Close weapon selector"
             class="w-10 h-10 flex items-center justify-center text-steel-grey hover:text-cyber-cyan text-3xl transition-colors rounded-full hover:bg-void-lighter"
           >
@@ -658,7 +660,7 @@
             id="weapon-search"
             class="w-full px-4 py-2 bg-void-blue/60 border border-cyber-cyan/30 rounded-lg text-steel-light placeholder-steel-grey focus:border-cyber-cyan focus:outline-hidden focus:ring-2 focus:ring-cyber-cyan/50 transition-all text-sm"
             placeholder="Search weapons..."
-            oninput="app.filterWeapons()"
+            data-input-action="filterWeapons"
           />
 
           <!-- Weapon Type Filters -->
@@ -668,63 +670,63 @@
             </p>
             <div class="flex gap-1.5 sm:gap-2 flex-wrap">
               <button
-                onclick="app.filterWeaponsByType('all')"
+                data-action="filterWeaponsByType:all"
                 class="module-filter-btn active"
                 data-weapon-type="all"
               >
                 All
               </button>
               <button
-                onclick="app.filterWeaponsByType('Handgun')"
+                data-action="filterWeaponsByType:Handgun"
                 class="module-filter-btn"
                 data-weapon-type="Handgun"
               >
                 Handgun
               </button>
               <button
-                onclick="app.filterWeaponsByType('Assault Rifle')"
+                data-action="filterWeaponsByType:Assault Rifle"
                 class="module-filter-btn"
                 data-weapon-type="Assault Rifle"
               >
                 Assault Rifle
               </button>
               <button
-                onclick="app.filterWeaponsByType('Scout Rifle')"
+                data-action="filterWeaponsByType:Scout Rifle"
                 class="module-filter-btn"
                 data-weapon-type="Scout Rifle"
               >
                 Scout Rifle
               </button>
               <button
-                onclick="app.filterWeaponsByType('SMG')"
+                data-action="filterWeaponsByType:SMG"
                 class="module-filter-btn"
                 data-weapon-type="SMG"
               >
                 SMG
               </button>
               <button
-                onclick="app.filterWeaponsByType('Shotgun')"
+                data-action="filterWeaponsByType:Shotgun"
                 class="module-filter-btn"
                 data-weapon-type="Shotgun"
               >
                 Shotgun
               </button>
               <button
-                onclick="app.filterWeaponsByType('Machine Gun')"
+                data-action="filterWeaponsByType:Machine Gun"
                 class="module-filter-btn"
                 data-weapon-type="Machine Gun"
               >
                 Machine Gun
               </button>
               <button
-                onclick="app.filterWeaponsByType('Sniper Rifle')"
+                data-action="filterWeaponsByType:Sniper Rifle"
                 class="module-filter-btn"
                 data-weapon-type="Sniper Rifle"
               >
                 Sniper Rifle
               </button>
               <button
-                onclick="app.filterWeaponsByType('Launcher')"
+                data-action="filterWeaponsByType:Launcher"
                 class="module-filter-btn"
                 data-weapon-type="Launcher"
               >
@@ -740,28 +742,28 @@
             </p>
             <div class="flex gap-1.5 sm:gap-2 flex-wrap">
               <button
-                onclick="app.filterWeaponsByTier('all')"
+                data-action="filterWeaponsByTier:all"
                 class="module-filter-btn active"
                 data-weapon-tier="all"
               >
                 All
               </button>
               <button
-                onclick="app.filterWeaponsByTier('Tier1')"
+                data-action="filterWeaponsByTier:Tier1"
                 class="module-filter-btn"
                 data-weapon-tier="Tier1"
               >
                 Normal
               </button>
               <button
-                onclick="app.filterWeaponsByTier('Tier2')"
+                data-action="filterWeaponsByTier:Tier2"
                 class="module-filter-btn"
                 data-weapon-tier="Tier2"
               >
                 Rare
               </button>
               <button
-                onclick="app.filterWeaponsByTier('Tier3')"
+                data-action="filterWeaponsByTier:Tier3"
                 class="module-filter-btn"
                 data-weapon-tier="Tier3"
               >
@@ -799,7 +801,7 @@
               Select Weapon Core
             </h3>
             <button
-              onclick="app.closeCoreSelector()"
+              data-action="closeCoreSelector"
               class="text-steel-grey hover:text-tfd-primary text-2xl leading-none"
             >
               &times;
@@ -819,7 +821,7 @@
         </div>
 
         <div class="p-6 border-t border-steel-dark flex justify-end">
-          <button onclick="app.closeCoreSelector()" class="btn-secondary">
+          <button data-action="closeCoreSelector" class="btn-secondary">
             Cancel
           </button>
         </div>
@@ -991,7 +993,7 @@
               Add Custom Stat
             </h3>
             <button
-              onclick="app.closeCustomStatSelector()"
+              data-action="closeCustomStatSelector"
               class="text-steel-grey hover:text-tfd-primary text-2xl leading-none"
             >
               &times;
@@ -1010,7 +1012,7 @@
               id="stat-search"
               placeholder="Search stats..."
               class="w-full px-4 py-2 bg-tfd-dark border border-steel-dark rounded-lg text-steel-light placeholder-steel-grey focus:border-tfd-primary focus:outline-hidden"
-              oninput="app.filterStats()"
+              data-input-action="filterStats"
             />
           </div>
 
@@ -1040,10 +1042,10 @@
         </div>
 
         <div class="p-6 border-t border-steel-dark flex justify-end gap-2">
-          <button onclick="app.closeCustomStatSelector()" class="btn-secondary">
+          <button data-action="closeCustomStatSelector" class="btn-secondary">
             Cancel
           </button>
-          <button onclick="app.saveCustomStat()" class="btn-primary">
+          <button data-action="saveCustomStat" class="btn-primary">
             Add Stat
           </button>
         </div>
@@ -1068,7 +1070,7 @@
               Import Build
             </h3>
             <button
-              onclick="app.closeImportBuild()"
+              data-action="closeImportBuild"
               aria-label="Close import dialog"
               class="w-10 h-10 flex items-center justify-center text-steel-grey hover:text-cyber-cyan text-3xl transition-colors rounded-full hover:bg-void-lighter"
             >
@@ -1112,14 +1114,14 @@
 
         <div class="p-6 border-t border-steel-grey/20 flex justify-end gap-3">
           <button
-            onclick="app.closeImportBuild()"
+            data-action="closeImportBuild"
             class="btn-secondary px-4 py-2 text-sm"
           >
             Cancel
           </button>
           <button
             id="import-submit-btn"
-            onclick="app.importBuild()"
+            data-action="importBuild"
             class="btn-primary px-6 py-2 text-sm"
           >
             Import
@@ -1181,7 +1183,7 @@
       class="sticky bottom-0 left-0 right-0 bg-tfd-dark/95 backdrop-blur-md border-t border-tfd-primary/30 z-40 sm:hidden flex items-center justify-around p-3 shadow-[0_-4px_10px_rgba(0,0,0,0.5)]"
     >
       <button
-        onclick="app.init()"
+        data-action="init"
         class="flex flex-col items-center gap-1 text-steel-grey hover:text-tfd-primary transition-colors"
       >
         <svg
@@ -1201,7 +1203,7 @@
       </button>
       <button
         id="mobile-share-btn"
-        onclick="app.shareBuild()"
+        data-action="shareBuild"
         class="flex flex-col items-center gap-1 text-steel-dark cursor-not-allowed opacity-50"
         disabled
       >
@@ -1225,7 +1227,7 @@
         <span class="text-[10px] uppercase font-bold mt-1">Share</span>
       </button>
       <button
-        onclick="app.createNewBuild()"
+        data-action="createNewBuild"
         class="flex flex-col items-center gap-1 text-steel-grey hover:text-tfd-primary transition-colors"
       >
         <svg

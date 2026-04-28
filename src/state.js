@@ -1,4 +1,4 @@
-import { getApiKeys, getLanguage, getTheme } from './config.js';
+import { getLanguage, getTheme } from './config.js';
 
 // Localized string constants for game-specific categories
 // These are used for filtering and UI logic across different languages
@@ -426,7 +426,6 @@ class AppState {
     this.currentDescendant = null;
     this.currentBuild = createDefaultBuild();
     this.currentTab = 'modules';
-    this.apiKeys = getApiKeys();
     this.language = getLanguage();
     this.theme = getTheme();
     this.dataLoaded = false;

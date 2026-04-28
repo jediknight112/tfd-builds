@@ -163,7 +163,9 @@ export class BuildSerializer {
   }
 
   /**
-   * Decompress URL string to JSON build data
+   * Decompress URL string to JSON build data.
+   * Hard caps prevent attacker-supplied URLs from triggering O(N×M)
+   * deserialization work via inflated arrays.
    * @param {string} compressed - Compressed build string
    * @returns {Object|null} Build data or null if invalid
    */
@@ -171,11 +173,62 @@ export class BuildSerializer {
     try {
       const json = LZString.decompressFromEncodedURIComponent(compressed);
       if (!json) return null;
-      return JSON.parse(json);
+      // Cap the decompressed JSON at 16 KB. A real build is well under 4 KB.
+      if (json.length > 16 * 1024) {
+        console.warn('Build hash decompresses to >16 KB; rejecting');
+        return null;
+      }
+      const parsed = JSON.parse(json);
+      if (!BuildSerializer._hasReasonableShape(parsed)) {
+        console.warn('Build hash has unreasonable shape; rejecting');
+        return null;
+      }
+      return parsed;
     } catch (error) {
       console.error('Failed to decompress build data:', error);
       return null;
     }
+  }
+
+  /**
+   * Reject obviously malicious payloads BEFORE the deserialize() loop runs
+   * find() over hundreds of metadata entries for each item. Bounds are
+   * generous; legitimate builds are nowhere near these limits.
+   */
+  static _hasReasonableShape(parsed) {
+    if (!parsed || typeof parsed !== 'object') return false;
+    const limits = [
+      ['m', 12], // descendantModules slots
+      ['descendantModules', 12],
+      ['w', 3], // weapons
+      ['weapons', 3],
+      ['a', 3], // arche tuning boards
+      ['archeTuning', 3],
+      ['e', 16], // external components
+      ['externalComponents', 16],
+    ];
+    for (const [key, max] of limits) {
+      const v = parsed[key];
+      if (Array.isArray(v) && v.length > max) return false;
+      if (
+        v &&
+        typeof v === 'object' &&
+        !Array.isArray(v) &&
+        Object.keys(v).length > max
+      ) {
+        return false;
+      }
+    }
+    // Per-board node cap (real boards have ~211 positions; 250 is generous)
+    const boards = parsed.a || parsed.archeTuning || [];
+    if (Array.isArray(boards)) {
+      for (const board of boards) {
+        if (!board) continue;
+        const nodes = Array.isArray(board) ? board[1] : board.selectedNodes;
+        if (Array.isArray(nodes) && nodes.length > 250) return false;
+      }
+    }
+    return true;
   }
 
   /**

@@ -5,6 +5,7 @@ export default defineConfig({
     port: 3000,
     open: true,
     proxy: {
+      '/api/tfd': 'http://localhost:8787',
       '/api/shorten': 'http://localhost:8787',
       '/s/': 'http://localhost:8787',
     },

@@ -23,6 +23,8 @@ This project relies on **tfd-cache** (a separate repository in this workspace) w
 - Caches game asset images
 - Requires API authentication (Worker API Key + Nexon API Key)
 
+**API key flow (changed April 2026):** The browser never sees the keys. The tfd-builds Worker (`worker.js`) proxies `/api/tfd/*` requests to tfd-cache and adds `x-worker-api-key` + `x-nxopen-api-key` headers server-side. `src/api-client.js` calls `/api/tfd/*` (relative URL on this Worker) with no auth headers. The Worker secrets `TFD_API_KEY` and `WORKER_API_KEY` are mandatory — without them, the SPA gets 500s.
+
 ## Tech Stack & Architecture
 
 ### Core Technologies
@@ -52,7 +54,7 @@ This project relies on **tfd-cache** (a separate repository in this workspace) w
 ### Core Application Files
 
 - **[src/state.js](src/state.js)**: Global state management - THE source of truth for all application data
-- **[src/api-client.js](src/api-client.js)**: API communication layer with tfd-cache service (metadata + user data endpoints)
+- **[src/api-client.js](src/api-client.js)**: API communication layer. Calls `/api/tfd/*` on this Worker (no auth headers — the Worker adds them when proxying). Base URL defaults to `/api/tfd`; `VITE_API_BASE_URL` overrides for direct-to-cache testing.
 - **[src/config.js](src/config.js)**: Configuration constants and API settings
 - **[src/ui-components.js](src/ui-components.js)**: Factory functions for reusable UI elements
 - **[src/build-serializer.js](src/build-serializer.js)**: Build encoding/decoding with compression (v3 format with multi-board arche tuning)
@@ -249,15 +251,12 @@ export function createMyComponent(data) {
 
 ### API Keys Required
 
-The app requires TWO API keys:
+The deployed Worker requires TWO secrets — set via `wrangler secret put`, NOT in the browser:
 
-1. **Worker API Key**: For tfd-cache service authentication
-2. **Nexon API Key**: Passed through to Nexon's official API
+1. **`WORKER_API_KEY`**: For tfd-cache service authentication
+2. **`TFD_API_KEY`**: Passed through to Nexon's official API
 
-Keys can be configured via:
-
-- Settings UI in the app
-- Environment variables (`VITE_WORKER_API_KEY`, `VITE_NEXON_API_KEY`)
+The Worker uses these to proxy `/api/tfd/*` requests with the right auth headers added server-side. Browser-side keys are no longer supported (they were public to anyone who viewed the page source). For local dev, put the same values in `.dev.vars`.
 
 ### Build Constraints
 
@@ -392,15 +391,17 @@ Active references (`this.selectedNodes`, `this.nodePositionMap`, `this.currentBo
 ## Common Pitfalls to Avoid
 
 1. **Don't introduce frameworks**: Keep it vanilla JavaScript
-2. **Don't bypass state.js**: All state modifications should go through state management
+2. **Don't bypass state.js**: All state modifications should go through state management (note: many existing modules currently mutate state directly — improving this is on the backlog)
 3. **Don't inline styles**: Always use Tailwind utilities
-4. **Don't skip tests**: Add tests for new logic
-5. **Don't guess API shapes**: Check API responses and type definitions in `src/types.d.ts`, or reference example data in `Nexon API Schema/`
-6. **Don't forget API keys**: The app won't work without proper authentication
-7. **Don't use English-only keys for localized data**: Use `state.getEnglishEquipmentType()` to normalize localized values back to English keys for internal storage
-8. **Don't forget to sync arche tuning board slots**: When modifying `_loadDefaultBoard()` or `loadFromState()`, ensure active `this.*` references stay in sync with `boardSlots[currentSlotIndex]`
-9. **Don't map arche tuning boards sequentially across slots**: A single slot can contain multiple boards — merge their nodes, don't split them into separate board slots. See the Arche Tuning System section for details.
-10. **Don't assume weapon `weapon_rounds_type` matches `module_class` directly**: "Enhanced Ammo" maps to "Special Rounds". Use `state.resolveModuleClassForRoundsType()`.
+4. **Don't add inline event handlers (`onclick=` etc.) in HTML**: They'd break the strict CSP. Use `data-action="methodName"` (or `data-action="methodName:arg"` for one string arg). The global click delegator in `src/index.js` dispatches to `app[methodName]`. For input/change events use `data-input-action` and `data-change-action`.
+5. **Don't add inline `<script>` blocks without a nonce**: Worker.js injects a per-request nonce via `__CSP_NONCE__` placeholder. The CSP forbids any inline script that doesn't carry the nonce. The two existing nonced inline scripts (theme bootstrap, GTM init) are the model.
+6. **Don't add API keys to client-side code or `window.__ENV__`**: All upstream auth lives on the Worker; the browser must never see the keys.
+7. **Don't skip tests**: Add tests for new logic. `worker-handlers.js` is the unit-testable surface for the Worker (`worker.js` itself is hard to test because of the wrangler-injected `__STATIC_CONTENT_MANIFEST` import).
+8. **Don't guess API shapes**: Check API responses and type definitions in `src/types.d.ts`, or reference example data in `Nexon API Schema/`
+9. **Don't use English-only keys for localized data**: Use `state.getEnglishEquipmentType()` to normalize localized values back to English keys for internal storage
+10. **Don't forget to sync arche tuning board slots**: When modifying `_loadDefaultBoard()` or `loadFromState()`, ensure active `this.*` references stay in sync with `boardSlots[currentSlotIndex]`
+11. **Don't map arche tuning boards sequentially across slots**: A single slot can contain multiple boards — merge their nodes, don't split them into separate board slots. See the Arche Tuning System section for details.
+12. **Don't assume weapon `weapon_rounds_type` matches `module_class` directly**: "Enhanced Ammo" maps to "Special Rounds". Use `state.resolveModuleClassForRoundsType()`.
 
 ## Related Repositories
 
