@@ -1,0 +1,207 @@
+#!/usr/bin/env node
+/**
+ * Fetches the four English OpenAPI YAML specs Nexon publishes for the
+ * TFD API portal, merges them into a single `docs/api/openapi.yaml`,
+ * and annotates schemas/operations with quirks we've discovered while
+ * building tfd-builds.
+ *
+ * Run manually after Nexon publishes spec updates:
+ *   npm run fetch:openapi
+ *
+ * Why we have to scrape: Nexon's portal at openapi.nexon.com is a Next.js
+ * SPA that lazy-loads each YAML. There's no stable filename — every
+ * publication appends a timestamp, so we discover them from the SPA's
+ * preloaded data on each run.
+ */
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import YAML from 'yaml';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const REPO_ROOT = path.resolve(__dirname, '..');
+const OUTPUT = path.join(REPO_ROOT, 'docs', 'api', 'openapi.yaml');
+
+const PORTAL_URL = 'https://openapi.nexon.com/game/tfd/?id=21';
+const STATIC_BASE = 'https://openapi.nexon.com/static/api';
+const UA = { 'User-Agent': 'tfd-builds/openapi-fetch (Mozilla/5.0)' };
+
+// Annotations the merged spec should carry. Each entry adds (or appends to)
+// a `description` on a schema or path operation — discovered by tfd-builds
+// during integration. See CLAUDE.md for the longer explanations.
+const QUIRK_NOTES = {
+  schemas: {
+    DescendantResponse: 'NOTE (tfd-builds): `descendant_image_url` is currently null in every metadata response (verified directly against Nexon, not a caching artifact).',
+    ModuleResponse: 'NOTE (tfd-builds): `image_url` is currently null in every metadata response.',
+    WeaponResponse: 'NOTE (tfd-builds): `image_url` and `weapon_perk_ability_image_url` are currently null in every metadata response.',
+    ReactorResponse: 'NOTE (tfd-builds): `image_url` is currently null in every metadata response.',
+    ExternalComponentResponse: 'NOTE (tfd-builds): `image_url` is currently null in every metadata response.',
+    ArcheTuningNodeResponse: 'NOTE (tfd-builds): `node_image_url` is currently null in every metadata response.',
+    UserDescendant: 'NOTE (tfd-builds): The response represents the descendant\'s currently active module loadout. There is no preset_id field — switching presets in-game changes WHICH loadout is returned, but the response shape is unchanged. The `descendant_slot_id` field refers to the character roster slot, not a module preset.',
+    UserArcheTuning: 'NOTE (tfd-builds): For older descendants (e.g., Ines `descendant_group_id` 101200026, U.Viessa 101200003) `slot_id=0` may include BOTH a generic base-board entry (`arche_tuning_board_id` 101400001) AND the descendant-specific entry. The base entry is identical bit-for-bit across users (32 nodes, cost 40, same node_ids) and is NOT user data. Newer descendants (e.g., Dia 101200032) return one entry per slot and don\'t exhibit this quirk. When importing, treat each entry independently and pick the one with the highest selected-cost (sum of `required_tuning_point`) as the user\'s actual loadout — merging entries within a slot produces phantom positions that inflate cost beyond the 40-point cap.',
+  },
+  operations: {
+    'GET /tfd/v1/user/arche-tuning': 'NOTE (tfd-builds): See UserArcheTuning schema for the slot_id=0 phantom-data quirk that affects older descendants.',
+  },
+};
+
+async function fetchText(url) {
+  const res = await fetch(url, { headers: UA });
+  if (!res.ok) throw new Error(`${res.status} ${res.statusText} ${url}`);
+  return res.text();
+}
+
+/**
+ * Scrape Nexon's portal for the current English YAML filenames. The portal
+ * embeds the full menu (with each language's filename + URL) in the page
+ * HTML — we just regex it out.
+ */
+async function discoverSpecs() {
+  const html = await fetchText(PORTAL_URL);
+  const matches = [
+    ...html.matchAll(/\/api\/tfd\/(\d+_en_script\d+\.yaml)/g),
+  ];
+  const filenames = [...new Set(matches.map((m) => m[1]))].sort();
+  if (filenames.length < 4) {
+    throw new Error(
+      `Expected at least 4 English specs on the portal; found ${filenames.length}: ${filenames.join(', ')}`
+    );
+  }
+  return filenames;
+}
+
+async function fetchSpec(filename) {
+  const url = `${STATIC_BASE}/tfd/${filename}`;
+  const text = await fetchText(url);
+  return YAML.parse(text);
+}
+
+/** Stable JSON for deep-equality comparisons. */
+function canonical(o) {
+  return JSON.stringify(o, Object.keys(o || {}).sort());
+}
+
+function mergeSpecs(specs) {
+  // Cloned skeleton from the most-detailed source (the user/account spec):
+  // we keep its info block since it has the longest description.
+  const userSpec =
+    specs.find((s) => Object.keys(s.paths || {}).some((p) => p.startsWith('/tfd/v1/id'))) ||
+    specs[0];
+
+  const merged = {
+    openapi: '3.0.3',
+    info: {
+      ...userSpec.info,
+      title: 'The First Descendant API',
+      description:
+        (userSpec.info?.description || '').trim() +
+        '\n\n---\n\nThis spec is auto-generated by `scripts/fetch-openapi.mjs`, which downloads the four English YAMLs Nexon publishes ' +
+        '(account info, metadata, module recommendation, leaderboard) and merges them into a single document. ' +
+        'Run `npm run fetch:openapi` to refresh after Nexon publishes updates.\n\n' +
+        'Schemas and operations carry `NOTE (tfd-builds): ...` callouts where Nexon\'s upstream behavior has quirks worth knowing about.',
+    },
+    servers: userSpec.servers || [{ url: 'https://open.api.nexon.com' }],
+    tags: [],
+    paths: {},
+    components: { schemas: {} },
+  };
+
+  // Collect tags (dedupe by name)
+  const tagsByName = new Map();
+  for (const spec of specs) {
+    for (const tag of spec.tags || []) {
+      if (!tagsByName.has(tag.name)) tagsByName.set(tag.name, tag);
+    }
+  }
+  merged.tags = [...tagsByName.values()];
+
+  // Merge paths — fail loudly on conflicting (path, method) pairs.
+  for (const spec of specs) {
+    for (const [p, methods] of Object.entries(spec.paths || {})) {
+      if (!merged.paths[p]) merged.paths[p] = {};
+      for (const [method, op] of Object.entries(methods)) {
+        if (merged.paths[p][method]) {
+          throw new Error(`Conflict at ${method.toUpperCase()} ${p}`);
+        }
+        merged.paths[p][method] = op;
+      }
+    }
+  }
+
+  // Merge schemas. Identical-named schemas across specs are checked for
+  // structural equivalence — surface a clear error if they ever diverge so
+  // we don't silently lose information.
+  for (const spec of specs) {
+    const schemas = spec.components?.schemas || {};
+    for (const [name, schema] of Object.entries(schemas)) {
+      const existing = merged.components.schemas[name];
+      if (existing && canonical(existing) !== canonical(schema)) {
+        throw new Error(
+          `Schema "${name}" appears in multiple specs with different definitions`
+        );
+      }
+      merged.components.schemas[name] = schema;
+    }
+  }
+
+  return merged;
+}
+
+function annotate(spec) {
+  const append = (obj, note) => {
+    const existing = (obj.description || '').trim();
+    obj.description = existing ? `${existing}\n\n${note}` : note;
+  };
+
+  for (const [name, note] of Object.entries(QUIRK_NOTES.schemas)) {
+    const s = spec.components?.schemas?.[name];
+    if (s) append(s, note);
+    else console.warn(`  (skip) schema "${name}" not found — note not applied`);
+  }
+
+  for (const [key, note] of Object.entries(QUIRK_NOTES.operations)) {
+    const [method, p] = key.split(' ');
+    const op = spec.paths?.[p]?.[method.toLowerCase()];
+    if (op) append(op, note);
+    else console.warn(`  (skip) operation "${key}" not found — note not applied`);
+  }
+}
+
+async function main() {
+  console.log(`Discovering specs at ${PORTAL_URL} ...`);
+  const filenames = await discoverSpecs();
+  console.log(`Found ${filenames.length} specs:`);
+  filenames.forEach((f) => console.log(`  - ${f}`));
+
+  console.log('Downloading...');
+  const specs = await Promise.all(filenames.map(fetchSpec));
+
+  console.log('Merging...');
+  const merged = mergeSpecs(specs);
+
+  console.log('Applying tfd-builds quirk notes...');
+  annotate(merged);
+
+  const totalPaths = Object.keys(merged.paths).length;
+  const totalOps = Object.values(merged.paths).reduce(
+    (n, ops) => n + Object.keys(ops).length,
+    0
+  );
+  const totalSchemas = Object.keys(merged.components.schemas).length;
+  console.log(
+    `Result: ${totalPaths} paths, ${totalOps} operations, ${totalSchemas} schemas, ${merged.tags.length} tags`
+  );
+
+  const banner =
+    `# AUTO-GENERATED by scripts/fetch-openapi.mjs from upstream Nexon specs:\n` +
+    filenames.map((f) => `#   ${STATIC_BASE}/tfd/${f}`).join('\n') +
+    `\n# Run \`npm run fetch:openapi\` to regenerate.\n\n`;
+  fs.mkdirSync(path.dirname(OUTPUT), { recursive: true });
+  fs.writeFileSync(OUTPUT, banner + YAML.stringify(merged, { lineWidth: 0 }));
+  console.log(`Wrote ${path.relative(REPO_ROOT, OUTPUT)}`);
+}
+
+main().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});
