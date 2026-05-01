@@ -156,24 +156,30 @@ export class CoreSelector {
 
                           return `
                           <div class="flex items-center gap-2">
-                            <input 
-                              type="checkbox" 
+                            <input
+                              type="checkbox"
                               id="core_${coreTypeId}_${option.core_option_id}_${stat.stat_id}"
                               class="w-4 h-4"
                               ${existingCoreStat ? 'checked' : ''}
-                              onchange="window.app.toggleCoreStat('${coreTypeId}', '${option.core_option_id}', '${stat.stat_id}', this.checked)"
+                              data-change-action="onCoreStatToggle"
+                              data-core-type="${coreTypeId}"
+                              data-option-id="${option.core_option_id}"
+                              data-stat-id="${stat.stat_id}"
                             >
                             <label class="text-xs text-steel-grey flex-1" for="core_${coreTypeId}_${option.core_option_id}_${stat.stat_id}">
                               ${stat.stat_name}
                             </label>
-                            <input 
-                              type="number" 
+                            <input
+                              type="number"
                               step="0.01"
                               placeholder="Value"
                               value="${existingCoreStat?.stat_value || ''}"
                               class="w-20 px-2 py-1 text-xs bg-tfd-dark border border-steel-dark rounded-sm text-tfd-primary"
                               ${existingCoreStat ? '' : 'disabled'}
-                              onchange="window.app.updateCoreStatValue('${coreTypeId}', '${option.core_option_id}', '${stat.stat_id}', this.value)"
+                              data-change-action="onCoreStatValueChange"
+                              data-core-type="${coreTypeId}"
+                              data-option-id="${option.core_option_id}"
+                              data-stat-id="${stat.stat_id}"
                             >
                           </div>
                         `;
@@ -186,9 +192,11 @@ export class CoreSelector {
                 .join('')}
             </div>
             
-            <button 
-              class="btn-primary w-full mt-4" 
-              onclick="window.app.selectCoreType('${coreTypeId}', ${weaponIndex})">
+            <button
+              class="btn-primary w-full mt-4"
+              data-action="onCoreTypeSelect"
+              data-core-type="${coreTypeId}"
+              data-weapon-index="${weaponIndex}">
               ${isSelected ? 'Update Core' : 'Select Core'}
             </button>
           `
@@ -331,24 +339,32 @@ export class CoreSelector {
 
                           return `
                           <div class="flex items-center gap-2">
-                            <input 
-                              type="checkbox" 
+                            <input
+                              type="checkbox"
                               id="core_${coreTypeId}_${option.core_option_id}_${stat.stat_id}"
                               class="w-4 h-4"
                               ${existingCoreStat ? 'checked' : ''}
-                              onchange="window.app.toggleExternalComponentCoreStat('${equipmentType}', '${coreTypeId}', '${option.core_option_id}', '${stat.stat_id}', this.checked)"
+                              data-change-action="onExternalCoreStatToggle"
+                              data-equipment-type="${equipmentType}"
+                              data-core-type="${coreTypeId}"
+                              data-option-id="${option.core_option_id}"
+                              data-stat-id="${stat.stat_id}"
                             >
                             <label class="text-xs text-steel-grey flex-1" for="core_${coreTypeId}_${option.core_option_id}_${stat.stat_id}">
                               ${stat.stat_name}
                             </label>
-                            <input 
-                              type="number" 
+                            <input
+                              type="number"
                               step="0.01"
                               placeholder="Value"
                               value="${existingCoreStat?.stat_value || ''}"
                               class="w-20 px-2 py-1 text-xs bg-tfd-dark border border-steel-dark rounded-sm text-tfd-primary"
                               ${existingCoreStat ? '' : 'disabled'}
-                              onchange="window.app.updateExternalComponentCoreStatValue('${equipmentType}', '${coreTypeId}', '${option.core_option_id}', '${stat.stat_id}', this.value)"
+                              data-change-action="onExternalCoreStatValueChange"
+                              data-equipment-type="${equipmentType}"
+                              data-core-type="${coreTypeId}"
+                              data-option-id="${option.core_option_id}"
+                              data-stat-id="${stat.stat_id}"
                             >
                           </div>
                         `;
@@ -361,9 +377,11 @@ export class CoreSelector {
                 .join('')}
             </div>
             
-            <button 
-              class="btn-primary w-full mt-4" 
-              onclick="window.app.selectExternalComponentCoreType('${coreTypeId}', '${equipmentType}')">
+            <button
+              class="btn-primary w-full mt-4"
+              data-action="onExternalCoreTypeSelect"
+              data-core-type="${coreTypeId}"
+              data-equipment-type="${equipmentType}">
               ${isSelected ? 'Update Core' : 'Select Core'}
             </button>
           `

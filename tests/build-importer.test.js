@@ -597,8 +597,13 @@ describe('BuildImporter', () => {
       expect(result.build.archeTuning[2]).toBeNull();
     });
 
-    it('should handle multiple boards within a slot (merge nodes by slot_id)', async () => {
-      // Add a board group so the importer can resolve the descendant-specific board
+    it('should pick the highest-cost entry when a slot has multiple boards', async () => {
+      // For older descendants the Nexon API returns BOTH a base-board entry
+      // and a descendant-specific entry under the same slot_id. Merging them
+      // produces phantom positions that inflate the cost beyond the 40-pt
+      // cap, so the importer picks the entry with the highest selected-cost
+      // (the user's actual loadout). Ties prefer the descendant-specific
+      // board over the generic base board.
       state.archeTuningBoardGroups = [
         {
           descendant_group_id: 'dg1',
@@ -609,7 +614,6 @@ describe('BuildImporter', () => {
         arche_tuning_board_id: 'board_desc',
         node: [],
       });
-      // Add a third node for slot 1
       state.archeTuningNodes.push({
         node_id: 'anode_3',
         node_name: 'Node Gamma',
@@ -622,6 +626,7 @@ describe('BuildImporter', () => {
             slot_id: '0',
             arche_tuning_board: [
               {
+                // base entry, cost 2 (anode_1)
                 arche_tuning_board_id: 'board_001',
                 node: [
                   {
@@ -632,6 +637,7 @@ describe('BuildImporter', () => {
                 ],
               },
               {
+                // descendant entry, cost 3 (anode_2) — wins
                 arche_tuning_board_id: 'board_desc',
                 node: [
                   {
@@ -663,25 +669,83 @@ describe('BuildImporter', () => {
 
       const result = await importer.importBuild('User#1234');
 
-      // Slot 0: both boards' nodes merged into boardSlot[0], using descendant-specific board
+      // Slot 0: descendant entry wins on cost (3 > 2), only its node is kept
       expect(result.build.archeTuning[0]).not.toBeNull();
       expect(result.build.archeTuning[0].board.arche_tuning_board_id).toBe(
         'board_desc'
       );
-      expect(result.build.archeTuning[0].selectedNodes).toHaveLength(2);
-      expect(
-        result.build.archeTuning[0].selectedNodes.map((n) => n.node_id).sort()
-      ).toEqual(['anode_1', 'anode_2']);
+      expect(result.build.archeTuning[0].selectedNodes).toHaveLength(1);
+      expect(result.build.archeTuning[0].selectedNodes[0].node_id).toBe(
+        'anode_2'
+      );
 
-      // Slot 1: single board → boardSlot[1]
+      // Slot 1: single board → unchanged
       expect(result.build.archeTuning[1]).not.toBeNull();
       expect(result.build.archeTuning[1].selectedNodes).toHaveLength(1);
       expect(result.build.archeTuning[1].selectedNodes[0].node_id).toBe(
         'anode_3'
       );
 
-      // Slot 2: not used
       expect(result.build.archeTuning[2]).toBeNull();
+    });
+
+    it('should pick the base entry when it has higher cost than the descendant entry', async () => {
+      // This is the Ines/U.Viessa case: API returns slot_id=0 with both a
+      // base entry at cost 40 (the user's actual selection, expressed using
+      // base-board node IDs) and a descendant entry with a smaller cost.
+      // The base entry wins on cost.
+      state.archeTuningBoardGroups = [
+        {
+          descendant_group_id: 'dg1',
+          arche_tuning_board_id: 'board_desc',
+        },
+      ];
+      state.archeTuningBoards.push({
+        arche_tuning_board_id: 'board_desc',
+        node: [],
+      });
+
+      apiClient.fetchUserArcheTuning.mockResolvedValue({
+        arche_tuning: [
+          {
+            slot_id: '0',
+            arche_tuning_board: [
+              {
+                // base entry, cost 5 (anode_1 + anode_2 = 2+3)
+                arche_tuning_board_id: 'board_001',
+                node: [
+                  {
+                    node_id: 'anode_1',
+                    position_row: '9',
+                    position_column: '10',
+                  },
+                  {
+                    node_id: 'anode_2',
+                    position_row: '8',
+                    position_column: '10',
+                  },
+                ],
+              },
+              {
+                // descendant entry, cost 2 (anode_1)
+                arche_tuning_board_id: 'board_desc',
+                node: [
+                  {
+                    node_id: 'anode_1',
+                    position_row: '7',
+                    position_column: '10',
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      });
+
+      const result = await importer.importBuild('User#1234');
+
+      expect(result.build.archeTuning[0]).not.toBeNull();
+      expect(result.build.archeTuning[0].selectedNodes).toHaveLength(2);
     });
 
     it('should handle no arche tuning data', async () => {
@@ -689,7 +753,7 @@ describe('BuildImporter', () => {
 
       const result = await importer.importBuild('User#1234');
 
-      expect(result.build.archeTuning).toEqual([null, null, null]);
+      expect(result.build.archeTuning).toEqual([null, null, null, null, null]);
     });
 
     it('should warn for unknown arche tuning board', async () => {

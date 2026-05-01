@@ -397,7 +397,7 @@ export function createDefaultBuild() {
       { name: '', value: 0 },
     ],
     externalComponents: {},
-    archeTuning: [null, null, null],
+    archeTuning: [null, null, null, null, null],
   };
 }
 

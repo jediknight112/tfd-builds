@@ -327,6 +327,31 @@ class Application {
     UIComponents.refreshWeaponsTab();
   }
 
+  // Wrappers for arche tuning buttons. The CSP-safe data-action delegator
+  // can only call methods on `app` directly, not nested objects.
+  switchArcheBoardSlot(index) {
+    this.archeTuning.switchBoardSlot(Number.parseInt(index, 10));
+  }
+
+  clearArcheTuningSelection() {
+    this.archeTuning.clearSelection();
+  }
+
+  // CSP-safe wrappers for delegated handlers that target nested selectors.
+  openReactorSelector() {
+    this.reactorSelector.openReactorSelector();
+  }
+
+  openExternalComponentSelector(equipmentType) {
+    this.externalComponentSelector.openExternalComponentSelector(equipmentType);
+  }
+
+  // Toast close button. The button has `data-action="closeToast"` and the
+  // toast root is the closest `.toast` ancestor.
+  closeToast(_arg, target) {
+    target?.closest('.toast')?.remove();
+  }
+
   switchTab(tabName) {
     state.currentTab = tabName;
 
@@ -524,6 +549,52 @@ class Application {
       coreTypeId,
       equipmentType
     );
+  }
+
+  // CSP-safe wrappers for the core-selector handlers. Each is wired up via
+  // data-action / data-change-action on the rendered element; they read the
+  // multi-arg payload off `target.dataset` (since the delegator only passes
+  // one positional arg). The receiving methods above stay as the public API.
+  onCoreStatToggle(checked, target) {
+    const { coreType, optionId, statId } = target.dataset;
+    this.toggleCoreStat(coreType, optionId, statId, checked);
+  }
+
+  onCoreStatValueChange(value, target) {
+    const { coreType, optionId, statId } = target.dataset;
+    this.updateCoreStatValue(coreType, optionId, statId, value);
+  }
+
+  onCoreTypeSelect(_arg, target) {
+    const { coreType, weaponIndex } = target.dataset;
+    this.selectCoreType(coreType, Number.parseInt(weaponIndex, 10));
+  }
+
+  onExternalCoreStatToggle(checked, target) {
+    const { equipmentType, coreType, optionId, statId } = target.dataset;
+    this.toggleExternalComponentCoreStat(
+      equipmentType,
+      coreType,
+      optionId,
+      statId,
+      checked
+    );
+  }
+
+  onExternalCoreStatValueChange(value, target) {
+    const { equipmentType, coreType, optionId, statId } = target.dataset;
+    this.updateExternalComponentCoreStatValue(
+      equipmentType,
+      coreType,
+      optionId,
+      statId,
+      value
+    );
+  }
+
+  onExternalCoreTypeSelect(_arg, target) {
+    const { coreType, equipmentType } = target.dataset;
+    this.selectExternalComponentCoreType(coreType, equipmentType);
   }
 
   // Custom stat selector methods (delegated to CustomStatSelector)
@@ -739,7 +810,10 @@ window.app = app;
 
 // Event delegation: HTML uses data-action / data-input-action / data-change-action
 // instead of inline onclick=, so we can ship a strict CSP without 'unsafe-inline'.
-// Format: data-action="methodName" or data-action="methodName:arg" (single string arg).
+// Click format: data-action="methodName" or data-action="methodName:arg" (one string).
+// Change/input handlers receive (value, target) so wrappers can read dataset.*
+// and checked off the element when more than one piece of data is needed.
+// For checkbox/radio inputs the first arg is `target.checked` instead of `target.value`.
 document.addEventListener('click', (e) => {
   const target = e.target.closest('[data-action]');
   if (!target) return;
@@ -749,12 +823,22 @@ document.addEventListener('click', (e) => {
   const arg = colonIdx === -1 ? undefined : spec.slice(colonIdx + 1);
   const fn = app?.[name];
   if (typeof fn !== 'function') return;
-  if (arg === undefined) fn.call(app);
-  else fn.call(app, arg);
+  if (arg === undefined) fn.call(app, target);
+  else fn.call(app, arg, target);
 });
 
 document.addEventListener('input', (e) => {
   const action = e.target?.getAttribute?.('data-input-action');
+  if (!action) return;
+  const fn = app?.[action];
+  if (typeof fn === 'function') fn.call(app, e.target.value, e.target);
+});
+
+// Enter-key submit. Inputs with data-enter-action="methodName" call
+// app[methodName]() on Enter. CSP-safe replacement for inline onkeydown.
+document.addEventListener('keydown', (e) => {
+  if (e.key !== 'Enter') return;
+  const action = e.target?.getAttribute?.('data-enter-action');
   if (!action) return;
   const fn = app?.[action];
   if (typeof fn === 'function') fn.call(app);
@@ -764,7 +848,11 @@ document.addEventListener('change', (e) => {
   const action = e.target?.getAttribute?.('data-change-action');
   if (!action) return;
   const fn = app?.[action];
-  if (typeof fn === 'function') fn.call(app, e.target.value);
+  if (typeof fn !== 'function') return;
+  const t = e.target;
+  const value =
+    t.type === 'checkbox' || t.type === 'radio' ? t.checked : t.value;
+  fn.call(app, value, t);
 });
 
 // Native <dialog> elements handle Escape key automatically (fires "cancel" event
@@ -791,6 +879,21 @@ Object.entries(dialogHandlers).forEach(([id, close]) => {
     if (e.target === dialog) close();
   });
 });
+
+// Hide game images that fail to load. Replaces the inline
+// onerror="this.style.display='none'" handlers (those violate the strict CSP).
+// The Nexon API currently returns null for every image URL, so this fires often.
+// `error` events don't bubble, so the listener uses capture mode.
+document.addEventListener(
+  'error',
+  (e) => {
+    const t = e.target;
+    if (t instanceof HTMLImageElement && t.classList.contains('game-img')) {
+      t.style.display = 'none';
+    }
+  },
+  true
+);
 
 // Start the application when DOM is ready
 if (document.readyState === 'loading') {

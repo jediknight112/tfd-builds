@@ -44,7 +44,7 @@ describe('createDefaultBuild', () => {
     expect(build.reactorAdditionalStats[1]).toEqual({ name: '', value: 0 });
 
     expect(build.externalComponents).toEqual({});
-    expect(build.archeTuning).toEqual([null, null, null]);
+    expect(build.archeTuning).toEqual([null, null, null, null, null]);
   });
 
   it('should return independent copies with no shared references', () => {

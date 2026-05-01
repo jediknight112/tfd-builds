@@ -202,8 +202,8 @@ export class BuildSerializer {
       ['descendantModules', 12],
       ['w', 3], // weapons
       ['weapons', 3],
-      ['a', 3], // arche tuning boards
-      ['archeTuning', 3],
+      ['a', 5], // arche tuning boards (5 in-game slots since the 2026 update)
+      ['archeTuning', 5],
       ['e', 16], // external components
       ['externalComponents', 16],
     ];
@@ -449,14 +449,14 @@ export class BuildSerializer {
     // Reconstruct arche tuning
     // v3: data.a = [[board_id, [[node_id, row, col]]], ...]
     // v2: data.a = [board_id, [[node_id, row, col]]] (single board)
-    const archeTuning = [null, null, null];
+    const archeTuning = [null, null, null, null, null];
     if (buildData.a && buildData.a.length > 0) {
       // Detect v2 vs v3: in v2 data.a[0] is a string (board_id), in v3 it's an array
       const isV3 = Array.isArray(buildData.a[0]);
       const boardEntries = isV3 ? buildData.a : [buildData.a];
 
       boardEntries.forEach((entry, slotIdx) => {
-        if (!entry || slotIdx >= 3) return;
+        if (!entry || slotIdx >= 5) return;
 
         const boardId = entry[0];
         const board = this.state.archeTuningBoards.find(

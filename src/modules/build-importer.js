@@ -1,5 +1,6 @@
 import { state } from '../state.js';
 import { apiClient } from '../api-client.js';
+import { MAX_BOARD_SLOTS } from './arche-tuning.js';
 
 /**
  * Module slot ID to internal slot index mapping.
@@ -258,14 +259,14 @@ export class BuildImporter {
       };
     });
 
-    // Step 9: Map arche tuning (multi-board)
-    // The Nexon API groups selected nodes by source board within each slot.
-    // A slot's complete grid is composed of positions from multiple boards
-    // (a shared base board and a descendant-specific board). We map each
-    // slot_id to a board slot, collect selected nodes from ALL boards in
-    // that slot, and store the descendant-specific board (which contains
-    // all grid positions) as the reference board.
-    const archeTuning = [null, null, null];
+    // Step 9: Map arche tuning (one entry per slot)
+    // The Nexon API may return multiple `arche_tuning_board` entries per
+    // slot for older descendants (a base-board entry alongside the
+    // descendant-specific entry). Merging them is incorrect — it produces
+    // phantom positions that inflate the cost beyond the 40-point cap.
+    // The user's actual selection corresponds to a single entry per slot;
+    // we pick the entry with the highest selected-cost (the real loadout).
+    const archeTuning = new Array(MAX_BOARD_SLOTS).fill(null);
     if (archeTuningData.arche_tuning) {
       // Resolve the descendant-specific board (superset of all positions)
       const boardGroup = (state.archeTuningBoardGroups || []).find(
@@ -278,30 +279,50 @@ export class BuildImporter {
           )
         : null;
 
+      const nodeCost = (nodeId) => {
+        const n = state.archeTuningNodes.find((nd) => nd.node_id === nodeId);
+        return n?.required_tuning_point || 0;
+      };
+
       archeTuningData.arche_tuning.forEach((slot) => {
         const slotIdx = Number.parseInt(String(slot.slot_id), 10);
-        if (slotIdx < 0 || slotIdx >= 3) return;
+        if (slotIdx < 0 || slotIdx >= MAX_BOARD_SLOTS) return;
 
         const boards = slot.arche_tuning_board || [];
         if (boards.length === 0) return;
 
+        // Pick the entry with the highest total cost. Ties prefer the
+        // descendant-specific board over the generic base board.
+        const chosen = boards.reduce((best, entry) => {
+          const cost = (entry.node || []).reduce(
+            (sum, n) => sum + nodeCost(n.node_id),
+            0
+          );
+          const isDescendant =
+            entry.arche_tuning_board_id === descendantBoardId;
+          if (!best) return { entry, cost, isDescendant };
+          if (cost > best.cost) return { entry, cost, isDescendant };
+          if (cost === best.cost && isDescendant && !best.isDescendant) {
+            return { entry, cost, isDescendant };
+          }
+          return best;
+        }, null).entry;
+
         // Use the descendant-specific board as the reference (has all
-        // grid positions). Fall back to the first board in the slot.
+        // grid positions). Fall back to the chosen entry's board.
         const boardObj =
           descendantBoard ||
           state.archeTuningBoards.find(
-            (b) => b.arche_tuning_board_id === boards[0].arche_tuning_board_id
+            (b) => b.arche_tuning_board_id === chosen.arche_tuning_board_id
           );
         if (!boardObj) {
           warnings.push(
-            `Arche tuning board not found: ${boards[0].arche_tuning_board_id}`
+            `Arche tuning board not found: ${chosen.arche_tuning_board_id}`
           );
           return;
         }
 
-        // Collect selected nodes from ALL boards in this slot
-        const selectedNodes = boards
-          .flatMap((boardEntry) => boardEntry.node || [])
+        const selectedNodes = (chosen.node || [])
           .map((n) => {
             const nodeObj = state.archeTuningNodes.find(
               (nd) => nd.node_id === n.node_id

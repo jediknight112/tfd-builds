@@ -150,7 +150,7 @@ export class ReactorSelector {
             alt="${reactor.reactor_name}"
             class="w-16 h-16 object-cover rounded-sm border-2 border-steel-grey/30 shrink-0 game-img"
             loading="lazy"
-            onerror="this.style.display='none'"
+
           >
           <div class="flex-1 min-w-0">
             <h4 class="font-bold text-cyber-cyan line-clamp-2 mb-1">${reactor.reactor_name}</h4>
@@ -209,7 +209,7 @@ export class ReactorSelector {
 
     if (!reactor) {
       container.innerHTML = `
-        <div class="module-slot p-6 text-center cursor-pointer hover:border-cyber-cyan transition-all" onclick="app.reactorSelector.openReactorSelector()">
+        <div class="module-slot p-6 text-center cursor-pointer hover:border-cyber-cyan transition-all" data-action="openReactorSelector">
           <svg class="w-12 h-12 mx-auto mb-2 text-steel-grey" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
           </svg>
@@ -258,14 +258,14 @@ export class ReactorSelector {
             alt="${reactor.reactor_name}"
             class="w-24 h-24 object-cover rounded-sm border-2 border-steel-grey/30 shrink-0 game-img"
             loading="lazy"
-            onerror="this.style.display='none'"
+
           >
           <div class="flex-1">
             <h3 class="text-xl font-bold text-cyber-cyan mb-2">${reactor.reactor_name}</h3>
             ${reactor.reactor_tier_id ? `<span class="inline-block px-3 py-1 rounded-sm text-sm font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${state.getTierDisplayName(reactor.reactor_tier_id)}</span>` : ''}
           </div>
           <button 
-            onclick="app.reactorSelector.openReactorSelector()"
+            data-action="openReactorSelector"
             class="btn-secondary text-sm px-3 py-1"
           >
             Change

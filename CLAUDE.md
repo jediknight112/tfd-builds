@@ -11,7 +11,7 @@ This document provides essential context for Claude to effectively assist with d
 - Equip and customize weapons (3 weapons, each with 10 modules + stats)
 - Configure reactors with additional stats
 - Add external components with core stats
-- Set up Arche Tuning boards and nodes (up to 3 boards per build)
+- Set up Arche Tuning boards and nodes (up to 5 boards per build)
 - Share builds via **short links** (e.g., `/s/AbCdEf`) backed by Cloudflare KV
 - **Import builds from the Nexon API** using an in-game username
 
@@ -70,7 +70,7 @@ Each module is self-contained and handles a specific feature:
 - **[external-component-selector.js](src/modules/external-component-selector.js)**: External components (4 types)
 - **[core-selector.js](src/modules/core-selector.js)**: Core stat selection UI
 - **[custom-stat-selector.js](src/modules/custom-stat-selector.js)**: Custom stat configuration
-- **[arche-tuning.js](src/modules/arche-tuning.js)**: Multi-board arche tuning (3 boards per build)
+- **[arche-tuning.js](src/modules/arche-tuning.js)**: Multi-board arche tuning (up to 5 boards per build, governed by `MAX_BOARD_SLOTS`)
 - **[build-importer.js](src/modules/build-importer.js)**: Import builds from the Nexon API via username lookup
 
 ### Configuration
@@ -223,7 +223,7 @@ export function createMyComponent(data) {
 5. **Two-pass module placement**: Named slots (`Main 3`, `Skill 1`) placed first, then numeric-only slots (`"9"`) placed into remaining empties based on `available_module_slot_type`
 6. **Localized equipment type handling**: External component equipment types are converted from localized strings to English keys via `state.getEnglishEquipmentType()` for internal consistency
 7. **Weapon rounds type resolution**: The Nexon API uses `weapon_rounds_type: "Enhanced Ammo"` for certain weapons, but the matching modules use `module_class: "Special Rounds"`. The `state.resolveModuleClassForRoundsType()` method handles this mismatch (including all 12 localized variants). Other rounds types (`General Rounds`, `Impact Rounds`, `High-Power Rounds`) match directly between weapons and modules.
-8. **Arche tuning slot-based mapping**: Each slot from the API maps by `slot_id` to a board slot (0-2). Nodes from ALL boards within a slot are merged. See the Arche Tuning System section below for details.
+8. **Arche tuning slot-based mapping**: Each slot from the API maps by `slot_id` to a board slot (0-4). When the API returns multiple `arche_tuning_board` entries within a single slot (a quirk for older descendants), the importer picks the entry with the highest selected-cost — NOT a merge. See the Arche Tuning System section below for details.
 9. Build data populated into state and UI re-rendered
 
 ### Build Serialization & Sharing
@@ -269,14 +269,16 @@ The Worker uses these to proxy `/api/tfd/*` requests with the right auth headers
 - 4 base stats per weapon (customizable)
 - 5 core stats per weapon (predefined options)
 - 4 external component types (Auxiliary Power, Sensor, Memory, Processor) - stored internally with English keys
-- **3 Arche Tuning boards per build** - each independently configurable with up to 40 tuning points
+- **Up to 5 Arche Tuning boards per build** (3 by default, expandable to 5 via Caliber in-game) - each independently configurable with up to 40 tuning points
 - **Mobile Share Button**: The mobile share button is disabled (greyed out) until a descendant is selected.
 
 ### Arche Tuning System
 
 #### High-Level Overview
 
-Each build supports **3 independent arche tuning board slots** (Board 1, Board 2, Board 3). The `ArcheTuning` class manages these via a `boardSlots[3]` array, each containing `selectedNodes` (Set), `nodePositionMap` (object mapping `"row,col"` → `node_id`), and `currentBoard` (board metadata object).
+Each build supports up to **5 independent arche tuning board slots** (Board 1 through Board 5; the 2026 update raised this from 3). The `ArcheTuning` class manages these via a `boardSlots` array sized by the exported `MAX_BOARD_SLOTS` constant (currently `5`), each containing `selectedNodes` (Set), `nodePositionMap` (object mapping `"row,col"` → `node_id`), and `currentBoard` (board metadata object).
+
+When the cap changes again, update `MAX_BOARD_SLOTS` in `arche-tuning.js` and the matching `[null, …]` defaults in `state.js`, the deserializer in `build-serializer.js` (`archeTuning = [null, …]` plus the `>= 5` guard and the `_hasReasonableShape` `'a'` / `'archeTuning'` limits), and the empty-archeTuning expectations in tests.
 
 - **Grid**: 21×21 hex-style grid with anchor points, adjacency-based selection, and a 40-point cost limit.
 - **Responsive**: Horizontal scroll on mobile with auto-centering, floating tooltips (hover on desktop, long-press on mobile).
@@ -325,15 +327,21 @@ When importing a build, the Nexon API returns arche tuning data grouped by **slo
 }
 ```
 
-**Key insight**: Within a single slot, the `arche_tuning_board` array can contain MULTIPLE boards. The selected nodes are distributed across boards based on which board "owns" each grid position. Nodes on inner positions come from the base board; nodes on corner/edge positions come from the descendant-specific board. **All of these nodes belong to the same visual grid in the same slot** — they must be merged.
+**Key insight (corrected May 2026):** When a slot has MULTIPLE `arche_tuning_board` entries, **DO NOT merge them**. The previous interpretation (positions partitioned across boards by ownership) was wrong — merging produces phantom positions that inflate the cost beyond the 40-point cap.
+
+What's actually going on: for older descendants (e.g. Ines `101200026`, U.Viessa `101200003`), Nexon's API includes a generic base-board entry (`101400001`) under `slot_id: "0"` alongside the descendant-specific entry. The base entry is **identical bit-for-bit across users** (same 32 positions and same 32 node_ids for both Ines and U.Viessa), so it's not user data — it's a server-side default/template. The user's real selection lives in **one** of the entries (the one whose total cost matches the in-game state). Newer descendants (e.g. Dia `101200032`) return one entry per slot and don't exhibit the quirk.
+
+Each slot's selection therefore corresponds to a single `arche_tuning_board` entry. The importer picks the entry with the **highest selected-cost**, with ties broken in favor of the descendant-specific board over the base board.
 
 #### Build Importer Arche Tuning Logic (`build-importer.js`)
 
 1. **Resolve the descendant-specific board** via `state.archeTuningBoardGroups` using the descendant's `descendant_group_id`.
-2. **Map by `slot_id`** (not by iterating boards sequentially). `slot_id: "0"` → `archeTuning[0]`, `slot_id: "1"` → `archeTuning[1]`, etc.
-3. **Use the descendant-specific board as the stored board object** (it has all grid positions). Fall back to the first board in the slot if the descendant-specific board can't be resolved.
-4. **Merge selected nodes** from ALL boards within the slot using `flatMap` over the `arche_tuning_board[]` array.
+2. **Map by `slot_id`** (not by iterating boards sequentially). `slot_id: "0"` → `archeTuning[0]`, `slot_id: "1"` → `archeTuning[1]`, up to `MAX_BOARD_SLOTS - 1`.
+3. **Pick one entry per slot.** For each slot, compute each entry's total selected-cost (sum of `required_tuning_point` for its nodes), then keep the entry with the highest cost. Ties prefer the descendant-specific board over the base board.
+4. **Use the descendant-specific board as the stored board object** (it has all grid positions). Fall back to the chosen entry's board if the descendant-specific board can't be resolved.
 5. Store as `{ board: boardObj, selectedNodes: [...] }` in the `archeTuning[slotIdx]` array.
+
+For older descendants this means the positions shown won't be a perfect 1:1 match to the in-game state (the base entry uses functionally-identical-but-different-ID node variants and may include a few phantom positions), but the cost will be correct and the user can manually adjust. Newer descendants are exact.
 
 #### `loadFromState()` Logic (`arche-tuning.js`)
 
@@ -364,15 +372,16 @@ Active references (`this.selectedNodes`, `this.nodePositionMap`, `this.currentBo
 - **`_saveCurrentSlot()`**: Writes active references back to `boardSlots[currentSlotIndex]`.
 - **`_loadSlot(index)`**: Reads from `boardSlots[index]` into active references.
 - **`_loadDefaultBoard()`**: Resolves and loads the descendant-specific board, syncs to slot.
-- **`reset()`**: Called by `initializeBuild()` when switching descendants or languages. Clears all 3 board slots.
+- **`reset()`**: Called by `initializeBuild()` when switching descendants or languages. Clears all `MAX_BOARD_SLOTS` board slots via `makeEmptyBoardSlots()`.
 
 #### Common Arche Tuning Mistakes to Avoid
 
-- **DON'T map boards sequentially** across slots (e.g., iterating all boards with `boardSlotIdx++`). Each slot's boards are part of a SINGLE composite grid — they must be merged within the slot.
-- **DON'T assume one board per slot**. A slot typically has 2 boards (base + descendant-specific) when nodes span both.
+- **DON'T merge `arche_tuning_board[]` entries within a slot.** Each slot's user selection lives in a single entry; merging duplicates positions and inflates the cost (the original 49/40 bug). Pick the highest-cost entry instead.
+- **DON'T trust slot_id=0's base-board entry as user data for older descendants.** It's a fixed Nexon-side default that's identical across users (same 32 nodes for Ines and U.Viessa). It only "wins" the highest-cost selection when it happens to match the user's cost exactly.
 - **DON'T store the base board as the reference** if the descendant-specific board is available. The descendant-specific board is the superset with all positions.
 - **DON'T modify `_loadDefaultBoard()` or `loadFromState()` without ensuring active `this.*` references stay in sync** with `boardSlots[currentSlotIndex]`.
 - **DON'T remove the `invisible` class logic** from `applyNodeClasses` — it prevents empty position outlines on boards with fewer positions.
+- **DON'T hardcode `3` for board-slot counts.** Use `MAX_BOARD_SLOTS` from `arche-tuning.js`.
 
 ### Gaming Theme
 
@@ -400,7 +409,7 @@ Active references (`this.selectedNodes`, `this.nodePositionMap`, `this.currentBo
 8. **Don't guess API shapes**: Check API responses and type definitions in `src/types.d.ts`, or reference example data in `Nexon API Schema/`
 9. **Don't use English-only keys for localized data**: Use `state.getEnglishEquipmentType()` to normalize localized values back to English keys for internal storage
 10. **Don't forget to sync arche tuning board slots**: When modifying `_loadDefaultBoard()` or `loadFromState()`, ensure active `this.*` references stay in sync with `boardSlots[currentSlotIndex]`
-11. **Don't map arche tuning boards sequentially across slots**: A single slot can contain multiple boards — merge their nodes, don't split them into separate board slots. See the Arche Tuning System section for details.
+11. **Don't merge `arche_tuning_board[]` entries within a slot when importing**: Each slot's user selection corresponds to ONE entry. Pick the highest-cost entry; merging produces phantom positions that inflate cost beyond the 40-point cap. See the Arche Tuning System section for details.
 12. **Don't assume weapon `weapon_rounds_type` matches `module_class` directly**: "Enhanced Ammo" maps to "Special Rounds". Use `state.resolveModuleClassForRoundsType()`.
 
 ## Related Repositories

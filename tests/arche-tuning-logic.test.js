@@ -10,7 +10,7 @@ vi.mock('../src/state.js', () => ({
     descendants: [],
     stats: [],
     currentDescendant: null,
-    currentBuild: { archeTuning: [null, null, null] },
+    currentBuild: { archeTuning: [null, null, null, null, null] },
   },
 }));
 
@@ -154,6 +154,65 @@ describe('ArcheTuning - Pure Logic', () => {
     });
   });
 
+  describe('canDeselect', () => {
+    it('returns true for an unselected node (no-op)', () => {
+      expect(tuning.canDeselect(9, 10)).toBe(true);
+    });
+
+    it('returns true when removing a leaf at the edge of the path', () => {
+      // path: center -> (9,10) -> (8,10)
+      tuning.selectedNodes.add('9,10');
+      tuning.selectedNodes.add('8,10');
+      expect(tuning.canDeselect(8, 10)).toBe(true);
+    });
+
+    it('returns false when removing a node would orphan another', () => {
+      // path: center -> (9,10) -> (8,10). Removing (9,10) cuts (8,10)
+      // off from the center anchor.
+      tuning.selectedNodes.add('9,10');
+      tuning.selectedNodes.add('8,10');
+      expect(tuning.canDeselect(9, 10)).toBe(false);
+    });
+
+    it('returns true when removing a node inside a cycle (the bug fix)', () => {
+      // Build a real cycle on the hex grid that closes through the
+      // center anchor (10,10). Cycle path:
+      //   (9,10)-(8,10)-(8,11)-(8,12)-(9,12)-(10,12)-(10,11)-anchor-(9,10)
+      // Each node in the loop has 2 selected/anchor neighbors. The old
+      // "selectedNeighbors <= 1" rule would block all of them.
+      ['9,10', '8,10', '8,11', '8,12', '9,12', '10,12', '10,11'].forEach((k) =>
+        tuning.selectedNodes.add(k)
+      );
+
+      // Sanity: every node in the loop has >1 neighbor (old rule blocked).
+      [
+        [9, 10],
+        [8, 10],
+        [8, 11],
+        [8, 12],
+        [9, 12],
+        [10, 12],
+        [10, 11],
+      ].forEach(([r, c]) => {
+        expect(tuning.countSelectedNeighbors(r, c)).toBeGreaterThan(1);
+        expect(tuning.canDeselect(r, c)).toBe(true);
+      });
+    });
+
+    it('returns false for a bridge node between the cycle and a tail', () => {
+      // Same cycle, plus a tail (8,9) hanging off (8,10). Removing
+      // (8,10) would orphan (8,9), so it must be blocked. (8,11) is
+      // still purely a cycle node and remains safe.
+      ['9,10', '8,10', '8,11', '8,12', '9,12', '10,12', '10,11', '8,9'].forEach(
+        (k) => tuning.selectedNodes.add(k)
+      );
+
+      expect(tuning.canDeselect(8, 10)).toBe(false);
+      expect(tuning.canDeselect(8, 11)).toBe(true);
+      expect(tuning.canDeselect(8, 9)).toBe(true); // leaf
+    });
+  });
+
   describe('calculateTotalCost', () => {
     it('should return 0 with no selections', () => {
       expect(tuning.calculateTotalCost()).toBe(0);
@@ -219,7 +278,7 @@ describe('ArcheTuning - Pure Logic', () => {
       expect(tuning.currentBoard).toBeNull();
       expect(tuning.metadataLoaded).toBe(false);
       expect(tuning.currentSlotIndex).toBe(0);
-      expect(tuning.boardSlots).toHaveLength(3);
+      expect(tuning.boardSlots).toHaveLength(5);
       tuning.boardSlots.forEach((slot) => {
         expect(slot.selectedNodes.size).toBe(0);
         expect(slot.nodePositionMap).toEqual({});

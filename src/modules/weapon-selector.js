@@ -142,7 +142,7 @@ export class WeaponSelector {
         <div class="flex items-start gap-3 mb-3">
           ${
             weapon.image_url
-              ? `<img src="${weapon.image_url}" alt="${weapon.weapon_name}" class="w-16 h-16 object-cover rounded-sm border-2 border-steel-grey/30 shrink-0 game-img" loading="lazy" onerror="this.style.display='none'">`
+              ? `<img src="${weapon.image_url}" alt="${weapon.weapon_name}" class="w-16 h-16 object-cover rounded-sm border-2 border-steel-grey/30 shrink-0 game-img" loading="lazy">`
               : '<div class="w-16 h-16 bg-void-deep flex items-center justify-center rounded-sm border-2 border-steel-grey/30 shrink-0"><span class="text-steel-dark text-xs">No Image</span></div>'
           }
           <div class="flex-1 min-w-0">
@@ -431,7 +431,7 @@ export class WeaponSelector {
         <div class="flex items-start gap-2 sm:gap-3 mb-2 sm:mb-3">
           ${
             module.image_url
-              ? `<img src="${module.image_url}" alt="${module.module_name}" class="w-12 h-12 sm:w-16 sm:h-16 object-cover rounded-sm border-2 border-steel-grey/30 shrink-0 game-img" loading="lazy" onerror="this.style.display='none'">`
+              ? `<img src="${module.image_url}" alt="${module.module_name}" class="w-12 h-12 sm:w-16 sm:h-16 object-cover rounded-sm border-2 border-steel-grey/30 shrink-0 game-img" loading="lazy">`
               : '<div class="w-12 h-12 sm:w-16 sm:h-16 bg-void-deep flex items-center justify-center rounded-sm border-2 border-steel-grey/30 shrink-0"><span class="text-steel-dark text-[10px]">No Image</span></div>'
           }
           <div class="flex-1 min-w-0">

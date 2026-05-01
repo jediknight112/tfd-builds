@@ -60,7 +60,7 @@ describe('BuildSerializer - Extended Coverage', () => {
           { name: '', value: 0 },
         ],
         externalComponents: {},
-        archeTuning: [null, null, null],
+        archeTuning: [null, null, null, null, null],
       },
     };
 
@@ -321,7 +321,7 @@ describe('BuildSerializer - Extended Coverage', () => {
 
       expect(result.valid).toBe(true);
       expect(Array.isArray(result.build.archeTuning)).toBe(true);
-      expect(result.build.archeTuning).toHaveLength(3);
+      expect(result.build.archeTuning).toHaveLength(5);
       expect(result.build.archeTuning[0]).not.toBeNull();
       expect(result.build.archeTuning[0].board.arche_tuning_board_id).toBe(
         'board1'
@@ -333,6 +333,8 @@ describe('BuildSerializer - Extended Coverage', () => {
       expect(result.build.archeTuning[0].selectedNodes[0].position_row).toBe(9);
       expect(result.build.archeTuning[1]).toBeNull();
       expect(result.build.archeTuning[2]).toBeNull();
+      expect(result.build.archeTuning[3]).toBeNull();
+      expect(result.build.archeTuning[4]).toBeNull();
     });
 
     it('should deserialize v3 multi-board arche tuning', () => {
@@ -357,6 +359,8 @@ describe('BuildSerializer - Extended Coverage', () => {
         'node2'
       );
       expect(result.build.archeTuning[2]).toBeNull();
+      expect(result.build.archeTuning[3]).toBeNull();
+      expect(result.build.archeTuning[4]).toBeNull();
     });
 
     it('should warn for missing arche tuning board and nodes', () => {

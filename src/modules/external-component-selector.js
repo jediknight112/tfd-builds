@@ -150,7 +150,7 @@ export class ExternalComponentSelector {
             alt="${component.external_component_name}"
             class="w-16 h-16 object-cover rounded-sm border-2 border-steel-grey/30 shrink-0 game-img"
             loading="lazy"
-            onerror="this.style.display='none'"
+
           >
           <div class="flex-1 min-w-0">
             <h4 class="font-bold text-cyber-cyan line-clamp-2 mb-1">${component.external_component_name}</h4>
@@ -240,7 +240,7 @@ export class ExternalComponentSelector {
             <h4 class="text-steel-grey font-bold text-sm mb-3">${equipmentType}</h4>
             <button 
               class="btn-secondary text-sm"
-              onclick="app.externalComponentSelector.openExternalComponentSelector('${equipmentType}')"
+              data-action="openExternalComponentSelector:${equipmentType}"
             >
               Select ${equipmentType}
             </button>
@@ -264,7 +264,7 @@ export class ExternalComponentSelector {
               alt="${component.external_component_name}"
               class="w-16 h-16 object-cover rounded-sm border-2 border-steel-grey/30 shrink-0 game-img"
               loading="lazy"
-              onerror="this.style.display='none'"
+
             >
             <div class="flex-1 min-w-0">
               <div class="text-steel-grey text-xs mb-1">${equipmentType}</div>
@@ -272,7 +272,7 @@ export class ExternalComponentSelector {
               ${component.external_component_tier_id ? `<span class="inline-block px-2 py-0.5 rounded-sm text-xs font-semibold bg-${tierClass}/20 text-${tierClass} border border-${tierClass}/30">${state.getTierDisplayName(component.external_component_tier_id)}</span>` : ''}
             </div>
             <button 
-              onclick="app.externalComponentSelector.openExternalComponentSelector('${equipmentType}')"
+              data-action="openExternalComponentSelector:${equipmentType}"
               class="btn-secondary text-xs"
             >
               Change

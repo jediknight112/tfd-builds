@@ -110,7 +110,7 @@ export class CustomStatSelector {
               ? 'bg-tfd-primary/20 border border-tfd-primary text-tfd-primary'
               : 'bg-tfd-dark hover:bg-tfd-primary/10 border border-steel-dark text-steel-light'
           }"
-          onclick="window.app.selectStat('${stat.stat_id}')">
+          data-action="selectStat:${stat.stat_id}">
           <div class="text-sm font-semibold">${stat.stat_name}</div>
           <div class="text-xs text-steel-dark">ID: ${stat.stat_id}</div>
         </button>

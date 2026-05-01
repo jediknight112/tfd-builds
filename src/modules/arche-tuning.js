@@ -1,5 +1,15 @@
 import { state } from '../state.js';
 
+export const MAX_BOARD_SLOTS = 5;
+
+function makeEmptyBoardSlots() {
+  return Array.from({ length: MAX_BOARD_SLOTS }, () => ({
+    selectedNodes: new Set(),
+    nodePositionMap: {},
+    currentBoard: null,
+  }));
+}
+
 export class ArcheTuning {
   constructor() {
     this.gridSize = 21; // 21x21 grid
@@ -17,13 +27,9 @@ export class ArcheTuning {
       { row: 20, col: 10 }, // Bottom
     ];
 
-    // Multi-board slot management (3 slots: 0, 1, 2)
+    // Multi-board slot management (up to MAX_BOARD_SLOTS slots)
     this.currentSlotIndex = 0;
-    this.boardSlots = [
-      { selectedNodes: new Set(), nodePositionMap: {}, currentBoard: null },
-      { selectedNodes: new Set(), nodePositionMap: {}, currentBoard: null },
-      { selectedNodes: new Set(), nodePositionMap: {}, currentBoard: null },
-    ];
+    this.boardSlots = makeEmptyBoardSlots();
 
     // Active slot state (mirrors boardSlots[currentSlotIndex])
     this.selectedNodes = this.boardSlots[0].selectedNodes;
@@ -47,11 +53,7 @@ export class ArcheTuning {
 
   reset() {
     this.currentSlotIndex = 0;
-    this.boardSlots = [
-      { selectedNodes: new Set(), nodePositionMap: {}, currentBoard: null },
-      { selectedNodes: new Set(), nodePositionMap: {}, currentBoard: null },
-      { selectedNodes: new Set(), nodePositionMap: {}, currentBoard: null },
-    ];
+    this.boardSlots = makeEmptyBoardSlots();
     this.selectedNodes = this.boardSlots[0].selectedNodes;
     this.nodePositionMap = this.boardSlots[0].nodePositionMap;
     this.currentBoard = null;
@@ -128,7 +130,7 @@ export class ArcheTuning {
 
   switchBoardSlot(index) {
     if (index === this.currentSlotIndex) return;
-    if (index < 0 || index > 2) return;
+    if (index < 0 || index >= MAX_BOARD_SLOTS) return;
 
     this._saveCurrentSlot();
     this.currentSlotIndex = index;
@@ -306,6 +308,49 @@ export class ArcheTuning {
     return false;
   }
 
+  // Whether (row, col) can be safely deselected. A node is removable iff
+  // every other selected node is still reachable from the center anchor
+  // (10, 10) through the remaining selection. This permits breaking
+  // cycles — a node with two selected neighbors can be removed if the
+  // alternate path keeps everything connected.
+  canDeselect(row, col) {
+    const candidate = `${row},${col}`;
+    if (!this.selectedNodes.has(candidate)) return true;
+
+    const remaining = new Set(this.selectedNodes);
+    remaining.delete(candidate);
+    if (remaining.size === 0) return true;
+
+    const visited = new Set();
+    const queue = [{ row: 10, col: 10 }];
+    visited.add('10,10');
+
+    while (queue.length > 0) {
+      const { row: r, col: c } = queue.shift();
+      const neighbors = [
+        { row: r - 1, col: c },
+        { row: r + 1, col: c },
+        { row: r, col: c - 1 },
+        { row: r, col: c + 1 },
+      ];
+      for (const n of neighbors) {
+        const k = `${n.row},${n.col}`;
+        if (visited.has(k)) continue;
+        if (n.row < 0 || n.row >= this.gridSize) continue;
+        if (n.col < 0 || n.col >= this.gridSize) continue;
+        if (!this.gridStructure[n.row][n.col]) continue;
+        if (!remaining.has(k)) continue;
+        visited.add(k);
+        queue.push(n);
+      }
+    }
+
+    for (const k of remaining) {
+      if (!visited.has(k)) return false;
+    }
+    return true;
+  }
+
   countSelectedNeighbors(row, col) {
     let count = 0;
 
@@ -396,7 +441,7 @@ export class ArcheTuning {
     const container = document.getElementById('arche-tuning');
     if (!container) return;
 
-    const slotTabs = [0, 1, 2]
+    const slotTabs = Array.from({ length: MAX_BOARD_SLOTS }, (_, i) => i)
       .map((i) => {
         const isActive = i === this.currentSlotIndex;
         const hasData = this.boardSlots[i].selectedNodes.size > 0;
@@ -408,7 +453,7 @@ export class ArcheTuning {
                 ? 'bg-void-blue/30 text-steel-light border-steel-grey/30 hover:text-cyber-cyan'
                 : 'bg-transparent text-steel-grey border-steel-grey/20 hover:text-steel-light'
           }"
-          onclick="app.archeTuning.switchBoardSlot(${i})"
+          data-action="switchArcheBoardSlot:${i}"
         >Board ${i + 1}${hasData ? ' *' : ''}</button>`;
       })
       .join('');
@@ -421,9 +466,9 @@ export class ArcheTuning {
             <div class="text-xs sm:text-sm text-steel-grey">
               Arche Points: <span id="selected-count" class="text-cyber-cyan font-bold">0</span><span class="text-steel-grey">/40</span>
             </div>
-            <button 
+            <button
               class="btn-secondary text-xs sm:text-sm px-3 sm:px-4 py-1.5 sm:py-2"
-              onclick="app.archeTuning.clearSelection()"
+              data-action="clearArcheTuningSelection"
             >
               Clear Selection
             </button>
@@ -658,9 +703,7 @@ export class ArcheTuning {
     const nodeKey = `${row},${col}`;
 
     if (this.selectedNodes.has(nodeKey)) {
-      const selectedNeighbors = this.countSelectedNeighbors(row, col);
-
-      if (selectedNeighbors <= 1) {
+      if (this.canDeselect(row, col)) {
         this.selectedNodes.delete(nodeKey);
       } else {
         return;
@@ -816,8 +859,8 @@ export class ArcheTuning {
     // Ensure current slot is synced
     this._saveCurrentSlot();
 
-    const archeTuning = [null, null, null];
-    for (let i = 0; i < 3; i++) {
+    const archeTuning = new Array(MAX_BOARD_SLOTS).fill(null);
+    for (let i = 0; i < MAX_BOARD_SLOTS; i++) {
       const slot = this.boardSlots[i];
       if (!slot.currentBoard || slot.selectedNodes.size === 0) continue;
 
@@ -911,7 +954,7 @@ export class ArcheTuning {
     // Handle both old single-object format and new array format
     if (Array.isArray(archeTuning)) {
       archeTuning.forEach((slot, idx) => {
-        if (idx >= 3 || !slot) return;
+        if (idx >= MAX_BOARD_SLOTS || !slot) return;
         const boardSlot = this.boardSlots[idx];
         boardSlot.selectedNodes = new Set();
 

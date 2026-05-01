@@ -724,7 +724,7 @@ export class UIComponents {
       error: 'bg-red-600',
       info: 'bg-blue-600',
     };
-    toast.className = `${bgColors[type] || bgColors.info} text-white px-6 py-3 rounded-lg shadow-lg flex items-center gap-3 min-w-[300px] animate-slide-in`;
+    toast.className = `toast ${bgColors[type] || bgColors.info} text-white px-6 py-3 rounded-lg shadow-lg flex items-center gap-3 min-w-[300px] animate-slide-in`;
 
     const icons = {
       success: '✓',
@@ -736,7 +736,7 @@ export class UIComponents {
     toast.innerHTML = `
       <span class="text-xl font-bold">${icons[type] || icons.info}</span>
       <span class="flex-1">${escapeHTML(message)}</span>
-      <button onclick="this.parentElement.remove()" class="text-white hover:text-white/80 text-xl font-bold">&times;</button>
+      <button data-action="closeToast" class="text-white hover:text-white/80 text-xl font-bold">&times;</button>
     `;
 
     toastContainer.appendChild(toast);
