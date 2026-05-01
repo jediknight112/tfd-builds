@@ -12,3 +12,7 @@ src/styles/output.css
 
 # Nexon API reference data (large, contains personal data)
 Nexon API Schema/
+
+# IDE / editor
+.idea/
+.vscode/
