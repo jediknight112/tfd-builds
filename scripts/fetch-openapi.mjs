@@ -31,17 +31,26 @@ const UA = { 'User-Agent': 'tfd-builds/openapi-fetch (Mozilla/5.0)' };
 // during integration. See CLAUDE.md for the longer explanations.
 const QUIRK_NOTES = {
   schemas: {
-    DescendantResponse: 'NOTE (tfd-builds): `descendant_image_url` is currently null in every metadata response (verified directly against Nexon, not a caching artifact).',
-    ModuleResponse: 'NOTE (tfd-builds): `image_url` is currently null in every metadata response.',
-    WeaponResponse: 'NOTE (tfd-builds): `image_url` and `weapon_perk_ability_image_url` are currently null in every metadata response.',
-    ReactorResponse: 'NOTE (tfd-builds): `image_url` is currently null in every metadata response.',
-    ExternalComponentResponse: 'NOTE (tfd-builds): `image_url` is currently null in every metadata response.',
-    ArcheTuningNodeResponse: 'NOTE (tfd-builds): `node_image_url` is currently null in every metadata response.',
-    UserDescendant: 'NOTE (tfd-builds): The response represents the descendant\'s currently active module loadout. There is no preset_id field — switching presets in-game changes WHICH loadout is returned, but the response shape is unchanged. The `descendant_slot_id` field refers to the character roster slot, not a module preset.',
-    UserArcheTuning: 'NOTE (tfd-builds): For older descendants (e.g., Ines `descendant_group_id` 101200026, U.Viessa 101200003) `slot_id=0` may include BOTH a generic base-board entry (`arche_tuning_board_id` 101400001) AND the descendant-specific entry. The base entry is identical bit-for-bit across users (32 nodes, cost 40, same node_ids) and is NOT user data. Newer descendants (e.g., Dia 101200032) return one entry per slot and don\'t exhibit this quirk. When importing, treat each entry independently and pick the one with the highest selected-cost (sum of `required_tuning_point`) as the user\'s actual loadout — merging entries within a slot produces phantom positions that inflate cost beyond the 40-point cap.',
+    DescendantResponse:
+      'NOTE (tfd-builds): `descendant_image_url` is currently null in every metadata response (verified directly against Nexon, not a caching artifact).',
+    ModuleResponse:
+      'NOTE (tfd-builds): `image_url` is currently null in every metadata response.',
+    WeaponResponse:
+      'NOTE (tfd-builds): `image_url` and `weapon_perk_ability_image_url` are currently null in every metadata response.',
+    ReactorResponse:
+      'NOTE (tfd-builds): `image_url` is currently null in every metadata response.',
+    ExternalComponentResponse:
+      'NOTE (tfd-builds): `image_url` is currently null in every metadata response.',
+    ArcheTuningNodeResponse:
+      'NOTE (tfd-builds): `node_image_url` is currently null in every metadata response.',
+    UserDescendant:
+      "NOTE (tfd-builds): The response represents the descendant's currently active module loadout. There is no preset_id field — switching presets in-game changes WHICH loadout is returned, but the response shape is unchanged. The `descendant_slot_id` field refers to the character roster slot, not a module preset.",
+    UserArcheTuning:
+      "NOTE (tfd-builds): For older descendants (e.g., Ines `descendant_group_id` 101200026, U.Viessa 101200003) `slot_id=0` may include BOTH a generic base-board entry (`arche_tuning_board_id` 101400001) AND the descendant-specific entry. The base entry is identical bit-for-bit across users (32 nodes, cost 40, same node_ids) and is NOT user data. Newer descendants (e.g., Dia 101200032) return one entry per slot and don't exhibit this quirk. When importing, treat each entry independently and pick the one with the highest selected-cost (sum of `required_tuning_point`) as the user's actual loadout — merging entries within a slot produces phantom positions that inflate cost beyond the 40-point cap.",
   },
   operations: {
-    'GET /tfd/v1/user/arche-tuning': 'NOTE (tfd-builds): See UserArcheTuning schema for the slot_id=0 phantom-data quirk that affects older descendants.',
+    'GET /tfd/v1/user/arche-tuning':
+      'NOTE (tfd-builds): See UserArcheTuning schema for the slot_id=0 phantom-data quirk that affects older descendants.',
   },
 };
 
@@ -58,9 +67,7 @@ async function fetchText(url) {
  */
 async function discoverSpecs() {
   const html = await fetchText(PORTAL_URL);
-  const matches = [
-    ...html.matchAll(/\/api\/tfd\/(\d+_en_script\d+\.yaml)/g),
-  ];
+  const matches = [...html.matchAll(/\/api\/tfd\/(\d+_en_script\d+\.yaml)/g)];
   const filenames = [...new Set(matches.map((m) => m[1]))].sort();
   if (filenames.length < 4) {
     throw new Error(
@@ -85,8 +92,9 @@ function mergeSpecs(specs) {
   // Cloned skeleton from the most-detailed source (the user/account spec):
   // we keep its info block since it has the longest description.
   const userSpec =
-    specs.find((s) => Object.keys(s.paths || {}).some((p) => p.startsWith('/tfd/v1/id'))) ||
-    specs[0];
+    specs.find((s) =>
+      Object.keys(s.paths || {}).some((p) => p.startsWith('/tfd/v1/id'))
+    ) || specs[0];
 
   const merged = {
     openapi: '3.0.3',
@@ -98,7 +106,7 @@ function mergeSpecs(specs) {
         '\n\n---\n\nThis spec is auto-generated by `scripts/fetch-openapi.mjs`, which downloads the four English YAMLs Nexon publishes ' +
         '(account info, metadata, module recommendation, leaderboard) and merges them into a single document. ' +
         'Run `npm run fetch:openapi` to refresh after Nexon publishes updates.\n\n' +
-        'Schemas and operations carry `NOTE (tfd-builds): ...` callouts where Nexon\'s upstream behavior has quirks worth knowing about.',
+        "Schemas and operations carry `NOTE (tfd-builds): ...` callouts where Nexon's upstream behavior has quirks worth knowing about.",
     },
     servers: userSpec.servers || [{ url: 'https://open.api.nexon.com' }],
     tags: [],
@@ -163,7 +171,8 @@ function annotate(spec) {
     const [method, p] = key.split(' ');
     const op = spec.paths?.[p]?.[method.toLowerCase()];
     if (op) append(op, note);
-    else console.warn(`  (skip) operation "${key}" not found — note not applied`);
+    else
+      console.warn(`  (skip) operation "${key}" not found — note not applied`);
   }
 }
 
