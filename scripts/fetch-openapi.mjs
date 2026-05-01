@@ -43,6 +43,8 @@ const QUIRK_NOTES = {
       'NOTE (tfd-builds): `image_url` is currently null in every metadata response.',
     ArcheTuningNodeResponse:
       'NOTE (tfd-builds): `node_image_url` is currently null in every metadata response.',
+    CoreSlotResponse:
+      'NOTE (tfd-builds): Spec field `available_core_type` is wrong — the live API actually returns `available_core_type_id` (an array of core_type_ids). Verified directly: `GET /static/tfd/meta/core-slot.json` returns objects keyed `core_slot_id, available_weapon_id, available_external_component_id, available_core_type_id`. tfd-builds reads the live field name; consumers using this spec for typed clients should override.',
     UserDescendant:
       "NOTE (tfd-builds): The response represents the descendant's currently active module loadout. There is no preset_id field — switching presets in-game changes WHICH loadout is returned, but the response shape is unchanged. The `descendant_slot_id` field refers to the character roster slot, not a module preset.",
     UserArcheTuning:

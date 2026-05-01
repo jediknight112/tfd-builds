@@ -56,8 +56,8 @@ export class UIComponents {
     }
 
     if (module) {
-      const tierClass = module.module_tier
-        ? `tier-${module.module_tier.toLowerCase()}`
+      const tierClass = module.module_tier_id
+        ? `tier-${module.module_tier_id.replace('Tier', '')}`
         : '';
       if (tierClass) {
         moduleSlot.classList.add(tierClass);

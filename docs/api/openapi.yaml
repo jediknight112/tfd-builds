@@ -3337,6 +3337,7 @@ components:
             description: List of specified core types (refer to /meta/core-type API)
             items:
               type: string
+      description: 'NOTE (tfd-builds): Spec field `available_core_type` is wrong — the live API actually returns `available_core_type_id` (an array of core_type_ids). Verified directly: `GET /static/tfd/meta/core-slot.json` returns objects keyed `core_slot_id, available_weapon_id, available_external_component_id, available_core_type_id`. tfd-builds reads the live field name; consumers using this spec for typed clients should override.'
     CoreTypeResponse:
       type: array
       items:
