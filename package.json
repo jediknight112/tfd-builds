@@ -38,13 +38,13 @@
     "concurrently": "^9.2.1",
     "husky": "^9.1.7",
     "lint-staged": "^16.4.0",
-    "postcss": "^8.5.12",
+    "postcss": "^8.5.14",
     "prettier": "^3.8.3",
     "tailwindcss": "^4.2.1",
     "vite": "^8.0.10",
     "vitest": "^4.1.5",
     "wrangler": "^4.86.0",
-    "yaml": "^2.8.3"
+    "yaml": "^2.8.4"
   },
   "dependencies": {
     "@cloudflare/kv-asset-handler": "^0.4.2",
