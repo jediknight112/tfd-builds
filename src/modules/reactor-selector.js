@@ -56,6 +56,10 @@ export class ReactorSelector {
 
     // Filter reactors
     let filteredReactors = state.reactors.filter((reactor) => {
+      // Skip reactors with no name — Nexon's metadata occasionally
+      // includes nameless placeholder entries that aren't selectable.
+      if (!reactor.reactor_name) return false;
+
       // Search filter
       if (searchQuery) {
         const searchLower = searchQuery.toLowerCase();
