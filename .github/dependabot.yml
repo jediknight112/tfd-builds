@@ -8,20 +8,17 @@ updates:
       interval: 'weekly'
       day: 'monday'
       time: '09:00'
-      timezone: 'America/New_York'
-    # Group all patch and minor updates together
+      timezone: 'America/Chicago'
     groups:
-      patch-updates:
+      all-deps:
+        applies-to: version-updates
         patterns:
           - '*'
         update-types:
           - 'patch'
-      minor-updates:
-        patterns:
-          - '*'
-        update-types:
           - 'minor'
-    # Auto-merge configuration
+          - 'major'
+        dependency-type: 'all'
     open-pull-requests-limit: 10
     reviewers:
       - 'jediknight112'
@@ -31,7 +28,6 @@ updates:
       prefix: 'chore'
       prefix-development: 'chore'
       include: 'scope'
-    # Allow both direct and indirect dependencies
     allow:
       - dependency-type: 'direct'
       - dependency-type: 'indirect'
@@ -43,7 +39,16 @@ updates:
       interval: 'weekly'
       day: 'monday'
       time: '09:00'
-      timezone: 'America/New_York'
+      timezone: 'America/Chicago'
+    groups:
+      all-actions:
+        applies-to: version-updates
+        patterns:
+          - '*'
+        update-types:
+          - 'patch'
+          - 'minor'
+          - 'major'
     commit-message:
-      prefix: 'chore'
+      prefix: 'ci'
       include: 'scope'
