@@ -18,7 +18,6 @@ updates:
           - 'patch'
           - 'minor'
           - 'major'
-        dependency-type: 'all'
     open-pull-requests-limit: 10
     reviewers:
       - 'jediknight112'
