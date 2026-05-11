@@ -41,8 +41,8 @@
     "postcss": "^8.5.14",
     "prettier": "^3.8.3",
     "tailwindcss": "^4.2.1",
-    "vite": "^8.0.10",
-    "vitest": "^4.1.5",
+    "vite": "^8.0.12",
+    "vitest": "^4.1.6",
     "wrangler": "^4.87.0",
     "yaml": "^2.8.4"
   },
