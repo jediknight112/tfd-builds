@@ -30,6 +30,7 @@ jobs:
           set -euo pipefail
           BRANCH="${{ github.event.pull_request.head.ref }}"
           WORKFLOW_FILES=$(gh pr view ${{ github.event.pull_request.number }} \
+            --repo ${{ github.repository }} \
             --json files --jq '.files[].path' | grep '^\.github/workflows/' || true)
           if [[ "$BRANCH" == dependabot/github_actions/* ]] && [ -n "$WORKFLOW_FILES" ]; then
             echo "skip=true" >> "$GITHUB_OUTPUT"
@@ -48,6 +49,7 @@ jobs:
           GH_TOKEN: ${{ secrets.AUTO_TOKEN }}
         run: |
           gh pr comment ${{ github.event.pull_request.number }} \
+            --repo ${{ github.repository }} \
             --body "⚠️ This PR modifies GitHub workflow files — skipping auto-merge for security review.
 
           Files: \`${{ steps.check.outputs.files }}\`"
@@ -58,5 +60,8 @@ jobs:
           GH_TOKEN: ${{ secrets.AUTO_TOKEN }}
         run: |
           set -euo pipefail
-          gh pr review --approve ${{ github.event.pull_request.number }}
-          gh pr merge --auto --squash --delete-branch ${{ github.event.pull_request.number }}
+          gh pr review --approve ${{ github.event.pull_request.number }} \
+            --repo ${{ github.repository }}
+          gh pr merge --auto --squash --delete-branch \
+            --repo ${{ github.repository }} \
+            ${{ github.event.pull_request.number }}
