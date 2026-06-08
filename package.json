@@ -43,7 +43,7 @@
     "tailwindcss": "^4.2.1",
     "vite": "^8.0.16",
     "vitest": "^4.1.8",
-    "wrangler": "^4.97.0",
+    "wrangler": "^4.98.0",
     "yaml": "^2.9.0"
   },
   "dependencies": {
