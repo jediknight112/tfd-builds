@@ -34,16 +34,16 @@
     ]
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.3.2",
+    "@tailwindcss/postcss": "^4.3.3",
     "concurrently": "^10.0.3",
     "husky": "^9.1.7",
-    "lint-staged": "^17.0.8",
-    "postcss": "^8.5.19",
+    "lint-staged": "^17.1.0",
+    "postcss": "^8.5.20",
     "prettier": "^3.9.5",
     "tailwindcss": "^4.2.1",
-    "vite": "^8.1.4",
+    "vite": "^8.1.5",
     "vitest": "^4.1.10",
-    "wrangler": "^4.110.0",
+    "wrangler": "^4.112.0",
     "yaml": "^2.9.0"
   },
   "dependencies": {
