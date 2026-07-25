@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.3",
-    "concurrently": "^10.0.3",
+    "concurrently": "^10.0.4",
     "husky": "^9.1.7",
     "lint-staged": "^17.1.0",
     "postcss": "^8.5.20",
