@@ -37,13 +37,13 @@
     "@tailwindcss/postcss": "^4.3.3",
     "concurrently": "^10.0.4",
     "husky": "^9.1.7",
-    "lint-staged": "^17.2.0",
-    "postcss": "^8.5.23",
+    "lint-staged": "^17.3.0",
+    "postcss": "^8.5.25",
     "prettier": "^3.9.6",
     "tailwindcss": "^4.2.1",
-    "vite": "^8.1.5",
+    "vite": "^8.2.0",
     "vitest": "^4.1.10",
-    "wrangler": "^4.114.0",
+    "wrangler": "^4.118.0",
     "yaml": "^2.9.0"
   },
   "dependencies": {
