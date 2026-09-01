@@ -30,3 +30,7 @@ preview_id = "7ef5c41331164b379f410ac7d81aa67b"
 # Observability configuration
 [observability]
 enabled = true
+
+# Smart Placement
+[placement]
+mode = "smart"
