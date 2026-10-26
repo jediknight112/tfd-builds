@@ -38,12 +38,12 @@
     "concurrently": "^10.0.6",
     "husky": "^9.1.7",
     "lint-staged": "^17.6.0",
-    "postcss": "^8.5.30",
+    "postcss": "^8.5.31",
     "prettier": "^3.9.10",
     "tailwindcss": "^4.2.1",
     "vite": "^8.3.5",
     "vitest": "^5.0.5",
-    "wrangler": "^4.151.1",
+    "wrangler": "^4.152.0",
     "yaml": "^2.9.1"
   },
   "dependencies": {
