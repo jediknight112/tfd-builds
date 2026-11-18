@@ -157,7 +157,7 @@ export class ModuleSelector {
 
     // Sort modules by tier, then name
     filteredModules.sort((a, b) => {
-      const tierOrder = { Tier1: 1, Tier2: 2, Tier3: 3 };
+      const tierOrder = { Tier1: 1, Tier2: 2, Tier3: 3, Tier4: 4 };
       const tierDiff =
         (tierOrder[a.module_tier_id] || 0) - (tierOrder[b.module_tier_id] || 0);
       if (tierDiff !== 0) return tierDiff;

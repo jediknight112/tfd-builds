@@ -93,7 +93,7 @@ export class ExternalComponentSelector {
 
     // Sort by tier then name
     filteredComponents.sort((a, b) => {
-      const tierOrder = { Tier1: 1, Tier2: 2, Tier3: 3 };
+      const tierOrder = { Tier1: 1, Tier2: 2, Tier3: 3, Tier4: 4 };
       const tierDiff =
         (tierOrder[a.external_component_tier_id] || 0) -
         (tierOrder[b.external_component_tier_id] || 0);

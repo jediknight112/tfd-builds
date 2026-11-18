@@ -94,7 +94,7 @@ export class WeaponSelector {
 
     // Sort by tier then name
     filteredWeapons.sort((a, b) => {
-      const tierOrder = { Tier1: 1, Tier2: 2, Tier3: 3 };
+      const tierOrder = { Tier1: 1, Tier2: 2, Tier3: 3, Tier4: 4 };
       const tierDiff =
         (tierOrder[a.weapon_tier_id] || 0) - (tierOrder[b.weapon_tier_id] || 0);
       if (tierDiff !== 0) return tierDiff;

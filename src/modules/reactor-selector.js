@@ -81,7 +81,7 @@ export class ReactorSelector {
 
     // Sort by tier then name
     filteredReactors.sort((a, b) => {
-      const tierOrder = { Tier1: 1, Tier2: 2, Tier3: 3 };
+      const tierOrder = { Tier1: 1, Tier2: 2, Tier3: 3, Tier4: 4 };
       const tierDiff =
         (tierOrder[a.reactor_tier_id] || 0) -
         (tierOrder[b.reactor_tier_id] || 0);
@@ -170,10 +170,16 @@ export class ReactorSelector {
               <span class="text-steel-grey">Skill Power:</span>
               <span class="text-cyber-cyan font-bold">${enhancedSkillPower.toFixed(1)}</span>
             </div>
+            ${
+              level100Stat.sub_skill_atk_power != null
+                ? `
             <div class="flex justify-between items-center">
               <span class="text-steel-grey">Sub Skill:</span>
               <span class="text-cyber-cyan font-bold">${level100Stat.sub_skill_atk_power.toFixed(1)}</span>
             </div>
+            `
+                : ''
+            }
           </div>
         `
             : '<div class="text-steel-grey text-sm">No level 100 data</div>'
@@ -294,10 +300,16 @@ export class ReactorSelector {
                     : ''
                 }
               </div>
+              ${
+                level100Stat.sub_skill_atk_power != null
+                  ? `
               <div class="bg-void-blue/40 rounded-lg p-3 border border-cyber-cyan/30">
                 <div class="text-steel-grey text-sm mb-1">Sub Skill Attack Power</div>
                 <div class="text-2xl font-bold text-cyber-cyan">${level100Stat.sub_skill_atk_power.toFixed(1)}</div>
               </div>
+              `
+                  : ''
+              }
             </div>
             
             ${
